@@ -10,6 +10,12 @@ import {
   Play, CheckCircle, Lock, Flame,
   TrendingUp, Award, BookOpen
 } from "lucide-react";
+import MicroLesson1 from "@/components/MicroLesson1";
+import MicroLesson2 from "@/components/MicroLesson2";
+import MicroLesson3 from "@/components/MicroLesson3";
+import MicroLesson4 from "@/components/MicroLesson4";
+import MicroLesson5 from "@/components/MicroLesson5";
+import MicroLesson6 from "@/components/MicroLesson6";
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
@@ -20,75 +26,104 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   const [xp, setXp] = useState(150);
   const [xpProximoNivel, setXpProximoNivel] = useState(300);
   const [streak, setStreak] = useState(5);
+  const [microLicaoAtiva, setMicroLicaoAtiva] = useState<number | null>(null);
   const [modulos, setModulos] = useState([
     {
       id: 1,
-      titulo: "Fundamentos Essenciais",
-      descricao: "Comece com os conceitos básicos",
-      progresso: 100,
+      titulo: "O Teste da Mãe - Fundamentos",
+      descricao: "Aprenda as regras básicas para conversas eficazes com clientes",
+      progresso: 0,
       desbloqueado: true,
-      concluido: true,
+      concluido: false,
       xp: 50,
       dificuldade: "iniciante",
-      duracao: "30 min"
+      duracao: "10 min"
     },
     {
       id: 2,
-      titulo: "Técnicas Avançadas",
-      descricao: "Aprofunde seus conhecimentos",
-      progresso: 65,
-      desbloqueado: true,
+      titulo: "Evitando Dados Ruins",
+      descricao: "Como identificar e evitar elogios, fluff e ideias inúteis",
+      progresso: 0,
+      desbloqueado: false,
       concluido: false,
       xp: 75,
-      dificuldade: "intermediario",
-      duracao: "45 min"
+      dificuldade: "iniciante",
+      duracao: "10 min"
     },
     {
       id: 3,
-      titulo: "Prática com Projetos",
-      descricao: "Aplique o que aprendeu",
+      titulo: "Perguntas Eficazes",
+      descricao: "Domine a arte de fazer perguntas que geram insights valiosos",
       progresso: 0,
       desbloqueado: false,
       concluido: false,
       xp: 100,
       dificuldade: "intermediario",
-      duracao: "1h 20min"
+      duracao: "15 min"
     },
     {
       id: 4,
-      titulo: "Mestre do Assunto",
-      descricao: "Domine completamente",
+      titulo: "Compromisso e Avanço",
+      descricao: "Aprenda a validar sua solução e obter comprometimento real",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 100,
+      dificuldade: "intermediario",
+      duracao: "15 min"
+    },
+    {
+      id: 5,
+      titulo: "Encontrando Pessoas",
+      descricao: "Estratégias para encontrar e conversar com clientes potenciais",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 75,
+      dificuldade: "intermediario",
+      duracao: "12 min"
+    },
+    {
+      id: 6,
+      titulo: "Escolhendo Clientes",
+      descricao: "Como segmentar e encontrar seus clientes ideais",
       progresso: 0,
       desbloqueado: false,
       concluido: false,
       xp: 150,
       dificuldade: "avancado",
-      duracao: "2h"
+      duracao: "20 min"
     }
   ]);
 
   const conquistas = [
-    { id: 1, titulo: "Primeiros Passos", descricao: "Complete seu primeiro módulo", icon: Trophy, conquistado: true },
+    { id: 1, titulo: "Primeiros Passos", descricao: "Complete sua primeira microlição", icon: Trophy, conquistado: false },
     { id: 2, titulo: "Maratona de 5 Dias", descricao: "Estude por 5 dias consecutivos", icon: Flame, conquistado: true },
-    { id: 3, titulo: "Aprendiz Rápido", descricao: "Complete 3 módulos em uma semana", icon: Zap, conquistado: false },
+    { id: 3, titulo: "Aprendiz Rápido", descricao: "Complete 3 microlições em uma semana", icon: Zap, conquistado: false },
     { id: 4, titulo: "Expert em Progresso", descricao: "Alcance o nível 5", icon: Award, conquistado: false }
   ];
 
   const handleIniciarModulo = (moduloId: number) => {
     const modulo = modulos.find(m => m.id === moduloId);
     if (modulo && modulo.desbloqueado) {
-      // Simular progresso
+      setMicroLicaoAtiva(moduloId);
+    }
+  };
+
+  const handleCompletarMicroLicao = () => {
+    if (microLicaoAtiva) {
       const novosModulos = modulos.map(m => {
-        if (m.id === moduloId) {
-          return { ...m, progresso: Math.min(m.progresso + 20, 100) };
+        if (m.id === microLicaoAtiva) {
+          return { ...m, progresso: 100, concluido: true };
         }
-        if (m.id === moduloId + 1 && modulos.find(m2 => m2.id === moduloId)?.progresso >= 80) {
+        if (m.id === microLicaoAtiva + 1) {
           return { ...m, desbloqueado: true };
         }
         return m;
       });
       setModulos(novosModulos);
-      setXp(prev => prev + 10);
+      setXp(prev => prev + (modulos.find(m => m.id === microLicaoAtiva)?.xp || 0));
+      setMicroLicaoAtiva(null);
     }
   };
 
@@ -100,6 +135,26 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       default: return 'bg-gray-500';
     }
   };
+
+  // Renderizar microlição ativa
+  if (microLicaoAtiva === 1) {
+    return <MicroLesson1 />;
+  }
+  if (microLicaoAtiva === 2) {
+    return <MicroLesson2 />;
+  }
+  if (microLicaoAtiva === 3) {
+    return <MicroLesson3 />;
+  }
+  if (microLicaoAtiva === 4) {
+    return <MicroLesson4 />;
+  }
+  if (microLicaoAtiva === 5) {
+    return <MicroLesson5 />;
+  }
+  if (microLicaoAtiva === 6) {
+    return <MicroLesson6 />;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
@@ -132,7 +187,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                 <div className="text-center">
                   <div className="flex items-center gap-2">
                     <Trophy className="w-5 h-5 text-yellow-500" />
-                    <span className="text-xl font-bold">4</span>
+                    <span className="text-xl font-bold">{conquistas.filter(c => c.conquistado).length}</span>
                   </div>
                   <div className="text-xs text-gray-500 dark:text-gray-400">Conquistas</div>
                 </div>
@@ -146,8 +201,8 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
           <div className="lg:col-span-2">
             <Card className="p-6">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-bold">Sua Trilha de Aprendizado</h2>
-                <Badge variant="secondary">Personalizada</Badge>
+                <h2 className="text-2xl font-bold">Microlições - The Mom Test</h2>
+                <Badge variant="secondary">6 Lições</Badge>
               </div>
 
               <div className="space-y-4">
@@ -179,7 +234,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                           </span>
                         </div>
 
-                        {modulo.desbloqueado && (
+                        {modulo.desbloqueado && modulo.progresso > 0 && !modulo.concluido && (
                           <div className="mt-3">
                             <Progress value={modulo.progresso} className="h-2" />
                             <p className="text-xs text-gray-500 mt-1">{modulo.progresso}% completo</p>
@@ -194,7 +249,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                             onClick={() => handleIniciarModulo(modulo.id)}
                           >
                             <Play className="w-4 h-4 mr-1" />
-                            Continuar
+                            {modulo.progresso > 0 ? 'Continuar' : 'Iniciar'}
                           </Button>
                         )}
                         {modulo.concluido && (
@@ -246,32 +301,32 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span>Taxa de Conclusão</span>
-                    <span className="font-semibold">41%</span>
+                    <span className="font-semibold">{Math.round((modulos.filter(m => m.concluido).length / modulos.length) * 100)}%</span>
                   </div>
-                  <Progress value={41} className="h-2" />
+                  <Progress value={(modulos.filter(m => m.concluido).length / modulos.length) * 100} className="h-2" />
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-purple-50 dark:bg-purple-900 rounded-lg p-3">
-                    <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">12</p>
-                    <p className="text-xs text-gray-500">Aulas Completas</p>
+                    <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">{modulos.filter(m => m.concluido).length}</p>
+                    <p className="text-xs text-gray-500">Lições Completas</p>
                   </div>
                   <div className="bg-blue-50 dark:bg-blue-900 rounded-lg p-3">
-                    <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">8.5h</p>
-                    <p className="text-xs text-gray-500">Tempo de Estudo</p>
+                    <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{modulos.length - modulos.filter(m => m.concluido).length}</p>
+                    <p className="text-xs text-gray-500">Restantes</p>
                   </div>
                 </div>
               </div>
             </Card>
 
-            {/* Próximos Passos */}
+            {/* Dica do Dia */}
             <Card className="p-6">
               <h3 className="text-xl font-bold mb-4 flex items-center">
                 <BookOpen className="w-5 h-5 mr-2 text-blue-500" />
                 Dica do Dia
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                "A consistência é mais importante que a intensidade. Estude 30 minutos por dia todos os dias em vez de 3 horas apenas no fim de semana."
+                "A consistência é mais importante que a intensidade. Estude 10 minutos por dia todos os dias em vez de 1 hora apenas no fim de semana."
               </p>
               <Button size="sm" className="w-full mt-4">
                 Ver Mais Dicas
