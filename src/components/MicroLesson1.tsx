@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { Trophy, BookOpen, Target, Zap, Clock } from 'lucide-react';
+import { Trophy, BookOpen, Target, Zap, Clock, ChevronLeft } from 'lucide-react';
 
 const MicroLesson1 = () => {
   const [perguntaAtual, setPerguntaAtual] = useState(0);
@@ -77,13 +77,13 @@ const MicroLesson1 = () => {
       id: '6',
       pergunta: 'O que é "fluff" e como lidar com isso?',
       opcoes: [
-        { valor: 'a', label: 'Informações vagas que devem ser ignoradas', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'a', label: 'Informações vagas que devem ser ancoradas em exemplos específicos', icone: <Clock className="w-4 h-4" /> },
         { valor: 'b', label: 'Elogios que devem ser ignorados', icone: <BookOpen className="w-4 h-4" /> },
         { valor: 'c', label: 'Ideias que devem ser implementadas', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'Informações vagas que devem ser ancoradas em exemplos específicos', icone: <Target className="w-4 h-4" /> }
+        { valor: 'd', label: 'Dados ruins que devem ser evitados', icone: <Target className="w-4 h-4" /> }
       ],
       explicacao: '"Fluff" vem em três formas: alegações genéricas, promessas futuras e possibilidades hipotéticas. Ancore essas declarações vagas em exemplos específicos do passado.',
-      correta: 'd'
+      correta: 'a'
     },
     {
       id: '7',
