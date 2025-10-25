@@ -103,6 +103,113 @@ const MicroLesson5 = () => {
       opcoes: [
         { valor: 'a', label: 'Por que a ajuda deles é particularmente valiosa', icone: <Clock className="w-4 h-4" /> },
         { valor: 'b', label: 'Por que você é importante', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Por que o problema é importante', icone: <Target className="w
+<dyad-write path="src/components/MicroLesson5.tsx" description="Fixing syntax errors and structure">
+"use client";
+
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
+import { Progress } from '@/components/ui/progress';
+import { Badge } from '@/components/ui/badge';
+import { Trophy, BookOpen, Target, Zap, Clock, ChevronLeft } from 'lucide-react';
+
+const MicroLesson5 = () => {
+  const [perguntaAtual, setPerguntaAtual] = useState(0);
+  const [respostas, setRespostas] = useState<Record<string, string>>({});
+  const [mostrarResultado, setMostrarResultado] = useState(false);
+
+  const perguntas = [
+    {
+      id: '1',
+      pergunta: 'Qual é o objetivo das conversas frias?',
+      opcoes: [
+        { valor: 'a', label: 'Vender imediatamente', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Parar de tê-las e gerar introduções calorosas', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Construir relacionamentos', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Validar o mercado', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'O objetivo das conversas frias é parar de tê-las. Use as primeiras para gerar introduções calorosas e criar um efeito bola de neve.',
+      correta: 'b'
+    },
+    {
+      id: '2',
+      pergunta: 'Quais são as estratégias para encontrar conversas?',
+      opcoes: [
+        { valor: 'a', label: 'Vá até eles e traga eles até você', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Vá até eles, traga eles até você e crie introduções calorosas', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Use apenas ligações frias', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Apenas organize meetups', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Estratégias para encontrar conversas incluem: Vá até eles (ligações frias, aproveite a sorte, crie uma boa desculpa, mergulhe no ambiente deles) e traga eles até você (organize meetups, dê palestras, escreva em um blog).',
+      correta: 'b'
+    },
+    {
+      id: '3',
+      pergunta: 'Como criar introduções calorosas?',
+      opcoes: [
+        { valor: 'a', label: 'Pedir ajuda a contatos, conselheiros, professores ou investidores', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Usar apenas redes sociais', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Fazer cold calling', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Esperar que as pessoas te encontrem', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Crie introduções calorosas: Peça ajuda a contatos, conselheiros da indústria, professores universitários ou investidores.',
+      correta: 'a'
+    },
+    {
+      id: '4',
+      pergunta: 'Qual é o mnemônico para estruturar o pedido de reunião?',
+      opcoes: [
+        { valor: 'a', label: 'VFWPA - Vision, Framing, Weakness, Pedestal, Ask', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'PSBA - Problem, Solution, Benefits, Ask', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'PASA - Problem, Ask, Solution, Action', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'SPSA - Solution, Problem, Solution, Ask', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Mnemônico VFWPA - Vision (como você está tornando o mundo melhor), Framing (em que estágio você está e o que procura), Weakness (onde você precisa de ajuda específica), Pedestal (por que a ajuda deles é particularmente valiosa), Ask (peça ajuda de forma clara).',
+      correta: 'a'
+    },
+    {
+      id: '5',
+      pergunta: 'O que é "Vision" no mnemônico VFWPA?',
+      opcoes: [
+        { valor: 'a', label: 'Como você está tornando o mundo melhor', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Qual é o seu problema', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Qual é a sua solução', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Quem você é', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Vision: Como você está tornando o mundo melhor. Isso mostra o impacto positivo do seu trabalho.',
+      correta: 'a'
+    },
+    {
+      id: '6',
+      pergunta: 'O que é "Framing" no mnemônico VFWPA?',
+      opcoes: [
+        { valor: 'a', label: 'Em que estágio você está e o que procura', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Qual é o seu problema', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Qual é a sua solução', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Quem você é', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Framing: Em que estágio você está e o que procura. Isso dá contexto sobre onde você está no seu processo.',
+      correta: 'a'
+    },
+    {
+      id: '7',
+      pergunta: 'O que é "Weakness" no mnemônico VFWPA?',
+      opcoes: [
+        { valor: 'a', label: 'Onde você precisa de ajuda específica', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Quais são seus pontos fortes', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Quais são seus objetivos', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Quais são seus recursos', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Weakness: Mostre onde você precisa de ajuda específica. Isso mostra vulnerabilidade e necessidade.',
+      correta: 'a'
+    },
+    {
+      id: '8',
+      pergunta: 'O que é "Pedestal" no mnemônico VFWPA?',
+      opcoes: [
+        { valor: 'a', label: 'Por que a ajuda deles é particularmente valiosa', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Por que você é importante', icone: <BookOpen className="w-4 h-4" /> },
         { valor: 'c', label: 'Por que o problema é importante', icone: <Target className="w-4 h-4" /> },
         { valor: 'd', label: 'Por que a solução é importante', icone: <Zap className="w-4 h-4" /> }
       ],

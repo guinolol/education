@@ -44,6 +44,54 @@ const MicroLesson3 = () => {
         { valor: 'a', label: 'As pessoas não conseguem prever o futuro', icone: <Clock className="w-4 h-4" /> },
         { valor: 'b', label: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista', icone: <BookOpen className="w-4 h-4" /> },
         { valor: 'c', label: 'As pessoas mentem sobre o futuro', icone: <Target className="w-4 h-4" /> },
+
+<dyad-write path="src/components/MicroLesson3.tsx" description="Fixing syntax errors and missing imports">
+"use client";
+
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
+import { Progress } from '@/components/ui/progress';
+import { Badge } from '@/components/ui/badge';
+import { Trophy, BookOpen, Target, Zap, Clock, ChevronLeft } from 'lucide-react';
+
+const MicroLesson3 = () => {
+  const [perguntaAtual, setPerguntaAtual] = useState(0);
+  const [respostas, setRespostas] = useState<Record<string, string>>({});
+  const [mostrarResultado, setMostrarResultado] = useState(false);
+
+  const perguntas = [
+    {
+      id: '1',
+      pergunta: 'Qual é o objetivo principal de uma conversa inicial com o cliente?',
+      opcoes: [
+        { valor: 'a', label: 'Vender sua ideia', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Obter fatos concretos sobre a vida e a visão de mundo do cliente', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'Construir relacionamentos', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'Apresentar sua solução', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'O objetivo de uma conversa inicial com o cliente é obter fatos concretos sobre a vida e a visão de mundo dele, que permitam melhorar o negócio.',
+      correta: 'b'
+    },
+    {
+      id: '2',
+      pergunta: 'Por que opiniões são inúteis?',
+      opcoes: [
+        { valor: 'a', label: 'As pessoas não sabem o que querem', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Apenas o mercado pode dizer se sua ideia é boa', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'As pessoas são egoístas', icone: <Target className="w-4 h-4" /> },
+        { valor: 'd', label: 'As opiniões são difíceis de medir', icone: <Zap className="w-4 h-4" /> }
+      ],
+      explicacao: 'Opiniões são inúteis. Apenas o mercado pode dizer se sua ideia é boa. Opiniões, especialmente de não especialistas, são ruído e geram falsos positivos.',
+      correta: 'b'
+    },
+    {
+      id: '3',
+      pergunta: 'Por que perguntas sobre o futuro são problemáticas?',
+      opcoes: [
+        { valor: 'a', label: 'As pessoas não conseguem prever o futuro', icone: <Clock className="w-4 h-4" /> },
+        { valor: 'b', label: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista', icone: <BookOpen className="w-4 h-4" /> },
+        { valor: 'c', label: 'As pessoas mentem sobre o futuro', icone: <Target className="w-4 h-4" /> },
         { valor: 'd', label: 'O futuro é incerto', icone: <Zap className="w-4 h-4" /> }
       ],
       explicacao: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista. Perguntas como "Você compraria..." ou "Quanto você pagaria..." convidam a respostas hipotéticas e otimistas que não se traduzem em vendas reais.',
