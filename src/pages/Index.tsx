@@ -1,37 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Trophy, BookOpen, Target, Sparkles, Play, Clock, Star } from "lucide-react";
-import QuizPersonalizacao from "@/components/QuizPersonalizacao";
-import SistemaRecomendacao from "@/components/SistemaRecomendacao";
-import DashboardAprendizado from "@/components/DashboardAprendizado";
 
 const Index = () => {
-  const [etapaAtual, setEtapaAtual] = useState<'inicio' | 'quiz' | 'recomendacoes' | 'aprendizado'>('inicio');
-  const [resultadoQuiz, setResultadoQuiz] = useState<any>(null);
+  const navigate = useNavigate();
 
-  const handleQuizCompleto = (resultados: any) => {
-    setResultadoQuiz(resultados);
-    setEtapaAtual('recomendacoes');
+  const handleComecarQuiz = () => {
+    navigate('/quiz');
   };
-
-  const handleRecomendacoesCompleto = () => {
-    setEtapaAtual('aprendizado');
-  };
-
-  if (etapaAtual === 'quiz') {
-    return <QuizPersonalizacao onComplete={handleQuizCompleto} />;
-  }
-
-  if (etapaAtual === 'recomendacoes') {
-    return <SistemaRecomendacao resultadoQuiz={resultadoQuiz} onComplete={handleRecomendacoesCompleto} />;
-  }
-
-  if (etapaAtual === 'aprendizado') {
-    return <DashboardAprendizado resultadoQuiz={resultadoQuiz} />;
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900">
@@ -87,7 +66,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="text-lg px-8 py-6"
-            onClick={() => setEtapaAtual('quiz')}
+            onClick={handleComecarQuiz}
           >
             <Play className="mr-2" />
             Começar Jornada de Aprendizado
