@@ -7,126 +7,6 @@ import { Progress } from "@/components/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ChevronRight, Clock, Brain, Target, Zap } from "lucide-react";
-
-interface QuizPersonalizacaoProps {
-  onComplete: (resultados: any) => void;
-}
-
-const QuizPersonalizacao = ({ onComplete }: QuizPersonalizacaoProps) => {
-  const [perguntaAtual, setPerguntaAtual] = useState(0);
-  const [respostas, setRespostas] = useState<Record<string, string>>({});
-  const [mostrarResultado, setMostrarResultado] = useState(false);
-
-  const perguntas = [
-    {
-      id: 'tempo',
-      pergunta: 'Quanto tempo você pode dedicar ao estudo por dia?',
-      opcoes: [
-        { valor: '15min', label: '15-30 minutos', icone: <Clock className="w-4 h-4" /> },
-        { valor: '30min', label: '30-60 minutos', icone: <Clock className="w-4 h-4" /> },
-        { valor: '1h', label: '1-2 horas', icone: <Clock className="w-4 h-4" /> },
-        { valor: '2h+', label: 'Mais de 2 horas', icone: <Clock className="w-4 h-4" /> }
-      ]
-    },
-    {
-      id: 'objetivo',
-      pergunta: 'Qual seu principal objetivo de aprendizado?',
-      opcoes: [
-        { valor: 'trabalho', label: 'Melhorar no trabalho', icone: <Target className="w-4 h-4" /> },
-        { valor: 'carreira', label: 'Mudar de carreira', icone: <Target className="w-4 h-4" /> },
-        { valor: 'hobby', label: 'Hobby/Pessoal', icone: <Brain className="w-4 h-4" /> },
-        { valor: 'academico', label: 'Acadêmico', icone: <Brain className="w-4 h-4" /> }
-      ]
-    },
-    {
-      id: 'estilo',
-      pergunta: 'Como você aprende melhor?',
-      opcoes: [
-        { valor: 'visual', label: 'Visual (vídeos, imagens)', icone: <Zap className="w-4 h-4" /> },
-        { valor: 'leitura', label: 'Leitura e textos', icone: <Brain className="w-4 h-4" /> },
-        { valor: 'pratica', label: 'Prática e exercícios', icone: <Target className="w-4 h-4" /> },
-        { valor: 'audio', label: 'Áudio e podcasts', icone: <Brain className="w-4 h-4" /> }
-      ]
-    },
-    {
-      id: 'prazo',
-      pergunta: 'Qual seu prazo para ver resultados?',
-      opcoes: [
-        { valor: 'semanas', label: 'Algumas semanas', icone: <Clock className="w-4 h-4" /> },
-        { valor: 'meses', label: 'Alguns meses', icone: <Clock className="w-4 h-4" /> },
-        { valor: 'ano', label: '1 ano ou mais', icone: <Clock className="w-4 h-4" /> },
-        { valor: 'flexivel', label: 'Sem pressa, quero dominar', icone: <Brain className="w-4 h-4" /> }
-      ]
-    },
-    {
-      id: 'comprometimento',
-      pergunta: 'Qual seu nível de comprometimento?',
-      opcoes: [
-        { valor: 'leve', label: 'Leve - Quero explorar', icone: <Zap className="w-4 h-4" /> },
-        { valor: 'medio', label: 'Médio - Quero melhorar', icone: <Target className="w-4 h-4" /> },
-        { valor: 'alto', label: 'Alto - Quero dominar', icone: <Brain className="w-4 h-4" /> },
-        { valor: 'extremo', label: 'Extremo - Vou me dedicar muito', icone: <Brain className="w-4 h-4" /> }
-      ]
-    }
-  ];
-
-  const handleResposta = (perguntaId: string, resposta: string) => {
-    setRespostas(prev => ({ ...prev, [perguntaId]: resposta }));
-    
-    if (perguntaAtual < perguntas.length - 1) {
-      setTimeout(() => setPerguntaAtual(prev => prev + 1), 300);
-    } else {
-      setTimeout(() => setMostrarResultado(true), 300);
-    }
-  };
-
-  const calcularPerfil = () => {
-    const comprometimento = respostas.comprometimento;
-    const tempo = respostas.tempo;
-    const prazo = respostas.prazo;
-
-    let perfil = 'medio';
-    let titulo = 'Aprendizado Equilibrado';
-    let descricao = 'Um plano de estudo equilibrado entre teoria e prática';
-
-    if (comprometimento === 'leve' || (tempo === '15min' && prazo === 'semanas')) {
-      perfil = 'rapido';
-      titulo = 'Rápido e Prático';
-      descricao = 'Foco em resultados imediatos com conteúdo direcionado';
-    } else if (comprometimento === 'alto' || comprometimento === 'extremo' || prazo === 'ano' || prazo === 'flexivel') {
-      perfil = 'completo';
-      titulo = 'Completo e Aprofundado';
-      descricao = 'Trilha completa para domínio total do assunto';
-    }
-
-    return { perfil, titulo, descricao };
-  };
-
-  if (mostrarResultado) {
-    const perfil = calcularPerfil();
-    
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
-        <div className="max-w-2xl mx-auto">
-          <Card className="p-8 text-center">
-            <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Brain className="w-10 h-10 text-white" />
-            </div>
-            <h2 className="text-3xl font-bold mb-4">{perfil.titulo}</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300Vou continuar atualizando o componente, já comecei a atualizar o QuizPersonalizacao mas foi cortado. Faltou o uso correto do novo componente de rotas e ajustar as propriedades para que tudo funcione perfeitamente.
-
-Eu preciso terminar de atualizar o QuizPersonalizacao e ajustar o Index para funcionar com a nova estrutura de rotas, criando um botão real que leva o usuário para a página /quiz.
-
-<dyad-write path="src/components/QuizPersonalizacao.tsx" description="Atualizando QuizPersonalizacao para terminar a navegação corretamente">
-"use client";
-
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
-import { ChevronRight, Clock, Brain, Target, Zap } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface QuizPersonalizacaoProps {
@@ -286,7 +166,7 @@ const QuizPersonalizacao = ({ onComplete }: QuizPersonalizacaoProps) => {
         <div className="mb-8">
           <Progress value={progresso} className="h-2" />
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
-            Pergunta {perguntaAtual + 1} de {pergunta.length}
+            Pergunta {perguntaAtual + 1} de {perguntas.length}
           </p>
         </div>
 
