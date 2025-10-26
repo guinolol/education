@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Running Lean: O Lean Canvas",
+    "conclusionMessage": "Você completou a microlição sobre o Lean Canvas. Agora você sabe como criar um plano de negócios de uma página para sua startup.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "Um plano de negócios de 50 páginas" },
+          { "value": "b", "label": "Um framework para design de interfaces" },
+          { "value": "c", "label": "Um plano de negócios de uma página focado em startups" },
+          { "value": "d", "label": "Uma metodologia de gerenciamento de projetos" }
+        ],
+        "explanation": "O Lean Canvas é uma adaptação do Business Model Canvas, criado por Ash Maurya. É um plano de negócios de uma página que ajuda a decompor uma ideia de negócio em suas principais premissas.",
+        "hint": "Pense em 'enxuto' e 'visual'.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "Qual bloco do Lean Canvas é focado em descrever por que sua solução é difícil de copiar?",
+        "options": [
+          { "value": "a", "label": "Solution (Solução)" },
+          { "value": "b", "label": "Unfair Advantage (Vantagem Injusta)" },
+          { "value": "c", "label": "Problem (Problema)" },
+          { "value": "d", "label": "Key Metrics (Métricas Chave)" }
+        ],
+        "explanation": "A Vantagem Injusta (Unfair Advantage) é algo que não pode ser facilmente comprado ou copiado pelos concorrentes. É a sua principal defesa no mercado.",
+        "hint": "É o seu 'molho secreto'.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "3",
+        "question": "De acordo com a metodologia Running Lean, qual é a primeira coisa que você deve validar?",
+        "options": [
+          { "value": "a", "label": "Se você consegue construir a solução" },
+          { "value": "b", "label": "Se o problema que você está resolvendo vale a pena ser resolvido" },
+          { "value": "c", "label": "Se você consegue atingir os clientes" },
+          { "value": "d", "label": "Se o preço está correto" }
+        ],
+        "explanation": "O primeiro e mais importante passo é validar o 'Problem-Solution Fit'. Isso significa garantir que você tem um problema que vale a pena resolver e que sua solução realmente resolve esse problema para um grupo de clientes.",
+        "hint": "Apaixone-se pelo problema, não pela solução.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "4",
+        "question": "Qual bloco do Lean Canvas substitui o bloco 'Key Partners' do Business Model Canvas original?",
+        "options": [
+          { "value": "a", "label": "Problem (Problema)" },
+          { "value": "b", "label": "Solution (Solução)" },
+          { "value": "c", "label": "Key Metrics (Métricas Chave)" },
+          { "value": "d", "label": "Unfair Advantage (Vantagem Injusta)" }
+        ],
+        "explanation": "Ash Maurya substituiu blocos como 'Key Partners' e 'Key Activities' por 'Problem', 'Solution', 'Key Metrics' e 'Unfair Advantage' para tornar o canvas mais focado nos riscos e incertezas de uma startup.",
+        "hint": "O foco mudou de 'execução' para 'aprendizado e risco'.",
+        "correctAnswer": "a"
+      },
+      {
+        "id": "5",
+        "question": "O que são 'early adopters' no contexto do Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "Todos os seus clientes futuros" },
+          { "value": "b", "label": "Seus concorrentes" },
+          { "value": "c", "label": "O primeiro segmento de clientes que sentirá a dor do problema e usará sua solução" },
+          { "value": "d", "label": "Investidores anjo" }
+        ],
+        "explanation": "Early adopters são o seu primeiro alvo. Eles são o subconjunto de clientes que sentem o problema de forma mais aguda e estão ativamente procurando uma solução, mesmo que imperfeita.",
+        "hint": "Eles são os mais desesperados por uma solução.",
+        "correctAnswer": "c"
+      }
+    ]
+  }
+]

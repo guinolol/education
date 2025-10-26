@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Scaling People: Sistemas Operacionais para Pessoas",
+    "conclusionMessage": "Você completou a microlição sobre Scaling People. Agora você entende a importância de criar sistemas para escalar equipes de forma eficaz.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal desafio ao 'escalar pessoas' em uma empresa em crescimento?",
+        "options": [
+          { "value": "a", "label": "Contratar o máximo de pessoas possível" },
+          { "value": "b", "label": "Manter a cultura, a comunicação e a eficácia à medida que a equipe cresce" },
+          { "value": "c", "label": "Aumentar os salários de todos" },
+          { "value": "d", "label": "Comprar um escritório maior" }
+        ],
+        "explanation": "O desafio não é apenas adicionar mais pessoas, mas garantir que a organização continue funcionando bem. Isso envolve criar sistemas para comunicação, tomada de decisão, contratação e gerenciamento de desempenho.",
+        "hint": "Pense no que 'quebra' quando uma equipe de 10 pessoas se torna uma de 100.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "O que Claire Hughes Johnson quer dizer com 'sistema operacional' da empresa?",
+        "options": [
+          { "value": "a", "label": "O software que a empresa usa" },
+          { "value": "b", "label": "O CEO da empresa" },
+          { "value": "c", "label": "Os processos e cadências fundamentais que governam como a empresa funciona (reuniões, feedback, planejamento)" },
+          { "value": "d", "label": "O manual do funcionário" }
+        ],
+        "explanation": "O 'sistema operacional' é o conjunto de rituais, processos e cadências que ditam como as pessoas trabalham juntas. Por exemplo, como as metas são definidas (OKRs), como o feedback é dado (avaliações 360), e o ritmo das reuniões (semanais, mensais).",
+        "hint": "É a 'infraestrutura invisível' do trabalho em equipe.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "3",
+        "question": "Por que é importante ter um processo de contratação estruturado?",
+        "options": [
+          { "value": "a", "label": "Para tornar o processo mais longo e difícil" },
+          { "value": "b", "label": "Para reduzir vieses, avaliar os candidatos de forma consistente e aumentar a chance de contratar as pessoas certas" },
+          { "value": "c", "label": "Para que o RH tenha mais controle" },
+          { "value": "d", "label": "Para contratar apenas pessoas de certas universidades" }
+        ],
+        "explanation": "Um processo estruturado, com perguntas e critérios de avaliação padronizados, ajuda a tomar decisões de contratação mais objetivas e a construir uma equipe diversificada e de alto desempenho.",
+        "hint": "Consistência e objetividade são chaves para uma boa contratação.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "4",
+        "question": "Qual é o papel de um gerente em uma organização em escala?",
+        "options": [
+          { "value": "a", "label": "Ser o melhor executor técnico da equipe" },
+          { "value": "b", "label": "Dar as respostas para todos os problemas" },
+          { "value": "c", "label": "Construir e apoiar uma equipe de alto desempenho, fornecendo clareza, coaching e feedback" },
+          { "value": "d", "label": "Aprovar todas as decisões da equipe" }
+        ],
+        "explanation": "Em escala, o papel do gerente muda de 'fazer o trabalho' para 'construir a equipe que faz o trabalho'. Isso envolve definir direção, remover obstáculos, desenvolver pessoas e criar um ambiente de sucesso.",
+        "hint": "O gerente é um 'multiplicador de talentos'.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "5",
+        "question": "O que significa a transição de 'fundador' para 'líder'?",
+        "options": [
+          { "value": "a", "label": "Deixar de trabalhar na empresa" },
+          { "value": "b", "label": "Parar de programar ou projetar" },
+          { "value": "c", "label": "Mudar de fazer tudo sozinho para construir e liderar uma organização que pode operar sem sua intervenção constante" },
+          { "value": "d", "label": "Contratar um CEO para substituí-lo" }
+        ],
+        "explanation": "A transição crítica para um fundador é aprender a delegar, confiar na equipe e focar em construir a organização e a cultura, em vez de estar envolvido em todas as decisões do dia-a-dia.",
+        "hint": "Trabalhar 'na' empresa vs. trabalhar 'para' a empresa.",
+        "correctAnswer": "c"
+      }
+    ]
+  }
+]

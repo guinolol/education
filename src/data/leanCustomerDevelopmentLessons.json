@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Lean Customer Development: Aprendendo com Clientes",
+    "conclusionMessage": "Você completou a microlição sobre Lean Customer Development. Agora você entende a importância de aprender com os clientes antes de construir.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal objetivo do 'Lean Customer Development'?",
+        "options": [
+          { "value": "a", "label": "Vender o produto o mais rápido possível" },
+          { "value": "b", "label": "Aprender o que os clientes realmente precisam antes de construir em larga escala" },
+          { "value": "c", "label": "Construir um MVP (Minimum Viable Product) o mais rápido possível" },
+          { "value": "d", "label": "Conseguir o máximo de feedback sobre a sua ideia" }
+        ],
+        "explanation": "O objetivo é aprender. O desenvolvimento de clientes é um processo de fazer perguntas e testar hipóteses para descobrir se há um mercado para sua ideia e o que os clientes realmente valorizam.",
+        "hint": "O foco é em 'aprender', não em 'vender' ou 'construir'.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Qual é um erro comum ao conversar com clientes, segundo Cindy Alvarez?",
+        "options": [
+          { "value": "a", "label": "Fazer muitas perguntas abertas" },
+          { "value": "b", "label": "Falar sobre o passado do cliente" },
+          { "value": "c", "label": "Tentar vender ou descrever sua solução muito cedo" },
+          { "value": "d", "label": "Não gravar a conversa" }
+        ],
+        "explanation": "Um erro clássico é 'pular para a solução'. Em vez de ouvir sobre os problemas e o contexto do cliente, os empreendedores ficam ansiosos para apresentar sua ideia, o que contamina o feedback.",
+        "hint": "É parecido com o 'Teste da Mãe': não fale sobre sua ideia.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "3",
+        "question": "O que é uma 'hipótese' no contexto de customer development?",
+        "options": [
+          { "value": "a", "label": "Uma funcionalidade que você quer construir" },
+          { "value": "b", "label": "Uma suposição testável sobre seu negócio (ex: 'clientes X têm o problema Y')" },
+          { "value": "c", "label": "Uma certeza sobre o mercado" },
+          { "value": "d", "label": "O preço do seu produto" }
+        ],
+        "explanation": "Uma hipótese é uma suposição fundamental sobre seu negócio que precisa ser testada. Por exemplo: 'Gerentes de projeto em pequenas empresas têm dificuldade em acompanhar o tempo da equipe'.",
+        "hint": "É uma aposta que você precisa validar ou invalidar.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "4",
+        "question": "Por que é importante focar em 'problemas' em vez de 'features' nas conversas iniciais?",
+        "options": [
+          { "value": "a", "label": "Porque os clientes não entendem de tecnologia" },
+          { "value": "b", "label": "Porque se não houver um problema real e doloroso, ninguém comprará sua solução, não importa quantas features ela tenha" },
+          { "value": "c", "label": "Porque é mais fácil falar sobre problemas" },
+          { "value": "d", "label": "Porque features são caras para construir" }
+        ],
+        "explanation": "A base de um bom negócio é resolver um problema real para alguém. Se o problema não for significativo, sua solução será vista como 'legal de ter', mas não 'essencial'.",
+        "hint": "Sem dor, não há venda.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "5",
+        "question": "Qual é o resultado de uma boa entrevista de customer development?",
+        "options": [
+          { "value": "a", "label": "Uma venda" },
+          { "value": "b", "label": "Uma lista de funcionalidades para construir" },
+          { "value": "c", "label": "Aprendizados e insights que validam ou invalidam suas hipóteses" },
+          { "value": "d", "label": "Um cliente feliz" }
+        ],
+        "explanation": "O sucesso não é medido por elogios ou vendas, mas por aprendizado. Você sai da conversa sabendo mais sobre seus clientes, seus problemas e seu contexto, o que te ajuda a tomar decisões melhores.",
+        "hint": "O produto da entrevista é o conhecimento.",
+        "correctAnswer": "c"
+      }
+    ]
+  }
+]

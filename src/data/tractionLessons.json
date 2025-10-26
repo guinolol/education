@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Traction: O Framework Bullseye",
+    "conclusionMessage": "Você completou a microlição sobre o Framework Bullseye. Agora você entende como identificar e focar nos canais de tração mais promissores.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Quantos canais de tração o livro 'Traction' identifica?",
+        "options": [
+          { "value": "a", "label": "10" },
+          { "value": "b", "label": "19" },
+          { "value": "c", "label": "5" },
+          { "value": "d", "label": "25" }
+        ],
+        "explanation": "O livro identifica 19 canais de tração que uma startup pode usar para conseguir clientes.",
+        "hint": "É um número específico e maior do que se costuma pensar.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Qual é o objetivo do anel externo (Outer Ring) no Framework Bullseye?",
+        "options": [
+          { "value": "a", "label": "Focar nos canais que já funcionam" },
+          { "value": "b", "label": "Testar os canais mais promissores" },
+          { "value": "c", "label": "Fazer brainstorming de todos os canais possíveis" },
+          { "value": "d", "label": "Analisar a concorrência" }
+        ],
+        "explanation": "O anel externo é para brainstorming. O objetivo é pensar em como cada um dos 19 canais de tração poderia funcionar para o seu negócio.",
+        "hint": "Pense na fase mais ampla e criativa do processo.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "3",
+        "question": "O que você faz no anel do meio (Middle Ring)?",
+        "options": [
+          { "value": "a", "label": "Executar campanhas em larga escala" },
+          { "value": "b", "label": "Realizar testes baratos e rápidos nos canais mais promissores" },
+          { "value": "c", "label": "Escolher um único canal para focar" },
+          { "value": "d", "label": "Descartar todos os canais que não funcionaram" }
+        ],
+        "explanation": "O anel do meio é para testes. Você pega as melhores ideias do anel externo e realiza testes pequenos e baratos para ver quais canais realmente têm potencial.",
+        "hint": "Esta é a fase de experimentação para coletar dados.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "4",
+        "question": "Qual é o foco do anel interno (Inner Ring)?",
+        "options": [
+          { "value": "a", "label": "Focar intensamente no único canal que está funcionando melhor" },
+          { "value": "b", "label": "Continuar testando vários canais" },
+          { "value": "c", "label": "Fazer brainstorming de novas ideias" },
+          { "value": "d", "label": "Analisar os resultados dos testes" }
+        ],
+        "explanation": "O anel interno representa o foco. Após os testes, você identifica o canal que está funcionando melhor e direciona todos os seus esforços e recursos para ele até que sature.",
+        "hint": "É aqui que você aposta suas fichas.",
+        "correctAnswer": "a"
+      },
+      {
+        "id": "5",
+        "question": "Por que é importante focar em apenas um canal de tração por vez?",
+        "options": [
+          { "value": "a", "label": "Porque é mais barato" },
+          { "value": "b", "label": "Porque é difícil dominar vários canais ao mesmo tempo" },
+          { "value": "c", "label": "Porque os outros canais são inúteis" },
+          { "value": "d", "label": "Porque o livro diz para fazer isso" }
+        ],
+        "explanation": "É muito difícil dominar vários canais de tração simultaneamente. Focar em um permite que você otimize e extraia o máximo de crescimento dele antes de passar para o próximo.",
+        "hint": "Pense na profundidade versus a largura do esforço.",
+        "correctAnswer": "b"
+      }
+    ]
+  }
+]

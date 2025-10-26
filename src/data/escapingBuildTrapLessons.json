@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Escaping the Build Trap: Outputs vs. Outcomes",
+    "conclusionMessage": "Você completou a microlição sobre a Armadilha da Construção. Agora você entende a diferença crucial entre outputs e outcomes para criar produtos de sucesso.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é a 'Armadilha da Construção' (Build Trap)?",
+        "options": [
+          { "value": "a", "label": "Construir produtos muito lentamente" },
+          { "value": "b", "label": "Focar em construir muitas funcionalidades (outputs) em vez de gerar valor (outcomes)" },
+          { "value": "c", "label": "Não ter um roadmap de produto" },
+          { "value": "d", "label": "Ter uma equipe de desenvolvimento pequena" }
+        ],
+        "explanation": "A Armadilha da Construção é quando as empresas se concentram em entregar funcionalidades (outputs) e medem o sucesso pela quantidade e velocidade, em vez de focar no valor que essas funcionalidades geram para os clientes e para o negócio (outcomes).",
+        "hint": "Pense na diferença entre 'estar ocupado' e 'ser produtivo'.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Qual é a diferença entre um 'output' e um 'outcome'?",
+        "options": [
+          { "value": "a", "label": "Output é o resultado financeiro, outcome é o produto" },
+          { "value": "b", "label": "Não há diferença, são sinônimos" },
+          { "value": "c", "label": "Output é o que você produz (ex: uma feature), outcome é a mudança de comportamento do usuário que gera valor" },
+          { "value": "d", "label": "Output é o plano, outcome é a execução" }
+        ],
+        "explanation": "Um output é a coisa que você cria, como uma nova funcionalidade. Um outcome é uma mudança mensurável no comportamento do cliente que cria valor, como 'aumentar a retenção de usuários em 10%'.",
+        "hint": "Um é a 'coisa', o outro é o 'impacto'.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "3",
+        "question": "O que caracteriza uma organização 'product-led'?",
+        "options": [
+          { "value": "a", "label": "É liderada por gerentes de produto" },
+          { "value": "b", "label": "Foca em resolver problemas de clientes para atingir objetivos de negócio" },
+          { "value": "c", "label": "Lança novos produtos toda semana" },
+          { "value": "d", "label": "Tem o melhor design de produto do mercado" }
+        ],
+        "explanation": "Uma organização 'product-led' (liderada por produto) foca em alcançar os objetivos de negócio resolvendo os problemas dos clientes de uma forma que os concorrentes não conseguem. O foco está nos outcomes.",
+        "hint": "O produto é o motor do crescimento e da estratégia.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "4",
+        "question": "Por que medir o sucesso por 'velocity' (pontos de história entregues) pode ser perigoso?",
+        "options": [
+          { "value": "a", "label": "Porque incentiva a equipe a trabalhar devagar" },
+          { "value": "b", "label": "Porque é uma métrica difícil de calcular" },
+          { "value": "c", "label": "Porque mede atividade (output), não valor (outcome)" },
+          { "value": "d", "label": "Porque apenas o CEO deve se preocupar com métricas" }
+        ],
+        "explanation": "Medir o sucesso pela velocidade de entrega de funcionalidades incentiva a equipe a construir mais coisas, independentemente de essas coisas gerarem valor. É um clássico sintoma da Armadilha da Construção.",
+        "hint": "Você pode estar correndo muito rápido na direção errada.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "5",
+        "question": "Qual é o papel da estratégia de produto para escapar da 'Build Trap'?",
+        "options": [
+          { "value": "a", "label": "Criar uma longa lista de funcionalidades para construir" },
+          { "value": "b", "label": "Conectar a visão da empresa com as ações da equipe de produto, focando em outcomes" },
+          { "value": "c", "label": "Definir prazos rígidos para a entrega de features" },
+          { "value": "d", "label": "A estratégia de produto não é importante" }
+        ],
+        "explanation": "Uma boa estratégia de produto atua como uma ponte entre a visão da empresa e o trabalho da equipe. Ela define os objetivos (outcomes) a serem alcançados e orienta as decisões sobre o que construir (ou não construir).",
+        "hint": "É o 'porquê' por trás do 'o quê'.",
+        "correctAnswer": "b"
+      }
+    ]
+  }
+]
