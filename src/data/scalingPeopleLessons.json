@@ -6,6 +6,20 @@
     "questions": [
       {
         "id": "1",
+        "question": "O que Claire Hughes Johnson quer dizer com 'sistema operacional' da empresa?",
+        "options": [
+          { "value": "a", "label": "O software que a empresa usa" },
+          { "value": "b", "label": "Os processos e cadências fundamentais que governam como a empresa funciona (reuniões, feedback, planejamento)" },
+          { "value": "c", "label": "O CEO da empresa" },
+          { "value": "d", "label": "O manual do funcionário" }
+        ],
+        "explanation": "O 'sistema operacional' é o conjunto de rituais, processos e cadências que ditam como as pessoas trabalham juntas. Por exemplo, como as metas são definidas (OKRs), como o feedback é dado (avaliações 360), e o ritmo das reuniões (semanais, mensais).",
+        "hint": "É a 'infraestrutura invisível' do trabalho em equipe.",
+        "correctAnswer": "b",
+        "bookExample": "Um sistema operacional forte garante que, mesmo com 1000 funcionários, todos saibam como tomar decisões e se comunicar de forma eficaz."
+      },
+      {
+        "id": "2",
         "question": "Qual é o principal desafio ao 'escalar pessoas' em uma empresa em crescimento?",
         "options": [
           { "value": "a", "label": "Contratar o máximo de pessoas possível" },
@@ -15,23 +29,53 @@
         ],
         "explanation": "O desafio não é apenas adicionar mais pessoas, mas garantir que a organização continue funcionando bem. Isso envolve criar sistemas para comunicação, tomada de decisão, contratação e gerenciamento de desempenho.",
         "hint": "Pense no que 'quebra' quando uma equipe de 10 pessoas se torna uma de 100.",
-        "correctAnswer": "b"
-      },
-      {
-        "id": "2",
-        "question": "O que Claire Hughes Johnson quer dizer com 'sistema operacional' da empresa?",
-        "options": [
-          { "value": "a", "label": "O software que a empresa usa" },
-          { "value": "b", "label": "O CEO da empresa" },
-          { "value": "c", "label": "Os processos e cadências fundamentais que governam como a empresa funciona (reuniões, feedback, planejamento)" },
-          { "value": "d", "label": "O manual do funcionário" }
-        ],
-        "explanation": "O 'sistema operacional' é o conjunto de rituais, processos e cadências que ditam como as pessoas trabalham juntas. Por exemplo, como as metas são definidas (OKRs), como o feedback é dado (avaliações 360), e o ritmo das reuniões (semanais, mensais).",
-        "hint": "É a 'infraestrutura invisível' do trabalho em equipe.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "A comunicação que funciona em 10 pessoas (todos na mesma sala) falha em 50 pessoas (precisa de processos documentados)."
       },
       {
         "id": "3",
+        "question": "O que significa a transição de 'fundador' para 'líder'?",
+        "options": [
+          { "value": "a", "label": "Deixar de trabalhar na empresa" },
+          { "value": "b", "label": "Mudar de fazer tudo sozinho para construir e liderar uma organização que pode operar sem sua intervenção constante" },
+          { "value": "c", "label": "Parar de programar ou projetar" },
+          { "value": "d", "label": "Contratar um CEO para substituí-lo" }
+        ],
+        "explanation": "A transição crítica para um fundador é aprender a delegar, confiar na equipe e focar em construir a organização e a cultura, em vez de estar envolvido em todas as decisões do dia-a-dia.",
+        "hint": "Trabalhar 'na' empresa vs. trabalhar 'para' a empresa.",
+        "correctAnswer": "b",
+        "bookExample": "O fundador deve parar de ser o 'gargalo' de todas as decisões e começar a construir sistemas que permitam que outras pessoas tomem decisões."
+      },
+      {
+        "id": "4",
+        "question": "Qual é o papel de um gerente em uma organização em escala?",
+        "options": [
+          { "value": "a", "label": "Ser o melhor executor técnico da equipe" },
+          { "value": "b", "label": "Construir e apoiar uma equipe de alto desempenho, fornecendo clareza, coaching e feedback" },
+          { "value": "c", "label": "Dar as respostas para todos os problemas" },
+          { "value": "d", "label": "Aprovar todas as decisões da equipe" }
+        ],
+        "explanation": "Em escala, o papel do gerente muda de 'fazer o trabalho' para 'construir a equipe que faz o trabalho'. Isso envolve definir direção, remover obstáculos, desenvolver pessoas e criar um ambiente de sucesso.",
+        "hint": "O gerente é um 'multiplicador de talentos'.",
+        "correctAnswer": "b",
+        "bookExample": "Um bom gerente gasta 80% do tempo em 1-a-1s, feedback e planejamento, e 20% em execução."
+      },
+      {
+        "id": "5",
+        "question": "O que é 'Clareza' (Clarity) no contexto de Scaling People?",
+        "options": [
+          { "value": "a", "label": "Ter um escritório bem iluminado" },
+          { "value": "b", "label": "Garantir que todos saibam o que é esperado deles, como o sucesso é medido e quem decide o quê" },
+          { "value": "c", "label": "Ter um código limpo" },
+          { "value": "d", "label": "Ter reuniões curtas" }
+        ],
+        "explanation": "A clareza é o antídoto para o caos do crescimento. Ela é alcançada através de metas claras (OKRs), papéis definidos (DACI/RAPID) e comunicação transparente.",
+        "hint": "Ambiguidade mata a produtividade.",
+        "correctAnswer": "b",
+        "bookExample": "Se um funcionário não sabe qual é sua prioridade número 1, o líder falhou em fornecer clareza."
+      },
+      {
+        "id": "6",
         "question": "Por que é importante ter um processo de contratação estruturado?",
         "options": [
           { "value": "a", "label": "Para tornar o processo mais longo e difícil" },
@@ -41,33 +85,36 @@
         ],
         "explanation": "Um processo estruturado, com perguntas e critérios de avaliação padronizados, ajuda a tomar decisões de contratação mais objetivas e a construir uma equipe diversificada e de alto desempenho.",
         "hint": "Consistência e objetividade são chaves para uma boa contratação.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Eu gostei dele', o processo estruturado exige 'Ele demonstrou a competência X no nível Y, conforme evidenciado pela resposta Z'."
       },
       {
-        "id": "4",
-        "question": "Qual é o papel de um gerente em uma organização em escala?",
+        "id": "7",
+        "question": "O que é 'Cadência' (Cadence) no sistema operacional da empresa?",
         "options": [
-          { "value": "a", "label": "Ser o melhor executor técnico da equipe" },
-          { "value": "b", "label": "Dar as respostas para todos os problemas" },
-          { "value": "c", "label": "Construir e apoiar uma equipe de alto desempenho, fornecendo clareza, coaching e feedback" },
-          { "value": "d", "label": "Aprovar todas as decisões da equipe" }
+          { "value": "a", "label": "A velocidade de trabalho" },
+          { "value": "b", "label": "O ritmo regular e previsível de reuniões, planejamento e feedback" },
+          { "value": "c", "label": "A cultura da empresa" },
+          { "value": "d", "label": "O número de projetos" }
         ],
-        "explanation": "Em escala, o papel do gerente muda de 'fazer o trabalho' para 'construir a equipe que faz o trabalho'. Isso envolve definir direção, remover obstáculos, desenvolver pessoas e criar um ambiente de sucesso.",
-        "hint": "O gerente é um 'multiplicador de talentos'.",
-        "correctAnswer": "c"
+        "explanation": "A cadência é o ritmo. Ter reuniões 1-a-1 semanais, planejamento trimestral e avaliações anuais cria previsibilidade e garante que os processos cruciais não sejam negligenciados.",
+        "hint": "Ritmo e previsibilidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se a cadência de planejamento é trimestral, todos sabem que o Q3 começa com a definição de novos OKRs."
       },
       {
-        "id": "5",
-        "question": "O que significa a transição de 'fundador' para 'líder'?",
+        "id": "8",
+        "question": "Qual é o principal risco de não ter um sistema operacional claro ao escalar?",
         "options": [
-          { "value": "a", "label": "Deixar de trabalhar na empresa" },
-          { "value": "b", "label": "Parar de programar ou projetar" },
-          { "value": "c", "label": "Mudar de fazer tudo sozinho para construir e liderar uma organização que pode operar sem sua intervenção constante" },
-          { "value": "d", "label": "Contratar um CEO para substituí-lo" }
+          { "value": "a", "label": "A empresa cresce muito rápido" },
+          { "value": "b", "label": "O caos, a ineficiência, a queda da moral e a perda de talentos" },
+          { "value": "c", "label": "O produto fica muito bom" },
+          { "value": "d", "label": "A comunicação é muito fácil" }
         ],
-        "explanation": "A transição crítica para um fundador é aprender a delegar, confiar na equipe e focar em construir a organização e a cultura, em vez de estar envolvido em todas as decisões do dia-a-dia.",
-        "hint": "Trabalhar 'na' empresa vs. trabalhar 'para' a empresa.",
-        "correctAnswer": "c"
+        "explanation": "Sem sistemas, o crescimento se torna caótico. As pessoas não sabem o que priorizar, quem decide o quê, e a cultura se deteriora.",
+        "hint": "O caos é o inimigo da escala.",
+        "correctAnswer": "b",
+        "bookExample": "Empresas que crescem rapidamente sem um sistema operacional claro frequentemente sofrem de 'indigestão de crescimento'."
       }
     ]
   },
@@ -87,53 +134,225 @@
         ],
         "explanation": "A 1-a-1 é a ferramenta mais importante de um gerente. É o tempo do funcionário, não do gerente. Serve para discutir carreira, dar e receber feedback, e resolver problemas antes que eles se tornem grandes.",
         "hint": "É sobre coaching, não sobre status report.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "A 1-a-1 deve ser protegida a todo custo. Cancelar uma 1-a-1 envia a mensagem de que o desenvolvimento do funcionário não é prioridade."
       },
       {
         "id": "2",
         "question": "O que é um bom sistema de feedback?",
         "options": [
           { "value": "a", "label": "Dar feedback apenas uma vez por ano, na avaliação de desempenho" },
-          { "value": "b", "label": "Um sistema que incentiva feedback contínuo, específico e acionável em todas as direções (para cima, para baixo e entre pares)" },
+          { "value": "b", "label": "Um sistema que incentiva feedback contínuo, específico e acionável em todas as direções" },
           { "value": "c", "label": "Apenas dar feedback positivo para manter a moral alta" },
           { "value": "d", "label": "Um sistema onde apenas os gerentes dão feedback" }
         ],
         "explanation": "Feedback é um presente. Um bom sistema o torna uma parte normal e esperada da cultura, não um evento assustador e anual. Ele deve ser equilibrado, específico e focado em ajudar as pessoas a crescer.",
         "hint": "Pense em feedback como um fluxo constante, não uma inundação anual.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "O feedback deve ser dado 'no momento' (in-the-moment) e focado no comportamento, não na personalidade."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a regra de ouro para dar feedback corretivo (negativo)?",
+        "options": [
+          { "value": "a", "label": "Fazer em público" },
+          { "value": "b", "label": "Focar no impacto do comportamento e oferecer um caminho claro para a melhoria" },
+          { "value": "c", "label": "Ser vago para não ofender" },
+          { "value": "d", "label": "Esperar a avaliação anual" }
+        ],
+        "explanation": "O feedback corretivo deve ser privado, focado no comportamento (não na pessoa) e deve explicar o impacto negativo do comportamento, seguido por um plano de ação.",
+        "hint": "Foco no comportamento e no futuro.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Você é desorganizado', diga 'Quando você não envia o relatório no prazo, isso atrasa a equipe de vendas em 2 dias. O que podemos fazer para garantir que isso não aconteça novamente?'"
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Comunicação Assíncrona' e por que ela é importante para escalar?",
+        "options": [
+          { "value": "a", "label": "Comunicação por vídeo" },
+          { "value": "b", "label": "Comunicação que não exige resposta imediata (ex: e-mail, documentos), permitindo que as pessoas trabalhem em fusos horários diferentes e com foco" },
+          { "value": "c", "label": "Comunicação por telefone" },
+          { "value": "d", "label": "Comunicação em tempo real" }
+        ],
+        "explanation": "A comunicação assíncrona é vital para equipes distribuídas e para proteger o tempo de foco. Ela força a clareza e a documentação.",
+        "hint": "Proteja o tempo de foco.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de uma reunião de status de 1 hora, envie um documento de status de 5 minutos para ser lido antes da reunião."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o papel da 'Documentação' em uma empresa em escala?",
+        "options": [
+          { "value": "a", "label": "Apenas para fins legais" },
+          { "value": "b", "label": "Serve como a 'memória' da empresa, permitindo que novos funcionários aprendam rapidamente e que as decisões sejam transparentes" },
+          { "value": "c", "label": "É um desperdício de tempo" },
+          { "value": "d", "label": "Apenas para o RH" }
+        ],
+        "explanation": "A documentação (wikis, manuais, notas de reunião) é o sistema operacional escrito. Ela reduz a dependência de indivíduos e acelera o onboarding.",
+        "hint": "A memória da empresa.",
+        "correctAnswer": "b",
+        "bookExample": "Documente como as decisões são tomadas (o 'porquê') para que as pessoas não precisem perguntar novamente no futuro."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Feedback 360'?",
+        "options": [
+          { "value": "a", "label": "Feedback dado apenas pelo gerente" },
+          { "value": "b", "label": "Feedback coletado de pares, subordinados e gerentes, fornecendo uma visão completa do desempenho" },
+          { "value": "c", "label": "Feedback dado em 360 dias" },
+          { "value": "d", "label": "Feedback dado apenas por clientes" }
+        ],
+        "explanation": "O Feedback 360 é essencial para o desenvolvimento, pois o gerente não vê tudo. Ele revela pontos cegos e fortalece a cultura de responsabilidade mútua.",
+        "hint": "Visão completa.",
+        "correctAnswer": "b",
+        "bookExample": "Um engenheiro pode ser tecnicamente brilhante (visão do gerente), mas difícil de trabalhar (visão dos pares)."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o principal objetivo de um 'All-Hands Meeting' (Reunião Geral)?",
+        "options": [
+          { "value": "a", "label": "Revisar o status de todos os projetos" },
+          { "value": "b", "label": "Alinhar a empresa com a visão, celebrar sucessos e promover a transparência" },
+          { "value": "c", "label": "Fazer anúncios de RH" },
+          { "value": "d", "label": "Discutir problemas técnicos" }
+        ],
+        "explanation": "O All-Hands é um ritual de cultura e alinhamento. Não deve ser um status report, mas um momento para o líder reforçar a visão e responder a perguntas abertas (Q&A).",
+        "hint": "Cultura e Visão.",
+        "correctAnswer": "b",
+        "bookExample": "O Q&A anônimo em um All-Hands é crucial para que os líderes entendam as preocupações reais da equipe."
+      },
+      {
+        "id": "8",
+        "question": "Como a 'Confiança' se relaciona com a escala?",
+        "options": [
+          { "value": "a", "label": "Não se relaciona" },
+          { "value": "b", "label": "A confiança permite a delegação e a tomada de decisão descentralizada, acelerando a empresa" },
+          { "value": "c", "label": "A confiança é apenas para amigos" },
+          { "value": "d", "label": "A confiança é construída apenas com dinheiro" }
+        ],
+        "explanation": "A confiança é o lubrificante da escala. Se você não confia na sua equipe, você não delega, e se você não delega, você se torna o gargalo.",
+        "hint": "Delegação requer confiança.",
+        "correctAnswer": "b",
+        "bookExample": "Se um gerente confia na equipe, ele não precisa microgerenciar, liberando tempo para focar em estratégia."
       }
     ]
   },
   {
     "id": 3,
-    "title": "Scaling People: Tomada de Decisão",
-    "conclusionMessage": "Você aprendeu como escalar a tomada de decisão. Agora você entende a importância de delegar e criar clareza sobre quem decide o quê.",
+    "title": "Scaling People: Tomada de Decisão e OKRs",
+    "conclusionMessage": "Você aprendeu como escalar a tomada de decisão e usar OKRs para alinhar a organização.",
     "questions": [
       {
         "id": "1",
         "question": "Qual é o maior gargalo na tomada de decisão em uma empresa em crescimento?",
         "options": [
           { "value": "a", "label": "Falta de dados" },
-          { "value": "b", "label": "A equipe não é inteligente o suficiente" },
-          { "value": "c", "label": "O fundador ou a liderança sênior tentando tomar todas as decisões" },
+          { "value": "b", "label": "O fundador ou a liderança sênior tentando tomar todas as decisões" },
+          { "value": "c", "label": "A equipe não é inteligente o suficiente" },
           { "value": "d", "label": "Muitas reuniões" }
         ],
         "explanation": "À medida que a empresa cresce, é impossível para uma única pessoa ou um pequeno grupo tomar todas as decisões. Escalar requer delegar a tomada de decisão para as pessoas mais próximas da informação.",
         "hint": "O objetivo é empurrar a decisão para baixo.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se 80% das decisões precisam passar pelo CEO, a empresa está em um gargalo de crescimento."
       },
       {
-        "id": "2",
+        "id": "id": "2",
         "question": "O que é um framework como o 'RAPID' ou 'DACI' usado para fazer?",
         "options": [
           { "value": "a", "label": "Escrever código mais rápido" },
-          { "value": "b", "label": "Gerenciar projetos" },
-          { "value": "c", "label": "Clarificar os papéis na tomada de decisão (quem recomenda, quem aprova, quem decide, etc.)" },
+          { "value": "b", "label": "Clarificar os papéis na tomada de decisão (quem recomenda, quem aprova, quem decide, etc.)" },
+          { "value": "c", "label": "Gerenciar projetos" },
           { "value": "d", "label": "Conduzir avaliações de desempenho" }
         ],
         "explanation": "Frameworks de decisão como RAPID (Recommend, Agree, Perform, Input, Decide) ajudam a evitar a ambiguidade sobre quem tem qual papel em uma decisão. Isso acelera o processo e melhora a qualidade das decisões.",
         "hint": "Clareza sobre papéis evita paralisia.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Usar o DACI (Driver, Approver, Contributor, Informed) garante que todos saibam quem é o 'D' (Decisor) antes de começar o trabalho."
+      },
+      {
+        "id": "3",
+        "question": "O que são 'OKRs' (Objectives and Key Results)?",
+        "options": [
+          { "value": "a", "label": "Uma lista de tarefas" },
+          { "value": "b", "label": "Um framework de metas que conecta objetivos ambiciosos (O) com resultados mensuráveis (KR)" },
+          { "value": "c", "label": "Um sistema de feedback" },
+          { "value": "d", "label": "Um tipo de reunião" }
+        ],
+        "explanation": "OKRs são a principal ferramenta para alinhar a empresa em torno de prioridades e resultados. O Objetivo é o 'o quê' (inspirador), e os Key Results são o 'como' (mensurável).",
+        "hint": "Alinhamento e Foco.",
+        "correctAnswer": "b",
+        "bookExample": "Objetivo: 'Lançar um produto de classe mundial'. KR: 'Alcançar 50% de retenção de usuários após 3 meses'."
+      },
+      {
+        "id": "4",
+        "question": "Qual é a diferença entre um 'Objective' e um 'Key Result' em OKRs?",
+        "options": [
+          { "value": "a", "label": "Objective é o que você faz; Key Result é o que você sente" },
+          { "value": "b", "label": "Objective é qualitativo e inspirador; Key Result é quantitativo e mensurável" },
+          { "value": "c", "label": "Objective é fácil; Key Result é difícil" },
+          { "value": "d", "label": "Objective é anual; Key Result é trimestral" }
+        ],
+        "explanation": "O Objective deve ser inspirador e motivacional. O Key Result deve ser um número que prova se o Objective foi alcançado.",
+        "hint": "O 'O' é o destino, o 'KR' é a bússola.",
+        "correctAnswer": "b",
+        "bookExample": "O: 'Dominar o mercado de SaaS B2B'. KR: 'Aumentar o Market Share de 5% para 15%'."
+      },
+      {
+        "id": "5",
+        "question": "Por que os OKRs devem ser 'ambiciosos' (stretch goals)?",
+        "options": [
+          { "value": "a", "label": "Para garantir que a equipe trabalhe mais" },
+          { "value": "b", "label": "Para forçar a equipe a pensar de forma inovadora e sair da zona de conforto" },
+          { "value": "c", "label": "Para garantir que eles falhem" },
+          { "value": "d", "label": "Para impressionar os investidores" }
+        ],
+        "explanation": "OKRs ambiciosos (onde atingir 70% já é um sucesso) incentivam a inovação e evitam que a equipe se contente com o mínimo.",
+        "hint": "Pense grande.",
+        "correctAnswer": "b",
+        "bookExample": "Se você atinge 100% de um OKR ambicioso, ele provavelmente não era ambicioso o suficiente."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Delegação' no contexto de escala?",
+        "options": [
+          { "value": "a", "label": "Apenas passar tarefas para os outros" },
+          { "value": "b", "label": "Transferir a autoridade de tomada de decisão para as pessoas mais próximas da informação" },
+          { "value": "c", "label": "Microgerenciar" },
+          { "value": "d", "label": "Não fazer nada" }
+        ],
+        "explanation": "Delegação eficaz é transferir a responsabilidade e a autoridade para tomar decisões, permitindo que a empresa se mova mais rápido.",
+        "hint": "Empurre a decisão para baixo.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de o gerente decidir o design da feature, ele delega a decisão para o designer e o engenheiro, que têm mais contexto."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o papel da 'Cultura' em uma empresa em escala?",
+        "options": [
+          { "value": "a", "label": "Apenas ter festas" },
+          { "value": "b", "label": "A cultura é o 'sistema operacional não escrito' que guia o comportamento quando o líder não está presente" },
+          { "value": "c", "label": "A cultura é irrelevante" },
+          { "value": "d", "label": "A cultura é apenas sobre benefícios" }
+        ],
+        "explanation": "A cultura define como as pessoas interagem, tomam decisões e resolvem conflitos. Ela é o que permite que a empresa funcione de forma coesa à medida que cresce.",
+        "hint": "O que acontece quando ninguém está olhando?",
+        "correctAnswer": "b",
+        "bookExample": "Se a cultura valoriza a 'transparência', as pessoas naturalmente documentarão suas decisões, mesmo sem um processo formal."
+      },
+      {
+        "id": "8",
+        "question": "Como o líder deve usar os OKRs para gerenciar o desempenho?",
+        "options": [
+          { "value": "a", "label": "Usar os OKRs como lista de tarefas para demitir quem não atingir 100%" },
+          { "value": "b", "label": "Usar os OKRs como uma ferramenta de alinhamento e aprendizado, separada da compensação direta" },
+          { "value": "c", "label": "Ignorar os OKRs" },
+          { "value": "d", "label": "Mudar os OKRs toda semana" }
+        ],
+        "explanation": "OKRs devem ser separados da compensação direta para incentivar a ambição e a honestidade. Eles são uma ferramenta de planejamento e aprendizado.",
+        "hint": "Ambição e honestidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se os OKRs estiverem diretamente ligados ao bônus, as pessoas definirão metas fáceis (sandbagging) para garantir o pagamento."
       }
     ]
   }

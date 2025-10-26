@@ -15,20 +15,22 @@
         ],
         "explanation": "O objetivo é aprender. O desenvolvimento de clientes é um processo de fazer perguntas e testar hipóteses para descobrir se há um mercado para sua ideia e o que os clientes realmente valorizam.",
         "hint": "O foco é em 'aprender', não em 'vender' ou 'construir'.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Cindy Alvarez enfatiza que 'o produto da entrevista é o conhecimento', não a venda."
       },
       {
         "id": "2",
         "question": "Qual é um erro comum ao conversar com clientes, segundo Cindy Alvarez?",
         "options": [
           { "value": "a", "label": "Fazer muitas perguntas abertas" },
-          { "value": "b", "label": "Falar sobre o passado do cliente" },
-          { "value": "c", "label": "Tentar vender ou descrever sua solução muito cedo" },
+          { "value": "b", "label": "Tentar vender ou descrever sua solução muito cedo" },
+          { "value": "c", "label": "Falar sobre o passado do cliente" },
           { "value": "d", "label": "Não gravar a conversa" }
         ],
         "explanation": "Um erro clássico é 'pular para a solução'. Em vez de ouvir sobre os problemas e o contexto do cliente, os empreendedores ficam ansiosos para apresentar sua ideia, o que contamina o feedback.",
         "hint": "É parecido com o 'Teste da Mãe': não fale sobre sua ideia.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se você começar a falar sobre sua solução, o cliente se torna um 'crítico de design' em vez de um 'especialista em problemas'."
       },
       {
         "id": "3",
@@ -41,79 +43,197 @@
         ],
         "explanation": "Uma hipótese é uma suposição fundamental sobre seu negócio que precisa ser testada. Por exemplo: 'Gerentes de projeto em pequenas empresas têm dificuldade em acompanhar o tempo da equipe'.",
         "hint": "É uma aposta que você precisa validar ou invalidar.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Hipótese: 'Clientes B2B valorizam mais a integração com o Slack do que a integração com o e-mail'. Isso precisa ser testado."
       },
       {
         "id": "4",
         "question": "Por que é importante focar em 'problemas' em vez de 'features' nas conversas iniciais?",
         "options": [
           { "value": "a", "label": "Porque os clientes não entendem de tecnologia" },
-          { "value": "b", "label": "Porque se não houver um problema real e doloroso, ninguém comprará sua solução, não importa quantas features ela tenha" },
+          { "value": "b", "label": "Porque se não houver um problema real e doloroso, ninguém comprará sua solução" },
           { "value": "c", "label": "Porque é mais fácil falar sobre problemas" },
           { "value": "d", "label": "Porque features são caras para construir" }
         ],
         "explanation": "A base de um bom negócio é resolver um problema real para alguém. Se o problema não for significativo, sua solução será vista como 'legal de ter', mas não 'essencial'.",
         "hint": "Sem dor, não há venda.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "O cliente pode dizer que quer uma 'feature de calendário', mas o problema real é 'perder prazos importantes'."
       },
       {
         "id": "5",
         "question": "Qual é o resultado de uma boa entrevista de customer development?",
         "options": [
           { "value": "a", "label": "Uma venda" },
-          { "value": "b", "label": "Uma lista de funcionalidades para construir" },
-          { "value": "c", "label": "Aprendizados e insights que validam ou invalidam suas hipóteses" },
+          { "value": "b", "label": "Aprendizados e insights que validam ou invalidam suas hipóteses" },
+          { "value": "c", "label": "Uma lista de funcionalidades para construir" },
           { "value": "d", "label": "Um cliente feliz" }
         ],
         "explanation": "O sucesso não é medido por elogios ou vendas, mas por aprendizado. Você sai da conversa sabendo mais sobre seus clientes, seus problemas e seu contexto, o que te ajuda a tomar decisões melhores.",
         "hint": "O produto da entrevista é o conhecimento.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se você invalidou uma hipótese, a entrevista foi um sucesso, pois você evitou construir a coisa errada."
+      },
+      {
+        "id": "6",
+        "question": "O que significa 'Escuta Ativa' em uma entrevista?",
+        "options": [
+          { "value": "a", "label": "Apenas ficar em silêncio" },
+          { "value": "b", "label": "Focar no que o cliente diz, fazer perguntas de aprofundamento e refletir o que foi dito para garantir a compreensão" },
+          { "value": "c", "label": "Falar mais que o cliente" },
+          { "value": "d", "label": "Anotar tudo" }
+        ],
+        "explanation": "Escuta Ativa é crucial. Você deve usar frases como 'Me conte mais sobre isso' ou 'Então, se entendi corretamente, você gasta 5 horas por semana nisso?' para cavar mais fundo e validar.",
+        "hint": "Aprofundamento e validação.",
+        "correctAnswer": "b",
+        "bookExample": "Quando o cliente diz 'É difícil', você deve perguntar 'O que exatamente é difícil? Me dê um exemplo da última vez que isso aconteceu'."
+      },
+      {
+        "id": "7",
+        "question": "Qual é a melhor maneira de lidar com um cliente que está divagando?",
+        "options": [
+          { "value": "a", "label": "Deixar ele falar por horas" },
+          { "value": "b", "label": "Gentilmente redirecionar a conversa para o tópico principal, usando perguntas sobre o passado" },
+          { "value": "c", "label": "Mudar de assunto abruptamente" },
+          { "value": "d", "label": "Dizer que ele está errado" }
+        ],
+        "explanation": "Você precisa manter o foco na sua hipótese. Use frases de transição como 'Isso é interessante, mas voltando ao problema X, me conte sobre a última vez que você...'",
+        "hint": "Seja gentil, mas firme no objetivo.",
+        "correctAnswer": "b",
+        "bookExample": "Cliente: 'Eu adoro o design do seu site!' Você: 'Que bom! Mas voltando ao seu fluxo de trabalho, como você lida com a entrada de dados hoje?'"
+      },
+      {
+        "id": "8",
+        "question": "Por que é importante ter um 'roteiro' (script) de entrevista, mas não segui-lo rigidamente?",
+        "options": [
+          { "value": "a", "label": "Para parecer profissional" },
+          { "value": "b", "label": "O roteiro garante que você cubra as hipóteses principais, mas a flexibilidade permite seguir insights inesperados" },
+          { "value": "c", "label": "Para não esquecer o nome do cliente" },
+          { "value": "d", "label": "Para cronometrar a conversa" }
+        ],
+        "explanation": "O roteiro é um guia para garantir que você teste suas hipóteses mais arriscadas. No entanto, se o cliente trouxer um insight inesperado e valioso, você deve ter a flexibilidade de explorá-lo.",
+        "hint": "Guia, não prisão.",
+        "correctAnswer": "b",
+        "bookExample": "Se o cliente menciona uma dor que você nunca considerou, abandone o roteiro por um momento e cave fundo nesse novo problema."
       }
     ]
   },
   {
     "id": 2,
-    "title": "Lean Customer Development: A Entrevista",
-    "conclusionMessage": "Você aprendeu as melhores práticas para conduzir entrevistas de customer development. Agora você sabe como fazer perguntas que geram insights reais.",
+    "title": "Lean Customer Development: Tipos de Perguntas",
+    "conclusionMessage": "Você aprendeu a usar diferentes tipos de perguntas para extrair o máximo de valor das conversas com clientes.",
     "questions": [
       {
         "id": "1",
-        "question": "Qual é a melhor maneira de começar uma entrevista de customer development?",
+        "question": "Qual tipo de pergunta você deve priorizar para obter fatos e comportamentos?",
         "options": [
-          { "value": "a", "label": "Apresentando sua ideia imediatamente" },
-          { "value": "b", "label": "Estabelecendo o contexto e explicando que você está fazendo uma pesquisa para aprender, não para vender" },
-          { "value": "c", "label": "Perguntando se eles comprariam seu produto" },
-          { "value": "d", "label": "Mostrando um protótipo" }
+          { "value": "a", "label": "Perguntas hipotéticas ('Você faria...?')" },
+          { "value": "b", "label": "Perguntas abertas sobre o passado ('Me conte sobre a última vez que...')" },
+          { "value": "c", "label": "Perguntas fechadas ('Sim ou Não')" },
+          { "value": "d", "label": "Perguntas sobre o preço" }
         ],
-        "explanation": "Comece deixando a pessoa confortável. Explique que você está ali para aprender com a experiência dela e que não há respostas certas ou erradas. Isso desarma a postura de 'venda' e incentiva a honestidade.",
-        "hint": "Crie um ambiente seguro para o feedback.",
-        "correctAnswer": "b"
+        "explanation": "Perguntas abertas sobre o passado forçam o cliente a descrever ações reais, que são dados muito mais confiáveis do que opiniões ou intenções futuras.",
+        "hint": "Foque em histórias e exemplos concretos.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Você usaria um app de finanças?', pergunte 'Me conte sobre a última vez que você tentou controlar suas finanças. O que você fez?'"
       },
       {
         "id": "2",
-        "question": "Que tipo de pergunta você deve EVITAR?",
+        "question": "Por que perguntas fechadas ('Sim ou Não') são menos úteis na fase de descoberta?",
         "options": [
-          { "value": "a", "label": "Perguntas abertas sobre o passado" },
-          { "value": "b", "label": "Perguntas hipotéticas sobre o futuro (ex: 'Você usaria...?')" },
-          { "value": "c", "label": "Perguntas sobre como eles resolvem um problema hoje" },
-          { "value": "d", "label": "Perguntas que pedem por exemplos específicos" }
+          { "value": "a", "label": "Porque são rudes" },
+          { "value": "b", "label": "Porque não fornecem contexto ou profundidade sobre o 'porquê' do comportamento" },
+          { "value": "c", "label": "Porque são muito longas" },
+          { "value": "d", "label": "Porque são difíceis de responder" }
         ],
-        "explanation": "Perguntas sobre o futuro geram opiniões e 'mentiras otimistas'. Foque em comportamentos passados e presentes, que são fatos. Em vez de 'Você usaria?', pergunte 'Me conte sobre a última vez que você...'.",
-        "hint": "Fatos > Opiniões.",
-        "correctAnswer": "b"
+        "explanation": "Perguntas fechadas limitam o aprendizado. Você quer que o cliente fale livremente para revelar problemas e nuances que você não sabia que existiam.",
+        "hint": "Você quer histórias, não apenas estatísticas.",
+        "correctAnswer": "b",
+        "bookExample": "Se o cliente diz 'Sim, eu tenho esse problema', você deve seguir com 'Me conte mais sobre isso. O que você fez para tentar resolver?'"
       },
       {
         "id": "3",
-        "question": "O que fazer quando um cliente sugere uma feature?",
+        "question": "O que é uma 'Pergunta de Aprofundamento' (Drill-Down Question)?",
         "options": [
-          { "value": "a", "label": "Anotar e prometer construir" },
-          { "value": "b", "label": "Explicar por que a feature não é uma boa ideia" },
-          { "value": "c", "label": "Ignorar a sugestão e mudar de assunto" },
-          { "value": "d", "label": "Investigar o problema por trás do pedido com perguntas como 'Por que isso é importante para você?'" }
+          { "value": "a", "label": "Uma pergunta sobre o futuro" },
+          { "value": "b", "label": "Uma pergunta que segue uma resposta para obter mais detalhes e contexto" },
+          { "value": "c", "label": "Uma pergunta sobre a concorrência" },
+          { "value": "d", "label": "Uma pergunta sobre o preço" }
         ],
-        "explanation": "Nunca aceite pedidos de feature pelo valor de face. Use-os como um ponto de partida para entender o problema subjacente. O cliente é especialista no problema, você é o especialista na solução.",
-        "hint": "Cave mais fundo para encontrar a causa raiz.",
-        "correctAnswer": "d"
+        "explanation": "Perguntas de aprofundamento (ex: 'Por que isso é importante?', 'O que aconteceu depois?', 'Como você se sentiu?') transformam respostas superficiais em insights profundos.",
+        "hint": "Cave mais fundo.",
+        "correctAnswer": "b",
+        "bookExample": "Cliente: 'Eu uso o Excel.' Você: 'Por que o Excel? O que ele faz bem e o que ele não faz bem?'"
+      },
+      {
+        "id": "4",
+        "question": "Como lidar com um cliente que só dá respostas genéricas ('Eu geralmente faço...')?",
+        "options": [
+          { "value": "a", "label": "Aceitar a resposta" },
+          { "value": "b", "label": "Pedir um exemplo específico e recente ('Me conte sobre a última vez que você fez isso')" },
+          { "value": "c", "label": "Mudar de assunto" },
+          { "value": "d", "label": "Dizer que a resposta é inútil" }
+        ],
+        "explanation": "Respostas genéricas são 'fluff'. Você precisa ancorar a conversa em um evento específico e recente para obter fatos concretos e evitar opiniões.",
+        "hint": "Transforme generalidades em especificidades.",
+        "correctAnswer": "b",
+        "bookExample": "Cliente: 'Eu geralmente me organizo bem.' Você: 'Ótimo. Me conte sobre a última vez que você se organizou para um grande projeto. O que você fez passo a passo?'"
+      },
+      {
+        "id": "5",
+        "question": "Qual é o objetivo de perguntar sobre as 'soluções alternativas' que o cliente usa hoje?",
+        "options": [
+          { "value": "a", "label": "Para roubar ideias" },
+          { "value": "b", "label": "Para entender o nível de dor e o que o cliente está disposto a tolerar" },
+          { "value": "c", "label": "Para criticar a concorrência" },
+          { "value": "d", "label": "Para saber o preço da concorrência" }
+        ],
+        "explanation": "As soluções alternativas (workarounds) revelam o quão doloroso é o problema. Se o cliente está usando uma solução manual e complexa, a dor é alta.",
+        "hint": "O esforço que eles fazem revela o valor do problema.",
+        "correctAnswer": "b",
+        "bookExample": "Se o cliente gasta $500/mês em 3 ferramentas diferentes e ainda usa planilhas, o problema é muito valioso."
+      },
+      {
+        "id": "6",
+        "question": "O que fazer quando o cliente começa a falar sobre sua ideia?",
+        "options": [
+          { "value": "a", "label": "Apresentar o pitch completo" },
+          { "value": "b", "label": "Gentilmente redirecionar a conversa para o problema e o contexto do cliente" },
+          { "value": "c", "label": "Pedir um elogio" },
+          { "value": "d", "label": "Encerrar a conversa" }
+        ],
+        "explanation": "Redirecione imediatamente. O objetivo é aprender sobre a vida deles, não sobre sua ideia. Se eles falarem sobre sua ideia, você perde o aprendizado valioso.",
+        "hint": "Mantenha o foco no cliente.",
+        "correctAnswer": "b",
+        "bookExample": "Cliente: 'Seu app deveria ter uma feature de IA!' Você: 'Isso é uma ótima ideia! Mas antes, me conte, como você está lidando com a necessidade de [problema subjacente] hoje?'"
+      },
+      {
+        "id": "7",
+        "question": "Qual é a melhor maneira de encerrar uma entrevista?",
+        "options": [
+          { "value": "a", "label": "Dizendo 'Obrigado, tchau'" },
+          { "value": "b", "label": "Perguntando 'Com quem mais eu deveria conversar?' e 'Há mais alguma coisa que eu deveria ter perguntado?'" },
+          { "value": "c", "label": "Pedindo uma venda" },
+          { "value": "d", "label": "Pedindo um elogio" }
+        ],
+        "explanation": "Essas perguntas abrem a porta para introduções valiosas (bola de neve) e insights inesperados que você pode ter perdido.",
+        "hint": "Peça ajuda e referências.",
+        "correctAnswer": "b",
+        "bookExample": "A pergunta 'Com quem mais eu deveria conversar?' é a chave para escalar suas conversas de forma orgânica."
+      },
+      {
+        "id": "8",
+        "question": "Por que é importante estabelecer o contexto no início da entrevista?",
+        "options": [
+          { "value": "a", "label": "Para parecer formal" },
+          { "value": "b", "label": "Para garantir que o cliente saiba que você está ali para aprender, não para vender, incentivando a honestidade" },
+          { "value": "c", "label": "Para mostrar que você é o especialista" },
+          { "value": "d", "label": "Para cronometrar a conversa" }
+        ],
+        "explanation": "O contexto desarma o cliente. Se eles acham que é uma venda, eles se fecham. Se eles acham que é uma pesquisa, eles se abrem.",
+        "hint": "Crie um ambiente seguro para o feedback.",
+        "correctAnswer": "b",
+        "bookExample": "Diga: 'Estou no estágio de pesquisa, tentando entender como pessoas como você lidam com X. Não estou aqui para vender nada, só para aprender'."
       }
     ]
   },
@@ -127,13 +247,14 @@
         "question": "O que você deve fazer imediatamente após uma entrevista?",
         "options": [
           { "value": "a", "label": "Ligar para o próximo entrevistado" },
-          { "value": "b", "label": "Esquecer o que foi dito e esperar a próxima" },
-          { "value": "c", "label": "Revisar e organizar suas anotações enquanto a conversa está fresca na memória" },
+          { "value": "b", "label": "Revisar e organizar suas anotações enquanto a conversa está fresca na memória" },
+          { "value": "c", "label": "Esquecer o que foi dito e esperar a próxima" },
           { "value": "d", "label": "Enviar um email de vendas" }
         ],
         "explanation": "O ideal é reservar 15-30 minutos após cada entrevista para limpar suas anotações, destacar os pontos mais importantes e capturar quaisquer nuances que você possa esquecer mais tarde.",
         "hint": "A memória é curta.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Não confie apenas na gravação. O ato de revisar e resumir imediatamente força você a processar o aprendizado."
       },
       {
         "id": "2",
@@ -146,7 +267,92 @@
         ],
         "explanation": "A síntese é sobre encontrar padrões. Várias pessoas mencionaram o mesmo problema? Elas usam as mesmas soluções alternativas? Houve algo que te surpreendeu? Esses padrões validam ou invalidam suas hipóteses.",
         "hint": "Procure por repetição e anomalias.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Se 8 de 10 clientes mencionam que 'a integração com o sistema legado é o maior gargalo', isso é um padrão que valida uma hipótese."
+      },
+      {
+        "id": "3",
+        "question": "O que é um 'Insight Acionável'?",
+        "options": [
+          { "value": "a", "label": "Uma opinião interessante" },
+          { "value": "b", "label": "Um aprendizado que leva a uma decisão clara sobre o que construir, mudar ou testar a seguir" },
+          { "value": "c", "label": "Uma feature que o cliente pediu" },
+          { "value": "d", "label": "Um elogio" }
+        ],
+        "explanation": "Um insight acionável é aquele que move o ponteiro. Ele deve ser específico o suficiente para informar a próxima iteração do seu produto ou estratégia.",
+        "hint": "O que você vai fazer diferente amanhã por causa disso?",
+        "correctAnswer": "b",
+        "bookExample": "Insight: 'Clientes não usam a feature X porque ela exige 5 cliques'. Ação: 'Redesenhar a feature X para exigir apenas 1 clique'."
+      },
+      {
+        "id": "4",
+        "question": "Por que é importante envolver a equipe de desenvolvimento na síntese dos aprendizados?",
+        "options": [
+          { "value": "a", "label": "Para que eles se sintam importantes" },
+          { "value": "b", "label": "Para que eles entendam o 'porquê' por trás do que estão construindo e se sintam mais motivados" },
+          { "value": "c", "label": "Para que eles escrevam as anotações" },
+          { "value": "d", "label": "Para que eles possam criticar o cliente" }
+        ],
+        "explanation": "Quando a equipe de desenvolvimento ouve a voz do cliente e entende o problema, eles tomam decisões técnicas melhores e se tornam mais engajados na busca pelo Product-Market Fit.",
+        "hint": "Conexão com o usuário.",
+        "correctAnswer": "b",
+        "bookExample": "Um engenheiro que ouve um cliente frustrado com um bug é mais propenso a priorizar a correção do que um que apenas vê um ticket no Jira."
+      },
+      {
+        "id": "5",
+        "question": "O que é 'Triangulação de Dados'?",
+        "options": [
+          { "value": "a", "label": "Usar três tipos de perguntas" },
+          { "value": "b", "label": "Validar um insight usando múltiplas fontes (ex: entrevistas, dados de uso e pesquisas)" },
+          { "value": "c", "label": "Fazer três entrevistas por dia" },
+          { "value": "d", "label": "Usar três ferramentas de análise" }
+        ],
+        "explanation": "Triangulação significa que um insight é mais forte se for suportado por diferentes tipos de evidências. Por exemplo, se os clientes dizem que têm um problema (entrevista) E os dados mostram que eles abandonam o produto nesse ponto (dados de uso).",
+        "hint": "Confirmação cruzada.",
+        "correctAnswer": "b",
+        "bookExample": "Se 10 clientes dizem que a feature X é inútil, e os dados mostram que apenas 2% dos usuários a usam, o insight é triangulado e forte."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o risco de confiar apenas em dados quantitativos (métricas)?",
+        "options": [
+          { "value": "a", "label": "Os dados são sempre falsos" },
+          { "value": "b", "label": "Os dados mostram o 'o quê' (o comportamento), mas não o 'porquê' (a motivação e o contexto)" },
+          { "value": "c", "label": "Os dados são muito lentos" },
+          { "value": "d", "label": "Os dados são muito caros" }
+        ],
+        "explanation": "Dados quantitativos (o 'o quê') e qualitativos (o 'porquê') devem ser usados juntos. As entrevistas (qualitativas) explicam o comportamento que você vê nos números.",
+        "hint": "O 'porquê' é a chave para a solução.",
+        "correctAnswer": "b",
+        "bookExample": "Os dados mostram que a taxa de abandono é alta na página de checkout. A entrevista revela que os clientes não confiam na segurança da página."
+      },
+      {
+        "id": "7",
+        "question": "O que é 'Persona' no contexto de Customer Development?",
+        "options": [
+          { "value": "a", "label": "Um cliente real" },
+          { "value": "b", "label": "Um arquétipo semi-fictício do seu cliente ideal, baseado em dados e entrevistas" },
+          { "value": "c", "label": "Um ator contratado para entrevistas" },
+          { "value": "d", "label": "O nome da sua empresa" }
+        ],
+        "explanation": "Personas ajudam a equipe a se concentrar em quem eles estão construindo. Elas devem ser baseadas em dados reais, incluindo objetivos, dores e comportamentos.",
+        "hint": "Representação do cliente.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Pequenas Empresas', a persona é 'Ana, Gerente de Marketing de 35 anos, que precisa provar o ROI de suas campanhas, mas odeia planilhas'."
+      },
+      {
+        "id": "8",
+        "question": "Qual é o principal risco de criar Personas muito cedo?",
+        "options": [
+          { "value": "a", "label": "Elas ficam muito detalhadas" },
+          { "value": "b", "label": "Elas são baseadas em suposições, não em aprendizado validado, levando a decisões erradas" },
+          { "value": "c", "label": "Elas são muito caras" },
+          { "value": "d", "label": "Elas são muito simples" }
+        ],
+        "explanation": "Personas devem evoluir à medida que você aprende. Se você as cria no Dia 1, elas são apenas ficção e podem te guiar para a Build Trap.",
+        "hint": "Ficção vs. Fato.",
+        "correctAnswer": "b",
+        "bookExample": "Crie 'Personas de Hipótese' no início e as refine com base em cada entrevista."
       }
     ]
   }

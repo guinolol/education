@@ -1,15 +1,36 @@
 "use client";
 
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
-import microLessonsData from '@/data/microLessons.json';
+import momTestLessons from '@/data/microLessons.json';
+import tractionLessons from '@/data/tractionLessons.json';
+import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
+import runningLeanLessons from '@/data/runningLeanLessons.json';
+import leanCustomerDevelopmentLessons from '@/data/leanCustomerDevelopmentLessons.json';
+import scalingPeopleLessons from '@/data/scalingPeopleLessons.json';
 import NotFound from './NotFound';
+
+const lessonDataMap: Record<string, any[]> = {
+  momTest: momTestLessons,
+  traction: tractionLessons,
+  buildTrap: buildTrapLessons,
+  runningLean: runningLeanLessons,
+  leanCustomerDev: leanCustomerDevelopmentLessons,
+  scalingPeople: scalingPeopleLessons,
+};
 
 const MicroLessonPage = () => {
   const { lessonId } = useParams<{ lessonId: string }>();
+  const [searchParams] = useSearchParams();
+  const trilhaId = searchParams.get('trilha');
   const navigate = useNavigate();
 
-  const lesson = microLessonsData.find(l => l.id.toString() === lessonId);
+  if (!trilhaId || !lessonDataMap[trilhaId]) {
+    return <NotFound />;
+  }
+
+  const lessons = lessonDataMap[trilhaId];
+  const lesson = lessons.find(l => l.id.toString() === lessonId);
 
   if (!lesson) {
     return <NotFound />;

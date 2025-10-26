@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -9,12 +9,56 @@ import { Badge } from "@/components/ui/badge";
 import { 
   Trophy, Star, Zap, Target, Clock, 
   Play, CheckCircle, Lock, Flame,
-  TrendingUp, Award, BookOpen
+  TrendingUp, Award, BookOpen, Users, Rocket, Lightbulb
 } from "lucide-react";
+
+// Importar os dados das novas trilhas
+import momTestLessons from '@/data/microLessons.json';
+import tractionLessons from '@/data/tractionLessons.json';
+import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
+import runningLeanLessons from '@/data/runningLeanLessons.json';
+import leanCustomerDevelopmentLessons from '@/data/leanCustomerDevelopmentLessons.json';
+import scalingPeopleLessons from '@/data/scalingPeopleLessons.json';
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
 }
+
+interface Modulo {
+  id: number;
+  titulo: string;
+  descricao: string;
+  progresso: number;
+  desbloqueado: boolean;
+  concluido: boolean;
+  xp: number;
+  dificuldade: string;
+  duracao: string;
+  lessonId: number;
+}
+
+interface Trilha {
+  id: string;
+  titulo: string;
+  icone: React.ElementType;
+  lessons: Modulo[];
+  totalLessons: number;
+}
+
+const mapLessonsToModules = (data: any[], baseId: number, titlePrefix: string, icon: React.ElementType, difficulty: string): Modulo[] => {
+  return data.map((lesson, index) => ({
+    id: baseId + index,
+    titulo: `${titlePrefix}: ${lesson.title}`,
+    descricao: lesson.conclusionMessage.split('.')[0] + '.',
+    progresso: 0,
+    desbloqueado: true,
+    concluido: false,
+    xp: 50 + index * 10,
+    dificuldade: difficulty,
+    duracao: `${Math.ceil(lesson.questions.length * 1.5)} min`,
+    lessonId: lesson.id,
+  }));
+};
 
 const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   const navigate = useNavigate();
@@ -23,229 +67,76 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   const [xpProximoNivel, setXpProximoNivel] = useState(300);
   const [streak, setStreak] = useState(5);
   
-  const [modulos, setModulos] = useState([
+  // Mapeamento das lições para o formato de módulos
+  const trilhasData: Trilha[] = [
     {
-      id: 1,
-      titulo: "O Teste da Mãe - Fundamentos",
-      descricao: "Aprenda as regras básicas para conversas eficazes com clientes",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 50,
-      dificuldade: "iniciante",
-      duracao: "10 min"
+      id: 'momTest',
+      titulo: "Trilha 1: The Mom Test",
+      icone: BookOpen,
+      lessons: mapLessonsToModules(momTestLessons, 100, "Mom Test", BookOpen, "iniciante"),
+      totalLessons: momTestLessons.length,
     },
     {
-      id: 2,
-      titulo: "Evitando Dados Ruins",
-      descricao: "Como identificar e evitar elogios, fluff e ideias inúteis",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "iniciante",
-      duracao: "10 min"
+      id: 'runningLean',
+      titulo: "Trilha 2: Running Lean",
+      icone: Rocket,
+      lessons: mapLessonsToModules(runningLeanLessons, 200, "Running Lean", Rocket, "intermediario"),
+      totalLessons: runningLeanLessons.length,
     },
     {
-      id: 3,
-      titulo: "Perguntas Eficazes",
-      descricao: "Domine a arte de fazer perguntas que geram insights valiosos",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
+      id: 'buildTrap',
+      titulo: "Trilha 3: Escaping the Build Trap",
+      icone: Target,
+      lessons: mapLessonsToModules(buildTrapLessons, 300, "Build Trap", Target, "intermediario"),
+      totalLessons: buildTrapLessons.length,
     },
     {
-      id: 4,
-      titulo: "Compromisso e Avanço",
-      descricao: "Aprenda a validar sua solução e obter comprometimento real",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
+      id: 'traction',
+      titulo: "Trilha 4: Traction",
+      icone: TrendingUp,
+      lessons: mapLessonsToModules(tractionLessons, 400, "Traction", TrendingUp, "avancado"),
+      totalLessons: tractionLessons.length,
     },
     {
-      id: 5,
-      titulo: "Encontrando Pessoas",
-      descricao: "Estratégias para encontrar e conversar com clientes potenciais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "intermediario",
-      duracao: "12 min"
+      id: 'leanCustomerDev',
+      titulo: "Trilha 5: Lean Customer Development",
+      icone: Lightbulb,
+      lessons: mapLessonsToModules(leanCustomerDevelopmentLessons, 500, "Lean Customer Dev", Lightbulb, "avancado"),
+      totalLessons: leanCustomerDevelopmentLessons.length,
     },
     {
-      id: 6,
-      titulo: "Escolhendo Clientes",
-      descricao: "Como segmentar e encontrar seus clientes ideais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
+      id: 'scalingPeople',
+      titulo: "Trilha 6: Scaling People",
+      icone: Users,
+      lessons: mapLessonsToModules(scalingPeopleLessons, 600, "Scaling People", Users, "expert"),
+      totalLessons: scalingPeopleLessons.length,
     },
-    {
-      id: 7,
-      titulo: "Conversas Iniciais com Clientes",
-      descricao: "Como obter fatos concretos sobre a vida e visão de mundo do cliente",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "iniciante",
-      duracao: "10 min"
-    },
-    {
-      id: 8,
-      titulo: "Opiniões e Mercado",
-      descricao: "Entendendo por que apenas o mercado pode dizer se sua ideia é boa",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "iniciante",
-      duracao: "10 min"
-    },
-    {
-      id: 9,
-      titulo: "Perguntas sobre o Futuro",
-      descricao: "Como lidar com intenções futuras e mentiras otimistas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "12 min"
-    },
-    {
-      id: 10,
-      titulo: "Problemas e Soluções",
-      descricao: "Entendendo que os clientes sabem dos problemas mas você tem a solução",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "12 min"
-    },
-    {
-      id: 11,
-      titulo: "Objetivos dos Clientes",
-      descricao: "Como descobrir os verdadeiros objetivos por trás dos problemas percebidos",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 12,
-      titulo: "Distinguindo Problemas",
-      descricao: "Como identificar problemas que as pessoas pagarão para resolver",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 13,
-      titulo: "Observação Prática",
-      descricao: "Como observar alguém realizando uma tarefa para identificar problemas reais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 125,
-      dificuldade: "avancado",
-      duracao: "18 min"
-    },
-    {
-      id: 14,
-      titulo: "Seriedade dos Problemas",
-      descricao: "Como avaliar se os problemas são sérios o suficiente para gerar vendas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 125,
-      dificuldade: "avancado",
-      duracao: "18 min"
-    },
-    {
-      id: 15,
-      titulo: "Valor dos Problemas",
-      descricao: "Como entender o valor real de um problema para o cliente",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
-    },
-    {
-      id: 16,
-      titulo: "Ajuda Valiosa",
-      descricao: "Como obter ajuda e insights valiosos dos próprios clientes",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
-    },
-    {
-      id: 17,
-      titulo: "Conversas Frias",
-      descricao: "Como parar de ter conversas frias e gerar introduções calorosas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 175,
-      dificuldade: "expert",
-      duracao: "25 min"
-    },
-    {
-      id: 18,
-      titulo: "Estratégias de Conexão",
-      descricao: "Técnicas para encontrar e conversar com clientes potenciais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 175,
-      dificuldade: "expert",
-      duracao: "25 min"
-    },
-    {
-      id: 19,
-      titulo: "Introduções Calorosas",
-      descricao: "Como criar introduções valiosas com contatos, conselheiros e investidores",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 200,
-      dificuldade: "expert",
-      duracao: "30 min"
-    }
-  ]);
-
-  const conquistas = [
-    { id: 1, titulo: "Primeiros Passos", descricao: "Complete sua primeira microlição", icon: Trophy, conquistado: false },
-    { id: 2, titulo: "Maratona de 5 Dias", descricao: "Estude por 5 dias consecutivos", icon: Flame, conquistado: true },
-    { id: 3, titulo: "Aprendiz Rápido", descricao: "Complete 3 microlições em uma semana", icon: Zap, conquistado: false },
-    { id: 4, titulo: "Expert em Progresso", descricao: "Alcance o nível 5", icon: Award, conquistado: false }
   ];
 
-  const handleIniciarModulo = (moduloId: number) => {
-    const modulo = modulos.find(m => m.id === moduloId);
+  // Estado para armazenar o progresso real (simulado)
+  const [trilhas, setTrilhas] = useState(trilhasData);
+  const [trilhaSelecionada, setTrilhaSelecionada] = useState(trilhas[0]);
+
+  // Simulação de conclusão de lição (para fins de demonstração)
+  useEffect(() => {
+    // Simular que a primeira lição da primeira trilha está 50% completa
+    setTrilhas(prevTrilhas => {
+      const newTrilhas = [...prevTrilhas];
+      if (newTrilhas[0] && newTrilhas[0].lessons[0]) {
+        newTrilhas[0].lessons[0].progresso = 50;
+      }
+      return newTrilhas;
+    });
+  }, []);
+
+
+  const handleIniciarModulo = (trilhaId: string, lessonId: number) => {
+    const trilha = trilhas.find(t => t.id === trilhaId);
+    const modulo = trilha?.lessons.find(m => m.lessonId === lessonId);
+
     if (modulo && modulo.desbloqueado) {
-      navigate(`/lesson/${moduloId}`);
+      // O lessonId é o ID real dentro do JSON (1, 2, 3...)
+      navigate(`/lesson/${modulo.lessonId}?trilha=${trilhaId}`);
     }
   };
 
@@ -258,6 +149,17 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       default: return 'bg-gray-500';
     }
   };
+
+  const totalLessons = trilhas.reduce((sum, t) => sum + t.totalLessons, 0);
+  const completedLessons = trilhas.flatMap(t => t.lessons).filter(m => m.concluido).length;
+  const completionRate = totalLessons > 0 ? (completedLessons / totalLessons) * 100 : 0;
+
+  const conquistas = [
+    { id: 1, titulo: "Primeiros Passos", descricao: "Complete sua primeira microlição", icon: Trophy, conquistado: completedLessons > 0 },
+    { id: 2, titulo: "Maratona de 5 Dias", descricao: "Estude por 5 dias consecutivos", icon: Flame, conquistado: true },
+    { id: 3, titulo: "Aprendiz Rápido", descricao: "Complete 3 microlições em uma semana", icon: Zap, conquistado: completedLessons >= 3 },
+    { id: 4, titulo: "Expert em Progresso", descricao: "Alcance o nível 5", icon: Award, conquistado: nivel >= 5 }
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
@@ -303,13 +205,31 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
           {/* Módulos de Aprendizado */}
           <div className="lg:col-span-2">
             <Card className="p-6">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-2xl font-bold">Microlições - The Mom Test</h2>
-                <Badge variant="secondary">{modulos.length} Lições</Badge>
+              <h2 className="text-2xl font-bold mb-6">Trilhas de Aprendizado</h2>
+              
+              {/* Navegação de Trilhas */}
+              <div className="flex space-x-2 overflow-x-auto pb-4 mb-6 border-b border-gray-200 dark:border-gray-700">
+                {trilhas.map((trilha) => (
+                  <Button
+                    key={trilha.id}
+                    variant={trilhaSelecionada.id === trilha.id ? "default" : "outline"}
+                    onClick={() => setTrilhaSelecionada(trilha)}
+                    className="flex-shrink-0"
+                  >
+                    <trilha.icone className="w-4 h-4 mr-2" />
+                    {trilha.titulo.split(': ')[1]}
+                  </Button>
+                ))}
               </div>
 
               <div className="space-y-4">
-                {modulos.map((modulo) => (
+                <h3 className="text-xl font-bold flex items-center gap-2">
+                  <trilhaSelecionada.icone className="w-5 h-5 text-purple-600" />
+                  {trilhaSelecionada.titulo}
+                  <Badge variant="secondary">{trilhaSelecionada.totalLessons} Lições</Badge>
+                </h3>
+                
+                {trilhaSelecionada.lessons.map((modulo) => (
                   <Card 
                     key={modulo.id} 
                     className={`p-4 ${!modulo.desbloqueado ? 'opacity-60' : 'hover:shadow-lg'} transition-all cursor-pointer`}
@@ -349,7 +269,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                         {modulo.desbloqueado && !modulo.concluido && (
                           <Button 
                             size="sm"
-                            onClick={() => handleIniciarModulo(modulo.id)}
+                            onClick={() => handleIniciarModulo(trilhaSelecionada.id, modulo.lessonId)}
                           >
                             <Play className="w-4 h-4 mr-1" />
                             {modulo.progresso > 0 ? 'Continuar' : 'Iniciar'}
@@ -398,24 +318,24 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
             <Card className="p-6">
               <h3 className="text-xl font-bold mb-4 flex items-center">
                 <TrendingUp className="w-5 h-5 mr-2 text-green-500" />
-                Progresso
+                Progresso Geral
               </h3>
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span>Taxa de Conclusão</span>
-                    <span className="font-semibold">{Math.round((modulos.filter(m => m.concluido).length / modulos.length) * 100)}%</span>
+                    <span className="font-semibold">{Math.round(completionRate)}%</span>
                   </div>
-                  <Progress value={(modulos.filter(m => m.concluido).length / modulos.length) * 100} className="h-2" />
+                  <Progress value={completionRate} className="h-2" />
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-purple-50 dark:bg-purple-900 rounded-lg p-3">
-                    <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">{modulos.filter(m => m.concluido).length}</p>
+                    <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">{completedLessons}</p>
                     <p className="text-xs text-gray-500">Lições Completas</p>
                   </div>
                   <div className="bg-blue-50 dark:bg-blue-900 rounded-lg p-3">
-                    <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{modulos.length - modulos.filter(m => m.concluido).length}</p>
+                    <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{totalLessons - completedLessons}</p>
                     <p className="text-xs text-gray-500">Restantes</p>
                   </div>
                 </div>

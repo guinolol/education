@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Escaping the Build Trap: Outputs vs. Outcomes",
-    "conclusionMessage": "Você completou a microlição sobre a Armadilha da Construção. Agora você entende a diferença crucial between outputs e outcomes para criar produtos de sucesso.",
+    "title": "Build Trap: Outputs vs. Outcomes",
+    "conclusionMessage": "Você completou a microlição sobre a Armadilha da Construção. Agora você entende a diferença crucial entre outputs e outcomes para criar produtos de sucesso.",
     "questions": [
       {
         "id": "1",
@@ -15,20 +15,22 @@
         ],
         "explanation": "A Armadilha da Construção é quando as empresas se concentram em entregar funcionalidades (outputs) e medem o sucesso pela quantidade e velocidade, em vez de focar no valor que essas funcionalidades geram para os clientes e para o negócio (outcomes).",
         "hint": "Pense na diferença entre 'estar ocupado' e 'ser produtivo'.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Uma equipe que entrega 50 'pontos de história' por sprint, mas não consegue provar que isso melhorou a vida do cliente, está na Build Trap."
       },
       {
         "id": "2",
         "question": "Qual é a diferença entre um 'output' e um 'outcome'?",
         "options": [
           { "value": "a", "label": "Output é o resultado financeiro, outcome é o produto" },
-          { "value": "b", "label": "Não há diferença, são sinônimos" },
-          { "value": "c", "label": "Output é o que você produz (ex: uma feature), outcome é a mudança de comportamento do usuário que gera valor" },
-          { "value": "d", "label": "Output é o plano, outcome é a execução" }
+          { "value": "b", "label": "Output é o que você produz (ex: uma feature), outcome é a mudança de comportamento do usuário que gera valor" },
+          { "value": "c", "label": "Output é o plano, outcome é a execução" },
+          { "value": "d", "label": "Não há diferença, são sinônimos" }
         ],
         "explanation": "Um output é a coisa que você cria, como uma nova funcionalidade. Um outcome é uma mudança mensurável no comportamento do cliente que cria valor, como 'aumentar a retenção de usuários em 10%'.",
         "hint": "Um é a 'coisa', o outro é o 'impacto'.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Output: 'Lançar um novo botão de compartilhamento'. Outcome: 'Aumentar o compartilhamento de conteúdo em 20% em 3 meses'."
       },
       {
         "id": "3",
@@ -41,20 +43,22 @@
         ],
         "explanation": "Uma organização 'product-led' (liderada por produto) foca em alcançar os objetivos de negócio resolvendo os problemas dos clientes de uma forma que os concorrentes não conseguem. O foco está nos outcomes.",
         "hint": "O produto é o motor do crescimento e da estratégia.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Em uma empresa product-led, o CEO pergunta: 'Qual problema do cliente estamos resolvendo hoje?', não 'Quantas features lançamos?'"
       },
       {
         "id": "4",
         "question": "Por que medir o sucesso por 'velocity' (pontos de história entregues) pode ser perigoso?",
         "options": [
           { "value": "a", "label": "Porque incentiva a equipe a trabalhar devagar" },
-          { "value": "b", "label": "Porque é uma métrica difícil de calcular" },
-          { "value": "c", "label": "Porque mede atividade (output), não valor (outcome)" },
+          { "value": "b", "label": "Porque mede atividade (output), não valor (outcome)" },
+          { "value": "c", "label": "Porque é uma métrica difícil de calcular" },
           { "value": "d", "label": "Porque apenas o CEO deve se preocupar com métricas" }
         ],
         "explanation": "Medir o sucesso pela velocidade de entrega de funcionalidades incentiva a equipe a construir mais coisas, independentemente de essas coisas gerarem valor. É um clássico sintoma da Armadilha da Construção.",
         "hint": "Você pode estar correndo muito rápido na direção errada.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se a equipe está entregando 100 pontos por sprint, mas a retenção de clientes está caindo, a alta velocidade é inútil."
       },
       {
         "id": "5",
@@ -67,73 +71,288 @@
         ],
         "explanation": "Uma boa estratégia de produto atua como uma ponte entre a visão da empresa e o trabalho da equipe. Ela define os objetivos (outcomes) a serem alcançados e orienta as decisões sobre o que construir (ou não construir).",
         "hint": "É o 'porquê' por trás do 'o quê'.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "A estratégia deve responder: 'Qual é o problema mais importante que podemos resolver para o cliente que nos levará ao objetivo de negócio X?'"
+      },
+      {
+        "id": "6",
+        "question": "O que é um 'roadmap de features' e por que é perigoso?",
+        "options": [
+          { "value": "a", "label": "Um plano de marketing" },
+          { "value": "b", "label": "Uma lista de outputs que se compromete com soluções antes de validar o problema" },
+          { "value": "c", "label": "Um documento de visão de longo prazo" },
+          { "value": "d", "label": "Uma ferramenta de gestão de tempo" }
+        ],
+        "explanation": "Um roadmap focado em features (ex: 'Lançar feature X no Q3') prende a equipe a construir coisas, independentemente do aprendizado. Ele se compromete com a solução, não com o problema.",
+        "hint": "Comprometa-se com problemas, não com soluções.",
+        "correctAnswer": "b",
+        "bookExample": "Um roadmap de outcomes diria: 'Aumentar a retenção de usuários em 10% no Q3', dando liberdade à equipe para descobrir a melhor feature para isso."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o papel do Gerente de Produto em uma organização que está na Build Trap?",
+        "options": [
+          { "value": "a", "label": "Ser o estrategista principal" },
+          { "value": "b", "label": "Apenas escrever user stories e gerenciar o backlog (o 'gerente de backlog')" },
+          { "value": "c", "label": "Fazer vendas" },
+          { "value": "d", "label": "Programar" }
+        ],
+        "explanation": "Na Build Trap, o PM é frequentemente reduzido a um 'gerente de backlog', cuja principal função é garantir que a equipe de desenvolvimento esteja ocupada, em vez de garantir que o produto gere valor.",
+        "hint": "Pense em tática vs. estratégia.",
+        "correctAnswer": "b",
+        "bookExample": "Se o PM passa 80% do tempo organizando tickets e 20% falando com clientes, ele é um gerente de backlog."
+      },
+      {
+        "id": "8",
+        "question": "O que significa 'Product-Market Fit' (PMF) no contexto de outcomes?",
+        "options": [
+          { "value": "a", "label": "Ter um produto que funciona tecnicamente" },
+          { "value": "b", "label": "Ter um produto que satisfaz um mercado de forma lucrativa e sustentável" },
+          { "value": "c", "label": "Ter muitos usuários" },
+          { "value": "d", "label": "Ter um bom design" }
+        ],
+        "explanation": "PMF é o ponto onde você encontrou um mercado e um produto que o satisfaz. É o resultado de focar em outcomes: o produto está gerando a mudança de comportamento desejada no cliente e no negócio.",
+        "hint": "É a interseção entre o problema do cliente e o valor do negócio.",
+        "correctAnswer": "b",
+        "bookExample": "Marc Andreessen define PMF como 'estar em um bom mercado com um produto que pode satisfazer esse mercado'."
       }
     ]
   },
   {
     "id": 2,
-    "title": "Escaping the Build Trap: O Papel do Gerente de Produto",
-    "conclusionMessage": "Você aprendeu sobre o verdadeiro papel do Gerente de Produto. Não é ser um 'gerente de backlog', mas um estrategista que guia o produto para gerar outcomes.",
+    "title": "Build Trap: Estratégia de Produto",
+    "conclusionMessage": "Você aprendeu a importância de uma estratégia de produto clara e focada em outcomes.",
     "questions": [
       {
         "id": "1",
-        "question": "Qual NÃO é o papel de um bom Gerente de Produto?",
+        "question": "Qual é o principal propósito da Estratégia de Produto?",
+        "options": [
+          { "value": "a", "label": "Listar todas as features que serão construídas" },
+          { "value": "b", "label": "Definir a visão, os objetivos (outcomes) e o caminho para alcançá-los" },
+          { "value": "c", "label": "Gerenciar o orçamento de desenvolvimento" },
+          { "value": "d", "label": "Garantir que a equipe esteja ocupada" }
+        ],
+        "explanation": "A estratégia de produto é o plano de alto nível que conecta a visão da empresa (o futuro desejado) com as ações diárias da equipe, focando em resultados mensuráveis (outcomes).",
+        "hint": "É o mapa que guia as decisões.",
+        "correctAnswer": "b",
+        "bookExample": "Uma boa estratégia de produto deve ser capaz de dizer 'não' a 90% das ideias que surgem."
+      },
+      {
+        "id": "2",
+        "question": "O que é o 'Product Vision' (Visão do Produto)?",
+        "options": [
+          { "value": "a", "label": "O design da interface" },
+          { "value": "b", "label": "O futuro que você está tentando criar para seus clientes e para o mundo" },
+          { "value": "c", "label": "O próximo trimestre de trabalho" },
+          { "value": "d", "label": "A lista de concorrentes" }
+        ],
+        "explanation": "A Visão do Produto é a declaração inspiradora de longo prazo (5-10 anos) sobre o impacto que o produto terá. Ela serve como um farol para todas as decisões.",
+        "hint": "É o 'porquê' final.",
+        "correctAnswer": "b",
+        "bookExample": "A visão do Google era 'organizar a informação mundial e torná-la universalmente acessível e útil'."
+      },
+      {
+        "id": "3",
+        "question": "Como a estratégia de produto se relaciona com os objetivos de negócio?",
+        "options": [
+          { "value": "a", "label": "Eles são independentes" },
+          { "value": "b", "label": "A estratégia de produto deve ser o meio para atingir os objetivos de negócio (ex: aumentar receita, reduzir custos)" },
+          { "value": "c", "label": "A estratégia de produto ignora os objetivos de negócio" },
+          { "value": "d", "label": "A estratégia de produto é o objetivo de negócio" }
+        ],
+        "explanation": "A estratégia de produto é o motor que impulsiona os objetivos de negócio. Se o objetivo é 'aumentar a receita', a estratégia de produto define quais problemas dos clientes serão resolvidos para que isso aconteça.",
+        "hint": "O produto é a ferramenta para o sucesso da empresa.",
+        "correctAnswer": "b",
+        "bookExample": "Se o objetivo de negócio é 'entrar no mercado europeu', a estratégia de produto deve focar em resolver problemas de clientes europeus (ex: conformidade com GDPR)."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Product Kata'?",
+        "options": [
+          { "value": "a", "label": "Um tipo de arte marcial para PMs" },
+          { "value": "b", "label": "Um padrão repetitivo para analisar a situação atual, definir metas e experimentar para alcançá-las" },
+          { "value": "c", "label": "Um software de gerenciamento de projetos" },
+          { "value": "d", "label": "Um processo de design de interfaces" }
+        ],
+        "explanation": "O Product Kata é um ciclo de melhoria contínua: 1. Entender a direção estratégica. 2. Analisar onde você está agora. 3. Definir o próximo objetivo (outcome). 4. Experimentar para chegar lá, aprendendo no caminho.",
+        "hint": "É um ciclo de aprendizado e execução.",
+        "correctAnswer": "b",
+        "bookExample": "O ciclo Kata força a equipe a se perguntar: 'Qual é o nosso próximo outcome alvo? Qual é o maior obstáculo? Qual é o próximo experimento para superar esse obstáculo?'"
+      },
+      {
+        "id": "5",
+        "question": "Por que o 'Product Kata' ajuda a escapar da Build Trap?",
+        "options": [
+          { "value": "a", "label": "Porque ele foca em outputs" },
+          { "value": "b", "label": "Porque ele força a equipe a focar em outcomes e a aprender através de experimentos" },
+          { "value": "c", "label": "Porque ele elimina a necessidade de reuniões" },
+          { "value": "d", "label": "Porque ele é rápido" }
+        ],
+        "explanation": "O Kata muda o foco da entrega de features para a resolução de problemas e o aprendizado. A equipe só constrói algo se for o experimento mais provável para atingir o outcome alvo.",
+        "hint": "Aprendizado e foco em resultados.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Construir feature X', a equipe se pergunta: 'O que precisamos aprender para aumentar a retenção em 5%?'"
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Product Discovery'?",
+        "options": [
+          { "value": "a", "label": "A fase de lançamento do produto" },
+          { "value": "b", "label": "O processo contínuo de entender o cliente, o problema e validar a solução antes de construir" },
+          { "value": "c", "label": "Apenas testes A/B" },
+          { "value": "d", "label": "A fase de vendas" }
+        ],
+        "explanation": "Product Discovery é a fase de pesquisa e validação. É onde o PM e a equipe garantem que estão construindo a coisa certa, através de entrevistas, protótipos e testes de usabilidade.",
+        "hint": "Descobrir o que construir.",
+        "correctAnswer": "b",
+        "bookExample": "Um PM gasta 50% do tempo em Discovery (conversando com clientes) e 50% em Delivery (trabalhando com engenharia)."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o risco de negligenciar o Product Discovery?",
+        "options": [
+          { "value": "a", "label": "O produto será muito lento" },
+          { "value": "b", "label": "Cair na Build Trap, construindo outputs que ninguém quer ou precisa" },
+          { "value": "c", "label": "A equipe de engenharia ficará desocupada" },
+          { "value": "d", "label": "O design será feio" }
+        ],
+        "explanation": "Sem Discovery, a equipe constrói com base em suposições, o que leva à Build Trap. Você entrega features rapidamente, mas elas não geram os outcomes desejados.",
+        "hint": "Construir a coisa errada mais rápido.",
+        "correctAnswer": "b",
+        "bookExample": "A equipe gasta 6 meses construindo uma feature que, após o lançamento, é usada por menos de 1% dos clientes."
+      },
+      {
+        "id": "8",
+        "question": "O que significa 'Comprometer-se com o Outcome, não com a Feature'?",
+        "options": [
+          { "value": "a", "label": "Não construir nada" },
+          { "value": "b", "label": "Definir metas de impacto (ex: 'aumentar a retenção') e deixar a equipe decidir a melhor feature para atingir essa meta" },
+          { "value": "c", "label": "Prometer ao cliente que a feature será entregue" },
+          { "value": "d", "label": "Focar apenas em métricas financeiras" }
+        ],
+        "explanation": "Isso é o cerne de escapar da Build Trap. A liderança define o 'porquê' (o outcome), e a equipe de produto define o 'o quê' (a feature) e o 'como' (a execução).",
+        "hint": "Autonomia para a equipe de produto.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Construir um chat bot', o compromisso é 'Reduzir o tempo de resposta do suporte em 50%'."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Build Trap: O Papel do PM Estratégico",
+    "conclusionMessage": "Você aprendeu a diferença entre um PM tático e um PM estratégico, e como se tornar um líder de produto focado em valor.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual NÃO é o papel de um Gerente de Produto Estratégico?",
         "options": [
           { "value": "a", "label": "Entender profundamente os problemas do cliente" },
           { "value": "b", "label": "Definir a visão e estratégia do produto" },
           { "value": "c", "label": "Apenas escrever user stories e gerenciar o backlog" },
           { "value": "d", "label": "Colaborar com stakeholders para alinhar objetivos" }
         ],
-        "explanation": "Muitas empresas relegam os PMs a 'gerentes de backlog' ou 'escribas de features', o que é um sintoma da Build Trap. O verdadeiro papel é estratégico: entender o cliente e o negócio para guiar o produto na direção certa.",
-        "hint": "Pense em estratégia vs. tática.",
-        "correctAnswer": "c"
+        "explanation": "O PM estratégico é um estrategista. Apenas gerenciar o backlog é um papel tático que o mantém preso na Build Trap.",
+        "hint": "O PM deve ser um líder de negócios, não um secretário de engenharia.",
+        "correctAnswer": "c",
+        "bookExample": "Um PM estratégico gasta tempo com o CEO e o CFO, alinhando a estratégia de produto com os objetivos financeiros da empresa."
       },
       {
         "id": "2",
         "question": "O que significa dizer que um Gerente de Produto deve ser o 'advogado do cliente'?",
         "options": [
           { "value": "a", "label": "Que ele deve construir tudo que o cliente pede" },
-          { "value": "b", "label": "Que ele deve processar legalmente os concorrentes" },
-          { "value": "c", "label": "Que ele deve ter um profundo conhecimento empático dos problemas e necessidades do cliente para representar sua voz" },
+          { "value": "b", "label": "Que ele deve ter um profundo conhecimento empático dos problemas e necessidades do cliente para representar sua voz" },
+          { "value": "c", "label": "Que ele deve processar legalmente os concorrentes" },
           { "value": "d", "label": "Que ele deve responder a todos os tickets de suporte" }
         ],
         "explanation": "Ser o advogado do cliente significa entender suas dores e contexto tão bem que você pode tomar decisões de produto que realmente resolvam seus problemas, mesmo que eles não saibam articular a solução.",
         "hint": "Empatia é a palavra-chave.",
-        "correctAnswer": "c"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Escaping the Build Trap: Estratégia e O Product Kata",
-    "conclusionMessage": "Você aprendeu sobre o Product Kata, um framework para criar e executar uma estratégia de produto focada em outcomes.",
-    "questions": [
-      {
-        "id": "1",
-        "question": "O que é o 'Product Kata'?",
-        "options": [
-          { "value": "a", "label": "Um tipo de arte marcial para PMs" },
-          { "value": "b", "label": "Um processo de design de interfaces" },
-          { "value": "c", "label": "Um padrão repetitivo para analisar a situação atual, definir metas e experimentar para alcançá-las" },
-          { "value": "d", "label": "Um software de gerenciamento de projetos" }
-        ],
-        "explanation": "O Product Kata é um ciclo de melhoria contínua: 1. Entender a direção estratégica. 2. Analisar onde você está agora. 3. Definir o próximo objetivo (outcome). 4. Experimentar para chegar lá, aprendendo no caminho.",
-        "hint": "É um ciclo de aprendizado e execução.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "O PM deve ser capaz de dizer 'Não, não vamos construir essa feature, porque o cliente X, Y e Z realmente precisam resolver o problema A, que é mais urgente'."
       },
       {
-        "id": "2",
-        "question": "Por que um 'roadmap de features' é um sintoma da Build Trap?",
+        "id": "3",
+        "question": "Qual é a principal responsabilidade do PM em relação à equipe de desenvolvimento?",
         "options": [
-          { "value": "a", "label": "Porque roadmaps são inúteis" },
-          { "value": "b", "label": "Porque ele se compromete com uma lista de outputs, em vez de focar em alcançar outcomes" },
-          { "value": "c", "label": "Porque é difícil de estimar os prazos" },
-          { "value": "d", "label": "Porque apenas o CEO deveria ver o roadmap" }
+          { "value": "a", "label": "Garantir que eles trabalhem 100% do tempo" },
+          { "value": "b", "label": "Fornecer clareza sobre o 'porquê' (o outcome) e o 'o quê' (o problema a ser resolvido)" },
+          { "value": "c", "label": "Gerenciar o código" },
+          { "value": "d", "label": "Definir a arquitetura técnica" }
         ],
-        "explanation": "Um roadmap focado em features (ex: 'Lançar feature X no Q3') prende a equipe a construir coisas, independentemente do aprendizado. Um roadmap focado em outcomes (ex: 'Aumentar a ativação de novos usuários em 15% no Q3') dá autonomia para a equipe descobrir a melhor solução.",
-        "hint": "Comprometa-se com problemas, não com soluções.",
-        "correctAnswer": "b"
+        "explanation": "O PM é responsável por garantir que a equipe saiba o problema que está resolvendo e o resultado esperado. A equipe de engenharia é responsável pelo 'como' (a solução técnica).",
+        "hint": "Clareza de propósito.",
+        "correctAnswer": "b",
+        "bookExample": "Se a equipe de engenharia não consegue explicar o outcome que está tentando alcançar, o PM falhou em sua principal responsabilidade."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Product Leadership'?",
+        "options": [
+          { "value": "a", "label": "Apenas gerenciar outros PMs" },
+          { "value": "b", "label": "Criar o ambiente e os sistemas para que as equipes de produto possam gerar outcomes de forma consistente" },
+          { "value": "c", "label": "Ser o PM mais experiente" },
+          { "value": "d", "label": "Escrever a documentação" }
+        ],
+        "explanation": "Liderança de Produto é sobre construir a organização e a cultura que permite que o produto prospere. Isso inclui definir a estratégia, o modelo operacional e o desenvolvimento de talentos.",
+        "hint": "Construir o sistema, não apenas o produto.",
+        "correctAnswer": "b",
+        "bookExample": "Um líder de produto garante que todas as equipes tenham clareza sobre seus outcomes e que os stakeholders estejam alinhados."
+      },
+      {
+        "id": "5",
+        "question": "Como o PM deve lidar com stakeholders que exigem features específicas?",
+        "options": [
+          { "value": "a", "label": "Construir imediatamente para mantê-los felizes" },
+          { "value": "b", "label": "Usar a estratégia de produto para redirecionar a conversa para o problema e o outcome desejado" },
+          { "value": "c", "label": "Ignorar o stakeholder" },
+          { "value": "d", "label": "Prometer a feature para o próximo trimestre" }
+        ],
+        "explanation": "O PM deve ser um mestre em redirecionar a conversa. Em vez de aceitar a feature, pergunte: 'Que problema essa feature resolve? Qual outcome você espera?'",
+        "hint": "Foque no 'porquê', não no 'o quê'.",
+        "correctAnswer": "b",
+        "bookExample": "Stakeholder: 'Precisamos de um botão verde!' PM: 'Entendi. Qual é o resultado que você espera com esse botão? O que ele permitirá que o usuário faça que ele não pode fazer hoje?'"
+      },
+      {
+        "id": "6",
+        "question": "Qual é a principal diferença entre um PM e um Gerente de Projeto (Project Manager)?",
+        "options": [
+          { "value": "a", "label": "O PM foca no 'porquê' e 'o quê' (valor); o Gerente de Projeto foca no 'como' e 'quando' (entrega)" },
+          { "value": "b", "label": "O PM é mais importante" },
+          { "value": "c", "label": "O Gerente de Projeto escreve user stories" },
+          { "value": "d", "label": "O PM gerencia o orçamento" }
+        ],
+        "explanation": "O PM é responsável por garantir que o produto certo seja construído (valor). O Gerente de Projeto (ou Scrum Master) é responsável por garantir que o produto seja construído de forma eficiente (entrega).",
+        "hint": "Valor vs. Eficiência.",
+        "correctAnswer": "a",
+        "bookExample": "O PM decide se o trem deve ir para Nova York. O Gerente de Projeto garante que o trem chegue lá no prazo e dentro do orçamento."
+      },
+      {
+        "id": "7",
+        "question": "O que significa 'Product Sense'?",
+        "options": [
+          { "value": "a", "label": "Ter um bom olfato" },
+          { "value": "b", "label": "A capacidade intuitiva de entender o que os clientes querem e o que fará um produto ser bem-sucedido" },
+          { "value": "c", "label": "Apenas ter experiência" },
+          { "value": "d", "label": "Saber programar" }
+        ],
+        "explanation": "Product Sense é a intuição aprimorada por dados e experiência que permite ao PM tomar boas decisões mesmo com informações incompletas. É a capacidade de prever o que gerará valor.",
+        "hint": "Intuição informada.",
+        "correctAnswer": "b",
+        "bookExample": "Um PM com bom Product Sense pode olhar para um protótipo e dizer: 'Isso não vai resolver o problema de retenção, porque não aborda a dor X do usuário'."
+      },
+      {
+        "id": "8",
+        "question": "Qual é a principal ferramenta do PM para alinhar a equipe e os stakeholders?",
+        "options": [
+          { "value": "a", "label": "O backlog" },
+          { "value": "b", "label": "A estratégia de produto e os Outcomes (OKRs)" },
+          { "value": "c", "label": "O código" },
+          { "value": "d", "label": "O calendário de reuniões" }
+        ],
+        "explanation": "A estratégia de produto e os Outcomes (geralmente definidos via OKRs) são as ferramentas de alinhamento. Eles garantem que todos, desde o CEO até o engenheiro, saibam qual resultado a empresa está buscando.",
+        "hint": "O 'porquê' unifica.",
+        "correctAnswer": "b",
+        "bookExample": "Se todos sabem que o Outcome é 'Reduzir o Churn em 5%', todas as decisões de feature podem ser avaliadas contra esse objetivo."
       }
     ]
   }

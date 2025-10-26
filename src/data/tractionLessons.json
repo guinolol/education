@@ -6,19 +6,6 @@
     "questions": [
       {
         "id": "1",
-        "question": "Quantos canais de tração o livro 'Traction' identifica?",
-        "options": [
-          { "value": "a", "label": "10" },
-          { "value": "b", "label": "19" },
-          { "value": "c", "label": "5" },
-          { "value": "d", "label": "25" }
-        ],
-        "explanation": "O livro identifica 19 canais de tração que uma startup pode usar para conseguir clientes.",
-        "hint": "É um número específico e maior do que se costuma pensar.",
-        "correctAnswer": "b"
-      },
-      {
-        "id": "2",
         "question": "Qual é o objetivo do anel externo (Outer Ring) no Framework Bullseye?",
         "options": [
           { "value": "a", "label": "Focar nos canais que já funcionam" },
@@ -28,10 +15,11 @@
         ],
         "explanation": "O anel externo é para brainstorming. O objetivo é pensar em como cada um dos 19 canais de tração poderia funcionar para o seu negócio.",
         "hint": "Pense na fase mais ampla e criativa do processo.",
-        "correctAnswer": "c"
+        "correctAnswer": "c",
+        "bookExample": "Liste 3-5 ideias de como você usaria cada um dos 19 canais para o seu produto."
       },
       {
-        "id": "3",
+        "id": "2",
         "question": "O que você faz no anel do meio (Middle Ring)?",
         "options": [
           { "value": "a", "label": "Executar campanhas em larga escala" },
@@ -41,10 +29,11 @@
         ],
         "explanation": "O anel do meio é para testes. Você pega as melhores ideias do anel externo e realiza testes pequenos e baratos para ver quais canais realmente têm potencial.",
         "hint": "Esta é a fase de experimentação para coletar dados.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Se você está testando SEO, o teste pode ser escrever 3 artigos de blog e medir o tráfego, em vez de otimizar o site inteiro."
       },
       {
-        "id": "4",
+        "id": "3",
         "question": "Qual é o foco do anel interno (Inner Ring)?",
         "options": [
           { "value": "a", "label": "Focar intensamente no único canal que está funcionando melhor" },
@@ -54,10 +43,11 @@
         ],
         "explanation": "O anel interno representa o foco. Após os testes, você identifica o canal que está funcionando melhor e direciona todos os seus esforços e recursos para ele até que sature.",
         "hint": "É aqui que você aposta suas fichas.",
-        "correctAnswer": "a"
+        "correctAnswer": "a",
+        "bookExample": "Se o Marketing de Conteúdo está gerando o melhor ROI, você deve contratar escritores, otimizar a produção e investir 80% do seu tempo neste canal."
       },
       {
-        "id": "5",
+        "id": "4",
         "question": "Por que é importante focar em apenas um canal de tração por vez?",
         "options": [
           { "value": "a", "label": "Porque é mais barato" },
@@ -67,18 +57,12 @@
         ],
         "explanation": "É muito difícil dominar vários canais de tração simultaneamente. Focar em um permite que você otimize e extraia o máximo de crescimento dele antes de passar para o próximo.",
         "hint": "Pense na profundidade versus a largura do esforço.",
-        "correctAnswer": "b"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Traction: A Regra dos 50%",
-    "conclusionMessage": "Você aprendeu sobre a Regra dos 50%. Agora você entende a importância de equilibrar o desenvolvimento do produto com os esforços de tração.",
-    "questions": [
+        "correctAnswer": "b",
+        "bookExample": "Muitas startups falham porque tentam fazer 5 canais de forma medíocre, em vez de dominar 1."
+      },
       {
-        "id": "1",
-        "question": "O que é a 'Regra dos 50%' em Traction?",
+        "id": "5",
+        "question": "Qual é a 'Regra dos 50%' em Traction?",
         "options": [
           { "value": "a", "label": "Gastar 50% do orçamento em marketing" },
           { "value": "b", "label": "Dedicar 50% do tempo ao desenvolvimento do produto e 50% à tração" },
@@ -87,10 +71,11 @@
         ],
         "explanation": "A Regra dos 50% sugere que as startups devem alocar metade de seu tempo e recursos para o desenvolvimento do produto e a outra metade para ganhar tração (conseguir clientes).",
         "hint": "É sobre o equilíbrio entre construir e vender.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Se você é um fundador técnico, você deve forçar-se a gastar metade do seu tempo fora do código, falando com clientes ou testando canais."
       },
       {
-        "id": "2",
+        "id": "6",
         "question": "Qual é o erro mais comum que a Regra dos 50% tenta evitar?",
         "options": [
           { "value": "a", "label": "Gastar muito em marketing e pouco em produto" },
@@ -100,27 +85,43 @@
         ],
         "explanation": "Muitas startups, especialmente as fundadas por engenheiros, caem na armadilha de focar exclusivamente em construir o melhor produto, assumindo que os clientes virão sozinhos. A regra força um equilíbrio.",
         "hint": "Pense no viés de 'se eu construir, eles virão'.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "O 'Build it and they will come' é um mito perigoso. Você precisa de tração para validar o produto."
       },
       {
-        "id": "3",
-        "question": "Quando você deve começar a pensar em tração?",
+        "id": "7",
+        "question": "O que é um 'canal de tração'?",
         "options": [
-          { "value": "a", "label": "Apenas depois que o produto estiver 100% pronto" },
-          { "value": "b", "label": "Desde o primeiro dia, em paralelo com o desenvolvimento do produto" },
-          { "value": "c", "label": "Quando o financiamento inicial estiver acabando" },
-          { "value": "d", "label": "Após contratar uma equipe de marketing" }
+          { "value": "a", "label": "Qualquer forma de comunicação com o cliente" },
+          { "value": "b", "label": "Um método para distribuir seu produto e conseguir clientes" },
+          { "value": "c", "label": "Uma métrica de crescimento" },
+          { "value": "d", "label": "Um tipo de marketing" }
         ],
-        "explanation": "A tração e o desenvolvimento do produto devem andar de mãos dadas desde o início. O feedback dos primeiros usuários (tração) informa o que construir a seguir (produto).",
-        "hint": "É um ciclo, não uma sequência.",
-        "correctAnswer": "b"
+        "explanation": "Um canal de tração é qualquer método que você usa para distribuir seu produto e conseguir clientes. O livro lista 19 deles, desde SEO até Vendas Diretas.",
+        "hint": "É o caminho que o cliente percorre até você.",
+        "correctAnswer": "b",
+        "bookExample": "SEO, Relações Públicas, Anúncios Pagos, Vendas Diretas, Marketing de Conteúdo são exemplos de canais de tração."
+      },
+      {
+        "id": "8",
+        "question": "Qual é a principal métrica que você deve usar para avaliar um teste de canal de tração?",
+        "options": [
+          { "value": "a", "label": "Custo por Aquisição (CPA)" },
+          { "value": "b", "label": "Número de cliques" },
+          { "value": "c", "label": "Tempo gasto no canal" },
+          { "value": "d", "label": "Opinião dos amigos" }
+        ],
+        "explanation": "O Custo por Aquisição (CPA) é crucial. Você precisa saber quanto custa para conseguir um cliente através daquele canal e se isso é sustentável em relação ao Lifetime Value (LTV) do cliente.",
+        "hint": "O teste deve ser mensurável e focado em custo/benefício.",
+        "correctAnswer": "a",
+        "bookExample": "Se o CPA for $100 e o LTV for $50, o canal não é viável. Se o CPA for $10 e o LTV for $50, é um canal promissor."
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Traction: Canais Online",
-    "conclusionMessage": "Você explorou alguns dos principais canais de tração online. Agora você tem uma ideia melhor de como SEO, Marketing de Conteúdo e Anúncios podem funcionar.",
+    "id": 2,
+    "title": "Traction: Canais de Conteúdo (SEO e Marketing de Conteúdo)",
+    "conclusionMessage": "Você explorou os canais de conteúdo. Agora você sabe como usar SEO e Marketing de Conteúdo para gerar tráfego orgânico e sustentável.",
     "questions": [
       {
         "id": "1",
@@ -133,10 +134,39 @@
         ],
         "explanation": "Embora demore para dar resultados, uma boa estratégia de SEO pode gerar um fluxo constante de clientes altamente qualificados que estão procurando ativamente por sua solução, de forma 'gratuita'.",
         "hint": "Pense em um ativo que se valoriza com o tempo.",
-        "correctAnswer": "c"
+        "correctAnswer": "c",
+        "bookExample": "Empresas como HubSpot e Moz construíram seus impérios de tração quase inteiramente em torno de SEO e Marketing de Conteúdo."
       },
       {
         "id": "2",
+        "question": "O que é 'Marketing de Conteúdo' no contexto de tração?",
+        "options": [
+          { "value": "a", "label": "Apenas escrever posts de blog" },
+          { "value": "b", "label": "Criar e distribuir conteúdo valioso (blogs, vídeos, e-books) para atrair e reter um público-alvo" },
+          { "value": "c", "label": "Fazer anúncios em redes sociais" },
+          { "value": "d", "label": "Otimizar palavras-chave" }
+        ],
+        "explanation": "Marketing de Conteúdo é a criação estratégica de conteúdo que resolve os problemas do seu público, estabelecendo sua marca como uma autoridade e gerando leads de forma orgânica.",
+        "hint": "O foco é em valor para o leitor, não em vendas diretas.",
+        "correctAnswer": "b",
+        "bookExample": "Um e-book gratuito sobre 'Como evitar os 5 erros mais comuns em [seu nicho]' é um exemplo de Marketing de Conteúdo que gera leads."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a diferença entre SEO e Marketing de Conteúdo?",
+        "options": [
+          { "value": "a", "label": "SEO é a tática de otimizar o conteúdo; Marketing de Conteúdo é a estratégia de criar o conteúdo" },
+          { "value": "b", "label": "SEO é pago, Marketing de Conteúdo é gratuito" },
+          { "value": "c", "label": "SEO é para B2B, Marketing de Conteúdo é para B2C" },
+          { "value": "d", "label": "Não há diferença" }
+        ],
+        "explanation": "Marketing de Conteúdo é a estratégia de criação de valor, enquanto SEO é o conjunto de táticas para garantir que esse conteúdo seja encontrado pelos mecanismos de busca.",
+        "hint": "Um é o 'o quê', o outro é o 'como' o 'o quê' é encontrado.",
+        "correctAnswer": "a",
+        "bookExample": "Você pode ter um ótimo conteúdo (Marketing de Conteúdo), mas se ele não estiver otimizado para palavras-chave (SEO), ninguém o encontrará."
+      },
+      {
+        "id": "4",
         "question": "O que é 'Engenharia como Marketing'?",
         "options": [
           { "value": "a", "label": "Contratar engenheiros para a equipe de marketing" },
@@ -146,10 +176,74 @@
         ],
         "explanation": "Engenharia como Marketing envolve a criação de ferramentas, widgets ou microsites úteis que atraem seu público-alvo e geram leads. Exemplo: uma calculadora de hipotecas no site de um corretor.",
         "hint": "É sobre criar valor, não apenas publicidade.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "HubSpot criou uma ferramenta gratuita de análise de websites que gerou milhões de leads qualificados."
       },
       {
-        "id": "3",
+        "id": "5",
+        "question": "Qual é o principal risco de depender apenas de SEO?",
+        "options": [
+          { "value": "a", "label": "É muito caro" },
+          { "value": "b", "label": "Os resultados são lentos e dependem das mudanças de algoritmo do Google" },
+          { "value": "c", "label": "Não funciona para B2B" },
+          { "value": "d", "label": "Gera tráfego de baixa qualidade" }
+        ],
+        "explanation": "SEO é um jogo de longo prazo. Além disso, você está sempre à mercê das atualizações de algoritmo do Google, que podem destruir seu tráfego da noite para o dia.",
+        "hint": "Você não controla a plataforma.",
+        "correctAnswer": "b",
+        "bookExample": "Muitas empresas viram seu tráfego cair 90% após uma atualização do Google, forçando-as a diversificar os canais."
+      },
+      {
+        "id": "6",
+        "question": "O que é uma 'palavra-chave de cauda longa' (long-tail keyword)?",
+        "options": [
+          { "value": "a", "label": "Uma palavra-chave muito popular" },
+          { "value": "b", "label": "Uma frase de busca mais longa e específica, com menor volume, mas maior intenção de compra" },
+          { "value": "c", "label": "Uma palavra-chave que não tem concorrência" },
+          { "value": "d", "label": "Uma palavra-chave que só funciona para B2C" }
+        ],
+        "explanation": "Palavras-chave de cauda longa são frases específicas (ex: 'melhor software de CRM para pequenas empresas de SaaS'). Elas têm menos volume, mas o tráfego é mais qualificado e a concorrência é menor.",
+        "hint": "Pense em especificidade e intenção.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de focar em 'CRM' (muito concorrido), foque em 'CRM para startups de 5 pessoas com foco em vendas B2B'."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o objetivo principal do Marketing de Conteúdo no estágio inicial?",
+        "options": [
+          { "value": "a", "label": "Vender o produto diretamente" },
+          { "value": "b", "label": "Gerar leads e educar o mercado sobre o problema que você resolve" },
+          { "value": "c", "label": "Aumentar o número de seguidores nas redes sociais" },
+          { "value": "d", "label": "Ganhar prêmios de conteúdo" }
+        ],
+        "explanation": "No início, o conteúdo deve educar o mercado sobre o problema e posicionar sua empresa como a solução. O objetivo é gerar leads qualificados que já entendem a dor.",
+        "hint": "Educação precede a venda.",
+        "correctAnswer": "b",
+        "bookExample": "Seu conteúdo deve responder às perguntas que seus clientes potenciais estão fazendo no Google antes de saberem que precisam do seu produto."
+      },
+      {
+        "id": "8",
+        "question": "O que é 'Guest Posting' e como ele ajuda na tração?",
+        "options": [
+          { "value": "a", "label": "Escrever posts para o seu próprio blog" },
+          { "value": "b", "label": "Escrever artigos para blogs ou publicações de terceiros com grande audiência, ganhando backlinks e exposição" },
+          { "value": "c", "label": "Pagar por posts patrocinados" },
+          { "value": "d", "label": "Apenas ler blogs de outras pessoas" }
+        ],
+        "explanation": "Guest Posting é uma tática poderosa para SEO (backlinks) e para alcançar um público já estabelecido em um nicho relevante, gerando tráfego qualificado para o seu site.",
+        "hint": "É uma forma de 'pegar carona' na audiência de outros.",
+        "correctAnswer": "b",
+        "bookExample": "Um fundador de SaaS escreve um artigo de alta qualidade para um blog popular de gerentes de produto, incluindo um link para seu produto."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Traction: Canais Pagos (Anúncios e SEM)",
+    "conclusionMessage": "Você dominou os canais pagos. Agora você sabe como usar anúncios para obter resultados rápidos e testar a demanda.",
+    "questions": [
+      {
+        "id": "1",
         "question": "Qual é a principal desvantagem de depender de 'Anúncios em Redes Sociais e Display'?",
         "options": [
           { "value": "a", "label": "É difícil de segmentar o público" },
@@ -159,7 +253,344 @@
         ],
         "explanation": "Anúncios pagos podem trazer resultados rápidos e são altamente escaláveis, mas o crescimento é diretamente proporcional ao seu gasto. Assim que você desliga os anúncios, o fluxo de novos clientes para.",
         "hint": "Pense em 'alugar' versus 'possuir' o tráfego.",
-        "correctAnswer": "c"
+        "correctAnswer": "c",
+        "bookExample": "Se você gasta $1000 por dia e consegue 100 clientes, você precisa continuar gastando $1000 por dia para manter esse ritmo."
+      },
+      {
+        "id": "2",
+        "question": "O que é 'SEM' (Search Engine Marketing)?",
+        "options": [
+          { "value": "a", "label": "Apenas SEO" },
+          { "value": "b", "label": "O uso de anúncios pagos (PPC) em mecanismos de busca como Google Ads" },
+          { "value": "c", "label": "Marketing de Conteúdo" },
+          { "value": "d", "label": "Marketing de Afiliados" }
+        ],
+        "explanation": "SEM é o uso de anúncios pagos (Pay-Per-Click ou PPC) para aparecer nos resultados de busca. É uma forma rápida de testar a demanda por palavras-chave específicas.",
+        "hint": "É a parte paga da busca.",
+        "correctAnswer": "b",
+        "bookExample": "Quando você pesquisa 'software de CRM', os primeiros resultados marcados como 'Anúncio' são SEM."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a principal vantagem de usar SEM no estágio inicial?",
+        "options": [
+          { "value": "a", "label": "É o canal mais barato" },
+          { "value": "b", "label": "Permite testar a demanda e a proposta de valor rapidamente" },
+          { "value": "c", "label": "Gera clientes fiéis" },
+          { "value": "d", "label": "É fácil de dominar" }
+        ],
+        "explanation": "O SEM é excelente para testes rápidos. Você pode saber em horas se as pessoas estão clicando no seu anúncio e se a sua proposta de valor ressoa com a busca delas.",
+        "hint": "Velocidade de feedback é a chave.",
+        "correctAnswer": "b",
+        "bookExample": "Você pode testar 10 manchetes diferentes em 24 horas para ver qual gera mais cliques e conversões."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Retargeting'?",
+        "options": [
+          { "value": "a", "label": "Anunciar para clientes que já compraram" },
+          { "value": "b", "label": "Anunciar para pessoas que visitaram seu site, mas não converteram" },
+          { "value": "c", "label": "Mudar o público-alvo do seu anúncio" },
+          { "value": "d", "label": "Anunciar em vários canais ao mesmo tempo" }
+        ],
+        "explanation": "Retargeting (ou remarketing) é o ato de exibir anúncios para usuários que já interagiram com sua marca (visitaram o site, adicionaram ao carrinho, etc.). É altamente eficaz porque o público já tem familiaridade.",
+        "hint": "É a segunda chance de conversão.",
+        "correctAnswer": "b",
+        "bookExample": "Um cliente visita sua página de preços, mas não compra. Você exibe um anúncio dele no Facebook com um desconto de 10%."
+      },
+      {
+        "id": "5",
+        "question": "Qual métrica é crucial para otimizar campanhas de anúncios pagos?",
+        "options": [
+          { "value": "a", "label": "Tempo médio na página" },
+          { "value": "b", "label": "Custo por Aquisição (CPA) e Lifetime Value (LTV)" },
+          { "value": "c", "label": "Número de seguidores" },
+          { "value": "d", "label": "Taxa de rejeição" }
+        ],
+        "explanation": "O sucesso de canais pagos depende de manter o CPA abaixo do LTV. Se o custo para adquirir um cliente for maior do que o valor que ele gera, o canal não é sustentável.",
+        "hint": "A matemática do crescimento.",
+        "correctAnswer": "b",
+        "bookExample": "Se o LTV é $500, você precisa otimizar o CPA para ser, idealmente, $100 ou menos para ter margem de lucro."
+      },
+      {
+        "id": "6",
+        "question": "Por que a segmentação (targeting) é mais importante em anúncios de redes sociais do que em SEM?",
+        "options": [
+          { "value": "a", "label": "Porque as redes sociais são mais caras" },
+          { "value": "b", "label": "Porque em redes sociais, você interrompe o usuário; em SEM, ele já está procurando" },
+          { "value": "c", "label": "Porque o SEM não permite segmentação" },
+          { "value": "d", "label": "Porque as redes sociais têm mais usuários" }
+        ],
+        "explanation": "No SEM, a intenção de busca já segmenta o usuário. Em redes sociais, você precisa segmentar ativamente por demografia, interesses e comportamento, pois o usuário não estava procurando ativamente pelo seu produto.",
+        "hint": "Intenção vs. Interrupção.",
+        "correctAnswer": "b",
+        "bookExample": "No Google, o usuário busca 'melhor CRM'. No Facebook, você precisa encontrar o 'gerente de vendas' que pode ter o problema, mesmo que ele esteja vendo fotos de gatos."
+      },
+      {
+        "id": "7",
+        "question": "O que é um 'Ad Copy' eficaz?",
+        "options": [
+          { "value": "a", "label": "Um texto longo e detalhado" },
+          { "value": "b", "label": "Um texto que foca nos benefícios e na dor que o produto resolve, não nas features" },
+          { "value": "c", "label": "Um texto que usa muitas palavras-chave" },
+          { "value": "d", "label": "Um texto que é muito engraçado" }
+        ],
+        "explanation": "Um bom Ad Copy (texto do anúncio) foca em como o produto melhora a vida do cliente (benefício) ou alivia uma dor urgente, gerando um alto CTR (Click-Through Rate).",
+        "hint": "Foque na transformação, não na ferramenta.",
+        "correctAnswer": "b",
+        "bookExample": "Ruim: 'Nosso software tem 10 features de relatórios.' Bom: 'Pare de perder 8 horas por semana em relatórios manuais. Comece a focar no que importa.'"
+      },
+      {
+        "id": "8",
+        "question": "Qual é o principal risco de usar canais pagos no estágio inicial?",
+        "options": [
+          { "value": "a", "label": "O risco de gastar dinheiro em um canal que não funciona e esgotar o capital" },
+          { "value": "b", "label": "O risco de conseguir clientes demais" },
+          { "value": "c", "label": "O risco de ser muito lento" },
+          { "value": "d", "label": "O risco de ser muito barato" }
+        ],
+        "explanation": "O risco é queimar dinheiro rapidamente em um canal que não converte ou que tem um CPA insustentável, especialmente antes de ter o Product-Market Fit.",
+        "hint": "Capital é limitado no início.",
+        "correctAnswer": "a",
+        "bookExample": "Sempre comece com testes pequenos (Middle Ring) para validar o CPA antes de escalar (Inner Ring)."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Traction: Canais Offline (Relações Públicas e Eventos)",
+    "conclusionMessage": "Você aprendeu sobre canais de tração offline. Agora você sabe como usar RP e eventos para construir credibilidade e alcançar grandes públicos.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal objetivo das 'Relações Públicas' (RP) para uma startup?",
+        "options": [
+          { "value": "a", "label": "Vender o produto diretamente" },
+          { "value": "b", "label": "Gerar cobertura da mídia para construir credibilidade e alcançar um público amplo" },
+          { "value": "c", "label": "Fazer anúncios pagos" },
+          { "value": "d", "label": "Apenas para empresas B2C" }
+        ],
+        "explanation": "RP é sobre contar sua história para a mídia. Uma boa cobertura em uma publicação relevante pode gerar um pico de tráfego e, mais importante, credibilidade instantânea (validação social).",
+        "hint": "Pense em 'história' e 'confiança'.",
+        "correctAnswer": "b",
+        "bookExample": "Um artigo no TechCrunch ou na Forbes pode ser o catalisador para o primeiro grande pico de crescimento."
+      },
+      {
+        "id": "2",
+        "question": "O que é um 'gancho' (hook) em RP?",
+        "options": [
+          { "value": "a", "label": "Um desconto para clientes" },
+          { "value": "b", "label": "Uma história ou ângulo interessante que torna sua empresa digna de notícia" },
+          { "value": "c", "label": "Um link para o seu site" },
+          { "value": "d", "label": "Um evento de lançamento" }
+        ],
+        "explanation": "Um gancho é o que faz sua história se destacar. Jornalistas estão ocupados; você precisa de um ângulo que seja novo, relevante ou controverso para que eles queiram escrever sobre você.",
+        "hint": "O que torna sua história única AGORA?",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Lançamos um novo app', use 'Nosso app está resolvendo o problema X que custa à indústria Y bilhões por ano'."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a principal vantagem de usar 'Eventos e Meetups' como canal de tração?",
+        "options": [
+          { "value": "a", "label": "É o canal mais barato" },
+          { "value": "b", "label": "Permite interações face a face e a construção de relacionamentos profundos com clientes potenciais" },
+          { "value": "c", "label": "Gera tráfego massivo" },
+          { "value": "d", "label": "É fácil de escalar" }
+        ],
+        "explanation": "Eventos são excelentes para produtos B2B ou de alto valor, onde a confiança é crucial. Eles permitem que você converse com clientes potenciais, colete feedback e feche vendas iniciais.",
+        "hint": "Pense em qualidade de conexão, não em quantidade.",
+        "correctAnswer": "b",
+        "bookExample": "Organizar um meetup sobre 'Melhores práticas de Product Management' atrai exatamente o público que você quer vender seu software de PM."
+      },
+      {
+        "id": "4",
+        "question": "Como medir o sucesso de um evento?",
+        "options": [
+          { "value": "a", "label": "Número de pessoas que compareceram" },
+          { "value": "b", "label": "Número de leads qualificados e compromissos (próximos passos) gerados" },
+          { "value": "c", "label": "Qualidade da comida servida" },
+          { "value": "d", "label": "Tempo de duração do evento" }
+        ],
+        "explanation": "O sucesso não é apenas a presença, mas a qualidade dos leads e os próximos passos concretos (compromissos) que você consegue agendar com os participantes.",
+        "hint": "Compromisso é a moeda de troca.",
+        "correctAnswer": "b",
+        "bookExample": "Se você gastou $5000 em um evento e conseguiu 10 reuniões de vendas qualificadas, o ROI pode ser excelente."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o principal desafio das Relações Públicas?",
+        "options": [
+          { "value": "a", "label": "É muito previsível" },
+          { "value": "b", "label": "É difícil de controlar a narrativa e os resultados são imprevisíveis" },
+          { "value": "c", "label": "É muito barato" },
+          { "value": "d", "label": "Não gera credibilidade" }
+        ],
+        "explanation": "RP é difícil porque você não paga pelo espaço; você convence um jornalista a escrever sobre você. O resultado é imprevisível e você não controla exatamente o que será dito.",
+        "hint": "Você está nas mãos de terceiros.",
+        "correctAnswer": "b",
+        "bookExample": "Você pode enviar 100 pitches e não conseguir nenhuma resposta, ou conseguir uma cobertura massiva com um único pitch bem feito."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Marketing de Guerrilha'?",
+        "options": [
+          { "value": "a", "label": "Anúncios caros na TV" },
+          { "value": "b", "label": "Táticas de marketing não convencionais, de baixo custo e alto impacto, que surpreendem o público" },
+          { "value": "c", "label": "Marketing de conteúdo" },
+          { "value": "d", "label": "Vendas diretas" }
+        ],
+        "explanation": "Marketing de Guerrilha usa criatividade e surpresa para gerar buzz e atenção, muitas vezes em ambientes físicos ou de forma inesperada.",
+        "hint": "Pense em táticas que geram 'viralidade' offline.",
+        "correctAnswer": "b",
+        "bookExample": "O Dropbox colocou balões gigantes com seu logo em conferências para chamar a atenção."
+      },
+      {
+        "id": "7",
+        "question": "Por que a 'Comunidade' é um canal de tração poderoso?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil de construir" },
+          { "value": "b", "label": "Porque gera um alto LTV e defensores da marca (evangelistas)" },
+          { "value": "c", "label": "Porque é o canal mais rápido" },
+          { "value": "d", "label": "Porque não requer manutenção" }
+        ],
+        "explanation": "Comunidades (fóruns, grupos, eventos) criam um senso de pertencimento. Clientes que se sentem parte de uma comunidade têm maior retenção e se tornam defensores da marca, reduzindo o CPA a longo prazo.",
+        "hint": "Pense em engajamento e retenção.",
+        "correctAnswer": "b",
+        "bookExample": "O Slack e o Figma cresceram massivamente ao construir comunidades fortes em torno de seus produtos."
+      },
+      {
+        "id": "8",
+        "question": "Qual é a principal diferença entre RP e Marketing de Conteúdo?",
+        "options": [
+          { "value": "a", "label": "RP é sobre convencer a mídia a falar sobre você; Conteúdo é sobre você falar diretamente com seu público" },
+          { "value": "b", "label": "RP é pago, Conteúdo é gratuito" },
+          { "value": "c", "label": "RP é para B2C, Conteúdo é para B2B" },
+          { "value": "d", "label": "RP é mais lento" }
+        ],
+        "explanation": "RP é uma abordagem de terceiros (mídia), enquanto Marketing de Conteúdo é uma abordagem de propriedade (seu blog, seus vídeos). Ambos buscam credibilidade, mas por caminhos diferentes.",
+        "hint": "Quem está contando a história?",
+        "correctAnswer": "a",
+        "bookExample": "RP é conseguir um artigo no New York Times. Conteúdo é escrever um artigo no seu próprio blog."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Traction: Canais de Vendas (Vendas Diretas e Afiliados)",
+    "conclusionMessage": "Você explorou os canais de vendas. Agora você sabe como usar Vendas Diretas e Afiliados para escalar o crescimento.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Quando o canal de 'Vendas Diretas' é mais apropriado?",
+        "options": [
+          { "value": "a", "label": "Para produtos de baixo valor e alto volume (B2C)" },
+          { "value": "b", "label": "Para produtos B2B de alto valor e complexidade" },
+          { "value": "c", "label": "Apenas para produtos físicos" },
+          { "value": "d", "label": "Quando você não tem dinheiro para marketing" }
+        ],
+        "explanation": "Vendas Diretas (vendedores, reuniões, negociações) são essenciais para produtos caros, complexos ou que exigem integração, onde o LTV do cliente justifica o alto CPA de um ciclo de vendas longo.",
+        "hint": "Pense em produtos que custam milhares de dólares.",
+        "correctAnswer": "b",
+        "bookExample": "Vender software de ERP para grandes empresas exige Vendas Diretas, pois o custo e o risco são altos."
+      },
+      {
+        "id": "2",
+        "question": "O que é 'Marketing de Afiliados'?",
+        "options": [
+          { "value": "a", "label": "Pagar por anúncios em outros sites" },
+          { "value": "b", "label": "Pagar a terceiros (afiliados) uma comissão por cada cliente que eles trazem" },
+          { "value": "c", "label": "Vender seu produto em lojas físicas" },
+          { "value": "d", "label": "Marketing de conteúdo" }
+        ],
+        "explanation": "Marketing de Afiliados é um canal de tração onde você paga apenas por resultados (CPA). É uma forma de alavancar a audiência de outros sem risco de investimento inicial.",
+        "hint": "Você paga por performance.",
+        "correctAnswer": "b",
+        "bookExample": "Um blogueiro de finanças recomenda seu software de orçamento e ganha 20% da primeira mensalidade de cada novo cliente."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a principal desvantagem do Marketing de Afiliados?",
+        "options": [
+          { "value": "a", "label": "É muito caro" },
+          { "value": "b", "label": "Pode ser difícil encontrar afiliados de alta qualidade e manter o controle da marca" },
+          { "value": "c", "label": "Não gera vendas" },
+          { "value": "d", "label": "É muito lento" }
+        ],
+        "explanation": "O desafio é garantir que os afiliados representem sua marca de forma positiva e que o tráfego gerado seja de alta qualidade. Você precisa gerenciar o programa ativamente.",
+        "hint": "Controle de qualidade e marca.",
+        "correctAnswer": "b",
+        "bookExample": "Se um afiliado usa táticas de spam ou enganosas, isso pode prejudicar a reputação da sua marca."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Business Development' (BD)?",
+        "options": [
+          { "value": "a", "label": "Vendas diretas" },
+          { "value": "b", "label": "Criação de parcerias estratégicas que geram valor mútuo e tração" },
+          { "value": "c", "label": "Marketing de conteúdo" },
+          { "value": "d", "label": "Contratação de funcionários" }
+        ],
+        "explanation": "BD é sobre parcerias. Não é apenas vender, mas criar acordos que abrem novos canais de distribuição, integram produtos ou alcançam novos mercados.",
+        "hint": "Pense em alianças estratégicas.",
+        "correctAnswer": "b",
+        "bookExample": "Uma startup de software de RH faz parceria com uma grande empresa de folha de pagamento para que o software seja oferecido como um complemento."
+      },
+      {
+        "id": "5",
+        "question": "Qual é a principal métrica para avaliar o sucesso de Vendas Diretas?",
+        "options": [
+          { "value": "a", "label": "Número de ligações feitas" },
+          { "value": "b", "label": "Custo de Aquisição do Cliente (CAC) e o Ciclo de Vendas" },
+          { "value": "c", "label": "Número de e-mails enviados" },
+          { "value": "d", "label": "Opinião dos vendedores" }
+        ],
+        "explanation": "Em Vendas Diretas, o CAC é alto, mas deve ser justificado por um LTV muito maior. O Ciclo de Vendas (tempo para fechar um negócio) também é crucial para a saúde financeira.",
+        "hint": "O tempo é dinheiro, especialmente em vendas B2B.",
+        "correctAnswer": "b",
+        "bookExample": "Se o ciclo de vendas for de 9 meses, você precisa de capital para sustentar a equipe de vendas durante esse período."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Plataformas Existentes' como canal de tração?",
+        "options": [
+          { "value": "a", "label": "Construir sua própria plataforma" },
+          { "value": "b", "label": "Alavancar grandes plataformas como App Stores, Salesforce AppExchange ou Shopify para alcançar seus usuários" },
+          { "value": "c", "label": "Usar redes sociais" },
+          { "value": "d", "label": "Fazer parcerias com concorrentes" }
+        ],
+        "explanation": "Plataformas Existentes significa construir seu produto ou serviço em cima de uma plataforma que já tem milhões de usuários, aproveitando a tração deles.",
+        "hint": "Pegue carona em gigantes.",
+        "correctAnswer": "b",
+        "bookExample": "Um app de produtividade que se integra perfeitamente ao Slack ou um tema de e-commerce que só funciona no Shopify."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o risco de depender de 'Plataformas Existentes'?",
+        "options": [
+          { "value": "a", "label": "O risco de ser muito lento" },
+          { "value": "b", "label": "O risco de a plataforma mudar as regras ou competir com você" },
+          { "value": "c", "label": "O risco de ser muito caro" },
+          { "value": "d", "label": "O risco de não ter usuários" }
+        ],
+        "explanation": "A plataforma controla seu destino. Se eles mudarem as APIs, aumentarem as taxas ou lançarem um produto concorrente, seu negócio pode ser destruído.",
+        "hint": "Você não é o dono do seu destino.",
+        "correctAnswer": "b",
+        "bookExample": "Muitas empresas que dependiam do Facebook para tráfego viram seus negócios evaporarem quando o algoritmo mudou."
+      },
+      {
+        "id": "8",
+        "question": "O que é 'Cold Emailing' no contexto de Vendas Diretas?",
+        "options": [
+          { "value": "a", "label": "Enviar e-mails para amigos" },
+          { "value": "b", "label": "Enviar e-mails personalizados e não solicitados para clientes potenciais de alto valor" },
+          { "value": "c", "label": "Spam em massa" },
+          { "value": "d", "label": "E-mail marketing para leads existentes" }
+        ],
+        "explanation": "Cold Emailing é uma tática de Vendas Diretas para alcançar decisores. Deve ser altamente personalizado e focado em resolver um problema específico que você sabe que eles têm.",
+        "hint": "Qualidade sobre quantidade.",
+        "correctAnswer": "b",
+        "bookExample": "Um e-mail para o CEO de uma empresa de médio porte, mencionando um problema específico que você viu no site deles e oferecendo uma solução de 15 minutos."
       }
     ]
   }

@@ -9,13 +9,14 @@
         "question": "O que é o Lean Canvas?",
         "options": [
           { "value": "a", "label": "Um plano de negócios de 50 páginas" },
-          { "value": "b", "label": "Um framework para design de interfaces" },
-          { "value": "c", "label": "Um plano de negócios de uma página focado em startups" },
+          { "value": "b", "label": "Um plano de negócios de uma página focado em startups" },
+          { "value": "c", "label": "Um framework para design de interfaces" },
           { "value": "d", "label": "Uma metodologia de gerenciamento de projetos" }
         ],
         "explanation": "O Lean Canvas é uma adaptação do Business Model Canvas, criado por Ash Maurya. É um plano de negócios de uma página que ajuda a decompor uma ideia de negócio em suas principais premissas.",
         "hint": "Pense em 'enxuto' e 'visual'.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "O Lean Canvas foca em 9 blocos, como Problema, Solução, Métricas Chave e Vantagem Injusta."
       },
       {
         "id": "2",
@@ -28,7 +29,8 @@
         ],
         "explanation": "A Vantagem Injusta (Unfair Advantage) é algo que não pode ser facilmente comprado ou copiado pelos concorrentes. É a sua principal defesa no mercado.",
         "hint": "É o seu 'molho secreto'.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Exemplos de Vantagem Injusta: 'Conhecimento interno de um nicho', 'Dados exclusivos', 'Endosso de celebridade'."
       },
       {
         "id": "3",
@@ -41,7 +43,8 @@
         ],
         "explanation": "O primeiro e mais importante passo é validar o 'Problem-Solution Fit'. Isso significa garantir que você tem um problema que vale a pena resolver e que sua solução realmente resolve esse problema para um grupo de clientes.",
         "hint": "Apaixone-se pelo problema, não pela solução.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Muitas startups falham porque constroem uma solução para um problema que ninguém se importa o suficiente para pagar."
       },
       {
         "id": "4",
@@ -54,26 +57,70 @@
         ],
         "explanation": "Ash Maurya substituiu blocos como 'Key Partners' e 'Key Activities' por 'Problem', 'Solution', 'Key Metrics' e 'Unfair Advantage' para tornar o canvas mais focado nos riscos e incertezas de uma startup.",
         "hint": "O foco mudou de 'execução' para 'aprendizado e risco'.",
-        "correctAnswer": "a"
+        "correctAnswer": "a",
+        "bookExample": "O Lean Canvas foca em problemas e soluções, enquanto o Business Model Canvas foca em atividades e recursos."
       },
       {
         "id": "5",
         "question": "O que são 'early adopters' no contexto do Lean Canvas?",
         "options": [
           { "value": "a", "label": "Todos os seus clientes futuros" },
-          { "value": "b", "label": "Seus concorrentes" },
-          { "value": "c", "label": "O primeiro segmento de clientes que sentirá a dor do problema e usará sua solução" },
+          { "value": "b", "label": "O primeiro segmento de clientes que sentirá a dor do problema e usará sua solução" },
+          { "value": "c", "label": "Seus concorrentes" },
           { "value": "d", "label": "Investidores anjo" }
         ],
         "explanation": "Early adopters são o seu primeiro alvo. Eles são o subconjunto de clientes que sentem o problema de forma mais aguda e estão ativamente procurando uma solução, mesmo que imperfeita.",
         "hint": "Eles são os mais desesperados por uma solução.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Seu early adopter é o cliente que está usando planilhas complexas ou várias ferramentas para resolver o problema que você está atacando."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o principal risco que o Lean Canvas ajuda a mitigar?",
+        "options": [
+          { "value": "a", "label": "Risco de execução (construir o produto)" },
+          { "value": "b", "label": "Risco de mercado (construir algo que ninguém quer)" },
+          { "value": "c", "label": "Risco financeiro (acabar o dinheiro)" },
+          { "value": "d", "label": "Risco legal" }
+        ],
+        "explanation": "O Lean Canvas foca em testar as premissas mais arriscadas, principalmente o risco de mercado, garantindo que você não gaste tempo e dinheiro construindo algo que não será comprado.",
+        "hint": "O maior risco de uma startup é a falta de clientes.",
+        "correctAnswer": "b",
+        "bookExample": "O canvas força você a identificar o 'Problema' e o 'Segmento de Cliente' antes de pensar na 'Solução'."
+      },
+      {
+        "id": "7",
+        "question": "O que é o 'Unique Value Proposition' (Proposta de Valor Única)?",
+        "options": [
+          { "value": "a", "label": "Uma lista de features" },
+          { "value": "b", "label": "Uma mensagem clara que explica por que você é diferente e por que o cliente deve se importar" },
+          { "value": "c", "label": "O preço do seu produto" },
+          { "value": "d", "label": "O nome da sua empresa" }
+        ],
+        "explanation": "A Proposta de Valor Única é a promessa de valor que você entrega. Deve ser clara, concisa e focar no benefício, não na feature.",
+        "hint": "Por que o cliente deve escolher você em vez da concorrência?",
+        "correctAnswer": "b",
+        "bookExample": "Ruim: 'Software de gerenciamento de tarefas'. Bom: 'Organize sua equipe remota em 10 minutos por dia, sem reuniões desnecessárias'."
+      },
+      {
+        "id": "8",
+        "question": "Qual é a diferença entre 'Customer Segments' e 'Early Adopters' no Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "São a mesma coisa" },
+          { "value": "b", "label": "Customer Segments é o mercado total; Early Adopters é o subconjunto inicial que você foca" },
+          { "value": "c", "label": "Early Adopters são os investidores" },
+          { "value": "d", "label": "Customer Segments são os concorrentes" }
+        ],
+        "explanation": "Você começa focando nos Early Adopters (o subconjunto mais desesperado) para validar o PMF, antes de expandir para o Customer Segment maior.",
+        "hint": "Foco é essencial no início.",
+        "correctAnswer": "b",
+        "bookExample": "Seu Customer Segment pode ser 'Pequenas e Médias Empresas', mas seu Early Adopter é 'PMEs de tecnologia com 5-10 funcionários que usam Slack'."
       }
     ]
   },
   {
     "id": 2,
-    "title": "Running Lean: Validando o Problema",
+    "title": "Running Lean: Entrevista do Problema",
     "conclusionMessage": "Você aprendeu sobre a Entrevista do Problema. Agora você sabe como conduzir entrevistas para validar se o problema que você identificou é real e relevante.",
     "questions": [
       {
@@ -87,66 +134,225 @@
         ],
         "explanation": "A Entrevista do Problema é puramente para aprendizado. O objetivo é validar suas hipóteses sobre quem são seus clientes e quais problemas eles têm, antes de sequer mencionar sua solução.",
         "hint": "O foco é 100% no cliente e no seu contexto.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "O sucesso da entrevista é medido pela quantidade de fatos e comportamentos passados que você aprendeu, não pela opinião do cliente sobre sua ideia."
       },
       {
         "id": "2",
         "question": "Por que você NÃO deve falar sobre sua solução durante a Entrevista do Problema?",
         "options": [
           { "value": "a", "label": "Porque a solução ainda não está pronta" },
-          { "value": "b", "label": "Para não roubarem sua ideia" },
-          { "value": "c", "label": "Porque isso contamina o feedback e impede o aprendizado sobre o problema real" },
+          { "value": "b", "label": "Porque isso contamina o feedback e impede o aprendizado sobre o problema real" },
+          { "value": "c", "label": "Para não roubarem sua ideia" },
           { "value": "d", "label": "Porque é contra as regras do Lean" }
         ],
         "explanation": "Mencionar sua solução ativa o 'viés da boa vontade' (como no Teste da Mãe). As pessoas começarão a te dar elogios em vez de fatos sobre seus problemas. Você precisa de dados brutos sobre a realidade deles.",
         "hint": "Você está em modo de escuta, não de apresentação.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se o cliente diz 'Sua ideia é ótima!', você deve desviar imediatamente para 'Obrigado! Mas me conte sobre a última vez que você teve esse problema... o que você fez?'"
+      },
+      {
+        "id": "3",
+        "question": "Qual é a melhor pergunta para entender a seriedade de um problema?",
+        "options": [
+          { "value": "a", "label": "Quão sério é este problema para você?" },
+          { "value": "b", "label": "O que mais você já tentou para resolver isso?" },
+          { "value": "c", "label": "Você pagaria por uma solução?" },
+          { "value": "d", "label": "Você acha que isso é importante?" }
+        ],
+        "explanation": "Ações passadas (o que eles já tentaram) são o melhor indicador de seriedade. Se eles não tentaram resolver, o problema não é doloroso o suficiente.",
+        "hint": "Ações falam mais alto que palavras.",
+        "correctAnswer": "b",
+        "bookExample": "Se o cliente diz que o problema é sério, mas nunca gastou tempo ou dinheiro tentando resolvê-lo, é uma 'inconveniência', não um problema valioso."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Alternativas Existentes' no Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "Seus concorrentes diretos" },
+          { "value": "b", "label": "As soluções que os clientes usam hoje para resolver o problema (incluindo planilhas, processos manuais, ou a inação)" },
+          { "value": "c", "label": "As features que você vai construir" },
+          { "value": "d", "label": "Os parceiros de negócio" }
+        ],
+        "explanation": "Alternativas Existentes são cruciais. Você precisa entender o 'status quo' para saber o que você precisa superar. Muitas vezes, a maior alternativa é a inação ou uma solução manual.",
+        "hint": "O que o cliente faria se você não existisse?",
+        "correctAnswer": "b",
+        "bookExample": "Se o problema é 'gerenciar faturas', a alternativa existente pode ser 'usar uma planilha do Excel e gastar 5 horas por semana'."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o principal erro ao definir o 'Problema' no Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "Definir um problema muito específico" },
+          { "value": "b", "label": "Definir o problema em termos da sua solução (ex: 'Falta de um app de X')" },
+          { "value": "c", "label": "Definir um problema muito grande" },
+          { "value": "d", "label": "Não listar alternativas existentes" }
+        ],
+        "explanation": "O problema deve ser agnóstico à solução. Se você define o problema como 'Falta de um app de X', você já está assumindo a solução.",
+        "hint": "O problema deve existir mesmo que sua solução não exista.",
+        "correctAnswer": "b",
+        "bookExample": "Ruim: 'Não há um CRM fácil de usar'. Bom: 'Gerentes de vendas perdem 10 horas por semana inserindo dados manualmente no CRM'."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Problem-Solution Fit'?",
+        "options": [
+          { "value": "a", "label": "Quando o produto está pronto" },
+          { "value": "b", "label": "Quando você validou que o problema é real e sua solução proposta resolve esse problema" },
+          { "value": "c", "label": "Quando você tem 100 clientes" },
+          { "value": "d", "label": "Quando você tem investidores" }
+        ],
+        "explanation": "Problem-Solution Fit é o primeiro marco. Você o alcança quando tem evidências de que o problema é doloroso e que sua solução (mesmo que em protótipo) ressoa com os clientes.",
+        "hint": "É a validação inicial do valor.",
+        "correctAnswer": "b",
+        "bookExample": "Você alcança o Problem-Solution Fit quando os clientes dizem: 'Sim, eu tenho esse problema, e sua solução é a primeira que realmente parece resolver isso'."
+      },
+      {
+        "id": "7",
+        "question": "Qual é a melhor forma de obter feedback honesto sobre o problema?",
+        "options": [
+          { "value": "a", "label": "Perguntar sobre o futuro ('Você usaria?')" },
+          { "value": "b", "label": "Perguntar sobre o passado e o presente ('Como você lida com isso hoje?')" },
+          { "value": "c", "label": "Pedir a opinião deles sobre sua ideia" },
+          { "value": "d", "label": "Fazer um questionário online" }
+        ],
+        "explanation": "Assim como no The Mom Test, o foco deve ser em fatos e comportamentos passados, pois eles são indicadores confiáveis de dor e necessidade.",
+        "hint": "Fatos > Opiniões.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Você compraria um app de finanças?', pergunte 'Me conte sobre a última vez que você tentou controlar suas finanças. O que foi difícil?'"
+      },
+      {
+        "id": "8",
+        "question": "O que é um 'MVP' (Minimum Viable Product) no contexto de Running Lean?",
+        "options": [
+          { "value": "a", "label": "O produto final" },
+          { "value": "b", "label": "A menor coisa que você pode construir para validar o Product-Market Fit" },
+          { "value": "c", "label": "Um protótipo de papel" },
+          { "value": "d", "label": "Um produto com todas as features essenciais" }
+        ],
+        "explanation": "O MVP é a versão do produto que permite coletar o máximo de aprendizado validado sobre os clientes com o mínimo de esforço. Ele deve ser focado em resolver o problema central.",
+        "hint": "Mínimo para aprender, não mínimo para lançar.",
+        "correctAnswer": "b",
+        "bookExample": "O MVP do Dropbox era um vídeo de 3 minutos que validou a demanda antes de construir o software complexo."
       }
     ]
   },
   {
     "id": 3,
-    "title": "Running Lean: Validando a Solução",
-    "conclusionMessage": "Você aprendeu sobre a Entrevista da Solução. Agora você sabe como apresentar sua solução e testar se ela realmente ressoa com os clientes.",
+    "title": "Running Lean: Entrevista da Solução e PMF",
+    "conclusionMessage": "Você aprendeu sobre a Entrevista da Solução e como testar o Product-Market Fit.",
     "questions": [
       {
         "id": "1",
         "question": "Quando você deve realizar a 'Entrevista da Solução'?",
         "options": [
           { "value": "a", "label": "Antes da Entrevista do Problema" },
-          { "value": "b", "label": "Apenas depois de ter um produto totalmente funcional" },
-          { "value": "c", "label": "Depois de validar que o problema existe e é importante (com a Entrevista do Problema)" },
+          { "value": "b", "label": "Depois de validar que o problema existe e é importante (Problem-Solution Fit)" },
+          { "value": "c", "label": "Apenas depois de ter um produto totalmente funcional" },
           { "value": "d", "label": "No lugar da Entrevista do Problema" }
         ],
-        "explanation": "A sequência é crucial: primeiro, valide o problema. Depois que você tem certeza de que está resolvendo uma dor real, você pode começar a testar sua solução proposta.",
+        "explanation": "A Entrevista da Solução só deve ocorrer depois que você validou o problema. Você não quer construir uma solução para um problema que não existe.",
         "hint": "Problema primeiro, solução depois.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Se você não consegue encontrar 10-15 pessoas que têm o problema de forma aguda, não avance para a Entrevista da Solução."
       },
       {
         "id": "2",
         "question": "O que você precisa ter para uma Entrevista da Solução eficaz?",
         "options": [
           { "value": "a", "label": "Um produto completo e sem bugs" },
-          { "value": "b", "label": "Um contrato de venda pronto" },
-          { "value": "c", "label": "Um 'demo' ou protótipo que demonstre sua Proposta de Valor Única" },
+          { "value": "b", "label": "Um 'demo' ou protótipo que demonstre sua Proposta de Valor Única" },
+          { "value": "c", "label": "Um contrato de venda pronto" },
           { "value": "d", "label": "Uma apresentação de slides de 50 páginas" }
         ],
-        "explanation": "Você não precisa de um produto completo. Um protótipo, mockups, ou até mesmo uma landing page (o que Ash Maurya chama de 'demo') é suficiente para apresentar a solução e coletar feedback e, mais importante, compromisso.",
+        "explanation": "Você precisa de algo que demonstre a solução de forma tangível (protótipo, mockups, landing page) para testar a reação do cliente e, crucialmente, pedir um compromisso.",
         "hint": "O objetivo é testar a proposta de valor, não a tecnologia.",
-        "correctAnswer": "c"
+        "correctAnswer": "b",
+        "bookExample": "Um protótipo de alta fidelidade no Figma pode ser suficiente para a Entrevista da Solução."
       },
       {
         "id": "3",
         "question": "Qual é a métrica mais importante a ser testada na Entrevista da Solução?",
         "options": [
           { "value": "a", "label": "Quantos elogios você recebe" },
-          { "value": "b", "label": "O preço que os clientes estão dispostos a pagar" },
+          { "value": "b", "label": "O preço que os clientes estão dispostos a pagar (compromisso)" },
           { "value": "c", "label": "Quantas features eles pedem" },
           { "value": "d", "label": "Se o design é bonito" }
         ],
-        "explanation": "A validação final é o preço. Perguntar 'quanto você pagaria?' é inútil. O objetivo é testar um preço específico e ver se os clientes se comprometem (com um pré-pedido, carta de intenção, etc.). Isso valida que a solução tem valor real.",
+        "explanation": "A validação final é o preço. O objetivo é testar um preço específico e ver se os clientes se comprometem (com um pré-pedido, carta de intenção, etc.). Isso valida que a solução tem valor real.",
         "hint": "As pessoas votam com suas carteiras.",
-        "correctAnswer": "b"
+        "correctAnswer": "b",
+        "bookExample": "Em vez de perguntar 'Quanto você pagaria?', diga 'Estamos pensando em cobrar $49/mês. Isso é muito, pouco, ou justo?' e observe a reação."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Product-Market Fit' (PMF) no contexto de Running Lean?",
+        "options": [
+          { "value": "a", "label": "Quando você tem um produto que funciona tecnicamente" },
+          { "value": "b", "label": "Quando você tem um produto que satisfaz um mercado de forma lucrativa e sustentável" },
+          { "value": "c", "label": "Quando você tem 1000 usuários" },
+          { "value": "d", "label": "Quando você tem investidores" }
+        ],
+        "explanation": "PMF é o ponto onde você encontrou um mercado e um produto que o satisfaz. É o resultado de focar em outcomes: o produto está gerando a mudança de comportamento desejada no cliente e no negócio.",
+        "hint": "É a interseção entre o problema do cliente e o valor do negócio.",
+        "correctAnswer": "b",
+        "bookExample": "Você sabe que atingiu o PMF quando o uso do produto se torna viral ou quando os clientes ficam 'desesperados' se você o tirar deles."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o principal objetivo do 'Pivot' (Pivô)?",
+        "options": [
+          { "value": "a", "label": "Mudar o nome da empresa" },
+          { "value": "b", "label": "Mudar a estratégia de forma estruturada para testar uma nova hipótese fundamental" },
+          { "value": "c", "label": "Mudar o design" },
+          { "value": "d", "label": "Mudar o preço" }
+        ],
+        "explanation": "Um pivô é uma correção de curso estruturada, projetada para testar uma nova hipótese fundamental do seu Lean Canvas, após a invalidação de uma hipótese anterior.",
+        "hint": "Não é falhar, é aprender e ajustar.",
+        "correctAnswer": "b",
+        "bookExample": "Se você descobre que seu Early Adopter não tem o problema, você pivota o 'Segmento de Cliente'."
+      },
+      {
+        "id": "6",
+        "question": "O que é 'Customer Acquisition Cost' (CAC) no Lean Canvas?",
+        "options": [
+          { "value": "a", "label": "O custo de construir o produto" },
+          { "value": "b", "label": "O custo total de marketing e vendas para adquirir um cliente" },
+          { "value": "c", "label": "O preço do produto" },
+          { "value": "d", "label": "O valor que o cliente paga" }
+        ],
+        "explanation": "O CAC é uma métrica crucial para a sustentabilidade. Ele deve ser significativamente menor que o LTV (Lifetime Value) do cliente.",
+        "hint": "Quanto custa para conseguir um cliente?",
+        "correctAnswer": "b",
+        "bookExample": "Se você gasta $100 em anúncios para conseguir 1 cliente, seu CAC é $100."
+      },
+      {
+        "id": "7",
+        "question": "Qual é a principal diferença entre a Entrevista do Problema e a Entrevista da Solução?",
+        "options": [
+          { "value": "a", "label": "A Entrevista do Problema é sobre o passado; a Entrevista da Solução é sobre o futuro" },
+          { "value": "b", "label": "A Entrevista do Problema foca no problema; a Entrevista da Solução foca na sua proposta de valor e compromisso" },
+          { "value": "c", "label": "A Entrevista do Problema é mais longa" },
+          { "value": "d", "label": "A Entrevista da Solução é mais fácil" }
+        ],
+        "explanation": "A Entrevista do Problema é para aprender sobre a dor. A Entrevista da Solução é para testar se sua solução alivia essa dor e se o cliente está disposto a pagar por isso.",
+        "hint": "Dor vs. Alívio.",
+        "correctAnswer": "b",
+        "bookExample": "Na Entrevista do Problema, você não menciona sua ideia. Na Entrevista da Solução, você mostra o protótipo e pede um compromisso."
+      },
+      {
+        "id": "8",
+        "question": "O que é 'Iteração' no contexto de Running Lean?",
+        "options": [
+          { "value": "a", "label": "Construir o produto de uma vez" },
+          { "value": "b", "label": "O ciclo contínuo de Medir, Aprender e Construir (Build-Measure-Learn)" },
+          { "value": "c", "label": "Mudar de ideia constantemente" },
+          { "value": "d", "label": "Apenas lançar features" }
+        ],
+        "explanation": "A iteração é o coração do Lean. É o ciclo de testar uma hipótese (Build), coletar dados (Measure) e ajustar o plano (Learn), minimizando o tempo entre o aprendizado e a ação.",
+        "hint": "O ciclo de aprendizado.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de passar 6 meses construindo, você passa 2 semanas construindo um MVP, 1 semana medindo e 1 semana aprendendo/pivotando."
       }
     ]
   }
