@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -10,36 +11,18 @@ import {
   Play, CheckCircle, Lock, Flame,
   TrendingUp, Award, BookOpen
 } from "lucide-react";
-import MicroLesson1 from "@/components/MicroLesson1";
-import MicroLesson2 from "@/components/MicroLesson2";
-import MicroLesson3 from "@/components/MicroLesson3";
-import MicroLesson4 from "@/components/MicroLesson4";
-import MicroLesson5 from "@/components/MicroLesson5";
-import MicroLesson6 from "@/components/MicroLesson6";
-import MicroLesson7 from "@/components/MicroLesson7";
-import MicroLesson8 from "@/components/MicroLesson8";
-import MicroLesson9 from "@/components/MicroLesson9";
-import MicroLesson10 from "@/components/MicroLesson10";
-import MicroLesson11 from "@/components/MicroLesson11";
-import MicroLesson12 from "@/components/MicroLesson12";
-import MicroLesson13 from "@/components/MicroLesson13";
-import MicroLesson14 from "@/components/MicroLesson14";
-import MicroLesson15 from "@/components/MicroLesson15";
-import MicroLesson16 from "@/components/MicroLesson16";
-import MicroLesson17 from "@/components/MicroLesson17";
-import MicroLesson18 from "@/components/MicroLesson18";
-import MicroLesson19 from "@/components/MicroLesson19";
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
 }
 
 const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
+  const navigate = useNavigate();
   const [nivel, setNivel] = useState(1);
   const [xp, setXp] = useState(150);
   const [xpProximoNivel, setXpProximoNivel] = useState(300);
   const [streak, setStreak] = useState(5);
-  const [microLicaoAtiva, setMicroLicaoAtiva] = useState<number | null>(null);
+  
   const [modulos, setModulos] = useState([
     {
       id: 1,
@@ -262,24 +245,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   const handleIniciarModulo = (moduloId: number) => {
     const modulo = modulos.find(m => m.id === moduloId);
     if (modulo && modulo.desbloqueado) {
-      setMicroLicaoAtiva(moduloId);
-    }
-  };
-
-  const handleCompletarMicroLicao = () => {
-    if (microLicaoAtiva) {
-      const novosModulos = modulos.map(m => {
-        if (m.id === microLicaoAtiva) {
-          return { ...m, progresso: 100, concluido: true };
-        }
-        if (m.id === microLicaoAtiva + 1) {
-          return { ...m, desbloqueado: true };
-        }
-        return m;
-      });
-      setModulos(novosModulos);
-      setXp(prev => prev + (modulos.find(m => m.id === microLicaoAtiva)?.xp || 0));
-      setMicroLicaoAtiva(null);
+      navigate(`/lesson/${moduloId}`);
     }
   };
 
@@ -292,65 +258,6 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       default: return 'bg-gray-500';
     }
   };
-
-  // Renderizar microlição ativa
-  if (microLicaoAtiva === 1) {
-    return <MicroLesson1 />;
-  }
-  if (microLicaoAtiva === 2) {
-    return <MicroLesson2 />;
-  }
-  if (microLicaoAtiva === 3) {
-    return <MicroLesson3 />;
-  }
-  if (microLicaoAtiva === 4) {
-    return <MicroLesson4 />;
-  }
-  if (microLicaoAtiva === 5) {
-    return <MicroLesson5 />;
-  }
-  if (microLicaoAtiva === 6) {
-    return <MicroLesson6 />;
-  }
-  if (microLicaoAtiva === 7) {
-    return <MicroLesson7 />;
-  }
-  if (microLicaoAtiva === 8) {
-    return <MicroLesson8 />;
-  }
-  if (microLicaoAtiva === 9) {
-    return <MicroLesson9 />;
-  }
-  if (microLicaoAtiva === 10) {
-    return <MicroLesson10 />;
-  }
-  if (microLicaoAtiva === 11) {
-    return <MicroLesson11 />;
-  }
-  if (microLicaoAtiva === 12) {
-    return <MicroLesson12 />;
-  }
-  if (microLicaoAtiva === 13) {
-    return <MicroLesson13 />;
-  }
-  if (microLicaoAtiva === 14) {
-    return <MicroLesson14 />;
-  }
-  if (microLicaoAtiva === 15) {
-    return <MicroLesson15 />;
-  }
-  if (microLicaoAtiva === 16) {
-    return <MicroLesson16 />;
-  }
-  if (microLicaoAtiva === 17) {
-    return <MicroLesson17 />;
-  }
-  if (microLicaoAtiva === 18) {
-    return <MicroLesson18 />;
-  }
-  if (microLicaoAtiva === 19) {
-    return <MicroLesson19 />;
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">

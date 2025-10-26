@@ -9,6 +9,7 @@ import QuizPersonalizacao from "./pages/QuizPersonalizacao";
 import Recomendacoes from "./pages/Recomendacoes";
 import DashboardAprendizado from "./pages/DashboardAprendizado";
 import Layout from "./components/Layout";
+import MicroLessonPage from "./pages/MicroLessonPage";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="quiz" element={<QuizPersonalizacao />} />
             <Route path="recomendacoes" element={<Recomendacoes />} />
             <Route path="aprendizado" element={<DashboardAprendizado />} />
+            <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

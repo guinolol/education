@@ -17,60 +17,60 @@ import {
   AccordionItem,
 } from "@/components/ui/accordion";
 
-export interface Pergunta {
+export interface Question {
   id: string;
-  pergunta: string;
-  opcoes: { valor: string; label: string; icone?: React.ElementType }[];
-  explicacao: string;
-  dica: string;
-  correta: string;
-  exemploLivro?: string; // Adicionando campo para exemplos do livro
+  question: string;
+  options: { value: string; label: string }[];
+  explanation: string;
+  hint: string;
+  correctAnswer: string;
+  bookExample?: string;
 }
 
 interface MicroLessonTemplateProps {
-  titulo: string;
-  perguntas: Pergunta[];
-  mensagemConclusao: string;
-  onConcluir: () => void;
+  title: string;
+  questions: Question[];
+  conclusionMessage: string;
+  onConclude: () => void;
 }
 
 const MicroLessonTemplate = ({
-  titulo,
-  perguntas,
-  mensagemConclusao,
-  onConcluir,
+  title,
+  questions,
+  conclusionMessage,
+  onConclude,
 }: MicroLessonTemplateProps) => {
-  const [perguntaAtual, setPerguntaAtual] = useState(0);
-  const [respostas, setRespostas] = useState<Record<string, string>>({});
-  const [mostrarResultado, setMostrarResultado] = useState(false);
-  const [respostaSelecionada, setRespostaSelecionada] = useState<string | null>(null);
-  const [mostrarFeedback, setMostrarFeedback] = useState(false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [showResult, setShowResult] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [showFeedback, setShowFeedback] = useState(false);
 
-  const handleResposta = (perguntaId: string, resposta: string) => {
-    setRespostas(prev => ({ ...prev, [perguntaId]: resposta }));
-    setRespostaSelecionada(resposta);
-    setMostrarFeedback(true);
+  const handleAnswer = (questionId: string, answer: string) => {
+    setAnswers(prev => ({ ...prev, [questionId]: answer }));
+    setSelectedAnswer(answer);
+    setShowFeedback(true);
   };
 
-  const handleProximaPergunta = () => {
-    if (perguntaAtual < perguntas.length - 1) {
-      setPerguntaAtual(prev => prev + 1);
-      setRespostaSelecionada(null);
-      setMostrarFeedback(false);
+  const handleNextQuestion = () => {
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(prev => prev + 1);
+      setSelectedAnswer(null);
+      setShowFeedback(false);
     } else {
-      setMostrarResultado(true);
+      setShowResult(true);
     }
   };
 
-  const handleAnterior = () => {
-    if (perguntaAtual > 0) {
-      setPerguntaAtual(prev => prev - 1);
-      setRespostaSelecionada(null);
-      setMostrarFeedback(false);
+  const handlePrevious = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(prev => prev - 1);
+      setSelectedAnswer(null);
+      setShowFeedback(false);
     }
   };
 
-  if (mostrarResultado) {
+  if (showResult) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4 flex items-center justify-center">
         <Card className="p-8 max-w-md w-full text-center">
@@ -78,8 +78,8 @@ const MicroLessonTemplate = ({
             <Trophy className="w-8 h-8 text-white" />
           </div>
           <h2 className="text-2xl font-bold mb-4">Microlição Concluída!</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-6">{mensagemConclusao}</p>
-          <Button size="lg" className="w-full" onClick={onConcluir}>
+          <p className="text-gray-600 dark:text-gray-300 mb-6">{conclusionMessage}</p>
+          <Button size="lg" className="w-full" onClick={onConclude}>
             Voltar para o Dashboard
           </Button>
         </Card>
@@ -87,89 +87,87 @@ const MicroLessonTemplate = ({
     );
   }
 
-  const pergunta = perguntas[perguntaAtual];
-  const progresso = ((perguntaAtual + 1) / perguntas.length) * 100;
-  const respostaCorreta = respostas[pergunta.id] === pergunta.correta;
+  const question = questions[currentQuestionIndex];
+  const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+  const isCorrect = answers[question.id] === question.correctAnswer;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
       <div className="max-w-2xl mx-auto">
         <div className="mb-8">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-xl font-bold">{titulo}</h1>
-            <Badge variant="secondary">Lição {perguntaAtual + 1}/{perguntas.length}</Badge>
+            <h1 className="text-xl font-bold">{title}</h1>
+            <Badge variant="secondary">Lição {currentQuestionIndex + 1}/{questions.length}</Badge>
           </div>
-          <Progress value={progresso} className="h-2" />
+          <Progress value={progress} className="h-2" />
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
-            Pergunta {perguntaAtual + 1} de {perguntas.length}
+            Pergunta {currentQuestionIndex + 1} de {questions.length}
           </p>
         </div>
 
         <Card className="p-8">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-6 h-6 text-purple-600" />
-            <h2 className="text-2xl font-bold">{pergunta.pergunta}</h2>
+            <h2 className="text-2xl font-bold">{question.question}</h2>
           </div>
 
           <div className="space-y-4 mb-6">
-            {pergunta.opcoes.map((opcao) => {
-              const isSelected = respostaSelecionada === opcao.valor;
-              const isCorrect = opcao.valor === pergunta.correta;
+            {question.options.map((option) => {
+              const isSelected = selectedAnswer === option.value;
+              const isCorrectOption = option.value === question.correctAnswer;
               let bgColor = "bg-white dark:bg-gray-800";
-              let iconMostrar = <Circle className="w-5 h-5 text-gray-400" />;
+              let iconToShow = <Circle className="w-5 h-5 text-gray-400" />;
 
-              if (mostrarFeedback) {
-                if (isSelected && isCorrect) {
+              if (showFeedback) {
+                if (isSelected && isCorrectOption) {
                   bgColor = "bg-green-100 dark:bg-green-900 border-green-500";
-                  iconMostrar = <Check className="w-5 h-5 text-green-600" />;
-                } else if (isSelected && !isCorrect) {
+                  iconToShow = <Check className="w-5 h-5 text-green-600" />;
+                } else if (isSelected && !isCorrectOption) {
                   bgColor = "bg-red-100 dark:bg-red-900 border-red-500";
-                  iconMostrar = <X className="w-5 h-5 text-red-600" />;
-                } else if (!isSelected && isCorrect) {
+                  iconToShow = <X className="w-5 h-5 text-red-600" />;
+                } else if (!isSelected && isCorrectOption) {
                   bgColor = "bg-green-100 dark:bg-green-900 border-green-500";
-                  iconMostrar = <Check className="w-5 h-5 text-green-600" />;
+                  iconToShow = <Check className="w-5 h-5 text-green-600" />;
                 }
               }
 
-              const IconComponent = opcao.icone || Circle;
-
               return (
-                <div key={opcao.valor}>
+                <div key={option.value}>
                   <input
                     type="radio"
-                    id={opcao.valor}
-                    name="resposta"
-                    value={opcao.valor}
+                    id={option.value}
+                    name="answer"
+                    value={option.value}
                     checked={isSelected}
-                    onChange={() => handleResposta(pergunta.id, opcao.valor)}
+                    onChange={() => handleAnswer(question.id, option.value)}
                     className="sr-only peer"
-                    disabled={mostrarFeedback}
+                    disabled={showFeedback}
                   />
                   <label
-                    htmlFor={opcao.valor}
+                    htmlFor={option.value}
                     className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition-all ${bgColor} ${
-                      !mostrarFeedback
+                      !showFeedback
                         ? "hover:border-purple-400 dark:hover:border-purple-600"
                         : "cursor-default"
                     }`}
                   >
-                    <span className="mr-3">{iconMostrar}</span>
-                    {opcao.label}
+                    <span className="mr-3">{iconToShow}</span>
+                    {option.label}
                   </label>
                 </div>
               );
             })}
           </div>
 
-          {mostrarFeedback && (
+          {showFeedback && (
             <div className="mb-6">
               <div
                 className={`p-4 rounded-lg ${
-                  respostaCorreta ? "bg-green-50 dark:bg-green-900" : "bg-red-50 dark:bg-red-900"
+                  isCorrect ? "bg-green-50 dark:bg-green-900" : "bg-red-50 dark:bg-red-900"
                 }`}
               >
                 <h3 className="font-semibold mb-2 flex items-center">
-                  {respostaCorreta ? (
+                  {isCorrect ? (
                     <>
                       <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
                       Correto!
@@ -181,14 +179,14 @@ const MicroLessonTemplate = ({
                     </>
                   )}
                 </h3>
-                <p className="text-sm mb-3">{pergunta.explicacao}</p>
-                {pergunta.exemploLivro && (
+                <p className="text-sm mb-3">{question.explanation}</p>
+                {question.bookExample && (
                   <div className="bg-white/50 dark:bg-gray-800/50 p-3 rounded-lg">
                     <p className="text-sm font-medium flex items-center">
                       <BookOpen className="w-4 h-4 mr-2" />
                       Exemplo do livro:
                     </p>
-                    <p className="text-sm italic">{pergunta.exemploLivro}</p>
+                    <p className="text-sm italic">{question.bookExample}</p>
                   </div>
                 )}
               </div>
@@ -205,7 +203,7 @@ const MicroLessonTemplate = ({
               </AccordionTrigger>
               <AccordionContent>
                 <p className="text-sm text-gray-600 dark:text-gray-300 p-2">
-                  {pergunta.dica}
+                  {question.hint}
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -215,23 +213,23 @@ const MicroLessonTemplate = ({
             <Button
               variant="outline"
               size="sm"
-              onClick={handleAnterior}
-              disabled={perguntaAtual === 0}
+              onClick={handlePrevious}
+              disabled={currentQuestionIndex === 0}
             >
               <ChevronLeft className="mr-2" />
               Anterior
             </Button>
 
-            {mostrarFeedback ? (
-              <Button size="sm" onClick={handleProximaPergunta}>
-                {perguntaAtual < perguntas.length - 1 ? "Próxima" : "Concluir"}
+            {showFeedback ? (
+              <Button size="sm" onClick={handleNextQuestion}>
+                {currentQuestionIndex < questions.length - 1 ? "Próxima" : "Concluir"}
                 <ChevronRight className="ml-2" />
               </Button>
             ) : (
               <Button
                 size="sm"
                 onClick={() => {}}
-                disabled={!respostaSelecionada}
+                disabled={!selectedAnswer}
                 variant="outline"
               >
                 Selecione uma resposta
