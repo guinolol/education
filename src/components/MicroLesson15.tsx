@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Mnemônico VFWPA - Vision (como você está tornando o mundo melhor), Framing (em que estágio você está e o que procura), Weakness (onde você precisa de ajuda específica), Pedestal (por que a ajuda deles é particularmente valiosa), Ask (peça ajuda de forma clara).',
     dica: 'Memorize a sequência que mostra valor e necessidade.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: 'Email: "Vision: Estou construindo X para tornar Y melhor. Framing: Estou no estágio de pesquisa. Weakness: Preciso entender Z. Pedestal: Você é especialista em Z. Ask: Posso te ligar por 15 min?"'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Vision: Como você está tornando o mundo melhor. Isso mostra o impacto positivo do seu trabalho.',
     dica: 'Comece com o propósito maior.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Estou trabalhando para tornar mais fácil para pequenas empresas gerenciarem suas finanças sem precisar de contador."'
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Framing: Em que estágio você está e o que procura. Isso dá contexto sobre onde você está no seu processo.',
     dica: 'Contextualize sua posição atual.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Estou no estágio de pesquisa, tentando entender quais são os maiores desafios que gerentes de equipe remota enfrentam com comunicação."'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Weakness: Mostre onde você precisa de ajuda específica. Isso mostra vulnerabilidade e necessidade.',
     dica: 'Mostre vulnerabilidade para criar conexão.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Estou particularmente perdido em entender como grandes equipes lidam com fusos horários diferentes. Não consigo encontrar bons dados sobre isso."'
   },
   {
     id: '5',
@@ -67,46 +71,50 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Pedestal: Explique por que a ajuda deles é particularmente valiosa. Isso flata a pessoa e mostra que você valoriza sua expertise.',
     dica: 'Faça a pessoa se sentir especial e útil.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Vi que você gerencia uma equipe global na Microsoft - exatamente o tipo de experiência que preciso entender melhor."'
   },
   {
     id: '6',
     pergunta: 'O que é "Ask" no mnemônico VFWPA?',
     opcoes: [
-      { valor: 'a', label: 'Peça ajuda de forma clara' },
+      { valor: 'a', label: 'Peça ajuda de forma clara e específica' },
       { valor: 'b', label: 'Pergunte sobre o problema' },
       { valor: 'c', label: 'Pergunte sobre a solução' },
       { valor: 'd', label: 'Pergunte sobre o mercado' }
     ],
-    explicacao: 'Ask: Peça ajuda de forma clara. Seja específico sobre o que você precisa.',
+    explicacao: 'Ask: Peça ajuda de forma clara e específica. Seja direto sobre o que você precisa e por que.',
     dica: 'Seja direto e específico em seu pedido.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Posso te ligar por 15 minutos na próxima semana para perguntar sobre 3 coisas específicas sobre como sua equipe lida com comunicação assíncrona?"'
   },
   {
     id: '7',
-    pergunta: 'Por que é importante mostrar vulnerabilidade ao pedir ajuda?',
+    pergunta: 'Por que mostrar vulnerabilidade ao pedir ajuda funciona?',
     opcoes: [
       { valor: 'a', label: 'Porque as pessoas gostam de ver fraqueza' },
       { valor: 'b', label: 'Porque cria conexão humana e torna mais fácil ajudar' },
       { valor: 'c', label: 'Porque mostra que você é honesto' },
       { valor: 'd', label: 'Porque é esperado' }
     ],
-    explicacao: 'Mostrar vulnerabilidade cria conexão humana e torna mais fácil para as pessoas se conectarem e quererem ajudar. Mostra que você é real e autêntico.',
+    explicacao: 'Mostrar vulnerabilidade cria conexão humana e torna mais fácil para as pessoas se conectarem e quererem ajudar.',
     dica: 'Vulnerabilidade cria conexão.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Estou particularmente perdido em..." é muito mais efetivo que "Estou construendo uma solução revolucionária..."'
   },
   {
     id: '8',
-    pergunta: 'Como adaptar VFWPA para diferentes situações?',
+    pergunta: 'Como aplicar VFWPA na prática?',
     opcoes: [
       { valor: 'a', label: 'Use sempre exatamente na mesma ordem' },
-      { valor: 'b', label: 'Ajuste a ordem e o foco baseado no contexto e na pessoa' },
+      { valor: 'b', label: 'Use como guia flexível, adapte à conversa natural' },
       { valor: 'c', label: 'Use apenas partes dele' },
-      { valor: 'd', label: 'Não adapte - é perfeito como está' }
+      { valor: 'd', label: 'Memorize como script rígido' }
     ],
-    explicacao: 'Ajuste a ordem e o foco baseado no contexto e na pessoa. A estrutura é um guia, não uma fórmula rígida. Seja flexível e natural.',
+    explicacao: 'Use VFWPA como guia flexível, adapte à conversa natural. A estrutura é um guia, não uma fórmula rígida.',
     dica: 'Estrutura é guia, não prisão.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Email completo: "Vision: Estou trabalhando emX. Framing: Estou no estágio de pesquisa. Weakness: Perdido sobre Y. Pedestal: Você é especialista. Ask: Posso te ligar 15min?"'
   }
 ];
 

@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Pedestal: Explique por que a ajuda deles é particularmente valiosa. Isso flata a pessoa e mostra que você valoriza sua expertise.',
     dica: 'Faça a pessoa se sentir especial e útil.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Vi que você gerencia uma equipe global na Microsoft - exatamente o tipo de experiência que preciso entender melhor."'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Ask: Peça ajuda de forma clara. Seja específico sobre o que você precisa.',
     dica: 'Seja direto e específico em seu pedido.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: '"Posso te ligar por 15 minutos na próxima semana para perguntar sobre 3 coisas específicas sobre como sua equipe lida com comunicação assíncrona?"'
   },
   {
     id: '3',
@@ -36,12 +38,13 @@ const perguntas: Pergunta[] = [
     opcoes: [
       { valor: 'a', label: 'Seja vago para dar liberdade' },
       { valor: 'b', label: 'Seja específico sobre o que, por que e até quando' },
-      { valor: 'c', label: 'Peça tudo de uma vez' },
+      { valor: 'c', label: 'Tornar o mais grande possível' },
       { valor: 'd', label: 'Não seja muito direto' }
     ],
     explicacao: 'Seja específico sobre o que você precisa, por que precisa e até quando. Isso torna mais fácil para as pessoas te ajudarem e aumenta as chances de sucesso.',
     dica: 'Clareza gera ação.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Posso te ligar por 15 minutos na terça ou quarta da próxima semana para te fazer 3 perguntas específicas sobre como você gerencia fusos horários?"'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Mostrar que você reconhece o valor específico que eles trazem demonstra que não é um pedido genérico e que você valoriza expertise única deles.',
     dica: 'Valor específico cria conexão real.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Você é especialmente qualificado para me ajudar porque gerencia a maior equipe remota que já vi - exatamente o que preciso entender."'
   },
   {
     id: '5',
@@ -67,7 +71,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Aceite graciosamente e pergunte por referências. Uma recusa direta pode ainda levar a ajuda indireta através de introduções.',
     dica: 'Graciosidade mantém portas abertas.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Entendo perfeitamente! Você conhece alguém que tenha lidado com esse desafio que eu poderia conversar?"'
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Ser vago sobre o que precisa é o erro comum. Pessoas ocupadas precisam de clareza para poder ajudar eficientemente.',
     dica: 'Vagueza mata ajuda.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Ruim: "Posso te fazer umas perguntas?" Bom: "Posso te ligar por 15 min para te fazer 3 perguntas sobre X na terça ou quarta?"'
   },
   {
     id: '7',
@@ -93,20 +99,22 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Quebre em partes menores e gerenciáveis. Isso reduz a barreira para ajudar e aumenta as chances de as pessoas dizerem sim.',
     dica: 'Menor é mais fácil.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"15 minutos para 3 perguntas" é melhor que "Uma hora para conversar sobre várias coisas"'
   },
   {
     id: '8',
     pergunta: 'O que fazer após fazer um pedido?',
     opcoes: [
-      { valor: 'a', label: 'Esperar' },
+      { valor: 'a', label: 'Espere' },
       { valor: 'b', label: 'Siga com gratidão e mantenha contato sobre progresso' },
       { valor: 'c', label: 'Esqueça e siga em frente' },
       { valor: 'd', label: 'Peça mais' }
     ],
     explicacao: 'Siga com gratidão e mantenha contato sobre progresso. Isso mostra que você valoriza a ajuda e constrói relacionamentos para o futuro.',
     dica: 'Seguimento constrói relacionamentos.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Email: "Oi Ana, consegui falar com o João que você me indicou. Descobri que [insight específico]. Muito obrigado pela conexão!"'
   }
 ];
 

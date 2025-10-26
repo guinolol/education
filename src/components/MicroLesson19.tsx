@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'O objetivo final é parar de ter conversas frias. Crie um sistema onde as pessoas te procuram ou são apresentadas por alguém de confiança.',
     dica: 'Quente é melhor que frio no longo prazo.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'O sistema ideal: você raramente precisa fazer cold outreach porque tem uma rede de introduções que funciona automaticamente.'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Use as primeiras conversas frias para gerar introduções calorosas e criar um efeito bola de neve. Cada conversa pode levar a muitas outras.',
     dica: 'Transforme frio em quente com introduções.',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: 'Cada cold call bem feito gera 2-3 introduções. Em 3 gerações, você tem 8-27 conversas quentes de uma cold call original.'
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'O efeito bola de neve é poderoso porque cresce exponencialmente. Cada nova conexão pode gerar múltiplas introduções, criando crescimento acelerado.',
     dica: 'Exponencial > Linear.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '1 → 3 → 9 → 27 introduções. Cada nível cresce exponencialmente, não linearmente.'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Focar apenas em si mesmo e esquecer de retribuir mata o efeito bola de neve. Redes são sobre troca mútua, não apenas receber.',
     dica: 'Redes são bidirecionais.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Se você sempre pede mas nunca retribui ou agradece adequadamente, as pessoas param de te ajudar.'
   },
   {
     id: '5',
@@ -67,7 +71,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Agradeça, retribua e mantenha relacionamentos fortes com quem te conectou. Relacionamentos duradouros sustentam o crescimento exponencial.',
     dica: 'Relacionamentos sustentam crescimento.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Sempre retribua: compartilhe insights, faça introduções para eles, mantenha contato com valor.'
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Meça a qualidade das introduções e relações construídas, não apenas quantidade. Introduções valiosas são melhores que muitas conexões superficiais.',
     dica: 'Qualidade > Quantidade.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '3 introduções para CEOs que te abrem portas > 30 conexões superficiais no LinkedIn.'
   },
   {
     id: '7',
@@ -93,7 +99,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Pense em como criar valor para outros para que queiram te conectar com mais pessoas. Valor cria conexões naturais.',
     dica: 'Valor cria conexões.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Compartilhe insights valiosos, faça introduções úteis para outros, seja conhecido por ajudar - as pessoas naturalmente querem te conectar.'
   },
   {
     id: '8',
@@ -106,7 +113,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'A métrica final é a qualidade das conversas e insights que levam a decisões melhores. Conversas bem feitas geram dados reais para tomar decisões melhores.',
     dica: 'Qualidade gera melhores decisões.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '5 conversas bem feitas que te mostram que você está no caminho errado > 50 conversas ruins que te dão falsa confiança.'
   }
 ];
 
