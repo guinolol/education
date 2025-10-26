@@ -16,6 +16,19 @@ import MicroLesson3 from "@/components/MicroLesson3";
 import MicroLesson4 from "@/components/MicroLesson4";
 import MicroLesson5 from "@/components/MicroLesson5";
 import MicroLesson6 from "@/components/MicroLesson6";
+import MicroLesson7 from "@/components/MicroLesson7";
+import MicroLesson8 from "@/components/MicroLesson8";
+import MicroLesson9 from "@/components/MicroLesson9";
+import MicroLesson10 from "@/components/MicroLesson10";
+import MicroLesson11 from "@/components/MicroLesson11";
+import MicroLesson12 from "@/components/MicroLesson12";
+import MicroLesson13 from "@/components/MicroLesson13";
+import MicroLesson14 from "@/components/MicroLesson14";
+import MicroLesson15 from "@/components/MicroLesson15";
+import MicroLesson16 from "@/components/MicroLesson16";
+import MicroLesson17 from "@/components/MicroLesson17";
+import MicroLesson18 from "@/components/MicroLesson18";
+import MicroLesson19 from "@/components/MicroLesson19";
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
@@ -93,6 +106,149 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       xp: 150,
       dificuldade: "avancado",
       duracao: "20 min"
+    },
+    {
+      id: 7,
+      titulo: "Microlição 7",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 75,
+      dificuldade: "iniciante",
+      duracao: "10 min"
+    },
+    {
+      id: 8,
+      titulo: "Microlição 8",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 75,
+      dificuldade: "iniciante",
+      duracao: "10 min"
+    },
+    {
+      id: 9,
+      titulo: "Microlição 9",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 100,
+      dificuldade: "intermediario",
+      duracao: "12 min"
+    },
+    {
+      id: 10,
+      titulo: "Microlição 10",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 100,
+      dificuldade: "intermediario",
+      duracao: "12 min"
+    },
+    {
+      id: 11,
+      titulo: "Microlição 11",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 100,
+      dificuldade: "intermediario",
+      duracao: "15 min"
+    },
+    {
+      id: 12,
+      titulo: "Microlição 12",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 100,
+      dificuldade: "intermediario",
+      duracao: "15 min"
+    },
+    {
+      id: 13,
+      titulo: "Microlição 13",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 125,
+      dificuldade: "avancado",
+      duracao: "18 min"
+    },
+    {
+      id: 14,
+      titulo: "Microlição 14",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 125,
+      dificuldade: "avancado",
+      duracao: "18 min"
+    },
+    {
+      id: 15,
+      titulo: "Microlição 15",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 150,
+      dificuldade: "avancado",
+      duracao: "20 min"
+    },
+    {
+      id: 16,
+      titulo: "Microlição 16",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 150,
+      dificuldade: "avancado",
+      duracao: "20 min"
+    },
+    {
+      id: 17,
+      titulo: "Microlição 17",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 175,
+      dificuldade: "expert",
+      duracao: "25 min"
+    },
+    {
+      id: 18,
+      titulo: "Microlição 18",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 175,
+      dificuldade: "expert",
+      duracao: "25 min"
+    },
+    {
+      id: 19,
+      titulo: "Microlição 19",
+      descricao: "Conteúdo adicional para aprofundar seu conhecimento",
+      progresso: 0,
+      desbloqueado: false,
+      concluido: false,
+      xp: 200,
+      dificuldade: "expert",
+      duracao: "30 min"
     }
   ]);
 
@@ -131,7 +287,8 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     switch (dificuldade) {
       case 'iniciante': return 'bg-green-500';
       case 'intermediario': return 'bg-yellow-500';
-      case 'avancado': return 'bg-red-500';
+      case 'avancado': return 'bg-orange-500';
+      case 'expert': return 'bg-red-500';
       default: return 'bg-gray-500';
     }
   };
@@ -154,6 +311,45 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   }
   if (microLicaoAtiva === 6) {
     return <MicroLesson6 />;
+  }
+  if (microLicaoAtiva === 7) {
+    return <MicroLesson7 />;
+  }
+  if (microLicaoAtiva === 8) {
+    return <MicroLesson8 />;
+  }
+  if (microLicaoAtiva === 9) {
+    return <MicroLesson9 />;
+  }
+  if (microLicaoAtiva === 10) {
+    return <MicroLesson10 />;
+  }
+  if (microLicaoAtiva === 11) {
+    return <MicroLesson11 />;
+  }
+  if (microLicaoAtiva === 12) {
+    return <MicroLesson12 />;
+  }
+  if (microLicaoAtiva === 13) {
+    return <MicroLesson13 />;
+  }
+  if (microLicaoAtiva === 14) {
+    return <MicroLesson14 />;
+  }
+  if (microLicaoAtiva === 15) {
+    return <MicroLesson15 />;
+  }
+  if (microLicaoAtiva === 16) {
+    return <MicroLesson16 />;
+  }
+  if (microLicaoAtiva === 17) {
+    return <MicroLesson17 />;
+  }
+  if (microLicaoAtiva === 18) {
+    return <MicroLesson18 />;
+  }
+  if (microLicaoAtiva === 19) {
+    return <MicroLesson19 />;
   }
 
   return (
@@ -202,7 +398,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
             <Card className="p-6">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold">Microlições - The Mom Test</h2>
-                <Badge variant="secondary">6 Lições</Badge>
+                <Badge variant="secondary">{modulos.length} Lições</Badge>
               </div>
 
               <div className="space-y-4">
