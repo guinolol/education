@@ -10,39 +10,83 @@ import {
   Play, CheckCircle, Lock, Flame,
   TrendingUp, Award, BookOpen
 } from "lucide-react";
-import MicroLesson1 from "@/components/MicroLesson1";
-import MicroLesson2 from "@/components/MicroLesson2";
-import MicroLesson3 from "@/components/MicroLesson3";
-import MicroLesson4 from "@/components/MicroLesson4";
-import MicroLesson5 from "@/components/MicroLesson5";
-import MicroLesson6 from "@/components/MicroLesson6";
-import MicroLesson7 from "@/components/MicroLesson7";
-import MicroLesson8 from "@/components/MicroLesson8";
-import MicroLesson9 from "@/components/MicroLesson9";
-import MicroLesson10 from "@/components/MicroLesson10";
-import MicroLesson11 from "@/components/MicroLesson11";
-import MicroLesson12 from "@/components/MicroLesson12";
-import MicroLesson13 from "@/components/MicroLesson13";
-import MicroLesson14 from "@/components/MicroLesson14";
-import MicroLesson15 from "@/components/MicroLesson15";
-import MicroLesson16 from "@/components/MicroLesson16";
-import MicroLesson17 from "@/components/MicroLesson17";
-import MicroLesson18 from "@/components/MicroLesson18";
-import MicroLesson19 from "@/components/MicroLesson19";
+import DynamicLesson from "@/components/DynamicLesson";
+import { useNavigate } from "react-router-dom";
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
 }
 
+interface Modulo {
+  id: string;
+  titulo: string;
+  descricao: string;
+  progresso: number;
+  desbloqueado: boolean;
+  concluido: boolean;
+  xp: number;
+  dificuldade: string;
+  duracao: string;
+  licaoId: string;
+}
+
 const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
+  const navigate = useNavigate();
   const [nivel, setNivel] = useState(1);
   const [xp, setXp] = useState(150);
   const [xpProximoNivel, setXpProximoNivel] = useState(300);
   const [streak, setStreak] = useState(5);
-  const [microLicaoAtiva, setMicroLicaoAtiva] = useState<number | null>(null);
-  const [modulos, setModulos] = useState([
+  const [licaoAtiva, setLicaoAtiva] = useState<string | null>(null);
+  const [modulos, setModulos] = useState<Modulo[]>([]);
+  const [carregando, setCarregando] = useState(true);
+
+  useEffect(() => {
+    carregarModulos();
+  }, []);
+
+  const carregarModulos = async () => {
+    try {
+      // Carregar dados do curso
+      const response = await fetch('/src/data/mom-test-course.json');
+      const curso = await response.json();
+      
+      // Transformar em módulos do dashboard
+      const modulosTransformados: Modulo[] = [];
+      
+      curso.modulos.forEach((modulo: any, indexModulo: number) => {
+        modulo.licoes.forEach((licao: any, indexLicao: number) => {
+          // Simular progresso baseado no perfil do usuário
+          const progressoBase = resultadoQuiz?.perfil === 'rapido' ? 100 : 0;
+          const desbloqueado = indexModulo === 0 || indexLicao < 3; // Primeiro módulo e primeiras lições desbloqueadas
+          
+          modulosTransformados.push({
+            id: licao.id,
+            titulo: licao.titulo,
+            descricao: licao.descricao,
+            progresso: progressoBase,
+            desbloqueado,
+            concluido: progressoBase === 100,
+            xp: licao.xp,
+            dificuldade: licao.dificuldade,
+            duracao: licao.duracao,
+            licaoId: licao.id
+          });
+        });
+      });
+      
+      setModulos(modulosTransformados);
+    } catch (error) {
+      console.error('Erro ao carregar módulos:', error);
+      // Fallback para dados estáticos se o JSON não carregar
+      setModulos(getModulosEstaticos());
+    } finally {
+      setCarregando(false);
+    }
+  };
+
+  const getModulosEstaticos = (): Modulo[] => [
     {
-      id: 1,
+      id: "licao-1-1",
       titulo: "O Teste da Mãe - Fundamentos",
       descricao: "Aprenda as regras básicas para conversas eficazes com clientes",
       progresso: 0,
@@ -50,10 +94,11 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       concluido: false,
       xp: 50,
       dificuldade: "iniciante",
-      duracao: "10 min"
+      duracao: "10 min",
+      licaoId: "licao-1-1"
     },
     {
-      id: 2,
+      id: "licao-2-1",
       titulo: "Evitando Dados Ruins",
       descricao: "Como identificar e evitar elogios, fluff e ideias inúteis",
       progresso: 0,
@@ -61,196 +106,10 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       concluido: false,
       xp: 75,
       dificuldade: "iniciante",
-      duracao: "10 min"
-    },
-    {
-      id: 3,
-      titulo: "Perguntas Eficazes",
-      descricao: "Domine a arte de fazer perguntas que geram insights valiosos",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 4,
-      titulo: "Compromisso e Avanço",
-      descricao: "Aprenda a validar sua solução e obter comprometimento real",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 5,
-      titulo: "Encontrando Pessoas",
-      descricao: "Estratégias para encontrar e conversar com clientes potenciais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "intermediario",
-      duracao: "12 min"
-    },
-    {
-      id: 6,
-      titulo: "Escolhendo Clientes",
-      descricao: "Como segmentar e encontrar seus clientes ideais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
-    },
-    {
-      id: 7,
-      titulo: "Conversas Iniciais com Clientes",
-      descricao: "Como obter fatos concretos sobre a vida e visão de mundo do cliente",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "iniciante",
-      duracao: "10 min"
-    },
-    {
-      id: 8,
-      titulo: "Opiniões e Mercado",
-      descricao: "Entendendo por que apenas o mercado pode dizer se sua ideia é boa",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 75,
-      dificuldade: "iniciante",
-      duracao: "10 min"
-    },
-    {
-      id: 9,
-      titulo: "Perguntas sobre o Futuro",
-      descricao: "Como lidar com intenções futuras e mentiras otimistas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "12 min"
-    },
-    {
-      id: 10,
-      titulo: "Problemas e Soluções",
-      descricao: "Entendendo que os clientes sabem dos problemas mas você tem a solução",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "12 min"
-    },
-    {
-      id: 11,
-      titulo: "Objetivos dos Clientes",
-      descricao: "Como descobrir os verdadeiros objetivos por trás dos problemas percebidos",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 12,
-      titulo: "Distinguindo Problemas",
-      descricao: "Como identificar problemas que as pessoas pagarão para resolver",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 100,
-      dificuldade: "intermediario",
-      duracao: "15 min"
-    },
-    {
-      id: 13,
-      titulo: "Observação Prática",
-      descricao: "Como observar alguém realizando uma tarefa para identificar problemas reais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 125,
-      dificuldade: "avancado",
-      duracao: "18 min"
-    },
-    {
-      id: 14,
-      titulo: "Seriedade dos Problemas",
-      descricao: "Como avaliar se os problemas são sérios o suficiente para gerar vendas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 125,
-      dificuldade: "avancado",
-      duracao: "18 min"
-    },
-    {
-      id: 15,
-      titulo: "Valor dos Problemas",
-      descricao: "Como entender o valor real de um problema para o cliente",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
-    },
-    {
-      id: 16,
-      titulo: "Ajuda Valiosa",
-      descricao: "Como obter ajuda e insights valiosos dos próprios clientes",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 150,
-      dificuldade: "avancado",
-      duracao: "20 min"
-    },
-    {
-      id: 17,
-      titulo: "Conversas Frias",
-      descricao: "Como parar de ter conversas frias e gerar introduções calorosas",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 175,
-      dificuldade: "expert",
-      duracao: "25 min"
-    },
-    {
-      id: 18,
-      titulo: "Estratégias de Conexão",
-      descricao: "Técnicas para encontrar e conversar com clientes potenciais",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 175,
-      dificuldade: "expert",
-      duracao: "25 min"
-    },
-    {
-      id: 19,
-      titulo: "Introduções Calorosas",
-      descricao: "Como criar introduções valiosas com contatos, conselheiros e investidores",
-      progresso: 0,
-      desbloqueado: true,
-      concluido: false,
-      xp: 200,
-      dificuldade: "expert",
-      duracao: "30 min"
+      duracao: "10 min",
+      licaoId: "licao-2-1"
     }
-  ]);
+  ];
 
   const conquistas = [
     { id: 1, titulo: "Primeiros Passos", descricao: "Complete sua primeira microlição", icon: Trophy, conquistado: false },
@@ -259,27 +118,29 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     { id: 4, titulo: "Expert em Progresso", descricao: "Alcance o nível 5", icon: Award, conquistado: false }
   ];
 
-  const handleIniciarModulo = (moduloId: number) => {
+  const handleIniciarModulo = (moduloId: string) => {
     const modulo = modulos.find(m => m.id === moduloId);
     if (modulo && modulo.desbloqueado) {
-      setMicroLicaoAtiva(moduloId);
+      setLicaoAtiva(modulo.licaoId);
     }
   };
 
-  const handleCompletarMicroLicao = () => {
-    if (microLicaoAtiva) {
+  const handleCompletarLicao = (xpGanho: number) => {
+    if (licaoAtiva) {
       const novosModulos = modulos.map(m => {
-        if (m.id === microLicaoAtiva) {
+        if (m.licaoId === licaoAtiva) {
           return { ...m, progresso: 100, concluido: true };
         }
-        if (m.id === microLicaoAtiva + 1) {
+        // Desbloquear próxima lição
+        const indexAtual = modulos.findIndex(m => m.licaoId === licaoAtiva);
+        if (indexAtual >= 0 && modulos[indexAtual + 1] && m.id === modulos[indexAtual + 1].id) {
           return { ...m, desbloqueado: true };
         }
         return m;
       });
       setModulos(novosModulos);
-      setXp(prev => prev + (modulos.find(m => m.id === microLicaoAtiva)?.xp || 0));
-      setMicroLicaoAtiva(null);
+      setXp(prev => prev + xpGanho);
+      setLicaoAtiva(null);
     }
   };
 
@@ -293,63 +154,29 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     }
   };
 
-  // Renderizar microlição ativa
-  if (microLicaoAtiva === 1) {
-    return <MicroLesson1 />;
+  // Renderizar lição ativa
+  if (licaoAtiva) {
+    return (
+      <DynamicLesson
+        licaoId={licaoAtiva}
+        onComplete={handleCompletarLicao}
+        onBack={() => setLicaoAtiva(null)}
+      />
+    );
   }
-  if (microLicaoAtiva === 2) {
-    return <MicroLesson2 />;
-  }
-  if (microLicaoAtiva === 3) {
-    return <MicroLesson3 />;
-  }
-  if (microLicaoAtiva === 4) {
-    return <MicroLesson4 />;
-  }
-  if (microLicaoAtiva === 5) {
-    return <MicroLesson5 />;
-  }
-  if (microLicaoAtiva === 6) {
-    return <MicroLesson6 />;
-  }
-  if (microLicaoAtiva === 7) {
-    return <MicroLesson7 />;
-  }
-  if (microLicaoAtiva === 8) {
-    return <MicroLesson8 />;
-  }
-  if (microLicaoAtiva === 9) {
-    return <MicroLesson9 />;
-  }
-  if (microLicaoAtiva === 10) {
-    return <MicroLesson10 />;
-  }
-  if (microLicaoAtiva === 11) {
-    return <MicroLesson11 />;
-  }
-  if (microLicaoAtiva === 12) {
-    return <MicroLesson12 />;
-  }
-  if (microLicaoAtiva === 13) {
-    return <MicroLesson13 />;
-  }
-  if (microLicaoAtiva === 14) {
-    return <MicroLesson14 />;
-  }
-  if (microLicaoAtiva === 15) {
-    return <MicroLesson15 />;
-  }
-  if (microLicaoAtiva === 16) {
-    return <MicroLesson16 />;
-  }
-  if (microLicaoAtiva === 17) {
-    return <MicroLesson17 />;
-  }
-  if (microLicaoAtiva === 18) {
-    return <MicroLesson18 />;
-  }
-  if (microLicaoAtiva === 19) {
-    return <MicroLesson19 />;
+
+  if (carregando) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4 flex items-center justify-center">
+        <Card className="p-8 max-w-md w-full text-center">
+          <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse">
+            <BookOpen className="w-8 h-8 text-white" />
+          </div>
+          <h2 className="text-2xl font-bold mb-4">Carregando módulos...</h2>
+          <Progress value={66} className="h-2" />
+        </Card>
+      </div>
+    );
   }
 
   return (
