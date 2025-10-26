@@ -6,7 +6,20 @@ import { useNavigate } from 'react-router-dom';
 const perguntas: Pergunta[] = [
   {
     id: '1',
-    pergunta: 'Como transformar conversas frias em quentes?',
+    pergunta: 'Qual é o objetivo final das estratégias de conexão do livro?',
+    opcoes: [
+      { valor: 'a', label: 'Ter muitos clientes' },
+      { valor: 'b', label: 'Parar de ter conversas frias e criar sistema de introduções' },
+      { valor: 'c', label: 'Ser famoso' },
+      { valor: 'd', label: 'Vender imediatamente' }
+    ],
+    explicacao: 'O objetivo final é parar de ter conversas frias. Crie um sistema onde as pessoas te procuram ou são apresentadas por alguém de confiança.',
+    dica: 'Quente é melhor que frio no longo prazo.',
+    correta: 'b'
+  },
+  {
+    id: '2',
+    pergunta: 'Como transformar conversas frias em quentes segundo o livro?',
     opcoes: [
       { valor: 'a', label: 'Use as primeiras para gerar introduções e criar efeito bola de neve' },
       { valor: 'b', label: 'Use apenas cold calling' },
@@ -14,38 +27,12 @@ const perguntas: Pergunta[] = [
       { valor: 'd', label: 'Use apenas anúncios' }
     ],
     explicacao: 'Use as primeiras conversas frias para gerar introduções calorosas e criar um efeito bola de neve. Cada conversa pode levar a muitas outras.',
-    dica: 'Pense no longo prazo: transforme frio em quente.',
-    correta: 'a'
-  },
-  {
-    id: '2',
-    pergunta: 'Qual é o objetivo final das estratégias de conexão?',
-    opcoes: [
-      { valor: 'a', label: 'Parar de ter conversas frias' },
-      { valor: 'b', label: 'Vender imediatamente' },
-      { valor: 'c', label: 'Ter muitos clientes' },
-      { valor: 'd', label: 'Ser famoso' }
-    ],
-    explicacao: 'O objetivo final é parar de ter conversas frias. Crie um sistema onde as pessoas te procuram ou são apresentadas por alguém de confiança.',
-    dica: 'Quente é melhor que frio.',
+    dica: 'Transforme frio em quente com introduções.',
     correta: 'a'
   },
   {
     id: '3',
-    pergunta: 'Como acelerar o efeito bola de neve de introduções?',
-    opcoes: [
-      { valor: 'a', label: 'Peça mais introduções de cada pessoa' },
-      { valor: 'b', label: 'Crie valor em cada interação para que as pessoas queiram te conectar com outros' },
-      { valor: 'c', label: 'Foque em quantidade sobre qualidade' },
-      { valor: 'd', label: 'Use apenas email' }
-    ],
-    explicacao: 'Crie valor em cada interação para que as pessoas queiram te conectar com outros. Quando as pessoas veem valor, naturalmente querem compartilhar com sua rede.',
-    dica: 'Valor cria momentum.',
-    correta: 'b'
-  },
-  {
-    id: '4',
-    pergunta: 'Por que o efeito bola de neve é poderoso?',
+    pergunta: 'Por que o efeito bola de neve de introduções é poderoso?',
     opcoes: [
       { valor: 'a', label: 'Porque é rápido' },
       { valor: 'b', label: 'Porque cresce exponencialmente - cada nova conexão pode gerar múltiplas introduções' },
@@ -57,20 +44,7 @@ const perguntas: Pergunta[] = [
     correta: 'b'
   },
   {
-    id: '5',
-    pergunta: 'Como manter o momentum do efeito bola de neve?',
-    opcoes: [
-      { valor: 'a', label: 'Foque apenas em novas conexões' },
-      { valor: 'b', label: 'Agradeça, retribua e mantenha relacionamentos fortes com quem te conectou' },
-      { valor: 'c', label: 'Não olhe para trás' },
-      { valor: 'd', label: 'Peça mais do que você dá' }
-    ],
-    explicacao: 'Agradeça, retribua e mantenha relacionamentos fortes com quem te conectou. Relacionamentos duradouros sustentam o crescimento exponencial.',
-    dica: 'Relacionamentos sustentam crescimento.',
-    correta: 'b'
-  },
-  {
-    id: '6',
+    id: '4',
     pergunta: 'Qual é o erro comum ao tentar criar efeito bola de neve?',
     opcoes: [
       { valor: 'a', label: 'Ser muito paciente' },
@@ -83,29 +57,55 @@ const perguntas: Pergunta[] = [
     correta: 'b'
   },
   {
-    id: '7',
-    pergunta: 'Como medir o sucesso do seu efeito bola de neve?',
+    id: '5',
+    pergunta: 'Como manter o momentum do efeito bola de neve?',
+    opcoes: [
+      { valor: 'a', label: 'Peça mais introduções de cada pessoa' },
+      { valor: 'b', label: 'Agradeça, retribua e mantenha relacionamentos fortes com quem te conectou' },
+      { valor: 'c', label: 'Foque apenas em novas conexões' },
+      { valor: 'd', label: 'Peça mais do que você dá' }
+    ],
+    explicacao: 'Agradeça, retribua e mantenha relacionamentos fortes com quem te conectou. Relacionamentos duradouros sustentam o crescimento exponencial.',
+    dica: 'Relacionamentos sustentam crescimento.',
+    correta: 'b'
+  },
+  {
+    id: '6',
+    pergunta: 'Como medir sucesso real do seu efeito bola de neve?',
     opcoes: [
       { valor: 'a', label: 'Número de cartões de visita coletados' },
-      { valor: 'b', label: 'Qualidade das introduções e relações construídas, não apenas quantidade' },
+      { valor: 'b', label: 'Qualidade das introduções e relações construídas' },
       { valor: 'c', label: 'Quantidade de conexões no LinkedIn' },
       { valor: 'd', label: 'Tempo gasto em networking' }
     ],
-    explicacao: 'Meça a qualidade das introduções e relações construídas, não apenas quantidade. Introduções valiosas e relacionamentos fortes são melhores que muitas conexões superficiais.',
+    explicacao: 'Meça a qualidade das introduções e relações construídas, não apenas quantidade. Introduções valiosas são melhores que muitas conexões superficiais.',
     dica: 'Qualidade > Quantidade.',
     correta: 'b'
   },
   {
-    id: '8',
-    pergunta: 'Qual é o mindset correto para escalar conexões?',
+    id: '7',
+    pergunta: 'Qual é o mindset correto para escalar conexões segundo o livro?',
     opcoes: [
       { valor: 'a', label: 'O que posso ganhar?' },
-      { valor: 'b', label: 'Como posso criar valor para outros para que queiram me conectar com mais pessoas?' },
+      { valor: 'b', label: 'Como posso criar valor para outros para que queiram me conectar?' },
       { valor: 'c', label: 'Como posso pedir mais?' },
       { valor: 'd', label: 'Como posso fazer isso sozinho?' }
     ],
-    explicacao: 'Pense em como criar valor para outros para que queiram te conectar com mais pessoas. Quando você cria valor, as pessoas naturalmente querem compartilhar você com sua rede.',
+    explicacao: 'Pense em como criar valor para outros para que queiram te conectar com mais pessoas. Valor cria conexões naturais.',
     dica: 'Valor cria conexões.',
+    correta: 'b'
+  },
+  {
+    id: '8',
+    pergunta: 'Qual é a métrica final de sucesso com The Mom Test?',
+    opcoes: [
+      { valor: 'a', label: 'Quantidade de conversas' },
+      { valor: 'b', label: 'Qualidade das conversas e insights que levam a decisões melhores' },
+      { valor: 'c', label: 'Número de ideias validadas' },
+      { valor: 'd', label: 'Tempo gasto conversando' }
+    ],
+    explicacao: 'A métrica final é a qualidade das conversas e insights que levam a decisões melhores. Conversas bem feitas geram dados reais para tomar decisões melhores.',
+    dica: 'Qualidade gera melhores decisões.',
     correta: 'b'
   }
 ];
@@ -114,9 +114,9 @@ const MicroLesson19 = () => {
   const navigate = useNavigate();
   return (
     <MicroLessonTemplate
-      titulo="Efeito Bola de Neve"
+      titulo="Domínio do The Mom Test"
       perguntas={perguntas}
-      mensagemConclusao="Parabéns! Você completou a décima nona e última microlição! Você domina The Mom Test e agora sabe como criar um efeito bola de neve poderoso de conexões valiosas. Continue praticando!"
+      mensagemConclusao="Parabéns! Você completou todas as microlições e dominou The Mom Test! Agora você sabe como fazer perguntas que geram insights reais, evitar dados ruins e criar um sistema de conexões valiosas. Continue praticando!"
       onConcluir={() => navigate('/aprendizado')}
     />
   );

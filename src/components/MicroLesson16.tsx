@@ -6,106 +6,106 @@ import { useNavigate } from 'react-router-dom';
 const perguntas: Pergunta[] = [
   {
     id: '1',
-    pergunta: 'O que é "Framing" no mnemônico VFWPA?',
+    pergunta: 'Qual é o mnemônico VFWPA para pedir reuniões?',
+    opcoes: [
+      { valor: 'a', label: 'Vision, Framing, Weakness, Pedestal, Ask' },
+      { valor: 'b', label: 'Problem, Solution, Benefits, Ask' },
+      { valor: 'c', label: 'Introduction, Problem, Solution, Action' },
+      { valor: 'd', label: 'Context, Question, Answer, Follow-up' }
+    ],
+    explicacao: 'VFWPA é o mnemônico do livro: Vision (como você está tornando o mundo melhor), Framing (em que estágio você está), Weakness (onde precisa de ajuda), Pedestal (por que a ajuda deles é valiosa), Ask (peça ajuda claramente).',
+    dica: 'Memorize a sequência que mostra valor e necessidade.',
+    correta: 'a'
+  },
+  {
+    id: '2',
+    pergunta: 'O que é "Vision" no mnemônico VFWPA?',
+    opcoes: [
+      { valor: 'a', label: 'Como você está tornando o mundo melhor' },
+      { valor: 'b', label: 'Qual é o seu problema' },
+      { valor: 'c', label: 'Qual é a sua solução' },
+      { valor: 'd', label: 'Quem você é' }
+    ],
+    explicacao: 'Vision: Como você está tornando o mundo melhor. Isso mostra o impacto positivo do seu trabalho e dá contexto ao seu pedido.',
+    dica: 'Comece com o propósito maior.',
+    correta: 'a'
+  },
+  {
+    id: '3',
+    pergunta: 'O que é "Framing" no VFWPA?',
     opcoes: [
       { valor: 'a', label: 'Em que estágio você está e o que procura' },
       { valor: 'b', label: 'Qual é o seu problema' },
       { valor: 'c', label: 'Qual é a sua solução' },
       { valor: 'd', label: 'Quem você é' }
     ],
-    explicacao: 'Framing: Em que estágio você está e o que procura. Isso dá contexto sobre onde você está no seu processo.',
+    explicacao: 'Framing: Em que estágio você está e o que procura. Isso dá contexto sobre onde você está no processo e o que está tentando aprender.',
     dica: 'Contextualize sua posição atual.',
     correta: 'a'
   },
   {
-    id: '2',
-    pergunta: 'O que é "Weakness" no mnemônico VFWPA?',
+    id: '4',
+    pergunta: 'O que é "Weakness" no VFWPA?',
     opcoes: [
       { valor: 'a', label: 'Onde você precisa de ajuda específica' },
       { valor: 'b', label: 'Quais são seus pontos fortes' },
       { valor: 'c', label: 'Quais são seus objetivos' },
       { valor: 'd', label: 'Quais são seus recursos' }
     ],
-    explicacao: 'Weakness: Mostre onde você precisa de ajuda específica. Isso mostra vulnerabilidade e necessidade.',
+    explicacao:'Weakness: Mostre onde você precisa de ajuda específica. Isso mostra vulnerabilidade e cria conexão humana.',
     dica: 'Mostre vulnerabilidade para criar conexão.',
     correta: 'a'
   },
   {
-    id: '3',
-    pergunta: 'Como estruturar um pedido de ajuda eficaz?',
-    opcoes: [
-      { valor: 'a', label: 'Seja vago e deixe eles adivinharem' },
-      { valor: 'b', label: 'Seja específico sobre o que você precisa e por quê' },
-      { valor: 'c', label: 'Peça tudo de uma vez' },
-      { valor: 'd', label: 'Não peça - espere oferecerem' }
-    ],
-    explicacao: 'Seja específico sobre o que você precisa e por quê. Isso torna mais fácil para as pessoas te ajudarem e aumenta as chancesde receber ajuda útil.',
-    dica: 'Especificidade gera ajuda.',
-    correta: 'b'
-  },
-  {
-    id: '4',
-    pergunta: 'Por que é importante contextualizar seu estágio ao pedir ajuda?',
-    opcoes: [
-      { valor: 'a', label: 'Porque as pessoas gostam de histórias' },
-      { valor: 'b', label: 'Porque ajuda as pessoas a entender como melhor te ajudar' },
-      { valor: 'c', label: 'Porque mostra que você é transparente' },
-      { valor: 'd', label: 'Porque é esperado' }
-    ],
-    explicacao: 'Contextualizar seu estágio ajuda as pessoas a entender como melhor te ajudar. Elas podem calibrar o tipo e nível de ajuda baseado em onde você está.',
-    dica: 'Contexto cria ajuda melhor.',
-    correta: 'b'
-  },
-  {
     id: '5',
-    pergunta: 'O que fazer se a pessoa não puder te ajudar diretamente?',
+    pergunta: 'O que é "Pedestal" no VFWPA?',
     opcoes: [
-      { valor: 'a', label: 'Aceite e pare por aí' },
-      { valor: 'b', label: 'Pergunte se conhece alguém que possa te ajudar' },
-      { valor: 'c', label: 'Insista até conseguir' },
-      { valor: 'd', label: 'Fique chateado' }
+      { valor: 'a', label: 'Por que a ajuda deles é particularmente valiosa' },
+      { valor: 'b', label: 'Por que você é importante' },
+      { valor: 'c', label: 'Por que o problema é importante' },
+      { valor: 'd', label: 'Por que a solução é importante' }
     ],
-    explicacao: 'Pergunte se conhecem alguém que possa te ajudar. Isso mantém o efeito bola de neve crescendo e pode levar a ajuda indireta valiosa.',
-    dica: 'Ajuda indireta é melhor que nenhuma ajuda.',
-    correta: 'b'
+    explicacao: 'Pedestal: Explique por que a ajuda deles é particularmente valiosa. Isso flata a pessoa e mostra que você reconhece expertise única deles.',
+    dica: 'Faça a pessoa se sentir especial e útil.',
+    correta: 'a'
   },
   {
     id: '6',
-    pergunta: 'Como mostrar que você valoriza a ajuda de alguém?',
+    pergunta: 'O que é "Ask" no VFWPA?',
     opcoes: [
-      { valor: 'a', label: 'Agradeça genericamente' },
-      { valor: 'b', label: 'Explique especificamente por que a ajuda deles é valiosa e única' },
-      { valor: 'c', label: 'Ofereça pagar' },
-      { valor: 'd', label: 'Prometa retribuir' }
+      { valor: 'a', label: 'Peça ajuda de forma clara e específica' },
+      { valor: 'b', label: 'Pergunte sobre o problema' },
+      { valor: 'c', label: 'Pergunte sobre a solução' },
+      { valor: 'd', label: 'Pergunte sobre o mercado' }
     ],
-    explicacao: 'Explique especificamente por que a ajuda deles é valiosa e única. Isso mostra que você reconhece e aprecia o valor específico que eles trazem.',
-    dica: 'Valor específico cria apreciação real.',
-    correta: 'b'
+    explicacao: 'Ask: Peça ajuda de forma clara e específica. Seja direto sobre o que você precisa e por que.',
+    dica: 'Seja direto e específico em seu pedido.',
+    correta: 'a'
   },
   {
     id: '7',
-    pergunta: 'Qual é o erro comum ao estruturar pedidos de ajuda?',
+    pergunta: 'Por que mostrar vulnerabilidade ao pedir ajuda funciona?',
     opcoes: [
-      { valor: 'a', label: 'Ser muito específico' },
-      { valor: 'b', label: 'Ser vago sobre o que você precisa' },
-      { valor: 'c', label: 'Ser muito educado' },
-      { valor: 'd', label: 'Agradecer demais' }
+      { valor: 'a', label: 'Porque as pessoas gostam de ver fraqueza' },
+      { valor: 'b', label: 'Porque cria conexão humana e torna mais fácil ajudar' },
+      { valor: 'c', label: 'Porque mostra que você é honesto' },
+      { valor: 'd', label: 'Porque é esperado' }
     ],
-    explicacao: 'Ser vago sobre o que você precisa é o erro comum. As pessoas querem ajudar, mas precisam saber exatamente como podem ser úteis.',
-    dica: 'Especificidade é chave.',
+    explicacao: 'Mostrar vulnerabilidade cria conexão humana e torna mais fácil para as pessoas se conectarem e quererem ajudar.',
+    dica: 'Vulnerabilidade cria conexão.',
     correta: 'b'
   },
   {
     id: '8',
-    pergunta: 'Como seguir após receber ajuda?',
+    pergunta: 'Como aplicar VFWPA na prática?',
     opcoes: [
-      { valor: 'a', label: 'Esqueça e siga em frente' },
-      { valor: 'b', label: 'Agradeça, compartilhe resultados e mantenha contato' },
-      { valor: 'c', label: 'Peça mais ajuda imediatamente' },
-      { valor: 'd', label: 'Apenas agradeça uma vez' }
+      { valor: 'a', label: 'Use sempre exatamente na mesma ordem' },
+      { valor: 'b', label: 'Use como guia flexível, adapte à conversa natural' },
+      { valor: 'c', label: 'Use apenas partes dele' },
+      { valor: 'd', label: 'Memorize como script rígido' }
     ],
-    explicacao: 'Agradeça, compartilhe resultados e mantenha contato. Isso constrói relacionamentos duradouros e pode levar a mais ajuda no futuro.',
-    dica: 'Relacionamentos são construídos com tempo.',
+    explicacao: 'Use VFWPA como guia flexível, adapte à conversa natural. A estrutura é um guia, não uma fórmula rígida.',
+    dica: 'Estrutura é guia, não prisão.',
     correta: 'b'
   }
 ];
@@ -114,9 +114,9 @@ const MicroLesson16 = () => {
   const navigate = useNavigate();
   return (
     <MicroLessonTemplate
-      titulo="Estrutura do Pedido"
+      titulo="Estrutura do Pedido - VFWPA"
       perguntas={perguntas}
-      mensagemConclusao="Você completou a décima sexta microlição sobre estrutura do pedido. Agora você domina como estruturar pedidos de ajuda eficazes usando o mnemônico VFWPA."
+      mensagemConclusao="Você completou a décima sexta microlição sobre estrutura do pedido. Agora domina o mnemônico VFWPA e sabe como estruturar pedidos de ajuda eficazes."
       onConcluir={() => navigate('/aprendizado')}
     />
   );

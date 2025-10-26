@@ -6,20 +6,20 @@ import { useNavigate } from 'react-router-dom';
 const perguntas: Pergunta[] = [
   {
     id: '1',
-    pergunta: 'Qual é o objetivo de uma conversa inicial com o cliente?',
+    pergunta: 'Qual é a pergunta "mágica" que o livro recomenda para começar conversas?',
     opcoes: [
-      { valor: 'a', label: 'Vender sua ideia' },
-      { valor: 'b', label: 'Obter fatos concretos sobre a vida e a visão de mundo do cliente' },
-      { valor: 'c', label: 'Construir relacionamentos' },
-      { valor: 'd', label: 'Apresentar sua solução' }
+      { valor: 'a', label: 'Você compraria meu produto?' },
+      { valor: 'b', label: 'Como você está lidando com isso atualmente?' },
+      { valor: 'c', label: 'O que você acha da minha ideia?' },
+      { valor: 'd', label: 'Você tem esse problema?' }
     ],
-    explicacao: 'O objetivo de uma conversa inicial com o cliente é obter fatos concretos sobre a vida e a visão de mundo dele, que permitam melhorar o negócio.',
-    dica: 'Pense sobre o que você realmente precisa saber do cliente.',
+    explicacao: '"Como você está lidando com isso atualmente?" é a pergunta mágica do livro. Ela foca no comportamento real atual, não em intenções futuras.',
+    dica: 'Pense em uma pergunta que revela o comportamento real.',
     correta: 'b'
   },
   {
     id: '2',
-    pergunta: 'Por que opiniões são inúteis?',
+    pergunta: 'Por que opiniões são inúteis na validação de uma ideia?',
     opcoes: [
       { valor: 'a', label: 'As pessoas não sabem o que querem' },
       { valor: 'b', label: 'Apenas o mercado pode dizer se sua ideia é boa' },
@@ -32,32 +32,45 @@ const perguntas: Pergunta[] = [
   },
   {
     id: '3',
-    pergunta: 'Qual é a melhor abordagem para perguntar sobre o futuro?',
+    pergunta: 'Qual é a regra geral sobre conversas com clientes?',
     opcoes: [
-      { valor: 'a', label: 'Perguntar se a pessoa compraria algo' },
-      { valor: 'b', label: 'Perguntar sobre ações passadas' },
-      { valor: 'c', label: 'Perguntar sobre desejos pessoais' },
-      { valor: 'd', label: 'Perguntar sobre tendências do mercado' }
+      { valor: 'a', label: 'Quanto mais você fala, melhor está se saindo' },
+      { valor: 'b', label: 'Quanto mais você ouve, melhor está se saindo' },
+      { valor: 'c', label: 'É preciso apresentar sua ideia para ganhar confiança' },
+      { valor: 'd', label: 'É preciso ouvir mais do que falar' }
     ],
-    explicacao: 'Pergunte sobre especificidades do passado, em vez de generalidades ou opiniões sobre o futuro. Ações passadas são fatos; intenções futuras são mentiras otimistas.',
-    dica: 'O que é mais confiável: o que alguém fez ou o que diz que fará?',
+    explicacao: 'Regra geral: Quanto mais você fala, pior está se saindo. Você não aprende nada enquanto está falando.',
+    dica: 'O foco deve ser em coletar informações, não em transmiti-las.',
     correta: 'b'
   },
   {
     id: '4',
-    pergunta: 'O que é "fluff" e como lidar com isso?',
+    pergunta: 'Por que perguntas sobre o futuro são problemáticas?',
     opcoes: [
-      { valor: 'a', label: 'Informações vagas que devem ser ancoradas em exemplos específicos' },
-      { valor: 'b', label: 'Elogios que devem ser ignorados' },
-      { valor: 'c', label: 'Ideias que devem ser implementadas' },
-      { valor: 'd', label: 'Dados ruins que devem ser evitados' }
+      { valor: 'a', label: 'As pessoas não conseguem prever o futuro' },
+      { valor: 'b', label: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista' },
+      { valor: 'c', label: 'As pessoas mentem sobre o futuro' },
+      { valor: 'd', label: 'O futuro é incerto' }
     ],
-    explicacao: '"Fluff" vem em três formas: alegações genéricas, promessas futuras e possibilidades hipotéticas. Ancore essas declarações vagas em exemplos específicos do passado.',
-    dica: 'Como transformar "eu geralmente" em algo concreto?',
-    correta: 'a'
+    explicacao: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista. Perguntas como "Você compraria..." ou "Quanto você pagaria..." convidam a respostas hipotéticas e otimistas que não se traduzem em vendas reais.',
+    dica: 'O que é mais confiável: intenções ou ações passadas?',
+    correta: 'b'
   },
   {
     id: '5',
+    pergunta: 'O que é "fluff" e como lidar com isso?',
+    opcoes: [
+      { valor: 'a', label: 'Informações vagas que devem ser ignoradas' },
+      { valor: 'b', label: 'Elogios que devem ser ignorados' },
+      { valor: 'c', label: 'Ideias que devem ser implementadas' },
+      { valor: 'd', label: 'Informações vagas que devem ser ancoradas em exemplos específicos' }
+    ],
+    explicacao: '"Fluff" vem em três formas: alegações genéricas, promessas futuras e possibilidades hipotéticas. Ancore essas declarações vagas em exemplos específicos do passado.',
+    dica: 'Como transformar "eu geralmente" em algo concreto?',
+    correta: 'd'
+  },
+  {
+    id: '6',
     pergunta: 'Como evitar pedidos de funcionalidades?',
     opcoes: [
       { valor: 'a', label: 'Ignorar os clientes' },
@@ -70,7 +83,7 @@ const perguntas: Pergunta[] = [
     correta: 'b'
   },
   {
-    id: '6',
+    id: '7',
     pergunta: 'Qual é a regra geral sobre busca de aprovação?',
     opcoes: [
       { valor: 'a', label: 'É importante buscar aprovação constante' },
@@ -81,32 +94,6 @@ const perguntas: Pergunta[] = [
     explicacao: 'Se você mencionar sua ideia, as pessoas tentarão proteger seus sentimentos. Evite "pescar elogios" ou expor seu ego.',
     dica: 'As pessoas tendem a ser gentis, mesmo quando não estão interessadas.',
     correta: 'b'
-  },
-  {
-    id: '7',
-    pergunta: 'O que é importante em uma conversa?',
-    opcoes: [
-      { valor: 'a', label: 'Fazer muitas perguntas' },
-      { valor: 'b', label: 'Ouvir mais do que falar' },
-      { valor: 'c', label: 'Manter o foco na sua ideia' },
-      { valor: 'd', label: 'Usar linguagem técnica' }
-    ],
-    explicacao: 'Você deve ter medo de pelo menos uma das perguntas que está fazendo em cada conversa. Perguntas importantes são aquelas cujas respostas podem mudar completamente ou invalidar seu negócio.',
-    dica: 'Perguntas valiosas muitas vezes são desconfortáveis de fazer.',
-    correta: 'a'
-  },
-  {
-    id: '8',
-    pergunta: 'Qual é a melhor estratégia para encontrar pessoas para conversar?',
-    opcoes: [
-      { valor: 'a', label: 'Usar ligações frias' },
-      { valor: 'b', label: 'Organizar meetups' },
-      { valor: 'c', label: 'Criar introduções calorosas' },
-      { valor: 'd', label: 'Todas as anteriores' }
-    ],
-    explicacao: 'Estratégias para encontrar conversas incluem ir até eles (ligações frias), trazer eles até você (meetups), ou criar introduções calorosas (contatos, conselheiros).',
-    dica: 'Diversas abordagens aumentam suas chances de sucesso.',
-    correta: 'd'
   }
 ];
 
@@ -116,7 +103,7 @@ const MicroLesson7 = () => {
     <MicroLessonTemplate
       titulo="Conversas Iniciais com Clientes"
       perguntas={perguntas}
-      mensagemConclusao="Você completou a sétima microlição sobre perguntas eficazes. Agora você sabe como fazer perguntas que realmente geram insights valiosos."
+      mensagemConclusao="Você completou a sétima microlição sobre perguntas eficazes. Agora você domina a pergunta mágica e sabe como evitar armadilhas comuns."
       onConcluir={() => navigate('/aprendizado')}
     />
   );

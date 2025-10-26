@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import {
   Trophy, ChevronLeft, ChevronRight,
   CheckCircle, XCircle, HelpCircle,
-  Check, X, Circle
+  Check, X, Circle, BookOpen, Lightbulb
 } from 'lucide-react';
 import {
   Accordion,
@@ -24,6 +24,7 @@ export interface Pergunta {
   explicacao: string;
   dica: string;
   correta: string;
+  exemploLivro?: string; // Adicionando campo para exemplos do livro
 }
 
 interface MicroLessonTemplateProps {
@@ -94,6 +95,10 @@ const MicroLessonTemplate = ({
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
       <div className="max-w-2xl mx-auto">
         <div className="mb-8">
+          <div className="flex items-center justify-between mb-4">
+            <h1 className="text-xl font-bold">{titulo}</h1>
+            <Badge variant="secondary">Lição {perguntaAtual + 1}/{perguntas.length}</Badge>
+          </div>
           <Progress value={progresso} className="h-2" />
           <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
             Pergunta {perguntaAtual + 1} de {perguntas.length}
@@ -101,7 +106,10 @@ const MicroLessonTemplate = ({
         </div>
 
         <Card className="p-8">
-          <h2 className="text-2xl font-bold mb-8 text-center">{pergunta.pergunta}</h2>
+          <div className="flex items-center gap-3 mb-6">
+            <BookOpen className="w-6 h-6 text-purple-600" />
+            <h2 className="text-2xl font-bold">{pergunta.pergunta}</h2>
+          </div>
 
           <div className="space-y-4 mb-6">
             {pergunta.opcoes.map((opcao) => {
@@ -173,7 +181,16 @@ const MicroLessonTemplate = ({
                     </>
                   )}
                 </h3>
-                <p className="text-sm">{pergunta.explicacao}</p>
+                <p className="text-sm mb-3">{pergunta.explicacao}</p>
+                {pergunta.exemploLivro && (
+                  <div className="bg-white/50 dark:bg-gray-800/50 p-3 rounded-lg">
+                    <p className="text-sm font-medium flex items-center">
+                      <BookOpen className="w-4 h-4 mr-2" />
+                      Exemplo do livro:
+                    </p>
+                    <p className="text-sm italic">{pergunta.exemploLivro}</p>
+                  </div>
+                )}
               </div>
             </div>
           )}
@@ -182,7 +199,7 @@ const MicroLessonTemplate = ({
             <AccordionItem value="dica">
               <AccordionTrigger className="text-sm hover:no-underline">
                 <div className="flex items-center">
-                  <HelpCircle className="w-4 h-4 mr-2" />
+                  <Lightbulb className="w-4 h-4 mr-2" />
                   Precisa de uma dica?
                 </div>
               </AccordionTrigger>
