@@ -304,9 +304,9 @@ const MicroLesson4 = () => {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                <p className="text-sm textContinuando o código da MicroLesson4:
-
-<dyad-write path="src/components/MicroLesson4.tsx">
+                <p className="text-sm text-gray-600 dark:text-gray-300 p-2">
+                  {pergunta.dica}
+                </p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
