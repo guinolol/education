@@ -70,5 +70,97 @@
         "correctAnswer": "b"
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Traction: A Regra dos 50%",
+    "conclusionMessage": "Você aprendeu sobre a Regra dos 50%. Agora você entende a importância de equilibrar o desenvolvimento do produto com os esforços de tração.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é a 'Regra dos 50%' em Traction?",
+        "options": [
+          { "value": "a", "label": "Gastar 50% do orçamento em marketing" },
+          { "value": "b", "label": "Dedicar 50% do tempo ao desenvolvimento do produto e 50% à tração" },
+          { "value": "c", "label": "Conseguir 50% de market share" },
+          { "value": "d", "label": "Ter uma margem de lucro de 50%" }
+        ],
+        "explanation": "A Regra dos 50% sugere que as startups devem alocar metade de seu tempo e recursos para o desenvolvimento do produto e a outra metade para ganhar tração (conseguir clientes).",
+        "hint": "É sobre o equilíbrio entre construir e vender.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Qual é o erro mais comum que a Regra dos 50% tenta evitar?",
+        "options": [
+          { "value": "a", "label": "Gastar muito em marketing e pouco em produto" },
+          { "value": "b", "label": "Focar quase 100% no produto e negligenciar a tração" },
+          { "value": "c", "label": "Lançar o produto muito cedo" },
+          { "value": "d", "label": "Contratar muitos vendedores" }
+        ],
+        "explanation": "Muitas startups, especialmente as fundadas por engenheiros, caem na armadilha de focar exclusivamente em construir o melhor produto, assumindo que os clientes virão sozinhos. A regra força um equilíbrio.",
+        "hint": "Pense no viés de 'se eu construir, eles virão'.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "3",
+        "question": "Quando você deve começar a pensar em tração?",
+        "options": [
+          { "value": "a", "label": "Apenas depois que o produto estiver 100% pronto" },
+          { "value": "b", "label": "Desde o primeiro dia, em paralelo com o desenvolvimento do produto" },
+          { "value": "c", "label": "Quando o financiamento inicial estiver acabando" },
+          { "value": "d", "label": "Após contratar uma equipe de marketing" }
+        ],
+        "explanation": "A tração e o desenvolvimento do produto devem andar de mãos dadas desde o início. O feedback dos primeiros usuários (tração) informa o que construir a seguir (produto).",
+        "hint": "É um ciclo, não uma sequência.",
+        "correctAnswer": "b"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Traction: Canais Online",
+    "conclusionMessage": "Você explorou alguns dos principais canais de tração online. Agora você tem uma ideia melhor de como SEO, Marketing de Conteúdo e Anúncios podem funcionar.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a principal vantagem do canal 'SEO' (Search Engine Optimization)?",
+        "options": [
+          { "value": "a", "label": "Resultados imediatos" },
+          { "value": "b", "label": "Custo muito baixo para começar" },
+          { "value": "c", "label": "Geração de tráfego orgânico e sustentável a longo prazo" },
+          { "value": "d", "label": "Fácil de medir o ROI" }
+        ],
+        "explanation": "Embora demore para dar resultados, uma boa estratégia de SEO pode gerar um fluxo constante de clientes altamente qualificados que estão procurando ativamente por sua solução, de forma 'gratuita'.",
+        "hint": "Pense em um ativo que se valoriza com o tempo.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "O que é 'Engenharia como Marketing'?",
+        "options": [
+          { "value": "a", "label": "Contratar engenheiros para a equipe de marketing" },
+          { "value": "b", "label": "Construir ferramentas úteis e gratuitas (calculadoras, widgets) para atrair clientes" },
+          { "value": "c", "label": "Otimizar a velocidade do site" },
+          { "value": "d", "label": "Usar IA para criar campanhas de marketing" }
+        ],
+        "explanation": "Engenharia como Marketing envolve a criação de ferramentas, widgets ou microsites úteis que atraem seu público-alvo e geram leads. Exemplo: uma calculadora de hipotecas no site de um corretor.",
+        "hint": "É sobre criar valor, não apenas publicidade.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "3",
+        "question": "Qual é a principal desvantagem de depender de 'Anúncios em Redes Sociais e Display'?",
+        "options": [
+          { "value": "a", "label": "É difícil de segmentar o público" },
+          { "value": "b", "label": "Os resultados não são mensuráveis" },
+          { "value": "c", "label": "O crescimento para quando você para de pagar" },
+          { "value": "d", "label": "Não funciona para produtos B2B" }
+        ],
+        "explanation": "Anúncios pagos podem trazer resultados rápidos e são altamente escaláveis, mas o crescimento é diretamente proporcional ao seu gasto. Assim que você desliga os anúncios, o fluxo de novos clientes para.",
+        "hint": "Pense em 'alugar' versus 'possuir' o tráfego.",
+        "correctAnswer": "c"
+      }
+    ]
   }
 ]

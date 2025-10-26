@@ -70,5 +70,71 @@
         "correctAnswer": "c"
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Scaling People: Comunicação e Feedback",
+    "conclusionMessage": "Você aprendeu sobre a importância de sistemas de comunicação e feedback para escalar equipes. Agora você sabe como criar clareza e confiança.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que as reuniões 1-a-1 (one-on-ones) são cruciais?",
+        "options": [
+          { "value": "a", "label": "Para o gerente dar ordens à equipe" },
+          { "value": "b", "label": "Para ser um canal de comunicação bidirecional, construir confiança e apoiar o desenvolvimento do funcionário" },
+          { "value": "c", "label": "Para fofocar sobre outros membros da equipe" },
+          { "value": "d", "label": "Para cancelar se não houver uma 'pauta urgente'" }
+        ],
+        "explanation": "A 1-a-1 é a ferramenta mais importante de um gerente. É o tempo do funcionário, não do gerente. Serve para discutir carreira, dar e receber feedback, e resolver problemas antes que eles se tornem grandes.",
+        "hint": "É sobre coaching, não sobre status report.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "O que é um bom sistema de feedback?",
+        "options": [
+          { "value": "a", "label": "Dar feedback apenas uma vez por ano, na avaliação de desempenho" },
+          { "value": "b", "label": "Um sistema que incentiva feedback contínuo, específico e acionável em todas as direções (para cima, para baixo e entre pares)" },
+          { "value": "c", "label": "Apenas dar feedback positivo para manter a moral alta" },
+          { "value": "d", "label": "Um sistema onde apenas os gerentes dão feedback" }
+        ],
+        "explanation": "Feedback é um presente. Um bom sistema o torna uma parte normal e esperada da cultura, não um evento assustador e anual. Ele deve ser equilibrado, específico e focado em ajudar as pessoas a crescer.",
+        "hint": "Pense em feedback como um fluxo constante, não uma inundação anual.",
+        "correctAnswer": "b"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Scaling People: Tomada de Decisão",
+    "conclusionMessage": "Você aprendeu como escalar a tomada de decisão. Agora você entende a importância de delegar e criar clareza sobre quem decide o quê.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o maior gargalo na tomada de decisão em uma empresa em crescimento?",
+        "options": [
+          { "value": "a", "label": "Falta de dados" },
+          { "value": "b", "label": "A equipe não é inteligente o suficiente" },
+          { "value": "c", "label": "O fundador ou a liderança sênior tentando tomar todas as decisões" },
+          { "value": "d", "label": "Muitas reuniões" }
+        ],
+        "explanation": "À medida que a empresa cresce, é impossível para uma única pessoa ou um pequeno grupo tomar todas as decisões. Escalar requer delegar a tomada de decisão para as pessoas mais próximas da informação.",
+        "hint": "O objetivo é empurrar a decisão para baixo.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "O que é um framework como o 'RAPID' ou 'DACI' usado para fazer?",
+        "options": [
+          { "value": "a", "label": "Escrever código mais rápido" },
+          { "value": "b", "label": "Gerenciar projetos" },
+          { "value": "c", "label": "Clarificar os papéis na tomada de decisão (quem recomenda, quem aprova, quem decide, etc.)" },
+          { "value": "d", "label": "Conduzir avaliações de desempenho" }
+        ],
+        "explanation": "Frameworks de decisão como RAPID (Recommend, Agree, Perform, Input, Decide) ajudam a evitar a ambiguidade sobre quem tem qual papel em uma decisão. Isso acelera o processo e melhora a qualidade das decisões.",
+        "hint": "Clareza sobre papéis evita paralisia.",
+        "correctAnswer": "c"
+      }
+    ]
   }
 ]

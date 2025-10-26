@@ -70,5 +70,84 @@
         "correctAnswer": "c"
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Running Lean: Validando o Problema",
+    "conclusionMessage": "Você aprendeu sobre a Entrevista do Problema. Agora você sabe como conduzir entrevistas para validar se o problema que você identificou é real e relevante.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo principal da 'Entrevista do Problema'?",
+        "options": [
+          { "value": "a", "label": "Vender sua solução" },
+          { "value": "b", "label": "Validar o par problema/cliente e entender como os clientes resolvem o problema hoje" },
+          { "value": "c", "label": "Coletar uma lista de features desejadas" },
+          { "value": "d", "label": "Definir o preço do produto" }
+        ],
+        "explanation": "A Entrevista do Problema é puramente para aprendizado. O objetivo é validar suas hipóteses sobre quem são seus clientes e quais problemas eles têm, antes de sequer mencionar sua solução.",
+        "hint": "O foco é 100% no cliente e no seu contexto.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Por que você NÃO deve falar sobre sua solução durante a Entrevista do Problema?",
+        "options": [
+          { "value": "a", "label": "Porque a solução ainda não está pronta" },
+          { "value": "b", "label": "Para não roubarem sua ideia" },
+          { "value": "c", "label": "Porque isso contamina o feedback e impede o aprendizado sobre o problema real" },
+          { "value": "d", "label": "Porque é contra as regras do Lean" }
+        ],
+        "explanation": "Mencionar sua solução ativa o 'viés da boa vontade' (como no Teste da Mãe). As pessoas começarão a te dar elogios em vez de fatos sobre seus problemas. Você precisa de dados brutos sobre a realidade deles.",
+        "hint": "Você está em modo de escuta, não de apresentação.",
+        "correctAnswer": "c"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Running Lean: Validando a Solução",
+    "conclusionMessage": "Você aprendeu sobre a Entrevista da Solução. Agora você sabe como apresentar sua solução e testar se ela realmente ressoa com os clientes.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Quando você deve realizar a 'Entrevista da Solução'?",
+        "options": [
+          { "value": "a", "label": "Antes da Entrevista do Problema" },
+          { "value": "b", "label": "Apenas depois de ter um produto totalmente funcional" },
+          { "value": "c", "label": "Depois de validar que o problema existe e é importante (com a Entrevista do Problema)" },
+          { "value": "d", "label": "No lugar da Entrevista do Problema" }
+        ],
+        "explanation": "A sequência é crucial: primeiro, valide o problema. Depois que você tem certeza de que está resolvendo uma dor real, você pode começar a testar sua solução proposta.",
+        "hint": "Problema primeiro, solução depois.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "O que você precisa ter para uma Entrevista da Solução eficaz?",
+        "options": [
+          { "value": "a", "label": "Um produto completo e sem bugs" },
+          { "value": "b", "label": "Um contrato de venda pronto" },
+          { "value": "c", "label": "Um 'demo' ou protótipo que demonstre sua Proposta de Valor Única" },
+          { "value": "d", "label": "Uma apresentação de slides de 50 páginas" }
+        ],
+        "explanation": "Você não precisa de um produto completo. Um protótipo, mockups, ou até mesmo uma landing page (o que Ash Maurya chama de 'demo') é suficiente para apresentar a solução e coletar feedback e, mais importante, compromisso.",
+        "hint": "O objetivo é testar a proposta de valor, não a tecnologia.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "3",
+        "question": "Qual é a métrica mais importante a ser testada na Entrevista da Solução?",
+        "options": [
+          { "value": "a", "label": "Quantos elogios você recebe" },
+          { "value": "b", "label": "O preço que os clientes estão dispostos a pagar" },
+          { "value": "c", "label": "Quantas features eles pedem" },
+          { "value": "d", "label": "Se o design é bonito" }
+        ],
+        "explanation": "A validação final é o preço. Perguntar 'quanto você pagaria?' é inútil. O objetivo é testar um preço específico e ver se os clientes se comprometem (com um pré-pedido, carta de intenção, etc.). Isso valida que a solução tem valor real.",
+        "hint": "As pessoas votam com suas carteiras.",
+        "correctAnswer": "b"
+      }
+    ]
   }
 ]

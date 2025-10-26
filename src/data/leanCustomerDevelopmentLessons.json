@@ -70,5 +70,84 @@
         "correctAnswer": "c"
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Lean Customer Development: A Entrevista",
+    "conclusionMessage": "Você aprendeu as melhores práticas para conduzir entrevistas de customer development. Agora você sabe como fazer perguntas que geram insights reais.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a melhor maneira de começar uma entrevista de customer development?",
+        "options": [
+          { "value": "a", "label": "Apresentando sua ideia imediatamente" },
+          { "value": "b", "label": "Estabelecendo o contexto e explicando que você está fazendo uma pesquisa para aprender, não para vender" },
+          { "value": "c", "label": "Perguntando se eles comprariam seu produto" },
+          { "value": "d", "label": "Mostrando um protótipo" }
+        ],
+        "explanation": "Comece deixando a pessoa confortável. Explique que você está ali para aprender com a experiência dela e que não há respostas certas ou erradas. Isso desarma a postura de 'venda' e incentiva a honestidade.",
+        "hint": "Crie um ambiente seguro para o feedback.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "2",
+        "question": "Que tipo de pergunta você deve EVITAR?",
+        "options": [
+          { "value": "a", "label": "Perguntas abertas sobre o passado" },
+          { "value": "b", "label": "Perguntas hipotéticas sobre o futuro (ex: 'Você usaria...?')" },
+          { "value": "c", "label": "Perguntas sobre como eles resolvem um problema hoje" },
+          { "value": "d", "label": "Perguntas que pedem por exemplos específicos" }
+        ],
+        "explanation": "Perguntas sobre o futuro geram opiniões e 'mentiras otimistas'. Foque em comportamentos passados e presentes, que são fatos. Em vez de 'Você usaria?', pergunte 'Me conte sobre a última vez que você...'.",
+        "hint": "Fatos > Opiniões.",
+        "correctAnswer": "b"
+      },
+      {
+        "id": "3",
+        "question": "O que fazer quando um cliente sugere uma feature?",
+        "options": [
+          { "value": "a", "label": "Anotar e prometer construir" },
+          { "value": "b", "label": "Explicar por que a feature não é uma boa ideia" },
+          { "value": "c", "label": "Ignorar a sugestão e mudar de assunto" },
+          { "value": "d", "label": "Investigar o problema por trás do pedido com perguntas como 'Por que isso é importante para você?'" }
+        ],
+        "explanation": "Nunca aceite pedidos de feature pelo valor de face. Use-os como um ponto de partida para entender o problema subjacente. O cliente é especialista no problema, você é o especialista na solução.",
+        "hint": "Cave mais fundo para encontrar a causa raiz.",
+        "correctAnswer": "d"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Lean Customer Development: Sintetizando o Aprendizado",
+    "conclusionMessage": "Você aprendeu a sintetizar os aprendizados das entrevistas. Agora você sabe como transformar notas de conversas em insights acionáveis.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que você deve fazer imediatamente após uma entrevista?",
+        "options": [
+          { "value": "a", "label": "Ligar para o próximo entrevistado" },
+          { "value": "b", "label": "Esquecer o que foi dito e esperar a próxima" },
+          { "value": "c", "label": "Revisar e organizar suas anotações enquanto a conversa está fresca na memória" },
+          { "value": "d", "label": "Enviar um email de vendas" }
+        ],
+        "explanation": "O ideal é reservar 15-30 minutos após cada entrevista para limpar suas anotações, destacar os pontos mais importantes e capturar quaisquer nuances que você possa esquecer mais tarde.",
+        "hint": "A memória é curta.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "Ao analisar várias entrevistas, o que você está procurando?",
+        "options": [
+          { "value": "a", "label": "Apenas as opiniões que confirmam sua ideia" },
+          { "value": "b", "label": "Padrões, contradições e surpresas nos comportamentos e problemas dos clientes" },
+          { "value": "c", "label": "Citações para colocar no seu site" },
+          { "value": "d", "label": "Uma contagem de quantas pessoas disseram 'sim'" }
+        ],
+        "explanation": "A síntese é sobre encontrar padrões. Várias pessoas mencionaram o mesmo problema? Elas usam as mesmas soluções alternativas? Houve algo que te surpreendeu? Esses padrões validam ou invalidam suas hipóteses.",
+        "hint": "Procure por repetição e anomalias.",
+        "correctAnswer": "b"
+      }
+    ]
   }
 ]

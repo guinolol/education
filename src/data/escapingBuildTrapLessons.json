@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Escaping the Build Trap: Outputs vs. Outcomes",
-    "conclusionMessage": "Você completou a microlição sobre a Armadilha da Construção. Agora você entende a diferença crucial entre outputs e outcomes para criar produtos de sucesso.",
+    "conclusionMessage": "Você completou a microlição sobre a Armadilha da Construção. Agora você entende a diferença crucial between outputs e outcomes para criar produtos de sucesso.",
     "questions": [
       {
         "id": "1",
@@ -67,6 +67,72 @@
         ],
         "explanation": "Uma boa estratégia de produto atua como uma ponte entre a visão da empresa e o trabalho da equipe. Ela define os objetivos (outcomes) a serem alcançados e orienta as decisões sobre o que construir (ou não construir).",
         "hint": "É o 'porquê' por trás do 'o quê'.",
+        "correctAnswer": "b"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Escaping the Build Trap: O Papel do Gerente de Produto",
+    "conclusionMessage": "Você aprendeu sobre o verdadeiro papel do Gerente de Produto. Não é ser um 'gerente de backlog', mas um estrategista que guia o produto para gerar outcomes.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual NÃO é o papel de um bom Gerente de Produto?",
+        "options": [
+          { "value": "a", "label": "Entender profundamente os problemas do cliente" },
+          { "value": "b", "label": "Definir a visão e estratégia do produto" },
+          { "value": "c", "label": "Apenas escrever user stories e gerenciar o backlog" },
+          { "value": "d", "label": "Colaborar com stakeholders para alinhar objetivos" }
+        ],
+        "explanation": "Muitas empresas relegam os PMs a 'gerentes de backlog' ou 'escribas de features', o que é um sintoma da Build Trap. O verdadeiro papel é estratégico: entender o cliente e o negócio para guiar o produto na direção certa.",
+        "hint": "Pense em estratégia vs. tática.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "O que significa dizer que um Gerente de Produto deve ser o 'advogado do cliente'?",
+        "options": [
+          { "value": "a", "label": "Que ele deve construir tudo que o cliente pede" },
+          { "value": "b", "label": "Que ele deve processar legalmente os concorrentes" },
+          { "value": "c", "label": "Que ele deve ter um profundo conhecimento empático dos problemas e necessidades do cliente para representar sua voz" },
+          { "value": "d", "label": "Que ele deve responder a todos os tickets de suporte" }
+        ],
+        "explanation": "Ser o advogado do cliente significa entender suas dores e contexto tão bem que você pode tomar decisões de produto que realmente resolvam seus problemas, mesmo que eles não saibam articular a solução.",
+        "hint": "Empatia é a palavra-chave.",
+        "correctAnswer": "c"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Escaping the Build Trap: Estratégia e O Product Kata",
+    "conclusionMessage": "Você aprendeu sobre o Product Kata, um framework para criar e executar uma estratégia de produto focada em outcomes.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o 'Product Kata'?",
+        "options": [
+          { "value": "a", "label": "Um tipo de arte marcial para PMs" },
+          { "value": "b", "label": "Um processo de design de interfaces" },
+          { "value": "c", "label": "Um padrão repetitivo para analisar a situação atual, definir metas e experimentar para alcançá-las" },
+          { "value": "d", "label": "Um software de gerenciamento de projetos" }
+        ],
+        "explanation": "O Product Kata é um ciclo de melhoria contínua: 1. Entender a direção estratégica. 2. Analisar onde você está agora. 3. Definir o próximo objetivo (outcome). 4. Experimentar para chegar lá, aprendendo no caminho.",
+        "hint": "É um ciclo de aprendizado e execução.",
+        "correctAnswer": "c"
+      },
+      {
+        "id": "2",
+        "question": "Por que um 'roadmap de features' é um sintoma da Build Trap?",
+        "options": [
+          { "value": "a", "label": "Porque roadmaps são inúteis" },
+          { "value": "b", "label": "Porque ele se compromete com uma lista de outputs, em vez de focar em alcançar outcomes" },
+          { "value": "c", "label": "Porque é difícil de estimar os prazos" },
+          { "value": "d", "label": "Porque apenas o CEO deveria ver o roadmap" }
+        ],
+        "explanation": "Um roadmap focado em features (ex: 'Lançar feature X no Q3') prende a equipe a construir coisas, independentemente do aprendizado. Um roadmap focado em outcomes (ex: 'Aumentar a ativação de novos usuários em 15% no Q3') dá autonomia para a equipe descobrir a melhor solução.",
+        "hint": "Comprometa-se com problemas, não com soluções.",
         "correctAnswer": "b"
       }
     ]
