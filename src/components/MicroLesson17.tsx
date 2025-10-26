@@ -29,6 +29,84 @@ const perguntas: Pergunta[] = [
     explicacao: 'Ask: Peça ajuda de forma clara. Seja específico sobre o que você precisa.',
     dica: 'Seja direto e específico em seu pedido.',
     correta: 'a'
+  },
+  {
+    id: '3',
+    pergunta: 'Como fazer um pedido claro e eficaz?',
+    opcoes: [
+      { valor: 'a', label: 'Seja vago para dar liberdade' },
+      { valor: 'b', label: 'Seja específico sobre o que, por que e até quando' },
+      { valor: 'c', label: 'Peça tudo de uma vez' },
+      { valor: 'd', label: 'Não seja muito direto' }
+    ],
+    explicacao: 'Seja específico sobre o que você precisa, por que precisa e até quando. Isso torna mais fácil para as pessoas te ajudarem e aumenta as chances de sucesso.',
+    dica: 'Clareza gera ação.',
+    correta: 'b'
+  },
+  {
+    id: '4',
+    pergunta: 'Por que é importante explicar por que a ajuda de alguém é única?',
+    opcoes: [
+      { valor: 'a', label: 'Para flatar a pessoa' },
+      { valor: 'b', label: 'Para mostrar que você reconhece o valor específico que eles trazem' },
+      { valor: 'c', label: 'Para manipular' },
+      { valor: 'd', label: 'Porque é esperado' }
+    ],
+    explicacao: 'Mostrar que você reconhece o valor específico que eles trazem demonstra que não é um pedido genérico e que você valoriza expertise única deles.',
+    dica: 'Valor específico cria conexão real.',
+    correta: 'b'
+  },
+  {
+    id: '5',
+    pergunta: 'Como lidar com pedidos de ajuda recusados?',
+    opcoes: [
+      { valor: 'a', label: 'Insista até conseguir' },
+      { valor: 'b', label: 'Aceite graciosamente e pergunte por referências' },
+      { valor: 'c', label: 'Fique chateado' },
+      { valor: 'd', label: 'Pare de falar com a pessoa' }
+    ],
+    explicacao: 'Aceite graciosamente e pergunte por referências. Uma recusa direta pode ainda levar a ajuda indireta através de introduções.',
+    dica: 'Graciosidade mantém portas abertas.',
+    correta: 'b'
+  },
+  {
+    id: '6',
+    pergunta: 'Qual é o erro comum ao fazer o pedido final?',
+    opcoes: [
+      { valor: 'a', label: 'Ser muito claro' },
+      { valor: 'b', label: 'Ser vago sobre o que precisa' },
+      { valor: 'c', label: 'Agradecer' },
+      { valor: 'd', label: 'Ser específico' }
+    ],
+    explicacao: 'Ser vago sobre o que precisa é o erro comum. Pessoas ocupadas precisam de clareza para poder ajudar eficientemente.',
+    dica: 'Vagueza mata ajuda.',
+    correta: 'b'
+  },
+  {
+    id: '7',
+    pergunta: 'Como tornar seu pedido mais fácil de aceitar?',
+    opcoes: [
+      { valor: 'a', label: 'Tornar o mais grande possível' },
+      { valor: 'b', label: 'Quebrar em partes menores e gerenciáveis' },
+      { valor: 'c', label: 'Adicionar complexidade' },
+      { valor: 'd', label: 'Não dar opções' }
+    ],
+    explicacao: 'Quebre em partes menores e gerenciáveis. Isso reduz a barreira para ajudar e aumenta as chances de as pessoas dizerem sim.',
+    dica: 'Menor é mais fácil.',
+    correta: 'b'
+  },
+  {
+    id: '8',
+    pergunta: 'O que fazer após fazer um pedido?',
+    opcoes: [
+      { valor: 'a', label: 'Esperar' },
+      { valor: 'b', label: 'Siga com gratidão e mantenha contato sobre progresso' },
+      { valor: 'c', label: 'Esqueça e siga em frente' },
+      { valor: 'd', label: 'Peça mais' }
+    ],
+    explicacao: 'Siga com gratidão e mantenha contato sobre progresso. Isso mostra que você valoriza a ajuda e constrói relacionamentos para o futuro.',
+    dica: 'Seguimento constrói relacionamentos.',
+    correta: 'b'
   }
 ];
 
@@ -38,7 +116,7 @@ const MicroLesson17 = () => {
     <MicroLessonTemplate
       titulo="Finalizando o Pedido"
       perguntas={perguntas}
-      mensagemConclusao="Você completou a décima sétima microlição sobre finalização do pedido. Agora você domina completamente o VFWPA."
+      mensagemConclusao="Você completou a décima sétima microlição sobre finalização do pedido. Agora você domina como fazer pedidos claros e eficazes que aumentam as chances de receber ajuda valiosa."
       onConcluir={() => navigate('/aprendizado')}
     />
   );
