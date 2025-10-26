@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Alguns problemas, na verdade, não importam. Usar perguntas como "Quais são as implicações disso?" ajuda a distinguir problemas que as pessoas pagarão para resolver de meras inconveniências.',
     dica: 'Como transformar um problema vago em algo concreto e urgente?',
-    correta: 'a'
+    correta: 'a',
+    exemploLivro: 'Cliente: "É difícil treinar novos funcionários." Você: "Quais são as implicações de ter funcionários mal treinados? O que isso custa para vocês?"'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Observar alguém realizando uma tarefa mostrará onde os problemas e ineficiências realmente estão, não onde o cliente pensa que eles estão.',
     dica: 'Ações falam mais alto que palavras sobre problemas reais.',
-    correta: 'c'
+    correta: 'c',
+    exemploLivro: 'Um gerente pode dizer "nosso processo de onboarding é eficiente", mas observar pode revelar que novos funcionários passam 3 horas perdidos no primeiro dia.'
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Problemas que valem dinheiro têm consequências reais, mensuráveis e urgentes se não forem resolvidos. Inconveniências são apenas irritantes.',
     dica: 'Pense em problemas que você pagaria para resolver vs. aqueles que apenas toleraria.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Inconveniência: "Meus relatórios são feios." Problema valioso: "Meus relatórios demoram 8 horas para fazer e ainda assim meu chefe não entende o valor do meu time."'
   },
   {
     id: '4',
@@ -50,11 +53,12 @@ const perguntas: Pergunta[] = [
       { valor: 'a', label: 'Pergunte "Você quer resolver isso?"' },
       { valor: 'b', label: 'Pergunte "O que acontece se você não resolver?"' },
       { valor: 'c', label: 'Pergunte "Você acha isso importante?"' },
-      { valor: 'd', label: 'Pergunte "Quanto tempo isso leva?"' }
+      { valor: 'd', label: 'Pergunte "Você já tentou resolver isso?"' }
     ],
     explicacao: '"O que acontece se você não resolver?" revela as consequências reais. Problemas valiosos têm consequências caras ou dolorosas.',
     dica: 'Consequências revelam valor.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "É difícil gerenciar projetos." Você: "O que acontece quando um projeto vai mal? Quanto isso custa para a empresa?"'
   },
   {
     id: '5',
@@ -67,7 +71,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'As pessoas não percebem todas as ineficiências em seu próprio trabalho. Observação revela problemas que eles nem sabem que têm.',
     dica: 'Você não pode melhorar o que não percebe.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Um gerente pode dizer que o processo funciona bem, mas observar revela que ele interrompe a equipe a cada 30 minutos, destruindo a produtividade.'
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Quando um problema parece valioso, cave mais fundo. Pergunte sobre implicações, frequência, custos atuais e tentativas anteriores de resolver.',
     dica: 'Não aceite a primeira impressão.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "Nosso processo de vendas é ineficiente." Você: "Quão ineficiente? O que isso custa? O que você já tentou?"'
   },
   {
     id: '7',
@@ -93,11 +99,12 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'O melhor teste é ver se eles já pagaram para resolver algo similar no passado. Ações passadas são o melhor preditor de comportamento futuro.',
     dica: 'Passado prediz futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Se eles pagaram $5000 para consultores resolverem um problema similar, é sinal de que o problema tem valor real.'
   },
   {
     id: '8',
-    pergunta: 'Qual é o sinal de que você está lidando com apenas uma inconveniência?',
+    pergunta: 'O que é um sinal claro de que você está lidando com apenas uma inconveniência?',
     opcoes: [
       { valor: 'a', label: 'As pessoas reclamam muito' },
       { valor: 'b', label: 'As pessoas não tomaram ação para resolver' },
@@ -106,7 +113,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Se as pessoas não tomaram ação para resolver (buscar soluções, pagar, mudar processos), é provavelmente apenas uma inconveniência, não um problema valioso.',
     dica: 'Ações falam sobre seriedade.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Se alguém reclama de "relatórios feios" mas nunca tentou usar templates ou contratar designer, é apenas inconveniência.'
   }
 ];
 
@@ -116,7 +124,7 @@ const MicroLesson11 = () => {
     <MicroLessonTemplate
       titulo="Distinguindo Problemas"
       perguntas={perguntas}
-      mensagemConclusao="Você completou a décima primeira microlição sobre distinguir problemas. Agora você sabe identificar problemas que as pessoas realmente pagarão para resolver versus meras inconveniências."
+      mensagemConclusao="Você completou a décima primeira microlição sobre distinguindo problemas. Agora você sabe identificar problemas que as pessoas realmente pagarão para resolver versus meras inconveniências."
       onConcluir={() => navigate('/aprendizado')}
     />
   );

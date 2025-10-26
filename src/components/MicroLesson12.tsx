@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Se eles ainda não procuraram maneiras de resolver o problema, não vão procurar (ou comprar) a sua. Pergunte "O que mais você já tentou?" para avaliar o quão sério o problema é.',
     dica: 'Ações passadas indicam seriedade futura.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "É difícil treinar novos funcionários." Você: "O que mais você já tentou para resolver isso? O que funcionou e o que não funcionou?"'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Embora seja raro alguém dizer precisamente o que vai pagar, muitas vezes eles mostram o quanto vale para eles. Pergunte "Como você está lidando com isso agora?" para entender os custos atuais (em tempo e dinheiro), o que fornece uma âncora de preço.',
     dica: 'Custos atuais revelam valor futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "É caro treinar novos funcionários." Você: "Como você está lidando com isso agora? Quanto tempo e dinheiro isso custa?"'
   },
   {
     id: '3',
@@ -39,9 +41,10 @@ const perguntas: Pergunta[] = [
       { valor: 'c', label: 'As pessoas parecem irritadas' },
       { valor: 'd', label: 'As pessoas têm opiniões fortes sobre ele' }
     ],
-    explicacao: 'Se as pessoas nunca tomaram açãopara resolver (buscar soluções, pagar, mudar processos), o problema provavelmente não é sério o suficiente.',
+    explicacao: 'Se as pessoas nunca tomaram ação para resolver (buscar soluções, pagar, mudar processos), o problema provavelmente não é sério o suficiente.',
     dica: 'Ações revelam seriedade.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Se alguém reclama que "organizar eventos é difícil" mas nunca tentou usar ferramentas de planejamento ou contratar ajuda, provavelmente não é um problema valioso.'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'O melhor teste é ver se eles já pagaram para resolver algo similar no passado. Ações passadas são o melhor preditor de comportamento futuro.',
     dica: 'Passado prediz futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Se eles pagaram $3000 para um consultor resolver um problema de processo similar, é sinal de que o problema tem valor real e urgência.'
   },
   {
     id: '5',
@@ -67,7 +71,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Quando as pessoas já pagaram para resolver ou tentaram várias soluções, é sinal de que o problema é valioso o suficiente para justificar investimento.',
     dica: 'Investimento passado indica valor.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente que já tentou 3 ferramentas diferentes, contratou freelancers, e ainda está procurando solução - esse é um problema valioso e urgente.'
   },
   {
     id: '6',
@@ -78,9 +83,10 @@ const perguntas: Pergunta[] = [
       { valor: 'c', label: 'As pessoas ficam irritadas' },
       { valor: 'd', label: 'É muito técnica' }
     ],
-    explicacao: 'As pessoas raramente sabem quanto pagariam até ver uma solução real. É melhor entender o que já pagaram e os custos atuais do problema.',
+explicacao: 'As pessoas raramente sabem quanto pagariam até ver uma solução real. É melhor entender o que já pagaram e os custos atuais do problema.',
     dica: 'Foque no passado, não no futuro hipotético.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Em vez de "Quanto você pagaria por um app de finanças?", pergunte "Quanto você pagou por softwares de finanças no último ano?"'
   },
   {
     id: '7',
@@ -93,7 +99,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Entenda os custos atuais em tempo, dinheiro e frustração que o problema causa. Isso revela o valor real que as pessoas atribuem a resolver esse problema.',
     dica: 'Custos atuais revelam valor futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "Treinar novos funcionários é caro." Você: "Quanto tempo você gasta? Quanto dinheiro isso custa? O que acontece quando o treinamento falha?"'
   },
   {
     id: '8',
@@ -106,7 +113,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Se alguém nunca pagou por nada similar, questione a seriedade. Ações passadas são melhores indicadores que intenções futuras.',
     dica: 'Passado > Futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Cliente: "Eu pagaria $1000 por isso." Você: "Você já pagou por algo similar? Quanto? O que fez você pagar por isso?"'
   }
 ];
 

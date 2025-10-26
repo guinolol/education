@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Pergunte sobre especificidades do passado, em vez de generalidades ou opiniões sobre o futuro. Ações passadas são fatos; intenções futuras são mentiras otimistas.',
     dica: 'O que é mais confiável: o que alguém fez ou o que diz que fará?',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Em vez de "Você compraria um app de meditação?", pergunte "Você já usou algum app de meditação? Qual? Por quanto tempo?"'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Qualquer coisa que envolva o futuro é uma mentira excessivamente otimista. Perguntas como "Você compraria..." ou "Quanto você pagaria..." convidam a respostas hipotéticas e otimistas que não se traduzem em vendas reais.',
     dica: 'O que é mais confiável: intenções ou ações passadas?',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Você viria à minha festa?" vs "Você veio à última festa?" - a segunda revela comportamento real.'
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'A pergunta "Você compraria isso?" convida a uma resposta hipotética e otimista. As pessoas dizem que sim para serem educadas, mas isso não significa que realmente comprariam.',
     dica: 'Pense no que acontece quando você pergunta "você viria à minha festa?"',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'As pessoas dizem "sim" para serem educadas, mas "comprar" é uma ação real com custo real.'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Mentiras otimistas são promessas futuras que as pessoas realmente acreditam no momento, mas não cumprirão. Não é má fé, é otimismo humano natural.',
     dica: 'As pessoas não mentem de propósito, apenas são otimistas.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Eu comeria saudável" vs "Você comeu saudável ontem?" - a primeira é otimismo, a segunda é fato.'
   },
   {
     id: '5',
@@ -62,12 +66,13 @@ const perguntas: Pergunta[] = [
     opcoes: [
       { valor: 'a', label: 'Você gostaria disso?' },
       { valor: 'b', label: 'Como você está lidando com esse problema atualmente?' },
-      { valor: 'c', label: 'Você acha que isso é uma boa ideia?' },
+      { valor: 'c', label: 'Você quer resolver isso?' },
       { valor: 'd', label: 'Você recomendaria isso para amigos?' }
     ],
     explicacao: '"Como você está lidando com esse problema atualmente?" é melhor porque foca no comportamento real atual, não em intenções futuras.',
     dica: 'Foque no presente e passado, não no futuro.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Em vez de "Você usaria um app de finanças?", pergunte "Como você controla suas despesas atualmente?"'
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Ações passadas são fatos que realmente aconteceram, não intenções ou promessas. Você pode verificar e aprender com comportamentos reais.',
     dica: 'Fatos superam intenções.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Você pagou por uma solução similar?" é mais confiável que "Você pagaria por uma solução?"'
   },
   {
     id: '7',
@@ -93,7 +99,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Transforme perguntas futuras em passadas perguntando sobre ações específicas que as pessoas já tomaram. Ex: em vez de "Você pagaria?", pergunte "Quanto você pagou para resolver isso antes?"',
     dica: 'Refraseie para o passado.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: '"Você usaria um app de meditação?" vira "Você já usou algum app de meditação? Qual? Por quanto tempo?"'
   },
   {
     id: '8',
@@ -106,7 +113,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Perguntas sobre o futuro coletam dados que não refletem comportamento real. Você pode tomar decisões erradas baseadas em intenções que nunca se materializarão.',
     dica: 'Dados ruins são piores que nenhum dado.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Basear decisões em "você compraria" é como planejar uma festa baseado em "você viria" - ambos são otimismo, não compromisso.'
   }
 ];
 

@@ -15,7 +15,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'As pessoas querem te ajudar, mas raramente o farão a menos que você lhes dê uma desculpa para isso. Perguntas como "Com quem mais eu deveria conversar?" e "Há mais alguma coisa que eu deveria ter perguntado?" abrem a porta para ajuda e insights valiosos.',
     dica: 'Dê às pessoas uma desculpa para te ajudarem.',
-    correta: 'd'
+    correta: 'd',
+    exemploLivro: 'Final da conversa: "Há mais alguma coisa que eu deveria ter perguntado? Alguém mais que eu deveria conversar sobre isso?"'
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Pedir introduções é crucial para criar um efeito bola de neve de conversas. Cada conversa pode levar a mais conversas, expandindo exponencialmente sua rede de contatos e clientes potenciais.',
     dica: 'Introduções são a chave para escalar suas conversas.',
-    correta: 'd'
+    correta: 'd',
+    exemploLivro: 'Cada pessoa que você conversa pode te conectar com 2-3 pessoas melhores. Em 3-4 saltos, você chega nos decisores reais.'
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Seja específico sobre quem você quer conhecer e por quê. Isso torna mais fácil para as pessoas te ajudarem e resulta em introduções mais valiosas.',
     dica: 'Especificidade gera melhores resultados.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Em vez de "Você conhece alguém?", pergunte "Você conhece alguém que gerencia equipes remotas de mais de 50 pessoas? Estou tentando entender como eles lidam com comunicação."'
   },
   {
     id: '4',
@@ -54,7 +57,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Quando alguém oferece ajuda, aceite e seja específico sobre como podem ajudar. Isso valoriza a oferta e garante ajuda real.',
     dica: 'Seja grato e específico.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Quando alguém diz "Posso te ajudar de alguma forma?", responda "Sim! Você conhece alguém que [descrição específica] que eu poderia conversar?"'
   },
   {
     id: '5',
@@ -67,7 +71,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Sempre peça mais introduções após cada conversa. Isso mantém o efeito bola de neve crescendo e expandindo sua rede continuamente.',
     dica: 'Mantenha o momentum.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Sempre termine com: "Há mais alguém que eu deveria conversar sobre isso? Alguém que entende melhor esse problema?"'
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Esta pergunta revela insights que você não sabia que deveria buscar. As pessoas frequentemente têm informações valiosas que não compartilharam porque não foram perguntadas.',
     dica: 'Perguntas abertas revelam o desconhecido.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Muitas vezes a pessoa diz "Boa pergunta! Você deveria falar com o João, ele lidou com isso no ano passado e descobriu coisas incríveis."'
   },
   {
     id: '7',
@@ -93,20 +99,22 @@ const perguntas: Pergunta[] = [
     ],
     explicacao: 'Agradeça especificamente e atualize sobre resultados. Isso mostra que você valoriza a ajuda e cria um ciclo positivo de mais ajuda no futuro.',
     dica: 'Agradecimento específico cria mais ajuda.',
-    correta: 'b'
+    correta: 'b',
+    exemploLivro: 'Envie um email: "Oi João, consegui falar com a Maria que você me indicou. Descobri que [insight específico]. Muito obrigado pela conexão!"'
   },
   {
     id: '8',
     pergunta: 'Qual é o erro comum ao pedir ajuda?',
     opcoes: [
-      { valor: 'a', label: 'Pedir muito' },
+      { valor: 'a', label: 'Ser muito específico' },
       { valor: 'b', label: 'Ser vago sobre o que você precisa' },
-      { valor: 'c', label: 'Ser específico demais' },
-      { valor: 'd', label: 'Pedir para muitas pessoas' }
+      { valor: 'c', label: 'Agradecer demais' },
+      { valor: 'd', label: 'Ser muito educado' }
     ],
-    explicacao: 'Ser vago sobre o que você precisa é o erro comum. As pessoas querem ajudar, mas precisam saber exatamente como podem ser úteis.',
-    dica: 'Especificidade gera ajuda.',
-    correta: 'b'
+    explicacao: 'Ser vago sobre o que você precisa é o erro comum. As pessoas querem te ajudar, mas precisam saber exatamente como podem ser úteis.',
+    dica: 'Especificidade é crucial.',
+    correta: 'b',
+    exemploLivro: 'Ruim: "Preciso de ajuda com minha startup." Bom: "Estou tentando entender como gerentes de equipes remotas lidam com fusos horários. Você conhece alguém que gerencia equipes globais?"'
   }
 ];
 
