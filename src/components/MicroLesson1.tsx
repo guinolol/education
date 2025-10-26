@@ -4,12 +4,12 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
+import { Badge } from '@//components/ui/badge";
 import { 
   Trophy, BookOpen, Target, Zap, Clock, 
   ChevronLeft, ChevronRight, ChevronDown, 
   CheckCircle, XCircle, HelpCircle,
-  Check, X
+  Check, X, Circle
 } from 'lucide-react';
 import {
   Accordion,
@@ -30,23 +30,23 @@ const MicroLesson1 = () => {
       id: '1',
       pergunta: 'Qual é o problema fundamental das conversas com clientes?',
       opcoes: [
-        { valor: 'a', label: 'As pessoas não entendem o mercado', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Conversas com clientes são ruins por padrão', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Os empreendedores não sabem ouvir', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'd', label: 'As empresas não têm tempo', icone: <XCircle className="w-4 h-4" /> }
+        { valor: 'a', label: 'As pessoas não entendem o mercado', icone: Circle },
+        { valor: 'b', label: 'Conversas com clientes são ruins por padrão', icone: Circle },
+        { valor: 'c', label: 'Os empreendedores não sabem ouvir', icone: Circle },
+        { valor: 'd', label: 'As empresas não têm tempo', icone: Circle }
       ],
       explicacao: 'O problema fundamental é que conversas com clientes são ruins por padrão. É seu trabalho consertá-las.',
       dica: 'Pense sobre quem é responsável por melhorar a qualidade das conversas.',
-      correta: 'c'
+      correta: 'b'
     },
     {
       id: '2',
       pergunta: 'O que é o Teste da Mãe?',
       opcoes: [
-        { valor: 'a', label: 'Um conjunto de regras para elaborar boas perguntas', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Um método para validar ideias de negócios', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'c', label: 'Um framework para análise de mercado', icone: <Target className="w-4 h-4" /> },
-        { valor: 'd', label: 'Um guia para apresentações de negócios', icone: <Zap className="w-4 h-4" /> }
+        { valor: 'a', label: 'Um conjunto de regras para elaborar boas perguntas', icone: Circle },
+        { valor: 'b', label: 'Um método para validar ideias de negócios', icone: Circle },
+        { valor: 'c', label: 'Um framework para análise de mercado', icone: Circle },
+        { valor: 'd', label: 'Um guia para apresentações de negócios', icone: Circle }
       ],
       explicacao: 'O Teste da Mãe é um conjunto de regras simples para elaborar boas perguntas sobre as quais nem mesmo sua mãe pode mentir.',
       dica: 'O nome sugere algo sobre honestidade nas respostas.',
@@ -56,10 +56,10 @@ const MicroLesson1 = () => {
       id: '3',
       pergunta: 'Qual é a regra geral sobre conversas com clientes?',
       opcoes: [
-        { valor: 'a', label: 'Quanto mais você fala, melhor está se saindo', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Quanto mais você ouve, melhor está se saindo', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'É preciso apresentar sua ideia para ganhar confiança', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'É preciso ouvir mais do que falar', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'Quanto mais você fala, melhor está se saindo', icone: Circle },
+        { valor: 'b', label: 'Quanto mais você ouve, melhor está se saindo', icone: Circle },
+        { valor: 'c', label: 'É preciso apresentar sua ideia para ganhar confiança', icone: Circle },
+        { valor: 'd', label: 'É preciso ouvir mais do que falar', icone: Circle }
       ],
       explicacao: 'Regra geral: Quanto mais você fala, pior está se saindo. Você não aprende nada enquanto está falando.',
       dica: 'O foco deve ser em coletar informações, não em transmiti-las.',
@@ -69,10 +69,10 @@ const MicroLesson1 = () => {
       id: '4',
       pergunta: 'Por que opiniões são inúteis?',
       opcoes: [
-        { valor: 'a', label: 'As pessoas não sabem o que querem', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Apenas o mercado pode dizer se sua ideia é boa', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'As pessoas são egoístas', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'd', label: 'As opiniões são difíceis de medir', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'As pessoas não sabem o que querem', icone: Circle },
+        { valor: 'b', label: 'Apenas o mercado pode dizer se sua ideia é boa', icone: Circle },
+        { valor: 'c', label: 'As pessoas são egoístas', icone: Circle },
+        { valor: 'd', label: 'As opiniões são difíceis de medir', icone: Circle }
       ],
       explicacao: 'Opiniões são inúteis. Apenas o mercado pode dizer se sua ideia é boa. Opiniões, especialmente de não especialistas, são ruído e geram falsos positivos.',
       dica: 'Pense sobre quem realmente valida uma ideia de negócio.',
@@ -82,10 +82,10 @@ const MicroLesson1 = () => {
       id: '5',
       pergunta: 'Qual é a melhor abordagem para perguntar sobre o futuro?',
       opcoes: [
-        { valor: 'a', label: 'Perguntar se a pessoa compraria algo', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Perguntar sobre ações passadas', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Perguntar sobre desejos pessoais', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'Perguntar sobre tendências do mercado', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'Perguntar se a pessoa compraria algo', icone: Circle },
+        { valor: 'b', label: 'Perguntar sobre ações passadas', icone: Circle },
+        { valor: 'c', label: 'Perguntar sobre desejos pessoais', icone: Circle },
+        { valor: 'd', label: 'Perguntar sobre tendências do mercado', icone: Circle }
       ],
       explicacao: 'Pergunte sobre especificidades do passado, em vez de generalidades ou opiniões sobre o futuro. Ações passadas são fatos; intenções futuras são mentiras otimistas.',
       dica: 'O que é mais confiável: o que alguém fez ou o que diz que fará?',
@@ -95,10 +95,10 @@ const MicroLesson1 = () => {
       id: '6',
       pergunta: 'O que é "fluff" e como lidar com isso?',
       opcoes: [
-        { valor: 'a', label: 'Informações vagas que devem ser ancoradas em exemplos específicos', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Elogios que devem ser ignorados', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Ideias que devem ser implementadas', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'Dados ruins que devem ser evitados', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'Informações vagas que devem ser ancoradas em exemplos específicos', icone: Circle },
+        { valor: 'b', label: 'Elogios que devem ser ignorados', icone: Circle },
+        { valor: 'c', label: 'Ideias que devem ser implementadas', icone: Circle },
+        { valor: 'd', label: 'Dados ruins que devem ser evitados', icone: Circle }
       ],
       explicacao: '"Fluff" vem em três formas: alegações genéricas, promessas futuras e possibilidades hipotéticas. Ancore essas declarações vagas em exemplos específicos do passado.',
       dica: 'Pense em como transformar generalizações em fatos concretos.',
@@ -108,10 +108,10 @@ const MicroLesson1 = () => {
       id: '7',
       pergunta: 'Como evitar pedidos de funcionalidades?',
       opcoes: [
-        { valor: 'a', label: 'Ignorar os clientes', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Usar perguntas de aprofundamento para encontrar a causa raiz', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Oferecer mais opções', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'Focar em melhorar a interface', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'Ignorar os clientes', icone: Circle },
+        { valor: 'b', label: 'Usar perguntas de aprofundamento para encontrar a causa raiz', icone: Circle },
+        { valor: 'c', label: 'Oferecer mais opções', icone: Circle },
+        { valor: 'd', label: 'Focar em melhorar a interface', icone: Circle }
       ],
       explicacao: 'Ideias e pedidos de funcionalidades devem ser compreendidos, mas não obedecidos. Use perguntas de aprofundamento para encontrar a causa raiz.',
       dica: 'Você é o especialista em soluções, eles são especialistas em problemas.',
@@ -121,10 +121,10 @@ const MicroLesson1 = () => {
       id: '8',
       pergunta: 'Qual é a regra geral sobre busca de aprovação?',
       opcoes: [
-        { valor: 'a', label: 'É importante buscar aprovação constante', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Se você mencionar sua ideia, as pessoas tentarão proteger seus sentimentos', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'É preciso sempre apresentar sua ideia', icone: <Trophy className="w-4 h-4" /> },
-        { valor: 'd', label: 'É melhor evitar conversas com clientes', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'É importante buscar aprovação constante', icone: Circle },
+        { valor: 'b', label: 'Se você mencionar sua ideia, as pessoas tentarão proteger seus sentimentos', icone: Circle },
+        { valor: 'c', label: 'É preciso sempre apresentar sua ideia', icone: Circle },
+        { valor: 'd', label: 'É melhor evitar conversas com clientes', icone: Circle }
       ],
       explicacao: 'Se você mencionar sua ideia, as pessoas tentarão proteger seus sentimentos. Evite "pescar elogios" ou expor seu ego.',
       dica: 'As pessoas tendem a ser gentis, mesmo quando não estão interessadas.',
@@ -134,10 +134,10 @@ const MicroLesson1 = () => {
       id: '9',
       pergunta: 'O que é importante em uma conversa?',
       opcoes: [
-        { valor: 'a', label: 'Fazer muitas perguntas', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Ouvir mais do que falar', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Manter o foco na sua ideia', icone: <XCircle className="w-4 h-4" /> },
-        { valor: 'd', label: 'Usar linguagem técnica', icone: <Target className="w-4 h-4" /> }
+        { valor: 'a', label: 'Fazer muitas perguntas', icone: Circle },
+        { valor: 'b', label: 'Ouvir mais do que falar', icone: Circle },
+        { valor: 'c', label: 'Manter o foco na sua ideia', icone: Circle },
+        { valor: 'd', label: 'Usar linguagem técnica', icone: Circle }
       ],
       explicacao: 'Você deve ter medo de pelo menos uma das perguntas que está fazendo em cada conversa. Perguntas importantes são aquelas cujas respostas podem mudar completamente ou invalidar seu negócio.',
       dica: 'Perguntas valiosas muitas vezes são desconfortáveis de fazer.',
@@ -147,10 +147,10 @@ const MicroLesson1 = () => {
       id: '10',
       pergunta: 'Qual é a melhor estratégia para encontrar pessoas para conversar?',
       opcoes: [
-        { valor: 'a', label: 'Usar ligações frias', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'b', label: 'Organizar meetups', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'c', label: 'Criar introduções calorosas', icone: <CheckCircle className="w-4 h-4" /> },
-        { valor: 'd', label: 'Todas as anteriores', icone: <CheckCircle className="w-4 h-4" /> }
+        { valor: 'a', label: 'Usar ligações frias', icone: Circle },
+        { valor: 'b', label: 'Organizar meetups', icone: Circle },
+        { valor: 'c', label: 'Criar introduções calorosas', icone: Circle },
+        { valor: 'd', label: 'Todas as anteriores', icone: Circle }
       ],
       explicacao: 'Estratégias para encontrar conversas incluem ir até eles (ligações frias), trazer eles até você (meetups), ou criar introduções calorosas (contatos, conselheiros).',
       dica: 'Diversas abordagens aumentam suas chances de sucesso.',
@@ -227,14 +227,18 @@ const MicroLesson1 = () => {
               const isSelected = respostaSelecionada === opcao.valor;
               const isCorrect = opcao.valor === pergunta.correta;
               let bgColor = "bg-white dark:bg-gray-800";
+              let iconMostrar = <opcao.icone className="w-5 h-5 text-gray-400" />;
               
               if (mostrarFeedback) {
                 if (isSelected && isCorrect) {
                   bgColor = "bg-green-100 dark:bg-green-900 border-green-500";
+                  iconMostrar = <Check className="w-5 h-5 text-green-600" />;
                 } else if (isSelected && !isCorrect) {
                   bgColor = "bg-red-100 dark:bg-red-900 border-red-500";
+                  iconMostrar = <X className="w-5 h-5 text-red-600" />;
                 } else if (!isSelected && isCorrect) {
                   bgColor = "bg-green-100 dark:bg-green-900 border-green-500";
+                  iconMostrar = <Check className="w-5 h-5 text-green-600" />;
                 }
               }
               
@@ -259,19 +263,7 @@ const MicroLesson1 = () => {
                     }`}
                   >
                     <span className="mr-3">
-                      {mostrarFeedback ? (
-                        isSelected && isCorrect ? (
-                          <Check className="w-5 h-5 text-green-600" />
-                        ) : isSelected && !isCorrect ? (
-                          <X className="w-5 h-5 text-red-600" />
-                        ) : isCorrect ? (
-                          <Check className="w-5 h-5 text-green-600" />
-                        ) : (
-                          opcao.icone
-                        )
-                      ) : (
-                        opcao.icone
-                      )}
+                      {iconMostrar}
                     </span>
                     {opcao.label}
                   </label>
