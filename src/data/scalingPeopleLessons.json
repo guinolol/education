@@ -257,7 +257,7 @@
         "bookExample": "Se 80% das decisões precisam passar pelo CEO, a empresa está em um gargalo de crescimento."
       },
       {
-        "id": "id": "2",
+        "id": "2",
         "question": "O que é um framework como o 'RAPID' ou 'DACI' usado para fazer?",
         "options": [
           { "value": "a", "label": "Escrever código mais rápido" },
