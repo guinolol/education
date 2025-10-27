@@ -17,6 +17,7 @@ const lessonDataMap: Record<string, any[]> = {
   runningLean: runningLeanLessons,
   leanCustomerDev: leanCustomerDevelopmentLessons,
   scalingPeople: scalingPeopleLessons,
+  scalingPeople: scalingPeopleLessons,
 };
 
 const MicroLessonPage = () => {
