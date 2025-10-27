@@ -1,0 +1,240 @@
+,
+  {
+    "id": 9,
+    "title": "Founding Sales: Sales Stack e Operações",
+    "conclusionMessage": "Você aprendeu a montar a pilha de ferramentas mínima e a criar processos que escalam sem burocracia.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a stack mínima no day 1 de vendas?",
+        "options": [
+          { "value": "a", "label": "Salesforce + 10 plugins" },
+          { "value": "b", "label": "CRM simples (HubSpot free), e-mail sequencer (Woodpecker), calendly e planilha de métricas" },
+          { "value": "c", "label": "WhatsApp e Excel" },
+          { "value": "d", "label": "Telefone e caderno" }
+        ],
+        "explanation": "No early-stage você precisa de dados, não de complexidade. HubSpot gratuito captura pipeline, sequencer garante follow-up, planilha calcula CAC. Só upgrade quando processo estável.",
+        "hint": "Data > decoration.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy rodou 18 meses em HubSpot free + Woodpecker + Google Sheets — só migrou para Salesforce quando passou de 3 AEs."
+      },
+      {
+        "id": "2",
+        "question": "Por que evitar Salesforce no dia 0?",
+        "options": [
+          { "value": "a", "label": "É caro" },
+          { "value": "b", "label": "Complexidade esconde problemas de processo; early precisa de clareza, não de campos customizados" },
+          { "value": "c", "label": "Não tem API" },
+          { "value": "d", "label": "Não é cloud" }
+        ],
+        "explanation": "SFDC é Ferrari em estrada de terra. Campos obrigatórios, validações e relatórios podem mascarar falta de ICP ou mensagem. Comece simples, migre quando processo é repetível.",
+        "hint": "Clarity > complexity.",
+        "correctAnswer": "b",
+        "bookExample": "Startup gastou 2 meses configurando SFDC e perdeu track de por que deals foram perdidos — voltou para planilha e descobriu que não qualificavam ICP."
+      },
+      {
+        "id": "3",
+        "question": "Qual é o primeiro dashboard que você deve criar?",
+        "options": [
+          { "value": "a", "label": "Heatmap de campos do CRM" },
+          { "value": "b", "label": "Pipeline: # MQLs, SQLs, opps, win-rate, CAC payback e sales velocity" },
+          { "value": "c", "label": "NPS" },
+          { "value": "d", "label": "Cor de logo do cliente" }
+        ],
+        "explanation": "Essas 6 métricas contam a história do funnel e da saúde financeira. Sem elas você não sabe se deve aumentar topo ou consertar close.",
+        "hint": "Funnel + money = truth.",
+        "correctAnswer": "b",
+        "bookExample": "Planilha template do Kazanjy: colunas MQL → SQL %, Opp value, Win %, Avg ticket, Days to close, CAC, Payback months."
+      },
+      {
+        "id": "4",
+        "question": "O que é ‘sales enablement’ no early-stage?",
+        "options": [
+          { "value": "a", "label": "Departamento" },
+          { "value": "b", "label": "Pasta com 3 arquivos: ICP sheet, discovery script, demo recording e case-study template — atualizada toda semana" },
+          { "value": "c", "label": "Curso de 40 h" },
+          { "value": "d", "label": "Certificação" }
+        ],
+        "explanation": "Enablement é conteúdo vivo, não curso. Quanto mais simples e atualizado, mais rápido novo AE rampa. Grava call boa e coloca link no Slack.",
+        "hint": "Living content > training circus.",
+        "correctAnswer": "b",
+        "bookExample": "Enablement do TalentBin: Google Drive com 1) ICP persona PDF, 2) 7-min demo video, 3) ROI calculator sheet — atualizado com call recordings toda sexta."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o SLA que founder e AE devem ter sobre atualização do CRM?",
+        "options": [
+          { "value": "a", "label": "Atualiza quando lembrar" },
+          { "value": "b", "label": "24 h após qualquer call: stage, next step, amount, close date e notas de qualificação" },
+          { "value": "c", "label": "Só no fim do mês" },
+          { "value": "d", "label": "Nunca" }
+        ],
+        "explanation": "Dados ruins geram decisões ruins. 24 h é limite da memória. Notas de qualificação (MEDDIC) permitem que founder ou VP ajude sem entrar em call.",
+        "hint": "Data decays faster than milk.",
+        "correctAnswer": "b",
+        "bookExample": "Regra interna: se next step field está vazio 48 h após call, deal é considerado perdido e removido do pipeline."
+      },
+      {
+        "id": "6",
+        "question": "Quando contratar primeiro Sales Ops?",
+        "options": [
+          { "value": "a", "label": "No dia 1" },
+          { "value": "b", "label": "Quando passar de 5 AEs e pipeline > $5 M; antes disso founder ou finance faz relatórios" },
+          { "value": "c", "label": "Quando o CRM quebrar" },
+          { "value": "d", "label": "Nunca" }
+        ],
+        "explanation": "Ops é luxo que só paga quando volume de dados e complexidade de comp plan exigem especialista. Antes disso é over-engineering.",
+        "hint": "Ops is a scale luxury.",
+        "correctAnswer": "b",
+        "bookExample": "Contrataram Sales Ops no mês que comissão começou a ter 3 tiers e accelerator — até lá finance rodava reports em 2 h/semana."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o maior risco de automação precoce?",
+        "options": [
+          { "value": "a", "label": "Gastar dinheiro" },
+          { "value": "b", "label": "Automatizar processo ruim — você escala ineficiência e perde chance de consertar playbook" },
+          { "value": "c", "label": "Ficar sem trabalho" },
+          { "value": "d", "label": "CRM ficar lento" }
+        ],
+        "explanation": "Automatizar follow-up em processo sem ICP claro só enche pipeline de lixo. Conserte o processo manual primeiro, depois scale com tech.",
+        "hint": "Fix first, scale second.",
+        "correctAnswer": "b",
+        "bookExample": "Automatizaram sequência de e-mail antes de validar mensagem — geraram 400 MQLs frios que ninguém conseguia converter, mascarando churn de pipeline."
+      },
+      {
+        "id": "8",
+        "question": "Qual ferramenta gratuita substitui Calendly no início?",
+        "options": [
+          { "value": "a", "label": "Excel" },
+          { "value": "b", "label": "Google Calendar com appointment slots — suficiente para marcar demos sem custo" },
+          { "value": "c", "label": "Telegram" },
+          { "value": "d", "label": "Trello" }
+        ],
+        "explanation": "Appointment slots do Google permite que prospect marque horário direto na agenda pública. Zero custo, integra com e-mail e não quebra fluxo.",
+        "hint": "Free beats fancy.",
+        "correctAnswer": "b",
+        "bookExample": "Rodaram 6 meses com appointment slots — só migraram para Calendly quando começaram a cobrar por features como buffer entre calls."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Founding Sales: Dominando o Go-to-Market",
+    "conclusionMessage": "Parabéns! Você completou todas as microlições de Founding Sales. Agora sabe como passar de founder-vendedor a máquina de crescimento com Product-Market Fit e vendas previsíveis. Keep closing and keep learning!",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o ciclo completo de Founding Sales em 3 palavras?",
+        "options": [
+          { "value": "a", "label": "Pitch, Close, Repeat" },
+          { "value": "b", "label": "Learn, Prove, Scale" },
+          { "value": "c", "label": "Demo, Discount, Churn" },
+          { "value": "d", "label": "Hire, Fire, Burn" }
+        ],
+        "explanation": "Founding Sales é aprendizado contínuo: você aprende com clientes, prova repeatability e só então escala. Sem learn, scale vira burn.",
+        "hint": "Learning is the product.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy resume: ‘First you sell to learn, then you learn to sell, then you teach others to sell.’"
+      },
+      {
+        "id": "2",
+        "question": "Qual é o maior erro que leva founder a falhar em vendas?",
+        "options": [
+          { "value": "a", "label": "Falar demais" },
+          { "value": "b", "label": "Achar que vendas é arte mágica e não processo científico — evita métricas, não documenta e delega cedo demais" },
+          { "value": "c", "label": "Dar desconto" },
+          { "value": "d", "label": "Usar CRM" }
+        ],
+        "explanation": "Vendas é ciência de dados humanos. Quando founder acredita que ‘vende por talento’ ele não mede, não itera e não escala. Resultado: caos e churn.",
+        "hint": "Science > superstition.",
+        "correctAnswer": "b",
+        "bookExample": "Capítulo final: ‘The founders who treat sales as black magic are the ones who stay stuck at $1 M ARR forever.’"
+      },
+      {
+        "id": "3",
+        "question": "O que significa ‘sales is a company sport’?",
+        "options": [
+          { "value": "a", "label": "Todo mundo liga para cliente" },
+          { "value": "b", "label": "Produto, marketing e CS precisam jogar juntos para criar pipeline, fechar e reter — vendas não é departamento isolado" },
+          { "value": "c", "label": "Fazemos gincana" },
+          { "value": "d", "label": "Contratamos atletas" }
+        ],
+        "explanation": "PM entrega mensagem, marketing gera qualificado, CS garante sucesso e expansão. Se um falha, pipeline morre. Alignment é Go-to-Market inteiro.",
+        "hint": "One team, one funnel.",
+        "correctAnswer": "b",
+        "bookExample": "Weekly triad: PM, Marketing, Sales review MQL→SQL conversion, lost-reason tags and next-quarter message — pipeline health shared KPI."
+      },
+      {
+        "id": "4",
+        "question": "Qual é o lema final do Founding Sales?",
+        "options": [
+          { "value": "a", "label": "Always be closing" },
+          { "value": "b", "label": "Always be learning — cada call é um experimento que aproxima você do Product-Market Fit" },
+          { "value": "c", "label": "Always be hiring" },
+          { "value": "d", "label": "Always be fundraising" }
+        ],
+        "explanation": "ABC original é sobre push. Founding Sales é sobre pull: você aprende o que o mercado quer e ajusta produto, preço e mensagem. Learning é o verdadeiro motor de escala.",
+        "hint": "Learning > closing.",
+        "correctAnswer": "b",
+        "bookExample": "Last page: ‘Your job is not to close every deal — it’s to learn why the ones that close do, and why the ones that don’t, don’t. Then build a machine that makes the former happen predictably.’"
+      },
+      {
+        "id": "5",
+        "question": "Qual é o próximo passo depois que você tem repeatability e 5 AEs batendo quota?",
+        "options": [
+          { "value": "a", "label": "Vender a empresa" },
+          { "value": "b", "label": "Contratar 50 reps e abrir 10 mercados ao mesmo tempo" },
+          { "value": "c", "label": "Refinar ICP, subir preço, criar expansion playbook e escalar com VP Sales que tenha levado empresa de $5 M para $50 M" },
+          { "value": "d", "label": "Parar de falar com cliente" }
+        ],
+        "explanation": "Scale é sobre profundidade antes de largura: aumentar ticket, expandir contas, subir market tiers e colocar líder que já fez esse salto. Sem isso você queima cash e marca.",
+        "hint": "Depth > breadth.",
+        "correctAnswer": "c",
+        "bookExample": "Case: empresa passou de $3 M para $30 M ARR em 3 anos ajustando ICP para enterprise, subindo preço 2× e colocando VP que já tinha feito $50 M na vida."
+      },
+      {
+        "id": "6",
+        "question": "O que você leva para vida toda após dominar Founding Sales?",
+        "options": [
+          { "value": "a", "label": "Técnica de cold call" },
+          { "value": "b", "label": "Mindset científico: formular hipóteses, testar, medir, iterar — aplicável a qualquer função ou empresa que você fundar" },
+          { "value": "c", "label": "Discurso de elevator pitch" },
+          { "value": "d", "label": "Vontade de vender tudo" }
+        ],
+        "explanation": "O legado não é o close, é o método: qualificar com dados, escutar o mercado, traduzir dor em produto e escalar com processo. Isso serve para PM, CEO, CS ou próxima startup.",
+        "hint": "Method is forever.",
+        "correctAnswer": "b",
+        "bookExample": "Epílogo: ‘Once you’ve learned to build a repeatable sales machine, you’ve learned to build a repeatable business machine.’"
+      },
+      {
+        "id": "7",
+        "question": "Qual frase resume Founding Sales para pendurar na parede?",
+        "options": [
+          { "value": "a", "label": "Sell or die" },
+          { "value": "b", "label": "Sales is the process by which you turn market learning into predictable revenue — and founders must own it first" },
+          { "value": "c", "label": "Discount wins" },
+          { "value": "d", "label": "Hire fast, fire faster" }
+        ],
+        "explanation": "Founders que entendem que vendas é tradução de aprendizado em receita previsível nunca delegam cedo demais e constroem empresas duradouras.",
+        "hint": "Learning → revenue.",
+        "correctAnswer": "b",
+        "bookExample": "Last sentence of the book: ‘Own the learning, own the revenue, own the company destiny.’"
+      },
+      {
+        "id": "8",
+        "question": "Qual é o seu compromisso ao terminar este curso?",
+        "options": [
+          { "value": "a", "label": "Ler mais 10 livros" },
+          { "value": "b", "label": "Sair da sala e marcar 5 calls com prospects reais nas próximas 7 dias aplicando ICP, discovery e demo que aprendeu" },
+          { "value": "c", "label": "Comprar CRM caro" },
+          { "value": "d", "label": "Contratar VP Sales" }
+        ],
+        "explanation": "Conhecimento sem ação é entretenimento. Seu próximo milestone é aplicar: montar lista de 20 ICPs, mandar e-mails e fazer 5 descobertas. O mercado será seu juiz.",
+        "hint": "Market is the final exam.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy challenge: ‘Before you celebrate finishing this book, send 10 outreach e-mails using the scripts in Appendix A. Your real graduation happens on the first booked call.’"
+      }
+    ]
+  }
+]
