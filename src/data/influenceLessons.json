@@ -31,6 +31,118 @@
         "hint": "Conhecimento é poder, tanto para influenciar quanto para se defender.",
         "correctAnswer": "b",
         "bookExample": "Ao entender o princípio da reciprocidade, podemos evitar nos sentir obrigados a retribuir favores não solicitados."
+      },
+      {
+        "id": "3",
+        "question": "O que são 'atalhos mentais' e como se relacionam com a persuasão?",
+        "options": [
+          { "value": "a", "label": "São estratégias para evitar pensar" },
+          { "value": "b", "label": "São padrões de pensamento que simplificam decisões, mas podem ser explorados" },
+          { "value": "c", "label": "São técnicas de memorização" },
+          { "value": "d", "label": "São irrelevantes para a persuasão" }
+        ],
+        "explanation": "Atalhos mentais são padrões de pensamento que simplificam decisões, mas podem ser explorados por outros para nos persuadir.",
+        "hint": "Pense em como você decide rapidamente sem analisar todos os detalhes.",
+        "correctAnswer": "b",
+        "bookExample": "O princípio da autoridade é um atalho mental: confiamos em especialistas sem questionar."
+      },
+      {
+        "id": "4",
+        "question": "Qual é a diferença entre persuasão e manipulação?",
+        "options": [
+          { "value": "a", "label": "Não há diferença" },
+          { "value": "b", "label": "Persuasão é ética e transparente; manipulação é enganosa e coercitiva" },
+          { "value": "c", "label": "Persuasão é mais eficaz" },
+          { "value": "d", "label": "Manipulação é mais rápida" }
+        ],
+        "explanation": "Persuasão é ética e transparente, buscando um benefício mútuo. Manipulação é enganosa e coercitiva, explorando o outro.",
+        "hint": "Pense em intenção e transparência.",
+        "correctAnswer": "b",
+        "bookExample": "Persuadir é mostrar os benefícios de um produto. Manipular é esconder informações importantes."
+      },
+      {
+        "id": "5",
+        "question": "Como a cultura influencia a persuasão?",
+        "options": [
+          { "value": "a", "label": "Não influencia" },
+          { "value": "b", "label": "Diferentes culturas valorizam diferentes princípios de persuasão" },
+          { "value": "c", "label": "Apenas a lógica importa" },
+          { "value": "d", "label": "A persuasão é universal" }
+        ],
+        "explanation": "Diferentes culturas valorizam diferentes princípios de persuasão. O que funciona em uma cultura pode não funcionar em outra.",
+        "hint": "Pense em como a comunicação varia entre culturas.",
+        "correctAnswer": "b",
+        "bookExample": "Em algumas culturas, a autoridade é mais valorizada. Em outras, a reciprocidade é mais importante."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o papel da emoção na persuasão?",
+        "options": [
+          { "value": "a", "label": "Não tem papel" },
+          { "value": "b", "label": "Emoções podem influenciar decisões mais do que a lógica" },
+          { "value": "c", "label": "Apenas a lógica importa" },
+          { "value": "d", "label": "Emoções são sempre negativas" }
+        ],
+        "explanation": "Emoções podem influenciar decisões mais do que a lógica. Apelar para o medo, a alegria ou a tristeza pode ser eficaz.",
+        "hint": "Pense em como a publicidade usa emoções para vender.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios que mostram famílias felizes usam a emoção para vender produtos."
+      },
+      {
+        "id": "7",
+        "question": "Como a escassez afeta a persuasão?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Coisas raras são mais desejadas e persuasivas" },
+          { "value": "c", "label": "Escassez é sempre negativa" },
+          { "value": "d", "label": "Escassez não existe" }
+        ],
+        "explanation": "Coisas raras são mais desejadas e persuasivas. A escassez cria urgência e aumenta o valor percebido.",
+        "hint": "Pense em como ofertas por tempo limitado te fazem agir.",
+        "correctAnswer": "b",
+        "bookExample": "Ofertas que dizem 'Apenas 3 unidades restantes' são mais persuasivas."
+      },
+      {
+        "id": "8",
+        "question": "O que é 'framing' e como afeta a persuasão?",
+        "options": [
+          { "value": "a", "label": "Apenas para fotos" },
+          { "value": "b", "label": "A forma como você apresenta informações afeta a percepção e a decisão" },
+          { "value": "c", "label": "Framing não importa" },
+          { "value": "d", "label": "Framing é sempre enganoso" }
+        ],
+        "explanation": "A forma como você apresenta informações afeta a percepção e a decisão. Enquadrar algo positivamente ou negativamente muda a resposta.",
+        "hint": "Pense em como você apresenta uma notícia boa ou ruim.",
+        "correctAnswer": "b",
+        "bookExample": "Dizer que um tratamento tem 90% de chance de sucesso é mais persuasivo do que dizer que tem 10% de chance de falha."
+      },
+      {
+        "id": "9",
+        "question": "Por que a autoridade é uma arma de influência?",
+        "options": [
+          { "value": "a", "label": "Autoridade é sempre ruim" },
+          { "value": "b", "label": "Tendemos a obedecer figuras de autoridade, mesmo que não concordemos" },
+          { "value": "c", "label": "Autoridade não importa" },
+          { "value": "d", "label": "Autoridade é apenas para chefes" }
+        ],
+        "explanation": "Tendemos a obedecer figuras de autoridade, mesmo que não concordemos. A autoridade impõe respeito e confiança.",
+        "hint": "Pense em como você reage a um médico ou um policial.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios com médicos de jaleco branco são mais persuasivos."
+      },
+      {
+        "id": "10",
+        "question": "Como a reciprocidade influencia a persuasão?",
+        "options": [
+          { "value": "a", "label": "Reciprocidade não importa" },
+          { "value": "b", "label": "Sentimos obrigação de retribuir favores, tornando-nos mais propensos a concordar" },
+          { "value": "c", "label": "Reciprocidade é sempre manipuladora" },
+          { "value": "d", "label": "Reciprocidade é apenas para amigos" }
+        ],
+        "explanation": "Sentimos obrigação de retribuir favores, tornando-nos mais propensos a concordar com pedidos de quem nos ajudou.",
+        "hint": "Você já se sentiu obrigado a comprar algo de alguém que te deu algo grátis?",
+        "correctAnswer": "b",
+        "bookExample": "Vendedores que oferecem brindes têm mais sucesso em vendas."
       }
     ]
   },
@@ -66,6 +178,118 @@
         "hint": "Pense em estratégias de marketing que oferecem algo antes de pedir a compra.",
         "correctAnswer": "b",
         "bookExample": "Lojas de cosméticos oferecem amostras grátis para criar uma sensação de obrigação, aumentando a probabilidade de compra."
+      },
+      {
+        "id": "3",
+        "question": "Qual é um exemplo de reciprocidade na vida cotidiana?",
+        "options": [
+          { "value": "a", "label": "Ignorar um pedido de ajuda" },
+          { "value": "b", "label": "Enviar um presente de agradecimento após receber um favor" },
+          { "value": "c", "label": "Nunca pedir favores" },
+          { "value": "d", "label": "Aceitar favores sem retribuir" }
+        ],
+        "explanation": "Enviar um presente de agradecimento após receber um favor é um exemplo de reciprocidade em ação.",
+        "hint": "Pense em como você responde a um ato de gentileza.",
+        "correctAnswer": "b",
+        "bookExample": "Se um amigo te ajuda a mudar, você se sente obrigado a ajudá-lo quando ele precisar."
+      },
+      {
+        "id": "4",
+        "question": "Como a reciprocidade pode ser usada de forma antiética?",
+        "options": [
+          { "value": "a", "label": "Sendo sempre generoso" },
+          { "value": "b", "label": "Oferecendo um favor não solicitado e depois exigindo algo desproporcional em troca" },
+          { "value": "c", "label": "Agradecendo por favores" },
+          { "value": "d", "label": "Retribuindo favores" }
+        ],
+        "explanation": "A reciprocidade pode ser usada de forma antiética oferecendo um favor não solicitado e depois exigindo algo desproporcional em troca.",
+        "hint": "Pense em táticas que exploram a obrigação de retribuir.",
+        "correctAnswer": "b",
+        "bookExample": "Um golpista oferece ajuda e depois exige dinheiro, explorando a reciprocidade."
+      },
+      {
+        "id": "5",
+        "question": "Como podemos nos proteger da reciprocidade antiética?",
+        "options": [
+          { "value": "a", "label": "Aceitar todos os favores" },
+          { "value": "b", "label": "Avaliar a intenção por trás do favor e recusar se for exploratória" },
+          { "value": "c", "label": "Nunca aceitar favores" },
+          { "value": "d", "label": "Retribuir imediatamente" }
+        ],
+        "explanation": "Avaliar a intenção por trás do favor e recusar se for exploratória. Nem todo favor merece retribuição.",
+        "hint": "Intenção > ação.",
+        "correctAnswer": "b",
+        "bookExample": "Se um vendedor oferece algo muito caro sem motivo, desconfie. Pode ser uma tentativa de te manipular."
+      },
+      {
+        "id": "6",
+        "question": "Por que a reciprocidade é tão poderosa?",
+        "options": [
+          { "value": "a", "label": "Porque é lógica" },
+          { "value": "b", "label": "Porque está enraizada em normas sociais e na necessidade de manter relacionamentos" },
+          { "value": "c", "label": "Porque é fácil de usar" },
+          { "value": "d", "label": "Porque é sempre vantajosa" }
+        ],
+        "explanation": "A reciprocidade é poderosa porque está enraizada em normas sociais e na necessidade de manter relacionamentos. Quebrar essa norma tem consequências.",
+        "hint": "Pense em como a sociedade espera que você retribua.",
+        "correctAnswer": "b",
+        "bookExample": "Se você não retribui um convite para jantar, pode ser visto como mal-educado."
+      },
+      {
+        "id": "7",
+        "question": "Como a reciprocidade afeta a tomada de decisão em grupo?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Pessoas são mais propensas a apoiar ideias de quem já as apoiou" },
+          { "value": "c", "label": "Grupos são imunes à reciprocidade" },
+          { "value": "d", "label": "Reciprocidade causa conflito" }
+        ],
+        "explanation": "Pessoas são mais propensas a apoiar ideias de quem já as apoiou. A reciprocidade influencia a dinâmica do grupo.",
+        "hint": "Você já apoiou uma ideia porque alguém apoiou a sua antes?",
+        "correctAnswer": "b",
+        "bookExample": "Se você apoia a proposta de um colega, ele é mais propenso a apoiar a sua."
+      },
+      {
+        "id": "8",
+        "question": "Como a reciprocidade pode ser usada para construir relacionamentos?",
+        "options": [
+          { "value": "a", "label": "Apenas oferecendo dinheiro" },
+          { "value": "b", "label": "Oferecendo ajuda, conselhos e apoio genuíno" },
+          { "value": "c", "label": "Sendo sempre o primeiro a pedir" },
+          { "value": "d", "label": "Relacionamentos não importam" }
+        ],
+        "explanation": "Oferecendo ajuda, conselhos e apoio genuíno. A reciprocidade constrói confiança e conexão.",
+        "hint": "Como você fortalece um relacionamento?",
+        "correctAnswer": "b",
+        "bookExample": "Se você ajuda um colega com um problema, ele se sentirá mais conectado a você."
+      },
+      {
+        "id": "9",
+        "question": "Qual é o limite da reciprocidade?",
+        "options": [
+          { "value": "a", "label": "Não há limite" },
+          { "value": "b", "label": "A retribuição deve ser proporcional ao favor original" },
+          { "value": "c", "label": "Retribuição deve ser sempre maior" },
+          { "value": "d", "label": "Retribuição deve ser sempre menor" }
+        ],
+        "explanation": "A retribuição deve ser proporcional ao favor original. Uma resposta exagerada pode parecer forçada ou manipuladora.",
+        "hint": "Qual é a resposta apropriada a um favor?",
+        "correctAnswer": "b",
+        "bookExample": "Se alguém te ajuda com uma tarefa pequena, um simples agradecimento é suficiente. Não precisa dar um presente caro."
+      },
+      {
+        "id": "10",
+        "question": "Como a reciprocidade se relaciona com a confiança?",
+        "options": [
+          { "value": "a", "label": "Não se relaciona" },
+          { "value": "b", "label": "A reciprocidade constrói confiança ao mostrar que você é confiável e justo" },
+          { "value": "c", "label": "Reciprocidade diminui confiança" },
+          { "value": "d", "label": "Confiança não importa" }
+        ],
+        "explanation": "A reciprocidade constrói confiança ao mostrar que você é confiável e justo. Pessoas confiam em quem retribui.",
+        "hint": "Confiança = reciprocidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se você sempre retribui favores, as pessoas confiarão mais em você."
       }
     ]
   },
@@ -79,11 +303,11 @@
         "question": "O que é o princípio do compromisso e coerência?",
         "options": [
           { "value": "a", "label": "A obrigação de sempre concordar com os outros" },
-          { "value": "b", "label": "A tendência de ser consistente com nossos compromissos e crenças passadas" },
+          { "value": "b", "label": "A tendência de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores" },
           { "value": "c", "label": "A importância de ser flexível" },
           { "value": "d", "label": "A necessidade de mudar de opinião frequentemente" }
         ],
-        "explanation": "O princípio do compromisso e coerência é a tendência humana de ser consistente com nossos compromissos e crenças passadas, mesmo que não sejam mais vantajosos.",
+        "explanation": "O princípio do compromisso e coerência é a tendência humana de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores, mesmo que não sejam mais vantajosos.",
         "hint": "Você já se sentiu obrigado a continuar algo porque já tinha investido muito tempo?",
         "correctAnswer": "b",
         "bookExample": "Pessoas que assinam um abaixo-assinado para uma causa são mais propensas a doar dinheiro para essa causa posteriormente."
@@ -101,6 +325,118 @@
         "hint": "Pense em estratégias que começam com um pequeno pedido e aumentam gradualmente.",
         "correctAnswer": "b",
         "bookExample": "Pedir aos clientes para responderem a uma pesquisa sobre um produto aumenta a probabilidade de compra posterior."
+      },
+      {
+        "id": "3",
+        "question": "Qual é um exemplo de compromisso público que aumenta a coerência?",
+        "options": [
+          { "value": "a", "label": "Manter segredo" },
+          { "value": "b", "label": "Anunciar publicamente uma meta ou intenção" },
+          { "value": "c", "label": "Mudar de opinião frequentemente" },
+          { "value": "d", "label": "Evitar compromissos" }
+        ],
+        "explanation": "Anunciar publicamente uma meta ou intenção aumenta a pressão para ser coerente com esse compromisso.",
+        "hint": "Você já se sentiu mais motivado a cumprir uma meta depois de contá-la para outras pessoas?",
+        "correctAnswer": "b",
+        "bookExample": "Pessoas que anunciam publicamente que vão perder peso são mais propensas a atingir seu objetivo."
+      },
+      {
+        "id": "4",
+        "question": "Como a coerência afeta a tomada de decisão?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Nos leva a tomar decisões alinhadas com nossos compromissos passados, mesmo que não sejam as melhores" },
+          { "value": "c", "label": "Sempre melhora as decisões" },
+          { "value": "d", "label": "Nos torna mais racionais" }
+        ],
+        "explanation": "A coerência nos leva a tomar decisões alinhadas com nossos compromissos passados, mesmo que não sejam as melhores no momento.",
+        "hint": "Você já fez algo que não queria porque já tinha dito que faria?",
+        "correctAnswer": "b",
+        "bookExample": "Um cliente que elogia um produto é mais propenso a comprá-lo, mesmo que encontre uma opção melhor depois."
+      },
+      {
+        "id": "5",
+        "question": "O que é a técnica do 'pé na porta'?",
+        "options": [
+          { "value": "a", "label": "Forçar a entrada em uma casa" },
+          { "value": "b", "label": "Começar com um pequeno pedido para aumentar a probabilidade de um pedido maior" },
+          { "value": "c", "label": "Ignorar o cliente" },
+          { "value": "d", "label": "Oferecer um desconto" }
+        ],
+        "explanation": "A técnica do 'pé na porta' envolve começar com um pequeno pedido para aumentar a probabilidade de aceitação de um pedido maior.",
+        "hint": "Pequeno pedido → grande pedido.",
+        "correctAnswer": "b",
+        "bookExample": "Pedir a alguém para assinar uma petição aumenta a probabilidade de que essa pessoa doe dinheiro para a causa posteriormente."
+      },
+      {
+        "id": "6",
+        "question": "Por que a técnica do 'pé na porta' funciona?",
+        "options": [
+          { "value": "a", "label": "Porque as pessoas são ingênuas" },
+          { "value": "b", "label": "Porque o primeiro pedido cria um compromisso que leva à coerência" },
+          { "value": "c", "label": "Porque é fácil dizer sim" },
+          { "value": "d", "label": "Porque as pessoas gostam de ajudar" }
+        ],
+        "explanation": "O primeiro pedido cria um compromisso que leva à coerência. As pessoas querem ser vistas como consistentes.",
+        "hint": "Compromisso → coerência.",
+        "correctAnswer": "b",
+        "bookExample": "Depois de assinar uma petição, a pessoa se vê como alguém que apoia a causa e é mais propensa a doar."
+      },
+      {
+        "id": "7",
+        "question": "Como a coerência pode ser usada de forma antiética?",
+        "options": [
+          { "value": "a", "label": "Sendo sempre honesto" },
+          { "value": "b", "label": "Explorando a necessidade de coerência para manipular as pessoas a fazerem coisas que não querem" },
+          { "value": "c", "label": "Sendo transparente" },
+          { "value": "d", "label": "Apenas para o bem" }
+        ],
+        "explanation": "A coerência pode ser usada de forma antiética explorando a necessidade de coerência para manipular as pessoas a fazerem coisas que não querem.",
+        "hint": "Manipulação > influência.",
+        "correctAnswer": "b",
+        "bookExample": "Um golpista pode pedir um pequeno favor e depois usar isso para pedir algo muito maior."
+      },
+      {
+        "id": "8",
+        "question": "Como podemos nos proteger da coerência antiética?",
+        "options": [
+          { "value": "a", "label": "Sendo sempre desconfiado" },
+          { "value": "b", "label": "Estar ciente da necessidade de coerência e questionar se nossos compromissos ainda fazem sentido" },
+          { "value": "c", "label": "Nunca se comprometer" },
+          { "value": "d", "label": "Ignorar os outros" }
+        ],
+        "explanation": "Estar ciente da necessidade de coerência e questionar se nossos compromissos ainda fazem sentido. Flexibilidade é importante.",
+        "hint": "Flexibilidade > rigidez.",
+        "correctAnswer": "b",
+        "bookExample": "Se você prometeu ajudar em algo, mas percebe que não pode, é melhor voltar atrás do que fazer algo malfeito."
+      },
+      {
+        "id": "9",
+        "question": "Por que a coerência é tão valorizada socialmente?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque é vista como um sinal de integridade e confiabilidade" },
+          { "value": "c", "label": "Porque é sempre vantajoso" },
+          { "value": "d", "label": "Porque é obrigatório" }
+        ],
+        "explanation": "A coerência é valorizada porque é vista como um sinal de integridade e confiabilidade. Pessoas coerentes são vistas como mais confiáveis.",
+        "hint": "Confiança = coerência.",
+        "correctAnswer": "b",
+        "bookExample": "Um político que muda de opinião frequentemente é visto como menos confiável."
+      },
+      {
+        "id": "10",
+        "question": "Como a coerência afeta a tomada de decisão em grupo?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Pessoas são mais propensas a defender decisões que já apoiaram publicamente" },
+          { "value": "c", "label": "Grupos são sempre coerentes" },
+          { "value": "d", "label": "Coerência causa conflito" }
+        ],
+        "explanation": "Pessoas são mais propensas a defender decisões que já apoiaram publicamente, mesmo que novas informações sugiram o contrário.",
+        "hint": "Você já defendeu uma decisão em grupo mesmo quando tinha dúvidas?",
+        "correctAnswer": "b",
+        "bookExample": "Um membro de um comitê que votou a favor de um projeto é mais propenso a defendê-lo em reuniões futuras."
       }
     ]
   },
@@ -121,7 +457,7 @@
         "explanation": "O princípio da aprovação social é a tendência humana de seguir o comportamento dos outros, especialmente em situações incertas, para determinar o que é correto.",
         "hint": "Você já fez algo porque viu outras pessoas fazendo?",
         "correctAnswer": "b",
-        "bookExample": "As pessoas são mais propensas a doar dinheiro se virem outras pessoas doando."
+        "bookExample": "Se um restaurante está cheio, as pessoas assumem que a comida é boa e são mais propensas a entrar."
       },
       {
         "id": "2",
@@ -136,6 +472,118 @@
         "hint": "Pense em estratégias de marketing que destacam a popularidade de um produto.",
         "correctAnswer": "b",
         "bookExample": "Anúncios que dizem 'Produto número 1 em vendas' ou 'Aprovado por 90% dos clientes' usam a aprovação social."
+      },
+      {
+        "id": "3",
+        "question": "Por que a aprovação social é mais forte em situações incertas?",
+        "options": [
+          { "value": "a", "label": "Porque as pessoas são mais racionais" },
+          { "value": "b", "label": "Porque as pessoas buscam validação externa quando não sabem o que fazer" },
+          { "value": "c", "label": "Porque as pessoas são preguiçosas" },
+          { "value": "d", "label": "A aprovação social não é afetada pela incerteza" }
+        ],
+        "explanation": "Em situações incertas, as pessoas buscam validação externa para determinar o que é correto, tornando a aprovação social mais forte.",
+        "hint": "Você já seguiu a multidão quando não sabia o que fazer?",
+        "correctAnswer": "b",
+        "bookExample": "Se você está em uma cidade desconhecida e não sabe qual restaurante escolher, você pode seguir a multidão e entrar no restaurante mais cheio."
+      },
+      {
+        "id": "4",
+        "question": "Como a similaridade afeta a aprovação social?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Somos mais influenciados por pessoas que consideramos semelhantes a nós" },
+          { "value": "c", "label": "Apenas a autoridade importa" },
+          { "value": "d", "label": "A similaridade diminui a influência" }
+        ],
+        "explanation": "Somos mais influenciados por pessoas que consideramos semelhantes a nós. A similaridade aumenta a identificação e a confiança.",
+        "hint": "Você já confiou mais em alguém que compartilha seus valores ou experiências?",
+        "correctAnswer": "b",
+        "bookExample": "Um anúncio com pessoas 'comuns' que se parecem com o público-alvo é mais eficaz do que um anúncio com celebridades."
+      },
+      {
+        "id": "5",
+        "question": "O que é o 'efeito Werther'?",
+        "options": [
+          { "value": "a", "label": "Um efeito de luz" },
+          { "value": "b", "label": "O aumento de suicídios após a publicação de uma história de suicídio" },
+          { "value": "c", "label": "Um efeito de cura" },
+          { "value": "d", "label": "Um efeito de popularidade" }
+        ],
+        "explanation": "O 'efeito Werther' é o aumento de suicídios após a publicação de uma história de suicídio, especialmente se a história é romantizada ou glorificada.",
+        "hint": "Imitação trágica.",
+        "correctAnswer": "b",
+        "bookExample": "Após a publicação do livro 'Os Sofrimentos do Jovem Werther', houve uma onda de suicídios na Europa."
+      },
+      {
+        "id": "6",
+        "question": "Como podemos mitigar o 'efeito Werther'?",
+        "options": [
+          { "value": "a", "label": "Ignorar suicídios" },
+          { "value": "b", "label": "Evitar detalhes gráficos e focar em prevenção" },
+          { "value": "c", "label": "Glorificar suicídios" },
+          { "value": "d", "label": "Não falar sobre suicídio" }
+        ],
+        "explanation": "Evitar detalhes gráficos e focar em prevenção. A ênfase deve ser em como buscar ajuda, não em como cometer o ato.",
+        "hint": "Prevenção > descrição.",
+        "correctAnswer": "b",
+        "bookExample": "Reportagens sobre suicídio devem focar em recursos de apoio e sinais de alerta, não em detalhes do ato."
+      },
+      {
+        "id": "7",
+        "question": "Como a incerteza afeta a aprovação social?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Aumenta a influência da aprovação social" },
+          { "value": "c", "label": "Diminui a influência da aprovação social" },
+          { "value": "d", "label": "Incerteza não existe" }
+        ],
+        "explanation": "Aumenta a influência da aprovação social. Em situações incertas, buscamos mais a validação dos outros.",
+        "hint": "Incerteza = busca por validação.",
+        "correctAnswer": "b",
+        "bookExample": "Em uma situação de emergência, as pessoas observam o comportamento dos outros para decidir como agir."
+      },
+      {
+        "id": "8",
+        "question": "Como a ambiguidade afeta a aprovação social?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Aumenta a influência da aprovação social" },
+          { "value": "c", "label": "Diminui a influência da aprovação social" },
+          { "value": "d", "label": "Ambiguidade não existe" }
+        ],
+        "explanation": "Aumenta a influência da aprovação social. Em situações ambíguas, confiamos mais no que os outros estão fazendo.",
+        "hint": "Ambiguidade = busca por validação.",
+        "correctAnswer": "b",
+        "bookExample": "Se você não sabe qual roupa usar para uma festa, você pode observar o que os outros estão vestindo."
+      },
+      {
+        "id": "9",
+        "question": "Como podemos nos proteger da aprovação social antiética?",
+        "options": [
+          { "value": "a", "label": "Ignorar os outros" },
+          { "value": "b", "label": "Estar ciente da tendência e avaliar as informações por conta própria" },
+          { "value": "c", "label": "Sempre seguir a maioria" },
+          { "value": "d", "label": "Aprovação social é sempre boa" }
+        ],
+        "explanation": "Estar ciente da tendência e avaliar as informações por conta própria. Não siga a multidão cegamente.",
+        "hint": "Pensamento crítico > seguir a multidão.",
+        "correctAnswer": "b",
+        "bookExample": "Se todos estão investindo em uma ação, não invista automaticamente. Faça sua própria pesquisa."
+      },
+      {
+        "id": "10",
+        "question": "Por que a aprovação social é tão poderosa?",
+        "options": [
+          { "value": "a", "label": "Porque é sempre correta" },
+          { "value": "b", "label": "Porque simplifica decisões e nos ajuda a nos sentir seguros" },
+          { "value": "c", "label": "Porque é fácil de usar" },
+          { "value": "d", "label": "Aprovação social não é poderosa" }
+        ],
+        "explanation": "Simplifica decisões e nos ajuda a nos sentir seguros. Seguir a multidão reduz ansiedade.",
+        "hint": "Segurança = aprovação social.",
+        "correctAnswer": "b",
+        "bookExample": "Se você não sabe qual caminho seguir, seguir a multidão te dá uma sensação de segurança."
       }
     ]
   },
@@ -171,6 +619,118 @@
         "hint": "Pense em estratégias de marketing que usam celebridades ou pessoas atraentes.",
         "correctAnswer": "b",
         "bookExample": "Anúncios que usam celebridades atraentes para promover produtos usam o princípio da afeição."
+      },
+      {
+        "id": "3",
+        "question": "Por que a atratividade física influencia a persuasão?",
+        "options": [
+          { "value": "a", "label": "Não influencia" },
+          { "value": "b", "label": "Tendemos a associar beleza com outras qualidades positivas" },
+          { "value": "c", "label": "Apenas para produtos de beleza" },
+          { "value": "d", "label": "A beleza é superficial" }
+        ],
+        "explanation": "Tendemos a associar beleza com outras qualidades positivas, como inteligência e honestidade. Isso é o efeito halo.",
+        "hint": "Você já julgou alguém como inteligente porque era bonito?",
+        "correctAnswer": "b",
+        "bookExample": "Candidatos atraentes têm mais chances de serem contratados, mesmo que não sejam mais qualificados."
+      },
+      {
+        "id": "4",
+        "question": "Como a similaridade afeta a afeição?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Gostamos de pessoas que são semelhantes a nós em interesses, valores e origens" },
+          { "value": "c", "label": "Apenas opostos se atraem" },
+          { "value": "d", "label": "Similaridade é irrelevante" }
+        ],
+        "explanation": "Gostamos de pessoas que são semelhantes a nós em interesses, valores e origens. Similaridade cria conexão.",
+        "hint": "Você já se sentiu mais conectado a alguém que compartilha seus hobbies?",
+        "correctAnswer": "b",
+        "bookExample": "Vendedores que encontram pontos em comum com os clientes têm mais sucesso."
+      },
+      {
+        "id": "5",
+        "question": "O que é 'ingratiation'?",
+        "options": [
+          { "value": "a", "label": "Ser grato" },
+          { "value": "b", "label": "Tentar agradar os outros para ganhar sua afeição" },
+          { "value": "c", "label": "Ser honesto" },
+          { "value": "d", "label": "Ignorar os outros" }
+        ],
+        "explanation": "'Ingratiation' é tentar agradar os outros para ganhar sua afeição. Elogios, favores e concordância são táticas.",
+        "hint": "Agradar para influenciar.",
+        "correctAnswer": "b",
+        "bookExample": "Um funcionário que elogia constantemente o chefe está usando 'ingratiation'."
+      },
+      {
+        "id": "6",
+        "question": "Como a afeição pode ser usada de forma antiética?",
+        "options": [
+          { "value": "a", "label": "Sendo sempre simpático" },
+          { "value": "b", "label": "Fingindo afeição para manipular os outros" },
+          { "value": "c", "label": "Sendo honesto" },
+          { "value": "d", "label": "Afeição é sempre boa" }
+        ],
+        "explanation": "Afeição pode ser usada de forma antiética fingindo afeição para manipular os outros. Falsidade é prejudicial.",
+        "hint": "Falsidade > sinceridade.",
+        "correctAnswer": "b",
+        "bookExample": "Um golpista pode fingir ser seu amigo para ganhar sua confiança e roubar seu dinheiro."
+      },
+      {
+        "id": "7",
+        "question": "Como podemos nos proteger da afeição antiética?",
+        "options": [
+          { "value": "a", "label": "Ser sempre desconfiado" },
+          { "value": "b", "label": "Estar ciente da tendência e avaliar as informações objetivamente" },
+          { "value": "c", "label": "Nunca confiar em ninguém" },
+          { "value": "d", "label": "Afeição é sempre ruim" }
+        ],
+        "explanation": "Estar ciente da tendência e avaliar as informações objetivamente. Não deixe a simpatia te cegar.",
+        "hint": "Objetividade > emoção.",
+        "correctAnswer": "b",
+        "bookExample": "Se um vendedor é muito simpático, avalie o produto objetivamente, não apenas porque você gosta do vendedor."
+      },
+      {
+        "id": "8",
+        "question": "Por que a afeição é tão poderosa?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque gostamos de pessoas que nos fazem sentir bem" },
+          { "value": "c", "label": "Afeição não é poderosa" },
+          { "value": "d", "label": "Apenas para pessoas carentes" }
+        ],
+        "explanation": "Gostamos de pessoas que nos fazem sentir bem. A afeição cria uma conexão emocional.",
+        "hint": "Emoção > lógica.",
+        "correctAnswer": "b",
+        "bookExample": "Um amigo que te elogia e te faz sentir bem é mais persuasivo do que um estranho."
+      },
+      {
+        "id": "9",
+        "question": "Como a afeição afeta a tomada de decisão em grupo?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Pessoas são mais propensas a concordar com quem gostam" },
+          { "value": "c", "label": "Grupos são sempre objetivos" },
+          { "value": "d", "label": "Afeição causa conflito" }
+        ],
+        "explanation": "Pessoas são mais propensas a concordar com quem gostam. A afeição influencia a dinâmica do grupo.",
+        "hint": "Você já apoiou uma ideia porque gostava de quem a propôs?",
+        "correctAnswer": "b",
+        "bookExample": "Se você gosta de um colega, você é mais propenso a apoiar suas ideias."
+      },
+      {
+        "id": "10",
+        "question": "Como você usa a afeição eticamente?",
+        "options": [
+          { "value": "a", "label": "Fingindo ser amigo" },
+          { "value": "b", "label": "Sendo genuinamente simpático e buscando conexão real" },
+          { "value": "c", "label": "Afeição é sempre manipulação" },
+          { "value": "d", "label": "Afeição não funciona" }
+        ],
+        "explanation": "Sendo genuinamente simpático e buscando conexão real. Sinceridade é a chave.",
+        "hint": "Sinceridade > falsidade.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de fingir interesse, procure genuinamente entender o outro e construir uma relação."
       }
     ]
   },
@@ -206,83 +766,419 @@
         "hint": "Pense em estratégias de marketing que usam médicos, cientistas ou especialistas.",
         "correctAnswer": "b",
         "bookExample": "Anúncios de creme dental que são endossados por dentistas usam o princípio da autoridade."
+      },
+      {
+        "id": "3",
+        "question": "Por que a autoridade influencia tanto?",
+        "options": [
+          { "value": "a", "label": "Porque é sempre correta" },
+          { "value": "b", "label": "Porque aprendemos a obedecer autoridades desde a infância" },
+          { "value": "c", "label": "Autoridade não é importante" },
+          { "value": "d", "label": "Autoridade é sempre justa" }
+        ],
+        "explanation": "Aprendemos a obedecer autoridades desde a infância. A obediência é vista como um atalho para tomar decisões.",
+        "hint": "Obediência = atalho.",
+        "correctAnswer": "b",
+        "bookExample": "Seguimos as instruções de um piloto de avião porque confiamos em sua autoridade."
+      },
+      {
+        "id": "4",
+        "question": "Quais são os símbolos de autoridade?",
+        "options": [
+          { "value": "a", "label": "Apenas títulos" },
+          { "value": "b", "label": "Títulos, roupas e carros caros" },
+          { "value": "c", "label": "Símbolos não importam" },
+          { "value": "d", "label": "Apenas dinheiro" }
+        ],
+        "explanation": "Títulos, roupas e carros caros. Símbolos comunicam status e poder.",
+        "hint": "Símbolos = status.",
+        "correctAnswer": "b",
+        "bookExample": "Um médico de jaleco branco é visto como mais confiável do que um sem jaleco."
+      },
+      {
+        "id": "5",
+        "question": "Como a autoridade pode ser usada de forma antiética?",
+        "options": [
+          { "value": "a", "label": "Sendo sempre honesto" },
+          { "value": "b", "label": "Fingindo ser uma autoridade para manipular os outros" },
+          { "value": "c", "label": "Autoridade é sempre boa" },
+          { "value": "d", "label": "Autoridade não importa" }
+        ],
+        "explanation": "Fingindo ser uma autoridade para manipular os outros. Falsidade é prejudicial.",
+        "hint": "Falsidade > sinceridade.",
+        "correctAnswer": "b",
+        "bookExample": "Um golpista pode se passar por um agente do governo para roubar informações."
+      },
+      {
+        "id": "6",
+        "question": "Como podemos nos proteger da autoridade antiética?",
+        "options": [
+          { "value": "a", "label": "Ser sempre desconfiado" },
+          { "value": "b", "label": "Questionar a legitimidade da autoridade e avaliar as informações objetivamente" },
+          { "value": "c", "label": "Nunca confiar em ninguém" },
+          { "value": "d", "label": "Autoridade é sempre boa" }
+        ],
+        "explanation": "Questionar a legitimidade da autoridade e avaliar as informações objetivamente. Não siga cegamente.",
+        "hint": "Pensamento crítico > obediência cega.",
+        "correctAnswer": "b",
+        "bookExample": "Se alguém se apresenta como especialista, verifique suas credenciais e avalie suas informações."
+      },
+      {
+        "id": "7",
+        "question": "Por que a autoridade é tão poderosa?",
+        "options": [
+          { "value": "a", "label": "Porque é sempre correta" },
+          { "value": "b", "label": "Porque simplifica decisões e nos faz sentir seguros" },
+          { "value": "c", "label": "Autoridade não é poderosa" },
+          { "value": "d", "label": "Apenas para pessoas fracas" }
+        ],
+        "explanation": "Simplifica decisões e nos faz sentir seguros. Confiar em autoridades economiza energia mental.",
+        "hint": "Segurança = autoridade.",
+        "correctAnswer": "b",
+        "bookExample": "Seguir as instruções de um médico economiza tempo e esforço de pesquisa."
+      },
+      {
+        "id": "8",
+        "question": "Como a autoridade afeta a tomada de decisão em grupo?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Pessoas são mais propensas a concordar com a opinião da pessoa mais experiente" },
+          { "value": "c", "label": "Grupos são sempre objetivos" },
+          { "value": "d", "label": "Autoridade causa conflito" }
+        ],
+        "explanation": "Pessoas são mais propensas a concordar com a opinião da pessoa mais experiente. A autoridade influencia a dinâmica do grupo.",
+        "hint": "Experiência = influência.",
+        "correctAnswer": "b",
+        "bookExample": "Em uma reunião, a opinião do CEO tem mais peso do que a de um estagiário."
+      },
+      {
+        "id": "9",
+        "question": "Como você usa a autoridade eticamente?",
+        "options": [
+          { "value": "a", "label": "Fingindo ser especialista" },
+          { "value": "b", "label": "Mostrando sua expertise e sendo honesto sobre suas limitações" },
+          { "value": "c", "label": "Autoridade é sempre manipulação" },
+          { "value": "d", "label": "Autoridade não funciona" }
+        ],
+        "explanation": "Mostrando sua expertise e sendo honesto sobre suas limitações. Sinceridade constrói confiança.",
+        "hint": "Sinceridade > falsidade.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de se apresentar como um especialista em tudo, diga: 'Sou especialista em X, mas não em Y'."
+      },
+      {
+        "id": "10",
+        "question": "Qual é o antídoto para a influência da autoridade?",
+        "options": [
+          { "value": "a", "label": "Obediência cega" },
+          { "value": "b", "label": "Questionar a legitimidade e a intenção da autoridade" },
+          { "value": "c", "label": "Rebelião constante" },
+          { "value": "d", "label": "Não há antídoto" }
+        ],
+        "explanation": "Questionar a legitimidade e a intenção da autoridade. Pensamento crítico é a chave.",
+        "hint": "Pensamento crítico > obediência cega.",
+        "correctAnswer": "b",
+        "bookExample": "Antes de seguir um conselho, pergunte: 'Essa pessoa é realmente qualificada? Ela tem meus melhores interesses em mente?'"
       }
     ]
   },
   {
     "id": 7,
     "title": "Escassez",
-    "conclusionMessage": "Você aprendeu sobre o princípio da escassez. Agora você sabe como a percepção de raridade afeta a persuasão.",
+    "conclusionMessage": "Você aprendeu sobre o princípio da escassez. Now you know how to use scarcity to influence.",
     "questions": [
       {
         "id": "1",
-        "question": "O que é o princípio da escassez?",
+        "question": "Por que escassez aumenta valor?",
         "options": [
-          { "value": "a", "label": "A obrigação de sempre querer mais" },
-          { "value": "b", "label": "A tendência de valorizar mais coisas que são raras ou difíceis de obter" },
-          { "value": "c", "label": "A importância de ser rico" },
-          { "value": "d", "label": "A necessidade de ter tudo" }
+          { "value": "a", "label": "Não aumenta" },
+          { "value": "b", "label": "Coisas raras são mais desejadas" },
+          { "value": "c", "label": "Escassez é ruim" },
+          { "value": "d", "label": "Escassez não existe" }
         ],
-        "explanation": "O princípio da escassez é a tendência humana de valorizar mais coisas que são raras ou difíceis de obter, aumentando o desejo e a urgência.",
-        "hint": "Você já quis algo mais porque sabia que era limitado?",
+        "explanation": "Coisas raras são mais desejadas. Escassez cria urgência.",
+        "hint": "Raridade = desejo.",
         "correctAnswer": "b",
-        "bookExample": "As pessoas são mais propensas a comprar um produto se souberem que há apenas alguns restantes."
+        "bookExample": "Um diamante é mais caro que água porque é mais raro."
       },
       {
         "id": "2",
-        "question": "Como o princípio da escassez é usado em vendas?",
+        "question": "Como você usa escassez para persuadir?",
         "options": [
-          { "value": "a", "label": "Oferecendo descontos" },
-          { "value": "b", "label": "Criando ofertas por tempo limitado, edições especiais ou produtos exclusivos" },
-          { "value": "c", "label": "Sendo agressivo" },
-          { "value": "d", "label": "Ignorando o cliente" }
+          { "value": "a", "label": "Crie abundância" },
+          { "value": "b", "label": "Comunique tempo limitado ou quantidade limitada" },
+          { "value": "c", "label": "Ignore escassez" },
+          { "value": "d", "label": "Escassez não funciona" }
         ],
-        "explanation": "Vendedores usam a escassez criando ofertas por tempo limitado, edições especiais ou produtos exclusivos para aumentar a urgência e a probabilidade de compra.",
-        "hint": "Pense em estratégias de marketing que usam frases como 'Últimas unidades' ou 'Oferta válida somente hoje'.",
+        "explanation": "Comunique tempo limitado ou quantidade limitada. Escassez cria urgência.",
+        "hint": "Tempo ou quantidade = urgência.",
         "correctAnswer": "b",
-        "bookExample": "Anúncios que dizem 'Apenas 3 unidades restantes' ou 'Oferta válida até amanhã' usam o princípio da escassez."
+        "bookExample": "'Oferta válida por 24 horas' ou 'Apenas 10 unidades restantes' criam urgência."
+      },
+      {
+        "id": "3",
+        "question": "Por que a escassez funciona?",
+        "options": [
+          { "value": "a", "label": "Porque é lógica" },
+          { "value": "b", "label": "Porque tememos perder oportunidades" },
+          { "value": "c", "label": "Escassez não funciona" },
+          { "value": "d", "label": "Apenas para pessoas gananciosas" }
+        ],
+        "explanation": "Tememos perder oportunidades. A escassez aciona o medo da perda.",
+        "hint": "Medo da perda > desejo do ganho.",
+        "correctAnswer": "b",
+        "bookExample": "Ver um produto como 'esgotando rapidamente' te faz agir para não perder a chance."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'tempo limitado'?",
+        "options": [
+          { "value": "a", "label": "Tempo infinito" },
+          { "value": "b", "label": "Oferta válida por um período curto" },
+          { "value": "c", "label": "Tempo não importa" },
+          { "value": "d", "label": "Tempo é sempre igual" }
+        ],
+        "explanation": "Oferta válida por um período curto. Urgência força ação.",
+        "hint": "Relógio correndo = ação.",
+        "correctAnswer": "b",
+        "bookExample": "'Oferta válida até meia-noite' te faz decidir agora."
+      },
+      {
+        "id": "5",
+        "question": "O que é 'quantidade limitada'?",
+        "options": [
+          { "value": "a", "label": "Quantidade infinita" },
+          { "value": "b", "label": "Apenas algumas unidades disponíveis" },
+          { "value": "c", "label": "Quantidade não importa" },
+          { "value": "d", "label": "Sempre há mais" }
+        ],
+        "explanation": "Apenas algumas unidades disponíveis. Raridade aumenta desejo.",
+        "hint": "Raridade = desejo.",
+        "correctAnswer": "b",
+        "bookExample": "'Apenas 3 unidades restantes' te faz comprar antes que acabe."
+      },
+      {
+        "id": "6",
+        "question": "Como você usa escassez eticamente?",
+        "options": [
+          { "value": "a", "label": "Invente escassez" },
+          { "value": "b", "label": "Seja honesto sobre tempo ou quantidade limitada" },
+          { "value": "c", "label": "Escassez é sempre manipulação" },
+          { "value": "d", "label": "Escassez não funciona" }
+        ],
+        "explanation": "Seja honesto sobre tempo ou quantidade limitada. Transparência constrói confiança.",
+        "hint": "Honestidade > manipulação.",
+        "correctAnswer": "b",
+        "bookExample": "Se você tem apenas 10 unidades, diga. Não invente."
+      },
+      {
+        "id": "7",
+        "question": "Por que a escassez funciona?",
+        "options": [
+          { "value": "a", "label": "Porque é lógica" },
+          { "value": "b", "label": "Porque tememos perder oportunidades" },
+          { "value": "c", "label": "Escassez não funciona" },
+          { "value": "d", "label": "Apenas para pessoas gananciosas" }
+        ],
+        "explanation": "Tememos perder oportunidades. A escassez aciona o medo da perda.",
+        "hint": "Medo da perda > desejo do ganho.",
+        "correctAnswer": "b",
+        "bookExample": "Ver um produto como 'esgotando rapidamente' te faz agir para não perder a chance."
+      },
+      {
+        "id": "8",
+        "question": "Como a escassez afeta a tomada de decisão em grupo?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Grupos são mais propensos a agir rapidamente em ofertas limitadas" },
+          { "value": "c", "label": "Grupos são sempre racionais" },
+          { "value": "d", "label": "Escassez causa pânico" }
+        ],
+        "explanation": "Grupos são mais propensos a agir rapidamente em ofertas limitadas. A pressão aumenta.",
+        "hint": "Pressão = ação.",
+        "correctAnswer": "b",
+        "bookExample": "Se um grupo sabe que há apenas 3 ingressos para um show, a decisão é mais rápida."
+      },
+      {
+        "id": "9",
+        "question": "Como você usa a escassez para o bem?",
+        "options": [
+          { "value": "a", "label": "Apenas para vender" },
+          { "value": "b", "label": "Incentive ação rápida em causas importantes" },
+          { "value": "c", "label": "Escassez é sempre ruim" },
+          { "value": "d", "label": "Não há uso bom" }
+        ],
+        "explanation": "Incentive ação rápida em causas importantes. Urgência pode ser usada para o bem.",
+        "hint": "Urgência = ação.",
+        "correctAnswer": "b",
+        "bookExample": "'Doe agora, antes que seja tarde' incentiva doações para causas urgentes."
+      },
+      {
+        "id": "10",
+        "question": "Qual é o antídoto para a escassez?",
+        "options": [
+          { "value": "a", "label": "Acreditar em tudo" },
+          { "value": "b", "label": "Pensar claramente sobre o valor real, não apenas a raridade" },
+          { "value": "c", "label": "Ignorar tudo" },
+          { "value": "d", "label": "Não há antídoto" }
+        ],
+        "explanation": "Pensar claramente sobre o valor real, não apenas a raridade. Valor > raridade.",
+        "hint": "Valor > raridade.",
+        "correctAnswer": "b",
+        "bookExample": "Antes de comprar algo raro, pergunte: 'Eu preciso disso? O valor justifica o preço?'"
       }
     ]
   },
   {
     "id": 8,
     "title": "Consistência",
-    "conclusionMessage": "Você aprendeu sobre o princípio da consistência. Agora você sabe como a necessidade de ser coerente com nossas ações afeta a persuasão.",
+    "conclusionMessage": "Você aprendeu sobre o princípio da consistência. Now you know how to use the need to be consistent to influence.",
     "questions": [
       {
         "id": "1",
         "question": "O que é o princípio da consistência?",
         "options": [
           { "value": "a", "label": "A obrigação de sempre concordar com os outros" },
-          { "value": "b", "label": "A tendência de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores" },
+          { "value": "b", "label": "A necessidade de alinhar ações com compromissos anteriores" },
           { "value": "c", "label": "A importância de ser flexível" },
-          { "value": "d", "label": "A necessidade de mudar de opinião frequentemente" }
+          { "value": "d", "label": "A necessidade de mudar de opinião" }
         ],
-        "explanation": "O princípio da consistência é a tendência humana de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores, mesmo que não sejam mais vantajosos.",
-        "hint": "Você já se sentiu obrigado a continuar algo porque já tinha começado?",
+        "explanation": "A necessidade de alinhar ações com compromissos anteriores. Queremos ser vistos como coerentes.",
+        "hint": "Coerência = integridade.",
         "correctAnswer": "b",
-        "bookExample": "Pessoas que assinam um abaixo-assinado para uma causa são mais propensas a doar dinheiro para essa causa posteriormente."
+        "bookExample": "Se você diz que apoia uma causa, você se sente obrigado a doar."
       },
       {
         "id": "2",
-        "question": "Como o princípio da consistência é usado em vendas?",
+        "question": "Como você usa consistência para persuadir?",
         "options": [
-          { "value": "a", "label": "Oferecendo descontos" },
-          { "value": "b", "label": "Fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores" },
-          { "value": "c", "label": "Sendo agressivo" },
-          { "value": "d", "label": "Ignorando o cliente" }
+          { "value": "a", "label": "Mude de ideia" },
+          { "value": "b", "label": "Obtenha pequenos compromissos iniciais" },
+          { "value": "c", "label": "Seja inconsistente" },
+          { "value": "d", "label": "Não use consistência" }
         ],
-        "explanation": "Vendedores usam a consistência fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores.",
-        "hint": "Pense em estratégias que começam com um pequeno pedido e aumentam gradualmente.",
+        "explanation": "Obtenha pequenos compromissos iniciais. Pequenos 'sim' levam a grandes 'sim'.",
+        "hint": "Pequeno → grande.",
         "correctAnswer": "b",
-        "bookExample": "Pedir aos clientes para responderem a uma pesquisa sobre um produto aumenta a probabilidade de compra posterior."
+        "bookExample": "Peça para assinar uma petição. Depois, peça uma doação."
+      },
+      {
+        "id": "3",
+        "question": "Por que a consistência funciona?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque queremos ser vistos como confiáveis" },
+          { "value": "c", "label": "Consistência não funciona" },
+          { "value": "d", "label": "Porque somos preguiçosos" }
+        ],
+        "explanation": "Porque queremos ser vistos como confiáveis. Coerência = integridade.",
+        "hint": "Integridade > inconsistência.",
+        "correctAnswer": "b",
+        "bookExample": "Se você diz que é ambientalista, você age de forma ambientalmente correta."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'pé na porta'?",
+        "options": [
+          { "value": "a", "label": "Chutar porta" },
+          { "value": "b", "label": "Começar com pequeno pedido e aumentar" },
+          { "value": "c", "label": "Ignorar porta" },
+          { "value": "d", "label": "Não existe" }
+        ],
+        "explanation": "Começar com pequeno pedido e aumentar. Pequeno 'sim' leva a grande 'sim'.",
+        "hint": "Pequeno → grande.",
+        "correctAnswer": "b",
+        "bookExample": "Peça para assinar petição. Depois, peça doação."
+      },
+      {
+        "id": "5",
+        "question": "Como você usa consistência eticamente?",
+        "options": [
+          { "value": "a", "label": "Manipule" },
+          { "value": "b", "label": "Alinhe pedidos com valores da pessoa" },
+          { "value": "c", "label": "Ética não importa" },
+          { "value": "d", "label": "Consistência não funciona" }
+        ],
+        "explanation": "Alinhe pedidos com valores da pessoa. Conexão com valores aumenta adesão.",
+        "hint": "Valores > manipulação.",
+        "correctAnswer": "b",
+        "bookExample": "Se alguém valoriza meio ambiente, peça para usar sacola reutilizável."
+      },
+      {
+        "id": "6",
+        "question": "Por que consistência é importante?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque simplifica decisões e nos dá senso de identidade" },
+          { "value": "c", "label": "Consistência não importa" },
+          { "value": "d", "label": "Apenas para pessoas fracas" }
+        ],
+        "explanation": "Simplifica decisões e nos dá senso de identidade. Coerência = segurança.",
+        "hint": "Segurança = consistência.",
+        "correctAnswer": "b",
+        "bookExample": "Se você se vê como honesto, você age honestamente."
+      },
+      {
+        "id": "7",
+        "question": "Como a consistência afeta grupos?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Grupos valorizam membros consistentes" },
+          { "value": "c", "label": "Grupos são sempre racionais" },
+          { "value": "d", "label": "Consistência causa conflito" }
+        ],
+        "explanation": "Grupos valorizam membros consistentes. Coerência = confiabilidade.",
+        "hint": "Confiabilidade = valor.",
+        "correctAnswer": "b",
+        "bookExample": "Um membro que sempre defende os mesmos valores é visto como confiável."
+      },
+      {
+        "id": "8",
+        "question": "O que fazer se você mudou de ideia?",
+        "options": [
+          { "value": "a", "label": "Fingir que não mudou" },
+          { "value": "b", "label": "Admitir, explicar por quê, e ser transparente" },
+          { "value": "c", "label": "Mudar sem avisar" },
+          { "value": "d", "label": "Nunca mudar" }
+        ],
+        "explanation": "Admitir, explicar por quê, e ser transparente. Honestidade > coerência forçada.",
+        "hint": "Honestidade > coerência.",
+        "correctAnswer": "b",
+        "bookExample": "Diga: 'Eu pensava X, mas aprendi Y. Agora penso Z'."
+      },
+      {
+        "id": "9",
+        "question": "Como você usa consistência para o bem?",
+        "options": [
+          { "value": "a", "label": "Apenas para vender" },
+          { "value": "b", "label": "Incentive compromissos com valores positivos" },
+          { "value": "c", "label": "Consistência é sempre manipulação" },
+          { "value": "d", "label": "Não há uso bom" }
+        ],
+        "explanation": "Incentive compromissos com valores positivos. Coerência pode ser força para o bem.",
+        "hint": "Valores > manipulação.",
+        "correctAnswer": "b",
+        "bookExample": "Peça para assinar compromisso com hábitos saudáveis. Depois, ofereça dicas."
+      },
+      {
+        "id": "10",
+        "question": "Qual é o antídoto para a consistência?",
+        "options": [
+          { "value": "a", "label": "Ser incoerente" },
+          { "value": "b", "label": "Questionar se compromissos ainda fazem sentido" },
+          { "value": "c", "label": "Nunca se comprometer" },
+          { "value": "d", "label": "Não há antídoto" }
+        ],
+        "explanation": "Questionar se compromissos ainda fazem sentido. Flexibilidade > rigidez.",
+        "hint": "Flexibilidade > rigidez.",
+        "correctAnswer": "b",
+        "bookExample": "Pergunte: 'Este compromisso ainda me serve? Ainda alinha com meus valores?'"
       }
     ]
   },
   {
     "id": 9,
     "title": "Unidade",
-    "conclusionMessage": "Você aprendeu sobre o princípio da unidade. Agora você sabe como a identificação com um grupo afeta a persuasão.",
+    "conclusionMessage": "Você aprendeu sobre o princípio da unidade. Now you know how to use the sense of belonging to influence.",
     "questions": [
       {
         "id": "1",
@@ -293,411 +1189,284 @@
           { "value": "c", "label": "A importância de ser um líder" },
           { "value": "d", "label": "A necessidade de ser respeitado" }
         ],
-        "explanation": "O princípio da unidade é a tendência humana de dizer sim a pessoas que consideramos parte do nosso grupo, como familiares, amigos ou membros da mesma comunidade.",
-        "hint": "Você já fez algo por alguém porque se sentia conectado a essa pessoa?",
+        "explanation": "A tendência de dizer sim a pessoas que consideramos parte do nosso grupo. Queremos ajudar 'nossa tribo'.",
+        "hint": "Tribo > estranhos.",
         "correctAnswer": "b",
-        "bookExample": "Pessoas são mais propensas a ajudar membros de sua família ou amigos próximos."
+        "bookExample": "Apoiamos amigos, familiares, e colegas de trabalho mais do que estranhos."
       },
       {
         "id": "2",
-        "question": "Como o princípio da unidade é usado em vendas?",
+        "question": "Como você usa unidade para persuadir?",
         "options": [
-          { "value": "a", "label": "Oferecendo descontos" },
-          { "value": "b", "label": "Criando um senso de pertencimento e identificação com a marca ou empresa" },
-          { "value": "c", "label": "Sendo agressivo" },
-          { "value": "d", "label": "Ignorando o cliente" }
+          { "value": "a", "label": "Exclua" },
+          { "value": "b", "label": "Crie senso de pertencimento e identidade compartilhada" },
+          { "value": "c", "label": "Ignore" },
+          { "value": "d", "label": "Unidade não funciona" }
         ],
-        "explanation": "Vendedores usam a unidade criando um senso de pertencimento e identificação com a marca ou empresa para influenciar a decisão de compra.",
-        "hint": "Pense em estratégias de marketing que criam comunidades em torno de uma marca.",
+        "explanation": "Crie senso de pertencimento e identidade compartilhada. 'Nós' > 'eles'.",
+        "hint": "Nós > eles.",
         "correctAnswer": "b",
-        "bookExample": "Empresas que criam comunidades online para seus clientes usam o princípio da unidade."
+        "bookExample": "Use linguagem inclusiva: 'nossa comunidade', 'nossos valores', 'nossa missão'."
+      },
+      {
+        "id": "3",
+        "question": "Por que a unidade funciona?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque queremos proteger e apoiar nosso grupo" },
+          { "value": "c", "label": "Unidade não funciona" },
+          { "value": "d", "label": "Apenas para pessoas fracas" }
+        ],
+        "explanation": "Porque queremos proteger e apoiar nosso grupo. Lealdade é poderosa.",
+        "hint": "Lealdade > individualismo.",
+        "correctAnswer": "b",
+        "bookExample": "Apoiamos empresas locais porque queremos fortalecer nossa comunidade."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'criar inimigo comum'?",
+        "options": [
+          { "value": "a", "label": "Fazer inimigos" },
+          { "value": "b", "label": "Unir grupo contra uma ameaça externa" },
+          { "value": "c", "label": "Ignorar inimigos" },
+          { "value": "d", "label": "Não há inimigos" }
+        ],
+        "explanation": "Unir grupo contra uma ameaça externa. Inimigo comum fortalece laços.",
+        "hint": "Nós vs. eles.",
+        "correctAnswer": "b",
+        "bookExample": "Uma empresa une funcionários contra um concorrente agressivo."
+      },
+      {
+        "id": "5",
+        "question": "Como você usa unidade eticamente?",
+        "options": [
+          { "value": "a", "label": "Exclua" },
+          { "value": "b", "label": "Crie senso de propósito compartilhado e valores positivos" },
+          { "value": "c", "label": "Unidade é sempre manipulação" },
+          { "value": "d", "label": "Unidade não funciona" }
+        ],
+        "explanation": "Crie senso de propósito compartilhado e valores positivos. Unidade deve ser para o bem.",
+        "hint": "Propósito > manipulação.",
+        "correctAnswer": "b",
+        "bookExample": "Una o time em torno de uma missão nobre: 'Ajudar pessoas a viverem melhor'."
+      },
+      {
+        "id": "6",
+        "question": "Por que a unidade é importante?",
+        "options": [
+          { "value": "a", "label": "Porque é fácil" },
+          { "value": "b", "label": "Porque cria lealdade, colaboração, e engajamento" },
+          { "value": "c", "label": "Unidade não importa" },
+          { "value": "d", "label": "Apenas para pessoas fracas" }
+        ],
+        "explanation": "Cria lealdade, colaboração, e engajamento. Unidade fortalece o grupo.",
+        "hint": "Lealdade = força.",
+        "correctAnswer": "b",
+        "bookExample": "Um time unido trabalha melhor, se apoia, e atinge objetivos maiores."
+      },
+      {
+        "id": "7",
+        "question": "Como a unidade afeta decisões?",
+        "options": [
+          { "value": "a", "label": "Não afeta" },
+          { "value": "b", "label": "Pessoas apoiam decisões que beneficiam o grupo" },
+          { "value": "c", "label": "Grupos são sempre racionais" },
+          { "value": "d", "label": "Unidade causa conflito" }
+        ],
+        "explanation": "Pessoas apoiam decisões que beneficiam o grupo. Interesses do grupo > individuais.",
+        "hint": "Grupo > indivíduo.",
+        "correctAnswer": "b",
+        "bookExample": "Um membro sacrifica bônus individual para o time atingir meta."
+      },
+      {
+        "id": "8",
+        "question": "O que fazer se você não se sente parte do grupo?",
+        "options": [
+          { "value": "a", "label": "Fingir" },
+          { "value": "b", "label": "Buscar conexão genuína ou encontrar outro grupo" },
+          { "value": "c", "label": "Isolar" },
+          { "value": "d", "label": "Unidade é obrigatória" }
+        ],
+        "explanation": "Buscar conexão genuína ou encontrar outro grupo. Autenticidade > falsidade.",
+        "hint": "Autenticidade > falsidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se você não se alinha com os valores da empresa, procure outra que se alinhe."
+      },
+      {
+        "id": "9",
+        "question": "Como você usa a unidade para o bem?",
+        "options": [
+          { "value": "a", "label": "Apenas para vender" },
+          { "value": "b", "label": "Crie comunidades para causas nobres" },
+          { "value": "c", "label": "Unidade é sempre manipulação" },
+          { "value": "d", "label": "Não há uso bom" }
+        ],
+        "explanation": "Crie comunidades para causas nobres. Unidade pode ser força para o bem.",
+        "hint": "Propósito > manipulação.",
+        "correctAnswer": "b",
+        "bookExample": "Una pessoas em torno de causas como: 'Combater a fome', 'Proteger o planeta'."
+      },
+      {
+        "id": "10",
+        "question": "Qual é o antídoto para a unidade?",
+        "options": [
+          { "value": "a", "label": "Individualismo" },
+          { "value": "b", "label": "Pensamento crítico e valores individuais" },
+          { "value": "c", "label": "Isolamento" },
+          { "value": "d", "label": "Não há antídoto" }
+        ],
+        "explanation": "Pensamento crítico e valores individuais. Não siga a multidão cegamente.",
+        "hint": "Pensamento > rebanho.",
+        "correctAnswer": "b",
+        "bookExample": "Questione: 'Este grupo alinha com meus valores? Estou sendo influenciado demais?'"
       }
     ]
   },
   {
     "id": 10,
     "title": "A Arte da Persuasão Ética",
-    "conclusionMessage": "Você aprendeu sobre a importância da persuasão ética. Agora você sabe como usar a influência de forma responsável.",
+    "conclusionMessage": "Você aprendeu sobre a importância da persuasão ética. Now you know how to use influence responsibly.",
     "questions": [
       {
         "id": "1",
         "question": "Por que a ética é importante na persuasão?",
         "options": [
           { "value": "a", "label": "Não é importante" },
-          { "value": "b", "label": "A persuasão antiética prejudica relacionamentos e reputação a longo prazo" },
+          { "value": "b", "label": "Ética constrói confiança e relacionamentos duradouros" },
           { "value": "c", "label": "Apenas para empresas grandes" },
           { "value": "d", "label": "Ética limita a eficácia" }
         ],
-        "explanation": "A persuasão antiética prejudica relacionamentos e reputação a longo prazo. A ética constrói confiança e lealdade.",
-        "hint": "Qual é o impacto da persuasão a longo prazo?",
+        "explanation": "Ética constrói confiança e relacionamentos duradouros. Manipulação destrói.",
+        "hint": "Confiança > manipulação.",
         "correctAnswer": "b",
-        "bookExample": "Empresas que usam táticas de persuasão enganosas perdem clientes e reputação."
+        "bookExample": "Seja transparente sobre seus objetivos. Não engane."
       },
       {
         "id": "2",
-        "question": "Como você garante que está usando a persuasão de forma ética?",
+        "question": "Como você usa persuasão eticamente?",
         "options": [
-          { "value": "a", "label": "Apenas seguindo a lei" },
-          { "value": "b", "label": "Sendo transparente, honesto e respeitando a autonomia do outro" },
-          { "value": "c", "label": "Não há forma de garantir" },
-          { "value": "d", "label": "Apenas para pessoas boas" }
+          { "value": "a", "label": "Manipule" },
+          { "value": "b", "label": "Concentre-se em benefícios mútuos e respeito" },
+          { "value": "c", "label": "Ética não importa" },
+          { "value": "d", "label": "Persuasão é sempre ruim" }
         ],
-        "explanation": "Sendo transparente, honesto e respeitando a autonomia do outro. A persuasão ética é sobre influenciar, não manipular.",
-        "hint": "Respeito e honestidade são a base.",
+        "explanation": "Concentre-se em benefícios mútuos e respeito. Persuasão deve ser ganha-ganha.",
+        "hint": "Ganhar-ganhar > ganha-perde.",
         "correctAnswer": "b",
-        "bookExample": "Em vez de esconder informações, seja transparente sobre os benefícios e limitações do seu produto."
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "O Poder da Prova Social",
-    "conclusionMessage": "Você aprendeu como a prova social influencia nossas decisões. Agora você sabe como usar esse princípio de forma eficaz.",
-    "questions": [
-      {
-        "id": "1",
-        "question": "O que é prova social?",
-        "options": [
-          { "value": "a", "label": "Evidência científica" },
-          { "value": "b", "label": "A tendência de seguir as ações da maioria para determinar o que é certo" },
-          { "value": "c", "label": "Opinião de especialistas" },
-          { "value": "d", "label": "Aprovação de amigos" }
-        ],
-        "explanation": "Prova social é a tendência de seguir as ações da maioria para determinar o que é certo, especialmente em situações de incerteza.",
-        "hint": "Pense em como você decide qual restaurante escolher em uma cidade desconhecida.",
-        "correctAnswer": "b",
-        "bookExample": "Se um restaurante está cheio, as pessoas assumem que a comida é boa e são mais propensas a entrar."
+        "bookExample": "Mostre como sua solução resolve o problema do outro. Não force."
       },
       {
-        "id": "2",
-        "question": "Como a prova social é usada no marketing?",
+        "id": "3",
+        "question": "O que é 'persuasão coercitiva'?",
         "options": [
-          { "value": "a", "label": "Ignorando a opinião dos outros" },
-          { "value": "b", "label": "Exibindo depoimentos, avaliações e números de clientes satisfeitos" },
-          { "value": "c", "label": "Criando produtos exclusivos" },
-          { "value": "d", "label": "Oferecendo descontos agressivos" }
+          { "value": "a", "label": "Persuasão forte" },
+          { "value": "b", "label": "Uso de pressão, medo ou engano" },
+          { "value": "c", "label": "Persuasão eficaz" },
+          { "value": "d", "label": "Não existe" }
         ],
-        "explanation": "A prova social é usada exibindo depoimentos, avaliações e números de clientes satisfeitos para influenciar a decisão de compra.",
-        "hint": "Pense em como as empresas mostram que seus produtos são populares.",
+        "explanation": "Uso de pressão, medo ou engano. Coerção destrói confiança.",
+        "hint": "Pressão > persuasão.",
         "correctAnswer": "b",
-        "bookExample": "Um site que exibe 'Mais de 1 milhão de clientes satisfeitos' está usando a prova social."
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "title": "A Arte de Fazer Pedidos",
-    "conclusionMessage": "Você aprendeu como fazer pedidos eficazes. Agora você sabe como aumentar a probabilidade de obter um 'sim'.",
-    "questions": [
+        "bookExample": "Ameaçar ou enganar para fechar um negócio é persuasão coercitiva."
+      },
       {
-        "id": "1",
-        "question": "Qual é a importância de enquadrar um pedido?",
+        "id": "4",
+        "question": "Como você evita persuasão coercitiva?",
+        "options": [
+          { "value": "a", "label": "Use pressão" },
+          { "value": "b", "label": "Respeite a escolha do outro e seja transparente" },
+          { "value": "c", "label": "Ignore ética" },
+          { "value": "d", "label": "Persuasão é sempre coercitiva" }
+        ],
+        "explanation": "Respeite a escolha do outro e seja transparente. Autonomia é fundamental.",
+        "hint": "Respeito > pressão.",
+        "correctAnswer": "b",
+        "bookExample": "Dê ao cliente tempo para decidir. Não force a barra."
+      },
+      {
+        "id": "5",
+        "question": "Por que a ética é um investimento?",
+        "options": [
+          { "value": "a", "label": "Não é" },
+          { "value": "b", "label": "Construir relacionamentos duradouros e reputação forte" },
+          { "value": "c", "label": "Ética é para fracos" },
+          { "value": "d", "label": "Ética é cara" }
+        ],
+        "explanation": "Construir relacionamentos duradouros e reputação forte. Ética é um investimento a longo prazo.",
+        "hint": "Longo prazo > curto prazo.",
+        "correctAnswer": "b",
+        "bookExample": "Empresas éticas atraem clientes leais e funcionários talentosos."
+      },
+      {
+        "id": "6",
+        "question": "Como você lida com objeções éticas?",
+        "options": [
+          { "value": "a", "label": "Ignore" },
+          { "value": "b", "label": "Respeite e ofereça alternativa ou retire o pedido" },
+          { "value": "c", "label": "Force a barra" },
+          { "value": "d", "label": "Objeções são ruins" }
+        ],
+        "explanation": "Respeite e ofereça alternativa ou retire o pedido. Ética > persuasão.",
+        "hint": "Respeito > persuasão.",
+        "correctAnswer": "b",
+        "bookExample": "Se alguém se sente desconfortável, retire o pedido. Não force."
+      },
+      {
+        "id": "7",
+        "question": "Como você cria cultura de persuasão ética?",
+        "options": [
+          { "value": "a", "label": "Apenas regras" },
+          { "value": "b", "label": "Liderança exemplar, treinamento, e reforço constante" },
+          { "value": "c", "label": "Cultura não importa" },
+          { "value": "d", "label": "Ética é pessoal" }
+        ],
+        "explanation": "Liderança exemplar, treinamento, e reforço constante. Ética é um valor a ser cultivado.",
+        "hint": "Liderança > regras.",
+        "correctAnswer": "b",
+        "bookExample": "Líderes devem ser modelos de ética. Treine o time. Recompense comportamento ético."
+      },
+      {
+        "id": "8",
+        "question": "Qual é o papel da transparência?",
         "options": [
           { "value": "a", "label": "Não importa" },
-          { "value": "b", "label": "A forma como você apresenta um pedido afeta a probabilidade de ser aceito" },
-          { "value": "c", "label": "Apenas o conteúdo importa" },
-          { "value": "d", "label": "Pedidos devem ser sempre diretos" }
+          { "value": "b", "label": "Construir confiança e respeito" },
+          { "value": "c", "label": "Transparência é arriscada" },
+          { "value": "d", "label": "Apenas para algumas situações" }
         ],
-        "explanation": "A forma como você apresenta um pedido afeta a probabilidade de ser aceito. Enquadrar o pedido de forma positiva e clara aumenta as chances de sucesso.",
-        "hint": "Pense em como você pede algo a alguém.",
+        "explanation": "Construir confiança e respeito. Transparência mostra honestidade.",
+        "hint": "Honestidade = confiança.",
         "correctAnswer": "b",
-        "bookExample": "Em vez de 'Você pode me ajudar?', diga 'Você pode me ajudar com isso que beneficiará ambos?'"
+        "bookExample": "Seja transparente sobre seus objetivos. Não esconda informações."
       },
       {
-        "id": "2",
-        "question": "Como a reciprocidade influencia a aceitação de um pedido?",
+        "id": "9",
+        "question": "Como você mede sucesso em persuasão ética?",
         "options": [
-          { "value": "a", "label": "Não influencia" },
-          { "value": "b", "label": "Pessoas são mais propensas a aceitar pedidos de quem já as ajudou" },
-          { "value": "c", "label": "Apenas se houver contrato" },
-          { "value": "d", "label": "Reciprocidade é irrelevante" }
+          { "value": "a", "label": "Apenas por resultados" },
+          { "value": "b", "label": "Resultados + relacionamentos duradouros e reputação" },
+          { "value": "c", "label": "Ética não importa" },
+          { "value": "d", "label": "Sucesso é subjetivo" }
         ],
-        "explanation": "Pessoas são mais propensas a aceitar pedidos de quem já as ajudou. A reciprocidade cria uma sensação de obrigação.",
-        "hint": "Você já se sentiu obrigado a ajudar alguém que te ajudou antes?",
+        "explanation": "Resultados + relacionamentos duradouros e reputação. Sucesso ético é sustentável.",
+        "hint": "Sustentabilidade > ganho rápido.",
         "correctAnswer": "b",
-        "bookExample": "Se você ajuda um colega com um projeto, ele é mais propenso a te ajudar com o seu."
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "title": "O Poder da Atenção",
-    "conclusionMessage": "Você aprendeu sobre a importância da atenção. Agora você sabe como capturar e manter a atenção das pessoas.",
-    "questions": [
-      {
-        "id": "1",
-        "question": "Por que a atenção é um recurso valioso?",
-        "options": [
-          { "value": "a", "label": "Não é valioso" },
-          { "value": "b", "label": "A atenção é limitada e disputada, tornando-a essencial para a persuasão" },
-          { "value": "c", "label": "Apenas para pessoas famosas" },
-          { "value": "d", "label": "Atenção é fácil de conseguir" }
-        ],
-        "explanation": "A atenção é limitada e disputada, tornando-a essencial para a persuasão. Se você não tem a atenção de alguém, não pode influenciá-lo.",
-        "hint": "Pense em como as empresas competem pela sua atenção.",
-        "correctAnswer": "b",
-        "bookExample": "Anúncios chamativos e conteúdo interessante são usados para capturar a atenção das pessoas."
+        "bookExample": "Você fechou o negócio? Ótimo. O cliente está feliz? Melhor ainda. Sua reputação está intacta? Perfeito."
       },
       {
-        "id": "2",
-        "question": "Como você captura a atenção das pessoas?",
+        "id": "10",
+        "question": "Qual é o legado da persuasão ética?",
         "options": [
-          { "value": "a", "label": "Sendo chato" },
-          { "value": "b", "label": "Usando elementos surpreendentes, relevantes e emocionais" },
-          { "value": "c", "label": "Ignorando o público" },
-          { "value": "d", "label": "Sendo genérico" }
+          { "value": "a", "label": "Apenas lucro" },
+          { "value": "b", "label": "Construir um mundo onde a influência é usada para o bem" },
+          { "value": "c", "label": "Legado não importa" },
+          { "value": "d", "label": "Persuasão é sempre ruim" }
         ],
-        "explanation": "Usando elementos surpreendentes, relevantes e emocionais. A atenção é atraída por novidade e conexão.",
-        "hint": "O que te faz parar e prestar atenção em algo?",
+        "explanation": "Construir um mundo onde a influência é usada para o bem. Ética cria um legado positivo.",
+        "hint": "Impacto > lucro.",
         "correctAnswer": "b",
-        "bookExample": "Um título de artigo como 'A verdade chocante sobre...' captura a atenção."
+        "bookExample": "Seu legado é: você usou sua influência para ajudar os outros? Você construiu confiança?"
       }
     ]
-  },
-  {
-    "id": 14,
-    "title": "O Efeito Halo",
-    "conclusionMessage": "Você aprendeu sobre o efeito halo. Agora você sabe como uma impressão positiva em uma área influencia a percepção em outras áreas.",
-    "questions": [
-      {
-        "id": "1",
-        "question": "O que é o efeito halo?",
-        "options": [
-          { "value": "a", "label": "Um efeito de luz" },
-          { "value": "b", "label": "A tendência de generalizar uma impressão positiva de uma característica para outras" },
-          { "value": "c", "label": "Um tipo de ilusão" },
-          { "value": "d", "label": "Um efeito de sombra" }
-        ],
-        "explanation": "O efeito halo é a tendência de generalizar uma impressão positiva de uma característica para outras, mesmo que não haja conexão lógica.",
-        "hint": "Você já julgou alguém como inteligente porque era bonito?",
-        "correctAnswer": "b",
-        "bookExample": "Se você acha que uma pessoa é atraente, pode também julgá-la como inteligente e simpática."
-      },
-      {
-        "id": "2",
-        "question": "Como o efeito halo é usado no marketing?",
-        "options": [
-          { "value": "a", "label": "Ignorando a imagem da marca" },
-          { "value": "b", "label": "Associando produtos a celebridades ou imagens positivas" },
-          { "value": "c", "label": "Criando produtos feios" },
-          { "value": "d", "label": "Sendo genérico" }
-        ],
-        "explanation": "O efeito halo é usado associando produtos a celebridades ou imagens positivas para transferir essa impressão para o produto.",
-        "hint": "Pense em anúncios que usam celebridades para promover produtos.",
-        "correctAnswer": "b",
-        "bookExample": "Um produto endossado por uma celebridade é percebido como de maior qualidade, mesmo que não haja relação."
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "title": "A Linguagem da Persuasão",
-    "conclusionMessage": "Você aprendeu sobre a linguagem da persuasão. Agora você sabe como usar palavras para influenciar.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "Por que a linguagem é importante na persuasão?",
-          "options": [
-            { "value": "a", "label": "Não é importante" },
-            { "value": "b", "label": "A linguagem molda a percepção e influencia a emoção" },
-            { "value": "c", "label": "Apenas o conteúdo importa" },
-            { "value": "d", "label": "Apenas para escritores" }
-          ],
-          "explanation": "A linguagem molda a percepção e influencia a emoção. Palavras criam imagens e despertam sentimentos.",
-          "hint": "Pense em como diferentes palavras podem evocar diferentes reações.",
-          "correctAnswer": "b",
-          "bookExample": "Em vez de 'custo', use 'investimento'. Em vez de 'problema', use 'desafio'."
-        },
-        {
-          "id": "2",
-          "question": "Como você usa a linguagem para criar rapport?",
-          "options": [
-            { "value": "a", "label": "Usando jargão técnico" },
-            { "value": "b", "label": "Espelhando a linguagem, o tom e o ritmo do outro" },
-            { "value": "c", "label": "Sendo formal" },
-            { "value": "d", "label": "Usando linguagem complexa" }
-          ],
-          "explanation": "Espelhando a linguagem, o tom e o ritmo do outro. Isso cria uma sensação de conexão e confiança.",
-          "hint": "Imitação = conexão.",
-          "correctAnswer": "b",
-          "bookExample": "Se o cliente usa linguagem formal, use linguagem formal. Se usa gírias, use gírias."
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "title": "O Poder da Narrativa",
-      "conclusionMessage": "Você aprendeu sobre o poder da narrativa. Now you know how to use stories to influence.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "Por que histórias são persuasivas?",
-          "options": [
-            { "value": "a", "label": "Não são persuasivas" },
-            { "value": "b", "label": "Histórias envolvem emocionalmente e tornam informações memoráveis" },
-            { "value": "c", "label": "Histórias são apenas para crianças" },
-            { "value": "d", "label": "Histórias são complicadas" }
-          ],
-          "explanation": "Histórias envolvem emocionalmente e tornam informações memoráveis. Pessoas se conectam com histórias.",
-          "hint": "Emoção + memória = persuasão.",
-          "correctAnswer": "b",
-          "bookExample": "Em vez de apresentar dados, conte a história de um cliente que teve sucesso com seu produto."
-        },
-        {
-          "id": "2",
-          "question": "Como você cria uma história persuasiva?",
-          "options": [
-            { "value": "a", "label": "Use jargão técnico" },
-            { "value": "b", "label": "Personagens, conflito, resolução, e emoção" },
-            { "value": "c", "label": "Seja vago" },
-            { "value": "d", "label": "Use dados frios" }
-          ],
-          "explanation": "Personagens, conflito, resolução, e emoção. Esses elementos criam uma história envolvente.",
-          "hint": "Personagens + conflito + resolução + emoção.",
-          "correctAnswer": "b",
-          "bookExample": "Conte a história de um cliente que lutou com um problema, usou seu produto, e teve sucesso."
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "title": "O Princípio da Associação",
-      "conclusionMessage": "Você aprendeu sobre o princípio da associação. Now you know how to use associations to influence.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "O que é o princípio da associação?",
-          "options": [
-            { "value": "a", "label": "Não importa" },
-            { "value": "b", "label": "Tendência de associar sentimentos a coisas não relacionadas" },
-            { "value": "c", "label": "Apenas para marcas" },
-            { "value": "d", "label": "Associação não existe" }
-          ],
-          "explanation": "Tendência de associar sentimentos a coisas não relacionadas. Associações influenciam percepção.",
-          "hint": "Associação = percepção.",
-          "correctAnswer": "b",
-          "bookExample": "Se você vê um produto com uma celebridade, você associa o produto à celebridade."
-        },
-        {
-          "id": "2",
-          "question": "Como você usa associação para persuadir?",
-          "options": [
-            { "value": "a", "label": "Seja neutro" },
-            { "value": "b", "label": "Associe seu produto a coisas positivas e evite negativas" },
-            { "value": "c", "label": "Associe a coisas negativas" },
-            { "value": "d", "label": "Associação não funciona" }
-          ],
-          "explanation": "Associe seu produto a coisas positivas e evite negativas. Associações transferem sentimentos.",
-          "hint": "Positivo > negativo.",
-          "correctAnswer": "b",
-          "bookExample": "Use imagens bonitas, música agradável, e depoimentos positivos. Evite imagens feias, música ruim, e reclamações."
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "O Poder do Timing",
-      "conclusionMessage": "Você aprendeu sobre a importância do timing. Now you know how to use timing to influence.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "Por que timing é importante?",
-          "options": [
-            { "value": "a", "label": "Não é importante" },
-            { "value": "b", "label": "A mensagem certa no momento certo é mais persuasiva" },
-            { "value": "c", "label": "Apenas para vendas" },
-            { "value": "d", "label": "Timing não existe" }
-          ],
-          "explanation": "A mensagem certa no momento certo é mais persuasiva. Timing amplifica impacto.",
-          "hint": "Momento certo > mensagem certa.",
-          "correctAnswer": "b",
-          "bookExample": "Um anúncio de protetor solar funciona melhor no verão. Um anúncio de casaco funciona melhor no inverno."
-        },
-        {
-          "id": "2",
-          "question": "Como você identifica o momento certo?",
-          "options": [
-            { "value": "a", "label": "Adivinhe" },
-            { "value": "b", "label": "Entenda o contexto, necessidades, e emoções do público" },
-            { "value": "c", "label": "Não há forma de identificar" },
-            { "value": "d", "label": "Apenas sorte" }
-          ],
-          "explanation": "Entenda o contexto, necessidades, e emoções do público. Empatia revela timing.",
-          "hint": "Empatia > adivinhação.",
-          "correctAnswer": "b",
-          "bookExample": "Se o público está preocupado com economia, fale sobre economia. Se está preocupado com saúde, fale sobre saúde."
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "O Princípio da Escassez",
-      "conclusionMessage": "Você aprendeu sobre o princípio da escassez. Now you know how to use scarcity to influence.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "Por que escassez aumenta valor?",
-          "options": [
-            { "value": "a", "label": "Não aumenta" },
-            { "value": "b", "label": "Coisas raras são mais desejadas" },
-            { "value": "c", "label": "Escassez é ruim" },
-            { "value": "d", "label": "Escassez não existe" }
-          ],
-          "explanation": "Coisas raras são mais desejadas. Escassez cria urgência.",
-          "hint": "Raridade = desejo.",
-          "correctAnswer": "b",
-          "bookExample": "Um diamante é mais caro que água porque é mais raro."
-        },
-        {
-          "id": "2",
-          "question": "Como você usa escassez para persuadir?",
-          "options": [
-            { "value": "a", "label": "Crie abundância" },
-            { "value": "b", "label": "Comunique tempo limitado ou quantidade limitada" },
-            { "value": "c", "label": "Ignore escassez" },
-            { "value": "d", "label": "Escassez não funciona" }
-          ],
-          "explanation": "Comunique tempo limitado ou quantidade limitada. Escassez cria urgência.",
-          "hint": "Tempo ou quantidade = urgência.",
-          "correctAnswer": "b",
-          "bookExample": "'Oferta válida por 24 horas' ou 'Apenas 10 unidades restantes' criam urgência."
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Integrando os Princípios da Persuasão",
-      "conclusionMessage": "Você aprendeu a integrar os princípios da persuasão. Now you know how to use influence ethically and effectively.",
-      "questions": [
-        {
-          "id": "1",
-          "question": "Por que é importante usar múltiplos princípios?",
-          "options": [
-            { "value": "a", "label": "Não é importante" },
-            { "value": "b", "label": "Múltiplos princípios amplificam efeito" },
-            { "value": "c", "label": "Um princípio é suficiente" },
-            { "value": "d", "label": "Princípios não funcionam" }
-          ],
-          "explanation": "Múltiplos princípios amplificam efeito. Combinação é mais poderosa.",
-          "hint": "Combinação > isolamento.",
-          "correctAnswer": "b",
-          "bookExample": "Use reciprocidade (dê algo), afeição (seja simpático), e autoridade (mostre expertise)."
-        },
-        {
-          "id": "2",
-          "question": "Como você usa persuasão eticamente?",
-          "options": [
-            { "value": "a", "label": "Manipule" },
-            { "value": "b", "label": "Seja honesto, transparente, e respeite a escolha do outro" },
-            { "value": "c", "label": "Ética não importa" },
-            { "value": "d", "label": "Persuasão é sempre ruim" }
-          ],
-          "explanation": "Seja honesto, transparente, e respeite a escolha do outro. Ética constrói confiança.",
-          "hint": "Confiança > manipulação.",
-          "correctAnswer": "b",
-          "bookExample": "Em vez de enganar, mostre valor real e deixe o cliente decidir."
-        }
-      ]
-    }
-  ]
-}
+  }
+]
