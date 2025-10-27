@@ -1,9 +1,3 @@
-### File: src/data/foundingSalesLessons.json
-
-Creating Founding Sales microlessons JSON with same structure as microLessons.json
-
-```json
-
 [
   {
     "id": 1,
@@ -148,7 +142,7 @@ Creating Founding Sales microlessons JSON with same structure as microLessons.js
         "question": "Qual é o primeiro passo para descobrir o ICP?",
         "options": [
           { "value": "a", "label": "Contratar uma consultoria" },
-          { "value": "b", "label": "Mapear 20 clientes que mais rápico compraram, usaram e expandiram — extrair características comuns" },
+          { "value": "b", "label": "Mapear 20 clientes que mais rápido compraram, usaram e expandiram — extrair características comuns" },
           { "value": "c", "label": "Adivinhar baseado no concorrente" },
           { "value": "d", "label": "Perguntar ao investidor" }
         ],
@@ -209,9 +203,12 @@ Creating Founding Sales microlessons JSON with same structure as microLessons.js
           { "value": "d", "label": "Setor é suficiente para preço" }
         ],
         "explanation": "‘Saúde’ ou ‘fintech’ são grandes demais. Um hospital público é diferente de startup health-tech. ICP precisa de variáveis comportamentais (use-case, velocidade, stack) além de setor.",
-        "hint": "Setor ≠ comportamento
-```
-,
+        "hint": "Setor ≠ comportamento",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy exemplifica que subsegmentos e maturidade operacional determinam fit muito mais que o setor amplo."
+      }
+    ]
+  },
   {
     "id": 3,
     "title": "Founding Sales: Discovery e Qualificação",
@@ -901,12 +898,17 @@ Creating Founding Sales microlessons JSON with same structure as microLessons.js
         "question": "Qual é o comp plan ideal para VP Sales early-stage?",
         "options": [
           { "value": "a", "label": "Só equity" },
-          { "value": "b", "label": "50
-
-    
-    
-    
-```,
+          { "value": "b", "label": "50 % base / 50 % variável com accelerators, equity significativo atrelado a metas de ARR e churn" },
+          { "value": "c", "label": "Only commission" },
+          { "value": "d", "label": "Equity only" }
+        ],
+        "explanation": "VP precisa segurança para executar planejamento, mas também upside ligado a resultados. Equity alinha horizonte longo; variável atinge metas curtas.",
+        "hint": "Mix cash + equity.",
+        "correctAnswer": "b",
+        "bookExample": "Exemplo: $150 k base / $150 k target variable, 0,5 % equity vesting 4 years com cliffs e vesting acelerado ao bater $10 M ARR."
+      }
+    ]
+  },
   {
     "id": 9,
     "title": "Founding Sales: Sales Stack e Operações",
