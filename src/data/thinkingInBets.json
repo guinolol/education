@@ -1,0 +1,2692 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Introdução ao Pensamento em Apostas",
+      "description": "Compreenda como tomar decisões melhores quando você não tem todos os fatos",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o principal conceito do 'Thinking in Bets'?",
+          "options": [
+            { "value": "a", "label": "Apostar dinheiro em decisões" },
+            { "value": "b", "label": "Tratar decisões como apostas probabilísticas" },
+            { "value": "c", "label": "Evitar tomar decisões sem certeza total" },
+            { "value": "d", "label": "Confiar apenas em dados históricos" }
+          ],
+          "explanation": "O conceito central é tratar nossas decisões como apostas - reconhecendo que raramente temos certeza total e que devemos pensar em termos de probabilidades.",
+          "hint": "Pense em como os apostadores profissionais tomam decisões.",
+          "correctAnswer": "b",
+          "bookExample": "Annie Duke, ex-campeã de poker, aplica o pensamento de poker à vida cotidiana. No poker, você nunca tem todas as informações, mas ainda precisa tomar decisões."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante reconhecer a incerteza nas decisões?",
+          "options": [
+            { "value": "a", "label": "Para parecer mais humilde" },
+            { "value": "b", "label": "Para tomar melhores decisões com informações incompletas" },
+            { "value": "c", "label": "Para evitar responsabilidade" },
+            { "value": "d", "label": "Para não precisar decidir" }
+          ],
+          "explanation": "Reconhecer a incerteza nos permite avaliar melhor os riscos, considerar múltiplas possibilidades e tomar decisões mais informadas mesmo com informações incompletas.",
+          "hint": "A vida real raramente oferece certeza total.",
+          "correctAnswer": "b",
+          "bookExample": "Um médico que reconhece a incerteza em um diagnóstico pode solicitar testes adicionais, considerando múltiplos cenários possíveis."
+        },
+        {
+          "id": "3",
+          "question": "Como o poker diferencia-se de jogos de azar puros?",
+          "options": [
+            { "value": "a", "label": "Poker é apenas sorte" },
+            { "value": "b", "label": "Poker envolve habilidade, estratégia e decisões baseadas em informações incompletas" },
+            { "value": "c", "label": "Poker não envolve risco" },
+            { "value": "d", "label": "Poker é mais fácil que outros jogos" }
+          ],
+          "explanation": "Poker é um jogo de habilidade onde você toma decisões com informações incompletas. Isso o torna análogo a muitas situações da vida real.",
+          "hint": "Pense no que diferencia um jogador profissional de um amador.",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker profissional ganha consistentemente porque toma melhores decisões com informações incompletas, não porque tem sorte."
+        },
+        {
+          "id": "4",
+          "question": "Qual é a relação entre decisões e resultados?",
+          "options": [
+            { "value": "a", "label": "Boas decisões sempre levam a bons resultados" },
+            { "value": "b", "label": "Decisões e resultados são completamente independentes" },
+            { "value": "c", "label": "Boas decisões aumentam a probabilidade de bons resultados, mas não garantem" },
+            { "value": "d", "label": "Resultados determinam se a decisão foi boa" }
+          ],
+          "explanation": "Uma boa decisão aumenta as chances de um bom resultado, mas não o garante. Resultados ruins podem vir de boas decisões e vice-versa.",
+          "hint": "Pense em uma decisão sábia que teve um resultado ruim por sorte.",
+          "correctAnswer": "c",
+          "bookExample": "Um investidor que faz uma decisão bem fundamentada pode ainda perder dinheiro se o mercado cair inesperadamente. A qualidade da decisão não é determinada apenas pelo resultado."
+        },
+        {
+          "id": "5",
+          "question": "O que significa 'outcome bias'?",
+          "options": [
+            { "value": "a", "label": "Viés em favor de resultados positivos" },
+            { "value": "b", "label": "Julgar a qualidade de uma decisão apenas pelo resultado" },
+            { "value": "c", "label": "Tendência de esperar resultados ruins" },
+            { "value": "d", "label": "Incapacidade de prever resultados" }
+          ],
+          "explanation": "Outcome bias é quando julgamos a qualidade de uma decisão apenas pelo resultado que obtivemos, ignorando o processo de decisão.",
+          "hint": "Você já culpou alguém por uma decisão que parecia boa na época, mas teve um resultado ruim?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que toma uma decisão estratégica bem fundamentada, mas que resulta em perda de mercado, é frequentemente criticado como se tivesse tomado uma má decisão."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos melhorar nossas decisões?",
+          "options": [
+            { "value": "a", "label": "Esperar ter 100% de certeza antes de decidir" },
+            { "value": "b", "label": "Confiar apenas em intuição" },
+            { "value": "c", "label": "Pensar probabilisticamente e revisar nossas crenças com novas informações" },
+            { "value": "d", "label": "Copiar as decisões de outras pessoas" }
+          ],
+          "explanation": "Melhoramos nossas decisões pensando em termos de probabilidades, buscando informações relevantes e atualizando nossas crenças conforme aprendemos.",
+          "hint": "Qual é o método científico para tomar decisões?",
+          "correctAnswer": "c",
+          "bookExample": "Um analista de dados que constantemente revisa suas hipóteses com novos dados toma decisões melhores do que alguém que se apega a suas crenças iniciais."
+        },
+        {
+          "id": "7",
+          "question": "Por que Annie Duke escolheu o poker como metáfora?",
+          "options": [
+            { "value": "a", "label": "Porque é um jogo popular" },
+            { "value": "b", "label": "Porque reflete como tomamos decisões na vida real com informações incompletas" },
+            { "value": "c", "label": "Porque é fácil de entender" },
+            { "value": "d", "label": "Porque envolve dinheiro" }
+          ],
+          "explanation": "O poker é uma metáfora perfeita porque, como na vida real, você nunca tem todas as informações, mas ainda precisa tomar decisões que afetam seus resultados.",
+          "hint": "Qual é a característica principal do poker que o torna relevante para a vida cotidiana?",
+          "correctAnswer": "b",
+          "bookExample": "Assim como um jogador de poker não sabe quais cartas seus oponentes têm, um empresário não sabe exatamente como o mercado reagirá a seu novo produto."
+        },
+        {
+          "id": "8",
+          "question": "Qual é o primeiro passo para pensar em apostas?",
+          "options": [
+            { "value": "a", "label": "Ignorar a incerteza" },
+            { "value": "b", "label": "Reconhecer que você está fazendo uma aposta sempre que toma uma decisão" },
+            { "value": "c", "label": "Evitar decisões difíceis" },
+            { "value": "d", "label": "Confiar em sorte" }
+          ],
+          "explanation": "O primeiro passo é reconhecer que toda decisão é uma aposta - você está apostando que um resultado ocorrerá com base em suas crenças e informações.",
+          "hint": "Qual é a mudança de mentalidade necessária?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você escolhe uma carreira, está apostando que essa carreira será gratificante e bem-sucedida. Quando escolhe um parceiro, está apostando que será um bom relacionamento."
+        },
+        {
+          "id": "9",
+          "question": "Como o pensamento em apostas muda nossa perspectiva sobre erros?",
+          "options": [
+            { "value": "a", "label": "Erros são sempre culpa nossa" },
+            { "value": "b", "label": "Erros nunca são culpa nossa" },
+            { "value": "c", "label": "Erros podem resultar de boas decisões com sorte ruim" },
+            { "value": "d", "label": "Devemos evitar erros a todo custo" }
+          ],
+          "explanation": "Quando pensamos em apostas, entendemos que erros podem resultar de boas decisões que tiveram sorte ruim, não necessariamente de decisões ruins.",
+          "hint": "Pense em um erro que você cometeu que foi resultado de uma decisão razoável.",
+          "correctAnswer": "c",
+          "bookExample": "Um cirurgião que segue o melhor protocolo médico pode ainda ter um paciente que morre. O erro não foi a decisão, mas a sorte."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o objetivo final do 'Thinking in Bets'?",
+          "options": [
+            { "value": "a", "label": "Ganhar dinheiro em apostas" },
+            { "value": "b", "label": "Tomar decisões melhores em todos os aspectos da vida" },
+            { "value": "c", "label": "Evitar todas as decisões difíceis" },
+            { "value": "d", "label": "Prever o futuro com precisão" }
+          ],
+          "explanation": "O objetivo é desenvolver um framework mental para tomar decisões melhores em qualquer contexto - carreira, relacionamentos, finanças, saúde.",
+          "hint": "Qual é a aplicação prática deste pensamento?",
+          "correctAnswer": "b",
+          "bookExample": "Um pai que pensa em apostas pode tomar melhores decisões sobre educação dos filhos, reconhecendo a incerteza mas ainda agindo com base em suas melhores crenças."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Separando Decisões de Resultados",
+      "description": "Aprenda a avaliar a qualidade de uma decisão independentemente do resultado",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que é importante separar decisões de resultados?",
+          "options": [
+            { "value": "a", "label": "Porque resultados não importam" },
+            { "value": "b", "label": "Para avaliar e melhorar nosso processo de decisão" },
+            { "value": "c", "label": "Porque decisões e resultados são sempre iguais" },
+            { "value": "d", "label": "Para evitar responsabilidade" }
+          ],
+          "explanation": "Separar decisões de resultados nos permite avaliar nosso processo de decisão independentemente da sorte, melhorando assim nossas futuras decisões.",
+          "hint": "Como você pode aprender com uma decisão que teve um resultado ruim?",
+          "correctAnswer": "b",
+          "bookExample": "Um gerente que contrata um funcionário talentoso que depois sai da empresa não tomou uma má decisão - o resultado foi ruim, mas a decisão foi boa."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'resulting'?",
+          "options": [
+            { "value": "a", "label": "O processo de tomar uma decisão" },
+            { "value": "b", "label": "Julgar a qualidade de uma decisão apenas pelo resultado" },
+            { "value": "c", "label": "Analisar múltiplos resultados possíveis" },
+            { "value": "d", "label": "Documentar os resultados de uma decisão" }
+          ],
+          "explanation": "'Resulting' é o erro de julgar a qualidade de uma decisão apenas pelo resultado que obtivemos, ignorando o processo e a lógica por trás dela.",
+          "hint": "Qual é o viés que nos leva a culpar alguém por uma decisão que parecia boa na época?",
+          "correctAnswer": "b",
+          "bookExample": "Um trader que faz uma aposta bem fundamentada em ações, mas o mercado cai, é frequentemente criticado como se tivesse feito uma má análise."
+        },
+        {
+          "id": "3",
+          "question": "Como a sorte afeta nossas decisões?",
+          "options": [
+            { "value": "a", "label": "A sorte não afeta nada" },
+            { "value": "b", "label": "A sorte determina completamente os resultados" },
+            { "value": "c", "label": "A sorte é um fator que pode afetar resultados, mesmo com boas decisões" },
+            { "value": "d", "label": "Podemos controlar completamente a sorte" }
+          ],
+          "explanation": "A sorte é um fator real que afeta resultados. Boas decisões podem ter resultados ruins por sorte ruim, e más decisões podem ter resultados bons por sorte boa.",
+          "hint": "Pense em um resultado que foi principalmente sorte, não habilidade.",
+          "correctAnswer": "c",
+          "bookExample": "Um investidor que diversifica bem seu portfólio pode ainda perder dinheiro se houver uma crise econômica inesperada. A sorte afetou o resultado, não a qualidade da decisão."
+        },
+        {
+          "id": "4",
+          "question": "Qual é a diferença entre sorte e habilidade?",
+          "options": [
+            { "value": "a", "label": "Não há diferença" },
+            { "value": "b", "label": "Sorte é previsível, habilidade não é" },
+            { "value": "c", "label": "Habilidade é consistente ao longo do tempo, sorte não é" },
+            { "value": "d", "label": "Habilidade é sorte" }
+          ],
+          "explanation": "Habilidade é consistente ao longo do tempo - um jogador de poker hábil ganha consistentemente. Sorte é aleatória - você não pode contar com ela.",
+          "hint": "Como você diferencia um jogador de poker profissional de um amador?",
+          "correctAnswer": "c",
+          "bookExample": "Um médico experiente diagnostica corretamente a maioria dos casos consistentemente. Um iniciante pode ter sorte ocasionalmente, mas não consistentemente."
+        },
+        {
+          "id": "5",
+          "question": "Como podemos avaliar melhor a qualidade de uma decisão?",
+          "options": [
+            { "value": "a", "label": "Apenas olhando para o resultado" },
+            { "value": "b", "label": "Analisando o processo, as informações disponíveis e a lógica usada" },
+            { "value": "c", "label": "Perguntando a outras pessoas" },
+            { "value": "d", "label": "Confiando em nossa intuição" }
+          ],
+          "explanation": "Para avaliar a qualidade de uma decisão, devemos examinar o processo de decisão, as informações disponíveis na época e a lógica usada.",
+          "hint": "Qual é o método mais objetivo para avaliar uma decisão?",
+          "correctAnswer": "b",
+          "bookExample": "Um analista de investimentos que avalia uma decisão de compra de ações deve examinar a pesquisa feita, as análises consideradas e a lógica, não apenas se o preço subiu ou desceu."
+        },
+        {
+          "id": "6",
+          "question": "Por que é difícil separar decisões de resultados?",
+          "options": [
+            { "value": "a", "label": "Porque resultados são mais fáceis de ver" },
+            { "value": "b", "label": "Porque nossos cérebros naturalmente associam decisões com resultados" },
+            { "value": "c", "label": "Porque não há diferença real" },
+            { "value": "d", "label": "Porque resultados sempre refletem a qualidade da decisão" }
+          ],
+          "explanation": "Nossos cérebros naturalmente associam decisões com resultados - é uma tendência cognitiva. Precisamos fazer um esforço consciente para separar os dois.",
+          "hint": "Qual é o viés cognitivo que nos leva a fazer isso?",
+          "correctAnswer": "b",
+          "bookExample": "Quando vemos alguém ganhar na loteria, tendemos a pensar que tomou uma boa decisão, quando na verdade foi principalmente sorte."
+        },
+        {
+          "id": "7",
+          "question": "Como a cultura corporativa afeta a avaliação de decisões?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Culturas que focam em resultados tendem a fazer 'resulting'" },
+            { "value": "c", "label": "Culturas que focam em processos ignoram resultados" },
+            { "value": "d", "label": "Todas as culturas avaliam decisões igualmente" }
+          ],
+          "explanation": "Culturas corporativas que focam apenas em resultados tendem a fazer 'resulting', punindo boas decisões que tiveram sorte ruim.",
+          "hint": "Qual tipo de cultura corporativa promove melhor aprendizado?",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que demite um gerente por um trimestre ruim, mesmo que ele tenha tomado boas decisões, está fazendo 'resulting' e perdendo talentos."
+        },
+        {
+          "id": "8",
+          "question": "Qual é o impacto do 'resulting' na aprendizagem?",
+          "options": [
+            { "value": "a", "label": "Melhora a aprendizagem" },
+            { "value": "b", "label": "Não afeta a aprendizagem" },
+            { "value": "c", "label": "Prejudica a aprendizagem porque aprendemos com o processo, não apenas com resultados" },
+            { "value": "d", "label": "Torna a aprendizagem mais rápida" }
+          ],
+          "explanation": "O 'resulting' prejudica a aprendizagem porque nos impede de analisar nosso processo de decisão e melhorá-lo.",
+          "hint": "Como você aprende com seus erros?",
+          "correctAnswer": "c",
+          "bookExample": "Um jogador de poker que apenas olha para seus resultados finais não aprende tanto quanto um que analisa cada mão que jogou, independentemente do resultado."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos criar uma cultura que não faz 'resulting'?",
+          "options": [
+            { "value": "a", "label": "Ignorar resultados completamente" },
+            { "value": "b", "label": "Avaliar decisões com base no processo e nas informações disponíveis na época" },
+            { "value": "c", "label": "Culpar a sorte por tudo" },
+            { "value": "d", "label": "Não tomar decisões difíceis" }
+          ],
+          "explanation": "Podemos criar uma cultura que avalia decisões com base no processo e nas informações disponíveis na época, não apenas no resultado.",
+          "hint": "Qual é a mudança de mentalidade necessária nas organizações?",
+          "correctAnswer": "b",
+          "bookExample": "Uma equipe de pesquisa que celebra boas decisões mesmo quando os resultados são ruins aprende mais rápido e toma melhores decisões no futuro."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Crenças e Atualizações",
+      "description": "Entenda como nossas crenças são formadas e como devemos atualizá-las com novas informações",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é uma crença?",
+          "options": [
+            { "value": "a", "label": "Um fato comprovado cientificamente" },
+            { "value": "b", "label": "Uma opinião pessoal sem base" },
+            { "value": "c", "label": "Uma representação mental de como o mundo funciona, baseada em informações e experiências" },
+            { "value": "d", "label": "Algo que nunca muda" }
+          ],
+          "explanation": "Uma crença é uma representação mental de como o mundo funciona, baseada em informações, experiências e inferências que fazemos.",
+          "hint": "Pense em como você sabe que algo é verdadeiro.",
+          "correctAnswer": "c",
+          "bookExample": "Você acredita que seu amigo é confiável porque ele sempre cumpriu suas promessas. Essa crença é baseada em experiências passadas."
+        },
+        {
+          "id": "2",
+          "question": "Por que nossas crenças são importantes para tomar decisões?",
+          "options": [
+            { "value": "a", "label": "Porque determinam completamente nossos resultados" },
+            { "value": "b", "label": "Porque informam nossas decisões e ações" },
+            { "value": "c", "label": "Porque são sempre corretas" },
+            { "value": "d", "label": "Porque não importam" }
+          ],
+          "explanation": "Nossas crenças informam nossas decisões e ações. Se acreditamos que algo é verdadeiro, agimos como se fosse, mesmo que estejamos errados.",
+          "hint": "Como suas crenças sobre o futuro afetam suas ações hoje?",
+          "correctAnswer": "b",
+          "bookExample": "Se você acredita que o mercado imobiliário vai cair, você não compra uma casa. Se acredita que vai subir, você compra. Sua crença determina sua ação."
+        },
+        {
+          "id": "3",
+          "question": "Como formamos nossas crenças iniciais?",
+          "options": [
+            { "value": "a", "label": "Apenas através de fatos científicos" },
+            { "value": "b", "label": "Através de experiências, informações, influências sociais e inferências" },
+            { "value": "c", "label": "Nascemos com todas as nossas crenças" },
+            { "value": "d", "label": "Crenças não são formadas, apenas existem" }
+          ],
+          "explanation": "Formamos crenças através de uma combinação de experiências diretas, informações que recebemos, influências sociais e inferências que fazemos.",
+          "hint": "Pense em como você aprendeu a acreditar em algo quando era criança.",
+          "correctAnswer": "b",
+          "bookExample": "Uma criança acredita que seus pais são sempre certos porque eles são autoridades em sua vida. Essa crença é formada através de experiência e influência social."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'belief perseverance'?",
+          "options": [
+            { "value": "a", "label": "A capacidade de manter crenças corretas" },
+            { "value": "b", "label": "A tendência de manter crenças mesmo quando há evidências contra elas" },
+            { "value": "c", "label": "A habilidade de mudar de crença rapidamente" },
+            { "value": "d", "label": "A necessidade de ter crenças" }
+          ],
+          "explanation": "'Belief perseverance' é a tendência de manter nossas crenças mesmo quando há evidências que as contradizem.",
+          "hint": "Você já manteve uma crença mesmo quando alguém mostrou que estava errada?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que acredita que uma certa dieta é saudável pode ignorar estudos científicos que mostram o contrário, porque já investiu emocionalmente nessa crença."
+        },
+        {
+          "id": "5",
+          "question": "Por que é difícil mudar de crença?",
+          "options": [
+            { "value": "a", "label": "Porque crenças são fatos" },
+            { "value": "b", "label": "Porque mudar de crença ameaça nossa identidade e autoestima" },
+            { "value": "c", "label": "Porque é impossível mudar de crença" },
+            { "value": "d", "label": "Porque não há razão para mudar" }
+          ],
+          "explanation": "Mudar de crença é difícil porque nossas crenças são parte de nossa identidade. Admitir que estávamos errados ameaça nossa autoestima.",
+          "hint": "Como você se sente quando descobre que estava errado sobre algo importante?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que se identifica como 'conservadora' pode resistir a evidências que sugerem que políticas progressistas funcionam, porque mudar de crença ameaçaria sua identidade."
+        },
+        {
+          "id": "6",
+          "question": "Como devemos atualizar nossas crenças?",
+          "options": [
+            { "value": "a", "label": "Nunca mudar de crença" },
+            { "value": "b", "label": "Mudar de crença sempre que alguém discorda" },
+            { "value": "c", "label": "Considerar novas evidências e atualizar gradualmente nossas crenças" },
+            { "value": "d", "label": "Confiar apenas em nossa intuição" }
+          ],
+          "explanation": "Devemos considerar novas evidências e atualizar gradualmente nossas crenças, reconhecendo que estávamos errados é um sinal de crescimento, não de fraqueza.",
+          "hint": "Qual é o método científico para lidar com crenças?",
+          "correctAnswer": "c",
+          "bookExample": "Um investidor que acreditava que a tecnologia era uma bolha pode atualizar sua crença quando vê evidências de que a tecnologia está criando valor real e duradouro."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'confirmation bias'?",
+          "options": [
+            { "value": "a", "label": "A tendência de buscar informações que confirmam nossas crenças" },
+            { "value": "b", "label": "A capacidade de encontrar informações corretas" },
+            { "value": "c", "label": "A habilidade de mudar de crença" },
+            { "value": "d", "label": "A necessidade de confirmação social" }
+          ],
+          "explanation": "'Confirmation bias' é a tendência de buscar, interpretar e lembrar informações de forma a confirmar nossas crenças existentes.",
+          "hint": "Você já procurou por informações que apoiassem sua opinião?",
+          "correctAnswer": "a",
+          "bookExample": "Uma pessoa que acredita que uma certa marca de carro é melhor pode procurar por reviews positivos e ignorar reviews negativos."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos combater o 'confirmation bias'?",
+          "options": [
+            { "value": "a", "label": "Ignorar todas as informações" },
+            { "value": "b", "label": "Procurar ativamente por informações que contradizem nossas crenças" },
+            { "value": "c", "label": "Confiar apenas em nossa intuição" },
+            { "value": "d", "label": "Não ter crenças" }
+          ],
+          "explanation": "Podemos combater o 'confirmation bias' procurando ativamente por informações que contradizem nossas crenças e considerando perspectivas diferentes.",
+          "hint": "Qual é a estratégia para evitar vieses cognitivos?",
+          "correctAnswer": "b",
+          "bookExample": "Um gerente que acredita que um funcionário é preguiçoso pode procurar ativamente por evidências de seu trabalho árduo para desafiar sua crença inicial."
+        },
+        {
+          "id": "9",
+          "question": "Por que é importante ter crenças probabilísticas?",
+          "options": [
+            { "value": "a", "label": "Porque crenças probabilísticas são sempre corretas" },
+            { "value": "b", "label": "Porque nos permitem ser mais flexíveis e abertos a novas informações" },
+            { "value": "c", "label": "Porque eliminam a necessidade de tomar decisões" },
+            { "value": "d", "label": "Porque são mais fáceis de manter" }
+          ],
+          "explanation": "Crenças probabilísticas nos permitem ser mais flexíveis e abertos a novas informações. Em vez de 'isso é verdadeiro', pensamos 'há 70% de chance de isso ser verdadeiro'.",
+          "hint": "Como você pode ser mais aberto a mudar de ideia?",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de acreditar 'esse candidato será um ótimo funcionário', um gerente pode pensar 'há 75% de chance de esse candidato ser um ótimo funcionário'."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vieses Cognitivos e Decisões",
+      "description": "Identifique os vieses cognitivos que afetam nossas decisões",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é um viés cognitivo?",
+          "options": [
+            { "value": "a", "label": "Um erro de cálculo matemático" },
+            { "value": "b", "label": "Um padrão sistemático de desvio do julgamento racional" },
+            { "value": "c", "label": "Uma opinião pessoal" },
+            { "value": "d", "label": "Uma característica de pessoas inteligentes" }
+          ],
+          "explanation": "Um viés cognitivo é um padrão sistemático de desvio do julgamento racional - uma tendência a pensar de uma certa forma que nos leva a conclusões incorretas.",
+          "hint": "Pense em um erro de pensamento que você comete regularmente.",
+          "correctAnswer": "b",
+          "bookExample": "O viés de disponibilidade nos leva a superestimar a probabilidade de eventos que vemos frequentemente nas notícias."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'anchoring bias'?",
+          "options": [
+            { "value": "a", "label": "A tendência de se apegar a um ponto de referência inicial" },
+            { "value": "b", "label": "A capacidade de fazer boas estimativas" },
+            { "value": "c", "label": "A habilidade de ignorar informações" },
+            { "value": "d", "label": "A necessidade de ter um ponto de partida" }
+          ],
+          "explanation": "'Anchoring bias' é a tendência de confiar muito em um ponto de referência inicial (a 'âncora') ao fazer estimativas ou decisões.",
+          "hint": "Você já viu o preço original de um produto e pensou que o desconto era melhor do que realmente era?",
+          "correctAnswer": "a",
+          "bookExample": "Se um vendedor diz que o preço original era $1000 e agora é $600, você pode pensar que é um ótimo negócio, mesmo que $600 seja o preço justo."
+        },
+        {
+          "id": "3",
+          "question": "Como o 'anchoring bias' afeta negociações?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "A primeira oferta estabelece uma âncora que influencia toda a negociação" },
+            { "value": "c", "label": "Afeta apenas pessoas ingênuas" },
+            { "value": "d", "label": "Afeta apenas negociadores experientes" }
+          ],
+          "explanation": "Em negociações, a primeira oferta estabelece uma âncora que influencia toda a negociação. Quem faz a primeira oferta tem uma vantagem.",
+          "hint": "Por que é importante fazer a primeira oferta em uma negociação?",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer vender uma casa por $500k, fazer uma oferta inicial de $550k estabelece uma âncora que pode resultar em um preço final mais alto."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'sunk cost fallacy'?",
+          "options": [
+            { "value": "a", "label": "A tendência de considerar custos passados em decisões futuras" },
+            { "value": "b", "label": "A capacidade de ignorar custos" },
+            { "value": "c", "label": "A habilidade de calcular custos" },
+            { "value": "d", "label": "A necessidade de recuperar dinheiro perdido" }
+          ],
+          "explanation": "'Sunk cost fallacy' é a tendência de continuar investindo em algo porque já investimos muito, mesmo que não seja mais uma boa decisão.",
+          "hint": "Você já continuou assistindo um filme ruim porque já tinha assistido metade?",
+          "correctAnswer": "a",
+          "bookExample": "Um investidor que perdeu $100k em uma ação pode continuar investindo porque quer recuperar o dinheiro, mesmo que a ação não seja mais uma boa compra."
+        },
+        {
+          "id": "5",
+          "question": "Por que o 'sunk cost fallacy' é prejudicial?",
+          "options": [
+            { "value": "a", "label": "Porque nos ajuda a recuperar dinheiro" },
+            { "value": "b", "label": "Porque nos leva a tomar decisões ruins baseadas em custos passados" },
+            { "value": "c", "label": "Porque é racional considerar custos passados" },
+            { "value": "d", "label": "Porque não afeta nossas decisões" }
+          ],
+          "explanation": "O 'sunk cost fallacy' é prejudicial porque nos leva a tomar decisões ruins. Decisões futuras devem ser baseadas em custos e benefícios futuros, não em custos passados.",
+          "hint": "Qual é a regra para tomar boas decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está em um relacionamento ruim, o tempo e dinheiro que já investiu não devem ser razão para continuar. Você deve considerar apenas se o relacionamento será bom no futuro."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'overconfidence bias'?",
+          "options": [
+            { "value": "a", "label": "A tendência de superestimar nossas habilidades e conhecimentos" },
+            { "value": "b", "label": "A capacidade de ser confiante" },
+            { "value": "c", "label": "A habilidade de fazer boas previsões" },
+            { "value": "d", "label": "A necessidade de ser confiante" }
+          ],
+          "explanation": "'Overconfidence bias' é a tendência de superestimar nossas habilidades, conhecimentos e a precisão de nossas previsões.",
+          "hint": "Você já estava mais confiante em uma previsão do que deveria estar?",
+          "correctAnswer": "a",
+          "bookExample": "A maioria dos motoristas acredita que é melhor que a média, o que é estatisticamente impossível. Isso é 'overconfidence bias'."
+        },
+        {
+          "id": "7",
+          "question": "Como o 'overconfidence bias' afeta empreendedores?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Os torna mais bem-sucedidos" },
+            { "value": "c", "label": "Os leva a subestimar riscos e superestimar chances de sucesso" },
+            { "value": "d", "label": "Os torna mais cautelosos" }
+          ],
+          "explanation": "O 'overconfidence bias' leva empreendedores a subestimar riscos e superestimar suas chances de sucesso, o que pode resultar em fracasso.",
+          "hint": "Por que muitos negócios falham nos primeiros anos?",
+          "correctAnswer": "c",
+          "bookExample": "Um empreendedor pode estar 90% confiante de que seu negócio será bem-sucedido, quando a taxa real de sucesso é de apenas 30%."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos reduzir vieses cognitivos?",
+          "options": [
+            { "value": "a", "label": "Ignorar todos os vieses" },
+            { "value": "b", "label": "Estar ciente deles e usar estratégias para contrariar" },
+            { "value": "c", "label": "Confiar apenas em nossa intuição" },
+            { "value": "d", "label": "Vieses não podem ser reduzidos" }
+          ],
+          "explanation": "Podemos reduzir vieses cognitivos estando cientes deles e usando estratégias deliberadas para contrariar, como buscar perspectivas diferentes e questionar nossas suposições.",
+          "hint": "Qual é a primeira etapa para combater um viés?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor que está ciente do 'confirmation bias' pode procurar ativamente por análises que contradizem sua tese de investimento."
+        },
+        {
+          "id": "9",
+          "question": "Por que é importante reconhecer que temos vieses?",
+          "options": [
+            { "value": "a", "label": "Porque significa que somos estúpidos" },
+            { "value": "b", "label": "Porque nos permite tomar medidas para contrariar" },
+            { "value": "c", "label": "Porque vieses não existem" },
+            { "value": "d", "label": "Porque não há nada que possamos fazer" }
+          ],
+          "explanation": "Reconhecer que temos vieses nos permite tomar medidas deliberadas para contrariar, melhorando assim nossas decisões.",
+          "hint": "Qual é o benefício de ser honesto sobre nossas limitações?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que reconhece seu 'overconfidence bias' pode criar um conselho consultivo que o desafia e questiona suas decisões."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Grupos de Decisão e Diversidade",
+      "description": "Entenda como grupos podem tomar melhores decisões através da diversidade",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que grupos podem tomar melhores decisões que indivíduos?",
+          "options": [
+            { "value": "a", "label": "Porque grupos têm mais poder" },
+            { "value": "b", "label": "Porque grupos combinam diferentes perspectivas e conhecimentos" },
+            { "value": "c", "label": "Porque grupos nunca erram" },
+            { "value": "d", "label": "Porque indivíduos sempre erram" }
+          ],
+          "explanation": "Grupos podem tomar melhores decisões porque combinam diferentes perspectivas, conhecimentos e experiências, reduzindo vieses individuais.",
+          "hint": "Qual é a vantagem de ter múltiplas pessoas pensando sobre um problema?",
+          "correctAnswer": "b",
+          "bookExample": "Um grupo de médicos com diferentes especialidades pode diagnosticar um paciente melhor do que um médico sozinho."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'groupthink'?",
+          "options": [
+            { "value": "a", "label": "Quando um grupo pensa bem" },
+            { "value": "b", "label": "Quando um grupo concorda demais e não questiona decisões" },
+            { "value": "c", "label": "Quando um grupo tem muitas ideias" },
+            { "value": "d", "label": "Quando um grupo é diverso" }
+          ],
+          "explanation": "'Groupthink' é quando um grupo concorda demais e não questiona decisões, levando a decisões ruins porque não há pensamento crítico.",
+          "hint": "Você já foi parte de um grupo onde ninguém questionava a ideia do líder?",
+          "correctAnswer": "b",
+          "bookExample": "Um conselho de administração onde todos concordam com o CEO sem questionar pode tomar decisões ruins porque não há pensamento crítico."
+        },
+        {
+          "id": "3",
+          "question": "Como a diversidade melhora a tomada de decisão em grupo?",
+          "options": [
+            { "value": "a", "label": "Não melhora" },
+            { "value": "b", "label": "Pessoas diferentes trazem perspectivas diferentes que desafiam suposições" },
+            { "value": "c", "label": "Diversidade torna as decisões mais lentas" },
+            { "value": "d", "label": "Diversidade causa conflito" }
+          ],
+          "explanation": "Diversidade melhora a tomada de decisão porque pessoas diferentes trazem perspectivas diferentes que desafiam suposições e reduzem vieses.",
+          "hint": "Por que é bom ter pessoas com diferentes origens em um grupo?",
+          "correctAnswer": "b",
+          "bookExample": "Um time de produto com pessoas de diferentes gêneros, idades e origens pode identificar problemas que um time homogêneo não veria."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'devil's advocate'?",
+          "options": [
+            { "value": "a", "label": "Uma pessoa que sempre discorda" },
+            { "value": "b", "label": "Uma pessoa designada para questionar decisões e apresentar argumentos contrários" },
+            { "value": "c", "label": "Uma pessoa que não contribui" },
+            { "value": "d", "label": "Uma pessoa que causa problemas" }
+          ],
+          "explanation": "'Devil's advocate' é uma pessoa designada para questionar decisões e apresentar argumentos contrários, ajudando a evitar 'groupthink'.",
+          "hint": "Como você pode garantir que um grupo questione suas decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO pode designar alguém para ser 'devil's advocate' em reuniões de estratégia, questionando todas as propostas."
+        },
+        {
+          "id": "5",
+          "question": "Como podemos criar um ambiente onde as pessoas se sentem confortáveis discordando?",
+          "options": [
+            { "value": "a", "label": "Punindo quem discorda" },
+            { "value": "b", "label": "Valorizando o pensamento crítico e recompensando quem questiona" },
+            { "value": "c", "label": "Ignorando discordâncias" },
+            { "value": "d", "label": "Forçando concordância" }
+          ],
+          "explanation": "Podemos criar um ambiente onde as pessoas se sentem confortáveis discordando valorizando o pensamento crítico e recompensando quem questiona.",
+          "hint": "Qual é a cultura que promove melhores decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que celebra quando alguém questiona uma decisão do CEO terá melhores decisões do que uma que pune discordância."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'social proof'?",
+          "options": [
+            { "value": "a", "label": "Prova de que algo é social" },
+            { "value": "b", "label": "A tendência de fazer algo porque outras pessoas fazem" },
+            { "value": "c", "label": "A capacidade de provar algo socialmente" },
+            { "value": "d", "label": "A necessidade de aprovação social" }
+          ],
+          "explanation": "'Social proof' é a tendência de fazer algo porque outras pessoas fazem, mesmo que não seja a melhor decisão.",
+          "hint": "Você já fez algo porque seus amigos faziam?",
+          "correctAnswer": "b",
+          "bookExample": "Se todos em uma reunião concordam com uma ideia, você pode concordar também, mesmo que tenha dúvidas, porque há 'social proof'."
+        },
+        {
+          "id": "7",
+          "question": "Como 'social proof' afeta decisões em grupo?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Leva as pessoas a concordarem mesmo quando têm dúvidas" },
+            { "value": "c", "label": "Melhora a qualidade das decisões" },
+            { "value": "d", "label": "Torna as decisões mais rápidas" }
+          ],
+          "explanation": "'Social proof' leva as pessoas a concordarem mesmo quando têm dúvidas, reduzindo a diversidade de pensamento e piorando as decisões.",
+          "hint": "Como 'social proof' prejudica a tomada de decisão em grupo?",
+          "correctAnswer": "b",
+          "bookExample": "Em uma reunião, se o CEO propõe uma ideia e alguns executivos concordam, outros podem concordar também por 'social proof', mesmo que tenham dúvidas."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos combater 'social proof' em grupos?",
+          "options": [
+            { "value": "a", "label": "Forçar discordância" },
+            { "value": "b", "label": "Pedir que as pessoas compartilhem suas opiniões antes de ouvir outras" },
+            { "value": "c", "label": "Ignorar opiniões" },
+            { "value": "d", "label": "Não há forma de combater" }
+          ],
+          "explanation": "Podemos combater 'social proof' pedindo que as pessoas compartilhem suas opiniões antes de ouvir outras, reduzindo a influência de 'social proof'.",
+          "hint": "Qual é a técnica para evitar que as pessoas sejam influenciadas por outras?",
+          "correctAnswer": "b",
+          "bookExample": "Em uma reunião, o facilitador pode pedir que cada pessoa escreva sua opinião antes de discutir, evitando que as primeiras opiniões influenciem as outras."
+        },
+        {
+          "id": "9",
+          "question": "Qual é o papel do líder em promover boas decisões em grupo?",
+          "options": [
+            { "value": "a", "label": "Impor sua opinião" },
+            { "value": "b", "label": "Criar um ambiente onde diferentes perspectivas são valorizadas" },
+            { "value": "c", "label": "Evitar conflito a todo custo" },
+            { "value": "d", "label": "Tomar todas as decisões sozinho" }
+          ],
+          "explanation": "O papel do líder é criar um ambiente onde diferentes perspectivas são valorizadas, onde as pessoas se sentem confortáveis questionando e onde há pensamento crítico.",
+          "hint": "Qual é a responsabilidade de um bom líder?",
+          "correctAnswer": "b",
+          "bookExample": "Um bom CEO cria uma cultura onde os funcionários se sentem confortáveis discordando dele, resultando em melhores decisões."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Risco e Incerteza",
+      "description": "Aprenda a diferenciar risco de incerteza e como lidar com ambos",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é a diferença entre risco e incerteza?",
+          "options": [
+            { "value": "a", "label": "Não há diferença" },
+            { "value": "b", "label": "Risco é quando você conhece as probabilidades; incerteza é quando não conhece" },
+            { "value": "c", "label": "Risco é pior que incerteza" },
+            { "value": "d", "label": "Incerteza é pior que risco" }
+          ],
+          "explanation": "Risco é quando você conhece as possíveis resultados e suas probabilidades. Incerteza é quando você não conhece as possíveis resultados ou suas probabilidades.",
+          "hint": "Pense em um jogo de dados versus um novo mercado.",
+          "correctAnswer": "b",
+          "bookExample": "Em um jogo de dados, você conhece as probabilidades (risco). Em um novo negócio, você não conhece todas as possibilidades (incerteza)."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante diferenciar risco de incerteza?",
+          "options": [
+            { "value": "a", "label": "Porque são a mesma coisa" },
+            { "value": "b", "label": "Porque você pode calcular risco, mas não incerteza" },
+            { "value": "c", "label": "Porque não importa" },
+            { "value": "d", "label": "Porque incerteza não existe" }
+          ],
+          "explanation": "É importante diferenciar porque você pode calcular e gerenciar risco, mas incerteza é mais difícil de lidar porque você não conhece todas as possibilidades.",
+          "hint": "Como você se prepara para algo que não pode prever?",
+          "correctAnswer": "b",
+          "bookExample": "Um seguro pode cobrir riscos conhecidos, mas não pode cobrir incertezas desconhecidas."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'tail risk'?",
+          "options": [
+            { "value": "a", "label": "Um risco comum" },
+            { "value": "b", "label": "Um evento extremo e improvável que tem grande impacto" },
+            { "value": "c", "label": "Um risco pequeno" },
+            { "value": "d", "label": "Um risco que não importa" }
+          ],
+          "explanation": "'Tail risk' é um evento extremo e improvável que tem grande impacto. Embora improvável, pode ser devastador.",
+          "hint": "Pense em eventos raros que mudaram o mundo.",
+          "correctAnswer": "b",
+          "bookExample": "A crise financeira de 2008 foi um 'tail risk' - algo que muitos acreditavam ser improvável, mas que teve impacto devastador."
+        },
+        {
+          "id": "4",
+          "question": "Por que as pessoas subestimam 'tail risks'?",
+          "options": [
+            { "value": "a", "label": "Porque são muito prováveis" },
+            { "value": "b", "label": "Porque são improváveis e nossos cérebros não lidam bem com eventos raros" },
+            { "value": "c", "label": "Porque são fáceis de ver" },
+            { "value": "d", "label": "Porque não existem" }
+          ],
+          "explanation": "As pessoas subestimam 'tail risks' porque são improváveis e nossos cérebros não lidam bem com eventos raros. Tendemos a focar em riscos comuns.",
+          "hint": "Por que as pessoas não se preparam para eventos raros?",
+          "correctAnswer": "b",
+          "bookExample": "Muitas pessoas não têm seguro de vida porque acreditam que é improvável que morram em breve, subestimando o 'tail risk'."
+        },
+        {
+          "id": "5",
+          "question": "Como podemos gerenciar 'tail risks'?",
+          "options": [
+            { "value": "a", "label": "Ignorá-los" },
+            { "value": "b", "label": "Preparar-se para eles mesmo que sejam improváveis" },
+            { "value": "c", "label": "Esperar que não aconteçam" },
+            { "value": "d", "label": "Não há forma de gerenciar" }
+          ],
+          "explanation": "Podemos gerenciar 'tail risks' preparando-nos para eles mesmo que sejam improváveis, através de diversificação, hedging e planos de contingência.",
+          "hint": "Qual é a estratégia para lidar com eventos raros?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor pode se preparar para um 'tail risk' de crise econômica mantendo uma parte de seu portfólio em ouro ou títulos do governo."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'expected value'?",
+          "options": [
+            { "value": "a", "label": "O valor que você espera ganhar" },
+            { "value": "b", "label": "A média ponderada de todos os possíveis resultados" },
+            { "value": "c", "label": "O valor máximo que você pode ganhar" },
+            { "value": "d", "label": "O valor mínimo que você pode ganhar" }
+          ],
+          "explanation": "'Expected value' é a média ponderada de todos os possíveis resultados, levando em conta suas probabilidades.",
+          "hint": "Como você calcula o valor médio de uma aposta?",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem 50% de chance de ganhar $100 e 50% de chance de perder $50, o 'expected value' é (0.5 × $100) + (0.5 × -$50) = $25."
+        },
+        {
+          "id": "7",
+          "question": "Por que 'expected value' é importante para decisões?",
+          "options": [
+            { "value": "a", "label": "Porque garante sucesso" },
+            { "value": "b", "label": "Porque ajuda você a avaliar se uma aposta é boa em média" },
+            { "value": "c", "label": "Porque elimina risco" },
+            { "value": "d", "label": "Porque não importa" }
+          ],
+          "explanation": "'Expected value' é importante porque ajuda você a avaliar se uma aposta é boa em média, mesmo que o resultado específico seja incerto.",
+          "hint": "Como você decide se uma aposta vale a pena?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker pode fazer uma aposta com 'expected value' positivo, mesmo que perca essa mão específica."
+        },
+        {
+          "id": "8",
+          "question": "Como a aversão ao risco afeta nossas decisões?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Nos leva a evitar riscos mesmo quando têm 'expected value' positivo" },
+            { "value": "c", "label": "Nos torna mais ricos" },
+            { "value": "d", "label": "Nos torna mais pobres" }
+          ],
+          "explanation": "A aversão ao risco nos leva a evitar riscos mesmo quando têm 'expected value' positivo, o que pode resultar em piores resultados a longo prazo.",
+          "hint": "Por que as pessoas evitam riscos mesmo quando são boas apostas?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa pode recusar um investimento com 'expected value' positivo porque tem medo de perder dinheiro."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos tomar melhores decisões sob incerteza?",
+          "options": [
+            { "value": "a", "label": "Esperar ter certeza total" },
+            { "value": "b", "label": "Calcular 'expected value' e tomar decisões baseadas em probabilidades" },
+            { "value": "c", "label": "Confiar em sorte" },
+            { "value": "d", "label": "Não tomar decisões" }
+          ],
+          "explanation": "Podemos tomar melhores decisões sob incerteza calculando 'expected value' e tomando decisões baseadas em probabilidades, não em certeza.",
+          "hint": "Qual é o método para tomar decisões quando você não tem certeza?",
+          "correctAnswer": "b",
+          "bookExample": "Um empresário pode tomar uma decisão de lançar um novo produto calculando o 'expected value' baseado em diferentes cenários de sucesso."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Emoções e Decisões",
+      "description": "Entenda como as emoções afetam nossas decisões e como gerenciá-las",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como as emoções afetam nossas decisões?",
+          "options": [
+            { "value": "a", "label": "Não afetam" },
+            { "value": "b", "label": "Afetam nosso julgamento e nos levam a decisões irracionais" },
+            { "value": "c", "label": "Sempre melhoram nossas decisões" },
+            { "value": "d", "label": "Apenas afetam pessoas sensíveis" }
+          ],
+          "explanation": "As emoções afetam nossas decisões de forma significativa, frequentemente nos levando a decisões irracionais que não estão alinhadas com nossos objetivos.",
+          "hint": "Você já tomou uma decisão que se arrependeu depois porque estava emocional?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor que vende suas ações em pânico durante uma queda de mercado está deixando as emoções afetarem sua decisão."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'affect heuristic'?",
+          "options": [
+            { "value": "a", "label": "Uma forma de calcular emoções" },
+            { "value": "b", "label": "A tendência de deixar emoções guiar julgamentos e decisões" },
+            { "value": "c", "label": "Uma emoção específica" },
+            { "value": "d", "label": "Uma forma de controlar emoções" }
+          ],
+          "explanation": "'Affect heuristic' é a tendência de deixar emoções guiar julgamentos e decisões, em vez de usar análise racional.",
+          "hint": "Você já julgou algo como bom ou ruim baseado em como se sentia?",
+          "correctAnswer": "b",
+          "bookExample": "Se você gosta de uma marca, pode superestimar a qualidade de seus produtos. Se não gosta, pode subestimar."
+        },
+        {
+          "id": "3",
+          "question": "Como o medo afeta nossas decisões?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Nos leva a ser mais cautelosos" },
+            { "value": "c", "label": "Nos leva a evitar riscos mesmo quando são boas apostas" },
+            { "value": "d", "label": "Sempre melhora nossas decisões" }
+          ],
+          "explanation": "O medo nos leva a evitar riscos mesmo quando são boas apostas, resultando em oportunidades perdidas.",
+          "hint": "Como o medo afeta sua disposição de tomar riscos?",
+          "correctAnswer": "c",
+          "bookExample": "Uma pessoa pode recusar uma oportunidade de carreira porque tem medo de falhar, mesmo que a oportunidade seja boa."
+        },
+        {
+          "id": "4",
+          "question": "Como a ganância afeta nossas decisões?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Nos leva a tomar riscos excessivos" },
+            { "value": "c", "label": "Sempre melhora nossas decisões" },
+            { "value": "d", "label": "Nos torna mais ricos" }
+          ],
+          "explanation": "A ganância nos leva a tomar riscos excessivos, frequentemente resultando em perdas significativas.",
+          "hint": "Você já tomou um risco excessivo porque queria ganhar muito?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor pode investir todo seu dinheiro em uma ação porque acredita que ficará rico, ignorando o risco."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'regret aversion'?",
+          "options": [
+            { "value": "a", "label": "A capacidade de evitar arrependimento" },
+            { "value": "b", "label": "A tendência de evitar decisões que podem resultar em arrependimento" },
+            { "value": "c", "label": "A emoção de arrependimento" },
+            { "value": "d", "label": "A habilidade de lidar com arrependimento" }
+          ],
+          "explanation": "'Regret aversion' é a tendência de evitar decisões que podem resultar em arrependimento, mesmo que sejam boas apostas.",
+          "hint": "Você já evitou fazer algo porque tinha medo de se arrepender?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa pode não investir em ações porque tem medo de se arrepender se o mercado cair, mesmo que seja uma boa aposta a longo prazo."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos gerenciar emoções em decisões?",
+          "options": [
+            { "value": "a", "label": "Ignorar emoções completamente" },
+            { "value": "b", "label": "Reconhecer emoções e usar processos racionais para tomar decisões" },
+            { "value": "c", "label": "Confiar apenas em emoções" },
+            { "value": "d", "label": "Não há forma de gerenciar" }
+          ],
+          "explanation": "Podemos gerenciar emoções reconhecendo-as e usando processos racionais para tomar decisões, como calcular 'expected value' e buscar perspectivas diferentes.",
+          "hint": "Qual é a estratégia para tomar decisões racionais quando você está emocional?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor que está com medo de uma queda de mercado pode usar um processo racional para decidir se deve vender, em vez de deixar o medo guiar."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'pre-mortem'?",
+          "options": [
+            { "value": "a", "label": "Uma forma de prever morte" },
+            { "value": "b", "label": "Um exercício onde você imagina que um projeto falhou e trabalha para trás" },
+            { "value": "c", "label": "Uma forma de evitar emoções" },
+            { "value": "d", "label": "Uma forma de prever sucesso" }
+          ],
+          "explanation": "'Pre-mortem' é um exercício onde você imagina que um projeto falhou e trabalha para trás para identificar possíveis problemas.",
+          "hint": "Como você pode se preparar para possíveis falhas?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de lançar um novo produto, uma equipe pode fazer um 'pre-mortem' imaginando que o lançamento falhou e identificando possíveis razões."
+        },
+        {
+          "id": "8",
+          "question": "Como 'pre-mortem' ajuda a gerenciar emoções?",
+          "options": [
+            { "value": "a", "label": "Não ajuda" },
+            { "value": "b", "label": "Ajuda a identificar riscos de forma racional, reduzindo medo irracional" },
+            { "value": "c", "label": "Aumenta medo" },
+            { "value": "d", "label": "Elimina emoções" }
+          ],
+          "explanation": "'Pre-mortem' ajuda a identificar riscos de forma racional, reduzindo medo irracional porque você já considerou possíveis problemas.",
+          "hint": "Como preparação reduz medo?",
+          "correctAnswer": "b",
+          "bookExample": "Um empreendedor que faz um 'pre-mortem' de seu negócio pode se sentir mais confiante porque já considerou possíveis falhas."
+        },
+        {
+          "id": "9",
+          "question": "Por que é importante reconhecer que emoções afetam decisões?",
+          "options": [
+            { "value": "a", "label": "Porque significa que somos fracos" },
+            { "value": "b", "label": "Porque nos permite tomar medidas para gerenciar emoções" },
+            { "value": "c", "label": "Porque emoções não afetam" },
+            { "value": "d", "label": "Porque não há nada que possamos fazer" }
+          ],
+          "explanation": "É importante reconhecer que emoções afetam decisões porque nos permite tomar medidas deliberadas para gerenciá-las e tomar melhores decisões.",
+          "hint": "Qual é o benefício de ser honesto sobre como emoções nos afetam?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que reconhece que fica emocional em reuniões pode pedir tempo para pensar antes de tomar decisões importantes."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Feedback e Aprendizagem",
+      "description": "Aprenda como usar feedback para melhorar suas decisões",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que feedback é importante para melhorar decisões?",
+          "options": [
+            { "value": "a", "label": "Porque nos diz se estávamos certos ou errados" },
+            { "value": "b", "label": "Porque nos permite aprender com nossos erros e melhorar" },
+            { "value": "c", "label": "Porque feedback não importa" },
+            { "value": "d", "label": "Porque não precisamos de feedback" }
+          ],
+          "explanation": "Feedback é importante porque nos permite aprender com nossos erros e melhorar nosso processo de decisão.",
+          "hint": "Como você aprende com seus erros?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker que recebe feedback sobre suas decisões pode melhorar seu jogo ao longo do tempo."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'outcome feedback'?",
+          "options": [
+            { "value": "a", "label": "Feedback sobre o resultado de uma decisão" },
+            { "value": "b", "label": "Feedback sobre o processo de decisão" },
+            { "value": "c", "label": "Feedback sobre emoções" },
+            { "value": "d", "label": "Feedback sobre habilidades" }
+          ],
+          "explanation": "'Outcome feedback' é feedback sobre o resultado de uma decisão - se você ganhou ou perdeu.",
+          "hint": "Qual é o tipo de feedback mais comum?",
+          "correctAnswer": "a",
+          "bookExample": "Um investidor recebe 'outcome feedback' quando vê se sua ação subiu ou desceu."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'process feedback'?",
+          "options": [
+            { "value": "a", "label": "Feedback sobre o resultado de uma decisão" },
+            { "value": "b", "label": "Feedback sobre como você tomou a decisão" },
+            { "value": "c", "label": "Feedback sobre emoções" },
+            { "value": "d", "label": "Feedback sobre habilidades" }
+          ],
+          "explanation": "'Process feedback' é feedback sobre como você tomou a decisão - se seu processo foi bom, mesmo que o resultado tenha sido ruim.",
+          "hint": "Qual é o tipo de feedback mais útil para aprender?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker recebe 'process feedback' quando alguém analisa sua decisão de apostar, independentemente de ganhar ou perder a mão."
+        },
+        {
+          "id": "4",
+          "question": "Por que 'process feedback' é mais útil que 'outcome feedback'?",
+          "options": [
+            { "value": "a", "label": "Porque é mais fácil de entender" },
+            { "value": "b", "label": "Porque você pode melhorar seu processo, não apenas seus resultados" },
+            { "value": "c", "label": "Porque 'outcome feedback' não é útil" },
+            { "value": "d", "label": "Porque não há diferença" }
+          ],
+          "explanation": "'Process feedback' é mais útil porque você pode melhorar seu processo de decisão, o que resultará em melhores resultados a longo prazo.",
+          "hint": "Como você melhora seu processo de decisão?",
+          "correctAnswer": "b",
+          "bookExample": "Um médico que recebe 'process feedback' sobre seu diagnóstico pode melhorar seu processo, resultando em melhores diagnósticos no futuro."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'delayed feedback'?",
+          "options": [
+            { "value": "a", "label": "Feedback que chega tarde" },
+            { "value": "b", "label": "Feedback que é dado muito tempo depois da decisão" },
+            { "value": "c", "label": "Feedback que é lento" },
+            { "value": "d", "label": "Feedback que não é útil" }
+          ],
+          "explanation": "'Delayed feedback' é feedback que é dado muito tempo depois da decisão, tornando mais difícil aprender porque você esqueceu os detalhes.",
+          "hint": "Por que é difícil aprender com feedback atrasado?",
+          "correctAnswer": "b",
+          "bookExample": "Um vendedor que recebe feedback sobre uma venda que fez 6 meses atrás pode ter dificuldade em aprender porque esqueceu os detalhes."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos obter feedback melhor?",
+          "options": [
+            { "value": "a", "label": "Esperar que as pessoas nos deem feedback" },
+            { "value": "b", "label": "Procurar ativamente por feedback e fazer perguntas específicas" },
+            { "value": "c", "label": "Ignorar feedback" },
+            { "value": "d", "label": "Confiar apenas em nosso próprio julgamento" }
+          ],
+          "explanation": "Podemos obter feedback melhor procurando ativamente por ele e fazendo perguntas específicas sobre nosso processo de decisão.",
+          "hint": "Como você pode obter feedback útil?",
+          "correctAnswer": "b",
+          "bookExample": "Um empreendedor pode procurar ativamente por feedback de clientes, perguntando especificamente o que poderia melhorar."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'feedback loop'?",
+          "options": [
+            { "value": "a", "label": "Um ciclo de feedback" },
+            { "value": "b", "label": "Um sistema onde você toma decisões, recebe feedback e melhora" },
+            { "value": "c", "label": "Um tipo de feedback" },
+            { "value": "d", "label": "Uma forma de ignorar feedback" }
+          ],
+          "explanation": "'Feedback loop' é um sistema onde você toma decisões, recebe feedback e usa esse feedback para melhorar suas futuras decisões.",
+          "hint": "Como você cria um ciclo de melhoria contínua?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker cria um 'feedback loop' analisando suas mãos, recebendo feedback e melhorando seu jogo."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos criar 'feedback loops' efetivos?",
+          "options": [
+            { "value": "a", "label": "Ignorar feedback" },
+            { "value": "b", "label": "Tomar decisões, medir resultados, analisar e melhorar" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de criar" }
+          ],
+          "explanation": "Podemos criar 'feedback loops' efetivos tomando decisões, medindo resultados, analisando o que funcionou e o que não funcionou, e melhorando.",
+          "hint": "Qual é o processo para criar melhoria contínua?",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que testa novos produtos, mede vendas, analisa o que funcionou e melhora o produto cria um 'feedback loop' efetivo."
+        },
+        {
+          "id": "9",
+          "question": "Por que é importante ter 'feedback loops' rápidos?",
+          "options": [
+            { "value": "a", "label": "Porque feedback rápido não importa" },
+            { "value": "b", "label": "Porque você pode aprender e melhorar mais rápido" },
+            { "value": "c", "label": "Porque feedback lento é melhor" },
+            { "value": "d", "label": "Porque não há diferença" }
+          ],
+          "explanation": "'Feedback loops' rápidos são importantes porque você pode aprender e melhorar mais rápido, resultando em melhores decisões.",
+          "hint": "Como velocidade de feedback afeta aprendizagem?",
+          "correctAnswer": "b",
+          "bookExample": "Um startup que testa novos recursos semanalmente e recebe feedback rápido pode melhorar mais rápido do que uma empresa que testa anualmente."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Calibração e Confiança",
+      "description": "Aprenda a calibrar sua confiança e fazer previsões melhores",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é 'calibration'?",
+          "options": [
+            { "value": "a", "label": "Ajustar uma máquina" },
+            { "value": "b", "label": "Alinhar sua confiança com a precisão real de suas previsões" },
+            { "value": "c", "label": "Medir confiança" },
+            { "value": "d", "label": "Aumentar confiança" }
+          ],
+          "explanation": "'Calibration' é alinhar sua confiança com a precisão real de suas previsões. Se você diz que tem 70% de confiança, você deveria estar certo 70% das vezes.",
+          "hint": "Como você sabe se sua confiança é apropriada?",
+          "correctAnswer": "b",
+          "bookExample": "Um meteorologista bem calibrado que diz que há 70% de chance de chuva deveria estar certo 70% das vezes que faz essa previsão."
+        },
+        {
+          "id": "2",
+          "question": "Por que a maioria das pessoas não é bem calibrada?",
+          "options": [
+            { "value": "a", "label": "Porque é fácil ser bem calibrado" },
+            { "value": "b", "label": "Porque tendemos a ser superconfiantes ou subconfiantes" },
+            { "value": "c", "label": "Porque calibração não importa" },
+            { "value": "d", "label": "Porque não há forma de ser bem calibrado" }
+          ],
+          "explanation": "A maioria das pessoas não é bem calibrada porque tendemos a ser superconfiantes (overconfident) em nossas previsões.",
+          "hint": "Você acha que suas previsões são mais precisas do que realmente são?",
+          "correctAnswer": "b",
+          "bookExample": "A maioria dos investidores acredita que pode prever o mercado melhor do que realmente pode, levando a decisões ruins."
+        },
+        {
+          "id": "3",
+          "question": "Como podemos melhorar nossa calibração?",
+          "options": [
+            { "value": "a", "label": "Ignorar feedback" },
+            { "value": "b", "label": "Fazer previsões, medir resultados e ajustar confiança" },
+            { "value": "c", "label": "Confiar mais em nossa intuição" },
+            { "value": "d", "label": "Não há forma de melhorar" }
+          ],
+          "explanation": "Podemos melhorar nossa calibração fazendo previsões, medindo resultados e ajustando nossa confiança com base no feedback.",
+          "hint": "Qual é o processo para melhorar calibração?",
+          "correctAnswer": "b",
+          "bookExample": "Um analista que faz previsões sobre ganhos de empresas e depois mede a precisão pode melhorar sua calibração ao longo do tempo."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'overconfidence'?",
+          "options": [
+            { "value": "a", "label": "Ter muita confiança" },
+            { "value": "b", "label": "Estar mais confiante do que sua precisão real justifica" },
+            { "value": "c", "label": "Ser confiante em tudo" },
+            { "value": "d", "label": "Não ter dúvidas" }
+          ],
+          "explanation": "'Overconfidence' é estar mais confiante do que sua precisão real justifica. Você acha que está certo 80% das vezes, mas está certo apenas 60%.",
+          "hint": "Você já estava mais confiante em uma previsão do que deveria estar?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que está 90% confiante de que seu novo produto será bem-sucedido, quando a taxa real de sucesso é de 30%, está sendo overconfident."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'underconfidence'?",
+          "options": [
+            { "value": "a", "label": "Não ter confiança" },
+            { "value": "b", "label": "Estar menos confiante do que sua precisão real justifica" },
+            { "value": "c", "label": "Ter dúvidas sobre tudo" },
+            { "value": "d", "label": "Não acreditar em si mesmo" }
+          ],
+          "explanation": "'Underconfidence' é estar menos confiante do que sua precisão real justifica. Você acha que está certo 40% das vezes, mas está certo 60%.",
+          "hint": "Você já estava menos confiante em uma previsão do que deveria estar?",
+          "correctAnswer": "b",
+          "bookExample": "Uma mulher talentosa que acha que tem apenas 30% de chance de ser promovida, quando realmente tem 70%, está sendo underconfident."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos usar 'calibration' para tomar melhores decisões?",
+          "options": [
+            { "value": "a", "label": "Ignorar calibração" },
+            { "value": "b", "label": "Usar nossas previsões calibradas para avaliar riscos e oportunidades" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de usar" }
+          ],
+          "explanation": "Podemos usar 'calibration' para tomar melhores decisões usando nossas previsões calibradas para avaliar riscos e oportunidades com mais precisão.",
+          "hint": "Como previsões precisas ajudam na tomada de decisão?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor bem calibrado que sabe que suas previsões de ganhos são precisas 70% das vezes pode usar isso para avaliar melhor o risco de um investimento."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'confidence interval'?",
+          "options": [
+            { "value": "a", "label": "Um intervalo de confiança" },
+            { "value": "b", "label": "Um intervalo que você acredita que contém o valor real" },
+            { "value": "c", "label": "Um intervalo de tempo" },
+            { "value": "d", "label": "Um intervalo de preços" }
+          ],
+          "explanation": "'Confidence interval' é um intervalo que você acredita que contém o valor real com uma certa probabilidade.",
+          "hint": "Como você expressa incerteza em uma previsão?",
+          "correctAnswer": "b",
+          "bookExample": "Um meteorologista pode dizer que a temperatura amanhã será entre 20-25°C com 80% de confiança."
+        },
+        {
+          "id": "8",
+          "question": "Por que é importante usar 'confidence intervals'?",
+          "options": [
+            { "value": "a", "label": "Porque tornam as previsões mais precisas" },
+            { "value": "b", "label": "Porque expressam incerteza e ajudam a tomar melhores decisões" },
+            { "value": "c", "label": "Porque eliminam incerteza" },
+            { "value": "d", "label": "Porque não importam" }
+          ],
+          "explanation": "'Confidence intervals' são importantes porque expressam incerteza e ajudam a tomar melhores decisões reconhecendo que há um intervalo de possibilidades.",
+          "hint": "Como você comunica incerteza em uma previsão?",
+          "correctAnswer": "b",
+          "bookExample": "Um analista que diz que o preço de uma ação será entre $50-60 com 70% de confiança está comunicando incerteza melhor do que alguém que diz que será $55."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos treinar nossa calibração?",
+          "options": [
+            { "value": "a", "label": "Ignorar treinamento" },
+            { "value": "b", "label": "Fazer muitas previsões, medir resultados e aprender com feedback" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de treinar" }
+          ],
+          "explanation": "Podemos treinar nossa calibração fazendo muitas previsões, medindo resultados e aprendendo com feedback sobre nossa precisão.",
+          "hint": "Como você melhora uma habilidade?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker que faz muitas apostas e mede sua precisão ao longo do tempo pode treinar sua calibração e melhorar suas decisões."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Tomando Decisões Importantes",
+      "description": "Aprenda um framework para tomar decisões importantes",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o primeiro passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Definir claramente o problema e os objetivos" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O primeiro passo é definir claramente o problema e os objetivos. Você não pode tomar uma boa decisão se não entender o que está tentando alcançar.",
+          "hint": "Como você começa a resolver um problema?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de decidir se deve mudar de carreira, você deve definir claramente o que quer alcançar com a mudança."
+        },
+        {
+          "id": "2",
+          "question": "Qual é o segundo passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Reunir informações relevantes" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O segundo passo é reunir informações relevantes. Você precisa de informações para tomar uma boa decisão.",
+          "hint": "O que você precisa para tomar uma boa decisão?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de decidir se deve comprar uma casa, você deve reunir informações sobre preços, localização, condições do mercado, etc."
+        },
+        {
+          "id": "3",
+          "question": "Qual é o terceiro passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Considerar múltiplas opções" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O terceiro passo é considerar múltiplas opções. Raramente há apenas uma opção - você deve explorar alternativas.",
+          "hint": "Como você garante que está considerando a melhor opção?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de decidir sobre um investimento, você deve considerar múltiplas opções de investimento, não apenas uma."
+        },
+        {
+          "id": "4",
+          "question": "Qual é o quarto passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Avaliar as consequências de cada opção" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O quarto passo é avaliar as consequências de cada opção. Você deve pensar sobre o que pode acontecer com cada escolha.",
+          "hint": "Como você compara opções?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de decidir se deve mudar de emprego, você deve avaliar as consequências de ficar no emprego atual versus mudar."
+        },
+        {
+          "id": "5",
+          "question": "Qual é o quinto passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Buscar perspectivas diferentes" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O quinto passo é buscar perspectivas diferentes. Outras pessoas podem ver coisas que você não vê.",
+          "hint": "Como você evita vieses em suas decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de tomar uma decisão importante sobre seu negócio, você deve buscar perspectivas de mentores, colegas e especialistas."
+        },
+        {
+          "id": "6",
+          "question": "Qual é o sexto passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Fazer um 'pre-mortem'" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O sexto passo é fazer um 'pre-mortem' - imaginar que sua decisão falhou e trabalhar para trás para identificar possíveis problemas.",
+          "hint": "Como você se prepara para possíveis falhas?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de lançar um novo produto, você pode fazer um 'pre-mortem' imaginando que o lançamento falhou e identificando possíveis razões."
+        },
+        {
+          "id": "7",
+          "question": "Qual é o sétimo passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Decidir imediatamente" },
+            { "value": "b", "label": "Tomar a decisão e agir" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O sétimo passo é tomar a decisão e agir. Depois de fazer toda a análise, você precisa tomar uma decisão e agir.",
+          "hint": "Quando você deve parar de analisar e começar a agir?",
+          "correctAnswer": "b",
+          "bookExample": "Depois de considerar todas as opções e fazer um 'pre-mortem', você deve tomar uma decisão e começar a implementar."
+        },
+        {
+          "id": "8",
+          "question": "Qual é o oitavo passo ao tomar uma decisão importante?",
+          "options": [
+            { "value": "a", "label": "Esquecer a decisão" },
+            { "value": "b", "label": "Monitorar resultados e aprender com feedback" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Pedir conselhos a todos" }
+          ],
+          "explanation": "O oitavo passo é monitorar resultados e aprender com feedback. Você deve acompanhar como sua decisão está funcionando e aprender com os resultados.",
+          "hint": "Como você melhora suas futuras decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Depois de lançar um novo produto, você deve monitorar vendas, feedback de clientes e aprender o que funcionou e o que não funcionou."
+        },
+        {
+          "id": "9",
+          "question": "Por que é importante ter um framework para decisões importantes?",
+          "options": [
+            { "value": "a", "label": "Porque torna as decisões mais fáceis" },
+            { "value": "b", "label": "Porque reduz vieses e melhora a qualidade das decisões" },
+            { "value": "c", "label": "Porque elimina incerteza" },
+            { "value": "d", "label": "Porque não importa" }
+          ],
+          "explanation": "Um framework para decisões importantes reduz vieses e melhora a qualidade das decisões porque você segue um processo sistemático.",
+          "hint": "Como um processo sistemático melhora decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que segue um framework para decisões importantes toma melhores decisões do que uma que toma decisões ad hoc."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Negociação e Apostas",
+      "description": "Aprenda como aplicar o pensamento em apostas à negociação",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica à negociação?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Você está apostando que sua oferta será aceita" },
+            { "value": "c", "label": "Negociação é apenas sobre dinheiro" },
+            { "value": "d", "label": "Negociação não envolve risco" }
+          ],
+          "explanation": "Em negociação, você está apostando que sua oferta será aceita. Você deve pensar em termos de probabilidades e 'expected value'.",
+          "hint": "Como você avalia uma oferta em negociação?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você faz uma oferta de emprego, está apostando que o candidato a aceitará. Você deve considerar a probabilidade e o valor esperado."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante entender a perspectiva da outra pessoa em negociação?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a fazer melhores apostas sobre o que eles aceitarão" },
+            { "value": "c", "label": "Porque você deve sempre concordar com eles" },
+            { "value": "d", "label": "Porque negociação é sobre ganhar" }
+          ],
+          "explanation": "Entender a perspectiva da outra pessoa ajuda você a fazer melhores apostas sobre o que eles aceitarão e como estruturar sua oferta.",
+          "hint": "Como você melhora suas chances de sucesso em negociação?",
+          "correctAnswer": "b",
+          "bookExample": "Se você entender que o vendedor está desesperado para vender, você pode fazer uma oferta mais baixa com maior confiança de que será aceita."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'BATNA'?",
+          "options": [
+            { "value": "a", "label": "Uma estratégia de negociação" },
+            { "value": "b", "label": "A melhor alternativa se a negociação falhar" },
+            { "value": "c", "label": "Uma tática de negociação" },
+            { "value": "d", "label": "Um tipo de acordo" }
+          ],
+          "explanation": "'BATNA' (Best Alternative to Negotiated Agreement) é a melhor alternativa se a negociação falhar. Conhecer seu BATNA melhora sua posição de negociação.",
+          "hint": "O que você fará se a negociação não funcionar?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está negociando um salário, seu BATNA pode ser ficar no seu emprego atual ou aceitar outra oferta de emprego."
+        },
+        {
+          "id": "4",
+          "question": "Por que conhecer seu BATNA é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a saber quando aceitar ou rejeitar uma oferta" },
+            { "value": "c", "label": "Porque você deve sempre aceitar qualquer oferta" },
+            { "value": "d", "label": "Porque negociação é sobre ganhar" }
+          ],
+          "explanation": "Conhecer seu BATNA ajuda você a saber quando aceitar ou rejeitar uma oferta. Se a oferta é pior que seu BATNA, você deve rejeitar.",
+          "hint": "Como você sabe se uma oferta é boa?",
+          "correctAnswer": "b",
+          "bookExample": "Se seu BATNA é ficar no seu emprego atual ganhando $100k, você deve rejeitar uma oferta de $90k."
+        },
+        {
+          "id": "5",
+          "question": "Como o 'anchoring bias' afeta negociação?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "A primeira oferta estabelece uma âncora que influencia toda a negociação" },
+            { "value": "c", "label": "Afeta apenas pessoas ingênuas" },
+            { "value": "d", "label": "Afeta apenas negociadores experientes" }
+          ],
+          "explanation": "Em negociação, a primeira oferta estabelece uma âncora que influencia toda a negociação. Quem faz a primeira oferta tem uma vantagem.",
+          "hint": "Por que é importante fazer a primeira oferta em negociação?",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer vender uma casa por $500k, fazer uma oferta inicial de $550k estabelece uma âncora que pode resultar em um preço final mais alto."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos usar o 'anchoring bias' a nosso favor em negociação?",
+          "options": [
+            { "value": "a", "label": "Ignorar anchoring" },
+            { "value": "b", "label": "Fazer a primeira oferta que seja favorável a nós" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de usar" }
+          ],
+          "explanation": "Podemos usar o 'anchoring bias' fazendo a primeira oferta que seja favorável a nós, estabelecendo uma âncora que beneficia nossa posição.",
+          "hint": "Como você usa vieses cognitivos a seu favor?",
+          "correctAnswer": "b",
+          "bookExample": "Em uma negociação salarial, fazer a primeira oferta de $150k estabelece uma âncora que pode resultar em um salário final mais alto."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'integrative negotiation'?",
+          "options": [
+            { "value": "a", "label": "Negociação onde um lado ganha e o outro perde" },
+            { "value": "b", "label": "Negociação onde ambos os lados tentam criar valor" },
+            { "value": "c", "label": "Negociação que é integrada" },
+            { "value": "d", "label": "Negociação que é complexa" }
+          ],
+          "explanation": "'Integrative negotiation' é negociação onde ambos os lados tentam criar valor, em vez de apenas dividir um bolo fixo.",
+          "hint": "Qual é o tipo de negociação que resulta em melhores resultados para ambos?",
+          "correctAnswer": "b",
+          "bookExample": "Em uma negociação de contrato, em vez de apenas discutir preço, você pode discutir prazos de pagamento, quantidade, qualidade, etc., criando valor para ambos."
+        },
+        {
+          "id": "8",
+          "question": "Por que 'integrative negotiation' é melhor que 'distributive negotiation'?",
+          "options": [
+            { "value": "a", "label": "Porque não é" },
+            { "value": "b", "label": "Porque cria valor para ambos os lados, resultando em melhores relacionamentos" },
+            { "value": "c", "label": "Porque é mais fácil" },
+            { "value": "d", "label": "Porque é mais rápida" }
+          ],
+          "explanation": "'Integrative negotiation' é melhor porque cria valor para ambos os lados, resultando em melhores relacionamentos e acordos mais sustentáveis.",
+          "hint": "Qual é o benefício de uma negociação onde ambos ganham?",
+          "correctAnswer": "b",
+          "bookExample": "Um vendedor e um comprador que usam 'integrative negotiation' podem criar um relacionamento de longo prazo, em vez de uma transação única."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para melhorar negociação?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades e 'expected value' de diferentes ofertas" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades e 'expected value' de diferentes ofertas, ajudando a tomar melhores decisões.",
+          "hint": "Como você avalia diferentes ofertas em negociação?",
+          "correctAnswer": "b",
+          "bookExample": "Um negociador pode calcular o 'expected value' de diferentes ofertas, considerando a probabilidade de aceitação e o valor de cada oferta."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Investimento e Risco",
+      "description": "Aprenda como aplicar o pensamento em apostas ao investimento",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica ao investimento?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Investimento é uma série de apostas sobre o futuro" },
+            { "value": "c", "label": "Investimento é apenas sobre ganhar dinheiro" },
+            { "value": "d", "label": "Investimento não envolve risco" }
+          ],
+          "explanation": "Investimento é uma série de apostas sobre o futuro. Você está apostando que um investimento terá retorno positivo.",
+          "hint": "Como você avalia um investimento?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você compra uma ação, está apostando que o preço subirá ou que a empresa pagará dividendos."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante diversificar em investimento?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque reduz risco ao distribuir apostas" },
+            { "value": "c", "label": "Porque garante lucro" },
+            { "value": "d", "label": "Porque torna o investimento mais fácil" }
+          ],
+          "explanation": "Diversificação reduz risco ao distribuir suas apostas entre múltiplos investimentos, em vez de colocar tudo em uma aposta.",
+          "hint": "Como você reduz risco em investimento?",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de investir tudo em uma ação, você investe em múltiplas ações, reduzindo o risco de perder tudo se uma ação cair."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'dollar-cost averaging'?",
+          "options": [
+            { "value": "a", "label": "Investir uma quantia fixa regularmente" },
+            { "value": "b", "label": "Calcular o custo médio de um investimento" },
+            { "value": "c", "label": "Uma estratégia de negociação" },
+            { "value": "d", "label": "Uma forma de economizar dinheiro" }
+          ],
+          "explanation": "'Dollar-cost averaging' é investir uma quantia fixa regularmente, em vez de investir tudo de uma vez. Isso reduz o risco de timing.",
+          "hint": "Como você reduz o risco de investir no momento errado?",
+          "correctAnswer": "a",
+          "bookExample": "Em vez de investir $10k de uma vez, você investe $1k por mês durante 10 meses, reduzindo o risco de investir no pico do mercado."
+        },
+        {
+          "id": "4",
+          "question": "Por que 'dollar-cost averaging' reduz risco?",
+          "options": [
+            { "value": "a", "label": "Porque não reduz" },
+            { "value": "b", "label": "Porque você investe em diferentes preços, reduzindo o risco de timing" },
+            { "value": "c", "label": "Porque garante lucro" },
+            { "value": "d", "label": "Porque torna o investimento mais fácil" }
+          ],
+          "explanation": "'Dollar-cost averaging' reduz risco porque você investe em diferentes preços. Se o preço cair, você compra mais barato. Se subir, você já tem algumas ações.",
+          "hint": "Como investir regularmente reduz risco?",
+          "correctAnswer": "b",
+          "bookExample": "Se você investe $1k por mês, quando o preço está baixo você compra mais ações, e quando está alto você compra menos, reduzindo seu custo médio."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'rebalancing'?",
+          "options": [
+            { "value": "a", "label": "Equilibrar sua vida" },
+            { "value": "b", "label": "Ajustar seu portfólio para manter a alocação desejada" },
+            { "value": "c", "label": "Uma estratégia de negociação" },
+            { "value": "d", "label": "Uma forma de economizar dinheiro" }
+          ],
+          "explanation": "'Rebalancing' é ajustar seu portfólio para manter a alocação desejada. Se uma ação subiu muito, você vende um pouco e compra outra que caiu.",
+          "hint": "Como você mantém seu portfólio equilibrado?",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer 50% ações e 50% títulos, mas as ações subiram para 60%, você vende algumas ações e compra títulos para voltar a 50/50."
+        },
+        {
+          "id": "6",
+          "question": "Por que 'rebalancing' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque mantém seu risco no nível desejado" },
+            { "value": "c", "label": "Porque garante lucro" },
+            { "value": "d", "label": "Porque torna o investimento mais fácil" }
+          ],
+          "explanation": "'Rebalancing' é importante porque mantém seu risco no nível desejado. Sem rebalancing, seu portfólio pode ficar muito arriscado ou muito conservador.",
+          "hint": "Como você mantém seu risco sob controle?",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer um portfólio com risco moderado, mas não rebalanceia, seu portfólio pode ficar muito arriscado se as ações subirem muito."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'value investing'?",
+          "options": [
+            { "value": "a", "label": "Investir em ações baratas" },
+            { "value": "b", "label": "Investir em ações que estão abaixo de seu valor intrínseco" },
+            { "value": "c", "label": "Investir em ações que pagam dividendos" },
+            { "value": "d", "label": "Investir em ações de grandes empresas" }
+          ],
+          "explanation": "'Value investing' é investir em ações que estão abaixo de seu valor intrínseco, apostando que o mercado eventualmente reconhecerá seu valor.",
+          "hint": "Como você encontra boas oportunidades de investimento?",
+          "correctAnswer": "b",
+          "bookExample": "Um 'value investor' pode comprar uma ação que está sendo vendida por $50, mas que ele acredita vale $100, apostando que o preço subirá."
+        },
+        {
+          "id": "8",
+          "question": "Por que 'value investing' é uma boa aposta?",
+          "options": [
+            { "value": "a", "label": "Porque não é" },
+            { "value": "b", "label": "Porque você está comprando com margem de segurança" },
+            { "value": "c", "label": "Porque garante lucro" },
+            { "value": "d", "label": "Porque é fácil" }
+          ],
+          "explanation": "'Value investing' é uma boa aposta porque você está comprando com margem de segurança - o preço está abaixo do valor intrínseco.",
+          "hint": "Como você reduz risco em investimento?",
+          "correctAnswer": "b",
+          "bookExample": "Se você compra uma ação por $50 que vale $100, você tem uma margem de segurança de 50%, reduzindo seu risco."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para melhorar investimento?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades, 'expected value' e margem de segurança" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades, 'expected value' e margem de segurança, ajudando a tomar melhores decisões de investimento.",
+          "hint": "Como você avalia um investimento?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor pode calcular o 'expected value' de um investimento considerando a probabilidade de sucesso e o retorno esperado."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Carreira e Decisões de Vida",
+      "description": "Aprenda como aplicar o pensamento em apostas às decisões de carreira e vida",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica às decisões de carreira?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Decisões de carreira são apostas sobre seu futuro" },
+            { "value": "c", "label": "Carreira é apenas sobre dinheiro" },
+            { "value": "d", "label": "Carreira não envolve risco" }
+          ],
+          "explanation": "Decisões de carreira são apostas sobre seu futuro. Você está apostando que uma carreira será gratificante e bem-sucedida.",
+          "hint": "Como você avalia uma oportunidade de carreira?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você escolhe uma carreira, está apostando que essa carreira será gratificante, bem-sucedida e alinhada com seus valores."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante considerar múltiplas opções de carreira?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a fazer uma aposta melhor sobre seu futuro" },
+            { "value": "c", "label": "Porque você deve mudar de carreira frequentemente" },
+            { "value": "d", "label": "Porque não há boas opções" }
+          ],
+          "explanation": "Considerar múltiplas opções de carreira ajuda você a fazer uma aposta melhor sobre seu futuro, em vez de se apegar à primeira opção.",
+          "hint": "Como você encontra a melhor carreira para você?",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de aceitar o primeiro emprego oferecido, você deve considerar múltiplas opções e escolher a que melhor se alinha com seus objetivos."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'optionality'?",
+          "options": [
+            { "value": "a", "label": "A capacidade de ter opções" },
+            { "value": "b", "label": "O valor de manter múltiplas opções abertas" },
+            { "value": "c", "label": "Uma estratégia de negociação" },
+            { "value": "d", "label": "Uma forma de economizar dinheiro" }
+          ],
+          "explanation": "'Optionality' é o valor de manter múltiplas opções abertas. Ter opções reduz risco porque você pode mudar de direção se necessário.",
+          "hint": "Por que é bom manter opções abertas?",
+          "correctAnswer": "b",
+          "bookExample": "Um jovem profissional que mantém múltiplas opções de carreira abertas tem mais flexibilidade do que alguém que se compromete com uma única carreira."
+        },
+        {
+          "id": "4",
+          "question": "Por que 'optionality' é importante em carreira?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque reduz risco e permite que você mude de direção" },
+            { "value": "c", "label": "Porque garante sucesso" },
+            { "value": "d", "label": "Porque torna a carreira mais fácil" }
+          ],
+          "explanation": "'Optionality' é importante em carreira porque reduz risco e permite que você mude de direção se sua aposta inicial não funcionar.",
+          "hint": "Como você reduz risco em decisões de carreira?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que desenvolve múltiplas habilidades tem mais opções de carreira do que alguém que se especializa em apenas uma área."
+        },
+        {
+          "id": "5",
+          "question": "Como o 'sunk cost fallacy' afeta decisões de carreira?",
+          "options": [
+            { "value": "a", "label": "Não afeta" },
+            { "value": "b", "label": "Nos leva a continuar em uma carreira ruim porque já investimos muito" },
+            { "value": "c", "label": "Nos ajuda a tomar melhores decisões" },
+            { "value": "d", "label": "Nos torna mais ricos" }
+          ],
+          "explanation": "O 'sunk cost fallacy' nos leva a continuar em uma carreira ruim porque já investimos muito tempo e dinheiro, mesmo que não seja mais uma boa aposta.",
+          "hint": "Como você evita ficar preso em uma carreira ruim?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que passou 10 anos em uma carreira que não gosta pode continuar porque já investiu muito, em vez de mudar para algo melhor."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos evitar o 'sunk cost fallacy' em carreira?",
+          "options": [
+            { "value": "a", "label": "Ignorar custos passados" },
+            { "value": "b", "label": "Focar em custos e benefícios futuros, não em investimentos passados" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de evitar" }
+          ],
+          "explanation": "Podemos evitar o 'sunk cost fallacy' focando em custos e benefícios futuros, não em investimentos passados.",
+          "hint": "Como você toma boas decisões sobre carreira?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está em uma carreira ruim, você deve considerar apenas se a carreira será boa no futuro, não quanto tempo já investiu."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'expected value' em decisões de vida?",
+          "options": [
+            { "value": "a", "label": "O valor que você espera ganhar" },
+            { "value": "b", "label": "A média ponderada de todos os possíveis resultados de uma decisão" },
+            { "value": "c", "label": "O valor máximo que você pode ganhar" },
+            { "value": "d", "label": "O valor mínimo que você pode ganhar" }
+          ],
+          "explanation": "'Expected value' em decisões de vida é a média ponderada de todos os possíveis resultados, considerando probabilidades e valores.",
+          "hint": "Como você avalia uma decisão de vida?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está considerando mudar de carreira, você pode calcular o 'expected value' considerando a probabilidade de sucesso e o valor de sucesso versus fracasso."
+        },
+        {
+          "id": "8",
+          "question": "Por que é importante pensar em 'expected value' em decisões de vida?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a tomar decisões mais racionais" },
+            { "value": "c", "label": "Porque garante sucesso" },
+            { "value": "d", "label": "Porque torna a vida mais fácil" }
+          ],
+          "explanation": "Pensar em 'expected value' ajuda você a tomar decisões mais racionais sobre sua vida, em vez de deixar emoções guiar.",
+          "hint": "Como você toma melhores decisões de vida?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que calcula o 'expected value' de mudar de carreira pode tomar uma decisão mais informada do que alguém que apenas segue seu coração."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para melhorar decisões de vida?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades, 'expected value' e múltiplas opções" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades, 'expected value' e múltiplas opções, ajudando a tomar melhores decisões de vida.",
+          "hint": "Como você toma melhores decisões de vida?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que pensa em apostas sobre decisões de vida pode considerar múltiplas opções, calcular 'expected value' e tomar decisões mais informadas."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Relacionamentos e Decisões",
+      "description": "Aprenda como aplicar o pensamento em apostas aos relacionamentos",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica aos relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Relacionamentos são apostas sobre o futuro com outra pessoa" },
+            { "value": "c", "label": "Relacionamentos são apenas sobre amor" },
+            { "value": "d", "label": "Relacionamentos não envolvem risco" }
+          ],
+          "explanation": "Relacionamentos são apostas sobre o futuro com outra pessoa. Você está apostando que o relacionamento será gratificante e bem-sucedido.",
+          "hint": "Como você avalia um relacionamento?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você escolhe um parceiro, está apostando que o relacionamento será gratificante, bem-sucedido e alinhado com seus valores."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante conhecer bem alguém antes de se comprometer?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a fazer uma aposta melhor sobre o relacionamento" },
+            { "value": "c", "label": "Porque você deve se comprometer imediatamente" },
+            { "value": "d", "label": "Porque não há boas pessoas" }
+          ],
+          "explanation": "Conhecer bem alguém antes de se comprometer ajuda você a fazer uma aposta melhor sobre o relacionamento, reduzindo risco.",
+          "hint": "Como você reduz risco em relacionamentos?",
+          "correctAnswer": "b",
+          "bookExample": "Antes de se casar, você deve passar tempo com a pessoa, conhecer seus valores e ver se são compatíveis."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'confirmation bias' em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "A tendência de confirmar que você ama alguém" },
+            { "value": "b", "label": "A tendência de buscar informações que confirmam que escolheu bem" },
+            { "value": "c", "label": "A capacidade de confirmar sentimentos" },
+            { "value": "d", "label": "A necessidade de confirmação" }
+          ],
+          "explanation": "'Confirmation bias' em relacionamentos é a tendência de buscar informações que confirmam que escolheu bem, ignorando sinais de alerta.",
+          "hint": "Você já ignorou sinais de alerta em um relacionamento?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa em um relacionamento ruim pode focar nos momentos bons e ignorar os momentos ruins, confirmando que fez a escolha certa."
+        },
+        {
+          "id": "4",
+          "question": "Como podemos evitar 'confirmation bias' em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Ignorar sinais de alerta" },
+            { "value": "b", "label": "Procurar ativamente por informações que contradizem nossas crenças" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de evitar" }
+          ],
+          "explanation": "Podemos evitar 'confirmation bias' procurando ativamente por informações que contradizem nossas crenças e considerando sinais de alerta.",
+          "hint": "Como você toma decisões melhores sobre relacionamentos?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que procura ativamente por sinais de alerta em um relacionamento pode tomar uma decisão melhor do que alguém que ignora problemas."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'sunk cost fallacy' em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Não existe em relacionamentos" },
+            { "value": "b", "label": "Continuar em um relacionamento ruim porque já investiu muito" },
+            { "value": "c", "label": "Investir em um relacionamento" },
+            { "value": "d", "label": "Custo de um relacionamento" }
+          ],
+          "explanation": "'Sunk cost fallacy' em relacionamentos é continuar em um relacionamento ruim porque já investiu muito tempo e emoção.",
+          "hint": "Você já continuou em um relacionamento ruim porque já investiu muito?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa pode continuar em um relacionamento infeliz porque já passou 10 anos juntos, em vez de sair e encontrar alguém melhor."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos evitar 'sunk cost fallacy' em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Ignorar investimentos passados" },
+            { "value": "b", "label": "Focar em se o relacionamento será bom no futuro, não em investimentos passados" },
+            { "value": "c", "label": "Confiar em intuição" },
+            { "value": "d", "label": "Não há forma de evitar" }
+          ],
+          "explanation": "Podemos evitar 'sunk cost fallacy' focando em se o relacionamento será bom no futuro, não em quanto tempo já investimos.",
+          "hint": "Como você toma boas decisões sobre relacionamentos?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está em um relacionamento ruim, você deve considerar apenas se o relacionamento será bom no futuro, não quanto tempo já investiu."
+        },
+        {
+          "id": "7",
+          "question": "Por que é importante comunicar expectativas em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda a alinhar apostas sobre o futuro" },
+            { "value": "c", "label": "Porque você deve sempre concordar" },
+            { "value": "d", "label": "Porque comunicação não importa" }
+          ],
+          "explanation": "Comunicar expectativas ajuda a alinhar apostas sobre o futuro, reduzindo surpresas e decepções.",
+          "hint": "Como você evita mal-entendidos em relacionamentos?",
+          "correctAnswer": "b",
+          "bookExample": "Um casal que comunica suas expectativas sobre casamento, filhos e carreira tem uma aposta melhor alinhada do que um casal que não comunica."
+        },
+        {
+          "id": "8",
+          "question": "O que é 'expected value' em relacionamentos?",
+          "options": [
+            { "value": "a", "label": "O valor que você espera ganhar" },
+            { "value": "b", "label": "A média ponderada de felicidade esperada em um relacionamento" },
+            { "value": "c", "label": "O valor máximo que você pode ganhar" },
+            { "value": "d", "label": "O valor mínimo que você pode ganhar" }
+          ],
+          "explanation": "'Expected value' em relacionamentos é a média ponderada de felicidade esperada, considerando probabilidades de diferentes cenários.",
+          "hint": "Como você avalia um relacionamento?",
+          "correctAnswer": "b",
+          "bookExample": "Você pode calcular o 'expected value' de um relacionamento considerando a probabilidade de felicidade, sucesso e compatibilidade."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para melhorar relacionamentos?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades, comunicação clara e múltiplas perspectivas" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades, comunicação clara e múltiplas perspectivas, ajudando a tomar melhores decisões.",
+          "hint": "Como você toma melhores decisões sobre relacionamentos?",
+          "correctAnswer": "b",
+          "bookExample": "Um casal que pensa em apostas sobre seu relacionamento pode comunicar expectativas, considerar múltiplas perspectivas e tomar decisões mais informadas."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Saúde e Bem-estar",
+      "description": "Aprenda como aplicar o pensamento em apostas às decisões de saúde",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica às decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Decisões de saúde são apostas sobre seu bem-estar futuro" },
+            { "value": "c", "label": "Saúde é apenas sobre exercício" },
+            { "value": "d", "label": "Saúde não envolve risco" }
+          ],
+          "explanation": "Decisões de saúde são apostas sobre seu bem-estar futuro. Você está apostando que certas ações melhorarão sua saúde.",
+          "hint": "Como você avalia uma decisão de saúde?",
+          "correctAnswer": "b",
+          "bookExample": "Quando você decide fazer exercício regularmente, está apostando que isso melhorará sua saúde e bem-estar."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante considerar probabilidades em decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a fazer apostas melhores sobre sua saúde" },
+            { "value": "c", "label": "Porque você deve ignorar riscos" },
+            { "value": "d", "label": "Porque não há riscos em saúde" }
+          ],
+          "explanation": "Considerar probabilidades em decisões de saúde ajuda você a fazer apostas melhores, entendendo riscos e benefícios.",
+          "hint": "Como você toma melhores decisões de saúde?",
+          "correctAnswer": "b",
+          "bookExample": "Se você está considerando uma cirurgia, você deve entender a probabilidade de sucesso e os riscos envolvidos."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'base rate' em decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "A taxa de base de uma doença" },
+            { "value": "b", "label": "A probabilidade de um evento em uma população" },
+            { "value": "c", "label": "A taxa de cura de uma doença" },
+            { "value": "d", "label": "A taxa de mortalidade" }
+          ],
+          "explanation": "'Base rate' é a probabilidade de um evento em uma população. Por exemplo, a probabilidade de ter uma certa doença.",
+          "hint": "Como você avalia o risco de uma doença?",
+          "correctAnswer": "b",
+          "bookExample": "A 'base rate' de câncer de mama em mulheres é de cerca de 1 em 8, o que ajuda a avaliar o risco pessoal."
+        },
+        {
+          "id": "4",
+          "question": "Por que é importante considerar 'base rate' em decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a entender o risco real de uma doença" },
+            { "value": "c", "label": "Porque você deve ignorar estatísticas" },
+            { "value": "d", "label": "Porque não há 'base rates'" }
+          ],
+          "explanation": "Considerar 'base rate' ajuda você a entender o risco real de uma doença, em vez de deixar emoções ou histórias anedóticas guiar.",
+          "hint": "Como você avalia o risco real de uma doença?",
+          "correctAnswer": "b",
+          "bookExample": "Se você ouve uma história sobre alguém que morreu de uma doença rara, você pode superestimar o risco. Conhecer a 'base rate' ajuda a colocar em perspectiva."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'false positive' em testes de saúde?",
+          "options": [
+            { "value": "a", "label": "Um resultado positivo que é falso" },
+            { "value": "b", "label": "Um teste que diz que você tem uma doença quando não tem" },
+            { "value": "c", "label": "Um resultado positivo que é verdadeiro" },
+            { "value": "d", "label": "Um teste que é falso" }
+          ],
+          "explanation": "'False positive' é um teste que diz que você tem uma doença quando na verdade não tem. Isso pode levar a tratamentos desnecessários.",
+          "hint": "Qual é o risco de um teste de saúde?",
+          "correctAnswer": "b",
+          "bookExample": "Um teste de câncer pode ter um 'false positive', dizendo que você tem câncer quando na verdade não tem, levando a tratamentos desnecessários."
+        },
+        {
+          "id": "6",
+          "question": "Como podemos avaliar melhor os resultados de testes de saúde?",
+          "options": [
+            { "value": "a", "label": "Confiar apenas no resultado" },
+            { "value": "b", "label": "Considerar 'base rate', sensibilidade e especificidade do teste" },
+            { "value": "c", "label": "Ignorar o resultado" },
+            { "value": "d", "label": "Não há forma de avaliar" }
+          ],
+          "explanation": "Podemos avaliar melhor os resultados considerando 'base rate', sensibilidade e especificidade do teste, ajudando a entender o risco real.",
+          "hint": "Como você interpreta um resultado de teste?",
+          "correctAnswer": "b",
+          "bookExample": "Um teste positivo para uma doença rara pode ter uma alta probabilidade de ser um 'false positive' se a 'base rate' da doença é muito baixa."
+        },
+        {
+          "id": "7",
+          "question": "Por que é importante considerar múltiplas opções de tratamento?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda você a fazer uma aposta melhor sobre seu tratamento" },
+            { "value": "c", "label": "Porque você deve sempre aceitar o primeiro tratamento" },
+            { "value": "d", "label": "Porque não há múltiplas opções" }
+          ],
+          "explanation": "Considerar múltiplas opções de tratamento ajuda você a fazer uma aposta melhor, entendendo benefícios e riscos de cada opção.",
+          "hint": "Como você escolhe um tratamento?",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem uma doença, você deve considerar múltiplas opções de tratamento, entendendo os benefícios e riscos de cada uma."
+        },
+        {
+          "id": "8",
+          "question": "O que é 'expected value' em decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "O valor que você espera ganhar" },
+            { "value": "b", "label": "A média ponderada de saúde esperada de uma decisão" },
+            { "value": "c", "label": "O valor máximo que você pode ganhar" },
+            { "value": "d", "label": "O valor mínimo que você pode ganhar" }
+          ],
+          "explanation": "'Expected value' em decisões de saúde é a média ponderada de saúde esperada, considerando probabilidades de diferentes cenários.",
+          "hint": "Como você avalia uma decisão de saúde?",
+          "correctAnswer": "b",
+          "bookExample": "Você pode calcular o 'expected value' de um tratamento considerando a probabilidade de sucesso e o impacto na saúde."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para melhorar decisões de saúde?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades, 'base rates' e múltiplas opções" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades, 'base rates' e múltiplas opções, ajudando a tomar melhores decisões de saúde.",
+          "hint": "Como você toma melhores decisões de saúde?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que pensa em apostas sobre sua saúde pode considerar múltiplas opções de tratamento, entender 'base rates' e tomar decisões mais informadas."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Comunicação e Persuasão",
+      "description": "Aprenda como comunicar melhor suas apostas e persuadir outros",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que é importante comunicar suas crenças claramente?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda outros a entender sua aposta e tomar melhores decisões" },
+            { "value": "c", "label": "Porque você deve sempre concordar com outros" },
+            { "value": "d", "label": "Porque comunicação não importa" }
+          ],
+          "explanation": "Comunicar suas crenças claramente ajuda outros a entender sua aposta e tomar melhores decisões, em vez de adivinhar.",
+          "hint": "Como você comunica suas ideias?",
+          "correctAnswer": "b",
+          "bookExample": "Um gerente que comunica claramente sua estratégia ajuda a equipe a entender a aposta e trabalhar em direção ao objetivo."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'steel-manning'?",
+          "options": [
+            { "value": "a", "label": "Fazer um argumento de aço" },
+            { "value": "b", "label": "Apresentar a versão mais forte do argumento oposto" },
+            { "value": "c", "label": "Argumentar contra alguém" },
+            { "value": "d", "label": "Uma forma de ganhar um argumento" }
+          ],
+          "explanation": "'Steel-manning' é apresentar a versão mais forte do argumento oposto, em vez de atacar uma versão fraca. Isso leva a melhores discussões.",
+          "hint": "Como você discute com alguém que discorda?",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de atacar o argumento mais fraco de alguém, você apresenta a versão mais forte e depois refuta, levando a uma discussão melhor."
+        },
+        {
+          "id": "3",
+          "question": "Por que 'steel-manning' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque leva a discussões melhores e aprendizado mútuo" },
+            { "value": "c", "label": "Porque você deve sempre ganhar" },
+            { "value": "d", "label": "Porque argumentos não importam" }
+          ],
+          "explanation": "'Steel-manning' é importante porque leva a discussões melhores e aprendizado mútuo, em vez de apenas tentar ganhar.",
+          "hint": "Como você aprende com pessoas que discordam?",
+          "correctAnswer": "b",
+          "bookExample": "Um pesquisador que 'steel-mans' argumentos contrários pode aprender mais e fazer pesquisa melhor do que alguém que apenas ataca."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'Bayesian thinking' em comunicação?",
+          "options": [
+            { "value": "a", "label": "Pensar como um matemático" },
+            { "value": "b", "label": "Atualizar suas crenças com base em novas informações" },
+            { "value": "c", "label": "Uma forma de argumentar" },
+            { "value": "d", "label": "Uma estratégia de persuasão" }
+          ],
+          "explanation": "'Bayesian thinking' em comunicação é atualizar suas crenças com base em novas informações, em vez de se apegar a crenças antigas.",
+          "hint": "Como você muda de ideia quando recebe novas informações?",
+          "correctAnswer": "b",
+          "bookExample": "Um comunicador que usa 'Bayesian thinking' pode mudar sua mensagem quando recebe feedback, em vez de insistir na mensagem original."
+        },
+        {
+          "id": "5",
+          "question": "Por que é importante ser honesto sobre incerteza?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda outros a entender o risco e tomar melhores decisões" },
+            { "value": "c", "label": "Porque você deve sempre parecer confiante" },
+            { "value": "d", "label": "Porque incerteza não importa" }
+          ],
+          "explanation": "Ser honesto sobre incerteza ajuda outros a entender o risco e tomar melhores decisões, em vez de confiar em uma falsa confiança.",
+          "hint": "Como você comunica incerteza?",
+          "correctAnswer": "b",
+          "bookExample": "Um analista que diz 'há 70% de chance de isso acontecer' comunica melhor do que alguém que diz 'isso vai acontecer' com falsa confiança."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'credibility'?",
+          "options": [
+            { "value": "a", "label": "A capacidade de ser acreditado" },
+            { "value": "b", "label": "A confiança que outros têm em você baseada em sua história e honestidade" },
+            { "value": "c", "label": "Uma forma de persuasão" },
+            { "value": "d", "label": "Uma estratégia de comunicação" }
+          ],
+          "explanation": "'Credibility' é a confiança que outros têm em você baseada em sua história, honestidade e consistência.",
+          "hint": "Como você constrói confiança com outros?",
+          "correctAnswer": "b",
+          "bookExample": "Um especialista que tem uma longa história de previsões precisas tem mais 'credibility' do que alguém que é novo no campo."
+        },
+        {
+          "id": "7",
+          "question": "Por que 'credibility' é importante em persuasão?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque as pessoas são mais propensas a acreditar em alguém com 'credibility'" },
+            { "value": "c", "label": "Porque você deve sempre parecer confiante" },
+            { "value": "d", "label": "Porque persuasão não importa" }
+          ],
+          "explanation": "'Credibility' é importante porque as pessoas são mais propensas a acreditar em alguém com 'credibility' e histórico de precisão.",
+          "hint": "Como você persuade alguém?",
+          "correctAnswer": "b",
+          "bookExample": "Um médico com 20 anos de experiência é mais persuasivo do que um recém-formado, porque tem mais 'credibility'."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos construir 'credibility'?",
+          "options": [
+            { "value": "a", "label": "Fingir conhecimento" },
+            { "value": "b", "label": "Ser honesto, consistente e admitir quando estamos errados" },
+            { "value": "c", "label": "Sempre parecer confiante" },
+            { "value": "d", "label": "Não há forma de construir" }
+          ],
+          "explanation": "Podemos construir 'credibility' sendo honestos, consistentes e admitindo quando estamos errados, em vez de fingir conhecimento.",
+          "hint": "Como você constrói confiança a longo prazo?",
+          "correctAnswer": "b",
+          "bookExample": "Um líder que admite seus erros e aprende com eles constrói mais 'credibility' do que alguém que sempre tenta parecer perfeito."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas à comunicação?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Comunicar suas crenças, incerteza e estar aberto a mudar de ideia" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas comunicando nossas crenças, sendo honesto sobre incerteza e estando aberto a mudar de ideia.",
+          "hint": "Como você comunica melhor?",
+          "correctAnswer": "b",
+          "bookExample": "Um comunicador que pensa em apostas pode dizer 'há 70% de chance de isso funcionar, mas estou aberto a evidências contrárias' em vez de insistir que está certo."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Liderança e Decisões",
+      "description": "Aprenda como aplicar o pensamento em apostas à liderança",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas se aplica à liderança?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Líderes estão constantemente fazendo apostas sobre o futuro" },
+            { "value": "c", "label": "Liderança é apenas sobre poder" },
+            { "value": "d", "label": "Liderança não envolve risco" }
+          ],
+          "explanation": "Líderes estão constantemente fazendo apostas sobre o futuro - sobre estratégia, pessoas, mercados. O pensamento em apostas melhora a liderança.",
+          "hint": "Como um líder toma decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que decide entrar em um novo mercado está apostando que será lucrativo. Um bom líder pensa em termos de probabilidades e 'expected value'."
+        },
+        {
+          "id": "2",
+          "question": "Por que é importante que líderes reconheçam incerteza?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque ajuda a equipe a entender riscos e tomar melhores decisões" },
+            { "value": "c", "label": "Porque líderes devem sempre parecer confiantes" },
+            { "value": "d", "label": "Porque incerteza não importa" }
+          ],
+          "explanation": "Líderes que reconhecem incerteza ajudam a equipe a entender riscos e tomar melhores decisões, em vez de confiar em falsa confiança.",
+          "hint": "Como um líder comunica com sua equipe?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que diz 'há 60% de chance de sucesso nesta estratégia' comunica melhor do que alguém que diz 'isso vai funcionar' com falsa confiança."
+        },
+        {
+          "id": "3",
+          "question": "O que é 'psychological safety'?",
+          "options": [
+            { "value": "a", "label": "Segurança física" },
+            { "value": "b", "label": "A confiança de que você pode tomar riscos sem ser punido" },
+            { "value": "c", "label": "Uma forma de liderança" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Psychological safety' é a confiança de que você pode tomar riscos, fazer perguntas e admitir erros sem ser punido.",
+          "hint": "Como você cria um ambiente onde as pessoas se sentem confortáveis?",
+          "correctAnswer": "b",
+          "bookExample": "Em uma equipe com 'psychological safety', as pessoas se sentem confortáveis questionando o líder e admitindo erros."
+        },
+        {
+          "id": "4",
+          "question": "Por que 'psychological safety' é importante para liderança?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque leva a melhores decisões e inovação" },
+            { "value": "c", "label": "Porque líderes devem ser temidos" },
+            { "value": "d", "label": "Porque segurança não importa" }
+          ],
+          "explanation": "'Psychological safety' é importante porque leva a melhores decisões e inovação - as pessoas se sentem confortáveis compartilhando ideias.",
+          "hint": "Como você cria uma equipe que toma melhores decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Uma equipe com 'psychological safety' é mais inovadora porque as pessoas se sentem confortáveis compartilhando ideias criativas."
+        },
+        {
+          "id": "5",
+          "question": "Como um líder pode criar 'psychological safety'?",
+          "options": [
+            { "value": "a", "label": "Ser autoritário" },
+            { "value": "b", "label": "Admitir erros, valorizar questões e recompensar honestidade" },
+            { "value": "c", "label": "Punir erros" },
+            { "value": "d", "label": "Não há forma de criar" }
+          ],
+          "explanation": "Um líder pode criar 'psychological safety' admitindo erros, valorizando questões e recompensando honestidade, em vez de punir.",
+          "hint": "Como você cria confiança em uma equipe?",
+          "correctAnswer": "b",
+          "bookExample": "Um líder que admite seus erros e aprende com eles cria 'psychological safety' que leva a melhores decisões da equipe."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'delegation'?",
+          "options": [
+            { "value": "a", "label": "Dar tarefas a outras pessoas" },
+            { "value": "b", "label": "Confiar em outras pessoas para tomar decisões e agir" },
+            { "value": "c", "label": "Uma forma de evitar trabalho" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Delegation' é confiar em outras pessoas para tomar decisões e agir, em vez de fazer tudo sozinho.",
+          "hint": "Como um líder pode fazer mais?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que delega decisões a seus gerentes pode focar em estratégia de longo prazo, em vez de decisões do dia a dia."
+        },
+        {
+          "id": "7",
+          "question": "Por que 'delegation' é importante para liderança?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque permite que o líder se foque em decisões estratégicas" },
+            { "value": "c", "label": "Porque líderes devem fazer tudo" },
+            { "value": "d", "label": "Porque 'delegation' não funciona" }
+          ],
+          "explanation": "'Delegation' é importante porque permite que o líder se foque em decisões estratégicas, enquanto a equipe toma decisões operacionais.",
+          "hint": "Como um líder pode ser mais efetivo?",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que delega bem pode focar em estratégia, enquanto seus gerentes focam em execução."
+        },
+        {
+          "id": "8",
+          "question": "Como um líder pode melhorar a tomada de decisão da equipe?",
+          "options": [
+            { "value": "a", "label": "Tomar todas as decisões" },
+            { "value": "b", "label": "Criar 'psychological safety', delegar e fornecer feedback" },
+            { "value": "c", "label": "Punir erros" },
+            { "value": "d", "label": "Não há forma de melhorar" }
+          ],
+          "explanation": "Um líder pode melhorar a tomada de decisão da equipe criando 'psychological safety', delegando e fornecendo feedback construtivo.",
+          "hint": "Como você desenvolve uma equipe que toma boas decisões?",
+          "correctAnswer": "b",
+          "bookExample": "Um líder que cria 'psychological safety', delega decisões e fornece feedback desenvolve uma equipe que toma melhores decisões."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas à liderança?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Pensar em termos de probabilidades, comunicar incerteza e criar ambiente para boas decisões" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas pensando em termos de probabilidades, comunicando incerteza e criando um ambiente para boas decisões.",
+          "hint": "Como você é um melhor líder?",
+          "correctAnswer": "b",
+          "bookExample": "Um líder que pensa em apostas pode comunicar estratégia em termos de probabilidades, criar 'psychological safety' e delegar bem."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Aprendizado Contínuo e Melhoria",
+      "description": "Aprenda como usar o pensamento em apostas para melhorar continuamente",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que é importante ter uma mentalidade de aprendizado?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque permite que você melhore suas apostas ao longo do tempo" },
+            { "value": "c", "label": "Porque você já sabe tudo" },
+            { "value": "d", "label": "Porque aprendizado é difícil" }
+          ],
+          "explanation": "Uma mentalidade de aprendizado permite que você melhore suas apostas ao longo do tempo, reconhecendo que sempre há mais a aprender.",
+          "hint": "Como você melhora ao longo do tempo?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker com mentalidade de aprendizado estuda o jogo constantemente e melhora suas apostas ao longo do tempo."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'deliberate practice'?",
+          "options": [
+            { "value": "a", "label": "Praticar algo" },
+            { "value": "b", "label": "Praticar com foco em melhorar habilidades específicas" },
+            { "value": "c", "label": "Uma forma de exercício" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Deliberate practice' é praticar com foco em melhorar habilidades específicas, em vez de apenas repetir.",
+          "hint": "Como você melhora uma habilidade?",
+          "correctAnswer": "b",
+          "bookExample": "Um músico que pratica 'deliberate practice' foca em partes difíceis da música, em vez de apenas tocar a música inteira."
+        },
+        {
+          "id": "3",
+          "question": "Por que 'deliberate practice' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque leva a melhoria mais rápida e maior" },
+            { "value": "c", "label": "Porque praticar é suficiente" },
+            { "value": "d", "label": "Porque não há forma de melhorar" }
+          ],
+          "explanation": "'Deliberate practice' é importante porque leva a melhoria mais rápida e maior do que praticar sem foco.",
+          "hint": "Como você melhora mais rápido?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de xadrez que faz 'deliberate practice' melhora mais rápido do que alguém que apenas joga partidas."
+        },
+        {
+          "id": "4",
+          "question": "O que é 'meta-cognition'?",
+          "options": [
+            { "value": "a", "label": "Pensar sobre algo" },
+            { "value": "b", "label": "Pensar sobre como você pensa" },
+            { "value": "c", "label": "Uma forma de cognição" },
+            { "value": "d", "label": "Uma estratégia de aprendizado" }
+          ],
+          "explanation": "'Meta-cognition' é pensar sobre como você pensa - refletir sobre seu próprio processo de pensamento e decisão.",
+          "hint": "Como você melhora seu pensamento?",
+          "correctAnswer": "b",
+          "bookExample": "Um estudante que pratica 'meta-cognition' reflete sobre como estuda e ajusta sua estratégia de estudo."
+        },
+        {
+          "id": "5",
+          "question": "Por que 'meta-cognition' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque permite que você melhore seu processo de pensamento" },
+            { "value": "c", "label": "Porque você já pensa bem" },
+            { "value": "d", "label": "Porque não há forma de melhorar" }
+          ],
+          "explanation": "'Meta-cognition' é importante porque permite que você melhore seu processo de pensamento, reconhecendo vieses e melhorando.",
+          "hint": "Como você melhora seu pensamento?",
+          "correctAnswer": "b",
+          "bookExample": "Um tomador de decisão que pratica 'meta-cognition' reflete sobre seus vieses e melhora suas futuras decisões."
+        },
+        {
+          "id": "6",
+          "question": "O que é 'growth mindset'?",
+          "options": [
+            { "value": "a", "label": "Uma mentalidade de crescimento" },
+            { "value": "b", "label": "A crença de que você pode melhorar através de esforço" },
+            { "value": "c", "label": "Uma forma de pensar" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Growth mindset' é a crença de que você pode melhorar através de esforço, em vez de acreditar que suas habilidades são fixas.",
+          "hint": "Como você vê suas habilidades?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa com 'growth mindset' acredita que pode melhorar em matemática através de esforço, em vez de acreditar que é 'ruim em matemática'."
+        },
+        {
+          "id": "7",
+          "question": "Por que 'growth mindset' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque leva a maior esforço e melhoria" },
+            { "value": "c", "label": "Porque suas habilidades são fixas" },
+            { "value": "d", "label": "Porque não há forma de melhorar" }
+          ],
+          "explanation": "'Growth mindset' é importante porque leva a maior esforço e melhoria - você acredita que pode melhorar.",
+          "hint": "Como você melhora suas habilidades?",
+          "correctAnswer": "b",
+          "bookExample": "Um estudante com 'growth mindset' que falha em um teste acredita que pode melhorar, em vez de desistir."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos criar uma cultura de aprendizado contínuo?",
+          "options": [
+            { "value": "a", "label": "Ignorar aprendizado" },
+            { "value": "b", "label": "Valorizar 'deliberate practice', 'meta-cognition' e 'growth mindset'" },
+            { "value": "c", "label": "Punir erros" },
+            { "value": "d", "label": "Não há forma de criar" }
+          ],
+          "explanation": "Podemos criar uma cultura de aprendizado contínuo valorizando 'deliberate practice', 'meta-cognition' e 'growth mindset'.",
+          "hint": "Como você cria uma organização que aprende?",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que valoriza 'deliberate practice' e 'growth mindset' cria uma cultura de aprendizado contínuo."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas ao aprendizado contínuo?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Fazer apostas, receber feedback e melhorar continuamente" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas fazendo apostas, recebendo feedback e melhorando continuamente nosso processo de decisão.",
+          "hint": "Como você melhora continuamente?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que pensa em apostas faz decisões, recebe feedback e melhora continuamente seu processo de decisão."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Resiliência e Recuperação",
+      "description": "Aprenda como usar o pensamento em apostas para ser mais resiliente",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Como o pensamento em apostas ajuda com resiliência?",
+          "options": [
+            { "value": "a", "label": "Não ajuda" },
+            { "value": "b", "label": "Reconhecendo que resultados ruins podem vir de boas decisões" },
+            { "value": "c", "label": "Ignorando fracassos" },
+            { "value": "d", "label": "Evitando riscos" }
+          ],
+          "explanation": "O pensamento em apostas ajuda com resiliência reconhecendo que resultados ruins podem vir de boas decisões, reduzindo culpa e aumentando aprendizado.",
+          "hint": "Como você lida com fracasso?",
+          "correctAnswer": "b",
+          "bookExample": "Um empreendedor que pensa em apostas pode lidar melhor com o fracasso de um negócio, reconhecendo que era uma boa aposta mesmo que tenha falhado."
+        },
+        {
+          "id": "2",
+          "question": "O que é 'antifragility'?",
+          "options": [
+            { "value": "a", "label": "Não ser frágil" },
+            { "value": "b", "label": "Melhorar com adversidade e volatilidade" },
+            { "value": "c", "label": "Uma forma de resistência" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Antifragility' é melhorar com adversidade e volatilidade, em vez de apenas resistir. Você fica mais forte com desafios.",
+          "hint": "Como você fica mais forte com adversidade?",
+          "correctAnswer": "b",
+          "bookExample": "Um sistema antifragile melhora quando há volatilidade, em vez de apenas sobreviver a ela."
+        },
+        {
+          "id": "3",
+          "question": "Por que 'antifragility' é importante?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque permite que você prospere em incerteza" },
+            { "value": "c", "label": "Porque você deve evitar adversidade" },
+            { "value": "d", "label": "Porque não há forma de melhorar" }
+          ],
+          "explanation": "'Antifragility' é importante porque permite que você prospere em incerteza, em vez de apenas sobreviver.",
+          "hint": "Como você prospera em incerteza?",
+          "correctAnswer": "b",
+          "bookExample": "Um investidor antifragile prospera em mercados voláteis, em vez de apenas sobreviver a eles."
+        },
+        {
+          "id": "4",
+          "question": "Como podemos desenvolver 'antifragility'?",
+          "options": [
+            { "value": "a", "label": "Evitar riscos" },
+            { "value": "b", "label": "Tomar pequenos riscos, aprender e melhorar" },
+            { "value": "c", "label": "Ignorar adversidade" },
+            { "value": "d", "label": "Não há forma de desenvolver" }
+          ],
+          "explanation": "Podemos desenvolver 'antifragility' tomando pequenos riscos, aprendendo com fracassos e melhorando continuamente.",
+          "hint": "Como você fica mais forte?",
+          "correctAnswer": "b",
+          "bookExample": "Um empreendedor que toma pequenos riscos, aprende com fracassos e melhora desenvolve 'antifragility'."
+        },
+        {
+          "id": "5",
+          "question": "O que é 'optionality' em resiliência?",
+          "options": [
+            { "value": "a", "label": "Ter opções" },
+            { "value": "b", "label": "Manter múltiplas opções para se recuperar de adversidade" },
+            { "value": "c", "label": "Uma forma de resistência" },
+            { "value": "d", "label": "Uma estratégia de negócios" }
+          ],
+          "explanation": "'Optionality' em resiliência é manter múltiplas opções para se recuperar de adversidade, reduzindo risco de fracasso total.",
+          "hint": "Como você se prepara para adversidade?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que tem múltiplas fontes de renda é mais resiliente do que alguém que depende de uma única fonte."
+        },
+        {
+          "id": "6",
+          "question": "Por que 'optionality' é importante para resiliência?",
+          "options": [
+            { "value": "a", "label": "Porque não importa" },
+            { "value": "b", "label": "Porque reduz risco de fracasso total" },
+            { "value": "c", "label": "Porque você deve depender de uma coisa" },
+            { "value": "d", "label": "Porque não há forma de melhorar" }
+          ],
+          "explanation": "'Optionality' é importante porque reduz risco de fracasso total - você tem alternativas se uma opção falhar.",
+          "hint": "Como você reduz risco de fracasso?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que tem múltiplas habilidades é mais resiliente do que alguém que tem apenas uma."
+        },
+        {
+          "id": "7",
+          "question": "O que é 'post-traumatic growth'?",
+          "options": [
+            { "value": "a", "label": "Crescimento após trauma" },
+            { "value": "b", "label": "Melhorar e crescer como resultado de adversidade" },
+            { "value": "c", "label": "Uma forma de recuperação" },
+            { "value": "d", "label": "Uma estratégia de saúde mental" }
+          ],
+          "explanation": "'Post-traumatic growth' é melhorar e crescer como resultado de adversidade, em vez de apenas se recuperar.",
+          "hint": "Como você cresce com adversidade?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que passa por uma doença grave pode crescer em sabedoria e apreciação pela vida."
+        },
+        {
+          "id": "8",
+          "question": "Como podemos promover 'post-traumatic growth'?",
+          "options": [
+            { "value": "a", "label": "Ignorar adversidade" },
+            { "value": "b", "label": "Refletir sobre aprendizados e encontrar significado na adversidade" },
+            { "value": "c", "label": "Evitar adversidade" },
+            { "value": "d", "label": "Não há forma de promover" }
+          ],
+          "explanation": "Podemos promover 'post-traumatic growth' refletindo sobre aprendizados e encontrando significado na adversidade.",
+          "hint": "Como você encontra significado em adversidade?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que passa por um fracasso pode refletir sobre aprendizados e encontrar significado, levando a crescimento."
+        },
+        {
+          "id": "9",
+          "question": "Como podemos aplicar o pensamento em apostas para ser mais resiliente?",
+          "options": [
+            { "value": "a", "label": "Ignorar apostas" },
+            { "value": "b", "label": "Reconhecer que boas apostas podem falhar, manter opções e aprender com adversidade" },
+            { "value": "c", "label": "Confiar apenas em intuição" },
+            { "value": "d", "label": "Não há forma de aplicar" }
+          ],
+          "explanation": "Podemos aplicar o pensamento em apostas reconhecendo que boas apostas podem falhar, mantendo opções e aprendendo com adversidade.",
+          "hint": "Como você é mais resiliente?",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa que pensa em apostas pode ser mais resiliente reconhecendo que uma boa aposta pode falhar, mantendo opções e aprendendo."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Domínio do Pensamento em Apostas",
+      "description": "Integre tudo que aprendeu sobre o pensamento em apostas",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o conceito central do 'Thinking in Bets'?",
+          "options": [
+            { "value": "a", "label": "Ganhar dinheiro em apostas" },
+            { "value": "b", "label": "Tomar melhores decisões reconhecendo incerteza e pensando probabilisticamente" },
+            { "value": "c", "label": "Evitar todas as decisões" },
+            { "value": "d", "label": "Prever o futuro com precisão" }
+          ],
+          "explanation": "O conceito central é tomar melhores decisões reconhecendo incerteza e pensando probabilisticamente, em vez de buscar certeza.",
+          "hint": "Qual é a lição principal do livro?",
+          "correctAnswer": "b",
+          "bookExample": "Annie Duke ensina que você pode tomar melhores decisões em qualquer contexto pensando como um jogador de poker profissional."
+        },
+        {
+          "id": "2",
+          "question": "Como o pensamento em apostas muda sua perspectiva sobre decisões?",
+          "options": [
+            { "value": "a", "label": "Não muda" },
+            { "value": "b", "label": "Você reconhece que toda decisão é uma aposta com incerteza" },
+            { "value": "c", "label": "Você evita decisões" },
+            { "value": "d", "label": "Você confiar apenas em sorte" }
+          ],
+          "explanation": "O pensamento em apostas muda sua perspectiva reconhecendo que toda decisão é uma aposta com incerteza, não uma certeza.",
+          "hint": "Como você vê as decisões diferentemente?",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de pensar 'devo fazer isso ou não', você pensa 'qual é a probabilidade de sucesso e qual é o valor esperado'."
+        },
+        {
+          "id": "3",
+          "question": "Qual é a importância de separar decisões de resultados?",
+          "options": [
+            { "value": "a", "label": "Não é importante" },
+            { "value": "b", "label": "Permite que você melhore seu processo de decisão independentemente da sorte" },
+            { "value": "c", "label": "Porque resultados não importam" },
+            { "value": "d", "label": "Porque decisões não importam" }
+          ],
+          "explanation": "Separar decisões de resultados permite que você melhore seu processo de decisão independentemente da sorte, levando a melhores decisões futuras.",
+          "hint": "Por que você deve analisar seu processo, não apenas resultados?",
+          "correctAnswer": "b",
+          "bookExample": "Um jogador de poker que analisa seu processo de decisão melhora mais rápido do que alguém que apenas olha para resultados."
+        },
+        {
+          "id": "4",
+          "question": "Como o pensamento em apostas se aplica a diferentes áreas da vida?",
+          "options": [
+            { "value": "a", "label": "Não se aplica" },
+            { "value": "b", "label": "Se aplica a carreira, relacionamentos, saúde, finanças e qualquer decisão" },
+            { "value": "c", "label": "Se aplica apenas a negócios" },
+            { "value": "d", "label": "Se aplica apenas a investimentos" }
+          ],
+          "explanation": "O pensamento em apostas se aplica a qualquer área onde você toma decisões com incerteza - carreira, relacionamentos, saúde, finanças.",
+          "hint": "Onde você pode usar o pensamento em apostas?",
+          "correctAnswer": "b",
+          "bookExample": "Você pode usar o pensamento em apostas ao escolher uma carreira, um parceiro, um tratamento médico ou um investimento."
+        },
+        {
+          "id": "5",
+          "question": "Qual é o papel da diversidade em boas decisões?",
+          "options": [
+            { "value": "a", "label": "Não tem papel" },
+            { "value": "b", "label": "Diversidade traz perspectivas diferentes que melhoram decisões" },
+            { "value": "c", "label": "Diversidade prejudica decisões" },
+            { "value": "d", "label": "Diversidade não importa" }
+          ],
+          "explanation": "Diversidade traz perspectivas diferentes que melhoram decisões, reduzindo vieses e aumentando qualidade.",
+          "hint": "Por que você deve buscar perspectivas diferentes?",
+          "correctAnswer": "b",
+          "bookExample": "Um time diverso toma melhores decisões do que um time homogêneo porque traz perspectivas diferentes."
+        },
+        {
+          "id": "6",
+          "question": "Como o feedback melhora suas apostas?",
+          "options": [
+            { "value": "a", "label": "Não melhora" },
+            { "value": "b", "label": "Feedback permite que você aprenda e melhore seu processo de decisão" },
+            { "value": "c", "label": "Feedback prejudica" },
+            { "value": "d", "label": "Feedback não importa" }
+          ],
+          "explanation": "Feedback permite que você aprenda e melhore seu processo de decisão, criando um 'feedback loop' de melhoria contínua.",
+          "hint": "Como você melhora com feedback?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que busca feedback ativo melhora mais rápido do que alguém que ignora feedback."
+        },
+        {
+          "id": "7",
+          "question": "Qual é a importância da calibração?",
+          "options": [
+            { "value": "a", "label": "Não é importante" },
+            { "value": "b", "label": "Calibração alinha sua confiança com sua precisão real" },
+            { "value": "c", "label": "Calibração prejudica" },
+            { "value": "d", "label": "Calibração não importa" }
+          ],
+          "explanation": "Calibração alinha sua confiança com sua precisão real, permitindo que você tome decisões melhores com confiança apropriada.",
+          "hint": "Como você sabe se sua confiança é apropriada?",
+          "correctAnswer": "b",
+          "bookExample": "Um meteorologista bem calibrado que diz 70% de chance de chuva está certo 70% das vezes."
+        },
+        {
+          "id": "8",
+          "question": "Como o pensamento em apostas promove resiliência?",
+          "options": [
+            { "value": "a", "label": "Não promove" },
+            { "value": "b", "label": "Reconhecendo que boas apostas podem falhar, você é mais resiliente com fracasso" },
+            { "value": "c", "label": "Promove evitando riscos" },
+            { "value": "d", "label": "Não há relação" }
+          ],
+          "explanation": "O pensamento em apostas promove resiliência reconhecendo que boas apostas podem falhar, reduzindo culpa e aumentando aprendizado.",
+          "hint": "Como você lida melhor com fracasso?",
+          "correctAnswer": "b",
+          "bookExample": "Um empreendedor que pensa em apostas pode lidar melhor com fracasso, reconhecendo que era uma boa aposta mesmo que tenha falhado."
+        },
+        {
+          "id": "9",
+          "question": "Qual é o próximo passo após aprender sobre o pensamento em apostas?",
+          "options": [
+            { "value": "a", "label": "Parar de aprender" },
+            { "value": "b", "label": "Aplicar o pensamento em apostas às suas decisões e refletir continuamente" },
+            { "value": "c", "label": "Ignorar o que aprendeu" },
+            { "value": "d", "label": "Não há próximo passo" }
+          ],
+          "explanation": "O próximo passo é aplicar o pensamento em apostas às suas decisões e refletir continuamente sobre seu processo.",
+          "hint": "Como você coloca em prática o que aprendeu?",
+          "correctAnswer": "b",
+          "bookExample": "Você pode começar a aplicar o pensamento em apostas a uma decisão importante em sua vida e refletir sobre o processo."
+        },
+        {
+          "id": "10",
+          "question": "Como você pode continuar melhorando seu pensamento em apostas?",
+          "options": [
+            { "value": "a", "label": "Parar de aprender" },
+            { "value": "b", "label": "Buscar feedback, refletir sobre decisões e estudar continuamente" },
+            { "value": "c", "label": "Ignorar novas informações" },
+            { "value": "d", "label": "Não há forma de melhorar" }
+          ],
+          "explanation": "Você pode continuar melhorando buscando feedback, refletindo sobre suas decisões e estudando continuamente sobre tomada de decisão.",
+          "hint": "Como você melhora continuamente?",
+          "correctAnswer": "b",
+          "bookExample": "Um profissional que busca feedback, reflete sobre decisões e estuda continuamente melhora seu pensamento em apostas ao longo do tempo."
+        }
+      ]
+    }
+  ]
+}
