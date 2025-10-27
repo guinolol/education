@@ -1,9 +1,216 @@
 ### File: src/data/foundingSalesLessons.json
 
-Continuing Founding Sales microlessons JSON - adding more lessons
+Creating Founding Sales microlessons JSON with same structure as microLessons.json
 
 ```json
 
+[
+  {
+    "id": 1,
+    "title": "Founding Sales: O Que é Venda no Early-Stage",
+    "conclusionMessage": "Você completou a primeira microlição sobre Founding Sales. Agora entende que venda no early-stage é aprendizado, não só conversão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal objetivo das vendas no early-stage segundo Peter Kazanjy?",
+        "options": [
+          { "value": "a", "label": "Fechar o maior número de vendas possível" },
+          { "value": "b", "label": "Aprender com o mercado e validar o Product-Market Fit" },
+          { "value": "c", "label": "Contratar uma equipe de vendas grande" },
+          { "value": "d", "label": "Impressionar investidores com pipeline" }
+        ],
+        "explanation": "No early-stage, o objetivo das vendas é aprender: entender quem compra, por que compra, o que funciona na mensagem, o que falta no produto. Vendas é um instrumento de discovery, não só de revenue.",
+        "hint": "Pense em 'aprendizado validado' antes de 'receita'.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy conta que no primeiro ano do TalentBin eles ‘vendiam’ para aprender, não para bater quota — cada call era uma entrevista de customer-development com CTA de assinatura."
+      },
+      {
+        "id": "2",
+        "question": "Por que o fundador técnico deve fazer as primeiras vendas ele mesmo?",
+        "options": [
+          { "value": "a", "label": "Para economizar salário de vendedor" },
+          { "value": "b", "label": "Para capturar feedback cru e iterar produto e mensagem em tempo real" },
+          { "value": "c", "label": "Para provar que é bom de pitch" },
+          { "value": "d", "label": "Porque não consegue contratar ninguém" }
+        ],
+        "explanation": "Quem entende profundamente o produto e a visão é o fundador. Ele consegue ajustar features, roadmap e narrativa na hora da reação do cliente — algo que um vendedor contratado não tem autonomia para fazer.",
+        "hint": "Feedback loop curto é ouro no early-stage.",
+        "correctAnswer": "b",
+        "bookExample": "No capítulo 2 Kazanjy descreve o ‘founder-sales’ como o único jeito de descobrir que ‘recruiters’ ligavam mais para ‘sourcing velocity’ do que para ‘AI matching’ — insight que mudou o produto."
+      },
+      {
+        "id": "3",
+        "question": "O que diferencia ‘Founding Sales’ de ‘Sales Management’?",
+        "options": [
+          { "value": "a", "label": "Tamanho da equipe" },
+          { "value": "b", "label": "Founding Sales é exploratório; Sales Management é escalável e repetitivo" },
+          { "value": "c", "label": "Founding Sales usa CRM; Sales Management não" },
+          { "value": "d", "label": "Nada, são sinônimos" }
+        ],
+        "explanation": "Founding Sales = descobrir o playbook. Sales Management = executar o playbook com gente e processo. Um é arte de explorar, outro é ciência de escalar.",
+        "hint": "Exploração vs. exploração.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy compara a fase founding com ‘cartografar a terra desconhecida’ e a fase management com ‘construir estrada de ferro sobre o mapa’."
+      },
+      {
+        "id": "4",
+        "question": "Qual é o sinal de que você saiu do ‘founding sales’ e pode contratar o primeiro reps?",
+        "options": [
+          { "value": "a", "label": "Quando bater $1 M de ARR" },
+          { "value": "b", "label": "Quando você consegue prever pipeline, close rate e ticket médio com consistência" },
+          { "value": "c", "label": "Quando o investidor pedir" },
+          { "value": "d", "label": "Quando estiver cansado de vender" }
+        ],
+        "explanation": "Contrate quando o processo é repetível: sabe quem é o ICP, qual mensagem funciona, quantos leads precisa, qual ciclo de vendas. Se ainda ‘vende no escuro’, você ainda está no founding.",
+        "hint": "Repetibilidade > receita absoluta.",
+        "correctAnswer": "b",
+        "bookExample": "No capítulo 8 ele lista os 3 KPIs: pipeline coverage ≥ 3x, win-rate ≥ 20 %, sales-cycle estável ± 15 % por quarter."
+      },
+      {
+        "id": "5",
+        "question": "Por que ‘não existe venda B2B, só B2H’ (Business-to-Human)?",
+        "options": [
+          { "value": "a", "label": "Porque empresas não têm sentimentos" },
+          { "value": "b", "label": "Porque sempre há uma pessoa com medo, ego e KPI pessoal tomando a decisão" },
+          { "value": "c", "label": "Porque todo mundo usa WhatsApp" },
+          { "value": "d", "label": "Porque contratos são assinados por robôs" }
+        ],
+        "explanation": "Mesmo em enterprise, quem assina é um ser humano que quer evitar risco de carreira, mostrar resultado para o chefe e ganhar bônus. Vender é endereçar motivação pessoal mascarada de processo corporativo.",
+        "hint": "Medo e ganho pessoal movem carrinho de compra corporativo.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy conta que fechou uma conta da Google porque o recruiter queria ‘source 50 eng/week para bater a meta de Q4 e garantir o promotion’."
+      },
+      {
+        "id": "6",
+        "question": "Qual é a métrica mais perigosa no early-stage?",
+        "options": [
+          { "value": "a", "label": "Churn" },
+          { "value": "b", "label": "Receita mascarando falta de Product-Market Fit" },
+          { "value": "c", "label": "Custo de aquisição" },
+          { "value": "d", "label": "Tempo de sales-cycle" }
+        ],
+        "explanation": "Early revenue pode vir de ‘venda heróica’ ou de clientes early-adopters que não representam o mercado. Celebrar receita sem olhar retenção e expansão esconde buracos de PMF.",
+        "hint": "Receita sem retenção é ilusão.",
+        "correctAnswer": "b",
+        "bookExample": "Ele cita casos de startups com $500 k ARR mas churn 8 %/mês — ‘vendendo para amigos’ — que implodiram quando tentaram escalar."
+      },
+      {
+        "id": "7",
+        "question": "O que é ‘sales-ready product’ e não ‘feature-complete product’?",
+        "options": [
+          { "value": "a", "label": "Produto que tem todas as features do roadmap" },
+          { "value": "b", "label": "Produto que resolve a dor principal o suficiente para que alguém pague e use sem churn imediato" },
+          { "value": "c", "label": "Produto com botão de upgrade" },
+          { "value": "d", "label": "Produto que o time de vendas gosta" }
+        ],
+        "explanation": "Sales-ready = cliente consegue valor imediato e você consegue caso de uso referenciável. Feature-complete é miragem que adia venda e aprendizado.",
+        "hint": "Bom o bastante para pagar e indicar.",
+        "correctAnswer": "b",
+        "bookExample": "TalentBin lançou com ‘sourcing de e-mails públicos’ — uma única feature — mas já reduzia tempo de sourcing em 70 %, bastando para vender e renovar."
+      },
+      {
+        "id": "8",
+        "question": "Qual mindset o fundador deve adotar antes de ligar para o primeiro prospecto?",
+        "options": [
+          { "value": "a", "label": "Preciso vender a qualquer custo" },
+          { "value": "b", "label": "Preciso descobrir se minha hipótese de valor é real; a venda é um side-effect" },
+          { "value": "c", "label": "Preciso impressionar o investidor" },
+          { "value": "d", "label": "Preciso bater quota" }
+        ],
+        "explanation": "Mindset de cientista: cada call é experimento. Você testa hipótese de segmento, dor, mensagem, preço. Venda é validação, não caça ao tesouro.",
+        "hint": "Discovery > closing no início.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy mandava e-mail com subject ‘Experiment — 15-min chat about sourcing pain?’ para deixar claro que era aprendizado, não pitch duro."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Founding Sales: Ideal Customer Profile (ICP)",
+    "conclusionMessage": "Você aprendeu a identificar e focar no ICP — o cliente que compra rápido, renova e indica.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é ICP (Ideal Customer Profile)?",
+        "options": [
+          { "value": "a", "label": "Qualquer empresa que tenha dinheiro" },
+          { "value": "b", "label": "O perfil que combina dor aguda, orçamento, acesso ao decisor e fit cultural com seu produto" },
+          { "value": "c", "label": "A lista de leads do CRM" },
+          { "value": "d", "label": "O maior cliente que você conseguir" }
+        ],
+        "explanation": "ICP é o retrato do cliente que mais rapidamente entende valor, compra, renova e indica outros. Vender fora do ICP aumenta sales-cycle, churn e CAC.",
+        "hint": "É o cliente ‘perfeito’ para o seu estágio atual.",
+        "correctAnswer": "b",
+        "bookExample": "No capítulo 4 Kazanjy desenha o ICP do TalentBin: ‘tech companies 50-500 FTEs, talent team ≥ 3 people, sourcing > 30 reqs/quarter, already pay for LinkedIn Recruiter’."
+      },
+      {
+        "id": "2",
+        "question": "Qual é o primeiro passo para descobrir o ICP?",
+        "options": [
+          { "value": "a", "label": "Contratar uma consultoria" },
+          { "value": "b", "label": "Mapear 20 clientes que mais rápico compraram, usaram e expandiram — extrair características comuns" },
+          { "value": "c", "label": "Adivinhar baseado no concorrente" },
+          { "value": "d", "label": "Perguntar ao investidor" }
+        ],
+        "explanation": "ICP emerge dos dados, não da intuição. Liste clientes early-adopters, cruz setor, tamanho, use-case, buyer persona, ticket, tempo de ciclo. Padrão vira ICP.",
+        "hint": "Dados históricos > achismo.",
+        "correctAnswer": "b",
+        "bookExample": "Ele mostra uma planilha real onde colunas eram: industry, headcount, reqs/year, tools stack, buyer title, deal size, days to close, expansion ARR."
+      },
+      {
+        "id": "3",
+        "question": "Por que vender fora do ICP pode matar a startup?",
+        "options": [
+          { "value": "a", "label": "Porque você vai gastar tempo em ciclo longo, churn alto e case-studies ruins" },
+          { "value": "b", "label": "Porque o cliente vai pedir desconto" },
+          { "value": "c", "label": "Porque o investidor não gosta" },
+          { "value": "d", "label": "Porque o produto não tem integração" }
+        ],
+        "explanation": "Clientes fora do ICP compram por pressão ou curiosidade, mas não renovam. Você gasta precioso founder-time em ciclo longo e ainda perde o case de referência.",
+        "hint": "Churn de cliente ruim é ‘venda que volta para trás’.",
+        "correctAnswer": "a",
+        "bookExample": "Kazanjy conta que ‘enterprise logo’ que levou 9 meses para fechar e churnou em 6 meses virou ‘anti-case’ que assustou prospects futuros."
+      },
+      {
+        "id": "4",
+        "question": "Qual pergunta ajuda a validar se o lead está dentro do ICP?",
+        "options": [
+          { "value": "a", "label": "Qual é o budget?" },
+          { "value": "b", "label": "Quantas vezes você tentou resolver essa dor antes e o que aconteceu?" },
+          { "value": "c", "label": "Você gosta da nossa cor de logo?" },
+          { "value": "d", "label": "Quando você vai assinar?" }
+        ],
+        "explanation": "Histórico de tentativas revela severidade da dor. ICP tem dor recorrente, já gastou dinheiro tentando resolver e ainda está insatisfeito — sinal de urgência real.",
+        "hint": "Dor com histórico = ICP forte.",
+        "correctAnswer": "b",
+        "bookExample": "Ele usa o script: ‘Tell me about the last tool you bought for sourcing — what worked, what didn’t, and what did it cost you?’"
+      },
+      {
+        "id": "5",
+        "question": "O que é ‘expansion ICP’?",
+        "options": [
+          { "value": "a", "label": "Cliente que compra plano maior" },
+          { "value": "b", "label": "Perfil do cliente que além de comprar tem potencial de upsell/cross-sell e alta lifetime value" },
+          { "value": "c", "label": "Empresa que cresce rápido" },
+          { "value": "d", "label": "Cliente que indica 10 amigos" }
+        ],
+        "explanation": "Expansion ICP inclui variáveis de crescimento: equipe que escala, budget crescente, uso que aumenta com mais seats ou modules. Escolher esse perfil desde o início acelera ARR mais tarde.",
+        "hint": "Pense em ‘cliente que cresce com você’.",
+        "correctAnswer": "b",
+        "bookExample": "TalentBin descobriu que empresas com ≥ 30 open reqs/quarter tinham 3x mais chance de comprar plano ‘Enterprise’ no segundo ano."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o erro comum ao definir ICP baseado apenas em ‘setor’?",
+        "options": [
+          { "value": "a", "label": "Setor é irrelevante" },
+          { "value": "b", "label": "Empresas do mesmo setor podem ter maturidade, processo e urgência completamente diferentes" },
+          { "value": "c", "label": "Setor sempre funciona" },
+          { "value": "d", "label": "Setor é suficiente para preço" }
+        ],
+        "explanation": "‘Saúde’ ou ‘fintech’ são grandes demais. Um hospital público é diferente de startup health-tech. ICP precisa de variáveis comportamentais (use-case, velocidade, stack) além de setor.",
+        "hint": "Setor ≠ comportamento
+```
 ,
   {
     "id": 3,
