@@ -112,6 +112,13 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       lessons: mapLessonsToModules(scalingPeopleLessons, 600, "Scaling People", Users, "expert"),
       totalLessons: scalingPeopleLessons.length,
     },
+    {
+      id: 'foundingSales',
+      titulo: "Trilha 7: Founding Sales",
+      icone: Trophy,
+      lessons: mapLessonsToModules(foundingSalesLessons, 700, "Founding Sales", Trophy, "expert"),
+      totalLessons: foundingSalesLessons.length,
+    },
   ];
 
   // Estado para armazenar o progresso real (simulado)
