@@ -1,0 +1,5344 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Os Quatro Pilares do Scaling Up",
+      "description": "Aprenda os fundamentos dos quatro pilares que sustentam o crescimento escalável de uma empresa",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o primeiro pilar fundamental para escalar uma empresa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Aumentar o número de funcionários"
+            },
+            {
+              "value": "b",
+              "label": "Pessoas - ter o time certo no lugar certo"
+            },
+            {
+              "value": "c",
+              "label": "Investir em tecnologia"
+            },
+            {
+              "value": "d",
+              "label": "Expandir para novos mercados"
+            }
+          ],
+          "explanation": "O primeiro pilar é Pessoas. Você precisa ter as pessoas certas no lugar certo para construir uma empresa escalável.",
+          "hint": "Pense no recurso mais importante de qualquer empresa.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa que cresce de 10 para 100 pessoas sem ter a estrutura certa de liderança enfrentará caos organizacional."
+        },
+        {
+          "id": "2",
+          "question": "O segundo pilar do Scaling Up é:",
+          "options": [
+            {
+              "value": "a",
+              "label": "Estratégia - clareza sobre direção e objetivos"
+            },
+            {
+              "value": "b",
+              "label": "Finanças - maximizar lucros"
+            },
+            {
+              "value": "c",
+              "label": "Processos - automatizar tudo"
+            },
+            {
+              "value": "d",
+              "label": "Clientes - aumentar base de clientes"
+            }
+          ],
+          "explanation": "O segundo pilar é Estratégia. Todos na empresa precisam entender a direção e os objetivos claros.",
+          "hint": "Sem isso, cada pessoa puxa para um lado diferente.",
+          "correctAnswer": "a",
+          "bookExample": "Quando a estratégia é clara, até pequenos times conseguem tomar decisões rápidas e alinhadas."
+        },
+        {
+          "id": "3",
+          "question": "Qual é o terceiro pilar do Scaling Up?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Execução - fazer as coisas acontecerem"
+            },
+            {
+              "value": "b",
+              "label": "Marketing - crescer a base de clientes"
+            },
+            {
+              "value": "c",
+              "label": "Inovação - criar novos produtos"
+            },
+            {
+              "value": "d",
+              "label": "Competição - vencer os concorrentes"
+            }
+          ],
+          "explanation": "O terceiro pilar é Execução. A melhor estratégia não vale nada sem execução disciplinada.",
+          "hint": "Trata-se de fazer as coisas acontecerem de forma consistente.",
+          "correctAnswer": "a",
+          "bookExample": "Empresas que executam bem têm sistemas, processos e accountability claros em todos os níveis."
+        },
+        {
+          "id": "4",
+          "question": "O quarto pilar do Scaling Up é:",
+          "options": [
+            {
+              "value": "a",
+              "label": "Caixa - saúde financeira da empresa"
+            },
+            {
+              "value": "b",
+              "label": "Lucro - maximizar ganhos"
+            },
+            {
+              "value": "c",
+              "label": "Receita - aumentar vendas"
+            },
+            {
+              "value": "d",
+              "label": "Investimento - aplicar capital"
+            }
+          ],
+          "explanation": "O quarto pilar é Caixa. Você precisa gerenciar o fluxo de caixa para manter a empresa saudável.",
+          "hint": "Muitas empresas crescem e quebram por falta de gestão disso.",
+          "correctAnswer": "a",
+          "bookExample": "Uma empresa pode ser lucrativa no papel, mas quebrar se não gerenciar bem o fluxo de caixa."
+        },
+        {
+          "id": "5",
+          "question": "Como os quatro pilares se relacionam?",
+          "options": [
+            {
+              "value": "a",
+              "label": "São independentes e não se afetam"
+            },
+            {
+              "value": "b",
+              "label": "Trabalham juntos de forma integrada para criar crescimento sustentável"
+            },
+            {
+              "value": "c",
+              "label": "Apenas dois deles importam realmente"
+            },
+            {
+              "value": "d",
+              "label": "Devem ser implementados um de cada vez"
+            }
+          ],
+          "explanation": "Os quatro pilares trabalham juntos de forma integrada. Negligenciar um afeta todos os outros.",
+          "hint": "Pense em uma estrutura que precisa de todos os pilares para se manter de pé.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem ótimas pessoas e estratégia, mas execução fraca, o caixa sofre. Tudo está conectado."
+        },
+        {
+          "id": "6",
+          "question": "Qual é o maior desafio ao escalar uma empresa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Encontrar investimento"
+            },
+            {
+              "value": "b",
+              "label": "Manter a cultura enquanto cresce"
+            },
+            {
+              "value": "c",
+              "label": "Competir com empresas maiores"
+            },
+            {
+              "value": "d",
+              "label": "Expandir para novos países"
+            }
+          ],
+          "explanation": "Manter a cultura enquanto cresce é um dos maiores desafios. A cultura é o que mantém a empresa unida.",
+          "hint": "O que faz uma startup especial geralmente se perde quando cresce.",
+          "correctAnswer": "b",
+          "bookExample": "Empresas que crescem de 50 para 500 pessoas frequentemente perdem a agilidade e a paixão que as definiram."
+        },
+        {
+          "id": "7",
+          "question": "O que significa 'ter o time certo no lugar certo'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Contratar as pessoas mais experientes"
+            },
+            {
+              "value": "b",
+              "label": "Colocar pessoas em posições onde seus talentos são maximizados"
+            },
+            {
+              "value": "c",
+              "label": "Ter um time grande"
+            },
+            {
+              "value": "d",
+              "label": "Contratar pessoas que você gosta"
+            }
+          ],
+          "explanation": "É sobre colocar pessoas em posições onde seus talentos são maximizados e elas podem contribuir melhor.",
+          "hint": "Uma pessoa brilhante no lugar errado é um desperdício.",
+          "correctAnswer": "b",
+          "bookExample": "Um excelente vendedor pode ser um péssimo gerente de operações. Coloque-o onde ele brilha."
+        },
+        {
+          "id": "8",
+          "question": "Por que a clareza estratégica é tão importante para escalar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Porque impressiona os investidores"
+            },
+            {
+              "value": "b",
+              "label": "Porque permite que todos tomem decisões rápidas e alinhadas"
+            },
+            {
+              "value": "c",
+              "label": "Porque é obrigatório por lei"
+            },
+            {
+              "value": "d",
+              "label": "Porque reduz custos"
+            }
+          ],
+          "explanation": "Clareza estratégica permite que todos tomem decisões rápidas e alinhadas sem precisar de aprovação constante.",
+          "hint": "Pense em como as decisões são tomadas em uma empresa pequena vs grande.",
+          "correctAnswer": "b",
+          "bookExample": "Quando todos entendem a estratégia, um gerente de nível médio pode tomar decisões que antes precisavam de aprovação do CEO."
+        },
+        {
+          "id": "9",
+          "question": "Qual é a relação entre execução e accountability?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há relação"
+            },
+            {
+              "value": "b",
+              "label": "Execução forte requer accountability clara em todos os níveis"
+            },
+            {
+              "value": "c",
+              "label": "Accountability é apenas para gerentes"
+            },
+            {
+              "value": "d",
+              "label": "Execução é mais importante que accountability"
+            }
+          ],
+          "explanation": "Execução forte requer accountability clara. Sem saber quem é responsável pelo quê, nada acontece.",
+          "hint": "Quando ninguém é responsável, ninguém faz.",
+          "correctAnswer": "b",
+          "bookExample": "Empresas com execução forte têm OKRs claros, check-ins regulares e consequências para não atingir objetivos."
+        },
+        {
+          "id": "10",
+          "question": "Como o fluxo de caixa afeta a capacidade de escalar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não afeta, apenas lucro importa"
+            },
+            {
+              "value": "b",
+              "label": "Fluxo de caixa positivo permite investir em crescimento sem depender de empréstimos"
+            },
+            {
+              "value": "c",
+              "label": "Fluxo de caixa é apenas para empresas grandes"
+            },
+            {
+              "value": "d",
+              "label": "Não é importante se você tem receita"
+            }
+          ],
+          "explanation": "Fluxo de caixa positivo é essencial para escalar. Permite investir em crescimento sem depender de empréstimos caros.",
+          "hint": "Muitas startups crescem rápido e quebram por falta de caixa.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa pode ter R$1M em receita anual, mas se recebe em 90 dias e paga em 30, pode quebrar."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Construindo a Estrutura Organizacional Certa",
+      "description": "Entenda como estruturar sua organização para crescimento escalável",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o primeiro passo para construir uma estrutura organizacional escalável?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Criar um organograma complexo"
+            },
+            {
+              "value": "b",
+              "label": "Definir claramente as funções e responsabilidades"
+            },
+            {
+              "value": "c",
+              "label": "Contratar gerentes"
+            },
+            {
+              "value": "d",
+              "label": "Implementar um software de RH"
+            }
+          ],
+          "explanation": "O primeiro passo é definir claramente as funções e responsabilidades. Sem isso, há confusão e duplicação.",
+          "hint": "Comece com clareza, não com complexidade.",
+          "correctAnswer": "b",
+          "bookExample": "Quando cada pessoa sabe exatamente o que é responsável, há menos conflitos e mais produtividade."
+        },
+        {
+          "id": "2",
+          "question": "O que é um 'Accountability Chart'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Um gráfico de vendas"
+            },
+            {
+              "value": "b",
+              "label": "Um mapa visual de quem é responsável pelo quê"
+            },
+            {
+              "value": "c",
+              "label": "Um organograma tradicional"
+            },
+            {
+              "value": "d",
+              "label": "Um relatório financeiro"
+            }
+          ],
+          "explanation": "Um Accountability Chart é um mapa visual que mostra quem é responsável por cada função e resultado.",
+          "hint": "É mais que um organograma - mostra responsabilidades, não apenas títulos.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de apenas 'João é Gerente de Vendas', você define: 'João é responsável por atingir R$500k em receita mensal'."
+        },
+        {
+          "id": "3",
+          "question": "Qual é o tamanho ideal de um time de liderança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Quanto maior, melhor"
+            },
+            {
+              "value": "b",
+              "label": "Entre 3 e 8 pessoas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas o CEO"
+            },
+            {
+              "value": "d",
+              "label": "Mais de 15 pessoas"
+            }
+          ],
+          "explanation": "O tamanho ideal é entre 3 e 8 pessoas. Acima disso, a comunicação fica lenta e ineficiente.",
+          "hint": "Pense em quantas pessoas você consegue ter uma conversa profunda em uma reunião.",
+          "correctAnswer": "b",
+          "bookExample": "Um time de liderança de 5 pessoas consegue tomar decisões rápidas. Com 15, vira um comitê lento."
+        },
+        {
+          "id": "4",
+          "question": "Como você identifica se alguém está no lugar certo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Pelo tempo que trabalha na empresa"
+            },
+            {
+              "value": "b",
+              "label": "Pela capacidade de atingir objetivos e pela paixão pelo papel"
+            },
+            {
+              "value": "c",
+              "label": "Pelo salário que recebe"
+            },
+            {
+              "value": "d",
+              "label": "Pelo título que tem"
+            }
+          ],
+          "explanation": "A pessoa certa consegue atingir objetivos e tem paixão pelo papel. Sem essas duas coisas, está no lugar errado.",
+          "hint": "Observe resultados e engajamento.",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa pode ser competente, mas se não tem paixão pelo papel, eventualmente vai queimar."
+        },
+        {
+          "id": "5",
+          "question": "O que fazer quando alguém não está no lugar certo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignorar e esperar melhorar"
+            },
+            {
+              "value": "b",
+              "label": "Demitir imediatamente"
+            },
+            {
+              "value": "c",
+              "label": "Tentar colocá-lo em outro lugar ou ter uma conversa clara sobre o futuro"
+            },
+            {
+              "value": "d",
+              "label": "Dar mais responsabilidades"
+            }
+          ],
+          "explanation": "Primeiro, tente colocá-lo em outro lugar. Se não funcionar, tenha uma conversa clara sobre o futuro.",
+          "hint": "Nem sempre é demissão - às vezes é apenas o lugar errado.",
+          "correctAnswer": "c",
+          "bookExample": "Um excelente desenvolvedor pode ser um péssimo gerente. Mude-o de volta para desenvolvimento e todos ganham."
+        },
+        {
+          "id": "6",
+          "question": "Como estruturar departamentos em uma empresa em crescimento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Por função (vendas, marketing, operações)"
+            },
+            {
+              "value": "b",
+              "label": "Por produto ou cliente"
+            },
+            {
+              "value": "c",
+              "label": "Depende do estágio e tipo de negócio"
+            },
+            {
+              "value": "d",
+              "label": "Não importa, desde que haja departamentos"
+            }
+          ],
+          "explanation": "A estrutura depende do estágio e tipo de negócio. Não há uma solução única para todos.",
+          "hint": "Diferentes estruturas funcionam para diferentes empresas.",
+          "correctAnswer": "c",
+          "bookExample": "Uma startup pode ser estruturada por função. Uma empresa com múltiplos produtos pode ser estruturada por produto."
+        },
+        {
+          "id": "7",
+          "question": "Qual é o papel do CEO em uma estrutura escalável?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Fazer tudo"
+            },
+            {
+              "value": "b",
+              "label": "Definir visão, estratégia e garantir execução"
+            },
+            {
+              "value": "c",
+              "label": "Apenas gerenciar finanças"
+            },
+            {
+              "value": "d",
+              "label": "Apenas vender"
+            }
+          ],
+          "explanation": "O CEO deve definir visão, estratégia e garantir execução. Não pode fazer tudo pessoalmente.",
+          "hint": "Pense em delegação e liderança.",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que tenta fazer tudo se torna um gargalo. Um CEO que delega bem escala."
+        },
+        {
+          "id": "8",
+          "question": "Como você mantém a comunicação clara em uma estrutura maior?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Reuniões frequentes com todos"
+            },
+            {
+              "value": "b",
+              "label": "Canais de comunicação claros, reuniões estruturadas e documentação"
+            },
+            {
+              "value": "c",
+              "label": "Email para tudo"
+            },
+            {
+              "value": "d",
+              "label": "Comunicação informal apenas"
+            }
+          ],
+          "explanation": "Canais claros, reuniões estruturadas e documentação são essenciais para comunicação eficaz em empresas maiores.",
+          "hint": "Estrutura + ferramentas = comunicação clara.",
+          "correctAnswer": "b",
+          "bookExample": "Reuniões de liderança toda segunda, reuniões de departamento toda quarta, e um wiki com decisões importantes."
+        },
+        {
+          "id": "9",
+          "question": "O que é um 'Right Person, Right Seat'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas contratar pessoas boas"
+            },
+            {
+              "value": "b",
+              "label": "Ter a pessoa certa (talento) no lugar certo (função)"
+            },
+            {
+              "value": "c",
+              "label": "Ter um bom programa de RH"
+            },
+            {
+              "value": "d",
+              "label": "Pagar bem"
+            }
+          ],
+          "explanation": "É ter a pessoa certa (talento) no lugar certo (função). Ambas as coisas importam.",
+          "hint": "Pessoa certa + lugar certo = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa brilhante no lugar errado é um desperdício. Uma pessoa mediana no lugar certo prospera."
+        },
+        {
+          "id": "10",
+          "question": "Como você avalia se sua estrutura organizacional está funcionando?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Pelo número de funcionários"
+            },
+            {
+              "value": "b",
+              "label": "Pela clareza de responsabilidades, velocidade de decisão e atingimento de objetivos"
+            },
+            {
+              "value": "c",
+              "label": "Pelo tamanho do escritório"
+            },
+            {
+              "value": "d",
+              "label": "Pela quantidade de reuniões"
+            }
+          ],
+          "explanation": "Avalie pela clareza de responsabilidades, velocidade de decisão e atingimento de objetivos.",
+          "hint": "Resultados, não vanidade.",
+          "correctAnswer": "b",
+          "bookExample": "Se decisões levam semanas e objetivos não são atingidos, sua estrutura não está funcionando."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Definindo e Comunicando Sua Visão",
+      "description": "Aprenda como criar uma visão clara que inspire e guie sua organização",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é uma visão clara em uma empresa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Um slogan bonito"
+            },
+            {
+              "value": "b",
+              "label": "Uma descrição vívida do futuro que você quer criar"
+            },
+            {
+              "value": "c",
+              "label": "Um documento de 50 páginas"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para startups"
+            }
+          ],
+          "explanation": "Uma visão clara é uma descrição vívida do futuro que você quer criar. Deve ser inspiradora e memorável.",
+          "hint": "Deve ser algo que as pessoas entendam e lembrem.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'Ser a melhor empresa de software', diga: 'Queremos que cada pequeno negócio tenha acesso a ferramentas de nível empresarial'."
+        },
+        {
+          "id": "2",
+          "question": "Qual é a diferença entre visão e missão?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há diferença"
+            },
+            {
+              "value": "b",
+              "label": "Visão é o futuro; missão é o propósito atual"
+            },
+            {
+              "value": "c",
+              "label": "Missão é mais importante"
+            },
+            {
+              "value": "d",
+              "label": "Visão é apenas para marketing"
+            }
+          ],
+          "explanation": "Visão é o futuro que você quer criar. Missão é o propósito e como você cria valor hoje.",
+          "hint": "Visão = aonde você quer ir. Missão = por que você existe.",
+          "correctAnswer": "b",
+          "bookExample": "Visão: 'Um mundo onde educação de qualidade é acessível a todos'. Missão: 'Fornecer cursos online acessíveis e de alta qualidade'."
+        },
+        {
+          "id": "3",
+          "question": "Como você comunica a visão para toda a organização?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em documentos"
+            },
+            {
+              "value": "b",
+              "label": "Repetidamente, em múltiplos formatos e contextos"
+            },
+            {
+              "value": "c",
+              "label": "Uma vez por ano"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para gerentes"
+            }
+          ],
+          "explanation": "Comunique a visão repetidamente, em múltiplos formatos. Pessoas precisam ouvir várias vezes para internalizar.",
+          "hint": "Repetição é a chave para internalização.",
+          "correctAnswer": "b",
+          "bookExample": "Mencione a visão em reuniões de liderança, all-hands, onboarding, e-mails, e decisões estratégicas."
+        },
+        {
+          "id": "4",
+          "question": "Uma visão deve ser:",
+          "options": [
+            {
+              "value": "a",
+              "label": "Realista e alcançável em 1 ano"
+            },
+            {
+              "value": "b",
+              "label": "Ambiciosa, clara e inspiradora"
+            },
+            {
+              "value": "c",
+              "label": "Vaga para permitir flexibilidade"
+            },
+            {
+              "value": "d",
+              "label": "Focada apenas em lucro"
+            }
+          ],
+          "explanation": "Uma visão deve ser ambiciosa, clara e inspiradora. Deve esticar a organização, mas ser compreensível.",
+          "hint": "Deve inspirar, não desanimar.",
+          "correctAnswer": "b",
+          "bookExample": "Visão fraca: 'Crescer'. Visão forte: 'Ser a plataforma número 1 para pequenos negócios gerenciarem suas operações'."
+        },
+        {
+          "id": "5",
+          "question": "Como você alinha a estratégia com a visão?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há conexão"
+            },
+            {
+              "value": "b",
+              "label": "A estratégia é o caminho para alcançar a visão"
+            },
+            {
+              "value": "c",
+              "label": "Estratégia é mais importante que visão"
+            },
+            {
+              "value": "d",
+              "label": "Visão é apenas inspiração, estratégia é o real"
+            }
+          ],
+          "explanation": "A estratégia é o caminho para alcançar a visão. Sem estratégia, a visão é apenas um sonho.",
+          "hint": "Visão = destino. Estratégia = mapa.",
+          "correctAnswer": "b",
+          "bookExample": "Visão: 'Ser o Spotify da educação'. Estratégia: 'Focar em cursos de tecnologia, construir comunidade, e oferecer certificações'."
+        },
+        {
+          "id": "6",
+          "question": "Como você sabe se sua visão está ressoando com o time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas pelo feedback formal"
+            },
+            {
+              "value": "b",
+              "label": "Pelo engajamento, retenção e como as pessoas falam sobre a empresa"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de saber"
+            },
+            {
+              "value": "d",
+              "label": "Apenas pela produtividade"
+            }
+          ],
+          "explanation": "Você sabe pela engajamento, retenção e como as pessoas falam sobre a empresa. Pessoas apaixonadas pela visão ficam.",
+          "hint": "Observe comportamento, não apenas palavras.",
+          "correctAnswer": "b",
+          "bookExample": "Se as pessoas falam sobre a visão em conversas informais e recomendam a empresa para amigos, está funcionando."
+        },
+        {
+          "id": "7",
+          "question": "O que fazer se a visão não está ressoando?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignorar e continuar"
+            },
+            {
+              "value": "b",
+              "label": "Revisar a visão ou como você a está comunicando"
+            },
+            {
+              "value": "c",
+              "label": "Culpar o time"
+            },
+            {
+              "value": "d",
+              "label": "Mudar a visão toda semana"
+            }
+          ],
+          "explanation": "Revise a visão ou como você a está comunicando. Pode ser que a visão não seja clara ou não esteja sendo comunicada bem.",
+          "hint": "Pode ser a visão ou a comunicação.",
+          "correctAnswer": "b",
+          "bookExample": "Se o time não entende a visão, talvez ela seja muito vaga. Se entendem mas não se importam, talvez não seja inspiradora."
+        },
+        {
+          "id": "8",
+          "question": "Como você usa a visão para tomar decisões estratégicas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "A visão não afeta decisões"
+            },
+            {
+              "value": "b",
+              "label": "Toda decisão deve ser avaliada: 'Isso nos aproxima da visão?'"
+            },
+            {
+              "value": "c",
+              "label": "Apenas decisões grandes"
+            },
+            {
+              "value": "d",
+              "label": "A visão é apenas para marketing"
+            }
+          ],
+          "explanation": "Toda decisão deve ser avaliada: 'Isso nos aproxima da visão?'. Isso mantém a empresa focada.",
+          "hint": "A visão é um filtro para decisões.",
+          "correctAnswer": "b",
+          "bookExample": "Se sua visão é 'Ser a plataforma mais fácil de usar', você rejeita features complexas, mesmo que lucrativas."
+        },
+        {
+          "id": "9",
+          "question": "Uma visão deve ser revisada:",
+          "options": [
+            {
+              "value": "a",
+              "label": "Toda semana"
+            },
+            {
+              "value": "b",
+              "label": "Raramente - deve ser estável por 5-10 anos"
+            },
+            {
+              "value": "c",
+              "label": "Apenas quando a empresa falha"
+            },
+            {
+              "value": "d",
+              "label": "Nunca"
+            }
+          ],
+          "explanation": "Uma visão deve ser estável por 5-10 anos. Mudanças frequentes confundem o time.",
+          "hint": "Estabilidade cria confiança.",
+          "correctAnswer": "b",
+          "bookExample": "A visão do Google 'Organizar a informação do mundo' permanece desde 1998. A estratégia muda, a visão não."
+        },
+        {
+          "id": "10",
+          "question": "Como você envolve o time na criação da visão?",
+          "options": [
+            {
+              "value": "a",
+              "label": "O CEO cria sozinho"
+            },
+            {
+              "value": "b",
+              "label": "Envolver liderança e coletar feedback do time"
+            },
+            {
+              "value": "c",
+              "label": "Votação democrática"
+            },
+            {
+              "value": "d",
+              "label": "Não envolver ninguém"
+            }
+          ],
+          "explanation": "Envolva a liderança e colete feedback do time. Isso cria buy-in e melhora a visão.",
+          "hint": "Envolvimento = propriedade.",
+          "correctAnswer": "b",
+          "bookExample": "O CEO propõe uma visão, a liderança refina, e o time dá feedback. Resultado: uma visão que todos apoiam."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Planejamento Estratégico e OKRs",
+      "description": "Domine o planejamento estratégico e use OKRs para alinhar a organização",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é um OKR?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Um objetivo vago"
+            },
+            {
+              "value": "b",
+              "label": "Objective (objetivo) e Key Result (resultado-chave) - metas específicas e mensuráveis"
+            },
+            {
+              "value": "c",
+              "label": "Um relatório de desempenho"
+            },
+            {
+              "value": "d",
+              "label": "Um documento de planejamento"
+            }
+          ],
+          "explanation": "OKR é Objective (objetivo qualitativo) + Key Results (resultados-chave quantificáveis). Juntos criam clareza.",
+          "hint": "O = qualitativo, KR = quantitativo.",
+          "correctAnswer": "b",
+          "bookExample": "Objetivo: 'Dominar o mercado de PMEs'. Key Results: '1) Atingir 10k clientes, 2) 90% de retenção, 3) NPS de 50'."
+        },
+        {
+          "id": "2",
+          "question": "Quantos OKRs uma empresa deve ter por trimestre?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Quanto mais, melhor"
+            },
+            {
+              "value": "b",
+              "label": "Entre 3 e 5 OKRs principais"
+            },
+            {
+              "value": "c",
+              "label": "Apenas 1"
+            },
+            {
+              "value": "d",
+              "label": "Mais de 10"
+            }
+          ],
+          "explanation": "Entre 3 e 5 OKRs principais. Mais que isso, o time fica disperso.",
+          "hint": "Foco > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa pode ter: 1) Crescimento de receita, 2) Retenção de clientes, 3) Lançamento de novo produto."
+        },
+        {
+          "id": "3",
+          "question": "Como você define um Key Result bom?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Vago e inspirador"
+            },
+            {
+              "value": "b",
+              "label": "Específico, mensurável e desafiador mas alcançável"
+            },
+            {
+              "value": "c",
+              "label": "Fácil de atingir"
+            },
+            {
+              "value": "d",
+              "label": "Baseado em histórico"
+            }
+          ],
+          "explanation": "Um Key Result bom é específico, mensurável e desafiador mas alcançável. Deve esticar o time.",
+          "hint": "SMART + desafiador.",
+          "correctAnswer": "b",
+          "bookExample": "Ruim: 'Melhorar vendas'. Bom: 'Aumentar receita mensal de R$100k para R$150k'."
+        },
+        {
+          "id": "4",
+          "question": "Qual é a diferença entre OKRs e KPIs?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há diferença"
+            },
+            {
+              "value": "b",
+              "label": "OKRs são metas aspiracionais; KPIs são métricas de saúde contínua"
+            },
+            {
+              "value": "c",
+              "label": "KPIs são mais importantes"
+            },
+            {
+              "value": "d",
+              "label": "OKRs são apenas para startups"
+            }
+          ],
+          "explanation": "OKRs são metas aspiracionais para um período. KPIs são métricas de saúde contínua que você monitora sempre.",
+          "hint": "OKRs = metas. KPIs = saúde.",
+          "correctAnswer": "b",
+          "bookExample": "OKR: 'Atingir 10k clientes'. KPI: 'Taxa de churn mensal' (você monitora sempre, não apenas este trimestre)."
+        },
+        {
+          "id": "5",
+          "question": "Como você alinha OKRs em toda a organização?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Cada departamento define seus próprios OKRs independentemente"
+            },
+            {
+              "value": "b",
+              "label": "OKRs da empresa definem OKRs de departamentos, que definem OKRs de times"
+            },
+            {
+              "value": "c",
+              "label": "Não há necessidade de alinhamento"
+            },
+            {
+              "value": "d",
+              "label": "Apenas o CEO tem OKRs"
+            }
+          ],
+          "explanation": "OKRs da empresa definem OKRs de departamentos, que definem OKRs de times. Isso cria alinhamento cascata.",
+          "hint": "Top-down com feedback bottom-up.",
+          "correctAnswer": "b",
+          "bookExample": "Empresa: 'Atingir R$10M em receita'. Vendas: 'Atingir R$8M'. Marketing: 'Gerar 500 leads qualificados'."
+        },
+        {
+          "id": "6",
+          "question": "Com que frequência você deve revisar OKRs?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas no final do trimestre"
+            },
+            {
+              "value": "b",
+              "label": "Semanalmente em reuniões de liderança"
+            },
+            {
+              "value": "c",
+              "label": "Nunca"
+            },
+            {
+              "value": "d",
+              "label": "Apenas quando há problemas"
+            }
+          ],
+          "explanation": "Revise OKRs semanalmente em reuniões de liderança. Isso mantém o foco e permite ajustes rápidos.",
+          "hint": "Frequência = foco.",
+          "correctAnswer": "b",
+          "bookExample": "Toda segunda-feira, a liderança revisa: 'Estamos no caminho? O que está bloqueando? Precisamos ajustar?'"
+        },
+        {
+          "id": "7",
+          "question": "O que fazer se você não vai atingir um OKR?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Esconder e esperar ninguém notar"
+            },
+            {
+              "value": "b",
+              "label": "Comunicar cedo, entender por quê, e ajustar"
+            },
+            {
+              "value": "c",
+              "label": "Culpar o time"
+            },
+            {
+              "value": "d",
+              "label": "Mudar o OKR no final do trimestre"
+            }
+          ],
+          "explanation": "Comunique cedo, entenda por quê, e ajuste. OKRs não atingidos são oportunidades de aprendizado.",
+          "hint": "Transparência > culpa.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai atingir 70% de um OKR, comunique na semana 8 do trimestre, não na semana 12."
+        },
+        {
+          "id": "8",
+          "question": "Como você usa OKRs para tomar decisões?",
+          "options": [
+            {
+              "value": "a",
+              "label": "OKRs não afetam decisões"
+            },
+            {
+              "value": "b",
+              "label": "Toda decisão deve ser avaliada: 'Isso nos ajuda a atingir nossos OKRs?'"
+            },
+            {
+              "value": "c",
+              "label": "Apenas decisões grandes"
+            },
+            {
+              "value": "d",
+              "label": "OKRs são apenas para relatórios"
+            }
+          ],
+          "explanation": "Toda decisão deve ser avaliada: 'Isso nos ajuda a atingir nossos OKRs?'. Isso mantém a empresa focada.",
+          "hint": "OKRs são um filtro para decisões.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu OKR é 'Atingir 10k clientes', você rejeita features que não ajudam a adquirir clientes."
+        },
+        {
+          "id": "9",
+          "question": "Qual é a taxa de sucesso esperada para OKRs?",
+          "options": [
+            {
+              "value": "a",
+              "label": "100% - todos devem ser atingidos"
+            },
+            {
+              "value": "b",
+              "label": "70-80% - se você atinge 100%, seus OKRs não são ambiciosos"
+            },
+            {
+              "value": "c",
+              "label": "50% - OKRs devem ser muito difíceis"
+            },
+            {
+              "value": "d",
+              "label": "Não importa"
+            }
+          ],
+          "explanation": "70-80% é a taxa esperada. Se você atinge 100%, seus OKRs não são ambiciosos o suficiente.",
+          "hint": "OKRs devem esticar, não apenas confirmar.",
+          "correctAnswer": "b",
+          "bookExample": "Se você atinge 100% de todos os OKRs, próximo trimestre defina OKRs mais ambiciosos."
+        },
+        {
+          "id": "10",
+          "question": "Como você comunica OKRs para toda a organização?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em documentos"
+            },
+            {
+              "value": "b",
+              "label": "Em reuniões, documentos, e-mails, e referências constantes"
+            },
+            {
+              "value": "c",
+              "label": "Uma vez por trimestre"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para gerentes"
+            }
+          ],
+          "explanation": "Comunique OKRs em reuniões, documentos, e-mails, e referências constantes. Repetição cria internalização.",
+          "hint": "Repetição = clareza.",
+          "correctAnswer": "b",
+          "bookExample": "Mencione OKRs em all-hands, reuniões de departamento, 1-on-1s, e-mails, e decisões estratégicas."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sistemas e Processos para Escalar",
+      "description": "Crie sistemas e processos que permitam crescimento sem caos",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que sistemas e processos são críticos para escalar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não são importantes"
+            },
+            {
+              "value": "b",
+              "label": "Permitem que o trabalho seja feito consistentemente sem depender de pessoas específicas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Reduzem a criatividade"
+            }
+          ],
+          "explanation": "Sistemas e processos permitem que o trabalho seja feito consistentemente sem depender de pessoas específicas.",
+          "hint": "Sem sistemas, você é refém das pessoas.",
+          "correctAnswer": "b",
+          "bookExample": "Se apenas João sabe como onboarding funciona, quando João sai, o onboarding quebra. Com um processo documentado, qualquer um consegue."
+        },
+        {
+          "id": "2",
+          "question": "Qual é o primeiro passo para criar um sistema?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Comprar um software"
+            },
+            {
+              "value": "b",
+              "label": "Documentar como o trabalho é feito atualmente"
+            },
+            {
+              "value": "c",
+              "label": "Contratar um consultor"
+            },
+            {
+              "value": "d",
+              "label": "Redesenhar tudo do zero"
+            }
+          ],
+          "explanation": "O primeiro passo é documentar como o trabalho é feito atualmente. Depois você otimiza.",
+          "hint": "Entenda antes de otimizar.",
+          "correctAnswer": "b",
+          "bookExample": "Antes de automatizar vendas, documente: como você prospera, como você qualifica, como você fecha."
+        },
+        {
+          "id": "3",
+          "question": "Como você identifica quais processos precisam ser documentados primeiro?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Todos ao mesmo tempo"
+            },
+            {
+              "value": "b",
+              "label": "Processos críticos que afetam receita ou retenção"
+            },
+            {
+              "value": "c",
+              "label": "Processos que são fáceis"
+            },
+            {
+              "value": "d",
+              "label": "Não importa a ordem"
+            }
+          ],
+          "explanation": "Comece com processos críticos que afetam receita ou retenção. Depois expanda.",
+          "hint": "Impacto > facilidade.",
+          "correctAnswer": "b",
+          "bookExample": "Priorize: onboarding de clientes, processo de vendas, atendimento ao cliente. Depois: reuniões internas, gestão de documentos."
+        },
+        {
+          "id": "4",
+          "question": "Como você documenta um processo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Descrição vaga em um documento"
+            },
+            {
+              "value": "b",
+              "label": "Passo a passo claro, com exemplos e exceções"
+            },
+            {
+              "value": "c",
+              "label": "Apenas em vídeo"
+            },
+            {
+              "value": "d",
+              "label": "Apenas na cabeça das pessoas"
+            }
+          ],
+          "explanation": "Passo a passo claro, com exemplos e exceções. Deve ser tão claro que alguém novo consegue seguir.",
+          "hint": "Clareza > brevidade.",
+          "correctAnswer": "b",
+          "bookExample": "Passo 1: Receber lead. Passo 2: Enviar email de boas-vindas (template X). Passo 3: Agendar call em 24h. Exceção: Se lead é VIP, agendar em 2h."
+        },
+        {
+          "id": "5",
+          "question": "Como você garante que os processos são seguidos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Confiar que as pessoas vão seguir"
+            },
+            {
+              "value": "b",
+              "label": "Auditar regularmente, treinar, e ter accountability"
+            },
+            {
+              "value": "c",
+              "label": "Punir quem não segue"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de garantir"
+            }
+          ],
+          "explanation": "Audite regularmente, treine, e tenha accountability. Processos só funcionam se forem seguidos.",
+          "hint": "Verificação + treinamento + accountability.",
+          "correctAnswer": "b",
+          "bookExample": "Toda semana, revise 5 casos de vendas para garantir que o processo foi seguido. Se não, treine novamente."
+        },
+        {
+          "id": "6",
+          "question": "Quando você deve automatizar um processo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Imediatamente"
+            },
+            {
+              "value": "b",
+              "label": "Depois que o processo está documentado e otimizado"
+            },
+            {
+              "value": "c",
+              "label": "Nunca"
+            },
+            {
+              "value": "d",
+              "label": "Apenas se for barato"
+            }
+          ],
+          "explanation": "Automatize depois que o processo está documentado e otimizado. Automatizar um processo ruim é pior.",
+          "hint": "Otimize antes de automatizar.",
+          "correctAnswer": "b",
+          "bookExample": "Não automatize o onboarding até ter certeza que o processo manual é bom. Depois, automatize as partes repetitivas."
+        },
+        {
+          "id": "7",
+          "question": "Como você mantém processos atualizados?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Nunca mudam"
+            },
+            {
+              "value": "b",
+              "label": "Revise regularmente e atualize quando há mudanças"
+            },
+            {
+              "value": "c",
+              "label": "Apenas quando há problemas"
+            },
+            {
+              "value": "d",
+              "label": "Mude toda semana"
+            }
+          ],
+          "explanation": "Revise regularmente e atualize quando há mudanças. Processos desatualizados causam confusão.",
+          "hint": "Regularidade > frequência.",
+          "correctAnswer": "b",
+          "bookExample": "Toda trimestre, revise processos críticos. Se há mudanças, atualize a documentação e comunique ao time."
+        },
+        {
+          "id": "8",
+          "question": "Como você envolve o time na criação de processos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas a liderança cria"
+            },
+            {
+              "value": "b",
+              "label": "Envolva quem faz o trabalho - eles conhecem melhor"
+            },
+            {
+              "value": "c",
+              "label": "Contrate um consultor externo"
+            },
+            {
+              "value": "d",
+              "label": "Não envolva ninguém"
+            }
+          ],
+          "explanation": "Envolva quem faz o trabalho. Eles conhecem melhor e vão apoiar o processo.",
+          "hint": "Envolvimento = propriedade.",
+          "correctAnswer": "b",
+          "bookExample": "Não crie um processo de vendas sem envolver os vendedores. Eles vão rejeitar se não fizerem parte da criação."
+        },
+        {
+          "id": "9",
+          "question": "Qual é o maior erro ao criar processos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Fazer muito detalhado"
+            },
+            {
+              "value": "b",
+              "label": "Fazer muito vago"
+            },
+            {
+              "value": "c",
+              "label": "Não envolver o time"
+            },
+            {
+              "value": "d",
+              "label": "Todos os anteriores"
+            }
+          ],
+          "explanation": "Todos os anteriores são erros. Processos devem ser claros, detalhados o suficiente, e criados com o time.",
+          "hint": "Equilíbrio é chave.",
+          "correctAnswer": "d",
+          "bookExample": "Um processo muito vago não ajuda. Um processo muito detalhado é inflexível. Um processo criado sem o time é rejeitado."
+        },
+        {
+          "id": "10",
+          "question": "Como você sabe se um processo está funcionando?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas pelo feedback"
+            },
+            {
+              "value": "b",
+              "label": "Pela consistência de resultados, tempo de ciclo, e qualidade"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de saber"
+            },
+            {
+              "value": "d",
+              "label": "Apenas pela satisfação do cliente"
+            }
+          ],
+          "explanation": "Você sabe pela consistência de resultados, tempo de ciclo, e qualidade. Meça e monitore.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu processo de vendas funciona, você deve ter: tempo de ciclo consistente, taxa de fechamento consistente, e clientes satisfeitos."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Gestão de Caixa e Saúde Financeira",
+      "description": "Domine a gestão de caixa para manter sua empresa saudável",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que fluxo de caixa é mais importante que lucro?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é, lucro é mais importante"
+            },
+            {
+              "value": "b",
+              "label": "Você pode ser lucrável no papel mas quebrar por falta de caixa"
+            },
+            {
+              "value": "c",
+              "label": "São igualmente importantes"
+            },
+            {
+              "value": "d",
+              "label": "Fluxo de caixa não importa"
+            }
+          ],
+          "explanation": "Você pode ser lucrável no papel mas quebrar por falta de caixa. Caixa é o que mantém a empresa viva.",
+          "hint": "Lucro é contábil. Caixa é real.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa com R$1M em receita anual pode quebrar se recebe em 90 dias e paga em 30."
+        },
+        {
+          "id": "2",
+          "question": "O que é um 'cash conversion cycle'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Tempo entre receber e pagar"
+            },
+            {
+              "value": "b",
+              "label": "Tempo entre pagar fornecedores e receber de clientes"
+            },
+            {
+              "value": "c",
+              "label": "Tempo entre vender e receber"
+            },
+            {
+              "value": "d",
+              "label": "Não existe esse conceito"
+            }
+          ],
+          "explanation": "É o tempo entre pagar fornecedores e receber de clientes. Quanto menor, melhor.",
+          "hint": "Quanto menor, menos caixa você precisa.",
+          "correctAnswer": "b",
+          "bookExample": "Se você paga fornecedores em 30 dias e recebe de clientes em 60 dias, seu ciclo é 30 dias (você precisa de caixa para cobrir)."
+        },
+        {
+          "id": "3",
+          "question": "Como você melhora o fluxo de caixa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Aumentar vendas"
+            },
+            {
+              "value": "b",
+              "label": "Receber mais rápido, pagar mais lentamente, e reduzir estoque"
+            },
+            {
+              "value": "c",
+              "label": "Reduzir custos"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de melhorar"
+            }
+          ],
+          "explanation": "Receba mais rápido, pague mais lentamente, e reduza estoque. Essas são as três alavancas principais.",
+          "hint": "Três alavancas: receber, pagar, estoque.",
+          "correctAnswer": "b",
+          "bookExample": "Ofereça desconto para pagamento antecipado (receba mais rápido). Negocie 60 dias com fornecedores (pague mais lentamente)."
+        },
+        {
+          "id": "4",
+          "question": "Como você monitora o fluxo de caixa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas mensalmente"
+            },
+            {
+              "value": "b",
+              "label": "Semanalmente ou até diariamente em empresas pequenas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas anualmente"
+            },
+            {
+              "value": "d",
+              "label": "Não é necessário monitorar"
+            }
+          ],
+          "explanation": "Monitore semanalmente ou até diariamente em empresas pequenas. Caixa é crítico.",
+          "hint": "Frequência = controle.",
+          "correctAnswer": "b",
+          "bookExample": "Toda segunda-feira, revise: quanto caixa temos? Quanto vamos receber? Quanto vamos pagar?"
+        },
+        {
+          "id": "5",
+          "question": "O que é um 'cash runway'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Quanto caixa você tem"
+            },
+            {
+              "value": "b",
+              "label": "Quantos meses você consegue operar com o caixa atual"
+            },
+            {
+              "value": "c",
+              "label": "Quanto caixa você gasta por mês"
+            },
+            {
+              "value": "d",
+              "label": "Não existe esse conceito"
+            }
+          ],
+          "explanation": "É quantos meses você consegue operar com o caixa atual. Crítico para startups.",
+          "hint": "Caixa / burn rate = meses.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem R$100k em caixa e gasta R$20k por mês, seu runway é 5 meses."
+        },
+        {
+          "id": "6",
+          "question": "Como você projeta fluxo de caixa futuro?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em histórico, pipeline de vendas, e despesas esperadas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas adivinhar"
+            },
+            {
+              "value": "d",
+              "label": "Não é necessário"
+            }
+          ],
+          "explanation": "Baseado em histórico, pipeline de vendas, e despesas esperadas. Isso permite planejamento.",
+          "hint": "Dados + suposições = projeção.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem R$50k em pipeline com 50% de taxa de fechamento, projete R$25k em receita. Subtraia despesas esperadas."
+        },
+        {
+          "id": "7",
+          "question": "Qual é o maior erro em gestão de caixa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não monitorar"
+            },
+            {
+              "value": "b",
+              "label": "Confundir lucro com caixa"
+            },
+            {
+              "value": "c",
+              "label": "Não planejar"
+            },
+            {
+              "value": "d",
+              "label": "Todos os anteriores"
+            }
+          ],
+          "explanation": "Todos os anteriores são erros. Monitore, entenda a diferença, e planeje.",
+          "hint": "Proatividade > reatividade.",
+          "correctAnswer": "d",
+          "bookExample": "Muitas empresas quebram porque não monitoram caixa, confundem lucro com caixa, e não planejam."
+        },
+        {
+          "id": "8",
+          "question": "Como você lida com sazonalidade no fluxo de caixa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore e espere passar"
+            },
+            {
+              "value": "b",
+              "label": "Planeje com antecedência, construa reserva de caixa, e ajuste despesas"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de lidar"
+            },
+            {
+              "value": "d",
+              "label": "Sazonalidade não existe"
+            }
+          ],
+          "explanation": "Planeje com antecedência, construa reserva de caixa, e ajuste despesas. Sazonalidade é previsível.",
+          "hint": "Antecipação > reação.",
+          "correctAnswer": "b",
+          "bookExample": "Se você sabe que dezembro é fraco, construa caixa em outubro e novembro. Reduza despesas em dezembro."
+        },
+        {
+          "id": "9",
+          "question": "Como você usa caixa para tomar decisões estratégicas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Caixa não afeta decisões"
+            },
+            {
+              "value": "b",
+              "label": "Caixa determina o que você pode fazer - investimentos, contratações, etc."
+            },
+            {
+              "value": "c",
+              "label": "Apenas para decisões financeiras"
+            },
+            {
+              "value": "d",
+              "label": "Caixa é irrelevante"
+            }
+          ],
+          "explanation": "Caixa determina o que você pode fazer. Sem caixa, você não consegue investir em crescimento.",
+          "hint": "Caixa = liberdade.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem R$500k em caixa, pode contratar 5 pessoas. Se tem R$50k, pode contratar 1. Caixa limita opções."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a métrica mais importante para monitorar em caixa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Receita total"
+            },
+            {
+              "value": "b",
+              "label": "Caixa disponível e runway"
+            },
+            {
+              "value": "c",
+              "label": "Lucro"
+            },
+            {
+              "value": "d",
+              "label": "Número de clientes"
+            }
+          ],
+          "explanation": "Caixa disponível e runway. Essas são as métricas que determinam se você sobrevive.",
+          "hint": "Sobrevivência > crescimento.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem 3 meses de runway, é hora de focar em receita ou reduzir despesas. Se tem 12 meses, pode investir em crescimento."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Recrutamento e Retenção de Talentos",
+      "description": "Construa um time forte através de recrutamento e retenção eficaz",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o maior desafio em recrutamento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Encontrar candidatos"
+            },
+            {
+              "value": "b",
+              "label": "Encontrar a pessoa certa para o lugar certo"
+            },
+            {
+              "value": "c",
+              "label": "Pagar bem"
+            },
+            {
+              "value": "d",
+              "label": "Fazer entrevistas"
+            }
+          ],
+          "explanation": "Encontrar a pessoa certa para o lugar certo. Qualquer um consegue encontrar candidatos.",
+          "hint": "Qualidade > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Você pode ter 100 candidatos, mas se nenhum é a pessoa certa, você não consegue preencher a vaga."
+        },
+        {
+          "id": "2",
+          "question": "Como você define 'a pessoa certa'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "A mais experiente"
+            },
+            {
+              "value": "b",
+              "label": "Alguém com habilidades técnicas, valores alinhados, e potencial de crescimento"
+            },
+            {
+              "value": "c",
+              "label": "A que pede menos salário"
+            },
+            {
+              "value": "d",
+              "label": "A que você mais gosta"
+            }
+          ],
+          "explanation": "Alguém com habilidades técnicas, valores alinhados, e potencial de crescimento. Todos os três importam.",
+          "hint": "Habilidades + valores + potencial.",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa com 10 anos de experiência mas valores desalinhados é pior que alguém com 2 anos mas valores alinhados."
+        },
+        {
+          "id": "3",
+          "question": "Como você avalia se os valores estão alinhados?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas perguntando"
+            },
+            {
+              "value": "b",
+              "label": "Observando comportamento, fazendo perguntas situacionais, e conversando com referências"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível avaliar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas no primeiro dia"
+            }
+          ],
+          "explanation": "Observe comportamento, faça perguntas situacionais, e converse com referências. Valores aparecem em ações.",
+          "hint": "Ações > palavras.",
+          "correctAnswer": "b",
+          "bookExample": "Se você valoriza transparência, pergunte: 'Conte sobre uma vez que você foi honesto mesmo quando era difícil'."
+        },
+        {
+          "id": "4",
+          "question": "Qual é o maior erro em entrevistas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Fazer muitas perguntas"
+            },
+            {
+              "value": "b",
+              "label": "Fazer perguntas genéricas que não revelam nada"
+            },
+            {
+              "value": "c",
+              "label": "Entrevistas são inúteis"
+            },
+            {
+              "value": "d",
+              "label": "Fazer perguntas técnicas"
+            }
+          ],
+          "explanation": "Fazer perguntas genéricas que não revelam nada. Perguntas boas revelam como a pessoa pensa e age.",
+          "hint": "Qualidade das perguntas > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Ruim: 'Qual é seu maior ponto fraco?'. Bom: 'Conte sobre um projeto que falhou e o que você aprendeu'."
+        },
+        {
+          "id": "5",
+          "question": "Como você reduz rotatividade?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Pagar mais"
+            },
+            {
+              "value": "b",
+              "label": "Criar ambiente de crescimento, reconhecimento, e propósito"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de reduzir"
+            },
+            {
+              "value": "d",
+              "label": "Rotatividade é normal"
+            }
+          ],
+          "explanation": "Criar ambiente de crescimento, reconhecimento, e propósito. Dinheiro é importante, mas não é tudo.",
+          "hint": "Propósito > dinheiro.",
+          "correctAnswer": "b",
+          "bookExample": "Uma pessoa pode ganhar R$10k em uma empresa sem propósito e sair. Ou ganhar R$8k em uma empresa com propósito e ficar."
+        },
+        {
+          "id": "6",
+          "question": "Como você cria oportunidades de crescimento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas promoções"
+            },
+            {
+              "value": "b",
+              "label": "Promoções, projetos desafiadores, mentoria, e aprendizado"
+            },
+            {
+              "value": "c",
+              "label": "Não é responsabilidade da empresa"
+            },
+            {
+              "value": "d",
+              "label": "Crescimento não importa"
+            }
+          ],
+          "explanation": "Promoções, projetos desafiadores, mentoria, e aprendizado. Crescimento é multidimensional.",
+          "hint": "Múltiplos caminhos de crescimento.",
+          "correctAnswer": "b",
+          "bookExample": "Nem todos querem ser gerentes. Alguns querem ser especialistas. Ofereça ambos os caminhos."
+        },
+        {
+          "id": "7",
+          "question": "Como você reconhece bom desempenho?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com dinheiro"
+            },
+            {
+              "value": "b",
+              "label": "Reconhecimento público, feedback, oportunidades, e compensação"
+            },
+            {
+              "value": "c",
+              "label": "Não é necessário reconhecer"
+            },
+            {
+              "value": "d",
+              "label": "Apenas em reuniões privadas"
+            }
+          ],
+          "explanation": "Reconhecimento público, feedback, oportunidades, e compensação. Todos importam.",
+          "hint": "Múltiplas formas de reconhecimento.",
+          "correctAnswer": "b",
+          "bookExample": "Reconheça em all-hands, dê feedback específico, ofereça projetos interessantes, e aumente salário."
+        },
+        {
+          "id": "8",
+          "question": "Como você lida com desempenho fraco?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignorar"
+            },
+            {
+              "value": "b",
+              "label": "Conversa clara, plano de melhoria, e acompanhamento"
+            },
+            {
+              "value": "c",
+              "label": "Demitir imediatamente"
+            },
+            {
+              "value": "d",
+              "label": "Esperar melhorar sozinho"
+            }
+          ],
+          "explanation": "Conversa clara, plano de melhoria, e acompanhamento. Dê à pessoa a chance de melhorar.",
+          "hint": "Clareza + suporte + accountability.",
+          "correctAnswer": "b",
+          "bookExample": "Se alguém não está performando, tenha uma conversa: 'Aqui está o problema. Aqui está o que precisa melhorar. Vou ajudar'."
+        },
+        {
+          "id": "9",
+          "question": "Como você mantém a cultura enquanto cresce?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível"
+            },
+            {
+              "value": "b",
+              "label": "Documentar valores, contratar alinhado, e reforçar constantemente"
+            },
+            {
+              "value": "c",
+              "label": "Cultura é apenas para startups"
+            },
+            {
+              "value": "d",
+              "label": "Cultura não importa"
+            }
+          ],
+          "explanation": "Documentar valores, contratar alinhado, e reforçar constantemente. Cultura é intencional.",
+          "hint": "Intenção > acaso.",
+          "correctAnswer": "b",
+          "bookExample": "Defina valores claros. Contrate apenas pessoas alinhadas. Reforce em reuniões, decisões, e reconhecimento."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a métrica mais importante em RH?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Número de contratações"
+            },
+            {
+              "value": "b",
+              "label": "Taxa de retenção e engajamento"
+            },
+            {
+              "value": "c",
+              "label": "Salários"
+            },
+            {
+              "value": "d",
+              "label": "Número de demissões"
+            }
+          ],
+          "explanation": "Taxa de retenção e engajamento. Se as pessoas ficam e estão engajadas, tudo mais funciona.",
+          "hint": "Retenção = saúde.",
+          "correctAnswer": "b",
+          "bookExample": "Se sua taxa de retenção é 95% e engajamento é alto, você está fazendo certo. Se é 70%, há problemas."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Liderança e Delegação",
+      "description": "Desenvolva habilidades de liderança para escalar sua organização",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Qual é o maior desafio em liderança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Tomar decisões"
+            },
+            {
+              "value": "b",
+              "label": "Delegar e confiar que o trabalho será feito"
+            },
+            {
+              "value": "c",
+              "label": "Comunicar"
+            },
+            {
+              "value": "d",
+              "label": "Gerenciar conflitos"
+            }
+          ],
+          "explanation": "Delegar e confiar que o trabalho será feito. Muitos líderes tentam fazer tudo pessoalmente.",
+          "hint": "Delegação = escala.",
+          "correctAnswer": "b",
+          "bookExample": "Um CEO que tenta fazer tudo se torna um gargalo. Um CEO que delega bem escala."
+        },
+        {
+          "id": "2",
+          "question": "Como você delega efetivamente?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas diga o que fazer"
+            },
+            {
+              "value": "b",
+              "label": "Explique o objetivo, dê autonomia, e acompanhe"
+            },
+            {
+              "value": "c",
+              "label": "Faça você mesmo"
+            },
+            {
+              "value": "d",
+              "label": "Delegação não funciona"
+            }
+          ],
+          "explanation": "Explique o objetivo, dê autonomia, e acompanhe. Delegação é mais que apenas atribuir tarefas.",
+          "hint": "Objetivo + autonomia + acompanhamento.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'Faça isso', diga: 'Nosso objetivo é X. Você tem autonomia para decidir como. Vamos revisar na sexta'."
+        },
+        {
+          "id": "3",
+          "question": "Como você constrói confiança com seu time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com palavras"
+            },
+            {
+              "value": "b",
+              "label": "Sendo consistente, transparente, e seguindo através"
+            },
+            {
+              "value": "c",
+              "label": "Confiança não pode ser construída"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com dinheiro"
+            }
+          ],
+          "explanation": "Sendo consistente, transparente, e seguindo através. Confiança é construída ao longo do tempo.",
+          "hint": "Ações > palavras.",
+          "correctAnswer": "b",
+          "bookExample": "Se você diz que vai fazer algo, faça. Se você diz que é transparente, seja. Confiança vem de consistência."
+        },
+        {
+          "id": "4",
+          "question": "Como você lida com conflitos no time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore e espere passar"
+            },
+            {
+              "value": "b",
+              "label": "Enfrente cedo, ouça ambos os lados, e busque solução"
+            },
+            {
+              "value": "c",
+              "label": "Tome lado"
+            },
+            {
+              "value": "d",
+              "label": "Conflitos são ruins"
+            }
+          ],
+          "explanation": "Enfrente cedo, ouça ambos os lados, e busque solução. Conflitos não resolvidos crescem.",
+          "hint": "Cedo > tarde.",
+          "correctAnswer": "b",
+          "bookExample": "Se dois membros do time estão em conflito, reúna-se com ambos, entenda os pontos de vista, e busque solução juntos."
+        },
+        {
+          "id": "5",
+          "question": "Como você desenvolve líderes no seu time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é responsabilidade sua"
+            },
+            {
+              "value": "b",
+              "label": "Mentoria, feedback, projetos desafiadores, e oportunidades"
+            },
+            {
+              "value": "c",
+              "label": "Apenas contratando líderes"
+            },
+            {
+              "value": "d",
+              "label": "Desenvolvimento de líderes não é importante"
+            }
+          ],
+          "explanation": "Mentoria, feedback, projetos desafiadores, e oportunidades. Líderes são desenvolvidos, não apenas contratados.",
+          "hint": "Desenvolvimento > contratação.",
+          "correctAnswer": "b",
+          "bookExample": "Identifique alguém com potencial de liderança. Dê mentoria, projetos desafiadores, e feedback regular."
+        },
+        {
+          "id": "6",
+          "question": "Como você comunica decisões difíceis?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em e-mail"
+            },
+            {
+              "value": "b",
+              "label": "Pessoalmente, explicando o raciocínio e respondendo perguntas"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para gerentes"
+            }
+          ],
+          "explanation": "Pessoalmente, explicando o raciocínio e respondendo perguntas. Decisões difíceis merecem comunicação clara.",
+          "hint": "Clareza + empatia.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai fazer demissões, reúna-se pessoalmente, explique por quê, e responda perguntas."
+        },
+        {
+          "id": "7",
+          "question": "Como você mantém o foco em prioridades?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Fazer tudo"
+            },
+            {
+              "value": "b",
+              "label": "Definir 3-5 prioridades claras e dizer não ao resto"
+            },
+            {
+              "value": "c",
+              "label": "Prioridades mudam toda semana"
+            },
+            {
+              "value": "d",
+              "label": "Não há prioridades"
+            }
+          ],
+          "explanation": "Definir 3-5 prioridades claras e dizer não ao resto. Foco é sobre dizer não.",
+          "hint": "Foco = dizer não.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem 10 ideias, escolha as 3 melhores. Diga não às outras 7, mesmo que sejam boas."
+        },
+        {
+          "id": "8",
+          "question": "Como você cria accountability?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com punição"
+            },
+            {
+              "value": "b",
+              "label": "Objetivos claros, acompanhamento regular, e consequências"
+            },
+            {
+              "value": "c",
+              "label": "Accountability não funciona"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para gerentes"
+            }
+          ],
+          "explanation": "Objetivos claros, acompanhamento regular, e consequências. Accountability é um sistema.",
+          "hint": "Clareza + acompanhamento + consequências.",
+          "correctAnswer": "b",
+          "bookExample": "Defina objetivo claro. Acompanhe semanalmente. Se não atingir, há consequências. Se atingir, há reconhecimento."
+        },
+        {
+          "id": "9",
+          "question": "Como você lida com feedback negativo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Ouça, reflita, e mude se necessário"
+            },
+            {
+              "value": "c",
+              "label": "Defenda-se"
+            },
+            {
+              "value": "d",
+              "label": "Feedback negativo é inútil"
+            }
+          ],
+          "explanation": "Ouça, reflita, e mude se necessário. Feedback negativo é um presente se você souber ouvir.",
+          "hint": "Humildade > defesa.",
+          "correctAnswer": "b",
+          "bookExample": "Se alguém diz que você não está ouvindo bem, em vez de defender-se, pergunte: 'Como posso melhorar?'"
+        },
+        {
+          "id": "10",
+          "question": "Qual é a qualidade mais importante em um líder?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Inteligência"
+            },
+            {
+              "value": "b",
+              "label": "Humildade - disposição de aprender e crescer"
+            },
+            {
+              "value": "c",
+              "label": "Carisma"
+            },
+            {
+              "value": "d",
+              "label": "Experiência"
+            }
+          ],
+          "explanation": "Humildade - disposição de aprender e crescer. Líderes humildes aprendem, adaptam, e crescem.",
+          "hint": "Humildade > tudo.",
+          "correctAnswer": "b",
+          "bookExample": "Um líder inteligente mas arrogante não cresce. Um líder humilde mas menos inteligente aprende e cresce."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Inovação e Adaptação",
+      "description": "Mantenha sua empresa inovadora e adaptável em um mercado em mudança",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que inovação é crítica para escalar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Mercados mudam, e você precisa evoluir ou morrer"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para tech"
+            },
+            {
+              "value": "d",
+              "label": "Inovação é arriscada"
+            }
+          ],
+          "explanation": "Mercados mudam, e você precisa evoluir ou morrer. Inovação é sobre sobrevivência.",
+          "hint": "Evoluir ou morrer.",
+          "correctAnswer": "b",
+          "bookExample": "Blockbuster não inovou. Netflix inovou. Blockbuster desapareceu."
+        },
+        {
+          "id": "2",
+          "question": "Como você cria uma cultura de inovação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com dinheiro"
+            },
+            {
+              "value": "b",
+              "label": "Encorajando experimentação, tolerando falhas, e recompensando ideias"
+            },
+            {
+              "value": "c",
+              "label": "Inovação não pode ser criada"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para departamentos específicos"
+            }
+          ],
+          "explanation": "Encorajando experimentação, tolerando falhas, e recompensando ideias. Inovação é uma cultura.",
+          "hint": "Experimentação + tolerância + recompensa.",
+          "correctAnswer": "b",
+          "bookExample": "Se você pune falhas, ninguém vai tentar coisas novas. Se você recompensa ideias, todos vão inovar."
+        },
+        {
+          "id": "3",
+          "question": "Como você equilibra inovação com execução?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Escolha um"
+            },
+            {
+              "value": "b",
+              "label": "Dedique tempo e recursos para ambos"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível equilibrar"
+            },
+            {
+              "value": "d",
+              "label": "Inovação é mais importante"
+            }
+          ],
+          "explanation": "Dedique tempo e recursos para ambos. Você precisa executar hoje e inovar para amanhã.",
+          "hint": "Hoje + amanhã.",
+          "correctAnswer": "b",
+          "bookExample": "Dedique 80% do tempo para execução (manter o negócio funcionando) e 20% para inovação (futuro)."
+        },
+        {
+          "id": "4",
+          "question": "Como você identifica oportunidades de inovação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com brainstorming"
+            },
+            {
+              "value": "b",
+              "label": "Ouvindo clientes, observando mercado, e experimentando"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de identificar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas de consultores"
+            }
+          ],
+          "explanation": "Ouvindo clientes, observando mercado, e experimentando. Oportunidades estão ao seu redor.",
+          "hint": "Clientes + mercado + experimentação.",
+          "correctAnswer": "b",
+          "bookExample": "Ouça o que os clientes reclamam. Observe o que concorrentes fazem. Experimente soluções."
+        },
+        {
+          "id": "5",
+          "question": "Como você testa ideias rapidamente?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Planejamento extenso"
+            },
+            {
+              "value": "b",
+              "label": "MVP (Minimum Viable Product) - versão mínima para testar"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível testar rápido"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com muito dinheiro"
+            }
+          ],
+          "explanation": "MVP - versão mínima para testar. Não precisa ser perfeita, apenas testável.",
+          "hint": "Rápido > perfeito.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de gastar 6 meses desenvolvendo uma feature, crie um MVP em 2 semanas e teste com clientes."
+        },
+        {
+          "id": "6",
+          "question": "Como você lida com falhas em inovação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Punir"
+            },
+            {
+              "value": "b",
+              "label": "Aprender, documentar, e tentar novamente"
+            },
+            {
+              "value": "c",
+              "label": "Falhas são inaceitáveis"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de lidar"
+            }
+          ],
+          "explanation": "Aprender, documentar, e tentar novamente. Falhas são parte do processo de inovação.",
+          "hint": "Falha = aprendizado.",
+          "correctAnswer": "b",
+          "bookExample": "Se um MVP falha, você aprendeu algo valioso. Documente e tente outra abordagem."
+        },
+        {
+          "id": "7",
+          "question": "Como você mantém a empresa adaptável?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Estrutura rígida"
+            },
+            {
+              "value": "b",
+              "label": "Estrutura flexível, processos claros, e comunicação aberta"
+            },
+            {
+              "value": "c",
+              "label": "Adaptabilidade não é importante"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para startups"
+            }
+          ],
+          "explanation": "Estrutura flexível, processos claros, e comunicação aberta. Adaptabilidade é um design.",
+          "hint": "Flexibilidade + clareza.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem estrutura rígida, não consegue adaptar rápido. Se tem estrutura flexível, consegue pivotar em semanas."
+        },
+        {
+          "id": "8",
+          "question": "Como você monitora mudanças no mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é necessário"
+            },
+            {
+              "value": "b",
+              "label": "Regularmente - clientes, concorrentes, tecnologia, e tendências"
+            },
+            {
+              "value": "c",
+              "label": "Apenas quando há crise"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de monitorar"
+            }
+          ],
+          "explanation": "Regularmente - clientes, concorrentes, tecnologia, e tendências. Monitoramento é proativo.",
+          "hint": "Proativo > reativo.",
+          "correctAnswer": "b",
+          "bookExample": "Toda semana, revise: o que os clientes estão pedindo? O que concorrentes estão fazendo? Que tecnologias estão emergindo?"
+        },
+        {
+          "id": "9",
+          "question": "Como você comunica mudanças estratégicas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em e-mail"
+            },
+            {
+              "value": "b",
+              "label": "Pessoalmente, explicando o raciocínio e respondendo perguntas"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Pessoalmente, explicando o raciocínio e respondendo perguntas. Mudanças causam incerteza.",
+          "hint": "Clareza + empatia.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai pivotar a estratégia, reúna-se com o time, explique por quê, e responda perguntas."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior inimigo da inovação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Falta de dinheiro"
+            },
+            {
+              "value": "b",
+              "label": "Medo de falhar e apego ao status quo"
+            },
+            {
+              "value": "c",
+              "label": "Falta de talento"
+            },
+            {
+              "value": "d",
+              "label": "Concorrência"
+            }
+          ],
+          "explanation": "Medo de falhar e apego ao status quo. Muitas empresas preferem o conforto do conhecido.",
+          "hint": "Medo > falta de recursos.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa com R$1M pode inovar se não tem medo. Uma empresa com R$100M não inova se tem medo."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Métricas e Dashboards",
+      "description": "Use métricas certas para guiar decisões e medir progresso",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que métricas são importantes?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não são importantes"
+            },
+            {
+              "value": "b",
+              "label": "Permitem tomar decisões baseadas em dados, não intuição"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para relatórios"
+            },
+            {
+              "value": "d",
+              "label": "Métricas são enganosas"
+            }
+          ],
+          "explanation": "Permitem tomar decisões baseadas em dados, não intuição. Dados > intuição.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'Acho que vendas estão boas', você sabe: 'Vendas cresceram 20% este mês'."
+        },
+        {
+          "id": "2",
+          "question": "Qual é a diferença entre métrica e KPI?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há diferença"
+            },
+            {
+              "value": "b",
+              "label": "Métrica é qualquer número; KPI é uma métrica crítica para o negócio"
+            },
+            {
+              "value": "c",
+              "label": "KPI é mais importante"
+            },
+            {
+              "value": "d",
+              "label": "Métrica é mais importante"
+            }
+          ],
+          "explanation": "Métrica é qualquer número; KPI é uma métrica crítica para o negócio. Nem toda métrica é um KPI.",
+          "hint": "KPI = crítico.",
+          "correctAnswer": "b",
+          "bookExample": "Métrica: 'Número de visitantes do site'. KPI: 'Taxa de conversão de visitante para cliente'."
+        },
+        {
+          "id": "3",
+          "question": "Quantas métricas você deve monitorar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Quanto mais, melhor"
+            },
+            {
+              "value": "b",
+              "label": "Entre 5 e 10 KPIs principais"
+            },
+            {
+              "value": "c",
+              "label": "Apenas 1"
+            },
+            {
+              "value": "d",
+              "label": "Mais de 20"
+            }
+          ],
+          "explanation": "Entre 5 e 10 KPIs principais. Mais que isso, você fica perdido.",
+          "hint": "Foco > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Uma empresa pode monitorar: receita, churn, CAC, LTV, NPS, e 5 outras métricas críticas."
+        },
+        {
+          "id": "4",
+          "question": "Como você escolhe quais métricas monitorar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Aleatoriamente"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em objetivos estratégicos e o que você pode controlar"
+            },
+            {
+              "value": "c",
+              "label": "O que é fácil de medir"
+            },
+            {
+              "value": "d",
+              "label": "O que concorrentes monitoram"
+            }
+          ],
+          "explanation": "Baseado em objetivos estratégicos e o que você pode controlar. Métricas devem guiar ação.",
+          "hint": "Estratégia > facilidade.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu objetivo é crescimento, monitore: CAC, LTV, churn. Se é rentabilidade, monitore: margem, custo operacional."
+        },
+        {
+          "id": "5",
+          "question": "O que é um 'leading indicator'?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Uma métrica que mede o passado"
+            },
+            {
+              "value": "b",
+              "label": "Uma métrica que prediz o futuro"
+            },
+            {
+              "value": "c",
+              "label": "Uma métrica que não importa"
+            },
+            {
+              "value": "d",
+              "label": "Não existe esse conceito"
+            }
+          ],
+          "explanation": "Uma métrica que prediz o futuro. Leading indicators permitem ação proativa.",
+          "hint": "Prediz > mede.",
+          "correctAnswer": "b",
+          "bookExample": "Número de leads é um leading indicator de receita futura. Se leads caem, receita vai cair em 2 meses."
+        },
+        {
+          "id": "6",
+          "question": "Como você cria um dashboard efetivo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Colocar todas as métricas"
+            },
+            {
+              "value": "b",
+              "label": "Apenas KPIs principais, atualizados regularmente, e fáceis de entender"
+            },
+            {
+              "value": "c",
+              "label": "Dashboards são inúteis"
+            },
+            {
+              "value": "d",
+              "label": "Apenas números, sem contexto"
+            }
+          ],
+          "explanation": "Apenas KPIs principais, atualizados regularmente, e fáceis de entender. Simplicidade > complexidade.",
+          "hint": "Simplicidade > complexidade.",
+          "correctAnswer": "b",
+          "bookExample": "Um dashboard bom mostra: receita, churn, CAC, LTV, NPS. Cada um com tendência e meta."
+        },
+        {
+          "id": "7",
+          "question": "Com que frequência você deve revisar métricas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas mensalmente"
+            },
+            {
+              "value": "b",
+              "label": "Semanalmente para KPIs críticos"
+            },
+            {
+              "value": "c",
+              "label": "Nunca"
+            },
+            {
+              "value": "d",
+              "label": "Apenas anualmente"
+            }
+          ],
+          "explanation": "Semanalmente para KPIs críticos. Frequência permite ação rápida.",
+          "hint": "Frequência = controle.",
+          "correctAnswer": "b",
+          "bookExample": "Toda segunda-feira, revise: receita, churn, CAC. Se algo está fora do esperado, investigue."
+        },
+        {
+          "id": "8",
+          "question": "Como você usa métricas para tomar decisões?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Métricas não afetam decisões"
+            },
+            {
+              "value": "b",
+              "label": "Toda decisão deve ser baseada em dados e métricas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas decisões grandes"
+            },
+            {
+              "value": "d",
+              "label": "Métricas são apenas para relatórios"
+            }
+          ],
+          "explanation": "Toda decisão deve ser baseada em dados e métricas. Dados > intuição.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se CAC está subindo, você investe em otimização de marketing. Se churn está subindo, você investe em retenção."
+        },
+        {
+          "id": "9",
+          "question": "Como você comunica métricas para o time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em relatórios"
+            },
+            {
+              "value": "b",
+              "label": "Regularmente em reuniões, dashboards visíveis, e contexto claro"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Regularmente em reuniões, dashboards visíveis, e contexto claro. Transparência cria alinhamento.",
+          "hint": "Transparência = alinhamento.",
+          "correctAnswer": "b",
+          "bookExample": "Toda semana, mostre métricas em all-hands. Explique o que significa e o que fazer se está fora do esperado."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior erro em métricas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Monitorar muitas"
+            },
+            {
+              "value": "b",
+              "label": "Otimizar a métrica em vez do resultado real"
+            },
+            {
+              "value": "c",
+              "label": "Não monitorar"
+            },
+            {
+              "value": "d",
+              "label": "Todos os anteriores"
+            }
+          ],
+          "explanation": "Otimizar a métrica em vez do resultado real. Isso é chamado 'gaming the metric'.",
+          "hint": "Resultado > métrica.",
+          "correctAnswer": "b",
+          "bookExample": "Se você otimiza para 'número de leads', pode gerar leads ruins. Otimize para 'leads qualificados' ou 'receita'."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Gestão de Mudança Organizacional",
+      "description": "Implemente mudanças de forma eficaz em sua organização",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que mudança é difícil nas organizações?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é difícil"
+            },
+            {
+              "value": "b",
+              "label": "Pessoas resistem ao desconhecido e ao status quo"
+            },
+            {
+              "value": "c",
+              "label": "Apenas em grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Mudança é fácil"
+            }
+          ],
+          "explanation": "Pessoas resistem ao desconhecido e ao status quo. Mudança causa incerteza.",
+          "hint": "Incerteza = resistência.",
+          "correctAnswer": "b",
+          "bookExample": "Mesmo que a mudança seja melhor, as pessoas resistem porque é desconfortável."
+        },
+        {
+          "id": "2",
+          "question": "Como você comunica uma mudança grande?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em e-mail"
+            },
+            {
+              "value": "b",
+              "label": "Pessoalmente, explicando o porquê, o que muda, e como ajudar"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Pessoalmente, explicando o porquê, o que muda, e como ajudar. Comunicação clara reduz resistência.",
+          "hint": "Clareza + empatia.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai mudar o sistema de vendas, reúna-se com o time, explique por quê, e ofereça treinamento."
+        },
+        {
+          "id": "3",
+          "question": "Como você lida com resistência à mudança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Ouça, entenda as preocupações, e ajuste se necessário"
+            },
+            {
+              "value": "c",
+              "label": "Force a mudança"
+            },
+            {
+              "value": "d",
+              "label": "Resistência é inaceitável"
+            }
+          ],
+          "explanation": "Ouça, entenda as preocupações, e ajuste se necessário. Resistência é feedback valioso.",
+          "hint": "Ouça > force.",
+          "correctAnswer": "b",
+          "bookExample": "Se o time resiste a uma mudança, pergunte por quê. Pode haver um problema real que você não viu."
+        },
+        {
+          "id": "4",
+          "question": "Como você implementa mudança gradualmente?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Tudo de uma vez"
+            },
+            {
+              "value": "b",
+              "label": "Em fases, com feedback e ajustes entre fases"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível implementar gradualmente"
+            },
+            {
+              "value": "d",
+              "label": "Gradualmente é mais lento"
+            }
+          ],
+          "explanation": "Em fases, com feedback e ajustes entre fases. Implementação gradual reduz risco.",
+          "hint": "Fases = controle.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de mudar todo o sistema de uma vez, mude um departamento primeiro, aprenda, e depois expanda."
+        },
+        {
+          "id": "5",
+          "question": "Como você cria 'quick wins' em mudança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Identifique pequenas vitórias rápidas para criar momentum"
+            },
+            {
+              "value": "c",
+              "label": "Quick wins são superficiais"
+            },
+            {
+              "value": "d",
+              "label": "Apenas grandes mudanças importam"
+            }
+          ],
+          "explanation": "Identifique pequenas vitórias rápidas para criar momentum. Sucesso inicial cria confiança.",
+          "hint": "Momentum = confiança.",
+          "correctAnswer": "b",
+          "bookExample": "Se você está mudando o processo de vendas, comece com um pequeno ajuste que melhora resultados rapidamente."
+        },
+        {
+          "id": "6",
+          "question": "Como você treina o time em mudanças?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas uma sessão"
+            },
+            {
+              "value": "b",
+              "label": "Múltiplas sessões, hands-on, e suporte contínuo"
+            },
+            {
+              "value": "c",
+              "label": "Treinamento não é necessário"
+            },
+            {
+              "value": "d",
+              "label": "Apenas documentação"
+            }
+          ],
+          "explanation": "Múltiplas sessões, hands-on, e suporte contínuo. Treinamento é crítico para adoção.",
+          "hint": "Múltiplas toques = adoção.",
+          "correctAnswer": "b",
+          "bookExample": "Se você está implementando um novo CRM, faça: sessão de treinamento, hands-on, e suporte 1-on-1 por 2 semanas."
+        },
+        {
+          "id": "7",
+          "question": "Como você mede sucesso de uma mudança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas pelo feedback"
+            },
+            {
+              "value": "b",
+              "label": "Por métricas claras antes e depois da mudança"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível medir"
+            },
+            {
+              "value": "d",
+              "label": "Apenas pela satisfação"
+            }
+          ],
+          "explanation": "Por métricas claras antes e depois da mudança. Dados > intuição.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você muda o processo de vendas, meça: tempo de ciclo antes e depois, taxa de fechamento antes e depois."
+        },
+        {
+          "id": "8",
+          "question": "Como você mantém momentum em mudança longa?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível"
+            },
+            {
+              "value": "b",
+              "label": "Comunicação regular, quick wins, e celebração de progresso"
+            },
+            {
+              "value": "c",
+              "label": "Apenas no início"
+            },
+            {
+              "value": "d",
+              "label": "Momentum não importa"
+            }
+          ],
+          "explanation": "Comunicação regular, quick wins, e celebração de progresso. Momentum é mantido, não criado uma vez.",
+          "hint": "Contínuo > uma vez.",
+          "correctAnswer": "b",
+          "bookExample": "Em uma mudança de 6 meses, comunique progresso toda semana, celebre pequenas vitórias, e mantenha o foco."
+        },
+        {
+          "id": "9",
+          "question": "Como você lida com pessoas que não se adaptam?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Suporte extra, conversa clara, e se necessário, transição"
+            },
+            {
+              "value": "c",
+              "label": "Demita imediatamente"
+            },
+            {
+              "value": "d",
+              "label": "Não há nada a fazer"
+            }
+          ],
+          "explanation": "Suporte extra, conversa clara, e se necessário, transição. Nem todos conseguem se adaptar.",
+          "hint": "Suporte > punição.",
+          "correctAnswer": "b",
+          "bookExample": "Se alguém não consegue se adaptar após suporte, talvez o papel não seja mais adequado. Considere transição."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior erro em gestão de mudança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Comunicar demais"
+            },
+            {
+              "value": "b",
+              "label": "Não comunicar o porquê da mudança"
+            },
+            {
+              "value": "c",
+              "label": "Implementar muito rápido"
+            },
+            {
+              "value": "d",
+              "label": "Todos os anteriores"
+            }
+          ],
+          "explanation": "Não comunicar o porquê da mudança. Sem entender o porquê, as pessoas resistem.",
+          "hint": "Porquê > como.",
+          "correctAnswer": "b",
+          "bookExample": "Se você apenas diz 'Vamos mudar o sistema', as pessoas resistem. Se você explica 'Vamos mudar porque vai economizar 10 horas/semana', elas apoiam."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Relacionamento com Clientes e Retenção",
+      "description": "Construa relacionamentos fortes com clientes para crescimento sustentável",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que retenção é mais importante que aquisição?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é mais importante"
+            },
+            {
+              "value": "b",
+              "label": "Reter um cliente custa 5x menos que adquirir um novo"
+            },
+            {
+              "value": "c",
+              "label": "Aquisição é mais importante"
+            },
+            {
+              "value": "d",
+              "label": "São igualmente importantes"
+            }
+          ],
+          "explanation": "Reter um cliente custa 5x menos que adquirir um novo. Retenção é mais lucrativa.",
+          "hint": "Custo de retenção < custo de aquisição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você gasta R$1000 para adquirir um cliente, custa apenas R$200 para retê-lo."
+        },
+        {
+          "id": "2",
+          "question": "Como você mede satisfação do cliente?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com pesquisas"
+            },
+            {
+              "value": "b",
+              "label": "NPS, CSAT, churn, e feedback direto"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível medir"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com reclamações"
+            }
+          ],
+          "explanation": "NPS, CSAT, churn, e feedback direto. Múltiplas métricas dão visão completa.",
+          "hint": "Múltiplas métricas = visão completa.",
+          "correctAnswer": "b",
+          "bookExample": "NPS (Net Promoter Score) mede lealdade. CSAT (Customer Satisfaction) mede satisfação. Churn mede retenção."
+        },
+        {
+          "id": "3",
+          "question": "O que é NPS?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Net Profit Score"
+            },
+            {
+              "value": "b",
+              "label": "Net Promoter Score - mede probabilidade de cliente recomendar"
+            },
+            {
+              "value": "c",
+              "label": "Net Product Score"
+            },
+            {
+              "value": "d",
+              "label": "Não existe esse conceito"
+            }
+          ],
+          "explanation": "Net Promoter Score - mede probabilidade de cliente recomendar. Clientes que recomendam são leais.",
+          "hint": "Recomendação = lealdade.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu NPS é 50, significa que 50% dos clientes recomendariam você. Acima de 50 é bom."
+        },
+        {
+          "id": "4",
+          "question": "Como você reduz churn?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com preço"
+            },
+            {
+              "value": "b",
+              "label": "Entender por que clientes saem e resolver os problemas"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível reduzir"
+            },
+            {
+              "value": "d",
+              "label": "Churn é normal"
+            }
+          ],
+          "explanation": "Entender por que clientes saem e resolver os problemas. Churn é um sintoma.",
+          "hint": "Causa > sintoma.",
+          "correctAnswer": "b",
+          "bookExample": "Se clientes saem porque o produto é difícil de usar, melhore a UX. Se saem porque o preço é alto, revise preço."
+        },
+        {
+          "id": "5",
+          "question": "Como você cria relacionamento com clientes?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com vendas"
+            },
+            {
+              "value": "b",
+              "label": "Comunicação regular, suporte excelente, e valor contínuo"
+            },
+            {
+              "value": "c",
+              "label": "Relacionamento não é importante"
+            },
+            {
+              "value": "d",
+              "label": "Apenas no início"
+            }
+          ],
+          "explanation": "Comunicação regular, suporte excelente, e valor contínuo. Relacionamento é mantido, não criado uma vez.",
+          "hint": "Contínuo > uma vez.",
+          "correctAnswer": "b",
+          "bookExample": "Envie atualizações mensais, responda rapidamente a perguntas, e ofereça novos recursos que agregam valor."
+        },
+        {
+          "id": "6",
+          "question": "Como você identifica clientes em risco de churn?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas quando saem"
+            },
+            {
+              "value": "b",
+              "label": "Monitorando uso, suporte, e feedback"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível identificar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com pesquisas"
+            }
+          ],
+          "explanation": "Monitorando uso, suporte, e feedback. Sinais de alerta aparecem antes da saída.",
+          "hint": "Proativo > reativo.",
+          "correctAnswer": "b",
+          "bookExample": "Se um cliente que usava diariamente não usa há 2 semanas, está em risco. Alcance-o antes que saia."
+        },
+        {
+          "id": "7",
+          "question": "Como você aumenta o valor do cliente ao longo do tempo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com preço"
+            },
+            {
+              "value": "b",
+              "label": "Upsell, cross-sell, e novos produtos"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível aumentar"
+            },
+            {
+              "value": "d",
+              "label": "Valor é fixo"
+            }
+          ],
+          "explanation": "Upsell, cross-sell, e novos produtos. Clientes satisfeitos gastam mais ao longo do tempo.",
+          "hint": "Satisfação = gasto maior.",
+          "correctAnswer": "b",
+          "bookExample": "Um cliente que paga R$100/mês pode pagar R$200/mês se você oferece features premium que agregam valor."
+        },
+        {
+          "id": "8",
+          "question": "Como você lida com clientes insatisfeitos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Ouça, entenda o problema, e resolva rapidamente"
+            },
+            {
+              "value": "c",
+              "label": "Defenda-se"
+            },
+            {
+              "value": "d",
+              "label": "Clientes insatisfeitos sempre saem"
+            }
+          ],
+          "explanation": "Ouça, entenda o problema, e resolva rapidamente. Clientes insatisfeitos que são bem tratados ficam.",
+          "hint": "Resolução rápida = lealdade.",
+          "correctAnswer": "b",
+          "bookExample": "Um cliente insatisfeito que é bem tratado pode se tornar um promotor. Um cliente insatisfeito ignorado vira detrator."
+        },
+        {
+          "id": "9",
+          "question": "Como você cria programa de fidelidade?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas com desconto"
+            },
+            {
+              "value": "b",
+              "label": "Reconhecimento, benefícios exclusivos, e acesso especial"
+            },
+            {
+              "value": "c",
+              "label": "Programa de fidelidade não funciona"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para grandes clientes"
+            }
+          ],
+          "explanation": "Reconhecimento, benefícios exclusivos, e acesso especial. Fidelidade é sobre fazer o cliente se sentir especial.",
+          "hint": "Especial > desconto.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de apenas desconto, ofereça: acesso antecipado a novos produtos, suporte prioritário, e eventos exclusivos."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a métrica mais importante em retenção?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Número de clientes"
+            },
+            {
+              "value": "b",
+              "label": "Churn rate e LTV (Lifetime Value)"
+            },
+            {
+              "value": "c",
+              "label": "Receita total"
+            },
+            {
+              "value": "d",
+              "label": "Número de reclamações"
+            }
+          ],
+          "explanation": "Churn rate e LTV (Lifetime Value). Essas métricas determinam saúde do negócio.",
+          "hint": "Churn + LTV = saúde.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu churn é 5% e LTV é R$10k, você tem um negócio saudável. Se churn é 20%, há problemas."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Gestão de Conflitos e Resolução de Problemas",
+      "description": "Resolva conflitos e problemas de forma construtiva",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que conflitos são inevitáveis em organizações?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não são inevitáveis"
+            },
+            {
+              "value": "b",
+              "label": "Pessoas têm perspectivas diferentes e objetivos que às vezes colidem"
+            },
+            {
+              "value": "c",
+              "label": "Conflitos são sempre ruins"
+            },
+            {
+              "value": "d",
+              "label": "Apenas em empresas ruins"
+            }
+          ],
+          "explanation": "Pessoas têm perspectivas diferentes e objetivos que às vezes colidem. Conflito é natural.",
+          "hint": "Diversidade = conflito potencial.",
+          "correctAnswer": "b",
+          "bookExample": "Vendedor quer vender rápido. Produto quer qualidade. Conflito é natural e pode ser produtivo."
+        },
+        {
+          "id": "2",
+          "question": "Como você identifica conflitos cedo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas quando explodem"
+            },
+            {
+              "value": "b",
+              "label": "Observando comunicação, comportamento, e feedback"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível identificar cedo"
+            },
+            {
+              "value": "d",
+              "label": "Conflitos não têm sinais de alerta"
+            }
+          ],
+          "explanation": "Observando comunicação, comportamento, e feedback. Sinais de alerta aparecem cedo.",
+          "hint": "Proativo > reativo.",
+          "correctAnswer": "b",
+          "bookExample": "Se dois membros do time não se comunicam mais, há um conflito. Se há feedback negativo, há um conflito."
+        },
+        {
+          "id": "3",
+          "question": "Como você aborda uma conversa de conflito?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Agressivamente"
+            },
+            {
+              "value": "b",
+              "label": "Com curiosidade, ouvindo ambos os lados, e buscando entender"
+            },
+            {
+              "value": "c",
+              "label": "Defensivamente"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma certa"
+            }
+          ],
+          "explanation": "Com curiosidade, ouvindo ambos os lados, e buscando entender. Entendimento > julgamento.",
+          "hint": "Entender > julgar.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'Você está errado', pergunte: 'Qual é sua perspectiva? Por que você vê assim?'"
+        },
+        {
+          "id": "4",
+          "question": "Como você resolve conflito entre dois membros do time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Tome lado"
+            },
+            {
+              "value": "b",
+              "label": "Reúna-se com ambos, ouça, e busque solução mutuamente aceitável"
+            },
+            {
+              "value": "c",
+              "label": "Ignore"
+            },
+            {
+              "value": "d",
+              "label": "Demita um deles"
+            }
+          ],
+          "explanation": "Reúna-se com ambos, ouça, e busque solução mutuamente aceitável. Solução ganha-ganha é melhor.",
+          "hint": "Ganha-ganha > ganha-perde.",
+          "correctAnswer": "b",
+          "bookExample": "Se dois membros estão em conflito, reúna-se com ambos: 'Qual é o problema? O que você precisa? Como podemos resolver?'"
+        },
+        {
+          "id": "5",
+          "question": "Como você lida com conflito entre departamentos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Deixe eles resolverem"
+            },
+            {
+              "value": "b",
+              "label": "Facilite conversa, alinhe objetivos, e crie processos de colaboração"
+            },
+            {
+              "value": "c",
+              "label": "Tome lado"
+            },
+            {
+              "value": "d",
+              "label": "Conflito entre departamentos é normal"
+            }
+          ],
+          "explanation": "Facilite conversa, alinhe objetivos, e crie processos de colaboração. Conflito entre departamentos afeta toda a empresa.",
+          "hint": "Alinhamento > conflito.",
+          "correctAnswer": "b",
+          "bookExample": "Se vendas e produto estão em conflito, reúna-se com ambos, alinhe objetivos, e crie processo de colaboração."
+        },
+        {
+          "id": "6",
+          "question": "Como você evita que conflitos se tornem pessoais?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível evitar"
+            },
+            {
+              "value": "b",
+              "label": "Focando em problemas, não em pessoas"
+            },
+            {
+              "value": "c",
+              "label": "Conflitos são sempre pessoais"
+            },
+            {
+              "value": "d",
+              "label": "Apenas ignorando"
+            }
+          ],
+          "explanation": "Focando em problemas, não em pessoas. 'O problema é X' é melhor que 'Você é X'.",
+          "hint": "Problema > pessoa.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'Você é desorganizado', diga: 'O processo de onboarding precisa ser mais claro'."
+        },
+        {
+          "id": "7",
+          "question": "Como você resolve conflito sobre recursos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Dê tudo para um"
+            },
+            {
+              "value": "b",
+              "label": "Avalie prioridades estratégicas e aloque baseado em impacto"
+            },
+            {
+              "value": "c",
+              "label": "Divida igualmente"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de resolver"
+            }
+          ],
+          "explanation": "Avalie prioridades estratégicas e aloque baseado em impacto. Decisão deve ser baseada em dados.",
+          "hint": "Impacto > igualdade.",
+          "correctAnswer": "b",
+          "bookExample": "Se vendas e produto querem mais pessoas, avalie qual investimento tem maior impacto na receita."
+        },
+        {
+          "id": "8",
+          "question": "Como você lida com conflito entre você e um membro do time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Use sua autoridade"
+            },
+            {
+              "value": "b",
+              "label": "Ouça, reconheça seu ponto de vista, e busque solução"
+            },
+            {
+              "value": "c",
+              "label": "Ignore"
+            },
+            {
+              "value": "d",
+              "label": "Demita a pessoa"
+            }
+          ],
+          "explanation": "Ouça, reconheça seu ponto de vista, e busque solução. Líderes devem ser humildes.",
+          "hint": "Humildade > autoridade.",
+          "correctAnswer": "b",
+          "bookExample": "Se um membro do time discorda de você, ouça por quê. Pode haver um ponto válido que você não viu."
+        },
+        {
+          "id": "9",
+          "question": "Como você aprende com conflitos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Conflitos são apenas problemas"
+            },
+            {
+              "value": "b",
+              "label": "Reflita sobre a causa raiz e implemente mudanças para evitar repetição"
+            },
+            {
+              "value": "c",
+              "label": "Não há aprendizado em conflitos"
+            },
+            {
+              "value": "d",
+              "label": "Apenas ignore e siga"
+            }
+          ],
+          "explanation": "Reflita sobre a causa raiz e implemente mudanças para evitar repetição. Conflitos são oportunidades.",
+          "hint": "Aprendizado > repetição.",
+          "correctAnswer": "b",
+          "bookExample": "Se há conflito entre vendas e produto, a causa raiz pode ser falta de comunicação. Implemente reuniões semanais."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior erro em gestão de conflitos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Intervir cedo"
+            },
+            {
+              "value": "b",
+              "label": "Evitar conflitos ou deixar crescer sem resolver"
+            },
+            {
+              "value": "c",
+              "label": "Tomar lado"
+            },
+            {
+              "value": "d",
+              "label": "Todos os anteriores"
+            }
+          ],
+          "explanation": "Evitar conflitos ou deixar crescer sem resolver. Conflitos não resolvidos crescem e explodem.",
+          "hint": "Cedo > tarde.",
+          "correctAnswer": "b",
+          "bookExample": "Um pequeno conflito ignorado se torna um grande conflito que afeta toda a empresa."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Planejamento Financeiro e Orçamento",
+      "description": "Planeje e gerencie finanças para crescimento sustentável",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que planejamento financeiro é importante?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Permite tomar decisões informadas e evitar surpresas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Planejamento é inflexível"
+            }
+          ],
+          "explanation": "Permite tomar decisões informadas e evitar surpresas. Planejamento é um mapa.",
+          "hint": "Mapa > sem direção.",
+          "correctAnswer": "b",
+          "bookExample": "Se você planeja, sabe que precisa de R$500k em 6 meses. Sem plano, é uma surpresa."
+        },
+        {
+          "id": "2",
+          "question": "Como você cria um orçamento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Adivinhe"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em histórico, projeções, e objetivos estratégicos"
+            },
+            {
+              "value": "c",
+              "label": "Orçamento é inútil"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para grandes empresas"
+            }
+          ],
+          "explanation": "Baseado em histórico, projeções, e objetivos estratégicos. Orçamento é um plano financeiro.",
+          "hint": "Dados + objetivos = orçamento.",
+          "correctAnswer": "b",
+          "bookExample": "Se você gastou R$100k em marketing no ano passado e quer crescer 50%, orçamento é R$150k."
+        },
+        {
+          "id": "3",
+          "question": "Como você monitora orçamento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas no final do ano"
+            },
+            {
+              "value": "b",
+              "label": "Mensalmente, comparando gasto real vs orçado"
+            },
+            {
+              "value": "c",
+              "label": "Não é necessário monitorar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas quando há problemas"
+            }
+          ],
+          "explanation": "Mensalmente, comparando gasto real vs orçado. Monitoramento permite ajustes rápidos.",
+          "hint": "Frequência = controle.",
+          "correctAnswer": "b",
+          "bookExample": "Toda mês, revise: gastei quanto? Orçado era quanto? Preciso ajustar?"
+        },
+        {
+          "id": "4",
+          "question": "Como você aloca orçamento entre departamentos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Igualmente"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em impacto estratégico e ROI esperado"
+            },
+            {
+              "value": "c",
+              "label": "Quem pede mais recebe mais"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma certa"
+            }
+          ],
+          "explanation": "Baseado em impacto estratégico e ROI esperado. Alocação deve ser estratégica.",
+          "hint": "Impacto > igualdade.",
+          "correctAnswer": "b",
+          "bookExample": "Se marketing tem ROI de 300% e RH tem ROI de 50%, aloque mais para marketing."
+        },
+        {
+          "id": "5",
+          "question": "Como você lida com orçamento apertado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Corte tudo"
+            },
+            {
+              "value": "b",
+              "label": "Priorize o que tem maior impacto e corte o resto"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de lidar"
+            },
+            {
+              "value": "d",
+              "label": "Aumente preços"
+            }
+          ],
+          "explanation": "Priorize o que tem maior impacto e corte o resto. Nem tudo é igualmente importante.",
+          "hint": "Impacto > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Se orçamento é apertado, mantenha vendas e produto. Corte eventos, consultores, e viagens."
+        },
+        {
+          "id": "6",
+          "question": "Como você projeta receita futura?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Adivinhe"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em pipeline, taxa de fechamento, e crescimento histórico"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível projetar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para grandes empresas"
+            }
+          ],
+          "explanation": "Baseado em pipeline, taxa de fechamento, e crescimento histórico. Projeção é um exercício de dados.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem R$100k em pipeline com 50% de taxa de fechamento, projete R$50k em receita."
+        },
+        {
+          "id": "7",
+          "question": "Como você calcula ROI de um investimento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível calcular"
+            },
+            {
+              "value": "b",
+              "label": "(Ganho - Investimento) / Investimento = ROI"
+            },
+            {
+              "value": "c",
+              "label": "Apenas com consultores"
+            },
+            {
+              "value": "d",
+              "label": "ROI não importa"
+            }
+          ],
+          "explanation": "(Ganho - Investimento) / Investimento = ROI. ROI permite comparar investimentos.",
+          "hint": "ROI = comparação.",
+          "correctAnswer": "b",
+          "bookExample": "Se você investe R$10k em marketing e ganha R$30k, ROI é (30k-10k)/10k = 200%."
+        },
+        {
+          "id": "8",
+          "question": "Como você lida com despesas inesperadas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Mantenha reserva de caixa e ajuste orçamento"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de lidar"
+            },
+            {
+              "value": "d",
+              "label": "Despesas inesperadas não existem"
+            }
+          ],
+          "explanation": "Mantenha reserva de caixa e ajuste orçamento. Despesas inesperadas são inevitáveis.",
+          "hint": "Preparação > surpresa.",
+          "correctAnswer": "b",
+          "bookExample": "Mantenha 3 meses de despesas em caixa. Se há despesa inesperada, você consegue cobrir."
+        },
+        {
+          "id": "9",
+          "question": "Como você comunica orçamento para o time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não comunique"
+            },
+            {
+              "value": "b",
+              "label": "Comunique objetivos, restrições, e como o orçamento foi alocado"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para liderança"
+            },
+            {
+              "value": "d",
+              "label": "Orçamento é confidencial"
+            }
+          ],
+          "explanation": "Comunique objetivos, restrições, e como o orçamento foi alocado. Transparência cria alinhamento.",
+          "hint": "Transparência = alinhamento.",
+          "correctAnswer": "b",
+          "bookExample": "Diga ao time: 'Temos R$500k para gastar este ano. Aqui está como foi alocado. Aqui estão as restrições'."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a métrica mais importante em planejamento financeiro?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Receita total"
+            },
+            {
+              "value": "b",
+              "label": "Margem de lucro e runway de caixa"
+            },
+            {
+              "value": "c",
+              "label": "Número de clientes"
+            },
+            {
+              "value": "d",
+              "label": "Despesas totais"
+            }
+          ],
+          "explanation": "Margem de lucro e runway de caixa. Essas métricas determinam saúde financeira.",
+          "hint": "Lucro + caixa = saúde.",
+          "correctAnswer": "b",
+          "bookExample": "Se sua margem é 30% e runway é 12 meses, você tem um negócio saudável."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Expansão e Novos Mercados",
+      "description": "Expanda sua empresa para novos mercados de forma estratégica",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Quando você deve expandir para novos mercados?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Assim que possível"
+            },
+            {
+              "value": "b",
+              "label": "Quando você domina o mercado atual e tem recursos"
+            },
+            {
+              "value": "c",
+              "label": "Nunca"
+            },
+            {
+              "value": "d",
+              "label": "Apenas quando há crise"
+            }
+          ],
+          "explanation": "Quando você domina o mercado atual e tem recursos. Expansão prematura é arriscada.",
+          "hint": "Dominar > expandir.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem 30% de market share no seu mercado e R$1M em caixa, está pronto para expandir."
+        },
+        {
+          "id": "2",
+          "question": "Como você escolhe qual mercado expandir?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Aleatoriamente"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em tamanho, crescimento, competição, e fit com seu produto"
+            },
+            {
+              "value": "c",
+              "label": "Apenas mercados próximos"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de escolher"
+            }
+          ],
+          "explanation": "Baseado em tamanho, crescimento, competição, e fit com seu produto. Escolha deve ser estratégica.",
+          "hint": "Estratégia > acaso.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu produto é software para PMEs, escolha mercados com muitas PMEs em crescimento."
+        },
+        {
+          "id": "3",
+          "question": "Como você testa um novo mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Investimento total"
+            },
+            {
+              "value": "b",
+              "label": "Piloto pequeno para validar antes de investimento total"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível testar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com consultores"
+            }
+          ],
+          "explanation": "Piloto pequeno para validar antes de investimento total. Reduz risco.",
+          "hint": "Teste > investimento total.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de gastar R$500k em um novo mercado, gaste R$50k em um piloto primeiro."
+        },
+        {
+          "id": "4",
+          "question": "Como você adapta seu produto para novo mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Sem mudanças"
+            },
+            {
+              "value": "b",
+              "label": "Pesquise o mercado e adapte conforme necessário"
+            },
+            {
+              "value": "c",
+              "label": "Mude tudo"
+            },
+            {
+              "value": "d",
+              "label": "Não é possível adaptar"
+            }
+          ],
+          "explanation": "Pesquise o mercado e adapte conforme necessário. Nem sempre é necessário mudar, mas às vezes é.",
+          "hint": "Pesquisa > suposição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você expande para outro país, pode precisar adaptar: idioma, moeda, regulação, preferências locais."
+        },
+        {
+          "id": "5",
+          "question": "Como você entra em novo mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Sozinho"
+            },
+            {
+              "value": "b",
+              "label": "Sozinho, parceria, ou aquisição - depende da situação"
+            },
+            {
+              "value": "c",
+              "label": "Apenas com aquisição"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de entrar"
+            }
+          ],
+          "explanation": "Sozinho, parceria, ou aquisição - depende da situação. Cada abordagem tem prós e contras.",
+          "hint": "Situação > abordagem fixa.",
+          "correctAnswer": "b",
+          "bookExample": "Você pode entrar sozinho (mais lento), com parceria (mais rápido), ou adquirir (mais caro)."
+        },
+        {
+          "id": "6",
+          "question": "Como você gerencia risco em expansão?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há risco"
+            },
+            {
+              "value": "b",
+              "label": "Teste, aprenda, e expanda gradualmente"
+            },
+            {
+              "value": "c",
+              "label": "Risco é inevitável"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de gerenciar"
+            }
+          ],
+          "explanation": "Teste, aprenda, e expanda gradualmente. Isso reduz risco.",
+          "hint": "Gradual > tudo de uma vez.",
+          "correctAnswer": "b",
+          "bookExample": "Teste em uma cidade, aprenda, depois expanda para outras cidades."
+        },
+        {
+          "id": "7",
+          "question": "Como você mantém foco enquanto expande?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível"
+            },
+            {
+              "value": "b",
+              "label": "Defina prioridades claras e diga não ao resto"
+            },
+            {
+              "value": "c",
+              "label": "Faça tudo"
+            },
+            {
+              "value": "d",
+              "label": "Foco não importa"
+            }
+          ],
+          "explanation": "Defina prioridades claras e diga não ao resto. Expansão é tentadora, mas foco é crítico.",
+          "hint": "Foco > oportunidades.",
+          "correctAnswer": "b",
+          "bookExample": "Se você está expandindo para um novo mercado, não lance novos produtos. Foco em expansão."
+        },
+        {
+          "id": "8",
+          "question": "Como você recrutamento para novo mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Envie pessoas do mercado atual"
+            },
+            {
+              "value": "b",
+              "label": "Contrate localmente com suporte do mercado atual"
+            },
+            {
+              "value": "c",
+              "label": "Não é necessário recrutar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas consultores"
+            }
+          ],
+          "explanation": "Contrate localmente com suporte do mercado atual. Locais entendem o mercado melhor.",
+          "hint": "Local + suporte = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Contrate um gerente local que entende o mercado. Envie um mentor do mercado atual para suportar."
+        },
+        {
+          "id": "9",
+          "question": "Como você mede sucesso em novo mercado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas pela receita"
+            },
+            {
+              "value": "b",
+              "label": "Por métricas claras: clientes, receita, churn, e ROI"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível medir"
+            },
+            {
+              "value": "d",
+              "label": "Apenas pela satisfação"
+            }
+          ],
+          "explanation": "Por métricas claras: clientes, receita, churn, e ROI. Dados > intuição.",
+          "hint": "Múltiplas métricas = visão completa.",
+          "correctAnswer": "b",
+          "bookExample": "Se você expandiu para um novo mercado, meça: quantos clientes? Qual receita? Qual churn? Qual ROI?"
+        },
+        {
+          "id": "10",
+          "question": "Quando você deve parar de expandir?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Nunca"
+            },
+            {
+              "value": "b",
+              "label": "Quando ROI é negativo ou recursos são limitados"
+            },
+            {
+              "value": "c",
+              "label": "Sempre continue expandindo"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de saber"
+            }
+          ],
+          "explanation": "Quando ROI é negativo ou recursos são limitados. Nem toda expansão é boa.",
+          "hint": "ROI > crescimento.",
+          "correctAnswer": "b",
+          "bookExample": "Se você expandiu para um mercado e ROI é -50%, pare. Foque em mercados com ROI positivo."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Tecnologia e Automação",
+      "description": "Use tecnologia para escalar sua empresa eficientemente",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que tecnologia é importante para escalar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Permite fazer mais com menos pessoas"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para tech companies"
+            },
+            {
+              "value": "d",
+              "label": "Tecnologia é cara"
+            }
+          ],
+          "explanation": "Permite fazer mais com menos pessoas. Tecnologia é um multiplicador.",
+          "hint": "Multiplicador > adição.",
+          "correctAnswer": "b",
+          "bookExample": "Com um CRM, um vendedor consegue gerenciar 2x mais clientes. Tecnologia multiplica produtividade."
+        },
+        {
+          "id": "2",
+          "question": "Como você escolhe qual tecnologia implementar?",
+          "options": [
+            {
+              "value": "a",
+              "label": "A mais cara"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em problema que resolve e ROI esperado"
+            },
+            {
+              "value": "c",
+              "label": "A mais popular"
+            },
+            {
+              "value": "d",
+              "label": "Aleatoriamente"
+            }
+          ],
+          "explanation": "Baseado em problema que resolve e ROI esperado. Tecnologia deve resolver um problema real.",
+          "hint": "Problema > tecnologia.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu problema é gestão de clientes, implemente um CRM. Se é automação de marketing, implemente uma plataforma de marketing."
+        },
+        {
+          "id": "3",
+          "question": "Como você implementa tecnologia?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Tudo de uma vez"
+            },
+            {
+              "value": "b",
+              "label": "Piloto com um time, aprenda, depois expanda"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível implementar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas com consultores"
+            }
+          ],
+          "explanation": "Piloto com um time, aprenda, depois expanda. Implementação gradual reduz risco.",
+          "hint": "Piloto > tudo de uma vez.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de implementar um CRM em toda a empresa, implemente com o time de vendas primeiro."
+        },
+        {
+          "id": "4",
+          "question": "Como você garante adoção de tecnologia?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas implementar"
+            },
+            {
+              "value": "b",
+              "label": "Treinamento, suporte, e incentivos"
+            },
+            {
+              "value": "c",
+              "label": "Adoção é automática"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de garantir"
+            }
+          ],
+          "explanation": "Treinamento, suporte, e incentivos. Adoção requer esforço.",
+          "hint": "Esforço = adoção.",
+          "correctAnswer": "b",
+          "bookExample": "Treine o time, ofereça suporte 24/7, e reconheça quem usa bem a tecnologia."
+        },
+        {
+          "id": "5",
+          "question": "Como você automatiza processos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Automatize tudo"
+            },
+            {
+              "value": "b",
+              "label": "Identifique processos repetitivos e automatize os mais impactantes"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível automatizar"
+            },
+            {
+              "value": "d",
+              "label": "Automação é cara"
+            }
+          ],
+          "explanation": "Identifique processos repetitivos e automatize os mais impactantes. Nem tudo deve ser automatizado.",
+          "hint": "Impacto > quantidade.",
+          "correctAnswer": "b",
+          "bookExample": "Se você gasta 10 horas/semana em entrada de dados, automatize. Se gasta 1 hora, não vale a pena."
+        },
+        {
+          "id": "6",
+          "question": "Como você integra diferentes sistemas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Manualmente"
+            },
+            {
+              "value": "b",
+              "label": "Com APIs ou ferramentas de integração"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível integrar"
+            },
+            {
+              "value": "d",
+              "label": "Integração é cara"
+            }
+          ],
+          "explanation": "Com APIs ou ferramentas de integração. Integração permite que sistemas trabalhem juntos.",
+          "hint": "Integração = eficiência.",
+          "correctAnswer": "b",
+          "bookExample": "Integre seu CRM com seu email para que emails sejam registrados automaticamente."
+        },
+        {
+          "id": "7",
+          "question": "Como você gerencia dados?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Centralize, organize, e proteja dados"
+            },
+            {
+              "value": "c",
+              "label": "Dados são apenas para análise"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de gerenciar"
+            }
+          ],
+          "explanation": "Centralize, organize, e proteja dados. Dados são um ativo valioso.",
+          "hint": "Dados = ativo.",
+          "correctAnswer": "b",
+          "bookExample": "Centralize dados em um data warehouse. Organize em tabelas. Proteja com backup e segurança."
+        },
+        {
+          "id": "8",
+          "question": "Como você usa dados para tomar decisões?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Dados não afetam decisões"
+            },
+            {
+              "value": "b",
+              "label": "Analise dados e use insights para guiar decisões"
+            },
+            {
+              "value": "c",
+              "label": "Apenas intuição"
+            },
+            {
+              "value": "d",
+              "label": "Dados são enganosos"
+            }
+          ],
+          "explanation": "Analise dados e use insights para guiar decisões. Dados > intuição.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se dados mostram que clientes de um segmento têm 2x mais valor, invista nesse segmento."
+        },
+        {
+          "id": "9",
+          "question": "Como você mantém segurança de dados?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Backup regular, criptografia, e controle de acesso"
+            },
+            {
+              "value": "c",
+              "label": "Segurança é cara"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de proteger"
+            }
+          ],
+          "explanation": "Backup regular, criptografia, e controle de acesso. Segurança é crítica.",
+          "hint": "Prevenção > reação.",
+          "correctAnswer": "b",
+          "bookExample": "Faça backup diário, criptografe dados sensíveis, e controle quem tem acesso."
+        },
+        {
+          "id": "10",
+          "question": "Como você escolhe entre construir vs comprar tecnologia?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Sempre construir"
+            },
+            {
+              "value": "b",
+              "label": "Compre se existe, construa se não existe ou é diferencial"
+            },
+            {
+              "value": "c",
+              "label": "Sempre comprar"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de escolher"
+            }
+          ],
+          "explanation": "Compre se existe, construa se não existe ou é diferencial. Construir é caro e lento.",
+          "hint": "Comprar > construir (geralmente).",
+          "correctAnswer": "b",
+          "bookExample": "Compre um CRM (existe e é caro construir). Construa um algoritmo de recomendação (diferencial competitivo)."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Parcerias Estratégicas e Alianças",
+      "description": "Use parcerias para acelerar crescimento",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que parcerias são importantes?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não são importantes"
+            },
+            {
+              "value": "b",
+              "label": "Permitem acessar novos mercados, clientes, e capacidades"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Parcerias são arriscadas"
+            }
+          ],
+          "explanation": "Permitem acessar novos mercados, clientes, e capacidades. Parcerias aceleram crescimento.",
+          "hint": "Aceleração > sozinho.",
+          "correctAnswer": "b",
+          "bookExample": "Uma parceria com um distribuidor pode dar acesso a 1000 novos clientes em 6 meses."
+        },
+        {
+          "id": "2",
+          "question": "Como você identifica parceiros potenciais?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Aleatoriamente"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em alinhamento de valores, complementaridade, e benefício mútuo"
+            },
+            {
+              "value": "c",
+              "label": "Apenas concorrentes"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de identificar"
+            }
+          ],
+          "explanation": "Baseado em alinhamento de valores, complementaridade, e benefício mútuo. Parceria deve ser ganha-ganha.",
+          "hint": "Alinhamento + complementaridade = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vende software para PMEs e alguém vende consultoria para PMEs, vocês são parceiros potenciais."
+        },
+        {
+          "id": "3",
+          "question": "Como você estrutura uma parceria?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Informalmente"
+            },
+            {
+              "value": "b",
+              "label": "Com contrato claro definindo responsabilidades, benefícios, e saída"
+            },
+            {
+              "value": "c",
+              "label": "Não é necessário estruturar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas verbalmente"
+            }
+          ],
+          "explanation": "Com contrato claro definindo responsabilidades, benefícios, e saída. Clareza evita conflitos.",
+          "hint": "Clareza = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Defina: quem faz o quê? Quem ganha quanto? Como sair da parceria?"
+        },
+        {
+          "id": "4",
+          "question": "Como você gerencia uma parceria?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Deixe acontecer"
+            },
+            {
+              "value": "b",
+              "label": "Comunicação regular, revisão de progresso, e ajustes"
+            },
+            {
+              "value": "c",
+              "label": "Não é necessário gerenciar"
+            },
+            {
+              "value": "d",
+              "label": "Apenas no início"
+            }
+          ],
+          "explanation": "Comunicação regular, revisão de progresso, e ajustes. Parcerias requerem gestão ativa.",
+          "hint": "Ativo > passivo.",
+          "correctAnswer": "b",
+          "bookExample": "Reúna-se com parceiro mensalmente. Revise: estamos atingindo objetivos? Há problemas? Precisamos ajustar?"
+        },
+        {
+          "id": "5",
+          "question": "Como você mede sucesso de uma parceria?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas pelo feeling"
+            },
+            {
+              "value": "b",
+              "label": "Por métricas claras: clientes, receita, e ROI"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível medir"
+            },
+            {
+              "value": "d",
+              "label": "Apenas pela satisfação"
+            }
+          ],
+          "explanation": "Por métricas claras: clientes, receita, e ROI. Dados > intuição.",
+          "hint": "Dados > intuição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem uma parceria de distribuição, meça: quantos clientes? Qual receita? Qual ROI?"
+        },
+        {
+          "id": "6",
+          "question": "Como você lida com conflito em parceria?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Comunique cedo, ouça, e busque solução"
+            },
+            {
+              "value": "c",
+              "label": "Saia da parceria"
+            },
+            {
+              "value": "d",
+              "label": "Conflito é normal"
+            }
+          ],
+          "explanation": "Comunique cedo, ouça, e busque solução. Conflitos não resolvidos destroem parcerias.",
+          "hint": "Cedo > tarde.",
+          "correctAnswer": "b",
+          "bookExample": "Se há conflito sobre como dividir receita, reúna-se e negocie. Não deixe crescer."
+        },
+        {
+          "id": "7",
+          "question": "Como você sai de uma parceria?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Abruptamente"
+            },
+            {
+              "value": "b",
+              "label": "Com aviso prévio, transição clara, e comunicação honesta"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível sair"
+            },
+            {
+              "value": "d",
+              "label": "Apenas legalmente"
+            }
+          ],
+          "explanation": "Com aviso prévio, transição clara, e comunicação honesta. Saída bem feita preserva relacionamento.",
+          "hint": "Profissionalismo > drama.",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer sair de uma parceria, avise com 90 dias de antecedência, ajude na transição, e comunique honestamente."
+        },
+        {
+          "id": "8",
+          "question": "Como você evita dependência de um parceiro?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível evitar"
+            },
+            {
+              "value": "b",
+              "label": "Tenha múltiplos parceiros e mantenha capacidade interna"
+            },
+            {
+              "value": "c",
+              "label": "Dependência é normal"
+            },
+            {
+              "value": "d",
+              "label": "Não tenha parceiros"
+            }
+          ],
+          "explanation": "Tenha múltiplos parceiros e mantenha capacidade interna. Diversificação reduz risco.",
+          "hint": "Diversificação = segurança.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem um distribuidor que gera 50% da receita, procure outro distribuidor para reduzir dependência."
+        },
+        {
+          "id": "9",
+          "question": "Como você comunica parceria para o time?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não comunique"
+            },
+            {
+              "value": "b",
+              "label": "Explique benefícios, responsabilidades, e como trabalhar com parceiro"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para liderança"
+            },
+            {
+              "value": "d",
+              "label": "Parceria é confidencial"
+            }
+          ],
+          "explanation": "Explique benefícios, responsabilidades, e como trabalhar com parceiro. Alinhamento é crítico.",
+          "hint": "Alinhamento = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Diga ao time: 'Temos uma parceria com X. Aqui está como vamos trabalhar juntos. Aqui estão os benefícios'."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior erro em parcerias?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ter muitos parceiros"
+            },
+            {
+              "value": "b",
+              "label": "Não ter contrato claro ou não gerenciar ativamente"
+            },
+            {
+              "value": "c",
+              "label": "Parceiros são sempre ruins"
+            },
+            {
+              "value": "d",
+              "label": "Não há erro"
+            }
+          ],
+          "explanation": "Não ter contrato claro ou não gerenciar ativamente. Parcerias requerem estrutura e gestão.",
+          "hint": "Estrutura + gestão = sucesso.",
+          "correctAnswer": "b",
+          "bookExample": "Muitas parcerias falham porque não há contrato claro ou porque ninguém gerencia ativamente."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Comunicação Interna e Transparência",
+      "description": "Crie uma cultura de comunicação clara e transparência",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que comunicação é crítica em empresas em crescimento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é crítica"
+            },
+            {
+              "value": "b",
+              "label": "Sem comunicação clara, há confusão, conflito, e ineficiência"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Comunicação é cara"
+            }
+          ],
+          "explanation": "Sem comunicação clara, há confusão, conflito, e ineficiência. Comunicação é o óleo que lubrifica a organização.",
+          "hint": "Comunicação = eficiência.",
+          "correctAnswer": "b",
+          "bookExample": "Se vendas não sabe o que produto está fazendo, há duplicação. Se não há comunicação, há caos."
+        },
+        {
+          "id": "2",
+          "question": "Como você cria canais de comunicação efetivos?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas email"
+            },
+            {
+              "value": "b",
+              "label": "Múltiplos canais: reuniões, email, chat, e documentação"
+            },
+            {
+              "value": "c",
+              "label": "Apenas reuniões"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de criar"
+            }
+          ],
+          "explanation": "Múltiplos canais: reuniões, email, chat, e documentação. Diferentes informações precisam de diferentes canais.",
+          "hint": "Múltiplos canais = clareza.",
+          "correctAnswer": "b",
+          "bookExample": "Decisões estratégicas em reuniões. Atualizações em email. Perguntas rápidas em chat. Processos em documentação."
+        },
+        {
+          "id": "3",
+          "question": "Como você estrutura reuniões efetivas?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Sem agenda"
+            },
+            {
+              "value": "b",
+              "label": "Com agenda clara, tempo limite, e atas"
+            },
+            {
+              "value": "c",
+              "label": "Reuniões são inúteis"
+            },
+            {
+              "value": "d",
+              "label": "Apenas conversas informais"
+            }
+          ],
+          "explanation": "Com agenda clara, tempo limite, e atas. Reuniões estruturadas são mais efetivas.",
+          "hint": "Estrutura = eficiência.",
+          "correctAnswer": "b",
+          "bookExample": "Reunião de 1 hora com agenda: 15min atualizações, 30min discussão, 15min decisões. Atas enviadas depois."
+        },
+        {
+          "id": "4",
+          "question": "Como você comunica decisões importantes?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas em email"
+            },
+            {
+              "value": "b",
+              "label": "Pessoalmente, explicando raciocínio, respondendo perguntas, e documentando"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Pessoalmente, explicando raciocínio, respondendo perguntas, e documentando. Decisões importantes merecem comunicação clara.",
+          "hint": "Clareza + empatia.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai fazer demissões, reúna-se pessoalmente, explique por quê, responda perguntas, e documente."
+        },
+        {
+          "id": "5",
+          "question": "Como você cria transparência?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Compartilhe informações financeiras, métricas, e decisões com o time"
+            },
+            {
+              "value": "c",
+              "label": "Transparência é arriscada"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Compartilhe informações financeiras, métricas, e decisões com o time. Transparência cria confiança.",
+          "hint": "Transparência = confiança.",
+          "correctAnswer": "b",
+          "bookExample": "Compartilhe: receita mensal, churn, CAC, e decisões estratégicas. O time merece saber."
+        },
+        {
+          "id": "6",
+          "question": "Como você lida com boatos e desinformação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Ignore"
+            },
+            {
+              "value": "b",
+              "label": "Comunique rapidamente com fatos para corrigir"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de lidar"
+            },
+            {
+              "value": "d",
+              "label": "Boatos são normais"
+            }
+          ],
+          "explanation": "Comunique rapidamente com fatos para corrigir. Boatos crescem no vácuo de informação.",
+          "hint": "Fatos > boatos.",
+          "correctAnswer": "b",
+          "bookExample": "Se há boato sobre demissões, comunique rapidamente: 'Aqui está a verdade. Não há demissões planejadas'."
+        },
+        {
+          "id": "7",
+          "question": "Como você garante que comunicação é entendida?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas envie"
+            },
+            {
+              "value": "b",
+              "label": "Repita, peça feedback, e verifique compreensão"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível garantir"
+            },
+            {
+              "value": "d",
+              "label": "Comunicação é clara por si só"
+            }
+          ],
+          "explanation": "Repita, peça feedback, e verifique compreensão. Comunicação é um processo, não um evento.",
+          "hint": "Repetição = compreensão.",
+          "correctAnswer": "b",
+          "bookExample": "Comunique uma vez. Depois, pergunte: 'Vocês entenderam? Há dúvidas?' Repita se necessário."
+        },
+        {
+          "id": "8",
+          "question": "Como você comunica más notícias?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Esconda"
+            },
+            {
+              "value": "b",
+              "label": "Cedo, honestamente, e com plano de ação"
+            },
+            {
+              "value": "c",
+              "label": "Não comunique"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para liderança"
+            }
+          ],
+          "explanation": "Cedo, honestamente, e com plano de ação. Más notícias crescem se escondidas.",
+          "hint": "Cedo > tarde.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vai perder um cliente grande, comunique cedo: 'Perdemos X. Aqui está o impacto. Aqui está nosso plano'."
+        },
+        {
+          "id": "9",
+          "question": "Como você cria feedback loop?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é necessário"
+            },
+            {
+              "value": "b",
+              "label": "Peça feedback regularmente e mostre que você agiu"
+            },
+            {
+              "value": "c",
+              "label": "Feedback é inútil"
+            },
+            {
+              "value": "d",
+              "label": "Apenas em pesquisas anuais"
+            }
+          ],
+          "explanation": "Peça feedback regularmente e mostre que você agiu. Feedback loop cria confiança.",
+          "hint": "Ação > palavras.",
+          "correctAnswer": "b",
+          "bookExample": "Peça feedback em reuniões. Mostre que você agiu: 'Vocês pediram X. Aqui está o que fizemos'."
+        },
+        {
+          "id": "10",
+          "question": "Qual é o maior erro em comunicação?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Comunicar demais"
+            },
+            {
+              "value": "b",
+              "label": "Não comunicar ou comunicar tarde"
+            },
+            {
+              "value": "c",
+              "label": "Comunicação é sempre clara"
+            },
+            {
+              "value": "d",
+              "label": "Não há erro"
+            }
+          ],
+          "explanation": "Não comunicar ou comunicar tarde. Silêncio cria incerteza e boatos.",
+          "hint": "Cedo > tarde.",
+          "correctAnswer": "b",
+          "bookExample": "Se você não comunica uma mudança, o time fica incerto. Se comunica tarde, boatos já cresceram."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Resiliência e Adaptação em Crises",
+      "description": "Prepare sua empresa para crises e mantenha resiliência",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que resiliência é importante?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Crises são inevitáveis; resiliência permite sobreviver"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Crises não existem"
+            }
+          ],
+          "explanation": "Crises são inevitáveis; resiliência permite sobreviver. Empresas resilientes prosperam.",
+          "hint": "Preparação > reação.",
+          "correctAnswer": "b",
+          "bookExample": "COVID-19 foi uma crise. Empresas resilientes pivotaram. Empresas frágeis quebraram."
+        },
+        {
+          "id": "2",
+          "question": "Como você prepara sua empresa para crises?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível preparar"
+            },
+            {
+              "value": "b",
+              "label": "Cenários de crise, planos de contingência, e reserva de caixa"
+            },
+            {
+              "value": "c",
+              "label": "Apenas rezar"
+            },
+            {
+              "value": "d",
+              "label": "Preparação é cara"
+            }
+          ],
+          "explanation": "Cenários de crise, planos de contingência, e reserva de caixa. Preparação reduz impacto.",
+          "hint": "Preparação = sobrevivência.",
+          "correctAnswer": "b",
+          "bookExample": "Tenha plano para: perda de cliente grande, queda de receita, saída de líder chave."
+        },
+        {
+          "id": "3",
+          "question": "Como você identifica sinais de crise cedo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas quando explode"
+            },
+            {
+              "value": "b",
+              "label": "Monitorando métricas, feedback, e ambiente externo"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível identificar cedo"
+            },
+            {
+              "value": "d",
+              "label": "Sinais não existem"
+            }
+          ],
+          "explanation": "Monitorando métricas, feedback, e ambiente externo. Sinais aparecem cedo.",
+          "hint": "Proativo > reativo.",
+          "correctAnswer": "b",
+          "bookExample": "Se churn sobe 50%, é um sinal. Se um cliente grande quer sair, é um sinal. Se mercado muda, é um sinal."
+        },
+        {
+          "id": "4",
+          "question": "Como você responde a uma crise?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Pânico"
+            },
+            {
+              "value": "b",
+              "label": "Calma, avalie, comunique, e aja rápido"
+            },
+            {
+              "value": "c",
+              "label": "Ignore"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de responder"
+            }
+          ],
+          "explanation": "Calma, avalie, comunique, e aja rápido. Resposta rápida reduz dano.",
+          "hint": "Rápido > perfeito.",
+          "correctAnswer": "b",
+          "bookExample": "Se um cliente grande sai, não panique. Avalie por quê. Comunique ao time. Aja para reter outros clientes."
+        },
+        {
+          "id": "5",
+          "question": "Como você comunica durante uma crise?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Esconda"
+            },
+            {
+              "value": "b",
+              "label": "Honestamente, frequentemente, e com plano de ação"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para liderança"
+            },
+            {
+              "value": "d",
+              "label": "Não comunique"
+            }
+          ],
+          "explanation": "Honestamente, frequentemente, e com plano de ação. Comunicação clara reduz pânico.",
+          "hint": "Honestidade = confiança.",
+          "correctAnswer": "b",
+          "bookExample": "Durante uma crise: 'Aqui está o problema. Aqui está o impacto. Aqui está nosso plano. Vamos atualizar diariamente'."
+        },
+        {
+          "id": "6",
+          "question": "Como você mantém moral durante uma crise?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Comunicação clara, reconhecimento, e esperança"
+            },
+            {
+              "value": "c",
+              "label": "Moral sempre cai"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de manter"
+            }
+          ],
+          "explanation": "Comunicação clara, reconhecimento, e esperança. Moral é crítica em crises.",
+          "hint": "Esperança = resiliência.",
+          "correctAnswer": "b",
+          "bookExample": "Durante uma crise, reconheça o trabalho duro do time. Mostre esperança. Comunique progresso."
+        },
+        {
+          "id": "7",
+          "question": "Como você toma decisões rápidas em crise?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Comitês e consenso"
+            },
+            {
+              "value": "b",
+              "label": "Decisão rápida com informação disponível, depois ajuste"
+            },
+            {
+              "value": "c",
+              "label": "Não há forma de decidir rápido"
+            },
+            {
+              "value": "d",
+              "label": "Decisões rápidas são ruins"
+            }
+          ],
+          "explanation": "Decisão rápida com informação disponível, depois ajuste. Perfeição é inimiga da ação.",
+          "hint": "Rápido > perfeito.",
+          "correctAnswer": "b",
+          "bookExample": "Se você precisa cortar custos, decida rápido com 80% de informação. Depois ajuste conforme aprende."
+        },
+        {
+          "id": "8",
+          "question": "Como você aprende com crises?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas sofra"
+            },
+            {
+              "value": "b",
+              "label": "Reflita sobre causa raiz e implemente mudanças"
+            },
+            {
+              "value": "c",
+              "label": "Não há aprendizado"
+            },
+            {
+              "value": "d",
+              "label": "Apenas ignore"
+            }
+          ],
+          "explanation": "Reflita sobre causa raiz e implemente mudanças. Crises são oportunidades de aprendizado.",
+          "hint": "Aprendizado > repetição.",
+          "correctAnswer": "b",
+          "bookExample": "Se você teve uma crise de caixa, a causa raiz pode ser falta de planejamento. Implemente planejamento melhor."
+        },
+        {
+          "id": "9",
+          "question": "Como você constrói redundância?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Múltiplos fornecedores, backup de dados, e planos de contingência"
+            },
+            {
+              "value": "c",
+              "label": "Redundância é cara"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de construir"
+            }
+          ],
+          "explanation": "Múltiplos fornecedores, backup de dados, e planos de contingência. Redundância reduz risco.",
+          "hint": "Redundância = segurança.",
+          "correctAnswer": "b",
+          "bookExample": "Se você tem um fornecedor, procure outro. Se você tem um backup, procure dois. Redundância = segurança."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a qualidade mais importante em uma crise?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Inteligência"
+            },
+            {
+              "value": "b",
+              "label": "Calma e capacidade de tomar decisão rápida"
+            },
+            {
+              "value": "c",
+              "label": "Experiência"
+            },
+            {
+              "value": "d",
+              "label": "Dinheiro"
+            }
+          ],
+          "explanation": "Calma e capacidade de tomar decisão rápida. Pânico é contagioso.",
+          "hint": "Calma > pânico.",
+          "correctAnswer": "b",
+          "bookExample": "Um líder calmo que toma decisão rápida consegue guiar a empresa através de crise. Um líder em pânico piora tudo."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Visão de Longo Prazo e Legado",
+      "description": "Construa uma empresa que dura e deixa um legado",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que visão de longo prazo é importante?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Permite tomar decisões que criam valor duradouro"
+            },
+            {
+              "value": "c",
+              "label": "Apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Curto prazo é mais importante"
+            }
+          ],
+          "explanation": "Permite tomar decisões que criam valor duradouro. Visão de longo prazo guia decisões de curto prazo.",
+          "hint": "Longo prazo > curto prazo.",
+          "correctAnswer": "b",
+          "bookExample": "Se você quer ser a empresa número 1 em 10 anos, isso guia decisões hoje sobre produto, cultura, e mercado."
+        },
+        {
+          "id": "2",
+          "question": "Como você define visão de longo prazo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Adivinhe"
+            },
+            {
+              "value": "b",
+              "label": "Baseado em paixão, mercado, e capacidades"
+            },
+            {
+              "value": "c",
+              "label": "Não é possível definir"
+            },
+            {
+              "value": "d",
+              "label": "Apenas para startups"
+            }
+          ],
+          "explanation": "Baseado em paixão, mercado, e capacidades. Visão deve ser inspiradora e alcançável.",
+          "hint": "Paixão + mercado + capacidades.",
+          "correctAnswer": "b",
+          "bookExample": "Visão: 'Ser a plataforma número 1 para PMEs gerenciarem operações em 10 anos'. Isso é inspirador e alcançável."
+        },
+        {
+          "id": "3",
+          "question": "Como você alinha decisões de curto prazo com visão de longo prazo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não há conexão"
+            },
+            {
+              "value": "b",
+              "label": "Toda decisão deve ser avaliada: 'Isso nos aproxima da visão?'"
+            },
+            {
+              "value": "c",
+              "label": "Curto prazo é independente"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de alinhar"
+            }
+          ],
+          "explanation": "Toda decisão deve ser avaliada: 'Isso nos aproxima da visão?'. Alinhamento cria coerência.",
+          "hint": "Alinhamento = coerência.",
+          "correctAnswer": "b",
+          "bookExample": "Se sua visão é ser número 1, você rejeita oportunidades que não ajudam. Você diz não a muitas coisas."
+        },
+        {
+          "id": "4",
+          "question": "Como você constrói cultura duradoura?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é possível"
+            },
+            {
+              "value": "b",
+              "label": "Valores claros, liderança consistente, e reforço contínuo"
+            },
+            {
+              "value": "c",
+              "label": "Cultura é apenas para startups"
+            },
+            {
+              "value": "d",
+              "label": "Cultura não importa"
+            }
+          ],
+          "explanation": "Valores claros, liderança consistente, e reforço contínuo. Cultura é intencional.",
+          "hint": "Intenção > acaso.",
+          "correctAnswer": "b",
+          "bookExample": "Defina valores. Contrate alinhado. Reforce em decisões, reconhecimento, e demissões. Cultura dura."
+        },
+        {
+          "id": "5",
+          "question": "Como você cria impacto social?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é responsabilidade da empresa"
+            },
+            {
+              "value": "b",
+              "label": "Integre propósito social na missão e operações"
+            },
+            {
+              "value": "c",
+              "label": "Apenas com caridade"
+            },
+            {
+              "value": "d",
+              "label": "Impacto social é caro"
+            }
+          ],
+          "explanation": "Integre propósito social na missão e operações. Impacto social cria significado.",
+          "hint": "Propósito = significado.",
+          "correctAnswer": "b",
+          "bookExample": "Se sua missão é 'Democratizar educação', isso guia produto, preço, e operações. Impacto é integrado."
+        },
+        {
+          "id": "6",
+          "question": "Como você prepara sucessão de liderança?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Identifique sucessores, desenvolva, e transfira poder gradualmente"
+            },
+            {
+              "value": "c",
+              "label": "Sucessão é apenas para grandes empresas"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de preparar"
+            }
+          ],
+          "explanation": "Identifique sucessores, desenvolva, e transfira poder gradualmente. Sucessão garante continuidade.",
+          "hint": "Preparação = continuidade.",
+          "correctAnswer": "b",
+          "bookExample": "Identifique um sucessor potencial. Desenvolva-o. Transfira responsabilidades gradualmente. Depois, saia."
+        },
+        {
+          "id": "7",
+          "question": "Como você documenta conhecimento?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Não é importante"
+            },
+            {
+              "value": "b",
+              "label": "Processos, decisões, e aprendizados documentados"
+            },
+            {
+              "value": "c",
+              "label": "Conhecimento é apenas na cabeça das pessoas"
+            },
+            {
+              "value": "d",
+              "label": "Documentação é cara"
+            }
+          ],
+          "explanation": "Processos, decisões, e aprendizados documentados. Documentação preserva conhecimento.",
+          "hint": "Documentação = preservação.",
+          "correctAnswer": "b",
+          "bookExample": "Documente: como você vende, como você produz, por que você tomou decisões importantes. Isso preserva conhecimento."
+        },
+        {
+          "id": "8",
+          "question": "Como você mede legado?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Apenas por lucro"
+            },
+            {
+              "value": "b",
+              "label": "Por impacto: clientes, funcionários, comunidade, e mundo"
+            },
+            {
+              "value": "c",
+              "label": "Legado não pode ser medido"
+            },
+            {
+              "value": "d",
+              "label": "Legado não importa"
+            }
+          ],
+          "explanation": "Por impacto: clientes, funcionários, comunidade, e mundo. Legado é multidimensional.",
+          "hint": "Impacto > lucro.",
+          "correctAnswer": "b",
+          "bookExample": "Seu legado é: quantos clientes você ajudou? Quantos empregos criou? Qual impacto social? Qual inovação?"
+        },
+        {
+          "id": "9",
+          "question": "Como você mantém propósito enquanto cresce?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Propósito se perde com crescimento"
+            },
+            {
+              "value": "b",
+              "label": "Reforce propósito constantemente em decisões e cultura"
+            },
+            {
+              "value": "c",
+              "label": "Propósito é apenas para startups"
+            },
+            {
+              "value": "d",
+              "label": "Não há forma de manter"
+            }
+          ],
+          "explanation": "Reforce propósito constantemente em decisões e cultura. Propósito é mantido, não criado uma vez.",
+          "hint": "Reforço = manutenção.",
+          "correctAnswer": "b",
+          "bookExample": "Se seu propósito é 'Democratizar educação', reforce em: decisões de produto, preço, contratação, e reconhecimento."
+        },
+        {
+          "id": "10",
+          "question": "Qual é a pergunta mais importante para visão de longo prazo?",
+          "options": [
+            {
+              "value": "a",
+              "label": "Como ganhar mais dinheiro?"
+            },
+            {
+              "value": "b",
+              "label": "Qual impacto queremos deixar no mundo?"
+            },
+            {
+              "value": "c",
+              "label": "Como vencer concorrentes?"
+            },
+            {
+              "value": "d",
+              "label": "Como crescer mais rápido?"
+            }
+          ],
+          "explanation": "Qual impacto queremos deixar no mundo? Essa pergunta guia tudo.",
+          "hint": "Impacto > crescimento.",
+          "correctAnswer": "b",
+          "bookExample": "Se você responde 'Queremos democratizar educação', isso guia produto, preço, mercado, e cultura. Tudo flui disso."
+        }
+      ]
+    }
+  ]
+}
