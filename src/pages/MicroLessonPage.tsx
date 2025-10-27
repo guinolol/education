@@ -8,6 +8,7 @@ import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
 import runningLeanLessons from '@/data/runningLeanLessons.json';
 import leanCustomerDevelopmentLessons from '@/data/leanCustomerDevelopmentLessons.json';
 import scalingPeopleLessons from '@/data/scalingPeopleLessons.json';
+import foundingSalesLessons from '@/data/foundingSalesLessons.json';
 import NotFound from './NotFound';
 
 const lessonDataMap: Record<string, any[]> = {
@@ -17,7 +18,7 @@ const lessonDataMap: Record<string, any[]> = {
   runningLean: runningLeanLessons,
   leanCustomerDev: leanCustomerDevelopmentLessons,
   scalingPeople: scalingPeopleLessons,
-  scalingPeople: scalingPeopleLessons,
+  foundingSales: foundingSalesLessons,
 };
 
 const MicroLessonPage = () => {
