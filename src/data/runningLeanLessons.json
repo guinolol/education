@@ -355,5 +355,54 @@
         "bookExample": "Em vez de passar 6 meses construindo, você passa 2 semanas construindo um MVP, 1 semana medindo e 1 semana aprendendo/pivotando."
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Running Lean: Métricas e Validação",
+    "conclusionMessage": "Você aprendeu sobre as métricas cruciais para validar o Product-Market Fit e a saúde do seu negócio.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a métrica mais importante para medir o Product-Market Fit?",
+        "options": [
+          { "value": "a", "label": "Receita Total" },
+          { "value": "b", "label": "Retenção de Clientes (Churn Rate)" },
+          { "value": "c", "label": "Número de features lançadas" },
+          { "value": "d", "label": "Tráfego do site" }
+        ],
+        "explanation": "A retenção é a métrica mais importante. Se os clientes não continuam usando o produto, você não tem PMF. O Churn Rate (taxa de abandono) deve ser baixo.",
+        "hint": "O valor real está no uso contínuo.",
+        "correctAnswer": "b",
+        "bookExample": "Se 40% dos seus usuários dizem que ficariam 'muito desapontados' se seu produto desaparecesse, você está perto do PMF (Teste de Sean Ellis)."
+      },
+      {
+        "id": "2",
+        "question": "O que é o 'Lifetime Value' (LTV) do cliente?",
+        "options": [
+          { "value": "a", "label": "O custo de aquisição do cliente" },
+          { "value": "b", "label": "O valor total de receita que um cliente gera durante todo o seu relacionamento com a empresa" },
+          { "value": "c", "label": "O preço da primeira compra" },
+          { "value": "d", "label": "O tempo que o cliente usa o produto" }
+        ],
+        "explanation": "O LTV é crucial para a sustentabilidade. Ele deve ser significativamente maior que o CAC (Custo de Aquisição do Cliente).",
+        "hint": "Valor total ao longo do tempo.",
+        "correctAnswer": "b",
+        "bookExample": "Se um cliente paga $10/mês por 24 meses, o LTV é $240."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a regra geral para a relação entre LTV e CAC?",
+        "options": [
+          { "value": "a", "label": "LTV deve ser igual a CAC" },
+          { "value": "b", "label": "LTV deve ser pelo menos 3 vezes maior que CAC" },
+          { "value": "c", "label": "CAC deve ser maior que LTV" },
+          { "value": "d", "label": "A relação não importa" }
+        ],
+        "explanation": "Para um negócio ser sustentável, o valor que o cliente gera (LTV) deve ser muito maior do que o custo para adquiri-lo (CAC). A regra de ouro é LTV > 3x CAC.",
+        "hint": "Margem de lucro.",
+        "correctAnswer": "b",
+        "bookExample": "Se o CAC é $50, o LTV deve ser pelo menos $150 para cobrir custos operacionais e gerar lucro."
+      }
+    ]
   }
 ]

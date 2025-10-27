@@ -355,5 +355,117 @@
         "bookExample": "Se todos sabem que o Outcome é 'Reduzir o Churn em 5%', todas as decisões de feature podem ser avaliadas contra esse objetivo."
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Build Trap: Alinhamento e OKRs",
+    "conclusionMessage": "Você aprendeu como usar OKRs para alinhar a organização e garantir que todos estejam focados nos outcomes corretos.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que são 'OKRs' (Objectives and Key Results)?",
+        "options": [
+          { "value": "a", "label": "Uma lista de tarefas" },
+          { "value": "b", "label": "Um framework de metas que conecta objetivos ambiciosos (O) com resultados mensuráveis (KR)" },
+          { "value": "c", "label": "Um sistema de feedback" },
+          { "value": "d", "label": "Um tipo de reunião" }
+        ],
+        "explanation": "OKRs são a principal ferramenta para alinhar a empresa em torno de prioridades e resultados. O Objetivo é o 'o quê' (inspirador), e os Key Results são o 'como' (mensurável).",
+        "hint": "Alinhamento e Foco.",
+        "correctAnswer": "b",
+        "bookExample": "Objetivo: 'Lançar um produto de classe mundial'. KR: 'Alcançar 50% de retenção de usuários após 3 meses'."
+      },
+      {
+        "id": "2",
+        "question": "Qual é a diferença entre um 'Objective' e um 'Key Result' em OKRs?",
+        "options": [
+          { "value": "a", "label": "Objective é o que você faz; Key Result é o que você sente" },
+          { "value": "b", "label": "Objective é qualitativo e inspirador; Key Result é quantitativo e mensurável" },
+          { "value": "c", "label": "Objective é fácil; Key Result é difícil" },
+          { "value": "d", "label": "Objective é anual; Key Result é trimestral" }
+        ],
+        "explanation": "O Objective deve ser inspirador e motivacional. O Key Result deve ser um número que prova se o Objective foi alcançado.",
+        "hint": "O 'O' é o destino, o 'KR' é a bússola.",
+        "correctAnswer": "b",
+        "bookExample": "O: 'Dominar o mercado de SaaS B2B'. KR: 'Aumentar o Market Share de 5% para 15%'."
+      },
+      {
+        "id": "3",
+        "question": "Por que os OKRs devem ser 'ambiciosos' (stretch goals)?",
+        "options": [
+          { "value": "a", "label": "Para garantir que a equipe trabalhe mais" },
+          { "value": "b", "label": "Para forçar a equipe a pensar de forma inovadora e sair da zona de conforto" },
+          { "value": "c", "label": "Para garantir que eles falhem" },
+          { "value": "d", "label": "Para impressionar os investidores" }
+        ],
+        "explanation": "OKRs ambiciosos (onde atingir 70% já é um sucesso) incentivam a inovação e evitam que a equipe se contente com o mínimo.",
+        "hint": "Pense grande.",
+        "correctAnswer": "b",
+        "bookExample": "Se você atinge 100% de um OKR ambicioso, ele provavelmente não era ambicioso o suficiente."
+      },
+      {
+        "id": "4",
+        "question": "Como o líder deve usar os OKRs para gerenciar o desempenho?",
+        "options": [
+          { "value": "a", "label": "Usar os OKRs como lista de tarefas para demitir quem não atingir 100%" },
+          { "value": "b", "label": "Usar os OKRs como uma ferramenta de alinhamento e aprendizado, separada da compensação direta" },
+          { "value": "c", "label": "Ignorar os OKRs" },
+          { "value": "d", "label": "Mudar os OKRs toda semana" }
+        ],
+        "explanation": "OKRs devem ser separados da compensação direta para incentivar a ambição e a honestidade. Eles são uma ferramenta de planejamento e aprendizado.",
+        "hint": "Ambição e honestidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se os OKRs estiverem diretamente ligados ao bônus, as pessoas definirão metas fáceis (sandbagging) para garantir o pagamento."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Build Trap: O Ciclo de Descoberta (Discovery)",
+    "conclusionMessage": "Você aprendeu sobre o ciclo de Product Discovery. Agora você sabe como validar o problema e a solução antes de construir.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal objetivo do Product Discovery?",
+        "options": [
+          { "value": "a", "label": "Construir o produto o mais rápido possível" },
+          { "value": "b", "label": "Reduzir o risco de construir a coisa errada" },
+          { "value": "c", "label": "Fazer testes A/B" },
+          { "value": "d", "label": "Escrever user stories" }
+        ],
+        "explanation": "O Discovery é o processo contínuo de entender o cliente, o problema e validar a solução antes de construir, reduzindo o risco de desperdício de recursos.",
+        "hint": "Pense em mitigação de risco.",
+        "correctAnswer": "b",
+        "bookExample": "O Discovery deve responder: 'O cliente tem o problema? Ele pagaria para resolver? Nossa solução funciona?'"
+      },
+      {
+        "id": "2",
+        "question": "Quais são os três pilares do Product Discovery?",
+        "options": [
+          { "value": "a", "label": "Viabilidade, Desejabilidade, Usabilidade" },
+          { "value": "b", "label": "Viabilidade, Desejabilidade, Sustentabilidade" },
+          { "value": "c", "label": "Problema, Solução, Preço" },
+          { "value": "d", "label": "Visão, Estratégia, Tática" }
+        ],
+        "explanation": "O Discovery deve garantir que a solução seja Desejável (o cliente quer), Viável (podemos construir) e Sustentável (faz sentido para o negócio).",
+        "hint": "Os três grandes riscos de qualquer produto.",
+        "correctAnswer": "b",
+        "bookExample": "Uma solução pode ser Desejável e Viável, mas se não for Sustentável (não gera lucro), não vale a pena construir."
+      },
+      {
+        "id": "3",
+        "question": "O que é um 'Protótipo de Baixa Fidelidade' e quando usá-lo?",
+        "options": [
+          { "value": "a", "label": "Um produto quase pronto" },
+          { "value": "b", "label": "Um esboço rápido (papel, wireframe) usado para testar conceitos iniciais e fluxo de usuário" },
+          { "value": "c", "label": "Um MVP" },
+          { "value": "d", "label": "Um teste A/B" }
+        ],
+        "explanation": "Protótipos de baixa fidelidade são rápidos e baratos, ideais para testar se o conceito básico da solução resolve o problema, antes de investir tempo em design e código.",
+        "hint": "Velocidade de aprendizado.",
+        "correctAnswer": "b",
+        "bookExample": "Usar um protótipo de papel em uma entrevista de cliente para ver se o fluxo de 5 passos faz sentido."
+      }
+    ]
   }
 ]

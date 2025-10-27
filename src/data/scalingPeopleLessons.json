@@ -355,5 +355,54 @@
         "bookExample": "Se os OKRs estiverem diretamente ligados ao bônus, as pessoas definirão metas fáceis (sandbagging) para garantir o pagamento."
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Scaling People: Contratação e Onboarding",
+    "conclusionMessage": "Você aprendeu a importância de sistemas de contratação e onboarding para garantir que a empresa cresça com talento e alinhamento.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o principal objetivo do processo de contratação em escala?",
+        "options": [
+          { "value": "a", "label": "Preencher vagas rapidamente" },
+          { "value": "b", "label": "Garantir que cada nova contratação eleve o nível de talento da empresa" },
+          { "value": "c", "label": "Reduzir custos de RH" },
+          { "value": "d", "label": "Contratar apenas pessoas com experiência sênior" }
+        ],
+        "explanation": "O objetivo é 'elevar o nível'. Cada nova contratação deve ser melhor que a anterior para evitar a mediocridade à medida que a empresa cresce.",
+        "hint": "Pense em qualidade, não em velocidade.",
+        "correctAnswer": "b",
+        "bookExample": "Se você não tem certeza se deve contratar alguém, a resposta é 'não'. Espere pelo talento que realmente eleva o nível."
+      },
+      {
+        "id": "2",
+        "question": "O que é 'Onboarding' eficaz?",
+        "options": [
+          { "value": "a", "label": "Apenas preencher a papelada de RH" },
+          { "value": "b", "label": "Um processo estruturado que integra o novo funcionário à cultura, aos sistemas e à missão da empresa rapidamente" },
+          { "value": "c", "label": "Dar um computador novo" },
+          { "value": "d", "label": "Deixar o novo funcionário aprender sozinho" }
+        ],
+        "explanation": "Um bom onboarding acelera a produtividade e a retenção. Ele deve cobrir a cultura, a estratégia, os sistemas operacionais e as expectativas de desempenho.",
+        "hint": "Integração rápida e profunda.",
+        "correctAnswer": "b",
+        "bookExample": "O onboarding deve incluir reuniões com líderes de diferentes departamentos para entender o contexto geral da empresa."
+      },
+      {
+        "id": "3",
+        "question": "Qual é o papel da 'Cultura' no processo de contratação?",
+        "options": [
+          { "value": "a", "label": "A cultura não deve ser mencionada" },
+          { "value": "b", "label": "A cultura deve ser usada como um filtro para garantir que os candidatos se alinhem com os valores e comportamentos esperados" },
+          { "value": "c", "label": "A cultura é apenas sobre benefícios" },
+          { "value": "d", "label": "A cultura é irrelevante" }
+        ],
+        "explanation": "Contratar por 'fit cultural' (alinhamento de valores) é crucial para a escala. Você pode treinar habilidades, mas é difícil mudar valores fundamentais.",
+        "hint": "Valores e comportamentos.",
+        "correctAnswer": "b",
+        "bookExample": "Se a transparência é um valor, você deve perguntar ao candidato sobre uma situação em que ele teve que dar feedback difícil."
+      }
+    ]
   }
 ]

@@ -6,6 +6,20 @@
     "questions": [
       {
         "id": "1",
+        "question": "Quantos canais de tração o livro 'Traction' identifica?",
+        "options": [
+          { "value": "a", "label": "10" },
+          { "value": "b", "label": "19" },
+          { "value": "c", "label": "5" },
+          { "value": "d", "label": "25" }
+        ],
+        "explanation": "O livro identifica 19 canais de tração que uma startup pode usar para conseguir clientes.",
+        "hint": "É um número específico e maior do que se costuma pensar.",
+        "correctAnswer": "b",
+        "bookExample": "Os 19 canais são divididos em três categorias principais: Online, Offline e Outros."
+      },
+      {
+        "id": "2",
         "question": "Qual é o objetivo do anel externo (Outer Ring) no Framework Bullseye?",
         "options": [
           { "value": "a", "label": "Focar nos canais que já funcionam" },
@@ -19,7 +33,7 @@
         "bookExample": "Liste 3-5 ideias de como você usaria cada um dos 19 canais para o seu produto."
       },
       {
-        "id": "2",
+        "id": "3",
         "question": "O que você faz no anel do meio (Middle Ring)?",
         "options": [
           { "value": "a", "label": "Executar campanhas em larga escala" },
@@ -30,10 +44,10 @@
         "explanation": "O anel do meio é para testes. Você pega as melhores ideias do anel externo e realiza testes pequenos e baratos para ver quais canais realmente têm potencial.",
         "hint": "Esta é a fase de experimentação para coletar dados.",
         "correctAnswer": "b",
-        "bookExample": "Se você está testando SEO, o teste pode ser escrever 3 artigos de blog e medir o tráfego, em vez de otimizar o site inteiro."
+        "bookExample": "Se você está testando Anúncios Pagos, o teste pode ser gastar $100 em 3 plataformas diferentes para medir o CPA, em vez de investir $10.000 em uma só."
       },
       {
-        "id": "3",
+        "id": "4",
         "question": "Qual é o foco do anel interno (Inner Ring)?",
         "options": [
           { "value": "a", "label": "Focar intensamente no único canal que está funcionando melhor" },
@@ -47,7 +61,7 @@
         "bookExample": "Se o Marketing de Conteúdo está gerando o melhor ROI, você deve contratar escritores, otimizar a produção e investir 80% do seu tempo neste canal."
       },
       {
-        "id": "4",
+        "id": "5",
         "question": "Por que é importante focar em apenas um canal de tração por vez?",
         "options": [
           { "value": "a", "label": "Porque é mais barato" },
@@ -61,7 +75,7 @@
         "bookExample": "Muitas startups falham porque tentam fazer 5 canais de forma medíocre, em vez de dominar 1."
       },
       {
-        "id": "5",
+        "id": "6",
         "question": "Qual é a 'Regra dos 50%' em Traction?",
         "options": [
           { "value": "a", "label": "Gastar 50% do orçamento em marketing" },
@@ -73,20 +87,6 @@
         "hint": "É sobre o equilíbrio entre construir e vender.",
         "correctAnswer": "b",
         "bookExample": "Se você é um fundador técnico, você deve forçar-se a gastar metade do seu tempo fora do código, falando com clientes ou testando canais."
-      },
-      {
-        "id": "6",
-        "question": "Qual é o erro mais comum que a Regra dos 50% tenta evitar?",
-        "options": [
-          { "value": "a", "label": "Gastar muito em marketing e pouco em produto" },
-          { "value": "b", "label": "Focar quase 100% no produto e negligenciar a tração" },
-          { "value": "c", "label": "Lançar o produto muito cedo" },
-          { "value": "d", "label": "Contratar muitos vendedores" }
-        ],
-        "explanation": "Muitas startups, especialmente as fundadas por engenheiros, caem na armadilha de focar exclusivamente em construir o melhor produto, assumindo que os clientes virão sozinhos. A regra força um equilíbrio.",
-        "hint": "Pense no viés de 'se eu construir, eles virão'.",
-        "correctAnswer": "b",
-        "bookExample": "O 'Build it and they will come' é um mito perigoso. Você precisa de tração para validar o produto."
       },
       {
         "id": "7",
@@ -591,6 +591,146 @@
         "hint": "Qualidade sobre quantidade.",
         "correctAnswer": "b",
         "bookExample": "Um e-mail para o CEO de uma empresa de médio porte, mencionando um problema específico que você viu no site deles e oferecendo uma solução de 15 minutos."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Traction: Canais de Viralidade e Referência",
+    "conclusionMessage": "Você aprendeu sobre canais de viralidade. Agora você sabe como fazer seu produto crescer organicamente através dos próprios usuários.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o 'Coeficiente Viral' (Viral Coefficient)?",
+        "options": [
+          { "value": "a", "label": "O número de usuários que você adquire por mês" },
+          { "value": "b", "label": "O número de novos usuários que um usuário existente gera" },
+          { "value": "c", "label": "A taxa de abandono do produto" },
+          { "value": "d", "label": "O custo de aquisição do cliente" }
+        ],
+        "explanation": "O Coeficiente Viral (K) é a métrica que mede a viralidade. Se K > 1, o produto cresce exponencialmente sem a necessidade de gastos em marketing.",
+        "hint": "É a taxa de reprodução do seu produto.",
+        "correctAnswer": "b",
+        "bookExample": "Se cada usuário convida 2 amigos, e 50% deles se inscrevem, K = 1. Se K > 1, você tem crescimento viral."
+      },
+      {
+        "id": "2",
+        "question": "Qual é a diferença entre Viralidade e Referência (Referral)?",
+        "options": [
+          { "value": "a", "label": "Viralidade é intencional; Referência é acidental" },
+          { "value": "b", "label": "Viralidade é inerente ao uso do produto; Referência é incentivada por recompensas" },
+          { "value": "c", "label": "Não há diferença" },
+          { "value": "d", "label": "Referência é mais rápida" }
+        ],
+        "explanation": "A Viralidade é quando o uso do produto naturalmente expõe outros (ex: Slack, Dropbox). A Referência é quando você incentiva os usuários a convidar outros (ex: 'Convide um amigo e ganhe $10').",
+        "hint": "Um é orgânico, o outro é incentivado.",
+        "correctAnswer": "b",
+        "bookExample": "O Dropbox cresceu viralmente porque, para usar o produto, você precisava compartilhar arquivos, expondo outros ao serviço."
+      },
+      {
+        "id": "3",
+        "question": "Qual é o principal fator para alcançar a Viralidade Inerente?",
+        "options": [
+          { "value": "a", "label": "Ter um grande orçamento de marketing" },
+          { "value": "b", "label": "O produto ser fundamentalmente melhor quando usado com outras pessoas" },
+          { "value": "c", "label": "Ter um bom design" },
+          { "value": "d", "label": "Ser o primeiro no mercado" }
+        ],
+        "explanation": "A viralidade inerente acontece quando o valor do produto aumenta com o número de usuários (efeito de rede). O produto deve ser projetado para ser compartilhado.",
+        "hint": "Pense em produtos sociais ou colaborativos.",
+        "correctAnswer": "b",
+        "bookExample": "O WhatsApp só é útil se seus amigos também o usarem. Isso é viralidade inerente."
+      },
+      {
+        "id": "4",
+        "question": "O que é 'Programas de Referência' (Referral Programs)?",
+        "options": [
+          { "value": "a", "label": "Anúncios pagos" },
+          { "value": "b", "label": "Sistemas que recompensam usuários existentes por trazerem novos clientes" },
+          { "value": "c", "label": "Marketing de conteúdo" },
+          { "value": "d", "label": "Vendas diretas" }
+        ],
+        "explanation": "Programas de Referência são uma forma controlada de viralidade, onde você usa incentivos (dinheiro, descontos, features extras) para motivar o compartilhamento.",
+        "hint": "Incentivos são a chave.",
+        "correctAnswer": "b",
+        "bookExample": "O PayPal ofereceu $10 para quem se inscrevesse e $10 para quem convidasse um amigo, impulsionando seu crescimento inicial."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o risco de um Programa de Referência mal projetado?",
+        "options": [
+          { "value": "a", "label": "Não gerar clientes" },
+          { "value": "b", "label": "Atrair clientes de baixa qualidade que só estão interessados na recompensa" },
+          { "value": "c", "label": "Ser muito caro" },
+          { "value": "d", "label": "Ser muito lento" }
+        ],
+        "explanation": "Se a recompensa for muito alta ou não estiver ligada ao valor do produto, você pode atrair 'caçadores de recompensas' que abandonam o produto após receberem o incentivo.",
+        "hint": "Qualidade do cliente é mais importante que quantidade.",
+        "correctAnswer": "b",
+        "bookExample": "A recompensa deve ser valiosa o suficiente para motivar, mas não tão alta que atraia apenas leads não qualificados."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Traction: Canais de Business Development (BD)",
+    "conclusionMessage": "Você aprendeu sobre Business Development. Agora você sabe como criar parcerias estratégicas para abrir novos canais de distribuição.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é 'Business Development' (BD)?",
+        "options": [
+          { "value": "a", "label": "Vendas diretas" },
+          { "value": "b", "label": "Criação de parcerias estratégicas que geram valor mútuo e tração" },
+          { "value": "c", "label": "Marketing de conteúdo" },
+          { "value": "d", "label": "Contratação de funcionários" }
+        ],
+        "explanation": "BD é sobre parcerias. Não é apenas vender, mas criar acordos que abrem novos canais de distribuição, integram produtos ou alcançam novos mercados.",
+        "hint": "Pense em alianças estratégicas.",
+        "correctAnswer": "b",
+        "bookExample": "Uma startup de software de RH faz parceria com uma grande empresa de folha de pagamento para que o software seja oferecido como um complemento."
+      },
+      {
+        "id": "2",
+        "question": "Qual é a principal diferença entre BD e Vendas?",
+        "options": [
+          { "value": "a", "label": "Vendas é transacional (fechar um negócio); BD é estratégico (criar um novo canal)" },
+          { "value": "b", "label": "BD é mais rápido" },
+          { "value": "c", "label": "Vendas é para B2B; BD é para B2C" },
+          { "value": "d", "label": "Não há diferença" }
+        ],
+        "explanation": "Vendas foca em fechar negócios existentes. BD foca em criar novos caminhos para o crescimento através de parcerias que podem levar a vendas futuras ou a novos mercados.",
+        "hint": "Um é tático, o outro é estratégico.",
+        "correctAnswer": "a",
+        "bookExample": "Vendas fecha um cliente. BD fecha um acordo com a Apple Store para distribuir seu app para milhões de usuários."
+      },
+      {
+        "id": "3",
+        "question": "O que é um 'acordo de distribuição' em BD?",
+        "options": [
+          { "value": "a", "label": "Vender o produto diretamente" },
+          { "value": "b", "label": "Um acordo onde um parceiro distribui seu produto para sua base de clientes" },
+          { "value": "c", "label": "Um acordo de investimento" },
+          { "value": "d", "label": "Um acordo de marketing de conteúdo" }
+        ],
+        "explanation": "Acordos de distribuição permitem que você alcance um público massivo que seria caro ou impossível de alcançar sozinho, aproveitando a base de clientes do parceiro.",
+        "hint": "Aproveite a rede de terceiros.",
+        "correctAnswer": "b",
+        "bookExample": "Um software de contabilidade faz um acordo com um banco para ser o software padrão oferecido a todos os novos clientes PJ."
+      },
+      {
+        "id": "4",
+        "question": "Qual é o principal risco do Business Development?",
+        "options": [
+          { "value": "a", "label": "É muito rápido" },
+          { "value": "b", "label": "Os ciclos de negociação são longos e podem consumir muito tempo sem garantia de resultado" },
+          { "value": "c", "label": "É muito barato" },
+          { "value": "d", "label": "Não gera credibilidade" }
+        ],
+        "explanation": "Negociar com grandes empresas pode levar meses ou anos. É um canal de alto risco/alta recompensa que exige paciência e foco.",
+        "hint": "O tempo é o maior custo.",
+        "correctAnswer": "b",
+        "bookExample": "Um fundador pode passar 6 meses negociando um acordo de BD que, no final, não se concretiza, desperdiçando recursos valiosos."
       }
     ]
   }
