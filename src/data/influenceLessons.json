@@ -1,0 +1,703 @@
+[
+  {
+    "id": 1,
+    "title": "Introdução à Persuasão",
+    "conclusionMessage": "Você completou a primeira microlição sobre 'Influence'. Agora você entende os princípios básicos da persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o foco principal do livro 'Influence'?",
+        "options": [
+          { "value": "a", "label": "Como manipular as pessoas" },
+          { "value": "b", "label": "As armas de influência e como elas afetam nossas decisões" },
+          { "value": "c", "label": "Como evitar ser persuadido" },
+          { "value": "d", "label": "A importância da lógica na persuasão" }
+        ],
+        "explanation": "O livro explora as armas de influência, os atalhos mentais que usamos para tomar decisões, e como esses atalhos podem ser explorados para nos persuadir.",
+        "hint": "Pense em atalhos mentais que usamos para simplificar decisões.",
+        "correctAnswer": "b",
+        "bookExample": "Cialdini descreve como um simples 'porque' pode aumentar a probabilidade de alguém concordar com um pedido."
+      },
+      {
+        "id": "2",
+        "question": "Por que é importante entender os princípios da persuasão?",
+        "options": [
+          { "value": "a", "label": "Para manipular os outros" },
+          { "value": "b", "label": "Para nos proteger de táticas de persuasão e usar a influência de forma ética" },
+          { "value": "c", "label": "Para ganhar todas as discussões" },
+          { "value": "d", "label": "Para controlar as pessoas" }
+        ],
+        "explanation": "Entender os princípios da persuasão nos ajuda a nos proteger de táticas antiéticas e a usar a influência de forma ética e eficaz.",
+        "hint": "Conhecimento é poder, tanto para influenciar quanto para se defender.",
+        "correctAnswer": "b",
+        "bookExample": "Ao entender o princípio da reciprocidade, podemos evitar nos sentir obrigados a retribuir favores não solicitados."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reciprocidade",
+    "conclusionMessage": "Você aprendeu sobre o princípio da reciprocidade. Agora você sabe como a obrigação de retribuir afeta nossas decisões.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da reciprocidade?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com os outros" },
+          { "value": "b", "label": "A tendência de retribuir favores, presentes ou serviços" },
+          { "value": "c", "label": "A importância de ser generoso" },
+          { "value": "d", "label": "A necessidade de ser pago por favores" }
+        ],
+        "explanation": "O princípio da reciprocidade é a tendência humana de retribuir favores, presentes ou serviços, mesmo que não tenhamos solicitado.",
+        "hint": "Você já se sentiu obrigado a comprar algo depois de receber uma amostra grátis?",
+        "correctAnswer": "b",
+        "bookExample": "Garçons que oferecem balas aos clientes recebem gorjetas maiores, mesmo que as balas sejam baratas."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da reciprocidade é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Oferecendo amostras grátis, brindes ou favores para criar uma sensação de obrigação" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a reciprocidade oferecendo amostras grátis, brindes ou favores para criar uma sensação de obrigação, aumentando a probabilidade de compra.",
+        "hint": "Pense em estratégias de marketing que oferecem algo antes de pedir a compra.",
+        "correctAnswer": "b",
+        "bookExample": "Lojas de cosméticos oferecem amostras grátis para criar uma sensação de obrigação, aumentando a probabilidade de compra."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Compromisso e Coerência",
+    "conclusionMessage": "Você aprendeu sobre o princípio do compromisso e coerência. Agora você sabe como a necessidade de ser consistente afeta nossas ações.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio do compromisso e coerência?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com os outros" },
+          { "value": "b", "label": "A tendência de ser consistente com nossos compromissos e crenças passadas" },
+          { "value": "c", "label": "A importância de ser flexível" },
+          { "value": "d", "label": "A necessidade de mudar de opinião frequentemente" }
+        ],
+        "explanation": "O princípio do compromisso e coerência é a tendência humana de ser consistente com nossos compromissos e crenças passadas, mesmo que não sejam mais vantajosos.",
+        "hint": "Você já se sentiu obrigado a continuar algo porque já tinha investido muito tempo?",
+        "correctAnswer": "b",
+        "bookExample": "Pessoas que assinam um abaixo-assinado para uma causa são mais propensas a doar dinheiro para essa causa posteriormente."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio do compromisso e coerência é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam o compromisso e coerência fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores.",
+        "hint": "Pense em estratégias que começam com um pequeno pedido e aumentam gradualmente.",
+        "correctAnswer": "b",
+        "bookExample": "Pedir aos clientes para responderem a uma pesquisa sobre um produto aumenta a probabilidade de compra posterior."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Aprovação Social",
+    "conclusionMessage": "Você aprendeu sobre o princípio da aprovação social. Agora você sabe como a influência do comportamento dos outros afeta nossas decisões.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da aprovação social?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com a maioria" },
+          { "value": "b", "label": "A tendência de seguir o comportamento dos outros, especialmente em situações incertas" },
+          { "value": "c", "label": "A importância de ser original" },
+          { "value": "d", "label": "A necessidade de ser popular" }
+        ],
+        "explanation": "O princípio da aprovação social é a tendência humana de seguir o comportamento dos outros, especialmente em situações incertas, para determinar o que é correto.",
+        "hint": "Você já fez algo porque viu outras pessoas fazendo?",
+        "correctAnswer": "b",
+        "bookExample": "As pessoas são mais propensas a doar dinheiro se virem outras pessoas doando."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da aprovação social é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Mostrando depoimentos, avaliações e números de clientes satisfeitos" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a aprovação social mostrando depoimentos, avaliações e números de clientes satisfeitos para influenciar a decisão de compra.",
+        "hint": "Pense em estratégias de marketing que destacam a popularidade de um produto.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios que dizem 'Produto número 1 em vendas' ou 'Aprovado por 90% dos clientes' usam a aprovação social."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Afeição",
+    "conclusionMessage": "Você aprendeu sobre o princípio da afeição. Agora você sabe como a simpatia e a conexão pessoal afetam a persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da afeição?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com pessoas atraentes" },
+          { "value": "b", "label": "A tendência de concordar com pessoas que gostamos e consideramos atraentes" },
+          { "value": "c", "label": "A importância de ser bonito" },
+          { "value": "d", "label": "A necessidade de ser amado" }
+        ],
+        "explanation": "O princípio da afeição é a tendência humana de concordar com pessoas que gostamos e consideramos atraentes, mesmo que não concordemos com suas ideias.",
+        "hint": "Você já comprou algo de alguém que você gostou, mesmo que não precisasse?",
+        "correctAnswer": "b",
+        "bookExample": "Vendedores atraentes e simpáticos têm mais sucesso em vendas."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da afeição é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Sendo simpático, atraente e encontrando similaridades com o cliente" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a afeição sendo simpáticos, atraentes e encontrando similaridades com o cliente para criar uma conexão pessoal, aumentando a probabilidade de compra.",
+        "hint": "Pense em estratégias de marketing que usam celebridades ou pessoas atraentes.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios que usam celebridades atraentes para promover produtos usam o princípio da afeição."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Autoridade",
+    "conclusionMessage": "Você aprendeu sobre o princípio da autoridade. Agora você sabe como a percepção de autoridade afeta a persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da autoridade?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre obedecer a todos" },
+          { "value": "b", "label": "A tendência de obedecer a figuras de autoridade, mesmo que não concordemos" },
+          { "value": "c", "label": "A importância de ser um líder" },
+          { "value": "d", "label": "A necessidade de ser respeitado" }
+        ],
+        "explanation": "O princípio da autoridade é a tendência humana de obedecer a figuras de autoridade, mesmo que não concordemos com suas ordens ou ideias.",
+        "hint": "Você já fez algo porque uma figura de autoridade mandou, mesmo que não concordasse?",
+        "correctAnswer": "b",
+        "bookExample": "As pessoas são mais propensas a seguir as instruções de um médico do que de um estranho na rua."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da autoridade é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Usando especialistas, certificações e endossos de figuras de autoridade" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a autoridade usando especialistas, certificações e endossos de figuras de autoridade para influenciar a decisão de compra.",
+        "hint": "Pense em estratégias de marketing que usam médicos, cientistas ou especialistas.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios de creme dental que são endossados por dentistas usam o princípio da autoridade."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Escassez",
+    "conclusionMessage": "Você aprendeu sobre o princípio da escassez. Agora você sabe como a percepção de raridade afeta a persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da escassez?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre querer mais" },
+          { "value": "b", "label": "A tendência de valorizar mais coisas que são raras ou difíceis de obter" },
+          { "value": "c", "label": "A importância de ser rico" },
+          { "value": "d", "label": "A necessidade de ter tudo" }
+        ],
+        "explanation": "O princípio da escassez é a tendência humana de valorizar mais coisas que são raras ou difíceis de obter, aumentando o desejo e a urgência.",
+        "hint": "Você já quis algo mais porque sabia que era limitado?",
+        "correctAnswer": "b",
+        "bookExample": "As pessoas são mais propensas a comprar um produto se souberem que há apenas alguns restantes."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da escassez é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Criando ofertas por tempo limitado, edições especiais ou produtos exclusivos" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a escassez criando ofertas por tempo limitado, edições especiais ou produtos exclusivos para aumentar a urgência e a probabilidade de compra.",
+        "hint": "Pense em estratégias de marketing que usam frases como 'Últimas unidades' ou 'Oferta válida somente hoje'.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios que dizem 'Apenas 3 unidades restantes' ou 'Oferta válida até amanhã' usam o princípio da escassez."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Consistência",
+    "conclusionMessage": "Você aprendeu sobre o princípio da consistência. Agora você sabe como a necessidade de ser coerente com nossas ações afeta a persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da consistência?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com os outros" },
+          { "value": "b", "label": "A tendência de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores" },
+          { "value": "c", "label": "A importância de ser flexível" },
+          { "value": "d", "label": "A necessidade de mudar de opinião frequentemente" }
+        ],
+        "explanation": "O princípio da consistência é a tendência humana de alinhar nossas atitudes e comportamentos com nossos compromissos anteriores, mesmo que não sejam mais vantajosos.",
+        "hint": "Você já se sentiu obrigado a continuar algo porque já tinha começado?",
+        "correctAnswer": "b",
+        "bookExample": "Pessoas que assinam um abaixo-assinado para uma causa são mais propensas a doar dinheiro para essa causa posteriormente."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da consistência é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a consistência fazendo com que os clientes tomem pequenos compromissos iniciais, aumentando a probabilidade de compromissos maiores.",
+        "hint": "Pense em estratégias que começam com um pequeno pedido e aumentam gradualmente.",
+        "correctAnswer": "b",
+        "bookExample": "Pedir aos clientes para responderem a uma pesquisa sobre um produto aumenta a probabilidade de compra posterior."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Unidade",
+    "conclusionMessage": "Você aprendeu sobre o princípio da unidade. Agora você sabe como a identificação com um grupo afeta a persuasão.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o princípio da unidade?",
+        "options": [
+          { "value": "a", "label": "A obrigação de sempre concordar com todos" },
+          { "value": "b", "label": "A tendência de dizer sim a pessoas que consideramos parte do nosso grupo" },
+          { "value": "c", "label": "A importância de ser um líder" },
+          { "value": "d", "label": "A necessidade de ser respeitado" }
+        ],
+        "explanation": "O princípio da unidade é a tendência humana de dizer sim a pessoas que consideramos parte do nosso grupo, como familiares, amigos ou membros da mesma comunidade.",
+        "hint": "Você já fez algo por alguém porque se sentia conectado a essa pessoa?",
+        "correctAnswer": "b",
+        "bookExample": "Pessoas são mais propensas a ajudar membros de sua família ou amigos próximos."
+      },
+      {
+        "id": "2",
+        "question": "Como o princípio da unidade é usado em vendas?",
+        "options": [
+          { "value": "a", "label": "Oferecendo descontos" },
+          { "value": "b", "label": "Criando um senso de pertencimento e identificação com a marca ou empresa" },
+          { "value": "c", "label": "Sendo agressivo" },
+          { "value": "d", "label": "Ignorando o cliente" }
+        ],
+        "explanation": "Vendedores usam a unidade criando um senso de pertencimento e identificação com a marca ou empresa para influenciar a decisão de compra.",
+        "hint": "Pense em estratégias de marketing que criam comunidades em torno de uma marca.",
+        "correctAnswer": "b",
+        "bookExample": "Empresas que criam comunidades online para seus clientes usam o princípio da unidade."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "A Arte da Persuasão Ética",
+    "conclusionMessage": "Você aprendeu sobre a importância da persuasão ética. Agora você sabe como usar a influência de forma responsável.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que a ética é importante na persuasão?",
+        "options": [
+          { "value": "a", "label": "Não é importante" },
+          { "value": "b", "label": "A persuasão antiética prejudica relacionamentos e reputação a longo prazo" },
+          { "value": "c", "label": "Apenas para empresas grandes" },
+          { "value": "d", "label": "Ética limita a eficácia" }
+        ],
+        "explanation": "A persuasão antiética prejudica relacionamentos e reputação a longo prazo. A ética constrói confiança e lealdade.",
+        "hint": "Qual é o impacto da persuasão a longo prazo?",
+        "correctAnswer": "b",
+        "bookExample": "Empresas que usam táticas de persuasão enganosas perdem clientes e reputação."
+      },
+      {
+        "id": "2",
+        "question": "Como você garante que está usando a persuasão de forma ética?",
+        "options": [
+          { "value": "a", "label": "Apenas seguindo a lei" },
+          { "value": "b", "label": "Sendo transparente, honesto e respeitando a autonomia do outro" },
+          { "value": "c", "label": "Não há forma de garantir" },
+          { "value": "d", "label": "Apenas para pessoas boas" }
+        ],
+        "explanation": "Sendo transparente, honesto e respeitando a autonomia do outro. A persuasão ética é sobre influenciar, não manipular.",
+        "hint": "Respeito e honestidade são a base.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de esconder informações, seja transparente sobre os benefícios e limitações do seu produto."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "O Poder da Prova Social",
+    "conclusionMessage": "Você aprendeu como a prova social influencia nossas decisões. Agora você sabe como usar esse princípio de forma eficaz.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é prova social?",
+        "options": [
+          { "value": "a", "label": "Evidência científica" },
+          { "value": "b", "label": "A tendência de seguir as ações da maioria para determinar o que é certo" },
+          { "value": "c", "label": "Opinião de especialistas" },
+          { "value": "d", "label": "Aprovação de amigos" }
+        ],
+        "explanation": "Prova social é a tendência de seguir as ações da maioria para determinar o que é certo, especialmente em situações de incerteza.",
+        "hint": "Pense em como você decide qual restaurante escolher em uma cidade desconhecida.",
+        "correctAnswer": "b",
+        "bookExample": "Se um restaurante está cheio, as pessoas assumem que a comida é boa e são mais propensas a entrar."
+      },
+      {
+        "id": "2",
+        "question": "Como a prova social é usada no marketing?",
+        "options": [
+          { "value": "a", "label": "Ignorando a opinião dos outros" },
+          { "value": "b", "label": "Exibindo depoimentos, avaliações e números de clientes satisfeitos" },
+          { "value": "c", "label": "Criando produtos exclusivos" },
+          { "value": "d", "label": "Oferecendo descontos agressivos" }
+        ],
+        "explanation": "A prova social é usada exibindo depoimentos, avaliações e números de clientes satisfeitos para influenciar a decisão de compra.",
+        "hint": "Pense em como as empresas mostram que seus produtos são populares.",
+        "correctAnswer": "b",
+        "bookExample": "Um site que exibe 'Mais de 1 milhão de clientes satisfeitos' está usando a prova social."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "A Arte de Fazer Pedidos",
+    "conclusionMessage": "Você aprendeu como fazer pedidos eficazes. Agora você sabe como aumentar a probabilidade de obter um 'sim'.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a importância de enquadrar um pedido?",
+        "options": [
+          { "value": "a", "label": "Não importa" },
+          { "value": "b", "label": "A forma como você apresenta um pedido afeta a probabilidade de ser aceito" },
+          { "value": "c", "label": "Apenas o conteúdo importa" },
+          { "value": "d", "label": "Pedidos devem ser sempre diretos" }
+        ],
+        "explanation": "A forma como você apresenta um pedido afeta a probabilidade de ser aceito. Enquadrar o pedido de forma positiva e clara aumenta as chances de sucesso.",
+        "hint": "Pense em como você pede algo a alguém.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Você pode me ajudar?', diga 'Você pode me ajudar com isso que beneficiará ambos?'"
+      },
+      {
+        "id": "2",
+        "question": "Como a reciprocidade influencia a aceitação de um pedido?",
+        "options": [
+          { "value": "a", "label": "Não influencia" },
+          { "value": "b", "label": "Pessoas são mais propensas a aceitar pedidos de quem já as ajudou" },
+          { "value": "c", "label": "Apenas se houver contrato" },
+          { "value": "d", "label": "Reciprocidade é irrelevante" }
+        ],
+        "explanation": "Pessoas são mais propensas a aceitar pedidos de quem já as ajudou. A reciprocidade cria uma sensação de obrigação.",
+        "hint": "Você já se sentiu obrigado a ajudar alguém que te ajudou antes?",
+        "correctAnswer": "b",
+        "bookExample": "Se você ajuda um colega com um projeto, ele é mais propenso a te ajudar com o seu."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "O Poder da Atenção",
+    "conclusionMessage": "Você aprendeu sobre a importância da atenção. Agora você sabe como capturar e manter a atenção das pessoas.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que a atenção é um recurso valioso?",
+        "options": [
+          { "value": "a", "label": "Não é valioso" },
+          { "value": "b", "label": "A atenção é limitada e disputada, tornando-a essencial para a persuasão" },
+          { "value": "c", "label": "Apenas para pessoas famosas" },
+          { "value": "d", "label": "Atenção é fácil de conseguir" }
+        ],
+        "explanation": "A atenção é limitada e disputada, tornando-a essencial para a persuasão. Se você não tem a atenção de alguém, não pode influenciá-lo.",
+        "hint": "Pense em como as empresas competem pela sua atenção.",
+        "correctAnswer": "b",
+        "bookExample": "Anúncios chamativos e conteúdo interessante são usados para capturar a atenção das pessoas."
+      },
+      {
+        "id": "2",
+        "question": "Como você captura a atenção das pessoas?",
+        "options": [
+          { "value": "a", "label": "Sendo chato" },
+          { "value": "b", "label": "Usando elementos surpreendentes, relevantes e emocionais" },
+          { "value": "c", "label": "Ignorando o público" },
+          { "value": "d", "label": "Sendo genérico" }
+        ],
+        "explanation": "Usando elementos surpreendentes, relevantes e emocionais. A atenção é atraída por novidade e conexão.",
+        "hint": "O que te faz parar e prestar atenção em algo?",
+        "correctAnswer": "b",
+        "bookExample": "Um título de artigo como 'A verdade chocante sobre...' captura a atenção."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "O Efeito Halo",
+    "conclusionMessage": "Você aprendeu sobre o efeito halo. Agora você sabe como uma impressão positiva em uma área influencia a percepção em outras áreas.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "O que é o efeito halo?",
+        "options": [
+          { "value": "a", "label": "Um efeito de luz" },
+          { "value": "b", "label": "A tendência de generalizar uma impressão positiva de uma característica para outras" },
+          { "value": "c", "label": "Um tipo de ilusão" },
+          { "value": "d", "label": "Um efeito de sombra" }
+        ],
+        "explanation": "O efeito halo é a tendência de generalizar uma impressão positiva de uma característica para outras, mesmo que não haja conexão lógica.",
+        "hint": "Você já julgou alguém como inteligente porque era bonito?",
+        "correctAnswer": "b",
+        "bookExample": "Se você acha que uma pessoa é atraente, pode também julgá-la como inteligente e simpática."
+      },
+      {
+        "id": "2",
+        "question": "Como o efeito halo é usado no marketing?",
+        "options": [
+          { "value": "a", "label": "Ignorando a imagem da marca" },
+          { "value": "b", "label": "Associando produtos a celebridades ou imagens positivas" },
+          { "value": "c", "label": "Criando produtos feios" },
+          { "value": "d", "label": "Sendo genérico" }
+        ],
+        "explanation": "O efeito halo é usado associando produtos a celebridades ou imagens positivas para transferir essa impressão para o produto.",
+        "hint": "Pense em anúncios que usam celebridades para promover produtos.",
+        "correctAnswer": "b",
+        "bookExample": "Um produto endossado por uma celebridade é percebido como de maior qualidade, mesmo que não haja relação."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "A Linguagem da Persuasão",
+    "conclusionMessage": "Você aprendeu sobre a linguagem da persuasão. Agora você sabe como usar palavras para influenciar.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que a linguagem é importante na persuasão?",
+          "options": [
+            { "value": "a", "label": "Não é importante" },
+            { "value": "b", "label": "A linguagem molda a percepção e influencia a emoção" },
+            { "value": "c", "label": "Apenas o conteúdo importa" },
+            { "value": "d", "label": "Apenas para escritores" }
+          ],
+          "explanation": "A linguagem molda a percepção e influencia a emoção. Palavras criam imagens e despertam sentimentos.",
+          "hint": "Pense em como diferentes palavras podem evocar diferentes reações.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de 'custo', use 'investimento'. Em vez de 'problema', use 'desafio'."
+        },
+        {
+          "id": "2",
+          "question": "Como você usa a linguagem para criar rapport?",
+          "options": [
+            { "value": "a", "label": "Usando jargão técnico" },
+            { "value": "b", "label": "Espelhando a linguagem, o tom e o ritmo do outro" },
+            { "value": "c", "label": "Sendo formal" },
+            { "value": "d", "label": "Usando linguagem complexa" }
+          ],
+          "explanation": "Espelhando a linguagem, o tom e o ritmo do outro. Isso cria uma sensação de conexão e confiança.",
+          "hint": "Imitação = conexão.",
+          "correctAnswer": "b",
+          "bookExample": "Se o cliente usa linguagem formal, use linguagem formal. Se usa gírias, use gírias."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "O Poder da Narrativa",
+      "conclusionMessage": "Você aprendeu sobre o poder da narrativa. Now you know how to use stories to influence.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que histórias são persuasivas?",
+          "options": [
+            { "value": "a", "label": "Não são persuasivas" },
+            { "value": "b", "label": "Histórias envolvem emocionalmente e tornam informações memoráveis" },
+            { "value": "c", "label": "Histórias são apenas para crianças" },
+            { "value": "d", "label": "Histórias são complicadas" }
+          ],
+          "explanation": "Histórias envolvem emocionalmente e tornam informações memoráveis. Pessoas se conectam com histórias.",
+          "hint": "Emoção + memória = persuasão.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de apresentar dados, conte a história de um cliente que teve sucesso com seu produto."
+        },
+        {
+          "id": "2",
+          "question": "Como você cria uma história persuasiva?",
+          "options": [
+            { "value": "a", "label": "Use jargão técnico" },
+            { "value": "b", "label": "Personagens, conflito, resolução, e emoção" },
+            { "value": "c", "label": "Seja vago" },
+            { "value": "d", "label": "Use dados frios" }
+          ],
+          "explanation": "Personagens, conflito, resolução, e emoção. Esses elementos criam uma história envolvente.",
+          "hint": "Personagens + conflito + resolução + emoção.",
+          "correctAnswer": "b",
+          "bookExample": "Conte a história de um cliente que lutou com um problema, usou seu produto, e teve sucesso."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "O Princípio da Associação",
+      "conclusionMessage": "Você aprendeu sobre o princípio da associação. Now you know how to use associations to influence.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "O que é o princípio da associação?",
+          "options": [
+            { "value": "a", "label": "Não importa" },
+            { "value": "b", "label": "Tendência de associar sentimentos a coisas não relacionadas" },
+            { "value": "c", "label": "Apenas para marcas" },
+            { "value": "d", "label": "Associação não existe" }
+          ],
+          "explanation": "Tendência de associar sentimentos a coisas não relacionadas. Associações influenciam percepção.",
+          "hint": "Associação = percepção.",
+          "correctAnswer": "b",
+          "bookExample": "Se você vê um produto com uma celebridade, você associa o produto à celebridade."
+        },
+        {
+          "id": "2",
+          "question": "Como você usa associação para persuadir?",
+          "options": [
+            { "value": "a", "label": "Seja neutro" },
+            { "value": "b", "label": "Associe seu produto a coisas positivas e evite negativas" },
+            { "value": "c", "label": "Associe a coisas negativas" },
+            { "value": "d", "label": "Associação não funciona" }
+          ],
+          "explanation": "Associe seu produto a coisas positivas e evite negativas. Associações transferem sentimentos.",
+          "hint": "Positivo > negativo.",
+          "correctAnswer": "b",
+          "bookExample": "Use imagens bonitas, música agradável, e depoimentos positivos. Evite imagens feias, música ruim, e reclamações."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "O Poder do Timing",
+      "conclusionMessage": "Você aprendeu sobre a importância do timing. Now you know how to use timing to influence.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que timing é importante?",
+          "options": [
+            { "value": "a", "label": "Não é importante" },
+            { "value": "b", "label": "A mensagem certa no momento certo é mais persuasiva" },
+            { "value": "c", "label": "Apenas para vendas" },
+            { "value": "d", "label": "Timing não existe" }
+          ],
+          "explanation": "A mensagem certa no momento certo é mais persuasiva. Timing amplifica impacto.",
+          "hint": "Momento certo > mensagem certa.",
+          "correctAnswer": "b",
+          "bookExample": "Um anúncio de protetor solar funciona melhor no verão. Um anúncio de casaco funciona melhor no inverno."
+        },
+        {
+          "id": "2",
+          "question": "Como você identifica o momento certo?",
+          "options": [
+            { "value": "a", "label": "Adivinhe" },
+            { "value": "b", "label": "Entenda o contexto, necessidades, e emoções do público" },
+            { "value": "c", "label": "Não há forma de identificar" },
+            { "value": "d", "label": "Apenas sorte" }
+          ],
+          "explanation": "Entenda o contexto, necessidades, e emoções do público. Empatia revela timing.",
+          "hint": "Empatia > adivinhação.",
+          "correctAnswer": "b",
+          "bookExample": "Se o público está preocupado com economia, fale sobre economia. Se está preocupado com saúde, fale sobre saúde."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "O Princípio da Escassez",
+      "conclusionMessage": "Você aprendeu sobre o princípio da escassez. Now you know how to use scarcity to influence.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que escassez aumenta valor?",
+          "options": [
+            { "value": "a", "label": "Não aumenta" },
+            { "value": "b", "label": "Coisas raras são mais desejadas" },
+            { "value": "c", "label": "Escassez é ruim" },
+            { "value": "d", "label": "Escassez não existe" }
+          ],
+          "explanation": "Coisas raras são mais desejadas. Escassez cria urgência.",
+          "hint": "Raridade = desejo.",
+          "correctAnswer": "b",
+          "bookExample": "Um diamante é mais caro que água porque é mais raro."
+        },
+        {
+          "id": "2",
+          "question": "Como você usa escassez para persuadir?",
+          "options": [
+            { "value": "a", "label": "Crie abundância" },
+            { "value": "b", "label": "Comunique tempo limitado ou quantidade limitada" },
+            { "value": "c", "label": "Ignore escassez" },
+            { "value": "d", "label": "Escassez não funciona" }
+          ],
+          "explanation": "Comunique tempo limitado ou quantidade limitada. Escassez cria urgência.",
+          "hint": "Tempo ou quantidade = urgência.",
+          "correctAnswer": "b",
+          "bookExample": "'Oferta válida por 24 horas' ou 'Apenas 10 unidades restantes' criam urgência."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Integrando os Princípios da Persuasão",
+      "conclusionMessage": "Você aprendeu a integrar os princípios da persuasão. Now you know how to use influence ethically and effectively.",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Por que é importante usar múltiplos princípios?",
+          "options": [
+            { "value": "a", "label": "Não é importante" },
+            { "value": "b", "label": "Múltiplos princípios amplificam efeito" },
+            { "value": "c", "label": "Um princípio é suficiente" },
+            { "value": "d", "label": "Princípios não funcionam" }
+          ],
+          "explanation": "Múltiplos princípios amplificam efeito. Combinação é mais poderosa.",
+          "hint": "Combinação > isolamento.",
+          "correctAnswer": "b",
+          "bookExample": "Use reciprocidade (dê algo), afeição (seja simpático), e autoridade (mostre expertise)."
+        },
+        {
+          "id": "2",
+          "question": "Como você usa persuasão eticamente?",
+          "options": [
+            { "value": "a", "label": "Manipule" },
+            { "value": "b", "label": "Seja honesto, transparente, e respeite a escolha do outro" },
+            { "value": "c", "label": "Ética não importa" },
+            { "value": "d", "label": "Persuasão é sempre ruim" }
+          ],
+          "explanation": "Seja honesto, transparente, e respeite a escolha do outro. Ética constrói confiança.",
+          "hint": "Confiança > manipulação.",
+          "correctAnswer": "b",
+          "bookExample": "Em vez de enganar, mostre valor real e deixe o cliente decidir."
+        }
+      ]
+    }
+  ]
+}
