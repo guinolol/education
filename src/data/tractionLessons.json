@@ -262,7 +262,7 @@
         "options": [
           { "value": "a", "label": "Apenas SEO" },
           { "value": "b", "label": "O uso de anúncios pagos (PPC) em mecanismos de busca como Google Ads" },
-          { "value": "c", "label": "Marketing de conteúdo" },
+          { "value": "c", "label": "Marketing de Conteúdo" },
           { "value": "d", "label": "Marketing de Afiliados" }
         ],
         "explanation": "SEM é o uso de anúncios pagos (Pay-Per-Click ou PPC) para aparecer nos resultados de busca. É uma forma rápida de testar a demanda por palavras-chave específicas.",
