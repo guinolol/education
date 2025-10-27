@@ -1,4 +1,705 @@
+### File: src/data/foundingSalesLessons.json
+
+Continuing Founding Sales microlessons JSON - adding more lessons
+
+```json
+
 ,
+  {
+    "id": 3,
+    "title": "Founding Sales: Discovery e Qualificação",
+    "conclusionMessage": "Você aprendeu a fazer discovery como um cientista: extrair dor, poder e timing para decidir se vale a pena investir tempo naquele deal.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo da fase de discovery na venda early-stage?",
+        "options": [
+          { "value": "a", "label": "Mostrar o demo o mais rápido possível" },
+          { "value": "b", "label": "Validar se existe dor aguda, orçamento, timing e acesso ao decisor" },
+          { "value": "c", "label": "Enviar o contrato" },
+          { "value": "d", "label": "Falar sobre features" }
+        ],
+        "explanation": "Discovery é investigação. Você precisa descobrir se o problema é real, urgente, budgeteado e se você está falando com quem pode assinar. Sem isso, demo é perda de tempo.",
+        "hint": "Qualify before you pitch.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy usa o script MEDDIC adaptado: Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion. Só avança se ≥ 4 preenchidos."
+      },
+      {
+        "id": "2",
+        "question": "O que é ‘Economic Buyer’ e por que é crucial identificá-lo?",
+        "options": [
+          { "value": "a", "label": "Quem usa o produto todo dia" },
+          { "value": "b", "label": "A pessoa que pode assinar o cheque sem pedir permissão a ninguém" },
+          { "value": "c", "label": "O técnico que avalia integração" },
+          { "value": "d", "label": "O estagiário que agenda reuniões" }
+        ],
+        "explanation": "Economic Buyer é quem controla budget. Se você não fala com ela, pode perder 3 meses e ver o deal morrer por ‘sem budget’ no último minuto.",
+        "hint": "Quem pode dizer ‘sim’ sem subir escada?",
+        "correctAnswer": "b",
+        "bookExample": "Ele conta que perdeu um deal de $50 k porque achava que o VP de RH era o buyer — só descobriu que CFO tinha que aprovar ≥ $25 k depois de 6 semanas."
+      },
+      {
+        "id": "3",
+        "question": "Qual pergunta revela se a dor é ‘must-have’ ou ‘nice-to-have’?",
+        "options": [
+          { "value": "a", "label": "Você gostaria de ter isso?" },
+          { "value": "b", "label": "O que acontece se nada mudar até o fim do ano? Quem sofre e como?" },
+          { "value": "c", "label": "Qual sua cor preferida?" },
+          { "value": "d", "label": "Você tem budget?" }
+        ],
+        "explanation": "Must-have tem consequência real: alguém perde bonus, projeto atrasa, empresa perde competitividade. Nice-to-have gera resposta vaga ou ‘vamos ver em 2025’.",
+        "hint": "Consequência tangível = urgência.",
+        "correctAnswer": "b",
+        "bookExample": "Quando prospect respondeu ‘VP Eng vai ficar sem promotion se não reduzir time-to-hire em 30 %’, Kazanjy soube que era must-have e priorizou."
+      },
+      {
+        "id": "4",
+        "question": "O que é ‘Champion’ e como cultivá-lo?",
+        "options": [
+          { "value": "a", "label": "Quem gosta do seu logo" },
+          { "value": "b", "label": "Pessoa dentro da empresa que tem influência política e interesse pessoal em ver sua solução vencer" },
+          { "value": "c", "label": "O vendedor interno do cliente" },
+          { "value": "d", "label": "Quem paga a conta" }
+        ],
+        "explanation": "Champion vende para você quando você não está na sala. Ele precisa ganhar crédito político com sua solução; você precisa equipá-lo com dados e narrativa.",
+        "hint": "Seu advogado interno.",
+        "correctAnswer": "b",
+        "bookExample": "Ele ensina a criar ‘internal sell-sheet’: one-pager com ROI, case studies e respostas a objeções para o champion distribuir internamente."
+      },
+      {
+        "id": "5",
+        "question": "Qual é o sinal de que você deve desqualificar (DQ) um lead?",
+        "options": [
+          { "value": "a", "label": "Demora 2 dias para responder e-mail" },
+          { "value": "b", "label": "Não há budget alocado, ninguém sofre se nada mudar, e você não consegue acessar o Economic Buyer" },
+          { "value": "c", "label": "Pedem desconto" },
+          { "value": "d", "label": "Querem demo customizada" }
+        ],
+        "explanation": "Sem dor, budget ou acesso ao poder, deal é miragem. DQ cedo libera tempo para prospectos com chance real. Tempo do founder é scarcer que capital.",
+        "hint": "No pain, no power, no deal.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy criou regra ‘Three-Strike DQ’: se em 3 perguntas não consegue identificar dor mensurável, agenda follow-up longo e foca em outro ICP."
+      },
+      {
+        "id": "6",
+        "question": "O que é ‘decision process’ e por que mapeá-lo?",
+        "options": [
+          { "value": "a", "label": "O calendário do cliente" },
+          { "value": "b", "label": "Os passos formais e prazos internos que a empresa precisa seguir para aprovar uma compra" },
+          { "value": "c", "label": "O processo de demo" },
+          { "value": "d", "label": "O contrato" }
+        ],
+        "explanation": "Decision process mostra quando acontece QBR, budget cycle, legal review, security audit. Mapear evita surpresa de ‘precisamos de board approval’ 48 h antes do close.",
+        "hint": "Conhece o labirinto antes de entrar.",
+        "correctAnswer": "b",
+        "bookExample": "Ele descobriu que uma enterprise só aprova vendors novo na reunião de Q3 board — se perdesse a janela, deal deslizava 9 meses."
+      },
+      {
+        "id": "7",
+        "question": "Qual pergunta descobre o budget sem perguntar ‘qual seu budget?’",
+        "options": [
+          { "value": "a", "label": "Quanto você pagaria?" },
+          { "value": "b", "label": "Quanto você gastou no ano passado para resolver esse problema? Foi suficiente?" },
+          { "value": "c", "label": "Você tem $50 k?" },
+          { "value": "d", "label": "Qual seu CFO?" }
+        ],
+        "explanation": "Perguntar sobre gasto passado revela budget real e se eles pagam por solução. Também mostra se valor esperado é maior ou menor que linha de base.",
+        "hint": "Histórico de bolso > futuro imaginário.",
+        "correctAnswer": "b",
+        "bookExample": "Prospect respondeu ‘gastamos $80 k em agências e ainda demoramos 45 dias’ — Kazanjy posicionou $60 k SaaS como economia de 25 % + ganho de velocidade."
+      },
+      {
+        "id": "8",
+        "question": "O que fazer se o prospect pede para ‘mandar material’ antes da call?",
+        "options": [
+          { "value": "a", "label": "Envia logo o PDF" },
+          { "value": "b", "label": "Propõe 15-min call para entender contexto e só então enviar material relevante — senão é delete" },
+          { "value": "c", "label": "Envia vídeo de 30 min" },
+          { "value": "d", "label": "Ignora" }
+        ],
+        "explanation": "PDF sem contexto é spam. Se não consegue arrancar 15 min, qualificação é zero. Use ‘material’ como moeda para conseguir conversa, não como favor gratuito.",
+        "hint": "No call, no PDF.",
+        "correctAnswer": "b",
+        "bookExample": "Resposta padrão dele: ‘Happy to send relevant info — can we jump on a quick 15-min call so I make sure I send the right piece?’"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Founding Sales: Demo que Vende",
+    "conclusionMessage": "Você aprendeu a fazer demo orientada a resultado: mostrar valor em 7 min e levar para próximo passo comprovado.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo da demo no early-stage?",
+        "options": [
+          { "value": "a", "label": "Mostrar todas as features" },
+          { "value": "b", "label": "Provar que o produto resolve a dor específica do prospect em menos de 10 min e levar ao trial/contrato" },
+          { "value": "c", "label": "Ensinar como usar" },
+          { "value": "d", "label": "Ficar 1 h no ar" }
+        ],
+        "explanation": "Demo é prova de conceito, não treinamento. Mostrar só o fluxo que elimina a dor que você descobriu no discovery. Mais que 10 min de feature tour perde atenção e dilui valor.",
+        "hint": "Proof, not tour.",
+        "correctAnswer": "b",
+        "bookExample": "Demo do TalentBin: 7 min — importa req, encontra 5 e-mails únicos, exporta para ATS. Pronto. Depois pergunta: ‘Quer testar com suas vagas?’"
+      },
+      {
+        "id": "2",
+        "question": "Qual é a estrutura ideal da demo founding-sales?",
+        "options": [
+          { "value": "a", "label": "Começa do login, mostra settings, termina em relatório" },
+          { "value": "b", "label": "1-min recap da dor → 5-min fluxo mágico → 2-min ROI → next step" },
+          { "value": "c", "label": "Mostra roadmap" },
+          { "value": "d", "label": "Pergunta ‘o que vocês querem ver?’" }
+        ],
+        "explanation": "Recap mostra que você escutou; fluxo mágico prova solução; ROI quantifica ganho; next step pede compromisso. Estrutura controlada evita demo ameba.",
+        "hint": "Narrativa fechada > tour aberta.",
+        "correctAnswer": "b",
+        "bookExample": "Slide 1: ‘Você disse que perde 2 h por req — vamos ver isso em 30 seg.’ Slide 2: faz busca, exporta 30 candidatos. Slide 3: ‘2 h viram 5 min, 300 % mais candidatos — quer testar por 14 dias?’"
+      },
+      {
+        "id": "3",
+        "question": "O que fazer se o prospect pede para ‘clicar em tudo’?",
+        "options": [
+          { "value": "a", "label": "Clica em tudo" },
+          { "value": "b", "label": "Diz: ‘Happy to deep-dive later — let’s first confirm this core flow solves your pain, then I’ll show whatever you want’" },
+          { "value": "c", "label": "Mostra código-fonte" },
+          { "value": "d", "label": "Chama engenheiro" }
+        ],
+        "explanation": "Demo ameba consome tempo e tira foco do valor. Recupera controle: valida dor primeiro, depois satisfaz curiosidade. Se não aceitar, é sinal de que não tem urgência real.",
+        "hint": "Confirma valor antes de explorar cantos.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy: ‘If they insist on seeing every button, they’re not buying — they’re browsing. Bookmark for later or DQ.’"
+      },
+      {
+        "id": "4",
+        "question": "Qual é o momento de pedir o next step na demo?",
+        "options": [
+          { "value": "a", "label": "No final da call" },
+          { "value": "b", "label": "Assim que mostrar o fluxo mágico e antes de Q&A largado" },
+          { "value": "c", "label": "Depois de mostrar roadmap" },
+          { "value": "d", "label": "Manda e-mail depois" }
+        ],
+        "explanation": "Peça compromisso quando emoção e prova estão frescas. Se esperar Q&A sem fim, energia cai e next step vira ‘vamos pensar’.",
+        "hint": "Strike while the iron is hot.",
+        "correctAnswer": "b",
+        "bookExample": "Script: ‘Based on what you just saw, does this solve the sourcing bottleneck? … Great — let’s schedule a 14-day pilot with your top 3 reqs. How does next Tuesday sound?’"
+      },
+      {
+        "id": "5",
+        "question": "O que é ‘fake door’ na demo e por que evitá-lo?",
+        "options": [
+          { "value": "a", "label": "Feature que não existe ainda — quebra confiança se cliente descobre" },
+          { "value": "b", "label": "Botão que leva para página 404" },
+          { "value": "c", "label": "Demo em ambiente de staging" },
+          { "value": "d", "label": "Feature paga" }
+        ],
+        "explanation": "Mostrar mockup como se estivesse em produção é mentira. Early-stage já tem risco alto; perder confiança por fake door é fatal. Mostre só o que existe, ou deixe claro que é preview.",
+        "hint": "Confiança > cool factor.",
+        "correctAnswer": "a",
+        "bookExample": "Ele perdeu um pilot porque clicou em ‘Export to Greenhouse’ que ainda estava em wireframe. Cliente: ‘If you fake this, what else are you faking?’"
+      },
+      {
+        "id": "6",
+        "question": "Qual é o papel do ROI na demo?",
+        "options": [
+          { "value": "a", "label": "Mostrar que o produto é bonito" },
+          { "value": "b", "label": "Quantificar economia de tempo ou ganho de receita em dinheiro real para justificar preço" },
+          { "value": "c", "label": "Falar de tecnologia" },
+          { "value": "d", "label": "Contar história de fundador" }
+        ],
+        "explanation": "Prospect precisa justificar compra para CFO. Mostrar ‘economia 10 h/semana × $80/h = $32 k/ano’ transforma feature em investimento com payback.",
+        "hint": "Dinheiro fala mais que adjectives.",
+        "correctAnswer": "b",
+        "bookExample": "Slide: ‘Your team fills 20 reqs/mo. Our data shows 40 % faster sourcing = 1 extra hire/mo. At $10 k fee that’s $120 k incremental revenue — software costs $24 k — ROI 400 %.’"
+      },
+      {
+        "id": "7",
+        "question": "O que fazer se o prospect fica em silêncio durante a demo?",
+        "options": [
+          { "value": "a", "label": "Continua falando" },
+          { "value": "b", "label": "Para e pergunta: ‘What are you thinking right now?’ — força feedback real" },
+          { "value": "c", "label": "Diminui o volume" },
+          { "value": "d", "label": "Mostra mais telas" }
+        ],
+        "explanation": "Silêncio pode ser dúvida ou mind-wandering. Parar e perguntar mostra confiança e tira objeção escondida. Se não conseguir reação, é sinal de desinteresse.",
+        "hint": "Silence is a question.",
+        "correctAnswer": "b",
+        "bookExample": "Script: ‘I see you’re quiet — usually that means either I’m solving the wrong problem or you’re seeing something I’m missing. Which one is it?’"
+      },
+      {
+        "id": "8",
+        "question": "Qual é o next step ideal ao final de uma demo que vence?",
+        "options": [
+          { "value": "a", "label": "Mandar PDF e esperar" },
+          { "value": "b", "label": "Agendar trial com métricas de sucesso definidas e data de review (pilot close)" },
+          { "value": "c", "label": "Marcar call ‘para tirar dúvidas’ sem data" },
+          { "value": "d", "label": "Enviar contrato imediatamente" }
+        ],
+        "explanation": "Trial com sucesso claro (ex: 5 hires em 30 dias) cria evento de decisão e urgência. Remove risco do cliente e dá a você case interno. Sem data de review, deal entra em coma.",
+        "hint": "Trial é bridge para close, não fim em si.",
+        "correctAnswer": "b",
+        "bookExample": "Close do pilot: ‘If we hit 5 quality hires in 30 days, we’ll convert to annual contract on Oct 15. Calendar invite for review set — deal?’"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Founding Sales: Objection Handling e Fechamento",
+    "conclusionMessage": "Você domina o arte de escutar objeções, isolá-las e fechar com próximo passo concreto.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a regra número 1 ao ouvir uma objeção?",
+        "options": [
+          { "value": "a", "label": "Responder imediatamente com contra-argumento" },
+          { "value": "b", "label": "Parar, escutar completo, repetir de volta e perguntar ‘Além disso, mais alguma coisa?’ antes de responder" },
+          { "value": "c", "label": "Dizer que a objeção é falsa" },
+          { "value": "d", "label": "Aceitar e descontar" }
+        ],
+        "explanation": "Isolamento evita ‘objeção de espiral’. Repetir mostra empatia e compra tempo para pensar. Só então você responde com fato ou pergunta.",
+        "hint": "Feel-felt-found começa com ouvir.",
+        "correctAnswer": "b",
+        "bookExample": "Script: ‘So if I understand correctly, your concern is that our price is 30 % higher than LinkedIn — anything else besides price?’"
+      },
+      {
+        "id": "2",
+        "question": "Qual técnica usa a pergunta ‘Além do preço, o que mais te impede de avançar hoje?’",
+        "options": [
+          { "value": "a", "label": "Spiral objection" },
+          { "value": "b", "label": "Isolamento da objeção real" },
+          { "value": "c", "label": "Descarte do cliente" },
+          { "value": "d", "label": "Desconto imediato" }
+        ],
+        "explanation": "Isolamento descobre se preço é desculpa ou única barreira. Se cliente listar 3 objeções, você resolve a real e fecha.",
+        "hint": "One objection at a time.",
+        "correctAnswer": "b",
+        "bookExample": "Cliente: ‘Price and integration.’ Reposta: ‘If integration timeline were 2 weeks instead of 4, would you sign today at current price?’ — descobre qual é real."
+      },
+      {
+        "id": "3",
+        "question": "Como responder objeção ‘Não temos budget’?",
+        "options": [
+          { "value": "a", "label": "Desconto 50 %" },
+          { "value": "b", "label": "Descobrir se budget existe mas está em outra linha, ou se ROI justifica mover budget; oferecer pilot pequeno pago" },
+          { "value": "c", "label": "Aceitar e ligar no próximo ano" },
+          { "value": "d", "label": "Falar mal do CFO" }
+        ],
+        "explanation": "Budget é elasticidade política. Mostrar ROI > 300 % ou comparar com custo de status quo muitas vezes cria budget. Pilot reduz risco e abre PO pequeno.",
+        "hint": "Budget é encontrado quando dor > preço.",
+        "correctAnswer": "b",
+        "bookExample": "Case: cliente sem budget abriu PO de $5 k para pilot depois que Kazanjy mostrou que tool economizaria 1 FTE de $80 k/ano."
+      },
+      {
+        "id": "4",
+        "question": "O que é ‘trial close’?",
+        "options": [
+          { "value": "a", "label": "Fechar contrato de trial" },
+          { "value": "b", "label": "Pergunta teste que mede temperatura de compra: ‘Se resolvesse X, você assinaria?’" },
+          { "value": "c", "label": "Demo grátis" },
+          { "value": "d", "label": "Desconto" }
+        ],
+        "explanation": "Trial close revela objeções escondidas. Se cliente hesitar, você escava. Se disser sim, você avança para paperwork.",
+        "hint": "Temperature check before real close.",
+        "correctAnswer": "b",
+        "bookExample": "Script: ‘Assuming we hit 10 qualified candidates per req in the 30-day pilot, would you be ready to convert to annual contract?’"
+      },
+      {
+        "id": "5",
+        "question": "Qual é o erro clássico no fechamento?",
+        "options": [
+          { "value": "a", "label": "Pedir o negócio" },
+          { "value": "b", "label": "Falar sozinho depois que cliente disse ‘parece bom’ e não pedir next step com data" },
+          { "value": "c", "label": "Enviar contrato" },
+          { "value": "d", "label": "Fazer pergunta" }
+        ],
+        "explanation": "Silêncio ou ‘vamos pensar’ mata momentum. Assim que cliente sinaliza positivo, você propõe next step calendarizado e pede assinatura.",
+        "hint": "Momentum > perfeição.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy: ‘When prospect says “this looks great” and you reply “cool, let me know”, you just lost the deal. Next line: Great — I’ll send order form today, can you sign by Friday so we start pilot Monday?’"
+      },
+      {
+        "id": "6",
+        "question": "Como criar urgência sem pressão?",
+        "options": [
+          { "value": "a", "label": "Desconto de 24 h" },
+          { "value": "b", "label": "Conectar data de início a evento de valor para o cliente (ex: novo quarter, lançamento de produto)" },
+          { "value": "c", "label": "Falar que o preço sobe amanhã" },
+          { "value": "d", "label": "Dizer que vamos ficar sem estoque" }
+        ],
+        "explanation": "Urgência real é quando delay custa dinheiro ou oportunidade ao cliente. Alinhar start-date a evento dele (novo hiring push, campanha de outbound) faz urgência ser dele, não sua.",
+        "hint": "Customer-driven urgency lasts.",
+        "correctAnswer": "b",
+        "bookExample": "‘Your Q4 hiring push starts Oct 1. If we start pilot Sep 15, you’ll have 6 weeks of data before go-live. After that, we risk missing the push — does Friday signature work?’"
+      },
+      {
+        "id": "7",
+        "question": "Qual é a técnica ‘alternative close’?",
+        "options": [
+          { "value": "a", "label": "Perguntar ‘você quer assinar?’" },
+          { "value": "b", "label": "Oferecer duas opções de next step ambas favoráveis a você: ‘Prefere começar com 10 ou 20 seats?’" },
+          { "value": "c", "label": "Falar do concorrente" },
+          { "value": "d", "label": "Dar desconto" }
+        ],
+        "explanation": "Alternative close dá ilusão de controle ao cliente mas mantém venda dentro dos trilhos. Qualquer escolha avança deal.",
+        "hint": "A ou B, não sim ou não.",
+        "correctAnswer": "b",
+        "bookExample": "‘Do you want to start with the Professional plan for 20 users, or the Team plan for 10 and upgrade next quarter once you see ROI?’ Either way, signature happens."
+      },
+      {
+        "id": "8",
+        "question": "O que fazer após assinatura para garantir sucesso e expansão?",
+        "options": [
+          { "value": "a", "label": "Parabenizar e sumir" },
+          { "value": "b", "label": "Agendar kick-off com métricas de sucesso documentadas, enviar case-study template e marcar review de upsell" },
+          { "value": "c", "label": "Enviar invoice" },
+          { "value": "d", "label": "Adicionar no LinkedIn" }
+        ],
+        "explanation": "Pós-venda é onde expansão e referral nascem. Kick-off alinha sucesso, case study dá prova social, review calendarizado cria evento de upsell. Churn cai, NPS sobe.",
+        "hint": "Onboarding é parte do close do próximo contrato.",
+        "correctAnswer": "b",
+        "bookExample": "Checklist dele: 24 h pós-assinatura → welcome e-mail + link para calendar invite de 30-day review com agenda: ROI metrics, expansion seats, referral intros."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Founding Sales: Métricas e Repeatability",
+    "conclusionMessage": "Você sabe quais números importam para escalar e quando chamar o primeiro reps.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é a métrica mais importante antes de contratar primeiro AE?",
+        "options": [
+          { "value": "a", "label": "Total de leads no CRM" },
+          { "value": "b", "label": "Consistência de pipeline coverage ≥ 3x e win-rate ≥ 20 % por 2-3 quarters" },
+          { "value": "c", "label": "Número de reuniões por semana" },
+          { "value": "d", "label": "Tamanho do ticket" }
+        ],
+        "explanation": "Sem repeatability você só multiplica caos. 3x coverage e 20 % win-rate mostram que playbook é previsível. Só então adicionar cabeça faz sentido.",
+        "hint": "Repeatability > headcount.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy só contratou primeiro AE quando teve 6 quarters seguidos com pipeline 3,2× e win-rate 24 % ± 2 %."
+      },
+      {
+        "id": "2",
+        "question": "O que é ‘sales velocity’ e como calcular?",
+        "options": [
+          { "value": "a", "label": "Número de demos por mês" },
+          { "value": "b", "label": "# oportunidades × win-rate × ticket médio ÷ sales-cycle (dias)" },
+          { "value": "c", "label": "Total de receita" },
+          { "value": "d", "label": "Churn rate" }
+        ],
+        "explanation": "Sales velocity ($/dia) mede quão rápido você transforma pipeline em dinheiro. Aumentar qualquer fator ou diminuir ciclo acelera crescimento.",
+        "hint": "Velocidade = $ por unidade de tempo.",
+        "correctAnswer": "b",
+        "bookExample": "Ex: 50 opps × 0,22 × $24 k ÷ 45 dias = $5,9 k/dia. Reduzindo ciclo para 30 dias sobe para $8,8 k/dia sem mais leads."
+      },
+      {
+        "id": "3",
+        "question": "Qual é o leading indicator de Product-Market Fit em vendas?",
+        "options": [
+          { "value": "a", "label": "Ticket médio crescendo" },
+          { "value": "b", "label": "Win-rate estável ou crescente com ciclo de vendas encurtando e expansão sem esforço" },
+          { "value": "c", "label": "Número de reuniões" },
+          { "value": "d", "label": "Desconto médio" }
+        ],
+        "explanation": "PMF se reflete em vendas: prospects entendem valor rápido, objeções caem, ciclo encurta e clientes compram mais sem pressão. Isso é repeatability.",
+        "hint": "Mercado puxa, você não empurra.",
+        "correctAnswer": "b",
+        "bookExample": "Quando win-rate passou de 15 % para 28 % e ciclo caiu de 60 para 35 dias Kazanjy declarou ‘we have PMF in sales’."
+      },
+      {
+        "id": "4",
+        "question": "O que é ‘pipeline coverage’ e qual meta usar?",
+        "options": [
+          { "value": "a", "label": "Soma de leads; meta 1×" },
+          { "value": "b", "label": "Pipeline total ÷ quota do período; early-stage meta 3-4×, maduro 2-3×" },
+          { "value": "c", "label": "Número de demos" },
+          { "value": "d", "label": "Ticket médio" }
+        ],
+        "explanation": "Coverage mostra se há massa suficiente considerando win-rate. Early-stage tem menos predictabilidade, precisa de 3-4×. Abaixo de 2× é roleta.",
+        "hint": "Massa compensa ineficiência.",
+        "correctAnswer": "b",
+        "bookExample": "AE com quota trimestral $300 k e win-rate 25 % precisa de $900 k-1,2 M de pipeline para bater número com folga."
+      },
+      {
+        "id": "5",
+        "question": "Qual métrica revela se preço está abaixo do valor?",
+        "options": [
+          { "value": "a", "label": "Desconto médio 0 %" },
+          { "value": "b", "label": "Expansion revenue sem CS esforço e win-rate > 30 % com ciclo < 30 dias" },
+          { "value": "c", "label": "Churn alto" },
+          { "value": "d", "label": "Ticket caindo" }
+        ],
+        "explanation": "Se você fecha rápido demais, sem objeção de preço e clientes compram mais modules sem pressão, você provavelmente pode subir preço 30-50 %.",
+        "hint": "Mercado diz ‘barato’.",
+        "correctAnswer": "b",
+        "bookExample": "Descobriram que 40 % dos novos clientes adicionavam seats extras no primeiro mês sem discount — sinal claro de under-pricing."
+      },
+      {
+        "id": "6",
+        "question": "Quando saber que é hora de escalar equipe de vendas?",
+        "options": [
+          { "value": "a", "label": "Quando o founder está cansado" },
+          { "value": "b", "label": "Quando playbook está documentado, win-rate ≥ 20 %, coverage ≥ 3× e CAC payback < 12 meses" },
+          { "value": "c", "label": "Quando fecha primeiro cliente" },
+          { "value": "d", "label": "Quando o investidor manda" }
+        ],
+        "explanation": "Scale quando o processo é previsível e lucrativo. Senão você só multiplica incerteza e queima cash. Documentação garante que novo AE consiga repetir.",
+        "hint": "Previsibilidade é o gatilho.",
+        "correctAnswer": "b",
+        "bookExample": "Checklist de scale: 1) ICP escrito, 2) script de discovery, 3) demo recording aprovado, 4) comp plan pronto, 5) CAC payback 9 meses."
+      },
+      {
+        "id": "7",
+        "question": "Qual é a diferença entre CAC e CAC payback?",
+        "options": [
+          { "value": "a", "label": "São iguais" },
+          { "value": "b", "label": "CAC é custo para adquirir; CAC payback é tempo (meses) que o cliente leva para pagar esse custo com margem" },
+          { "value": "c", "label": "CAC inclui sucesso do cliente" },
+          { "value": "d", "label": "Payback é sempre 12 meses" }
+        ],
+        "explanation": "CAC payback mostra saúde do modelo. Early-stageSaaS deve ser < 12 meses; > 18 meses queima capital. A métrica une vendas + financeiro.",
+        "hint": "Tempo para recuperar investimento.",
+        "correctAnswer": "b",
+        "bookExample": "CAC $6 k, MRR $600, gross margin 80 % → payback = $6 k ÷ ($600 × 0,8) = 12,5 meses — dentro do aceitável."
+      },
+      {
+        "id": "8",
+        "question": "O que é ‘net revenue retention’ (NRR) e por que importa para escala?",
+        "options": [
+          { "value": "a", "label": "Soma de novos logos" },
+          { "value": "b", "label": "Receita do mesmo cohort de clientes após 12 meses incluindo churn e expansão; > 100 % indica que cliente cresce mais que churn — modelo saudável" },
+          { "value": "c", "label": "Ticket médio" },
+          { "value": "d", "label": "Desconto médio" }
+        ],
+        "explanation": "NRR > 100 % significa que você cresce mesmo sem novos logos — critical para SaaS de capital eficiente. Expansion hide churn e reduz necessidade de CAC novo.",
+        "hint": "Crescimento sem novo CAC.",
+        "correctAnswer": "b",
+        "bookExample": "TalentBin cohort 2012: 100 % baseline, 12 meses depois 108 % com expansão — prova de que cliente aumentava uso, justificando escalar vendas."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Founding Sales: Primeiros Hires e Comp",
+    "conclusionMessage": "Você sabe quem contratar primeiro, como pagar e que KPIs usar antes de ter manager de vendas.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual deve ser o primeiro hire de vendas?",
+        "options": [
+          { "value": "a", "label": "VP de Vendas" },
+          { "value": "b", "label": "AE (Account Executive) que execute o playbook já validado pelo founder" },
+          { "value": "c", "label": "SDR Manager" },
+          { "value": "d", "label": "Sales Ops" }
+        ],
+        "explanation": "Contrate executor, não estrategista. O playbook precisa estar escrito e comprovado. Se ainda é nebuloso, volte para founder-sales.",
+        "hint": "Playbook first, people second.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy só contratou AE quando teve 20 pagantes, script gravado e 3× pipeline coverage estável por 2 quarters."
+      },
+      {
+        "id": "2",
+        "question": "Por que evitar contratar ‘vendedor de big-co’ no early-stage?",
+        "options": [
+          { "value": "a", "label": "São caros" },
+          { "value": "b", "label": "Estão acostumados com marca, leads e processo maduro — falham quando precisam criar tudo do zero" },
+          { "value": "c", "label": "Não sabem falar inglês" },
+          { "value": "d", "label": "Pedem muito vacation" }
+        ],
+        "explanation": "Big-co rep é caçador em zoológico. Early-stage é caçador na selva. Precisa de profile ‘builder’: curioso, autossuficiente, confortável com ambiguidade.",
+        "hint": "Hunter vs. farmer vs. builder.",
+        "correctAnswer": "b",
+        "bookExample": "Ele conta que ex-Oracle rep falou ‘onde estão os leads?’ no dia 1 e saiu 3 meses depois com 0 closed-won."
+      },
+      {
+        "id": "3",
+        "question": "Qual é a estrutura de comp ideal para primeiro AE?",
+        "options": [
+          { "value": "a", "label": "100 % base" },
+          { "value": "b", "label": "50 % base / 50 % comissão com accelerator > 100 % quota; OTE alinhado a founder OTE mas upside maior" },
+          { "value": "c", "label": "Only commission" },
+          { "value": "d", "label": "Equity only" }
+        ],
+        "explanation": "50/50 mantém hunger mas dá segurança. Accelerator 1,5× acima da quota incentiva over-performance. OTE deve refletir stage: não pode ser maior que founder cash mas upside desbloqueia star.",
+        "hint": "Skin in the game + upside.",
+        "correctAnswer": "b",
+        "bookExample": "Plan: $60 k base / $60 k OTE, 10 % de cada deal até quota $600 k, 15 % above quota — alinha cash burn com growth."
+      },
+      {
+        "id": "4",
+        "question": "Qual deve ser a quota do primeiro AE?",
+        "options": [
+          { "value": "a", "label": "Dobro do que founder consegue" },
+          { "value": "b", "label": "Founder average last 2 quarters × 0,8 (80 %) para deixar room para ramp e learning curve" },
+          { "value": "c", "label": "Qualquer número que o investidor pedir" },
+          { "value": "d", "label": "Baseado no sonho do CEO" }
+        ],
+        "explanation": "Founder já provou o que é possível. 0,8× dá buffer para ramp (3-6 meses) e evita turnover por quota impossível. Ajuste para cima depois de 2 quarters.",
+        "hint": "Realismo > otimismo.",
+        "correctAnswer": "b",
+        "bookExample": "Founder fechou $500 k em 2 quarters → quota AE ano 1: $400 k, ramp 4 meses."
+      },
+      {
+        "id": "5",
+        "question": "Quando contratar o segundo AE?",
+        "options": [
+          { "value": "a", "label": "No dia seguinte" },
+          { "value": "b", "label": "Quando primeiro AE bater quota 2 quarters seguidos e pipeline coverage ainda ≥ 3× com leads orgânicos" },
+          { "value": "c", "label": "Quando o primeiro pedir ajuda" },
+          { "value": "d", "label": "Quando o investidor mandar" }
+        ],
+        "explanation": "Scale só quando o modelo é repetível. Se coverage ainda alto e AE1 provou que playbook funciona, duplicar cabeça amplifica resultado. Senão, multiplica caos.",
+        "hint": "Repeatability first.",
+        "correctAnswer": "b",
+        "bookExample": "AE1 bateu 105 % quota Q3 e 110 % Q4 com 3,5× coverage — só então Kazanjy trouxe AE2."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o papel do founder após primeiro AE hire?",
+        "options": [
+          { "value": "a", "label": "Parar de vender" },
+          { "value": "b", "label": "Ainda fecha 20-30 % dos deals (enterprise) e foca em coaching, refinando playbook e abrindo doors estratégicos" },
+          { "value": "c", "label": "Ficar no escritório" },
+          { "value": "d", "label": "Trocar de mercado" }
+        ],
+        "explanation": "Founder não pode abandonar front-line. Ele é o melhor closer e coach. Participar em deals grandes mantém pulse do mercado e dá feedback para produto.",
+        "hint": "Coach-player model.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy continuou fechando 25 % da ARR e fazendo 3-4 calls por semana para manter playbook vivo."
+      },
+      {
+        "id": "7",
+        "question": "O que é ‘ramp plan’ e por que documentar?",
+        "options": [
+          { "value": "a", "label": "Plano de férias" },
+          { "value": "b", "label": "30-60-90 dia com métricas de learning, pipeline e revenue; reduz turnover e alinha expectativas" },
+          { "value": "c", "label": "Plano de equity" },
+          { "value": "d", "label": "Roteiro de festa" }
+        ],
+        "explanation": "Ramp plan claro (week 1: shadow 10 calls, week 4: first self-sourced opps, week 12: 50 % quota) reduz anxiety do novo AE e dá leading indicators antes de falhar.",
+        "hint": "Onboarding é parte do comp.",
+        "correctAnswer": "b",
+        "bookExample": "Template: dia 30 — 20 ICP calls completed, dia 60 — 10 opps created, dia 90 — 2 closed-won or out."
+      },
+      {
+        "id": "8",
+        "question": "Qual é o erro de contratar SDR antes de AE?",
+        "options": [
+          { "value": "a", "label": "SDR é mais barato" },
+          { "value": "b", "label": "Sem AE para converter leads, SDR vira gerador de lixo — pipeline falso e burn de goodwill do mercado" },
+          { "value": "c", "label": "SDR não gera leads" },
+          { "value": "d", "label": "AE não gosta de SDR" }
+        ],
+        "explanation": "SDR sem closer é como mangueira sem boca. Founder precisa provar que consegue converter antes de escalar topo de funil. Senão enche CRM de oportunidades mortas.",
+        "hint": "Conversion first, volume second.",
+        "correctAnswer": "b",
+        "bookExample": "Startup contratou 2 SDRs, gerou 300 MQLs, AE founder converteu 5 % — pipeline virou ‘cemitério’ e SDRs saíram 6 meses depois."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Founding Sales: Scaling to First VP Sales",
+    "conclusionMessage": "Você entende quando e como contratar o VP de Vendas que vai levar a empresa de $1 M para $10 M.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Quando contratar VP de Vendas?",
+        "options": [
+          { "value": "a", "label": "No dia 1" },
+          { "value": "b", "label": "Quando você tem 2-3 AEs batendo quota, playbook documentado e precisa de líder para escalar de $1 M para $10 M ARR" },
+          { "value": "c", "label": "Quando o investidor pedir" },
+          { "value": "d", "label": "Quando bater $100 k ARR" }
+        ],
+        "explanation": "VP Sales é construtor de máquina, não inventor. Ele precisa de dados, processo e gente que já funciona. Contratar cedo é contratar expensivo coach sem time.",
+        "hint": "Machine exists > hire driver.",
+        "correctAnswer": "b",
+        "bookExample": "Kazanjy trouxe VP quando tinha 3 AEs, 110 % quota attainment média e pipeline previsível — VP chegou para ‘add gas to fire’, não para descobrir fogo."
+      },
+      {
+        "id": "2",
+        "question": "Qual é o perfil ideal do first VP Sales?",
+        "options": [
+          { "value": "a", "label": "Ex-VP de Google" },
+          { "value": "b", "label": "Player-coach: já foi AE high-performer, construiu processo de 0 a 1 e consegue fechar deals grandes enquanto recruta e treina" },
+          { "value": "c", "label": "MBA em estratégia" },
+          { "value": "d", "label": "Palestrante motivacional" }
+        ],
+        "explanation": "Early VP precisa vender lado a lado com time e codificar processo. Big-co VP muitas vezes nunca carregou quota individual — evite ‘estrategista de PowerPoint’.",
+        "hint": "Builder > strategist.",
+        "correctAnswer": "b",
+        "bookExample": "Perfil vencedor: 5 years IC quota > 120 %, 2 years leading 5-10 reps, built Salesforce from scratch, still jumps on enterprise calls."
+      },
+      {
+        "id": "3",
+        "question": "O que entregar para VP Sales no day 1?",
+        "options": [
+          { "value": "a", "label": "Nada — ele descobre" },
+          { "value": "b", "label": "Playbook, CRM limpo, 3 AEs funcionando, pipeline 3×, comp plan aprovado e budget para mais 2 hires" },
+          { "value": "c", "label": "Um café" },
+          { "value": "d", "label": "Apresentação de strategy" }
+        ],
+        "explanation": "VP precisa combustível, não só visão. Dar máquina rodando permite que ele foque em escalar (recrutar, otimizar, remover gargalo) e não em inventar processo.",
+        "hint": "Give ammo, not just target.",
+        "correctAnswer": "b",
+        "bookExample": "Checklist de onboarding do VP: 1) documented ICP, 2) SFDC with 500 opps, 3) 3 AEs hitting > 90 %, 4) approved headcount for 2 more reps, 5) marketing budget aligned."
+      },
+      {
+        "id": "4",
+        "question": "Qual é o principal KPI do VP Sales nos primeiros 6 meses?",
+        "options": [
+          { "value": "a", "label": "Criar powerpoints" },
+          { "value": "b", "label": "Aumentar quota per rep e manter ou melhorar win-rate enquanto reduz sales-cycle" },
+          { "value": "c", "label": "Fazer 10 conferências" },
+          { "value": "d", "label": "Contratar 20 pessoas" }
+        ],
+        "explanation": "VP deve escalar eficiência, não só cabeças. Se quota/rep cai ou win-rate despenca, crescimento é ilusão. Focus em productivity antes de volume.",
+        "hint": "Efficiency first, then headcount.",
+        "correctAnswer": "b",
+        "bookExample": "Meta: quota per rep + 25 %, win-rate keep ≥ 22 %, cycle 45 → 35 days, then add 3 more reps."
+      },
+      {
+        "id": "5",
+        "question": "Como alinhar VP Sales e VP Marketing?",
+        "options": [
+          { "value": "a", "label": "Fazer happy hour" },
+          { "value": "b", "label": "OKRs compartilhados: MQL volume, SQL conversion, pipeline coverage e revenue; reuniões weekly SLA entre teams" },
+          { "value": "c", "label": "Trocar de emprego" },
+          { "value": "d", "label": "Ignorar marketing" }
+        ],
+        "explanation": "Sales e marketing brigam quando métricas são diferentes. Shared OKR força colaboração: qualidade de MQL, velocity e coverage. Weekly SLA (ex: MQL respondido em 24 h) remove atrito.",
+        "hint": "One funnel, one number.",
+        "correctAnswer": "b",
+        "bookExample": "OKR conjunto: 4× pipeline coverage com MQL→SQL ≥ 25 % e SQL→win ≥ 20 %. Weekly meeting: list of stuck SQLs, content needs, feedback loop."
+      },
+      {
+        "id": "6",
+        "question": "Qual é o sinal de que VP Sales está falhando?",
+        "options": [
+          { "value": "a", "label": "Faz muitas calls" },
+          { "value": "b", "label": "Win-rate cai, sales-cycle aumenta, AEs saem, pipeline fica vazio e founder volta a fechar metade dos deals" },
+          { "value": "c", "label": "Contrata devagar" },
+          { "value": "d", "label": "Faz poucas conferências" }
+        ],
+        "explanation": "Founder volta ao front-line é sinal claro de que máquina não funciona. Métricas podem mascarar 1-2 quarters, mas churn de AE e volta do founder são red flags.",
+        "hint": "Founder back-selling = alarm.",
+        "correctAnswer": "b",
+        "bookExample": "Em 9 meses win-rate caiu de 24 % para 14 %, 2 AEs saíram, founder teve que fechar 30 % da ARR — board trocou VP."
+      },
+      {
+        "id": "7",
+        "question": "Qual é o comp plan ideal para VP Sales early-stage?",
+        "options": [
+          { "value": "a", "label": "Só equity" },
+          { "value": "b", "label": "50
+
+    
+    
+    
+```,
   {
     "id": 9,
     "title": "Founding Sales: Sales Stack e Operações",
