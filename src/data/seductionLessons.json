@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "title": "Introdução à Sedução: Mentalidade e Confiança",
+    "conclusionMessage": "Você completou a primeira microlição sobre sedução. Agora você entende a importância da mentalidade e confiança.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o primeiro passo para se tornar um sedutor de sucesso?",
+        "options": [
+          { "value": "a", "label": "Aprender técnicas de PNL" },
+          { "value": "b", "label": "Desenvolver uma mentalidade de abundância e autoconfiança" },
+          { "value": "c", "label": "Comprar roupas caras" },
+          { "value": "d", "label": "Memorizar frases de efeito" }
+        ],
+        "explanation": "A mentalidade e a autoconfiança são a base da sedução. Sem elas, nenhuma técnica funciona.",
+        "hint": "Acredite em si mesmo antes de tentar convencer os outros.",
+        "correctAnswer": "b",
+        "bookExample": "Franco Seduction enfatiza que a confiança é mais atraente do que a aparência física."
+      },
+      {
+        "id": "2",
+        "question": "Por que a autoconfiança é tão importante na sedução?",
+        "options": [
+          { "value": "a", "label": "Porque intimida as mulheres" },
+          { "value": "b", "label": "Porque demonstra que você se valoriza e não precisa da aprovação dos outros" },
+          { "value": "c", "label": "Porque é um sinal de riqueza" },
+          { "value": "d", "label": "Porque é fácil de fingir" }
+        ],
+        "explanation": "A autoconfiança demonstra que você se valoriza e não precisa da aprovação dos outros, o que é extremamente atraente.",
+        "hint": "A confiança é um ímã.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que a confiança é a chave para superar a timidez e abordar mulheres com naturalidade."
+      },
+      {
+        "id": "3",
+        "question": "O que é uma 'mentalidade de abundância'?",
+        "options": [
+          { "value": "a", "label": "Acreditar que você é o único homem no mundo" },
+          { "value": "b", "label": "Acreditar que existem inúmeras oportunidades e mulheres atraentes por aí" },
+          { "value": "c", "label": "Ser materialista" },
+          { "value": "d", "label": "Ser arrogante" }
+        ],
+        "explanation": "Uma mentalidade de abundância é acreditar que existem inúmeras oportunidades e mulheres atraentes por aí, o que te permite ser mais relaxado e confiante.",
+        "hint": "Não coloque todos os ovos na mesma cesta.",
+        "correctAnswer": "b",
+        "bookExample": "Franco ensina que a mentalidade de abundância te impede de ficar obcecado por uma única mulher."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Abordagem: Quebrando o Gelo com Confiança",
+    "conclusionMessage": "Você completou a segunda microlição sobre sedução. Agora você sabe como abordar mulheres com confiança e naturalidade.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o maior erro que os homens cometem ao abordar uma mulher?",
+        "options": [
+          { "value": "a", "label": "Ser muito direto" },
+          { "value": "b", "label": "Mostrar insegurança e precisar da aprovação dela" },
+          { "value": "c", "label": "Ser muito engraçado" },
+          { "value": "d", "label": "Ser muito original" }
+        ],
+        "explanation": "Mostrar insegurança e precisar da aprovação dela. Isso demonstra falta de autoconfiança e afasta as mulheres.",
+        "hint": "Não busque validação, ofereça valor.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que a maioria dos homens aborda com medo da rejeição, o que é um repelente."
+      },
+      {
+        "id": "2",
+        "question": "Qual é a melhor forma de iniciar uma conversa com uma mulher?",
+        "options": [
+          { "value": "a", "label": "Elogiar sua beleza" },
+          { "value": "b", "label": "Fazer um comentário situacional ou observação interessante" },
+          { "value": "c", "label": "Pedir informações" },
+          { "value": "d", "label": "Contar uma piada" }
+        ],
+        "explanation": "Fazer um comentário situacional ou observação interessante demonstra inteligência e que você está presente no momento.",
+        "hint": "Seja interessante, não previsível.",
+        "correctAnswer": "b",
+        "bookExample": "Franco sugere comentar sobre a música, o ambiente ou algo que vocês dois estão vendo."
+      },
+      {
+        "id": "3",
+        "question": "Por que é importante manter o contato visual ao abordar uma mulher?",
+        "options": [
+          { "value": "a", "label": "Para intimidá-la" },
+          { "value": "b", "label": "Para demonstrar confiança e interesse genuíno" },
+          { "value": "c", "label": "Para mostrar que você é dominante" },
+          { "value": "d", "label": "Para analisar sua beleza" }
+        ],
+        "explanation": "O contato visual demonstra confiança e interesse genuíno, criando uma conexão imediata.",
+        "hint": "Olhos nos olhos.",
+        "correctAnswer": "b",
+        "bookExample": "Franco ensina que o contato visual firme é essencial para transmitir confiança."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Conversa: Criando Conexão e Interesse",
+    "conclusionMessage": "Você completou a terceira microlição sobre sedução. Agora você sabe como criar conexão e interesse durante a conversa.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo principal da conversa?",
+        "options": [
+          { "value": "a", "label": "Impressioná-la com sua inteligência" },
+          { "value": "b", "label": "Criar uma conexão emocional e descobrir seus interesses" },
+          { "value": "c", "label": "Falar sobre seus problemas" },
+          { "value": "d", "label": "Conseguir seu número de telefone" }
+        ],
+        "explanation": "Criar uma conexão emocional e descobrir seus interesses. A conversa é sobre ela, não sobre você.",
+        "hint": "Conexão > informação.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que a conversa deve ser uma troca de energia, não um interrogatório."
+      },
+      {
+        "id": "2",
+        "question": "Por que é importante fazer perguntas abertas?",
+        "options": [
+          { "value": "a", "label": "Para mostrar que você é inteligente" },
+          { "value": "b", "label": "Para incentivá-la a falar sobre si mesma e revelar seus interesses" },
+          { "value": "c", "label": "Para controlar a conversa" },
+          { "value": "d", "label": "Para evitar silêncios" }
+        ],
+        "explanation": "Para incentivá-la a falar sobre si mesma e revelar seus interesses. As pessoas adoram falar sobre si.",
+        "hint": "Incentive a conversa, não a resposta.",
+        "correctAnswer": "b",
+        "bookExample": "Em vez de 'Você gosta de música?', pergunte 'Qual é a sua banda favorita e por quê?'"
+      },
+      {
+        "id": "3",
+        "question": "O que é 'rapport' e como criá-lo?",
+        "options": [
+          { "value": "a", "label": "Um tipo de dança" },
+          { "value": "b", "label": "Uma conexão de confiança e entendimento mútuo, criado através de similaridades e empatia" },
+          { "value": "c", "label": "Um jogo de sedução" },
+          { "value": "d", "label": "Uma técnica de hipnose" }
+        ],
+        "explanation": "Uma conexão de confiança e entendimento mútuo, criado através de similaridades e empatia. Rapport é a base da atração.",
+        "hint": "Conexão > técnica.",
+        "correctAnswer": "b",
+        "bookExample": "Franco ensina que espelhar a linguagem corporal e o tom de voz cria rapport."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Toque: Escalando a Intimidade",
+    "conclusionMessage": "Você completou a quarta microlição sobre sedução. Agora você sabe como usar o toque para escalar a intimidade de forma gradual e respeitosa.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que o toque é importante na sedução?",
+        "options": [
+          { "value": "a", "label": "Para mostrar domínio" },
+          { "value": "b", "label": "Para criar conexão física e aumentar a intimidade" },
+          { "value": "c", "label": "Para testar seus limites" },
+          { "value": "d", "label": "Para mostrar que você é ousado" }
+        ],
+        "explanation": "Para criar conexão física e aumentar a intimidade. O toque quebra a barreira do contato social.",
+        "hint": "Conexão física > distância.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que o toque é a linguagem do desejo."
+      },
+      {
+        "id": "2",
+        "question": "Como o toque deve ser escalado?",
+        "options": [
+          { "value": "a", "label": "Imediatamente para áreas íntimas" },
+          { "value": "b", "label": "Gradualmente, começando com toques não ameaçadores e observando a reação" },
+          { "value": "c", "label": "De forma aleatória" },
+          { "value": "d", "label": "Apenas se ela tocar você primeiro" }
+        ],
+        "explanation": "Gradualmente, começando com toques não ameaçadores e observando a reação. Respeito é fundamental.",
+        "hint": "Respeito > ousadia.",
+        "correctAnswer": "b",
+        "bookExample": "Comece com um toque no braço, depois no ombro, e observe se ela se afasta ou retribui."
+      },
+      {
+        "id": "3",
+        "question": "Quais são exemplos de toques não ameaçadores?",
+        "options": [
+          { "value": "a", "label": "Mãos, braços e ombros" },
+          { "value": "b", "Crie um senso de mistério e curiosidade" },
+          { "value": "c", "label": "Peito e rosto" },
+          { "value": "d", "label": "Pernas e cintura" }
+        ],
+        "explanation": "Mãos, braços e ombros. Áreas neutras que não invadem o espaço pessoal.",
+        "hint": "Toque social > toque íntimo.",
+        "correctAnswer": "a",
+        "bookExample": "Um toque rápido no braço enquanto você conta uma história."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Qualificação: Identificando Sinais de Interesse",
+    "conclusionMessage": "Você completou a quinta microlição sobre sedução. Agora você sabe como identificar sinais de interesse e ajustar sua abordagem.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que é importante identificar sinais de interesse?",
+        "options": [
+          { "value": "a", "label": "Para não perder tempo com quem não está interessada" },
+          { "value": "b", "label": "Para se gabar para os amigos" },
+          { "value": "c", "label": "Para manipular as mulheres" },
+          { "value": "d", "label": "Para mostrar que você é inteligente" }
+        ],
+        "explanation": "Para não perder tempo com quem não está interessada. Foco é fundamental.",
+        "hint": "Tempo > insistência.",
+        "correctAnswer": "a",
+        "bookExample": "Franco ensina a 'qualificar' a mulher para saber se vale a pena investir tempo."
+      },
+      {
+        "id": "2",
+        "question": "Quais são sinais de interesse?",
+        "options": [
+          { "value": "a", "label": "Contato visual prolongado, risadas, toque, perguntas e proximidade física" },
+          { "value": "b", "label": "Apenas contato visual" },
+          { "value": "c", "label": "Apenas risadas" },
+          { "value": "d", "label": "Apenas proximidade física" }
+        ],
+        "explanation": "Contato visual prolongado, risadas, toque, perguntas e proximidade física. Múltiplos sinais = interesse.",
+        "hint": "Múltiplos sinais > um sinal.",
+        "correctAnswer": "a",
+        "bookExample": "Se ela te olha nos olhos, ri das suas piadas e se aproxima, ela está interessada."
+      },
+      {
+        "id": "3",
+        "question": "O que fazer se você não identifica sinais de interesse?",
+        "options": [
+          { "value": "a", "label": "Insistir" },
+          { "value": "b", "label": "Desistir e seguir em frente" },
+          { "value": "c", "label": "Ficar bravo" },
+          { "value": "d", "label": "Tentar impressionar" }
+        ],
+        "explanation": "Desistir e seguir em frente. Não force a barra. Respeito é fundamental.",
+        "hint": "Respeito > insistência.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que insistir é um tiro no pé."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Fechamento: Obtendo o Número e Marcando um Encontro",
+    "conclusionMessage": "Você completou a sexta microlição sobre sedução. Agora você sabe como obter o número e marcar um encontro de forma eficaz.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo do 'fechamento'?",
+        "options": [
+          { "value": "a", "label": "Conseguir sexo imediato" },
+          { "value": "b", "label": "Obter o número de telefone e marcar um encontro futuro" },
+          { "value": "c", "label": "Declarar seu amor" },
+          { "value": "d", "label": "Mostrar que você é o melhor" }
+        ],
+        "explanation": "Obter o número de telefone e marcar um encontro futuro. Próximo passo > fim da linha.",
+        "hint": "Próximo passo > fim da linha.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que o número é apenas um meio para um fim."
+      },
+      {
+        "id": "2",
+        "question": "Como você pede o número de telefone?",
+        "options": [
+          { "value": "a", "label": "Diretamente, com confiança e um motivo claro" },
+          { "value": "b", "label": "De forma hesitante" },
+          { "value": "c", "label": "Esperando que ela ofereça" },
+          { "value": "d", "label": "Nunca peça" }
+        ],
+        "explanation": "Diretamente, com confiança e um motivo claro. Seja objetivo e mostre valor.",
+        "hint": "Objetivo > hesitação.",
+        "correctAnswer": "a",
+        "bookExample": "Franco sugere dizer: 'Vamos tomar um café qualquer dia desses. Qual o seu número?'"
+      },
+      {
+        "id": "3",
+        "question": "O que fazer se ela hesita em dar o número?",
+        "options": [
+          { "value": "a", "label": "Insistir" },
+          { "value": "b", "label": "Respeitar a decisão e seguir em frente" },
+          { "value": "c", "label": "Ficar bravo" },
+          { "value": "d", "label": "Tentar subornar" }
+        ],
+        "explanation": "Respeitar a decisão e seguir em frente. Não force a barra. Respeito é fundamental.",
+        "hint": "Respeito > insistência.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que insistir demonstra carência."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Encontros: Criando Atração e Intimidade",
+    "conclusionMessage": "Você completou a sétima microlição sobre sedução. Agora você sabe como criar atração e intimidade durante os encontros.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo do encontro?",
+        "options": [
+          { "value": "a", "label": "Conseguir sexo" },
+          { "value": "b", "label": "Aprofundar a conexão emocional e física" },
+          { "value": "c", "label": "Impressioná-la com sua riqueza" },
+          { "value": "d", "label": "Mostrar que você é o melhor" }
+        ],
+        "explanation": "Aprofundar a conexão emocional e física. Encontro é sobre criar intimidade.",
+        "hint": "Intimidade > sexo.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que o sexo é uma consequência da conexão."
+      },
+      {
+        "id": "2",
+        "question": "Como você escolhe o local do encontro?",
+        "options": [
+          { "value": "a", "label": "O mais caro" },
+          { "value": "b", "label": "Um lugar que permita conversa, intimidade e diversão" },
+          { "value": "c", "label": "O mais popular" },
+          { "value": "d", "label": "O mais perto da sua casa" }
+        ],
+        "explanation": "Um lugar que permita conversa, intimidade e diversão. Ambiente importa.",
+        "hint": "Ambiente > preço.",
+        "correctAnswer": "b",
+        "bookExample": "Franco sugere um bar aconchegante ou um café charmoso."
+      },
+      {
+        "id": "3",
+        "question": "O que você deve evitar durante o encontro?",
+        "options": [
+          { "value": "a", "label": "Falar sobre seus problemas, ser negativo ou se gabar" },
+          { "value": "b", "label": "Ser honesto" },
+          { "value": "c", "label": "Ser você mesmo" },
+          { "value": "d", "label": "Falar sobre seus interesses" }
+        ],
+        "explanation": "Falar sobre seus problemas, ser negativo ou se gabar. Energia positiva é fundamental.",
+        "hint": "Positividade > negatividade.",
+        "correctAnswer": "a",
+        "bookExample": "Franco diz que ninguém quer ouvir sobre seus problemas no primeiro encontro."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Intimidade Física: Escalando o Toque",
+    "conclusionMessage": "Você completou a oitava microlição sobre sedução. Agora você sabe como escalar o toque de forma gradual e respeitosa.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que o toque é importante nos encontros?",
+        "options": [
+          { "value": "a", "label": "Para mostrar domínio" },
+          { "value": "b", "label": "Para criar conexão física e aumentar a intimidade" },
+          { "value": "c", "label": "Para testar seus limites" },
+          { "value": "d", "label": "Para mostrar que você é ousado" }
+        ],
+        "explanation": "Para criar conexão física e aumentar a intimidade. O toque quebra a barreira do contato social.",
+        "hint": "Conexão física > distância.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que o toque é a linguagem do desejo."
+      },
+      {
+        "id": "2",
+        "question": "Como o toque deve ser escalado?",
+        "options": [
+          { "value": "a", "label": "Imediatamente para áreas íntimas" },
+          { "value": "b", "label": "Gradualmente, começando com toques não ameaçadores e observando a reação" },
+          { "value": "c", "label": "De forma aleatória" },
+          { "value": "d", "label": "Apenas se ela tocar você primeiro" }
+        ],
+        "explanation": "Gradualmente, começando com toques não ameaçadores e observando a reação. Respeito é fundamental.",
+        "hint": "Respeito > ousadia.",
+        "correctAnswer": "b",
+        "bookExample": "Comece com um toque no braço, depois no ombro, e observe se ela se afasta ou retribui."
+      },
+      {
+        "id": "3",
+        "question": "Quais são exemplos de toques não ameaçadores?",
+        "options": [
+          { "value": "a", "label": "Mãos, braços e ombros" },
+          { "value": "b", "label": "Peito e rosto" },
+          { "value": "c", "label": "Pernas e cintura" },
+          { "value": "d", "label": "Apenas apertar a mão" }
+        ],
+        "explanation": "Mãos, braços e ombros. Áreas neutras que não invadem o espaço pessoal.",
+        "hint": "Toque social > toque íntimo.",
+        "correctAnswer": "a",
+        "bookExample": "Um toque rápido no braço enquanto você conta uma história."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Intimidade Emocional: Vulnerabilidade e Confiança",
+    "conclusionMessage": "Você completou a nona microlição sobre sedução. Agora você sabe como criar intimidade emocional através da vulnerabilidade e confiança.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Por que a intimidade emocional é importante?",
+        "options": [
+          { "value": "a", "label": "Para manipular as mulheres" },
+          { "value": "b", "label": "Para criar uma conexão profunda e duradoura" },
+          { "value": "c", "label": "Para conseguir sexo mais rápido" },
+          { "value": "d", "label": "Para mostrar que você é sensível" }
+        ],
+        "explanation": "Para criar uma conexão profunda e duradoura. Intimidade emocional > atração física.",
+        "hint": "Conexão > conquista.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que a intimidade emocional é o que transforma uma conquista em um relacionamento."
+      },
+      {
+        "id": "2",
+        "question": "Como você cria intimidade emocional?",
+        "options": [
+          { "value": "a", "label": "Sendo vulnerável e compartilhando seus sentimentos e experiências" },
+          { "value": "b", "label": "Contando mentiras" },
+          { "value": "c", "label": "Escondendo seus sentimentos" },
+          { "value": "d", "label": "Falando apenas sobre sexo" }
+        ],
+        "explanation": "Sendo vulnerável e compartilhando seus sentimentos e experiências. Abertura gera abertura.",
+        "hint": "Abertura > fechamento.",
+        "correctAnswer": "a",
+        "bookExample": "Compartilhe uma história pessoal sobre um desafio que você superou."
+      },
+      {
+        "id": "3",
+        "question": "O que é 'vulnerabilidade'?",
+        "options": [
+          { "value": "a", "label": "Fraqueza" },
+          { "value": "b", "label": "Ato de expor seus sentimentos e medos, mesmo correndo o risco de se machucar" },
+          { "value": "c", "label": "Ser sensível demais" },
+          { "value": "d", "label": "Mostrar suas fraquezas" }
+        ],
+        "explanation": "Ato de expor seus sentimentos e medos, mesmo correndo o risco de se machucar. Vulnerabilidade requer coragem.",
+        "hint": "Coragem > medo.",
+        "correctAnswer": "b",
+        "bookExample": "Compartilhe um medo que você tem ou um erro que você cometeu."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Sexo: Criando uma Experiência Inesquecível",
+    "conclusionMessage": "Você completou a décima microlição sobre sedução. Agora você sabe como criar uma experiência sexual inesquecível.",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Qual é o objetivo do sexo?",
+        "options": [
+          { "value": "a", "label": "Apenas prazer físico" },
+          { "value": "b", "label": "Criar uma conexão profunda e inesquecível" },
+          { "value": "c", "label": "Provar sua masculinidade" },
+          { "value": "d", "label": "Aliviar o estresse" }
+        ],
+        "explanation": "Criar uma conexão profunda e inesquecível. Sexo é sobre conexão, não apenas prazer.",
+        "hint": "Conexão > conquista.",
+        "correctAnswer": "b",
+        "bookExample": "Franco diz que o sexo deve ser uma experiência espiritual."
+      },
+      {
+        "id": "2",
+        "question": "Como você cria uma experiência sexual inesquecível?",
+        "options": [
+          { "value": "a", "label": "Sendo egoísta" },
+          { "value": "b", "label": "Focando no prazer dela, sendo presente e atencioso" },
+          { "value": "c", "label": "Fazendo acrobacias" },
+          { "value": "d", "label": "Sendo rápido" }
+        ],
+        "explanation": "Focando no prazer dela, sendo presente e atencioso. O prazer dela é o seu prazer.",
+        "hint": "Prazer mútuo > prazer individual.",
+        "correctAnswer": "b",
+        "bookExample": "Franco ensina a prestar atenção aos sinais dela e a se concentrar em seu prazer."
+      },
+      {
+        "id": "3",
+        "question": "Por que a comunicação é importante durante o sexo?",
+        "options": [
+          { "value": "a", "label": "Para dar ordens" },
+          { "value": "b", "label": "Para entender o que ela gosta e se conectar" },
+          { "value": "c", "label": "Para falar sobre seus problemas" },
+          { "value": "d", "label": "Para não falar nada" }
+        ],
+        "explanation": "Para entender o que ela gosta e se conectar. Comunicação aumenta a intimidade.",
+        "hint": "Intimidade > silêncio.",
+        "correctAnswer": "b",
+        "bookExample": "Pergunte: 'O que você gosta? Como posso te dar mais prazer?'"
+      }
+    ]
+  }
+]
