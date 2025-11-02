@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Lock, Check, Play, Star, Crown, Sparkles, ChevronRight, BrainCircuit } from "lucide-react";
+import { Lock, Check, Play, Star, Crown, Sparkles, ChevronRight, BrainCircuit, RefreshCw } from "lucide-react";
 import { useState } from "react";
 
 interface LessonNodeProps {
@@ -10,7 +10,7 @@ interface LessonNodeProps {
   teaser: string;
   status: 'completed' | 'current' | 'locked' | 'unlocked';
   xp: number;
-  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation' | 'review';
   position: 'left' | 'center' | 'right';
   onClick: () => void;
 }
@@ -66,13 +66,16 @@ const LessonNode = ({
   const isCheckpoint = type === 'checkpoint';
   const isTreasure = type === 'treasure';
   const isSimulation = type === 'simulation';
+  const isReview = type === 'review';
 
   if (isSimulation) {
     Icon = BrainCircuit;
+  } else if (isReview) {
+    Icon = RefreshCw;
   }
 
-  const nodeSize = isCheckpoint || isTreasure || isSimulation ? 'w-24 h-24' : 'w-20 h-20';
-  const iconSize = isCheckpoint || isTreasure || isSimulation ? 'w-12 h-12' : 'w-9 h-9';
+  const nodeSize = isCheckpoint || isTreasure || isSimulation || isReview ? 'w-24 h-24' : 'w-20 h-20';
+  const iconSize = isCheckpoint || isTreasure || isSimulation || isReview ? 'w-12 h-12' : 'w-9 h-9';
 
   return (
     <div className="relative flex justify-center items-center w-full">

@@ -32,7 +32,9 @@ interface Modulo {
   lessonId?: number;
   simulationId?: number;
   isSimulation?: boolean;
-  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation' | 'review';
+  reviewId?: number;
+  reviewForLessons?: number[];
 }
 
 const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
@@ -41,13 +43,11 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
   let simulationIndex = 0;
 
   while (lessonIndex < lessons.length) {
-    // Adiciona 4 lições
+    const lessonsInThisBlock: any[] = [];
+    // Adiciona até 4 lições
     for (let i = 0; i < 4 && lessonIndex < lessons.length; i++) {
       const lesson = lessons[lessonIndex];
-      let type: 'lesson' | 'checkpoint' | 'treasure' = 'lesson';
-      if ((lessonIndex + 1) % 5 === 0) type = 'checkpoint';
-      
-      path.push({
+      const newLesson = {
         id: 100 + lessonIndex,
         titulo: `Lição ${lessonIndex + 1}: ${lesson.title}`,
         teaser: lesson.teaser || lesson.conclusionMessage?.split('.')[0] + '.',
@@ -59,14 +59,37 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
         dificuldade: 'iniciante',
         duracao: `${Math.ceil(lesson.questions?.length * 1.5) || 10} min`,
         lessonId: lesson.id,
-        type: type,
+        type: 'lesson' as 'lesson',
         isSimulation: false,
-      });
+      };
+      path.push(newLesson);
+      lessonsInThisBlock.push(newLesson);
       lessonIndex++;
     }
 
-    // Adiciona 1 simulação se disponível
+    // Adiciona 1 revisão e 1 simulação se disponível
     if (simulationIndex < simulations.length) {
+      const lessonsToReview = lessonsInThisBlock.map(l => l.lessonId).filter(id => id !== undefined) as number[];
+      
+      // Adiciona a aula de REVISÃO
+      path.push({
+        id: 800 + simulationIndex,
+        titulo: `Revisão Aleatória ${simulationIndex + 1}`,
+        teaser: "Teste seus conhecimentos das últimas lições com perguntas aleatórias.",
+        descricao: "A revisão é crucial para a retenção do conhecimento. Responda 12 perguntas sorteadas para reforçar seu aprendizado.",
+        progresso: 0,
+        desbloqueado: false,
+        concluido: false,
+        xp: 75,
+        dificuldade: 'misto',
+        duracao: '10 min',
+        type: 'review',
+        isSimulation: false,
+        reviewId: simulationIndex + 1,
+        reviewForLessons: lessonsToReview,
+      });
+
+      // Adiciona a aula de SIMULAÇÃO
       const sim = simulations[simulationIndex];
       path.push({
         id: 500 + simulationIndex,
@@ -80,7 +103,7 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
         dificuldade: 'intermediário',
         duracao: '15 min',
         simulationId: sim.simulationId,
-        type: 'checkpoint', // Simulações são checkpoints
+        type: 'simulation',
         isSimulation: true,
       });
       simulationIndex++;
@@ -113,12 +136,25 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     lessons: createLearningPath(crucialConversationsLessons, crucialConversationsSimulations),
   };
 
-  const handleIniciarModulo = (lessonId?: number, isSimulation?: boolean, simulationId?: number) => {
-    const modulo = trilhaSelecionada.lessons.find(m => 
-        isSimulation ? m.simulationId === simulationId : m.lessonId === lessonId
-    );
+  const handleIniciarModulo = (
+    lessonId?: number, 
+    isSimulation?: boolean, 
+    simulationId?: number,
+    type?: string,
+    reviewId?: number,
+    reviewForLessons?: number[]
+  ) => {
+    const modulo = trilhaSelecionada.lessons.find(m => {
+      if (type === 'review' && m.reviewId === reviewId) return true;
+      if (isSimulation && m.simulationId === simulationId) return true;
+      if (!isSimulation && type !== 'review' && m.lessonId === lessonId) return true;
+      return false;
+    });
+
     if (modulo?.desbloqueado) {
-      if (isSimulation && simulationId) {
+      if (type === 'review' && reviewId && reviewForLessons) {
+        navigate(`/review/${reviewId}?trilha=${trilhaSelecionada.id}`, { state: { lessonsToReview: reviewForLessons } });
+      } else if (isSimulation && simulationId) {
         navigate(`/simulation/${simulationId}?trilha=${trilhaSelecionada.id}`);
       } else if (lessonId) {
         navigate(`/lesson/${lessonId}?trilha=${trilhaSelecionada.id}`);
@@ -209,7 +245,9 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
           <LearningPath
             trilhaId={trilhaSelecionada.id}
             lessons={trilhaSelecionada.lessons}
-            onLessonClick={(lessonId, isSimulation, simulationId) => handleIniciarModulo(lessonId, isSimulation, simulationId)}
+            onLessonClick={(lessonId, isSimulation, simulationId, type, reviewId, reviewForLessons) => 
+              handleIniciarModulo(lessonId, isSimulation, simulationId, type, reviewId, reviewForLessons)
+            }
           />
         </Card>
 

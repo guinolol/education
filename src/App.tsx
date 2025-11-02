@@ -11,6 +11,7 @@ import DashboardAprendizado from "./pages/DashboardAprendizado";
 import Layout from "./components/Layout";
 import MicroLessonPage from "./pages/MicroLessonPage";
 import SimulationPage from "./pages/SimulationPage";
+import ReviewLessonPage from "./pages/ReviewLessonPage";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="aprendizado" element={<DashboardAprendizado />} />
             <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
             <Route path="simulation/:simulationId" element={<SimulationPage />} />
+            <Route path="review/:reviewId" element={<ReviewLessonPage />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

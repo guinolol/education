@@ -16,13 +16,22 @@ interface Modulo {
   lessonId?: number;
   simulationId?: number;
   isSimulation?: boolean;
-  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation' | 'review';
+  reviewId?: number;
+  reviewForLessons?: number[];
 }
 
 interface LearningPathProps {
   trilhaId: string;
   lessons: Modulo[];
-  onLessonClick: (lessonId?: number, isSimulation?: boolean, simulationId?: number) => void;
+  onLessonClick: (
+    lessonId?: number, 
+    isSimulation?: boolean, 
+    simulationId?: number,
+    type?: string,
+    reviewId?: number,
+    reviewForLessons?: number[]
+  ) => void;
 }
 
 const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
@@ -97,7 +106,14 @@ const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
                 xp={lesson.xp}
                 type={lesson.isSimulation ? 'simulation' : lesson.type}
                 position={position}
-                onClick={() => onLessonClick(lesson.lessonId, lesson.isSimulation, lesson.simulationId)}
+                onClick={() => onLessonClick(
+                  lesson.lessonId, 
+                  lesson.isSimulation, 
+                  lesson.simulationId,
+                  lesson.type,
+                  lesson.reviewId,
+                  lesson.reviewForLessons
+                )}
               />
             </div>
           );
