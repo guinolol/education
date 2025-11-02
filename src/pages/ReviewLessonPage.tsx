@@ -72,7 +72,7 @@ const ReviewLessonPage = () => {
 
   return (
     <ReviewLessonTemplate
-      title={`Revisão Aleatória ${reviewId}`}
+      title={`Revisão ${reviewId}`}
       questions={questions}
       infographicHtml={infographicHtml}
       onConclude={handleConclude}
