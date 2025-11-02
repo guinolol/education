@@ -92,11 +92,8 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
     if (index < 3) { // Completa os 3 primeiros itens
       item.concluido = true;
       item.progresso = 100;
-      item.desbloqueado = true;
     }
-    if (path[index - 1]?.concluido) {
-      item.desbloqueado = true;
-    }
+    item.desbloqueado = true; // Libera todas as lições
   });
 
   return path;
