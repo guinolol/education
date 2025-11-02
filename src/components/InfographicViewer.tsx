@@ -83,7 +83,8 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
               title={title}
               className={cn("w-full h-full border-none transition-opacity duration-500", loading ? 'opacity-0' : 'opacity-100')}
               onLoad={() => setLoading(false)}
-              style={{ height: '100%', width: '100%', transform: 'scale(0.8)', transformOrigin: 'top left' }}
+              // Removendo a escala fixa e garantindo que o iframe se ajuste ao contêiner
+              style={{ height: '100%', width: '100%' }}
             />
           </div>
         </div>
