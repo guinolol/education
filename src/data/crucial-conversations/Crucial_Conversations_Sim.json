@@ -1,1 +1,380 @@
-u
+
+{
+  "simulationId": 2,
+  "title": "🎭 Simulação: Projeto em Crise e Equipe Dividida",
+  "introduction": "Você é o gerente de um projeto crucial que está atrasado e com orçamento estourado. A equipe está exausta e dividida. Dois membros principais, Ana (Líder Técnica) e Carlos (Analista de Negócios), estão em conflito aberto sobre a direção do projeto. Ana acha que o foco deve ser na tecnologia e robustez, enquanto Carlos defende priorizar a interface e a experiência do usuário. A tensão entre eles está afetando todo o time. Seu chefe está pressionando por resultados, e você precisa conduzir uma reunião para alinhar todos e retomar o controle. Esta simulação testa sua habilidade em aplicar as lições de Propósito Mútuo, Respeito Mútuo, Compartilhe Seu Caminho e Aprenda a Ouvir para transformar um conflito em colaboração.",
+  "challenges": [
+    {
+      "step": 1,
+      "testedLesson": "Propósito Mútuo (Mutual Purpose)",
+      "narrative": "📊 Você inicia a reunião com Ana e Carlos. A tensão é palpável. Ana diz: 'Se continuarmos com essa abordagem frágil, o sistema vai cair na primeira semana.' Carlos rebate: 'Se não resolvermos a experiência do usuário agora, ninguém vai usar o sistema, robustez nenhum.' Eles estão claramente em lados opostos. **O que você faz primeiro para criar segurança e alinhar o grupo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Pessoal, acho que a abordagem de Ana é mais técnica e a de Carlos é mais comercial. Vamos votar e seguir com a maioria.'",
+          "feedback": "❌ Isso ignora o propósito comum e transforma a conversa em uma competição de quem tem razão. Você focou na *estratégia* (tecnologia vs. UI) sem alinhar o *propósito*. A divisão continuará. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Perguntar: 'Antes de discutirmos as soluções, o que todos nós concordamos que é o objetivo final deste projeto? O que estamos tentando realmente entregar?'",
+          "feedback": "✅ Ótimo! Você está aplicando o conceito de Propósito Mútuo, buscando o objetivo comum antes de discutir as estratégias. Isso ajuda a lembrar a todos que estão no mesmo time. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Reconhecer: 'Entendo que Ana quer um sistema robusto e Carlos quer um sistema fácil de usar. Ambos são importantes, mas vamos focar primeiro na robustez.'",
+          "feedback": "⚠️ Você reconheceu os lados, mas já impôs uma solução. Isso pode parecer que você está tomando partido, o que ameaça o propósito mútuo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos voltar a trabalhar em silêncio. Cada um prepara sua parte e depois comparamos.'",
+          "feedback": "❌ Isso é Silêncio. Você está evitando o conflito e não está criando o propósito comum necessário para o diálogo produtivo. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "testedLesson": "Respeito Mútuo (Mutual Respect)",
+      "narrative": "🤝 Após identificar o propósito comum (entregar um produto funcional e bem recebido), Carlos começa a explicar sua visão. Enquanto ele fala, você nota que Ana cruza os braços e faz uma cara de desdém. Carlos para de falar e parece ofendido. **Como você restaura o respeito e mantém o diálogo fluindo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Ana: 'Ana, por favor, ouça Carlos com respeito. Não vamos tolerar esse tipo de atitude.'",
+          "feedback": "❌ Isso é uma acusação direta e pode parecer desrespeito à Ana. Isso pode piorar o clima e não restaura o respeito mútuo de forma construtiva. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Carlos, antes que você continue, quero esclarecer: não é nossa intenção desconsiderar sua visão. Nós valorizamos sua contribuição. Estamos tentando entender os detalhes.'",
+          "feedback": "✅ Perfeito! O Contraste é a ferramenta certa para restaurar o respeito rapidamente, negando a má intenção e reafirmando o respeito. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Fazer uma pausa e perguntar a Ana: 'O que está te incomodando, Ana?'",
+          "feedback": "⚠️ Embora seja uma tentativa de ouvir, pode parecer que você está culpando Carlos ou invalidando o sentimento de Carlos. O Contraste é mais direto para restaurar o respeito. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Ignorar a reação de Ana e pedir a Carlos para continuar, fingindo que não viu nada.",
+          "feedback": "❌ Ignorar sinais de desrespeito destrói a segurança. Carlos pode se sentir desvalorizado e desistir de participar. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "testedLesson": "Compartilhe Seu Caminho (State My Path)",
+      "narrative": "💡 Com o respeito restaurado, você precisa compartilhar sua visão sobre o caminho a seguir para o projeto, sem soar autoritário ou crítico em relação às ideias anteriores. **Como você apresenta sua perspectiva de forma segura e aberta?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Depois de analisar, acredito que devemos priorizar a interface primeiro, pois é isso que o cliente pediu. Ponto final.'",
+          "feedback": "❌ Isso é uma afirmação categórica, sem fatos e sem espaço para diálogo. Pode soar como imposição e matar a segurança. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar STATE: 'Fato: O último relatório de satisfação do cliente mencionou dificuldade de uso. História: Acho que isso indica um foco prioritário na interface. O que vocês acham? Estou aberto a outros pontos de vista.'",
+          "feedback": "✅ Excelente! Você aplicou STATE: compartilhou um fato, contou sua história com tentativa e convidou os outros a testar sua ideia. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Bom, eu acho que Carlos tem razão, mas Ana também tem pontos válidos. Vamos tentar um meio termo.'",
+          "feedback": "⚠️ Você deu sua opinião e tentou agradar a todos, mas não usou uma estrutura clara como STATE. Pode soar como indecisão ou falta de clareza. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos ouvir mais opiniões antes de eu falar.'",
+          "feedback": "⚠️ Embora seja ouvir, você evita compartilhar sua visão, o que também é importante para o Pool of Shared Meaning. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "testedLesson": "Aprenda a Ouvir (Explore Others' Paths)",
+      "narrative": "👂 Ana responde à sua sugestão com um 'Tá bom, mas não vai funcionar.' Ela cruza os braços e se recosta na cadeira, com uma expressão de frustração. O tom dela é de desânimo e resistência. **Como você encoraja Ana a compartilhar o que está pensando de forma segura?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Ana, você precisa colaborar. Não adianta ficar assim.'",
+          "feedback": "❌ Isso é uma repreensão e aumenta a desconfiança. Ana vai se fechar mais. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Espelhar: 'Ana, seu tom e postura sugerem que você acha que essa ideia tem problemas. Posso entender melhor o que está te preocupando?'",
+          "feedback": "✅ Perfeito! Você usou o Espelho (Mirror) para reconhecer a emoção e uma pergunta aberta (Ask) para convidá-la a falar. Isso aumenta a segurança. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Parafrasear: 'Então você acha que focar na interface primeiro é um erro?'",
+          "feedback": "⚠️ Você tentou parafrasear, mas pode soar como uma acusação ou confirmação de resistência. O Espelho é melhor para reconhecer emoções primeiro. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Preparar (Prime): 'Será que você acha que isso vai comprometer a estabilidade do sistema?'",
+          "feedback": "⚠️ O Prime é uma tática de último recurso. Espelhar ou perguntar abertamente é mais seguro antes de adivinhar. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "testedLesson": "Respeito Mútuo (Mutual Respect)",
+      "narrative": "👂 Ana começa a explicar que teme que focar na interface primeiro comprometa a estabilidade do sistema, baseado em experiências anteriores. Durante sua explicação, Carlos a interrompe: 'Isso é só medo de mudar, Ana. Seu foco sempre foi apenas o código.' A tensão aumenta. **Como você restaura o respeito entre eles?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Carlos: 'Carlos, você está sendo injusto. Pare de atacar Ana.'",
+          "feedback": "❌ Isso é uma repreensão a Carlos e pode parecer que você está tomando partido. Não restaura o respeito de forma construtiva. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana tem medo de mudar ou que está errada. Estamos aqui para ouvir e entender. Ana, continue, por favor.'",
+          "feedback": "✅ Exatamente! Você usou Contraste para negar a intenção de desrespeito e reafirmar o valor da contribuição de Ana. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Pessoal, vamos nos acalmar. Carlos, você tem razão em parte, mas Ana também. Vamos seguir.'",
+          "feedback": "⚠️ Embora você reconheça os dois lados, não nega explicitamente o desrespeito de Carlos. O dano à segurança já foi feito. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa longa e esperar que passem.",
+          "feedback": "❌ Isso ignora o desrespeito e pode parecer que você concorda com a interrupção e o julgamento. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "testedLesson": "Propósito Mútuo (Mutual Purpose)",
+      "narrative": "🤝 Após restaurar o respeito, Ana e Carlos continuam defendendo suas visões. Ana: 'Precisamos de estabilidade.' Carlos: 'Precisamos de usabilidade.' A discussão parece girar em círculos. **Como você os ajuda a avançar, mesmo com visões diferentes?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Vamos dividir o trabalho. Ana cuida da estabilidade, Carlos da usabilidade. Cada um faz sua parte.'",
+          "feedback": "❌ Isso os divide em 'times' e ignora o propósito comum. Pode levar a um produto com partes desconectadas. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer o propósito por trás: 'Ana, seu foco na estabilidade é para garantir um produto confiável. Carlos, seu foco na usabilidade é para garantir que o cliente queira usar. Ambos querem um produto de sucesso, certo?'",
+          "feedback": "✅ Ótimo! Você separou a *estratégia* (como fazer) do *propósito* (por que fazer) e mostrou que o objetivo final é o mesmo. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Sim, ambos são importantes, mas o prazo está apertado. Vamos seguir com o que já temos.'",
+          "feedback": "⚠️ Você está evitando o conflito e impondo uma solução sem resolver a insegurança sobre o propósito. Pode gerar resistência. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Pedir a Ana e Carlos para trocarem de funções temporariamente.",
+          "feedback": "⚠️ Isso pode ser confuso e não aborda diretamente o propósito ou a estratégia. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "testedLesson": "Aprenda a Ouvir (Explore Others' Paths)",
+      "narrative": "💡 Ana concorda com o propósito (produto de sucesso), mas ainda está visivelmente tensa e relutante em colaborar com a ideia de Carlos. Ela balança a cabeça e diz 'Ok, vamos tentar.' O tom de voz é de resignação. **Como você se certifica de que Ana está realmente comprometida e compreende o caminho?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Ótimo, Ana. Então está decidido. Vamos seguir em frente.'",
+          "feedback": "❌ Você ignorou os sinais claros de que Ana não está comprometida. A conversa pode parecer encerrada, mas a resistência interna permanece. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Parafrasear: 'Então, Ana, você concorda com o objetivo comum, mas talvez tenha dúvidas sobre como alcançá-lo? Posso entender melhor?'",
+          "feedback": "✅ Perfeito! Você parafraseou para confirmar o entendimento e perguntou para explorar os sentimentos ocultos, encorajando-a a compartilhar. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Espelhar: 'Ana, seu 'Ok' soa um pouco resignado. Você está 100% com a gente nisso?'",
+          "feedback": "⚠️ Boa tentativa de espelhar a emoção, mas a pergunta final pode soar como pressão. A parafrase seguida de pergunta é mais segura. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Preparar (Prime): 'Será que você está preocupada com os riscos técnicos de mudar o foco agora?'",
+          "feedback": "⚠️ O Prime é útil, mas a Parafrase + Pergunta é uma abordagem mais direta e segura após o sinal de resignação. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "testedLesson": "Compartilhe Seu Caminho (State My Path)",
+      "narrative": "👂 Ana revela que está preocupada com os riscos técnicos de mudar o foco da estabilidade para a interface no meio do projeto, baseado em um projeto anterior que deu errado. Carlos ouve, mas parece impaciente. Você quer validar a preocupação de Ana e ao mesmo tempo manter o foco no propósito comum. **Como você responde?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Ana, sim, esses riscos são reais. Carlos, você considerou isso? Acho que Ana tem razão, vamos manter o foco original.'",
+          "feedback": "❌ Você validou Ana, mas invalidou Carlos e mudou de direção com base em uma preocupação, sem explorar soluções. Isso pode parecer inconsistência. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar STATE: 'Fato: Ana teve uma experiência ruim com essa mudança antes. História: Isso me faz pensar que devemos planejar os riscos cuidadosamente. Carlos, como vê isso? Como podemos mitigar esses riscos juntos?'",
+          "feedback": "✅ Excelente! Você compartilhou a preocupação com base em fatos, contou sua história com tentativa e envolveu Carlos na busca de soluções. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Essa preocupação é válida, Ana. Carlos, por que não fazemos um plano B considerando isso?'",
+          "feedback": "⚠️ É uma resposta razoável, mas não usou a estrutura STATE explicitamente. Pode soar como uma delegação de solução para Carlos. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos anotar isso e seguir com o plano.'",
+          "feedback": "❌ Silêncio. Você reconheceu a preocupação, mas não a integrou ao diálogo ativamente. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "testedLesson": "Respeito Mútuo (Mutual Respect)",
+      "narrative": "💡 Carlos concorda em considerar os riscos, mas diz: 'Mas Ana, dessa vez vai ser diferente. Você precisa parar de viver no passado.' Ana se retrai e fecha a expressão. O respeito mútuo está novamente em risco. **Como você intervém?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Carlos: 'Carlos, isso foi desrespeitoso. Peça desculpas a Ana.'",
+          "feedback": "❌ Embora Carlos tenha sido desrespeitoso, pedir desculpas assim pode parecer humilhante e piorar a situação. Aplique a ferramenta de segurança primeiro. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana está presa no passado ou que suas experiências não valem. Ela trouxe um ponto de risco importante. Como podemos seguir respeitando isso?'",
+          "feedback": "✅ Correto! Você usou Contraste para restaurar o respeito e redirecionou para a colaboração, mantendo o foco no propósito. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Carlos, Ana, vamos todos respirar fundo.'",
+          "feedback": "⚠️ É uma tentativa de acalmar, mas não nega explicitamente o desrespeito ou restaura o valor percebido de Ana. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e olhar para os dois em silêncio.",
+          "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "testedLesson": "Propósito Mútuo (Mutual Purpose)",
+      "narrative": "🤝 Com o respeito restaurado, Carlos e Ana começam a discutir como mitigar os riscos que Ana levantou, ainda dentro do foco na interface. No entanto, Carlos sugere uma abordagem radicalmente diferente da que Ana propôs. Ana parece novamente tensa. **Como você garante que a discussão continue produtiva e alinhada ao propósito comum?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Carlos, sua ideia é interessante, mas Ana não vai gostar. Vamos com calma.'",
+          "feedback": "❌ Isso assume que Ana não está aberta a ideias e pode confirmar sua resistência. Não promove o diálogo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer o propósito: 'Lembrem-se, nosso objetivo é um produto funcional e bem recebido. Independentemente da abordagem, como cada uma delas contribui para isso?'",
+          "feedback": "✅ Perfeito! Você os ancorou novamente no propósito comum, permitindo que avaliem as ideias com base no objetivo, não na preferência pessoal. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vamos votar na ideia de Carlos.'",
+          "feedback": "❌ Voltar para a competição de ideias em vez do alinhamento de propósito. Pode marginalizar Ana. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer Ana e Carlos trocarem os papéis novamente.",
+          "feedback": "⚠️ Pode confundir mais do que ajudar. O foco deve ser no propósito e na colaboração. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "testedLesson": "Aprenda a Ouvir (Explore Others' Paths)",
+      "narrative": "💡 Ana ouve a sugestão de Carlos e parece ponderar. Seu rosto muda levemente, mas ela ainda não diz nada. Carlos começa a falar mais rápido, detalhando sua ideia. **O que você faz para garantir que a voz de Ana também seja ouvida?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Interromper Carlos: 'Carlos, espere. Ana, o que você acha?'",
+          "feedback": "⚠️ Interromper Carlos pode parecer desrespeito com ele. Tente métodos menos disruptivos primeiro. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "Espelhar: 'Ana, seu rosto está mais calmo, mas você não disse nada. O que está pensando enquanto ouve a ideia de Carlos?'",
+          "feedback": "✅ Ótimo! Você reconheceu a mudança sutil de emoção e convidou Ana a compartilhar com uma pergunta aberta e segura. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Parafrasear Carlos: 'Então Carlos, sua ideia é X. Ana, isso responde à sua preocupação com Y?'",
+          "feedback": "⚠️ Boa tentativa de envolver Ana, mas é uma pergunta fechada. O Espelho seguido de pergunta aberta é mais eficaz para explorar. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos dar um tempo.'",
+          "feedback": "❌ Silêncio. Evitar a oportunidade de ouvir Ana enquanto ela parece aberta. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "testedLesson": "Compartilhe Seu Caminho (State My Path)",
+      "narrative": "👂 Ana compartilha que a ideia de Carlos pode funcionar, mas com algumas adaptações baseadas em sua experiência. Carlos ouve e concorda com algumas. A conversa está fluindo melhor. Você sente que o grupo está perto de um alinhamento real. **Como você conclui esta parte da conversa, reforçando o caminho percorrido e o próximo passo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Beleza, então vamos com a ideia de Carlos adaptada. Próxima pauta.'",
+          "feedback": "❌ Muito abrupto. Não reconhece o processo de diálogo e pode parecer que você impôs uma solução. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar STATE: 'Fato: Hoje ouvimos preocupações válidas de Ana e uma ideia criativa de Carlos. História: Acho que estamos construindo uma solução mais robusta e usável. Concordamos em testar essa abordagem adaptada? Estou aberto a ajustes.'",
+          "feedback": "✅ Excelente! Você resumiu com fatos, compartilhou sua interpretação com humildade e confirmou o alinhamento, mantendo a porta aberta para feedback. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Ótimo, parece que estamos alinhados. Ana e Carlos, vocês dois fizeram um ótimo trabalho.'",
+          "feedback": "⚠️ É positivo, mas não estrutura claramente os próximos passos ou o entendimento comum alcançado. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer todos repetirem em voz alta o que foi decidido.",
+          "feedback": "⚠️ Pode soar como uma formalidade excessiva e não necessariamente reforça o 'caminho compartilhado'. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
