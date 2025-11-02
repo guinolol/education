@@ -2,12 +2,12 @@
 
 import React, { useCallback } from 'react';
 
-// Define os caminhos para os arquivos de áudio na pasta public
+// Define os caminhos para os arquivos de áudio usando os links externos fornecidos
 const SOUND_PATHS = {
-  success: '/sounds/success.mp3',
-  error: '/sounds/error.mp3',
-  gameOver: '/sounds/gameover.mp3',
-  win: '/sounds/win.mp3',
+  error: 'https://cdn.freesound.org/previews/759/759977_16155788-lq.mp3',
+  success: 'https://cdn.freesound.org/previews/341/341695_5858296-lq.mp3',
+  win: 'https://cdn.freesound.org/previews/391/391539_5235550-lq.mp3',
+  gameOver: 'https://cdn.freesound.org/previews/364/364929_6512973-lq.mp3',
 };
 
 // Função utilitária para criar e reproduzir um elemento de áudio
