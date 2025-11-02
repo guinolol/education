@@ -74,7 +74,7 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
       // Adiciona a aula de REVISÃO
       path.push({
         id: 800 + simulationIndex,
-        titulo: `Revisão Aleatória ${simulationIndex + 1}`,
+        titulo: `Revisão ${simulationIndex + 1}`,
         teaser: "Teste seus conhecimentos das últimas lições com perguntas aleatórias.",
         descricao: "A revisão é crucial para a retenção do conhecimento. Responda 12 perguntas sorteadas para reforçar seu aprendizado.",
         progresso: 0,
