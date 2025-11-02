@@ -1,4 +1,382 @@
-
+{
+  "simulationId": 1,
+  "title": "🎭 Simulação: Crise no Projeto de Lançamento",
+  "introduction": "Você é o líder de um projeto estratégico de lançamento de produto com prazo de 2 semanas. Seu colega de confiança, Marina, começa a entregar trabalhos com muitos erros. Seu chefe já comentou que está preocupado. A tensão está crescendo e você precisa conversar com Marina sobre isso. Mas essa conversa vai ser difícil, pois Marina é sensível e você teme que ela se sinta atacada. Este é o momento de aplicar as técnicas de Conversas Cruciais. Prepare-se para tomar 12 decisões críticas que definirão o sucesso (ou fracasso) dessa conversa.",
+  "challenges": [
+    {
+      "step": 1,
+      "testedLesson": "Comece com o Coração (Start with Heart)",
+      "narrative": "🚨 São 9h da manhã e você recebeu um e-mail do chefe: 'Vimos erros no último entregável de Marina. Isso está afetando o cronograma. Você precisa resolver isso HOJE.' Você sente a adrenalina subindo. Está a ponto de chamar Marina na sala para conversa dura. Mas PARE. Antes de qualquer coisa, você precisa alinhar sua intenção. **O que você realmente quer?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Eu quero vencer essa conversa e provar que Marina está errada. Preciso deixar claro que seus erros são inaceitáveis.",
+          "feedback": "❌ Você entrou na conversa com a mentalidade de 'vencer'. Isso vai gerar defensividade. Marina vai se fechar (Silêncio) ou atacar (Violência). O Coração errado mata o diálogo desde o início. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Eu quero entender por que Marina está cometendo erros, mas também quero que ela mude seu comportamento imediatamente, sem discussão.",
+          "feedback": "⚠️ Você está misturando intenções. Quer ouvir, mas já chegou com conclusão pronta. Isso é contraditório e Marina vai perceber a falta de sinceridade. Melhor, mas ainda não é o ideal. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "c",
+          "label": "Eu quero entender o que está acontecendo com Marina E encontrar uma forma de ela melhorar os resultados mantendo a relação forte.",
+          "feedback": "✅ Excelente! Você alinhava 3 coisas: seu próprio objetivo (melhorar os resultados), o objetivo dela (entender a situação) e o do relacionamento (mantê-lo saudável). Esse é o Coração certo! (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Eu quero evitar essa conversa por enquanto. Vou aguardar mais uma semana para ver se ela se autorrecorre.",
+          "feedback": "❌ Silêncio. Você está escolhendo a fuga em vez do Diálogo. O prazo é de 2 semanas e o problema vai piorar. Isso não resolve nada. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "testedLesson": "Aprenda a Observar (Learn to Look)",
+      "narrative": "✅ Com a intenção alinhada, você chama Marina para uma conversa. Vocês estão em uma sala fechada. Você começa a falar sobre os erros. Nos primeiros 30 segundos, você nota que **Marina cruzou os braços, seu rosto ficou tenso, e ela está olhando para baixo em vez de para você**. Seu corpo está gritando \"não estou segura\". O conteúdo que você estava explicando não importa mais. **O que você faz?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Continua falando. Marina precisa ouvir o feedback. Você não vai mudar seu plano porque ela está com um rosto feio.",
+          "feedback": "❌ Você está observando apenas o CONTEÚDO (seus pontos sobre os erros), ignorando as CONDIÇÕES (a segurança caiu). Marina entrou em Silêncio defensivo. Quanto mais você fala, mais fechada ela fica. Isso vai fracassar. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você para de falar, faz uma pausa, e pergunta: 'Marina, como você está se sentindo? Notei que algo mudou.'",
+          "feedback": "✅ Perfeito! Você fez a observação (Learn to Look) e reconheceu que a segurança caiu. Agora você está priorizando as CONDIÇÕES sobre o CONTEÚDO. Você desarmou a situação. Marina vai se sentir vista e entendida. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Você pretende fazer uma pausa, mas acaba falando mais rápido, tentando 'convencer' Marina com mais argumentos.",
+          "feedback": "⚠️ Você viu os sinais (bom), mas reagiu errado. Mais palavras quando a segurança está baixa só piora as coisas. Marina vai se sentir atacada e se fechará mais. Você não estava realmente observando se estava funcionando. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Você sai da sala e agenda a conversa para outro dia.",
+          "feedback": "⚠️ Você reconheceu que algo está errado (bom insight), mas a retirada é uma tática de SILÊNCIO, não uma tática de segurança. Você devia restaurar a segurança AGORA, não fugir. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "testedLesson": "Tornando o Diálogo Seguro (Make it Safe)",
+      "narrative": "😟 Marina responde: 'Tudo bem, sim... Mas sinto que você acha que sou incompetente. Que está me culpando por tudo que dá errado.' Ela está contando uma história: a história de VILÃO (você como o atacante) e de VÍTIMA (ela). Sua segurança desceu ainda mais. O Propósito Mútuo foi perdido. Marina acha que você não se importa com ela, só com os resultados. **Como você restaura a segurança?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você defende seu ponto de vista: 'Não é isso! Eu nunca disse que você é incompetente. Os fatos falam por si: seus erros estão no entregável.'",
+          "feedback": "❌ VIOLÊNCIA. Você atacou a história dela, não entendeu a insegurança por trás dela. Marina vai se sentir ainda mais atacada. Vocês entrarão em um cabo de guerra sobre quem está certo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você concorda totalmente com Marina: 'Você tem razão, eu fui duro demais. Desculpa, não era minha intenção.'",
+          "feedback": "⚠️ Você tentou restaurar a segurança (bom), mas foi SILÊNCIO disfarçado. Você abriu mão de seus legítimos concerns. Marina pode interpretar isso como 'ele realmente acha que sou incompetente'. Não resolveu nada. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "c",
+          "label": "Você usa CONTRASTE: 'Eu não quero que você sinta que estou te culpando. Isso não é justo com você e não é o que eu realmente sinto. O que eu SIM quero é que a gente resolva isso JUNTOS, porque valorizo você e seu trabalho.'",
+          "feedback": "✅ EXCELENTE! Você usou a técnica de CONTRASTE (NÃO/SIM) para restaurar o RESPEITO MÚTUO. Você negou a interpretação errada dela (NÃO = não a culpo) e reafirmou sua intenção positiva (SIM = valorizo você). Isso criou segurança novamente. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Você muda de assunto: 'Deixa isso para lá. Vamos focar nos próximos passos do projeto.'",
+          "feedback": "❌ Outro SILÊNCIO. A ferida continua aberta e vai infectar. Você não restaurou nada, só evitou. Isso vai minar a confiança entre vocês. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "testedLesson": "O que é uma Conversa Crucial?",
+      "narrative": "💬 Marina respira e diz: 'Obrigada por esclarecer. Eu estava realmente com medo.' O Propósito Mútuo foi restaurado! Agora vocês estão no **verdadeiro diálogo**. Marina compartilha: 'A verdade é que nos últimos dias descobri que pode estar grávida. Estou confusa, assustada, e minha cabeça não está 100% aqui. Não me ocorreu avisar você porque ainda não tenho certeza.' Agora você entende o CONTEXTO. As opiniões divergem (você não sabia disso), as emoções são altas (ela está assustada), e os riscos são reais (projeto em risco, mas também a vida dela). **Qual é sua resposta?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você fica em silêncio, processando, e depois diz: 'Bem, entendo, mas o projeto não pode parar. Você precisa se focar no trabalho.'",
+          "feedback": "❌ Você minimizou a revelação dela. Isso é VIOLÊNCIA emocional. Você mostrou que se importa mais com o projeto do que com ela como pessoa. Vai destruir a confiança que você acabou de construir. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você diz: 'Que situação complicada. Mas escuta, deixa isso de lado por enquanto e vamos concentrar nos erros no código?'",
+          "feedback": "⚠️ SILÊNCIO novamente. Você reconheceu a complexidade (bom), mas evitou lidar com ela. Não resolveu o problema de fundo. Marina vai voltar ao trabalho com a cabeça ainda dividida. Os erros vão continuar. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "c",
+          "label": "Você diz: 'Caramba, Marina. Isso explica tudo. Primeiro, como você está? Isso é mais importante que o código. E segundo, como a gente pode ajudá-la enquanto termina o projeto?'",
+          "feedback": "✅ EXCELENTE DIÁLOGO! Você reconheceu a verdadeira Conversa Crucial: opiniões divergem (suas prioridades vs. a situação dela), emoções altas (medo dela, preocupação sua), e riscos reais (projeto E saúde/vida dela). Você priorizou a pessoa. Isso cria LEALDADE. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Você diz: 'Isso muda tudo. Você deveria ter me contado antes. Quebrou minha confiança.'",
+          "feedback": "⚠️ VIOLÊNCIA disfarçada de preocupação. Você está julgando a decisão dela, não ajudando. Sim, ela deveria ter contado antes, mas agora ela ESTÁ contando. Você acabou de puní-la por ser honesta. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "testedLesson": "Aprenda a Observar (Learn to Look)",
+      "narrative": "😊 Marina fica emocionada: 'Obrigada por se importar. Eu me sentia tão sozinha com isso.' A conversa mudou completamente. Agora vocês estão em VERDADEIRO DIÁLOGO. Mas você nota algo: **Marina está falando cada vez mais rápido, gestos mais amplos, e parece estar um pouco hiperativa**. Você está tentando dar ideias para como organizar o trabalho, mas ela está interrompendo você. As **condições estão mudando de novo** — dessa vez para um padrão de VIOLÊNCIA (ela está dominando a conversa, não deixando você contribuir). **O que você faz?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você continua tentando falar mais alto para ser ouvido. Isso é importante e ela precisa ouvir seus pontos.",
+          "feedback": "❌ Você entrou em uma guerra de VIOLÊNCIA contra VIOLÊNCIA. Quem fala mais alto ganha? Ninguém. Ambos vão sair da conversa frustrados e a decisão não vai ser boa. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você levanta uma mão levemente e diz, com tom calmo: 'Marina, eu vejo que você está muito animada agora, e fico feliz com isso. Mas estou notando que estamos um pouco desconectados. Posso contribuir também?'",
+          "feedback": "✅ PERFEITO! Você OBSERVOU as CONDIÇÕES (ela em VIOLÊNCIA - dominando), reconheceu (espelhamento), e restaurou o equilíbrio do diálogo de forma gentil. Você não atacou, não se retirou, simplesmente apontou o padrão. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Você fica em silêncio, deixando ela falar. Você se retira mentalmente da conversa.",
+          "feedback": "⚠️ SILÊNCIO. Você fez observação correta, mas reagiu errado. Ao não contribuir, você está abdiquando de sua responsabilidade na conversa. Isso resultará em uma decisão de qualidade ruim porque só um lado está contribuindo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Você critica: 'Você sempre faz isso. Nunca deixa ninguém falar. Por isso as pessoas não gostam de trabalhar com você.'",
+          "feedback": "❌ VIOLÊNCIA pura. Você atacou seu caráter em vez de abordar o comportamento atual. Isso vai destruir toda a conexão que você construiu. Marina vai se fechar novamente. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "testedLesson": "Comece com o Coração (Start with Heart)",
+      "narrative": "🤝 Marina respira fundo e sorri: 'Você tem razão. Desculpa. Eu estava descarregando ansiedade em você.' Vocês conseguem chegar a um acordo: ela vai trabalhar de casa durante a semana, em horários que funcionem com seus compromissos de saúde, e vai entregar os trabalhos em etapas para vocês revisarem juntos. É um bom plano, mas agora vem a parte difícil. Você precisa voltar ao problema inicial: **os erros no código precisam ser reduzidos**. Marina concordou com o plano de trabalho, mas pode se sentir atacada novamente. **Como você aborda o feedback sobre os erros mantendo a intenção correta?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você começa falando sobre os erros específicos: 'Aqui, aqui e aqui — esses são os problemas que encontramos.'",
+          "feedback": "⚠️ Você esqueceu de alinhar o CORAÇÃO novamente. Sim, precisa falar sobre os erros, mas sem deixar claro sua intenção POSITIVA, Marina vai se sentir atacada e criticada. Você precisa contextualizar por que está falando isso. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "Você para, e antes de tudo diz: 'Marina, eu quero que a gente resolva isso JUNTO. Não estou aqui para culpá-la, mas para ajudá-la a melhorar, porque você É boa no que faz. Pode ser?'",
+          "feedback": "✅ EXCELENTE! Você RECALIBROU o Coração antes de abordar o assunto sensível. Isso cria segurança novamente. Marina sabe que você está do lado dela, e agora ela consegue ouvir o feedback de forma construtiva. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Você evita falar sobre os erros completamente. Já sofreu o bastante por hoje. Vamos deixar isso para a próxima semana.",
+          "feedback": "❌ SILÊNCIO final. Você tinha que conversa e resolveu abrir mão dela. O problema não foi resolvido, só foi adiado. Os erros vão continuar e o chefe vai questionar por que nada mudou. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Você diz: 'Enfim, voltando aos erros. Você precisa ser mais cuidadosa. Não posso aceitar trabalho de qualidade inferior.'",
+          "feedback": "❌ VIOLÊNCIA disfarçada. Você colocou a culpa diretamente nela ('você precisa ser mais cuidadosa'). Não é uma conversa, é uma ordem. Marina vai se sentir condenada. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "testedLesson": "Tornando o Diálogo Seguro (Make it Safe)",
+      "narrative": "💡 Marina responde: 'Eu entendo. Eu quero melhorar, mas estou com medo de cometer mais erros. E se eu não conseguir? E se decepcionar você e o projeto?' Ela está em **SILÊNCIO agora** — não negando, mas retraída, com medo do fracasso. O Propósito Mútuo está começando a desaparecer de novo. Ela está contando uma história de DESAMPARO ('Não consigo fazer isso'). **Como você restaura o Propósito Mútuo aqui?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você tira a pressão dela: 'Relaxa, vai dar tudo certo. Não precisa se preocupar tanto.'",
+          "feedback": "⚠️ SILÊNCIO disfarçado de conforto. Você minimizou as preocupações legítimas dela. Isso não restaura o Propósito Mútuo. Ela continua achando que está sozinha com o medo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "Você diz: 'Marina, nossa meta aqui não é a perfeição. É que A GENTE TRABALHE JUNTO para melhorar. Se você errar, a gente aprende junto. Isso é o Propósito Mútuo — nós dois queremos o sucesso DO PROJETO, mas também o sucesso DELE como pessoa.'",
+          "feedback": "✅ PERFEITO! Você reafirmou o PROPÓSITO MÚTUO. Vocês não estão em lados opostos. Vocês estão no mesmo time. Você transformou 'eu vs. você' em 'a gente vs. o desafio'. Marina agora entende que vocês estão juntos nessa. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Você tenta motivá-la: 'Você consegue! Você é forte! Você nunca desistiu de nada!'",
+          "feedback": "⚠️ Bem-intencionado, mas genérico. Isso não enfrenta a preocupação dela de forma específica. Não restaura o Propósito Mútuo porque não torna claro QUE VOCÊS ESTÃO JUNTOS. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Você diz: 'Se você errar de novo, vou ter que escalasacalonar para o chefe. Não terá outra chance.'",
+          "feedback": "❌ VIOLÊNCIA. Você ameaçou em vez de restaurar a segurança. Você destruiu qualquer possibilidade de Propósito Mútuo. Marina vai trabalhar com medo, não com motivação. Os resultados vão ser piores. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "testedLesson": "O que é uma Conversa Crucial?",
+      "narrative": "✨ Marina fica visibilmente aliviada. Vocês passam 30 minutos mapeando um plano concreto: revisões em dupla, checklists, testes incrementais. Marina vai fazer exercícios de respiração para diminuir a ansiedade. O projeto vai ser ajustado com entregas menores. **Mas agora vem o teste final**: você precisa relatar isso para seu chefe. Seu chefe pode ficar bravo: 'Como assim você mudou o cronograma? Eu espero resultados, não desculpas.' Essa vai ser outra Conversa Crucial — com opiniões divergentes, emoções altas, e riscos reais. **Como você prepara essa conversa?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você entra na sala do chefe na defensiva, pronto para lutar: 'Marina tem problemas pessoais, mas resolvemos. Vai funcionar, confie em mim.'",
+          "feedback": "❌ Você entrou em VIOLÊNCIA já sabendo que seria difícil. Seu tom é agressivo-defensivo. O chefe vai sentir a hostilidade e vai reagir com mais rigor. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você adia a conversa. Espera alguns dias para ver os resultados e depois fala com o chefe.",
+          "feedback": "❌ SILÊNCIO. O chefe descobrirá sobre as mudanças por outro caminho e se sentirá traído. Isso é pior do que conversar agora com transparência. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "Você se senta com o chefe, toma uma respiração, e começa: 'Primeiro, eu reconheço que há desafios que você já sinalizou. Segundo, descobri o contexto real e ajustei a estratégia. O novo plano é MELHOR porque reduz riscos. Posso te mostrar?'",
+          "feedback": "✅ EXCELENTE! Você reconheceu as OPINIÕES DIVERGENTES (seu ponto de vista vs. dele), manteve as EMOÇÕES BAIXAS (respiraçãocalma, tom profissional), e focou nos RISCOS REAIS (projeto melhor ajustado). Isso é uma verdadeira Conversa Crucial bem conduzida. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Você conta tudo: 'Marina pode estar grávida, por isso tem erros. Ela está confusa...' — compartilhando detalhes pessoais dela.",
+          "feedback": "⚠️ Você violou a confiança de Marina. Mesmo que bem-intencionado, você expôs informações privadas dela para seu chefe. Isso destrói a confiança que você construiu e pode prejudicá-la profissionalmente. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "testedLesson": "Aprenda a Observar (Learn to Look)",
+      "narrative": "😐 Você começa a apresentar o plano ao seu chefe. Nos primeiros 2 minutos, você vê que o chefe está **olhando para a tela do computador, não faz contato visual, e começou a digitar algo no teclado**. As CONDIÇÕES mudaram: ele não está realmente ouvindo. Ele entrou em SILÊNCIO (não está engajado) ou está preparando uma resposta negativa. **Como você lida com isso?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você continua falando, mas mais rápido, tentando preencher o silêncio.",
+          "feedback": "❌ Você não observou corretamente. Aumentar a velocidade quando ninguém está ouvindo é desesperação. Isso piora a situação. O chefe pode se irritar. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você para de falar, espera um segundo, e diz: 'Desculpe, eu percebo que você está ocupado. Seria melhor eu voltar em outro momento?'",
+          "feedback": "✅ BOM! Você OBSERVOU que as CONDIÇÕES não estão ideais e reconheceu o comportamento dele sem atacar. Você deu ao chefe a opção de se reengajar ou rescepar. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Você para e diz: 'Parece que você está em uma reunião ou algo. Eu não deveria estar aqui?'",
+          "feedback": "⚠️ Meio caminho. Você observou, mas seu tom soa acusatório ('você não está me dando atenção'), não empático. O chefe pode se sentir criticado por estar ocupado. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Você fica esperando que ele termine de digitar, em silêncio, sem dizer nada.",
+          "feedback": "⚠️ SILÊNCIO. Você fez a observação (bom), mas não agiu. Vocês ficam em desconforto. Ninguém comunica, ninguém resolve. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "testedLesson": "Comece com o Coração (Start with Heart)",
+      "narrative": "👀 O chefe para de digitar: 'Desculpe. Sim, continuação. Eu realmente quero ouvir isso.' Perfeito. Você volta a falar. Mas na metade da sua explicação, você vê o chefe fazer uma careta — sinal claro de discordância. Ele está prestes a dizer 'não' ou 'isso não vai funcionar'. Você está a 30 segundos de uma rejeição. Em vez de deixar ele falar, você tem uma escolha: **Qual é sua intenção NESTE MOMENTO?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Sua intenção é 'vencer' essa argumentação. Você apela ao ego dele: 'Essa é exatamente a solução criativa que um líder como você esperaria.'",
+          "feedback": "❌ Manipulação. Você está tentando usar ego dele para conseguir o que quer. Isso é VIOLÊNCIA disfarçada. Se descobrir, ele vai se sentir manipulado. Relacionamento danificado. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Sua intenção é paralisante: 'Se ele disser não, está tudo perdido.' Você trava, sem saber o que falar.",
+          "feedback": "❌ SILÊNCIO interno. Você desligou mentalmente porque está com medo do resultado. Sua energia se torna fraca e o chefe percebe. Falta confiança. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "Sua intenção é entender: 'Ele parece em dúvida. Eu realmente quero saber qual é a preocupação DELE. Se conseguir resolver a preocupação dele, ganhamos os dois.'",
+          "feedback": "✅ PERFEITO! Você RECALIBROU o Coração. Não é sobre vencer. É sobre ENTENDER a objeção dele. Isso te dá poder de responder construtivamente. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Sua intenção é evitar o desconforto: 'Talvez eu deixe ele falar, vejo o que ele diz, e depois decido como responder.'",
+          "feedback": "⚠️ Incerto. Você não tem uma intenção clara. Sem uma intenção firme (um Coração), você vai reagir de forma errática quando o chefe disser 'não'. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "testedLesson": "Tornando o Diálogo Seguro (Make it Safe)",
+      "narrative": "🤨 Exatamente como você previu, o chefe fala: 'Desculpa, mas isso soa como você está fazendo concessões. O projeto é crítico. Não posso aceitar entregas parciais ou cronogramas frouxos. Esperava mais de você.' Ele não está bravo, mas está claro que ele questiona sua liderança. Isso é uma **ameaça ao seu Respeito Mútuo como profissional**. Você sente vontade de se defender: 'Não é fraco, é estratégico!'. Mas você sabe que isso viraria VIOLÊNCIA. **Como você restaura o Respeito Mútuo aqui?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você se defende com força: 'Na verdade, isso é a abordagem MAIS forte! Reduz riscos de qualidade, que é o maior risco agora.'",
+          "feedback": "❌ VIOLÊNCIA. Você atacou a visão dele. Sim, talvez você esteja certo, mas a forma é confrontacional. O chefe vai se sentir desafiado e vai dizer 'não' por princípio. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Você recua completamente: 'Você tem razão. Desculpa, estava errado. Vou voltar ao cronograma original e fazer Marina se esforçar mais.'",
+          "feedback": "❌ SILÊNCIO. Você abdicou de sua posição. Mas isso vai prejudicar Marina e não vai resolver o problema real. Você perdeu respeito pelo recuo sem argumento. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "Você usa CONTRASTE: 'Não quero parecer que estou discordando de você ou que acho que você não vê a seriedade do projeto. O que EU SIM vejo é que a qualidade atual É o risco. E essa estratégia mitiga o risco de falha. Posso te mostrar os números?'",
+          "feedback": "✅ EXCELENTE! Você restaurou o RESPEITO MÚTUO (reafirmou que respeita a visão dele) e depois ofereceu uma perspectiva alternativa (números, dados). Você não atacou, você propôs. O chefe agora pode discordar da estratégia, mas respeita você como profissional. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Você tira uma nota e diz: 'Ok, anotei. Vou refazer tudo e volto amanhã com uma proposta diferente.'",
+          "feedback": "⚠️ SILÊNCIO disfarçado de ação. Você evitou o diálogo. Isso deixa ambíguo o que você realmente pensa. O chefe pode achar que você concorda, e amanhã você volta com a mesma proposta. Confusão. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "testedLesson": "O que é uma Conversa Crucial?",
+      "narrative": "📊 Você mostra os números. O chefe analisa silenciosamente por 1 minuto. Depois ele diz: 'Hmm. Eu não tinha visto dessa forma. Você tem um ponto. Mas como você garante que Marina vai realmente melhorar e não vai usar isso como desculpa para entregar com qualidade inferior?' Agora vocês estão em um **verdadeiro diálogo crucial**: há OPINIÕES DIVERGENTES (sua estratégia vs. a preocupação dele), EMOÇÕES ALTAS (pressão, preocupação), e RISCOS REAIS (projeto, credibilidade). Você está perto de uma decisão. **Como você encerra essa Conversa Crucial?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Você diz: 'Você tem razão em se preocupar. Por isso a gente vai ter checkpoints semanais. EU vou revisar cada entrega dela pessoalmente. Se não melhorar em 2 semanas, voltamos ao cronograma original. Pode ser?'",
+          "feedback": "✅ PERFEITO! Você reconheceu a preocupação legítima dele (bom diálogo), propôs uma solução que mitiga o risco (checkpoints, sua supervisão), e estabeleceu um deadline claro com uma saída (2 semanas ou volta ao original). Isso é um verdadeiro Diálogo Crucial — você incorporou as preocupações dele na solução. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "b",
+          "label": "Você promete sem condicional: 'Você pode confiar em mim. Marina vai melhorar. Eu garanto.'",
+          "feedback": "⚠️ Você fez uma promessa sem dados. O chefe está com preocupação legítima e você só ofereceu confiança pessoal. Isso pode funcionar se o relacionamento é muito forte, mas é arriscado. Não é um verdadeiro diálogo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "c",
+          "label": "Você recua: 'Na verdade, talvez você tenha razão. Deixa eu voltar e penso melhor. Vou retornar com uma proposta mais segura.'",
+          "feedback": "❌ SILÊNCIO final. Você saiu do diálogo sem resolver. O chefe vai achar que você não tem confiança na sua própria solução. Isso prejudica sua credibilidade. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Você tira a proposta de cima da mesa: 'Esqueça, não vai funcionar mesmo. Vou fazer Marina refazer tudo do zero com mais pressão.'",
+          "feedback": "❌ VIOLÊNCIA contra Marina e contra a conversa. Você abandonou a estratégia boa por frustração. Isso vai danificar o projeto, o relacionamento com Marina, e sua credibilidade com o chefe. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
 {
   "simulationId": 2,
   "title": "🎭 Simulação: Projeto em Crise e Equipe Dividida",
