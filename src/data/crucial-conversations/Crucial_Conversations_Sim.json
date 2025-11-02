@@ -1135,3 +1135,382 @@
     }
   ]
 }
+{
+  "simulationId": 4,
+  "title": "🎭 Simulação: Projeto Atrasado e Equipe Desmotivada",
+  "introduction": "Você é o gerente de um projeto de desenvolvimento de software que está atrasado e com a equipe desmotivada. A pressão do cliente está alta e a confiança da diretoria está abalada. A última reunião foi tensa, com acusações e silêncios. Agora, você precisa reunir novamente a equipe, alinhar expectativas, definir ações claras e garantir que o projeto volte aos trilhos. Esta simulação testa sua habilidade em aplicar as lições de Passando à Ação, Decidindo Como Decidir, Quem, O Quê, Quando e Acompanhamento e O Poder do Diálogo para transformar conversas difíceis em planos executáveis e motivadores.",
+  "challenges": [
+    {
+      "step": 1,
+      "testedLesson": "O Poder do Diálogo (Revisão)",
+      "narrative": "🤯 Você inicia a reunião com a equipe. A energia está baixa. O desenvolvedor chefe, Bruno, cruza os braços e diz: 'Já conversamos demais. Só quero saber o que vamos fazer agora.' A designer, Carol, concorda com a cabeça, mas não fala. O analista, Diego, revira os olhos. **Qual é a sua prioridade imediata?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Começar a listar as tarefas pendentes e cobrar prazos imediatos.",
+          "feedback": "❌ Você está ignorando a baixa segurança perceptível (Silêncio de Carol, Revirar de olhos de Diego, Frustração de Bruno). Começar com tarefas sem restaurar o diálogo e o Pool of Shared Meaning é ineficaz. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer o desânimo: 'Eu sinto que a energia aqui não está das melhores. Bruno, Carol, Diego, o que está passando na cabeça de vocês?'",
+          "feedback": "✅ Ótimo! Você reconheceu a segurança em risco e usou AMPP (Ask) para convidar o compartilhamento e aumentar o Pool of Shared Meaning. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Sim, Bruno, vamos direto ao ponto. Vamos definir as ações agora.'",
+          "feedback": "⚠️ Você está validando a frustração de Bruno, mas não está lidando com os outros sinais de insegurança (Carol, Diego). Isso pode marginalizar perspectivas importantes. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos esperar cinco minutos em silêncio.'",
+          "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de restaurar a segurança e o diálogo. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "testedLesson": "Decidindo Como Decidir",
+      "narrative": "🤝 Com a segurança restaurada, a equipe compartilha suas preocupações: prazos apertados, falta de clareza, sobrecarga. Agora, você precisa decidir como vão priorizar as tarefas restantes. Bruno sugere: 'Vamos votar nas tarefas mais importantes.' Diego diz: 'O Bruno é o mais técnico, ele decide.' Carol não opina. **Antes de decidir as tarefas, qual é a próxima decisão crucial?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Vamos usar o método de Bruno, o Voto.'",
+          "feedback": "⚠️ Você aceitou um método proposto sem analisar o risco. Votar em decisões críticas de projeto pode gerar ressentimento na minoria. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "Perguntar: 'Antes de decidir as tarefas, como vamos decidir como decidir? Este é um risco alto, precisamos de engajamento de todos?'",
+          "feedback": "✅ Correto! Você aplicou 'Decidir Como Decidir' (Decide How to Decide), reconhecendo o risco e a necessidade de engajamento para escolher o método certo (provavelmente Consulta ou Consenso). (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Eu sou o gerente, então vou decidir.'",
+          "feedback": "❌ Isso é Comando. Pode ser rápido, mas ignora as preocupações expressas e o engajamento necessário, provavelmente falhando na execução. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer cada um escrever em um papel sua prioridade e depois comparar.",
+          "feedback": "⚠️ Isso é um passo para a ação, mas ainda não decidiu *como* a decisão será tomada. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "testedLesson": "O Poder do Diálogo (Revisão)",
+      "narrative": "💡 A equipe concorda que o método de decisão será uma Consulta, onde você ouvirá todos e depois tomará a decisão final. Durante a discussão das tarefas, Carol apresenta uma ideia inovadora para resolver um gargalo. Bruno responde com sarcasmo: 'Isso não vai funcionar, já tentamos algo parecido antes.' Carol se retrai. **O que está acontecendo com o Pool of Shared Meaning e com a segurança?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "A segurança está aumentando, pois Bruno está sendo prático.",
+          "feedback": "❌ O sarcasmo de Bruno é uma forma de Violência. Isso diminui a segurança e retém informações (Carol pode parar de compartilhar). (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "A segurança está caindo (Violência de Bruno), e o Pool of Shared Meaning pode encolher se Carol se calar (Silêncio).",
+          "feedback": "✅ Exato! Você identificou que a Violência de Bruno ameaça a segurança e pode levar Carol ao Silêncio, reduzindo o Pool of Shared Meaning. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "A ideia de Carol é ruim, então é melhor descartá-la.",
+          "feedback": "❌ Isso ignora o impacto do comportamento de Bruno na segurança e no Pool of Shared Meaning. A validade da ideia é secundária à segurança. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Bruno está apenas sendo honesto, continue a discussão.",
+          "feedback": "⚠️ Embora Bruno possa acreditar estar sendo honesto, o sarcasmo é uma forma de Violência que prejudica o ambiente. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "testedLesson": "Respeito Mútuo (Mutual Respect)",
+      "narrative": "👂 Com Carol se retraindo, você percebe a tensão. **Como você restaura o Respeito Mútuo e mantém o diálogo produtivo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Bruno: 'Bruno, pare de ser rude.'",
+          "feedback": "❌ Isso é uma repreensão direta, que pode parecer desrespeito a Bruno e não restaura o respeito a Carol. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Bruno, não é nossa intenção dizer que sua experiência não é valiosa. SIM, queremos ouvir ideias novas e velhas para resolver isso juntos. Carol, continue, por favor.'",
+          "feedback": "✅ Perfeito! Você usou Contraste para negar a intenção de desrespeito a Bruno e reafirmar o respeito e valorização da contribuição de Carol. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer a Carol: 'Não liga pro Bruno, ele fala demais.'",
+          "feedback": "❌ Isso desrespeita Bruno e cria divisão. Não restaura o ambiente seguro. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa longa e olhar para Bruno.",
+          "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "testedLesson": "Passando à Ação (Moving to Action)",
+      "narrative": "🎯 Com o diálogo restaurado, a equipe concorda em implementar uma parte da ideia de Carol, combinada com a experiência de Bruno. Agora, você precisa transformar essa decisão em ações claras. **Qual é o próximo passo essencial?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Beleza, então vamos com a ideia. Próximo assunto.'",
+          "feedback": "❌ Você tomou uma decisão, mas não passou à ação. Sem clareza de Quem, O Quê e Quando, a decisão é inútil. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Definir claramente: 'Bruno (Quem), você vai revisar o código X com base na sugestão de Carol (O Quê) até quarta-feira (Quando). Vamos revisar na quinta (Acompanhamento).'",
+          "feedback": "✅ Correto! Você transformou a decisão do diálogo em uma ação clara com os 4 elementos: Quem, O Quê, Quando e Acompanhamento. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vamos fazer isso, mas ainda não sei quem vai fazer.'",
+          "feedback": "⚠️ Você tem O Quê e talvez Quando, mas falta o Quem. Isso leva à difusão de responsabilidade. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer todos se comprometerem verbalmente a 'ajudar' com a ideia.",
+          "feedback": "⚠️ 'Todos ajudarem' é vago. Falta o Quem específico. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "testedLesson": "Quem, O Quê, Quando e Acompanhamento",
+      "narrative": "📋 Você definiu que Bruno vai revisar o código X até quarta-feira. Bruno concorda, mas parece um pouco sobrecarregado. **Como você garante que essa ação seja bem-sucedida?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Apenas anotar a ação e seguir em frente.",
+          "feedback": "❌ Falta o Acompanhamento. Sem verificação, a ação pode falhar e você não saberá até tarde demais. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Documentar a ação (Quem: Bruno, O Quê: Revisar código X, Quando: Quarta-feira) e definir o acompanhamento (Revisão na quinta).",
+          "feedback": "✅ Exatamente! Você completou os 4 elementos e garantiu um ponto de verificação para corrigir o curso se necessário. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Se não der certo, a gente vê depois.'",
+          "feedback": "⚠️ Isso não define um acompanhamento ativo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Definir que Bruno fará a tarefa 'assim que possível'.",
+          "feedback": "❌ 'Assim que possível' não é um Quando claro. Isso tira a urgência e a responsabilidade. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "testedLesson": "Domine Minhas Histórias (Master My Stories)",
+      "narrative": "🧠 Durante a definição da ação, uma parte de você pensou: 'Bruno está sobrecarregado, mas ele tem que aguentar. É o melhor técnico e a culpa é dele por não ter feito antes.' **Que tipo de história você está contando sobre Bruno?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "História de Vítima: 'Eu sou o gerente e tenho que resolver tudo sozinho.'",
+          "feedback": "❌ Essa parte da história ('tenho que resolver sozinho') é Vítima, mas a narrativa principal sobre Bruno ('tem que aguentar', 'culpa é dele') é Vilão. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "História de Vilão: 'Bruno é o problema, ele é responsável pelo atraso e precisa se esforçar mais.'",
+          "feedback": "✅ Correto! Você está atribuindo maldade/intenção negativa a Bruno ('culpa é dele', 'tem que aguentar'), o que é uma História de Vilão. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "História de Desamparo: 'Não há nada que eu possa fazer, o projeto vai fracassar.'",
+          "feedback": "❌ Isso seria Desamparo. A história sobre Bruno é mais de julgamento negativo (Vilão). (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "História Inteligente: 'Bruno é sobrecarregado, preciso verificar se ele precisa de apoio.'",
+          "feedback": "❌ Ainda não. A história original ('tem que aguentar', 'culpa é dele') é uma História Estúpida (Vilão). (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "testedLesson": "Contraste e Propósito Mútuo (CRIB Review)",
+      "narrative": "🧘‍♂️ Reconhecendo a História de Vilão, você se corrige. A reunião prossegue, e Diego levanta uma preocupação: 'E se o cliente não aceitar essa mudança? Vamos perder mais tempo.' A energia da equipe vacila novamente. **Como você restaura o propósito comum e a segurança?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Diego, o cliente tem que aceitar. Vamos forçar a mudança.'",
+          "feedback": "❌ Isso ignora a preocupação de Diego e pode gerar mais resistência. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer o propósito: 'Lembrem-se, nosso objetivo comum é entregar um produto funcional e que satisfaça o cliente. A preocupação do Diego é válida e faz parte do nosso planejamento de riscos.'",
+          "feedback": "✅ Ótimo! Você reafirmou o Propósito Mútuo e validou a contribuição de Diego, integrando sua preocupação ao Pool of Shared Meaning. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Diego, você sempre vê o lado negativo. Vamos focar no positivo.'",
+          "feedback": "❌ Isso é desrespeitar Diego e sua contribuição, matando a segurança. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e olhar para todos.",
+          "feedback": "❌ Silêncio. Não aborda a preocupação ou restaura o propósito. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "testedLesson": "Combinando Falar e Ouvir",
+      "narrative": "🤝 Com o propósito reafirmado, a equipe começa a discutir como mitigar o risco apontado por Diego. Carol sugere uma abordagem. Você ouve e, em seguida, precisa adicionar sua perspectiva sobre os prazos. **Como você equilibra ouvir e falar?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Interromper Carol: 'Carol, os prazos são impossíveis, esquece essa ideia.'",
+          "feedback": "❌ Isso é Violência e interrompe o diálogo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Depois que Carol terminar, usar STATE: 'Fato: A ideia da Carol é criativa. História: Acho que podemos tentar, mas precisamos ajustar os prazos das outras tarefas. O que vocês acham? Estou aberto a ajustes.'",
+          "feedback": "✅ Perfeito! Você ouviu (AMPP), depois compartilhou seu caminho (STATE) com segurança e tentativa, convidando para o diálogo. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Carol tem razão, vamos fazer do jeito dela.'",
+          "feedback": "⚠️ Isso é pular seu próprio julgamento e não contribuir com sua perspectiva (seu 'caminho') para o Pool of Shared Meaning. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer Carol repetir a ideia para ter certeza que todos ouviram.",
+          "feedback": "⚠️ Isso é útil, mas não é como você *compartilha seu caminho*. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "testedLesson": "Passando à Ação (Moving to Action)",
+      "narrative": "💡 A equipe concorda em uma nova estratégia com prazos ajustados. Bruno vai revisar o código, Carol vai preparar uma apresentação para o cliente, e Diego vai revisar os testes. **Como você garante que todos saibam exatamente o que fazer?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Certo, cada um já sabe o que tem que fazer.'",
+          "feedback": "❌ Muito vago. 'Saber' pode ser subjetivo. Falta clareza de Quem, O Quê, Quando. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Definir claramente: 'Bruno, você revisa o código X até quarta. Carol, você prepara a apresentação Y até quinta. Diego, você revisa os testes Z até sexta. Vamos revisar tudo na próxima segunda.'",
+          "feedback": "✅ Exatamente! Você definiu Quem, O Quê e Quando para cada um e estabeleceu o Acompanhamento. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vamos fazer um cronograma, mas ainda não está pronto.'",
+          "feedback": "⚠️ Isso adia a clareza da ação. As pessoas saem sem saber exatamente o que fazer. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer todos assinarem um documento de compromisso.",
+          "feedback": "⚠️ Formal demais para o momento, mas mostra intenção de responsabilidade. Ainda assim, a definição clara é o essencial. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "testedLesson": "O Poder do Diálogo (Revisão)",
+      "narrative": "📋 Com as ações definidas, a reunião está prestes a terminar. Você reflete: a energia da equipe melhorou, o Pool of Shared Meaning está mais rico, e as ações são claras. **Qual foi o fator determinante para esse resultado positivo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "As tarefas definidas no final.",
+          "feedback": "⚠️ As tarefas são importantes, mas são o resultado do processo. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "O fato de ter transformado a conversa tensa em um diálogo produtivo, criando segurança e enchendo o Pool of Shared Meaning com perspectivas e decisões claras.",
+          "feedback": "✅ Correto! O poder do diálogo foi a base que permitiu a definição de ações eficazes e a recuperação da motivação. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "O método de decisão escolhido (Consulta).",
+          "feedback": "⚠️ O método foi importante, mas é parte do processo, não o fator determinante. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "O fato de todos concordarem comigo.",
+          "feedback": "❌ O objetivo do diálogo não é concordar com você, e sim construir um entendimento e ações conjuntas. (0/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "testedLesson": "Quem, O Quê, Quando e Acompanhamento",
+      "narrative": "🎉 A reunião termina. Você anotou as ações acordadas. No dia combinado, Bruno não entregou a revisão do código. **Qual é a sua primeira atitude, considerando o sistema de ações definido?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Enviar um e-mail严厉 (rígido) cobrando Bruno imediatamente.",
+          "feedback": "❌ Isso é Violência. Pule o diálogo e vá direto para a punição. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Agendar uma nova Conversa Crucial com Bruno para entender os fatos e a história por trás do não cumprimento, usando STATE e AMPP.",
+          "feedback": "✅ Perfeito! Você reconhece que a falha na ação é uma nova oportunidade para o diálogo. Use as ferramentas para entender e resolver, não culpar. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Assumir a tarefa de Bruno você mesmo.",
+          "feedback": "⚠️ Isso ignora o problema de execução de Bruno e não resolve o padrão. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e esperar Bruno entregar em breve.",
+          "feedback": "❌ Isso ignora o Acompanhamento acordado e permite que a responsabilidade seja descumprida. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
