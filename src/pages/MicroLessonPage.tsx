@@ -2,7 +2,7 @@
 
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
-import momTestLessons from '@/data/microLessons.json';
+import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
 import tractionLessons from '@/data/tractionLessons.json';
 import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
 import runningLeanLessons from '@/data/runningLeanLessons.json';
@@ -12,7 +12,7 @@ import foundingSalesLessons from '@/data/foundingSalesLessons.json';
 import NotFound from './NotFound';
 
 const lessonDataMap: Record<string, any[]> = {
-  momTest: momTestLessons,
+  crucialConversations: crucialConversationsLessons,
   traction: tractionLessons,
   buildTrap: buildTrapLessons,
   runningLean: runningLeanLessons,

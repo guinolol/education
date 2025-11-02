@@ -9,11 +9,11 @@ import { Badge } from "@/components/ui/badge";
 import { 
   Trophy, Star, Zap, Target, Clock, 
   Play, CheckCircle, Lock, Flame,
-  TrendingUp, Award, BookOpen, Users, Rocket, Lightbulb
+  TrendingUp, Award, BookOpen, Users, Rocket, Lightbulb, MessageSquare
 } from "lucide-react";
 
 // Importar os dados das novas trilhas
-import momTestLessons from '@/data/microLessons.json';
+import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
 import tractionLessons from '@/data/tractionLessons.json';
 import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
 import runningLeanLessons from '@/data/runningLeanLessons.json';
@@ -71,11 +71,11 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   // Mapeamento das lições para o formato de módulos
   const trilhasData: Trilha[] = [
     {
-      id: 'momTest',
-      titulo: "Trilha 1: The Mom Test",
-      icone: BookOpen,
-      lessons: mapLessonsToModules(momTestLessons, 100, "Mom Test", BookOpen, "iniciante"),
-      totalLessons: momTestLessons.length,
+      id: 'crucialConversations',
+      titulo: "Trilha 1: Crucial Conversations",
+      icone: MessageSquare,
+      lessons: mapLessonsToModules(crucialConversationsLessons, 100, "Crucial Conversations", MessageSquare, "iniciante"),
+      totalLessons: crucialConversationsLessons.length,
     },
     {
       id: 'runningLean',
