@@ -1,6 +1,3 @@
-// ============================================
-// 3. DashboardAprendizado.tsx (Atualizado)
-// ============================================
 "use client";
 
 import { useState } from "react";
@@ -12,6 +9,7 @@ import {
   Trophy, Flame, MessageSquare, Star, Crown, Zap
 } from "lucide-react";
 import LearningPath from "./LearningPath";
+import { cn } from "@/lib/utils";
 
 import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
 
