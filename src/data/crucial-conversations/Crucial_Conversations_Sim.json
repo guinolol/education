@@ -1514,3 +1514,382 @@
     }
   ]
 }
+{
+  "simulationId": 5,
+  "title": "🎭 Simulação: Confronto com Cliente Difícil e Equipe em Crise",
+  "introduction": "Você é o gerente de contas de uma empresa de consultoria. Seu cliente principal, uma empresa de grande porte, está extremamente insatisfeito com o andamento de um projeto estratégico. O diretor do cliente, Sr. Ribeiro, está furioso e ameaçou rescindir o contrato. Ele acusou sua equipe de negligência e incompetência. Internamente, sua equipe está desmotivada, com membros se culpando e outros se escondendo. A diretoria da sua empresa está pressionando por uma solução imediata. Você precisa lidar com o cliente furioso e, ao mesmo tempo, motivar sua equipe. Esta simulação testa sua habilidade em aplicar as lições de Lidando com a Violência, Lidando com o Silêncio, O Poder de Um e A Prática Contínua para transformar situações extremamente difíceis em oportunidades de diálogo e recuperação.",
+  "challenges": [
+    {
+      "step": 1,
+      "testedLesson": "O Poder de Um (The Power of One)",
+      "narrative": "🤯 Você entra na reunião com o Sr. Ribeiro. Ele o cumprimenta com um olhar frio e diz: 'Sente-se. Temos muito a conversar. E não vai ser agradável.' A energia é extremamente hostil. Você sente sua pulsação acelerar e uma voz interna sussurrar: 'Isso é culpa da equipe, eles não me deram os dados certos. O Sr. Ribeiro é injusto e irracional. Não tem como lidar com isso.' **Qual é a sua primeira decisão?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Concordar internamente com sua história, respirar fundo e esperar o Sr. Ribeiro começar a falar.",
+          "feedback": "❌ Você está aceitando a História de Vilão ('irracional') e Vítima ('culpa da equipe'), justificando Silêncio ou uma reação defensiva. Isso não muda a dinâmica. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer que essa é *sua* história, não um fato. Respirar fundo, focar em seu próprio coração: 'O que eu realmente quero?'.",
+          "feedback": "✅ Excelente! Você reconhece que está contando uma história e se foca em mudar *você mesmo* primeiro, aplicando o Poder de Um. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer ao Sr. Ribeiro: 'Antes de qualquer coisa, preciso que saiba que não concordo com sua postura.'",
+          "feedback": "⚠️ Isso é uma resposta baseada na História de Vilão (ele é injusto), e pode ser interpretado como uma escalada de conflito. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos esperar cinco minutos em silêncio.'",
+          "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de enfrentá-la com o coração certo. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "testedLesson": "Lidando com a Violência",
+      "narrative": "🧘‍♂️ Com o coração alinhado, o Sr. Ribeiro começa a falar, mas logo sua voz se eleva: 'Vocês estão nos enrolando há meses! Vocês são incompetentes! Isso é inaceitável!'. Ele está claramente em Violência. **Qual é a sua resposta imediata?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Sr. Ribeiro, com todo respeito, o senhor está sendo injusto e está errado.'",
+          "feedback": "❌ Isso é reagir à Violência com mais potencial para Violência. Você está mordendo a isca. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Espelhamento: 'Sr. Ribeiro, parece que o senhor está muito frustrado e preocupado com o impacto disso no seu negócio.'",
+          "feedback": "✅ Correto! Você ignora o ataque e foca na emoção (frustração, preocupação) por trás da Violência, usando AMPP. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Sr. Ribeiro, por favor, baixe o tom de voz.'",
+          "feedback": "⚠️ Isso é tentar controlar o comportamento dele, em vez de lidar com a insegurança. Pode ser interpretado como desrespeito. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Ficar em silêncio e esperar ele terminar.",
+          "feedback": "❌ Silêncio. Isso pode ser interpretado como concordância com o ataque ou desinteresse. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "testedLesson": "Respeito Mútuo (Mutual Respect)",
+      "narrative": "👂 Com o espelhamento, o Sr. Ribeiro para por um momento, mas ainda está tenso. Ele diz: 'Sim, estou preocupado. Este projeto está custando caro e não vemos resultados.' Você reconhece a preocupação e tenta explicar os desafios técnicos. Ele interrompe: 'Desafios técnicos? Isso é desculpa!'. **O que está acontecendo com o Respeito Mútuo?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "O Respeito Mútuo está aumentando.",
+          "feedback": "❌ O Sr. Ribeiro está desrespeitando suas explicações. O Respeito Mútuo está em risco. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "O Respeito Mútuo está em risco, pois o Sr. Ribeiro está invalidando suas explicações e te rotulando de desculpista.",
+          "feedback": "✅ Exato! A segurança está novamente ameaçada pela desvalorização do seu ponto de vista. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "O Respeito Mútuo não é importante agora, só os resultados.",
+          "feedback": "❌ Isso é um erro crítico. Sem Respeito Mútuo, não há diálogo produtivo. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Você deve atacar de volta para mostrar que também tem valor.",
+          "feedback": "❌ Isso é Violência e vai piorar a situação. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "testedLesson": "Contraste e Propósito Mútuo (CRIB Review)",
+      "narrative": "💪 Reconhecendo o risco ao Respeito Mútuo, você precisa agir rapidamente. **Como você restaura a segurança e mantém o foco no objetivo comum?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Sr. Ribeiro, o senhor está errado em me acusar.'",
+          "feedback": "❌ Isso é uma acusação direta, aumentando a Violência. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Sr. Ribeiro, não é nossa intenção dar desculpas ou fingir que não reconhecemos sua frustração. SIM, queremos resolver isso e encontrar um caminho para frente juntos.'",
+          "feedback": "✅ Perfeito! Você usa Contraste ('NÃO desculpas', 'SIM, resolver juntos') para restaurar o Respeito e reafirmar o Propósito Mútuo. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vamos focar nos resultados e esquecer os erros.'",
+          "feedback": "⚠️ Isso ignora a emoção e o desrespeito sentido, não restaurando a segurança. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e olhar fixamente para ele.",
+          "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "testedLesson": "Lidando com a Violência",
+      "narrative": "🎯 Com o Contraste, o Sr. Ribeiro parece se acalmar levemente. No entanto, ele ainda fala com sarcasmo: 'Ah, claro, vamos resolver juntos. Vocês já fizeram isso antes.' **Que tipo de comportamento é esse e como você deve lidar com ele?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Ignorar o sarcasmo e continuar com sua apresentação.",
+          "feedback": "❌ O sarcasmo é uma forma de Violência (Mascarar). Ignorar permite que continue e mina a segurança. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Parafrasear: 'Sr. Ribeiro, o sarcasmo me diz que o senhor tem dúvidas sobre nossa capacidade de realmente mudar, baseado em experiências anteriores.'",
+          "feedback": "✅ Correto! Você parafraseia a mensagem por trás do sarcasmo, reconhecendo a desconfiança e a história de desamparo dele. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Sr. Ribeiro, por favor, não use sarcasmo comigo.'",
+          "feedback": "⚠️ Isso é confrontar o ataque diretamente, podendo soar defensivo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Sair da sala e marcar para outro dia.",
+          "feedback": "❌ Isso é Silêncio e fuga, não enfrentamento com segurança. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "testedLesson": "Domine Minhas Histórias (Master My Stories)",
+      "narrative": "🤝 Com o diálogo em andamento, você sente um resquício de raiva dentro de si ao ouvir o sarcasmo do Sr. Ribeiro. Uma parte de você pensa: 'Ele está sendo injusto, e mesmo que eu resolva tudo, ele vai continuar me culpando. Não adianta tentar.' **Que tipo de história você está contando?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "História de Vítima: 'Não é minha culpa, ele é injusto.'",
+          "feedback": "⚠️ Há traços de vítima ('não é minha culpa', 'ele é injusto'), mas a ideia central é que *você* não pode fazer nada, o que é Desamparo. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "História de Vilão: 'Ele é um idiota.'",
+          "feedback": "❌ Essa não é a história descrita. A história descrita foca mais em sua incapacidade percebida de influenciar o resultado. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "História de Desamparo: 'Não adianta tentar, ele vai continuar me culpando.'",
+          "feedback": "✅ Correto! Você está se sentindo impotente e acreditando que suas ações não terão impacto, o que é uma História de Desamparo. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "História Inteligente: 'Preciso manter o foco no que posso controlar.'",
+          "feedback": "❌ A história descrita ('não adianta tentar') é uma História Estúpida (Desamparo), não Inteligente. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "testedLesson": "O Poder de Um (The Power of One)",
+      "narrative": "🧘‍♂️ Reconhecendo a História de Desamparo, você se lembra do 'Poder de Um'. Mesmo que o Sr. Ribeiro continue desconfiado, você decide focar no que *você* pode fazer. **Qual é a próxima ação coerente com essa mentalidade?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Parar de tentar convencê-lo e esperar que ele mude de ideia sozinho.",
+          "feedback": "❌ Isso é Silêncio e reforça a História de Desamparo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Continuar a usar STATE e AMPP, mantendo o foco em contribuir com seu melhor para o Pool of Shared Meaning, independentemente da reação dele.",
+          "feedback": "✅ Exatamente! Você assume o controle de suas ações e mantém o foco no diálogo, aplicando o Poder de Um. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer ao Sr. Ribeiro: 'Vejo que o senhor não quer resolver isso.'",
+          "feedback": "⚠️ Isso é uma acusação baseada na sua História de Desamparo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa longa e olhar pela janela.",
+          "feedback": "❌ Isso é Silêncio. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "testedLesson": "Lidando com o Silêncio",
+      "narrative": "💡 A reunião com o Sr. Ribeiro termina com um acordo provisório. Agora, você precisa falar com sua equipe. Ao entrar na sala, nota que o ambiente está pesado. A gerente de projeto, Fernanda, está com os braços cruzados e olhar baixo. O desenvolvedor, Gustavo, faz piadas mordazes. O analista, Hugo, não fala nada e apenas mexe no celular. **Qual é o sinal mais claro de Silêncio?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "A postura defensiva de Fernanda.",
+          "feedback": "⚠️ Pode ser um sinal de Silêncio (Retirada) ou Violência (defensiva). Hugo estar em completo silêncio é mais claro. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "As piadas mordazes de Gustavo.",
+          "feedback": "⚠️ Isso é Mascarar, uma forma de Silêncio, mas ainda é fala. Hugo não falar é mais extremo. (2/3 ★)",
+          "score": 2
+        },
+        {
+          "value": "c",
+          "label": "O completo silêncio e desinteresse de Hugo.",
+          "feedback": "✅ Correto! Hugo está em Silêncio puro (Retirada), não contribuindo com nada para o Pool of Shared Meaning. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "O clima pesado da sala.",
+          "feedback": "⚠️ O clima é um sintoma, mas não é um comportamento de Silêncio/Violência específico de um indivíduo. (1/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "testedLesson": "Aprenda a Ouvir (Explore Others' Paths)",
+      "narrative": "👥 Você decide focar em Hugo primeiro. **Como você o convida a compartilhar seu ponto de vista de forma segura?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Hugo, por que você está tão quieto? Fale logo.'",
+          "feedback": "❌ Isso é pressionar e pode aumentar a insegurança. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar AMPP: Perguntar (Ask): 'Hugo, como você está se sentindo em relação à situação com o cliente?'",
+          "feedback": "✅ Correto! Você usa a primeira habilidade de AMPP (Ask) para convidar Hugo a falar com segurança. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Hugo, você precisa colaborar.'",
+          "feedback": "⚠️ Isso é uma ordem, não um convite seguro. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer Hugo repetir o que foi dito na reunião com o cliente.",
+          "feedback": "⚠️ Isso não o convida a compartilhar *seu* caminho. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "testedLesson": "Lidando com o Silêncio",
+      "narrative": "👂 Hugo responde com um 'tanto faz' monótono e volta a mexer no celular. **Que tipo de Silêncio é esse e como você deve responder?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "É Violência. Ataque de volta.",
+          "feedback": "❌ 'Tanto faz' é uma forma de Mascarar, uma forma de Silêncio, não Violência. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "É Mascarar (Silêncio). Use Parafrasear: 'Hugo, seu 'tanto faz' e seu foco no celular me dizem que isso não é indiferença, mas talvez frustração ou desânimo.'",
+          "feedback": "✅ Exatamente! Você reconhece o Mascarar e usa Parafrasear (Paraphrase) para mostrar que entendeu a emoção por trás. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "É Evitar (Silêncio). Ignore e fale com outra pessoa.",
+          "feedback": "⚠️ Ignorar o sinal não o resolve. Continue tentando com Hugo. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos continuar.'",
+          "feedback": "❌ Isso é Silêncio. Você está evitando o problema com Hugo. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "testedLesson": "Combinando Falar e Ouvir",
+      "narrative": "🤝 Com Hugo começando a se abrir, a conversa com a equipe melhora. Você ouve as preocupações de todos. Agora, você precisa compartilhar sua visão para seguir em frente e motivar a equipe. **Como você equilibra ouvir e falar?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Obrigado por falarem. Agora, vamos fazer exatamente o que eu disse.'",
+          "feedback": "❌ Isso ignora o que foi ouvido e impõe uma solução unilateral. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar STATE: 'Fato: Ouvimos preocupações válidas de todos. História: Acho que podemos aprender com isso e sair mais fortes. Concordam? Estou aberto a ajustes.'",
+          "feedback": "✅ Perfeito! Você integra o que ouviu (AMPP) e compartilha sua visão (STATE) com tentativa e segurança. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vocês todos têm razão, vamos rever tudo.'",
+          "feedback": "⚠️ Isso pode parecer que você está apenas concordando para acalmar, sem direção clara. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer todos escreverem uma nova proposta.",
+          "feedback": "⚠️ Isso é uma ação, mas não é como você *compartilha seu caminho* após ouvir. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "testedLesson": "A Prática Contínua",
+      "narrative": "🎉 A reunião com a equipe termina com um novo plano e maior alinhamento. No final do dia, você reflete sobre as conversas com o Sr. Ribeiro e com sua equipe. **Qual é a próxima etapa crucial para aprimorar suas habilidades de Conversas Cruciais?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Esquecer o que aconteceu e seguir em frente.",
+          "feedback": "❌ Isso não contribui para o aprendizado. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Revisar mentalmente o que funcionou e o que não funcionou em cada conversa, identificando onde poderia ter usado melhor STATE, AMPP, Contraste, etc.",
+          "feedback": "✅ Correto! A reflexão pós-conversa é essencial para a prática contínua e o aprimoramento. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Apenas comemorar o sucesso.",
+          "feedback": "⚠️ Comemorar é bom, mas a reflexão é o que transforma a experiência em aprendizado duradouro. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Focar apenas nos resultados positivos.",
+          "feedback": "⚠️ A prática contínua envolve analisar *tudo*, incluindo falhas e sucessos. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
