@@ -10,7 +10,7 @@ const MicroLessonPage = () => {
   const [searchParams] = useSearchParams();
   const trilhaId = searchParams.get('trilha');
   const navigate = useNavigate();
-  const [lessons, setLessons] = useState(null);
+  const [lessons, setLessons] = useState<any[] | null>(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -23,13 +23,14 @@ const MicroLessonPage = () => {
     loadData();
   }, [trilhaId]);
 
-  if (!trilhaId || !lessons) {
-    return <NotFound />;
+  if (!lessons) {
+    // Pode ser um estado de carregamento aqui
+    return <div>Carregando...</div>;
   }
 
   const lesson = lessons.find(l => l.id.toString() === lessonId);
 
-  if (!lesson) {
+  if (!trilhaId || !lesson) {
     return <NotFound />;
   }
 
@@ -42,6 +43,9 @@ const MicroLessonPage = () => {
   return (
     <MicroLessonTemplate
       title={lesson.title}
+      level1={lesson.level1}
+      level2={lesson.level2}
+      level3={lesson.level3}
       questions={lesson.questions}
       conclusionMessage={lesson.conclusionMessage}
       onConclude={handleConclude}
