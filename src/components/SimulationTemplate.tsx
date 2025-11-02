@@ -34,7 +34,7 @@ interface Simulation {
 
 interface SimulationTemplateProps {
   simulation: Simulation;
-  onConclude: () => void;
+  onConclude: (xpEarned: number, score: number) => void;
 }
 
 const SimpleMarkdown = ({ text }: { text: string }) => {
@@ -57,6 +57,13 @@ const SimulationTemplate = ({ simulation, onConclude }: SimulationTemplateProps)
     const maxOptionScore = Math.max(...challenge.options.map(o => o.score));
     return sum + maxOptionScore;
   }, 0);
+
+  const calculateResults = () => {
+    const percentage = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+    // XP base 200, ajustado pela porcentagem
+    const xpEarned = Math.round(200 * (percentage / 100)); 
+    return { percentage, xpEarned };
+  };
 
   const handleSelectOption = (option: Option) => {
     setAnswers(prev => ({ ...prev, [currentStep]: { value: option.value, score: option.score } }));
@@ -95,7 +102,7 @@ const SimulationTemplate = ({ simulation, onConclude }: SimulationTemplateProps)
   }
 
   if (view === 'result') {
-    const percentage = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+    const { percentage, xpEarned } = calculateResults();
     let resultMessage = "Bom trabalho! Continue praticando.";
     if (percentage > 80) {
       resultMessage = "Excelente! Você demonstrou um ótimo domínio das Conversas Cruciais.";
@@ -114,11 +121,15 @@ const SimulationTemplate = ({ simulation, onConclude }: SimulationTemplateProps)
           <div className="mb-8">
             <p className="text-lg font-semibold">Sua Pontuação:</p>
             <p className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              {totalScore} / {maxScore}
+              {percentage}%
             </p>
+            <p className="text-sm text-gray-600 dark:text-gray-300">
+              Pontuação Bruta: {totalScore} / {maxScore}
+            </p>
+            <Badge className="mt-3 bg-amber-500 hover:bg-amber-600 text-white">+{xpEarned} XP</Badge>
             <Progress value={percentage} className="mt-4 h-3" />
           </div>
-          <Button size="lg" className="w-full" onClick={onConclude}>
+          <Button size="lg" className="w-full" onClick={() => onConclude(xpEarned, percentage)}>
             Voltar para o Dashboard
             <ChevronRight className="ml-2" />
           </Button>

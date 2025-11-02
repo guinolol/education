@@ -1,21 +1,31 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { 
-  Trophy, Flame, MessageSquare, Star, Crown, Zap
+  Trophy, Flame, MessageSquare, Star, Crown, Zap, Loader2
 } from "lucide-react";
 import LearningPath from "./LearningPath";
 import { cn } from "@/lib/utils";
+import { useQuery } from "@tanstack/react-query";
+import { supabase } from "@/integrations/supabase/supabase";
+import { useAuth } from "./SessionProvider";
 
 import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
 import crucialConversationsSimulations from '@/data/crucial-conversations/Crucial_Conversations_Sim.json';
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
+}
+
+interface UserProgress {
+  lesson_id: number;
+  is_completed: boolean;
+  score: number;
+  xp_earned: number;
 }
 
 interface Modulo {
@@ -37,28 +47,45 @@ interface Modulo {
   reviewForLessons?: number[];
 }
 
-const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
+// Função para buscar o progresso do usuário
+const fetchUserProgress = async (userId: string): Promise<UserProgress[]> => {
+  const { data, error } = await supabase
+    .from('user_progress')
+    .select('lesson_id, is_completed, score, xp_earned')
+    .eq('user_id', userId);
+
+  if (error) throw new Error(error.message);
+  return data || [];
+};
+
+// Função para criar o caminho de aprendizado com base no progresso
+const createLearningPath = (lessons: any[], simulations: any[], userProgress: UserProgress[]): Modulo[] => {
   const path: Modulo[] = [];
   let lessonIndex = 0;
   let simulationIndex = 0;
+  const progressMap = new Map(userProgress.map(p => [p.lesson_id, p]));
 
   while (lessonIndex < lessons.length) {
     const lessonsInThisBlock: any[] = [];
+    
     // Adiciona até 4 lições
     for (let i = 0; i < 4 && lessonIndex < lessons.length; i++) {
       const lesson = lessons[lessonIndex];
+      const lessonId = lesson.id;
+      const progress = progressMap.get(lessonId) || { is_completed: false, xp_earned: 0 };
+
       const newLesson = {
         id: 100 + lessonIndex,
         titulo: `Lição ${lessonIndex + 1}: ${lesson.title}`,
         teaser: lesson.teaser || lesson.conclusionMessage?.split('.')[0] + '.',
         descricao: lesson.conclusionMessage?.split('.')[0] + '.',
-        progresso: 0,
-        desbloqueado: false,
-        concluido: false,
+        progresso: progress.is_completed ? 100 : 0,
+        desbloqueado: false, // Definido abaixo
+        concluido: progress.is_completed,
         xp: 50 + lessonIndex * 5,
         dificuldade: 'iniciante',
         duracao: `${Math.ceil(lesson.questions?.length * 1.5) || 10} min`,
-        lessonId: lesson.id,
+        lessonId: lessonId,
         type: 'lesson' as 'lesson',
         isSimulation: false,
       };
@@ -71,34 +98,38 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
     if (simulationIndex < simulations.length) {
       const lessonsToReview = lessonsInThisBlock.map(l => l.lessonId).filter(id => id !== undefined) as number[];
       
-      // Adiciona a aula de REVISÃO
+      // Adiciona a aula de REVISÃO (ID base 800)
+      const reviewId = 800 + simulationIndex;
+      const reviewProgress = progressMap.get(reviewId) || { is_completed: false, xp_earned: 0 };
       path.push({
-        id: 800 + simulationIndex,
+        id: reviewId,
         titulo: `Revisão ${simulationIndex + 1}`,
         teaser: "Teste seus conhecimentos das últimas lições com perguntas aleatórias.",
         descricao: "A revisão é crucial para a retenção do conhecimento. Responda 12 perguntas sorteadas para reforçar seu aprendizado.",
-        progresso: 0,
+        progresso: reviewProgress.is_completed ? 100 : 0,
         desbloqueado: false,
-        concluido: false,
+        concluido: reviewProgress.is_completed,
         xp: 75,
         dificuldade: 'misto',
         duracao: '10 min',
         type: 'review',
         isSimulation: false,
-        reviewId: simulationIndex + 1,
+        reviewId: reviewId,
         reviewForLessons: lessonsToReview,
       });
 
-      // Adiciona a aula de SIMULAÇÃO
+      // Adiciona a aula de SIMULAÇÃO (ID base 500)
       const sim = simulations[simulationIndex];
+      const simulationId = 500 + sim.simulationId;
+      const simProgress = progressMap.get(simulationId) || { is_completed: false, xp_earned: 0 };
       path.push({
-        id: 500 + simulationIndex,
+        id: simulationId,
         titulo: sim.title,
         teaser: sim.introduction.split('.').slice(0, 2).join('.') + '.',
         descricao: sim.introduction,
-        progresso: 0,
+        progresso: simProgress.is_completed ? 100 : 0,
         desbloqueado: false,
-        concluido: false,
+        concluido: simProgress.is_completed,
         xp: 150,
         dificuldade: 'intermediário',
         duracao: '15 min',
@@ -110,31 +141,53 @@ const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
     }
   }
 
-  // Define o progresso para fins de demonstração
-  path.forEach((item, index) => {
-    if (index < 3) { // Completa os 3 primeiros itens
-      item.concluido = true;
-      item.progresso = 100;
+  // Lógica de Desbloqueio Sequencial
+  let isPreviousCompleted = true;
+  path.forEach((item) => {
+    if (isPreviousCompleted) {
+      item.desbloqueado = true;
+    } else {
+      item.desbloqueado = false;
     }
-    item.desbloqueado = true; // Libera todas as lições
+    isPreviousCompleted = item.concluido;
   });
+  
+  // Garante que a primeira lição esteja sempre desbloqueada
+  if (path.length > 0) {
+    path[0].desbloqueado = true;
+  }
 
   return path;
 };
 
 const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   const navigate = useNavigate();
-  const [nivel] = useState(5);
-  const [xp] = useState(240);
-  const [xpProximoNivel] = useState(500);
-  const [streak] = useState(12);
+  const { user } = useAuth();
 
-  const trilhaSelecionada = {
+  const userId = user?.id;
+
+  const { data: userProgress = [], isLoading, error } = useQuery({
+    queryKey: ['userProgress', userId],
+    queryFn: () => fetchUserProgress(userId!),
+    enabled: !!userId,
+  });
+
+  const trilhaSelecionada = useMemo(() => ({
     id: 'crucialConversations',
     titulo: "Conversas Cruciais",
     icone: MessageSquare,
-    lessons: createLearningPath(crucialConversationsLessons, crucialConversationsSimulations),
-  };
+    lessons: createLearningPath(crucialConversationsLessons, crucialConversationsSimulations, userProgress),
+  }), [userProgress]);
+
+  // Cálculo de XP e Nível
+  const totalXpEarned = userProgress.reduce((sum, p) => sum + p.xp_earned, 0);
+  const xpProximoNivel = 500; // Exemplo
+  const nivel = Math.floor(totalXpEarned / xpProximoNivel) + 1;
+  const xpNoNivel = totalXpEarned % xpProximoNivel;
+  const xpParaProximoNivel = xpProximoNivel - xpNoNivel;
+
+  const completedLessons = trilhaSelecionada.lessons.filter(m => m.concluido).length;
+  const totalLessons = trilhaSelecionada.lessons.length;
 
   const handleIniciarModulo = (
     lessonId?: number, 
@@ -162,15 +215,24 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     }
   };
 
-  const completedLessons = trilhaSelecionada.lessons.filter(m => m.concluido).length;
-  const totalLessons = trilhaSelecionada.lessons.length;
-
   const conquistas = [
     { id: 1, titulo: "Primeiros Passos", icon: Star, conquistado: completedLessons > 0 },
-    { id: 2, titulo: "Sequência Épica", icon: Flame, conquistado: true },
+    { id: 2, titulo: "Sequência Épica", icon: Flame, conquistado: true }, // Mocked for now
     { id: 3, titulo: "Velocista", icon: Zap, conquistado: completedLessons >= 3 },
     { id: 4, titulo: "Mestre", icon: Crown, conquistado: nivel >= 5 }
   ];
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
+      </div>
+    );
+  }
+
+  if (error) {
+    return <div className="text-red-500 text-center">Erro ao carregar progresso: {error.message}</div>;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-emerald-50 p-6">
@@ -189,10 +251,10 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                 <div className="w-48 mt-2 bg-slate-200 rounded-full h-3 overflow-hidden shadow-inner">
                   <div 
                     className="h-full bg-gradient-to-r from-purple-500 to-blue-500 rounded-full transition-all duration-500 shadow-lg"
-                    style={{ width: `${(xp / xpProximoNivel) * 100}%` }}
+                    style={{ width: `${(xpNoNivel / xpProximoNivel) * 100}%` }}
                   />
                 </div>
-                <p className="text-xs text-slate-500 mt-1 font-semibold">{xp}/{xpProximoNivel} XP</p>
+                <p className="text-xs text-slate-500 mt-1 font-semibold">{xpNoNivel}/{xpProximoNivel} XP para o próximo nível</p>
               </div>
             </div>
 
@@ -205,8 +267,8 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
                   </div>
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-slate-800">{streak}</p>
-                  <p className="text-xs text-slate-500 font-semibold">dias</p>
+                  <p className="text-2xl font-bold text-slate-800">1</p>
+                  <p className="text-xs text-slate-500 font-semibold">dias de streak</p>
                 </div>
               </div>
 
@@ -264,7 +326,7 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
             >
               <div className="relative inline-block mb-3">
                 {c.conquistado && (
-                  <div className="absolute inset-0 bg-yellow-400 blur-xl opacity-40" />
+                  <div className="absolute inset-0 bg-yellow-400 blur-lg opacity-40" />
                 )}
                 <c.icon className={cn(
                   "relative w-10 h-10 mx-auto",

@@ -36,7 +36,7 @@ interface MicroLessonTemplateProps {
   conclusionMessage: string;
   recapitulation: string[];
   practicalChecklist: string[];
-  onConclude: () => void;
+  onConclude: (xpEarned: number, score: number) => void;
 }
 
 // Helper component to parse simple markdown
@@ -64,6 +64,21 @@ const MicroLessonTemplate = ({
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
+
+  const calculateScore = () => {
+    let correctCount = 0;
+    questions.forEach(q => {
+      if (answers[q.id] === q.correctAnswer) {
+        correctCount++;
+      }
+    });
+    return {
+      correctCount,
+      totalQuestions: questions.length,
+      scorePercentage: questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0,
+      xpEarned: correctCount * 10, // 10 XP por resposta correta
+    };
+  };
 
   const handleAnswer = (questionId: string, answer: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
@@ -145,6 +160,8 @@ const MicroLessonTemplate = ({
   }
 
   if (view === 'result') {
+    const { correctCount, totalQuestions, scorePercentage, xpEarned } = calculateScore();
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
         <div className="max-w-3xl mx-auto">
@@ -155,6 +172,13 @@ const MicroLessonTemplate = ({
               </div>
               <h2 className="text-3xl font-bold mb-2">Microlição Concluída!</h2>
               <p className="text-gray-600 dark:text-gray-300">{conclusionMessage}</p>
+              
+              <div className="my-6 p-6 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-700 inline-block">
+                <p className="text-lg font-semibold">Sua Pontuação:</p>
+                <p className="text-5xl font-bold my-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">{scorePercentage}%</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Você acertou {correctCount} de {totalQuestions} questões.</p>
+                <Badge className="mt-3 bg-amber-500 hover:bg-amber-600 text-white">+{xpEarned} XP</Badge>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -191,7 +215,11 @@ const MicroLessonTemplate = ({
               </div>
             </div>
 
-            <Button size="lg" className="w-full" onClick={onConclude}>
+            <Button 
+              size="lg" 
+              className="w-full" 
+              onClick={() => onConclude(xpEarned, scorePercentage)}
+            >
               Voltar para o Dashboard
               <ChevronRight className="ml-2" />
             </Button>

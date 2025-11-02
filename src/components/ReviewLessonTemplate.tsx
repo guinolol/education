@@ -32,7 +32,7 @@ interface ReviewLessonTemplateProps {
   title: string;
   questions: Question[];
   infographicHtml: string;
-  onConclude: () => void;
+  onConclude: (xpEarned: number, score: number) => void;
 }
 
 const ReviewLessonTemplate = ({
@@ -46,6 +46,21 @@ const ReviewLessonTemplate = ({
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
+
+  const calculateScore = () => {
+    let correctCount = 0;
+    questions.forEach(q => {
+      if (answers[q.id] === q.correctAnswer) {
+        correctCount++;
+      }
+    });
+    return {
+      correctCount,
+      totalQuestions: questions.length,
+      scorePercentage: questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0,
+      xpEarned: correctCount * 15, // 15 XP por resposta correta na revisão
+    };
+  };
 
   const handleAnswer = (questionId: string, answer: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
@@ -104,12 +119,7 @@ const ReviewLessonTemplate = ({
   }
 
   if (view === 'result') {
-    const correctAnswers = Object.keys(answers).filter(qId => {
-        const question = questions.find(q => q.id === qId);
-        return question && answers[qId] === question.correctAnswer;
-    }).length;
-    const totalQuestions = questions.length;
-    const score = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+    const { correctCount, totalQuestions, scorePercentage, xpEarned } = calculateScore();
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
@@ -124,8 +134,9 @@ const ReviewLessonTemplate = ({
               
               <div className="my-6 p-6 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-700 inline-block">
                 <p className="text-lg font-semibold">Sua Pontuação:</p>
-                <p className="text-5xl font-bold my-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">{score}%</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300">Você acertou {correctAnswers} de {totalQuestions} questões.</p>
+                <p className="text-5xl font-bold my-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">{scorePercentage}%</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Você acertou {correctCount} de {totalQuestions} questões.</p>
+                <Badge className="mt-3 bg-amber-500 hover:bg-amber-600 text-white">+{xpEarned} XP</Badge>
               </div>
             </div>
 
@@ -137,7 +148,7 @@ const ReviewLessonTemplate = ({
             )}
 
             <div className="mt-10 flex justify-center">
-              <Button size="lg" className="w-full md:w-1/2" onClick={onConclude}>
+              <Button size="lg" className="w-full md:w-1/2" onClick={() => onConclude(xpEarned, scorePercentage)}>
                 Voltar para o Dashboard
                 <ChevronRight className="ml-2" />
               </Button>

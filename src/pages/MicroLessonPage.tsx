@@ -4,6 +4,8 @@ import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
 import NotFound from './NotFound';
 import React, { useEffect, useState } from 'react';
+import { saveUserProgress } from '@/integrations/supabase/progress';
+import { useQueryClient } from '@tanstack/react-query';
 
 const MicroLessonPage = () => {
   const { lessonId } = useParams<{ lessonId: string }>();
@@ -11,6 +13,7 @@ const MicroLessonPage = () => {
   const trilhaId = searchParams.get('trilha');
   const navigate = useNavigate();
   const [lessons, setLessons] = useState<any[] | null>(null);
+  const queryClient = useQueryClient();
 
   useEffect(() => {
     const loadData = async () => {
@@ -30,13 +33,25 @@ const MicroLessonPage = () => {
 
   const lesson = lessons.find(l => l.id.toString() === lessonId);
 
-  if (!trilhaId || !lesson) {
+  if (!trilhaId || !lesson || !lessonId) {
     return <NotFound />;
   }
 
-  const handleConclude = () => {
-    // Aqui você poderia adicionar lógica para salvar o progresso
-    // Por enquanto, apenas navegamos de volta para o dashboard
+  const handleConclude = async (xpEarned: number, score: number) => {
+    const lessonNumId = parseInt(lessonId);
+    if (isNaN(lessonNumId)) return;
+
+    await saveUserProgress({
+      lessonId: lessonNumId,
+      xpEarned: xpEarned,
+      score: score,
+      isCompleted: true,
+    });
+    
+    // Invalida a query do progresso para forçar o dashboard a recarregar
+    queryClient.invalidateQueries({ queryKey: ['userProgress'] });
+
+    // Navega de volta para o dashboard de aprendizado
     navigate('/aprendizado');
   };
 

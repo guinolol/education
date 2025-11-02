@@ -5,6 +5,8 @@ import ReviewLessonTemplate from '@/components/ReviewLessonTemplate';
 import NotFound from './NotFound';
 import React, { useEffect, useState } from 'react';
 import allLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
+import { saveUserProgress } from '@/integrations/supabase/progress';
+import { useQueryClient } from '@tanstack/react-query';
 
 // Helper to shuffle an array
 const shuffleArray = (array: any[]) => {
@@ -21,6 +23,7 @@ const ReviewLessonPage = () => {
   const navigate = useNavigate();
   const [questions, setQuestions] = useState<any[] | null>(null);
   const [infographicHtml, setInfographicHtml] = useState<string | null>(null);
+  const queryClient = useQueryClient();
 
   const { lessonsToReview } = location.state || { lessonsToReview: [] };
   const reviewNumber = parseInt(reviewId || '0');
@@ -66,7 +69,21 @@ const ReviewLessonPage = () => {
     return <div>Carregando revisão...</div>;
   }
 
-  const handleConclude = () => {
+  const handleConclude = async (xpEarned: number, score: number) => {
+    const reviewNumId = parseInt(reviewId || '0');
+    if (isNaN(reviewNumId)) return;
+
+    // Usamos um ID base 800 para revisões
+    const lessonId = 800 + reviewNumId; 
+
+    await saveUserProgress({
+      lessonId: lessonId,
+      xpEarned: xpEarned,
+      score: score,
+      isCompleted: true,
+    });
+    
+    queryClient.invalidateQueries({ queryKey: ['userProgress'] });
     navigate('/aprendizado');
   };
 
