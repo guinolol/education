@@ -6,7 +6,7 @@ import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Co
 import NotFound from './NotFound';
 
 const lessonDataMap: Record<string, any[]> = {
-  crucialConversations: crucialConversationsLessons as any[],
+  crucialConversations: crucialConversationsLessons,
 };
 
 const MicroLessonPage = () => {
