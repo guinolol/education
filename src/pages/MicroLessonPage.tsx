@@ -2,11 +2,11 @@
 
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
-import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
+import { crucialConversationsData } from '@/data/crucial-conversations/crucialConversationsData';
 import NotFound from './NotFound';
 
 const lessonDataMap: Record<string, any[]> = {
-  crucialConversations: crucialConversationsLessons as any[],
+  crucialConversations: crucialConversationsData as any[],
 };
 
 const MicroLessonPage = () => {
