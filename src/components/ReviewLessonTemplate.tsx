@@ -19,6 +19,7 @@ import {
 import InfographicViewer from './InfographicViewer';
 import GameOverScreen from './GameOverScreen';
 import { useNavigate } from 'react-router-dom';
+import { useAudioFeedback } from '@/hooks/useAudioFeedback';
 
 export interface Question {
   id: string;
@@ -44,6 +45,7 @@ const ReviewLessonTemplate = ({
   onConclude,
 }: ReviewLessonTemplateProps) => {
   const navigate = useNavigate();
+  const { playSuccess, playError, playGameOver, playWin } = useAudioFeedback();
   const [view, setView] = useState<'explanation' | 'quiz' | 'result' | 'gameOver'>('explanation');
   
   // Estado para gerenciar a fila de perguntas ativas
@@ -84,14 +86,17 @@ const ReviewLessonTemplate = ({
     setShowFeedback(true);
 
     if (isCorrect) {
+      playSuccess(); // Toca som de sucesso
       // Se correto, move a pergunta para as respostas finais
       setFinalAnswers(prev => ({ ...prev, [questionId]: answer }));
       setQuestionsAnsweredCount(prev => prev + 1);
     } else {
+      playError(); // Toca som de erro
       // Se incorreto, perde vida
       setLives(prev => {
         const newLives = prev - 1;
         if (newLives <= 0) {
+          playGameOver(); // Toca som de game over
           setTimeout(() => setView('gameOver'), 1000);
         }
         return newLives;
@@ -122,6 +127,7 @@ const ReviewLessonTemplate = ({
 
     // Verifica se o quiz terminou
     if (activeQuestions.length === 1 && isCorrect) {
+      playWin(); // Toca som de vitória
       setView('result');
     }
   };
