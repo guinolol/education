@@ -120,7 +120,7 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
           <Card className="p-4 bg-purple-50 dark:bg-purple-900/50 border-purple-200 dark:border-purple-700">
             <h4 className="font-semibold mb-2 text-purple-800 dark:text-purple-200">Sobre o Infográfico</h4>
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Clique no ícone de expandir para ver em tela cheia ou baixe como PNG.
+              Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Use-o como um guia rápido para aplicar as habilidades no dia a dia.
             </p>
           </Card>
           
@@ -155,7 +155,7 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
           <DialogHeader className="p-4 border-b">
             <DialogTitle className="text-xl font-bold">{title} (Visualização Expandida)</DialogTitle>
           </DialogHeader>
-          <div className="p-4 h-full overflow-hidden">
+          <div className="p-4 h-full overflow-y-auto"> {/* Adicionando overflow-y-auto aqui */}
             <iframe
               srcDoc={htmlContent}
               title={title}
