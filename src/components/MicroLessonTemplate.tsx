@@ -34,6 +34,8 @@ interface MicroLessonTemplateProps {
   level3: string;
   questions: Question[];
   conclusionMessage: string;
+  recapitulation: string[];
+  practicalChecklist: string[];
   onConclude: () => void;
 }
 
@@ -53,6 +55,8 @@ const MicroLessonTemplate = ({
   level3,
   questions,
   conclusionMessage,
+  recapitulation,
+  practicalChecklist,
   onConclude,
 }: MicroLessonTemplateProps) => {
   const [view, setView] = useState<'explanation' | 'quiz' | 'result'>('explanation');
@@ -142,17 +146,57 @@ const MicroLessonTemplate = ({
 
   if (view === 'result') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4 flex items-center justify-center">
-        <Card className="p-8 max-w-md w-full text-center">
-          <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Trophy className="w-8 h-8 text-white" />
-          </div>
-          <h2 className="text-2xl font-bold mb-4">Microlição Concluída!</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-6">{conclusionMessage}</p>
-          <Button size="lg" className="w-full" onClick={onConclude}>
-            Voltar para o Dashboard
-          </Button>
-        </Card>
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
+        <div className="max-w-3xl mx-auto">
+          <Card className="p-8">
+            <div className="text-center mb-8">
+              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Trophy className="w-10 h-10 text-white" />
+              </div>
+              <h2 className="text-3xl font-bold mb-2">Microlição Concluída!</h2>
+              <p className="text-gray-600 dark:text-gray-300">{conclusionMessage}</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              {/* Recapitulação */}
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h3 className="font-bold text-lg mb-4 flex items-center">
+                  <BookOpen className="w-5 h-5 mr-2 text-purple-600" />
+                  Recapitulação
+                </h3>
+                <ul className="space-y-3">
+                  {recapitulation.map((item, index) => (
+                    <li key={index} className="flex items-start text-sm">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Checklist Prático */}
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h3 className="font-bold text-lg mb-4 flex items-center">
+                  <Lightbulb className="w-5 h-5 mr-2 text-yellow-500" />
+                  Checklist Prático
+                </h3>
+                <ul className="space-y-3">
+                  {practicalChecklist.map((item, index) => (
+                    <li key={index} className="flex items-start text-sm">
+                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <Button size="lg" className="w-full" onClick={onConclude}>
+              Voltar para o Dashboard
+              <ChevronRight className="ml-2" />
+            </Button>
+          </Card>
+        </div>
       </div>
     );
   }

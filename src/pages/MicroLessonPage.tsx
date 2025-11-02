@@ -48,6 +48,8 @@ const MicroLessonPage = () => {
       level3={lesson.level3}
       questions={lesson.questions}
       conclusionMessage={lesson.conclusionMessage}
+      recapitulation={lesson.recapitulation}
+      practicalChecklist={lesson.practicalChecklist}
       onConclude={handleConclude}
     />
   );
