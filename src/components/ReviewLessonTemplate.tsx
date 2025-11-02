@@ -7,7 +7,7 @@ import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import {
   Trophy, ChevronLeft, ChevronRight,
-  CheckCircle, XCircle,
+  CheckCircle, XCircle, Heart,
   Check, X, Circle, BookOpen, Lightbulb, RefreshCw
 } from 'lucide-react';
 import {
@@ -17,6 +17,8 @@ import {
   AccordionItem,
 } from "@/components/ui/accordion";
 import InfographicViewer from './InfographicViewer';
+import GameOverScreen from './GameOverScreen';
+import { useNavigate } from 'react-router-dom';
 
 export interface Question {
   id: string;
@@ -41,11 +43,13 @@ const ReviewLessonTemplate = ({
   infographicHtml,
   onConclude,
 }: ReviewLessonTemplateProps) => {
-  const [view, setView] = useState<'explanation' | 'quiz' | 'result'>('explanation');
+  const navigate = useNavigate();
+  const [view, setView] = useState<'explanation' | 'quiz' | 'result' | 'gameOver'>('explanation');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
+  const [lives, setLives] = useState(2); // 2 vidas para revisões
 
   const calculateScore = () => {
     let correctCount = 0;
@@ -63,9 +67,22 @@ const ReviewLessonTemplate = ({
   };
 
   const handleAnswer = (questionId: string, answer: string) => {
+    const question = questions[currentQuestionIndex];
+    const isCorrect = answer === question.correctAnswer;
+
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
     setSelectedAnswer(answer);
     setShowFeedback(true);
+
+    if (!isCorrect) {
+      setLives(prev => {
+        const newLives = prev - 1;
+        if (newLives <= 0) {
+          setTimeout(() => setView('gameOver'), 1000); // Mostrar game over após feedback
+        }
+        return newLives;
+      });
+    }
   };
 
   const handleNextQuestion = () => {
@@ -85,6 +102,23 @@ const ReviewLessonTemplate = ({
       setShowFeedback(false);
     }
   };
+
+  const handleRestart = () => {
+    setLives(2);
+    setAnswers({});
+    setCurrentQuestionIndex(0);
+    setSelectedAnswer(null);
+    setShowFeedback(false);
+    setView('quiz');
+  };
+
+  const handleExit = () => {
+    navigate('/aprendizado');
+  };
+
+  if (view === 'gameOver') {
+    return <GameOverScreen title={title} isReview={true} onRestart={handleRestart} onExit={handleExit} />;
+  }
 
   if (view === 'explanation') {
     return (
@@ -170,7 +204,19 @@ const ReviewLessonTemplate = ({
           <div className="mb-8">
             <div className="flex items-center justify-between mb-4">
               <h1 className="text-xl font-bold">{title}</h1>
-              <Badge variant="secondary">Exercício {currentQuestionIndex + 1}/{questions.length}</Badge>
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-1">
+                  {[...Array(2)].map((_, index) => (
+                    <Heart 
+                      key={index} 
+                      className={`w-6 h-6 transition-colors duration-300 ${
+                        index < lives ? 'text-red-500 fill-red-500' : 'text-gray-300'
+                      }`} 
+                    />
+                  ))}
+                </div>
+                <Badge variant="secondary">Exercício {currentQuestionIndex + 1}/{questions.length}</Badge>
+              </div>
             </div>
             <Progress value={progress} className="h-2" />
             <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
@@ -214,12 +260,12 @@ const ReviewLessonTemplate = ({
                       checked={isSelected}
                       onChange={() => handleAnswer(question.id, option.value)}
                       className="sr-only peer"
-                      disabled={showFeedback}
+                      disabled={showFeedback || lives <= 0}
                     />
                     <label
                       htmlFor={option.value}
                       className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition-all ${bgColor} ${
-                        !showFeedback
+                        !showFeedback && lives > 0
                           ? "hover:border-purple-400 dark:hover:border-purple-600"
                           : "cursor-default"
                       }`}
@@ -248,7 +294,7 @@ const ReviewLessonTemplate = ({
                     ) : (
                       <>
                         <XCircle className="w-5 h-5 text-red-600 mr-2" />
-                        Quase lá!
+                        Quase lá! ({lives} vidas restantes)
                       </>
                     )}
                   </h3>
@@ -287,13 +333,13 @@ const ReviewLessonTemplate = ({
                 variant="outline"
                 size="sm"
                 onClick={handlePrevious}
-                disabled={currentQuestionIndex === 0}
+                disabled={currentQuestionIndex === 0 || showFeedback}
               >
                 <ChevronLeft className="mr-2" />
                 Anterior
               </Button>
 
-              {showFeedback ? (
+              {showFeedback && lives > 0 ? (
                 <Button size="sm" onClick={handleNextQuestion}>
                   {currentQuestionIndex < questions.length - 1 ? "Próxima" : "Concluir"}
                   <ChevronRight className="ml-2" />
@@ -302,10 +348,10 @@ const ReviewLessonTemplate = ({
                 <Button
                   size="sm"
                   onClick={() => {}}
-                  disabled={!selectedAnswer}
+                  disabled={!selectedAnswer || lives <= 0}
                   variant="outline"
                 >
-                  Selecione uma resposta
+                  {lives <= 0 ? "Fim de Jogo" : "Selecione uma resposta"}
                 </Button>
               )}
             </div>
