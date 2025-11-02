@@ -5,7 +5,6 @@ import ReviewLessonTemplate from '@/components/ReviewLessonTemplate';
 import NotFound from './NotFound';
 import React, { useEffect, useState } from 'react';
 import allLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
-import InfographicViewer from '@/components/InfographicViewer';
 
 // Helper to shuffle an array
 const shuffleArray = (array: any[]) => {
@@ -22,7 +21,6 @@ const ReviewLessonPage = () => {
   const navigate = useNavigate();
   const [questions, setQuestions] = useState<any[] | null>(null);
   const [infographicHtml, setInfographicHtml] = useState<string | null>(null);
-  const [showInfographic, setShowInfographic] = useState(false);
 
   const { lessonsToReview } = location.state || { lessonsToReview: [] };
   const reviewNumber = parseInt(reviewId || '0');
@@ -64,33 +62,20 @@ const ReviewLessonPage = () => {
     return <NotFound />;
   }
 
-  if (!questions) {
+  if (!questions || !infographicHtml) {
     return <div>Carregando revisão...</div>;
   }
-
-  const handleQuizComplete = () => {
-    setShowInfographic(true);
-  };
 
   const handleConclude = () => {
     navigate('/aprendizado');
   };
 
-  if (showInfographic && infographicHtml) {
-    return (
-      <InfographicViewer
-        htmlContent={infographicHtml}
-        title={`Infográfico de Revisão ${reviewId}`}
-        onClose={handleConclude}
-      />
-    );
-  }
-
   return (
     <ReviewLessonTemplate
       title={`Revisão Aleatória ${reviewId}`}
       questions={questions}
-      onConclude={handleQuizComplete}
+      infographicHtml={infographicHtml}
+      onConclude={handleConclude}
     />
   );
 };

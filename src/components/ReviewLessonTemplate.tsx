@@ -16,6 +16,7 @@ import {
   AccordionTrigger,
   AccordionItem,
 } from "@/components/ui/accordion";
+import InfographicViewer from './InfographicViewer';
 
 export interface Question {
   id: string;
@@ -30,12 +31,14 @@ export interface Question {
 interface ReviewLessonTemplateProps {
   title: string;
   questions: Question[];
+  infographicHtml: string;
   onConclude: () => void;
 }
 
 const ReviewLessonTemplate = ({
   title,
   questions,
+  infographicHtml,
   onConclude,
 }: ReviewLessonTemplateProps) => {
   const [view, setView] = useState<'explanation' | 'quiz' | 'result'>('explanation');
@@ -110,20 +113,35 @@ const ReviewLessonTemplate = ({
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <Card className="p-8">
             <div className="text-center mb-8">
               <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Trophy className="w-10 h-10 text-white" />
               </div>
               <h2 className="text-3xl font-bold mb-2">Revisão Concluída!</h2>
-              <p className="text-gray-600 dark:text-gray-300">Você acertou {correctAnswers} de {totalQuestions} perguntas.</p>
-              <p className="text-5xl font-bold my-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">{score}%</p>
+              <p className="text-gray-600 dark:text-gray-300">Você completou a revisão de {totalQuestions} perguntas.</p>
+              
+              <div className="my-6 p-6 bg-purple-50 dark:bg-purple-900/50 rounded-lg border border-purple-200 dark:border-purple-700 inline-block">
+                <p className="text-lg font-semibold">Sua Pontuação:</p>
+                <p className="text-5xl font-bold my-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">{score}%</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Você acertou {correctAnswers} de {totalQuestions} questões.</p>
+              </div>
             </div>
-            <Button size="lg" className="w-full" onClick={onConclude}>
-              Voltar para o Dashboard
-              <ChevronRight className="ml-2" />
-            </Button>
+
+            {infographicHtml && (
+              <InfographicViewer
+                htmlContent={infographicHtml}
+                title={title}
+              />
+            )}
+
+            <div className="mt-10 flex justify-center">
+              <Button size="lg" className="w-full md:w-1/2" onClick={onConclude}>
+                Voltar para o Dashboard
+                <ChevronRight className="ml-2" />
+              </Button>
+            </div>
           </Card>
         </div>
       </div>

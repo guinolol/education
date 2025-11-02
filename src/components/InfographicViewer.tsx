@@ -10,10 +10,9 @@ import { cn } from '@/lib/utils';
 interface InfographicViewerProps {
   htmlContent: string;
   title: string;
-  onClose: () => void;
 }
 
-const InfographicViewer = ({ htmlContent, title, onClose }: InfographicViewerProps) => {
+const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [loading, setLoading] = useState(true);
   const [downloading, setDownloading] = useState(false);
@@ -64,73 +63,62 @@ const InfographicViewer = ({ htmlContent, title, onClose }: InfographicViewerPro
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
-      <div className="max-w-5xl mx-auto">
-        <Card className="p-6">
-          <div className="flex items-center justify-between mb-6 border-b pb-4">
-            <h2 className="text-2xl font-bold flex items-center">
-              <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
-              Revisão Concluída! Seu Infográfico Bônus
-            </h2>
-            <Button onClick={onClose} variant="outline">
-              Voltar para o Dashboard
-            </Button>
-          </div>
-
-          <div className="flex flex-col md:flex-row gap-6">
-            <div className="md:w-2/3">
-              <h3 className="text-xl font-semibold mb-3">{title}</h3>
-              <div className="relative w-full h-[600px] border-4 border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-xl">
-                {loading && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-white/80 dark:bg-gray-900/80 z-10">
-                    <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
-                  </div>
-                )}
-                <iframe
-                  ref={iframeRef}
-                  srcDoc={htmlContent}
-                  title={title}
-                  className={cn("w-full h-full border-none transition-opacity duration-500", loading ? 'opacity-0' : 'opacity-100')}
-                  onLoad={() => setLoading(false)}
-                  // Garante que o iframe se ajuste ao conteúdo interno para a captura
-                  style={{ height: '100%', width: '100%' }}
-                />
+    <div className="mt-8">
+      <h3 className="text-xl font-bold mb-4 flex items-center text-purple-700 dark:text-purple-300">
+        <CheckCircle className="w-5 h-5 mr-2 text-green-500" />
+        Infográfico Bônus: {title}
+      </h3>
+      
+      <div className="grid md:grid-cols-3 gap-6">
+        <div className="md:col-span-2">
+          <div className="relative w-full h-[500px] border-4 border-purple-300 dark:border-purple-700 rounded-lg overflow-hidden shadow-2xl">
+            {loading && (
+              <div className="absolute inset-0 flex items-center justify-center bg-white/80 dark:bg-gray-900/80 z-10">
+                <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
               </div>
-            </div>
-
-            <div className="md:w-1/3 flex flex-col space-y-4">
-              <Card className="p-4 bg-gray-50 dark:bg-gray-800">
-                <h4 className="font-semibold mb-2">Sobre o Infográfico</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
-                  Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Use-o como um guia rápido para aplicar as habilidades no dia a dia.
-                </p>
-              </Card>
-              
-              <Button 
-                size="lg" 
-                onClick={handleDownload} 
-                disabled={loading || downloading}
-                className="w-full bg-green-600 hover:bg-green-700 text-white"
-              >
-                {downloading ? (
-                  <>
-                    <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                    Preparando Download...
-                  </>
-                ) : (
-                  <>
-                    <Download className="w-4 h-4 mr-2" />
-                    Baixar como PNG
-                  </>
-                )}
-              </Button>
-              
-              <p className="text-xs text-center text-gray-500 dark:text-gray-400">
-                A qualidade da imagem pode variar dependendo do navegador.
-              </p>
-            </div>
+            )}
+            <iframe
+              ref={iframeRef}
+              srcDoc={htmlContent}
+              title={title}
+              className={cn("w-full h-full border-none transition-opacity duration-500", loading ? 'opacity-0' : 'opacity-100')}
+              onLoad={() => setLoading(false)}
+              style={{ height: '100%', width: '100%', transform: 'scale(0.8)', transformOrigin: 'top left' }}
+            />
           </div>
-        </Card>
+        </div>
+
+        <div className="md:col-span-1 flex flex-col space-y-4">
+          <Card className="p-4 bg-purple-50 dark:bg-purple-900/50 border-purple-200 dark:border-purple-700">
+            <h4 className="font-semibold mb-2 text-purple-800 dark:text-purple-200">Sobre o Infográfico</h4>
+            <p className="text-sm text-gray-600 dark:text-gray-300">
+              Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Use-o como um guia rápido para aplicar as habilidades no dia a dia.
+            </p>
+          </Card>
+          
+          <Button 
+            size="lg" 
+            onClick={handleDownload} 
+            disabled={loading || downloading}
+            className="w-full bg-green-600 hover:bg-green-700 text-white shadow-lg shadow-green-500/50"
+          >
+            {downloading ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Preparando Download...
+              </>
+            ) : (
+              <>
+                <Download className="w-4 h-4 mr-2" />
+                Baixar como PNG
+              </>
+            )}
+          </Button>
+          
+          <p className="text-xs text-center text-gray-500 dark:text-gray-400">
+            A qualidade da imagem pode variar dependendo do navegador.
+          </p>
+        </div>
       </div>
     </div>
   );
