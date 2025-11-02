@@ -756,3 +756,382 @@
     }
   ]
 }
+{
+  "simulationId": 3,
+  "title": "🎭 Simulação: Conflito de Equipe e Perda de Controle",
+  "introduction": "Você é o gerente de uma equipe de vendas. Recentemente, dois membros principais, Luís (Veterano) e Patrícia (Nova Contratação), estão em conflito constante. Luís acredita que as estratégias antigas são as melhores e critica abertamente as ideias inovadoras de Patrícia. Patrícia se sente desrespeitada e desmotivada, alegando que Luís está impedindo a equipe de evoluir. A produtividade caiu e o clima está péssimo. Seu chefe exige resultados e você precisa intervir. Esta simulação testa sua habilidade em aplicar as lições de Domine Minhas Histórias, As Três Histórias Estúpidas, Contraste e Propósito Mútuo (CRIB Review) e Combinando Falar e Ouvir para resolver o conflito e restaurar a colaboração.",
+  "challenges": [
+    {
+      "step": 1,
+      "testedLesson": "Domine Minhas Histórias (Master My Stories)",
+      "narrative": "🤯 Você entra na sala de reunião para conversar com Luís e Patrícia. A tensão é palpável. Você sente sua pressão subir e uma voz interna sussurrar: 'Esses dois estão destruindo a equipe. Eles são teimosos e imaturos. Se não melhorarem, vou ter que tomar medidas drásticas.' **Antes de falar, qual é a primeira coisa que você deve reconhecer?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Esses dois realmente são o problema. Eu preciso confrontá-los com firmeza.",
+          "feedback": "❌ Você está contando uma História de Vilão sobre Luís e Patrícia, o que vai direto para a Violência. Isso vai piorar a situação e matar qualquer chance de diálogo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Reconhecer que essa é a *minha* história sobre a situação, não um fato. Parar e perguntar: 'Que história estou contando?'",
+          "feedback": "✅ Exato! Você reconheceu que está criando uma narrativa (história) sobre os fatos. Isso é o primeiro passo para dominar suas histórias e manter o controle emocional. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Concordar com Luís, afinal, ele é mais antigo e experiente.",
+          "feedback": "⚠️ Isso é tomar partido baseado em uma história (a de Luís), não nos fatos. Você está entrando na conversa com preconceitos. (1/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Concordar com Patrícia, afinal, inovação é importante.",
+          "feedback": "⚠️ Isso é tomar partido baseado em uma história (a de Patrícia), não nos fatos. Você está entrando na conversa com preconceitos. (1/3 ★)",
+          score: 1
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "testedLesson": "As Três Histórias Estúpidas (Fool's Stories)",
+      "narrative": "🧘‍♂️ Com o reconhecimento da sua história, você sente-se mais calmo. No entanto, uma parte de você ainda insiste: 'Não é minha culpa que a equipe esteja assim. Eu sempre fui um bom gerente. Eles que estão sendo problemáticos.' **Que tipo de história estúpida você está contando?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "História de Vilão: 'Eles são os culpados.'",
+          "feedback": "❌ Isso é uma História de Vilão, mas a narrativa interna ('não é minha culpa') também carrega traços de História de Vítima. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "História de Vítima: 'Não é minha culpa, eu sou inocente, eles são os vilões.'",
+          "feedback": "✅ Correto! Você está se apresentando como inocente e culpando os outros, o que é o núcleo da História de Vítima. Reconhecer isso é o primeiro passo para mudar. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "História de Desamparo: 'Não posso fazer nada, eles são assim.'",
+          "feedback": "❌ Isso seria História de Desamparo, mas a narrativa 'não é minha culpa' é mais central na História de Vítima. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "História Inteligente: 'Vou ouvir e resolver isso.'",
+          "feedback": "❌ Ainda não. A história 'não é minha culpa' é uma História Estúpida. Você precisa reconhecer seu papel. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "testedLesson": "Combinando Falar e Ouvir",
+      "narrative": "🤝 Você inicia a conversa com Luís e Patrícia. Decide começar ouvindo. Patrícia diz: 'Eu tento apresentar ideias novas, mas Luís me interrompe e faz piadas. Ele não me respeita.' Você vê Luís se remexer na cadeira e cruzar os braços. **Qual é a próxima ação mais segura?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Luís: 'Luís, você precisa respeitar Patrícia.'",
+          "feedback": "❌ Isso é uma acusação direta e vai para a Violência. Você não ouviu Luís e já está tomando partido. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Espelhar para Luís: 'Luís, seu corpo parece tenso. Como você está se sentindo ouvindo isso?'",
+          "feedback": "✅ Ótimo! Você usou AMPP (Mirror) para reconhecer a emoção de Luís e convidá-lo a falar, equilibrando o ouvir com a percepção. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer a Patrícia: 'Entendo seu ponto de vista. Vamos ouvir Luís agora.'",
+          "feedback": "⚠️ É uma tentativa razoável de continuar ouvindo, mas ignora o sinal claro de emoção de Luís. Espelhar é mais seguro. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa e dizer: 'Vamos parar por aqui e voltar amanhã.'",
+          "feedback": "❌ Isso é Silêncio. Você está evitando a emoção em vez de lidar com ela. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "testedLesson": "Contraste e Propósito Mútuo (CRIB Review)",
+      "narrative": "👂 Luís responde ao espelho com frustração: 'Eu não faço piadas. Eu só digo o que penso. E acho que Patrícia está querendo reinventar a roda, desperdiçando tempo com coisas que não funcionam.' Patrícia se levanta, ofendida. Ela diz: 'Você está me desrespeitando!'. O respeito mútuo está claramente em risco. **O que você faz imediatamente?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Patrícia: 'Você está exagerando, Luís só deu sua opinião.'",
+          "feedback": "❌ Isso invalida os sentimentos de Patrícia e não restaura o respeito. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Patrícia, não é nossa intenção desrespeitar você ou dizer que suas ideias não têm valor. Queremos ouvir e entender. Luís, o que você quis dizer com isso?'",
+          "feedback": "✅ Perfeito! Você usou Contraste ('NÃO queremos desrespeitar', 'SIM queremos ouvir') para restaurar o respeito rapidamente. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer a Luís: 'Você precisa ser mais gentil.'",
+          "feedback": "❌ Isso é uma crítica direta a Luís, sem restaurar o respeito a Patrícia. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer Luís e Patrícia se olharem nos olhos e se desculparem.",
+          "feedback": "❌ Forçar desculpas não resolve a raiz do problema (falta de respeito). (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "testedLesson": "Domine Minhas Histórias (Master My Stories)",
+      "narrative": "🤝 Com o respeito restaurado, Luís explica que as novas ideias de Patrícia parecem complicadas e arriscadas, baseado em sua experiência. Patrícia rebate que as estratégias antigas não estão mais funcionando. Você sente a velha voz interna sussurrar: 'Isso é inútil. Eles estão certos em partes, mas não vão concordar. Eu que vou ter que resolver tudo sozinho.' **Que tipo de história você está contando agora?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "História de Vítima: 'Eles estão me forçando a resolver isso sozinho.'",
+          "feedback": "⚠️ Há traços de vítima ('forçando'), mas a ideia central é que *você* precisa resolver tudo, o que implica que *não há nada que eles possam fazer*. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "História de Desamparo: 'Não há nada que eu possa fazer, eles não vão concordar.'",
+          "feedback": "❌ Isso seria Desamparo puro. A história 'eu que vou resolver' sugere mais que *você* tem que fazer tudo, o que é uma História de Vítima com toques de Desamparo. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "História de Desamparo: 'Não há nada que *eles* possam fazer, só eu posso resolver.'",
+          "feedback": "✅ Correto! Você está se sentindo como o único que pode resolver, negando a capacidade dos outros de colaborar. Isso é uma História de Desamparo, que pode levar à inação ou à imposição. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "História de Vilão: 'Eles são os culpados por me forçar a isso.'",
+          "feedback": "❌ Isso seria Vilão. A história 'eu que vou resolver' é mais sobre *sua* incapacidade percebida de delegar ou envolver outros. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "testedLesson": "As Três Histórias Estúpidas (Fool's Stories)",
+      "narrative": "🧠 Reconhecendo a História de Desamparo, você se pergunta: 'O que eu posso fazer agora para envolver Luís e Patrícia na solução?' Em vez de impor uma solução, você decide tentar outra abordagem. **Qual pergunta você deve fazer para transformar essa História de Desamparo em uma História Inteligente?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Como posso provar a Luís que as ideias de Patrícia são melhores?",
+          "feedback": "❌ Isso ainda está na mentalidade de 'vencer' e pode alimentar uma História de Vilão. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Como posso forçar Patrícia a aceitar as estratégias antigas?",
+          "feedback": "❌ Isso também está na mentalidade de 'vencer' e é uma História de Vilão. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "c",
+          "label": "O que eu posso fazer para que Luís e Patrícia trabalhem juntos nisso? Como posso facilitar um entendimento mútuo?",
+          "feedback": "✅ Exatamente! Você mudou o foco de 'não posso fazer nada' para 'o que posso fazer?', o que é o cerne de uma História Inteligente. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "d",
+          "label": "Por que eles não conseguem ver como eu vejo?",
+          "feedback": "⚠️ Isso pode alimentar uma História de Vítima ('sou eu que entendo'). (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "testedLesson": "Combinando Falar e Ouvir",
+      "narrative": "💡 Com a nova intenção, você diz: 'Luís, Patrícia, parece que ambos querem o melhor para a equipe, mas temos visões diferentes sobre como alcançar isso. Vamos tentar entender melhor o caminho de cada um.' Você ouve Luís explicar seu apego às estratégias anteriores e Patrícia detalhar suas propostas. Agora, você precisa compartilhar sua visão. **Como você faz isso de forma equilibrada?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Bom, eu acho que as duas ideias têm méritos, mas vou escolher uma e ponto final.'",
+          "feedback": "❌ Isso é impor uma decisão sem integrar as ideias. Você ouviu, mas não usou STATE para contribuir de forma segura. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar STATE: 'Fato: Eu ouvi que Luís valoriza a estabilidade e Patrícia a inovação. História: Acho que podemos testar ideias novas de forma controlada, usando a experiência de Luís. O que vocês acham? Estou aberto a ajustes.'",
+          "feedback": "✅ Perfeito! Você compartilhou fatos, sua interpretação com tentativa e convidou para o diálogo, equilibrando falar e ouvir. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Luís, você tem razão em parte. Patrícia, você também tem razão. Vamos tentar um meio termo.'",
+          "feedback": "⚠️ É uma tentativa de agradar a todos, mas não estrutura claramente sua proposta como STATE. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Fazer Luís e Patrícia resumirem o que ouviram um do outro.",
+          "feedback": "⚠️ Isso é útil, mas você ainda não compartilhou *seu* caminho usando STATE. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "testedLesson": "Contraste e Propósito Mútuo (CRIB Review)",
+      "narrative": "🤝 Luís concorda com cautela, mas Patrícia parece desconfiada. Ela diz: 'E se isso for só para me calar? Vocês dois acham que sou inexperiente.' O respeito mútuo vacila novamente. **Como você restaura a segurança rapidamente?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Patrícia: 'Não, claro que não. Você é muito talentosa.'",
+          "feedback": "❌ É um elogio, mas não nega explicitamente a intenção de desrespeito ou invalidação que Patrícia sentiu. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste: 'Patrícia, não é nossa intenção te calar ou te desvalorizar por ser nova. SIM, queremos sua contribuição e experiência de Luís. Como podemos provar isso?'",
+          "feedback": "✅ Correto! Você usou Contraste para negar a intenção negativa ('NÃO calar') e reafirmar a positiva ('SIM, queremos sua contribuição'). (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer a Luís: 'Mostre a Patrícia que você a respeita.'",
+          "feedback": "❌ Isso coloca Luís na defensiva e não restaura a segurança vinda de você. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer uma pausa longa e olhar fixamente para Patrícia.",
+          "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "testedLesson": "Domine Minhas Histórias (Master My Stories)",
+      "narrative": "👂 Com o respeito restaurado, Patrícia começa a relaxar e Luís parece mais aberto. No entanto, você sente um resquício de frustração dentro de si: 'Por que isso tem que ser tão complicado? Por que eles não conseguem simplesmente trabalhar juntos como adultos?' **Que tipo de história você está contando sobre *você mesmo* e a situação?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "História de Vilão: 'Eles são imaturos e difíceis.'",
+          "feedback": "⚠️ Isso é uma História de Vilão sobre eles, mas a narrativa interna 'por que tem que ser tão complicado para *mim*?' tem traços de Vítima. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "b",
+          "label": "História de Vítima: 'Sou eu que estou lidando com essa situação complicada, eles deveriam ser mais fáceis de gerenciar.'",
+          "feedback": "✅ Correto! Você está se vendo como a parte afetada por uma situação injusta (complicada por outros), o que é uma História de Vítima. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "História de Desamparo: 'Não consigo lidar com isso.'",
+          "feedback": "❌ A história 'por que tem que ser tão complicado?' não nega sua capacidade de agir, mas sim sua *justa* expectativa de que *deveria* ser fácil. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "História Inteligente: 'Estou aprendendo a lidar com conflitos complexos.'",
+          "feedback": "❌ Ainda não. A frustração e o senso de injustiça indicam uma História Estúpida. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "testedLesson": "As Três Histórias Estúpidas (Fool's Stories)",
+      "narrative": "🧘‍♂️ Reconhecendo a História de Vítima, você se lembra que o conflito é uma oportunidade de crescimento para todos. Você respira fundo e se concentra no objetivo comum. Luís e Patrícia ainda discutem sobre detalhes da proposta. Luís diz: 'Isso vai nos atrasar.' Patrícia rebate: 'Não vai, se fizermos direito.' Parece que estão presos em suas estratégias. **Qual é o próximo passo para alinhar o propósito?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Vamos votar. Quem concorda com Luís? Quem concorda com Patrícia?'",
+          "feedback": "❌ Isso transforma a discussão em uma competição, ignorando o propósito comum. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Perguntar: 'Antes de discutirmos *como*, qual é o *porquê* comum? O que Luís e Patrícia concordam que querem alcançar com isso?'",
+          "feedback": "✅ Exatamente! Você está aplicando CRIB (Reconhecer o propósito por trás da estratégia) para separar a estratégia (como fazer) do propósito (por que fazer). (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Vamos fazer do jeito que eu acho melhor.'",
+          "feedback": "❌ Isso é Silêncio/Violência imposto. Não envolve a equipe no diálogo. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer cada um escrever sua ideia no quadro e depois comparar.",
+          "feedback": "⚠️ Pode ser útil, mas não aborda diretamente o *propósito* comum primeiro. (2/3 ★)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "testedLesson": "Combinando Falar e Ouvir",
+      "narrative": "🎯 Luís e Patrícia concordam que o objetivo é aumentar as vendas e a satisfação do cliente. Com o propósito comum estabelecido, as estratégias parecem menos opostas. Patrícia ouve Luís com mais atenção e vice-versa. Você percebe que ambos têm pontos valiosos. **Como você integra as duas visões de forma segura e produtiva?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer: 'Ótimo, então vamos fazer um pouco de cada ideia.'",
+          "feedback": "⚠️ É um meio termo, mas não estrutura claramente a integração. (1/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar ABC: 'Concordo que a experiência de Luís com o processo é crucial. Concordo que as ideias de Patrícia sobre inovação são importantes. Podemos construir uma abordagem que use a estrutura antiga como base e adicione os elementos novos de forma testável?'",
+          "feedback": "✅ Excelente! Você usou ABC (Agree, Build, Compare implicitamente) para integrar as ideias e construir uma solução conjunta. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Patrícia, você está certa. Luís, vamos mudar.'",
+          "feedback": "❌ Isso é tomar partido e invalidar Luís. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "d",
+          "label": "Fazer Luís e Patrícia trocarem de funções temporariamente.",
+          "feedback": "⚠️ Pode ser confuso e não necessariamente integra as ideias. (2/3 ★)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "testedLesson": "Contraste e Propósito Mútuo (CRIB Review)",
+      "narrative": "🤝 A reunião está terminando. Luís e Patrícia parecem mais alinhados. No entanto, Patrícia faz uma última observação: 'Só espero que, da próxima vez, minhas ideias sejam ouvidas desde o início, e não descartadas.' Luís se remexe na cadeira. Você percebe que o respeito mútuo pode vacilar novamente se não for bem manejado. **Como você encerra, garantindo que o respeito e o propósito comum sejam mantidos?**",
+      "options": [
+        {
+          "value": "a",
+          "label": "Dizer a Luís: 'Você precisa ouvir Patrícia da próxima vez.'",
+          "feedback": "❌ Isso é uma ordem e pode soar como desrespeito a Luís. (0/3 ★)",
+          "score": 0
+        },
+        {
+          "value": "b",
+          "label": "Usar Contraste e reafirmar o propósito: 'Patrícia, não é nossa intenção desconsiderar suas ideias. SIM, queremos ouvi-las desde o início. Luís, como podemos garantir isso no futuro, mantendo nosso foco em resultados?'",
+          "feedback": "✅ Perfeito! Você usou Contraste para restaurar o respeito e reafirmou o propósito comum (resultados), envolvendo Luís na solução. (3/3 ★)",
+          "score": 3
+        },
+        {
+          "value": "c",
+          "label": "Dizer: 'Tudo bem, Patrícia. Vamos tentar melhorar.'",
+          "feedback": "⚠️ É reconhecimento, mas não restaura explicitamente o respeito ou envolve Luís proativamente. (2/3 ★)",
+          "score": 1
+        },
+        {
+          "value": "d",
+          "label": "Encerrar a reunião imediatamente.",
+          "feedback": "❌ Isso ignora o sinal de descontentamento de Patrícia e pode deixar ressentimentos. (1/3 ★)",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
