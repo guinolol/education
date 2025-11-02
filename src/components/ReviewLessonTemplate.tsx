@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
@@ -45,16 +45,26 @@ const ReviewLessonTemplate = ({
 }: ReviewLessonTemplateProps) => {
   const navigate = useNavigate();
   const [view, setView] = useState<'explanation' | 'quiz' | 'result' | 'gameOver'>('explanation');
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<string, string>>({});
+  
+  // Estado para gerenciar a fila de perguntas ativas
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
+  // Estado para rastrear as respostas definitivas (para cálculo de score)
+  const [finalAnswers, setFinalAnswers] = useState<Record<string, string>>({});
+  
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [lives, setLives] = useState(2); // 2 vidas para revisões
+  const [questionsAnsweredCount, setQuestionsAnsweredCount] = useState(0); // Contador para o progresso
+
+  useEffect(() => {
+    // Inicializa a fila de perguntas quando o componente é montado
+    setActiveQuestions([...questions]);
+  }, [questions]);
 
   const calculateScore = () => {
     let correctCount = 0;
     questions.forEach(q => {
-      if (answers[q.id] === q.correctAnswer) {
+      if (finalAnswers[q.id] === q.correctAnswer) {
         correctCount++;
       }
     });
@@ -67,48 +77,70 @@ const ReviewLessonTemplate = ({
   };
 
   const handleAnswer = (questionId: string, answer: string) => {
-    const question = questions[currentQuestionIndex];
-    const isCorrect = answer === question.correctAnswer;
+    const currentQuestion = activeQuestions[0];
+    const isCorrect = answer === currentQuestion.correctAnswer;
 
-    setAnswers(prev => ({ ...prev, [questionId]: answer }));
     setSelectedAnswer(answer);
     setShowFeedback(true);
 
-    if (!isCorrect) {
+    if (isCorrect) {
+      // Se correto, move a pergunta para as respostas finais e remove da fila ativa
+      setFinalAnswers(prev => ({ ...prev, [questionId]: answer }));
+      setQuestionsAnsweredCount(prev => prev + 1);
+    } else {
+      // Se incorreto, perde vida
       setLives(prev => {
         const newLives = prev - 1;
         if (newLives <= 0) {
-          setTimeout(() => setView('gameOver'), 1000); // Mostrar game over após feedback
+          setTimeout(() => setView('gameOver'), 1000);
         }
         return newLives;
+      });
+      
+      // Move a pergunta para o final da fila para ser respondida novamente
+      setActiveQuestions(prev => {
+        const [first, ...rest] = prev;
+        return [...rest, first];
       });
     }
   };
 
   const handleNextQuestion = () => {
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-      setSelectedAnswer(null);
-      setShowFeedback(false);
-    } else {
+    if (activeQuestions.length > 0 && selectedAnswer !== activeQuestions[0].correctAnswer) {
+      // Se a resposta foi incorreta, a pergunta já foi movida para o final da fila
+      // Apenas removemos a pergunta atual da frente da fila (que é a que foi respondida)
+      setActiveQuestions(prev => {
+        const [_, ...rest] = prev;
+        return rest;
+      });
+    } else if (activeQuestions.length > 0) {
+      // Se a resposta foi correta, removemos a pergunta da frente da fila
+      setActiveQuestions(prev => {
+        const [_, ...rest] = prev;
+        return rest;
+      });
+    }
+
+    setSelectedAnswer(null);
+    setShowFeedback(false);
+
+    // Verifica se o quiz terminou
+    if (activeQuestions.length === 1 && selectedAnswer === activeQuestions[0].correctAnswer) {
       setView('result');
     }
   };
 
   const handlePrevious = () => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(prev => prev - 1);
-      setSelectedAnswer(null);
-      setShowFeedback(false);
-    }
+    // Navegação para trás desabilitada devido à complexidade da fila
   };
 
   const handleRestart = () => {
     setLives(2);
-    setAnswers({});
-    setCurrentQuestionIndex(0);
+    setFinalAnswers({});
+    setActiveQuestions([...questions]);
     setSelectedAnswer(null);
     setShowFeedback(false);
+    setQuestionsAnsweredCount(0);
     setView('quiz');
   };
 
@@ -194,9 +226,13 @@ const ReviewLessonTemplate = ({
   }
 
   if (view === 'quiz') {
-    const question = questions[currentQuestionIndex];
-    const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
-    const isCorrect = answers[question.id] === question.correctAnswer;
+    const currentQuestion = activeQuestions[0];
+    const progress = (questionsAnsweredCount / questions.length) * 100;
+    const isCorrect = selectedAnswer === currentQuestion?.correctAnswer;
+
+    if (!currentQuestion) {
+      return null;
+    }
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 dark:from-purple-900 dark:to-blue-900 p-4">
@@ -215,25 +251,27 @@ const ReviewLessonTemplate = ({
                     />
                   ))}
                 </div>
-                <Badge variant="secondary">Exercício {currentQuestionIndex + 1}/{questions.length}</Badge>
+                <Badge variant="secondary">
+                  Progresso: {questionsAnsweredCount}/{questions.length}
+                </Badge>
               </div>
             </div>
             <Progress value={progress} className="h-2" />
             <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-2">
-              Pergunta {currentQuestionIndex + 1} de {questions.length}
+              Perguntas restantes: {activeQuestions.length}
             </p>
           </div>
 
           <Card className="p-8">
             <div className="flex items-center gap-3 mb-6">
               <BookOpen className="w-6 h-6 text-purple-600" />
-              <h2 className="text-2xl font-bold">{question.question}</h2>
+              <h2 className="text-2xl font-bold">{currentQuestion.question}</h2>
             </div>
 
             <div className="space-y-4 mb-6">
-              {question.options.map((option) => {
+              {currentQuestion.options.map((option) => {
                 const isSelected = selectedAnswer === option.value;
-                const isCorrectOption = option.value === question.correctAnswer;
+                const isCorrectOption = option.value === currentQuestion.correctAnswer;
                 let bgColor = "bg-white dark:bg-gray-800";
                 let iconToShow = <Circle className="w-5 h-5 text-gray-400" />;
 
@@ -258,7 +296,7 @@ const ReviewLessonTemplate = ({
                       name="answer"
                       value={option.value}
                       checked={isSelected}
-                      onChange={() => handleAnswer(question.id, option.value)}
+                      onChange={() => handleAnswer(currentQuestion.id, option.value)}
                       className="sr-only peer"
                       disabled={showFeedback || lives <= 0}
                     />
@@ -298,14 +336,14 @@ const ReviewLessonTemplate = ({
                       </>
                     )}
                   </h3>
-                  <p className="text-sm mb-3">{question.explanation}</p>
-                  {question.bookExample && (
+                  <p className="text-sm mb-3">{currentQuestion.explanation}</p>
+                  {currentQuestion.bookExample && (
                     <div className="bg-white/50 dark:bg-gray-800/50 p-3 rounded-lg">
                       <p className="text-sm font-medium flex items-center">
                         <BookOpen className="w-4 h-4 mr-2" />
                         Exemplo do livro:
                       </p>
-                      <p className="text-sm italic">{question.bookExample}</p>
+                      <p className="text-sm italic">{currentQuestion.bookExample}</p>
                     </div>
                   )}
                 </div>
@@ -322,7 +360,7 @@ const ReviewLessonTemplate = ({
                 </AccordionTrigger>
                 <AccordionContent>
                   <p className="text-sm text-gray-600 dark:text-gray-300 p-2">
-                    {question.hint}
+                    {currentQuestion.hint}
                   </p>
                 </AccordionContent>
               </AccordionItem>
@@ -333,7 +371,7 @@ const ReviewLessonTemplate = ({
                 variant="outline"
                 size="sm"
                 onClick={handlePrevious}
-                disabled={currentQuestionIndex === 0 || showFeedback}
+                disabled={questionsAnsweredCount === 0 || showFeedback}
               >
                 <ChevronLeft className="mr-2" />
                 Anterior
@@ -341,7 +379,7 @@ const ReviewLessonTemplate = ({
 
               {showFeedback && lives > 0 ? (
                 <Button size="sm" onClick={handleNextQuestion}>
-                  {currentQuestionIndex < questions.length - 1 ? "Próxima" : "Concluir"}
+                  {activeQuestions.length === 1 && isCorrect ? "Concluir" : "Próxima"}
                   <ChevronRight className="ml-2" />
                 </Button>
               ) : (
