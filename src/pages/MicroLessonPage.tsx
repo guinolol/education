@@ -2,24 +2,31 @@
 
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
-import { crucialConversationsData } from '@/data/crucial-conversations/crucialConversationsData';
 import NotFound from './NotFound';
-
-const lessonDataMap: Record<string, any[]> = {
-  crucialConversations: crucialConversationsData as any[],
-};
+import React, { useEffect, useState } from 'react';
 
 const MicroLessonPage = () => {
   const { lessonId } = useParams<{ lessonId: string }>();
   const [searchParams] = useSearchParams();
   const trilhaId = searchParams.get('trilha');
   const navigate = useNavigate();
+  const [lessons, setLessons] = useState(null);
 
-  if (!trilhaId || !lessonDataMap[trilhaId]) {
+  useEffect(() => {
+    const loadData = async () => {
+      if (trilhaId === 'crucialConversations') {
+        const { default: crucialConversationsData } = await import('@/data/crucial-conversations/Crucial_Conversations.json');
+        setLessons(crucialConversationsData);
+      }
+    };
+
+    loadData();
+  }, [trilhaId]);
+
+  if (!trilhaId || !lessons) {
     return <NotFound />;
   }
 
-  const lessons = lessonDataMap[trilhaId];
   const lesson = lessons.find(l => l.id.toString() === lessonId);
 
   if (!lesson) {
