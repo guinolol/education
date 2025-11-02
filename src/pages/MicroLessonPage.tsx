@@ -2,11 +2,8 @@
 
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
-import * as crucialConversationsModule from '@/data/crucial-conversations/Crucial_Conversations.json';
+import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
 import NotFound from './NotFound';
-
-// Acessa a exportação padrão do objeto módulo para lidar com problemas de interop
-const crucialConversationsLessons = crucialConversationsModule.default || crucialConversationsModule;
 
 const lessonDataMap: Record<string, any[]> = {
   crucialConversations: crucialConversationsLessons as any[],
