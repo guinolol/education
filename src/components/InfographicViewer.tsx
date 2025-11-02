@@ -3,9 +3,10 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Download, Loader2, CheckCircle } from 'lucide-react';
+import { Download, Loader2, CheckCircle, Maximize, X } from 'lucide-react';
 import * as htmlToImage from 'html-to-image';
 import { cn } from '@/lib/utils';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 interface InfographicViewerProps {
   htmlContent: string;
@@ -16,6 +17,8 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [loading, setLoading] = useState(true);
   const [downloading, setDownloading] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
     // Simula o carregamento do iframe
@@ -62,6 +65,45 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
     }
   };
 
+  const renderIframe = (height: string, isModal: boolean = false) => (
+    <div 
+      className={cn(
+        "relative w-full border-4 border-purple-300 dark:border-purple-700 rounded-lg overflow-hidden shadow-2xl",
+        height
+      )}
+      onMouseEnter={() => !isModal && setIsHovering(true)}
+      onMouseLeave={() => !isModal && setIsHovering(false)}
+    >
+      {loading && (
+        <div className="absolute inset-0 flex items-center justify-center bg-white/80 dark:bg-gray-900/80 z-10">
+          <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
+        </div>
+      )}
+      <iframe
+        ref={iframeRef}
+        srcDoc={htmlContent}
+        title={title}
+        className={cn("w-full h-full border-none transition-opacity duration-500", loading ? 'opacity-0' : 'opacity-100')}
+        onLoad={() => setLoading(false)}
+        style={{ height: '100%', width: '100%' }}
+      />
+
+      {!isModal && (
+        <button
+          onClick={() => setIsExpanded(true)}
+          className={cn(
+            "absolute top-3 right-3 p-2 rounded-full bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm transition-opacity duration-300",
+            "text-purple-600 dark:text-purple-300 border border-purple-300 dark:border-purple-700",
+            isHovering ? 'opacity-100' : 'opacity-0'
+          )}
+          aria-label="Expandir Infográfico"
+        >
+          <Maximize className="w-5 h-5" />
+        </button>
+      )}
+    </div>
+  );
+
   return (
     <div className="mt-8">
       <h3 className="text-xl font-bold mb-4 flex items-center text-purple-700 dark:text-purple-300">
@@ -71,29 +113,14 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
       
       <div className="grid md:grid-cols-3 gap-6">
         <div className="md:col-span-2">
-          <div className="relative w-full h-[500px] border-4 border-purple-300 dark:border-purple-700 rounded-lg overflow-hidden shadow-2xl">
-            {loading && (
-              <div className="absolute inset-0 flex items-center justify-center bg-white/80 dark:bg-gray-900/80 z-10">
-                <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
-              </div>
-            )}
-            <iframe
-              ref={iframeRef}
-              srcDoc={htmlContent}
-              title={title}
-              className={cn("w-full h-full border-none transition-opacity duration-500", loading ? 'opacity-0' : 'opacity-100')}
-              onLoad={() => setLoading(false)}
-              // Removendo a escala fixa e garantindo que o iframe se ajuste ao contêiner
-              style={{ height: '100%', width: '100%' }}
-            />
-          </div>
+          {renderIframe("h-[500px]")}
         </div>
 
         <div className="md:col-span-1 flex flex-col space-y-4">
           <Card className="p-4 bg-purple-50 dark:bg-purple-900/50 border-purple-200 dark:border-purple-700">
             <h4 className="font-semibold mb-2 text-purple-800 dark:text-purple-200">Sobre o Infográfico</h4>
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Use-o como um guia rápido para aplicar as habilidades no dia a dia.
+              Este é um resumo visual (Sketchnote) dos principais conceitos que você revisou. Clique no ícone de expandir para ver em tela cheia ou baixe como PNG.
             </p>
           </Card>
           
@@ -121,6 +148,23 @@ const InfographicViewer = ({ htmlContent, title }: InfographicViewerProps) => {
           </p>
         </div>
       </div>
+
+      {/* Modal de Visualização Expandida */}
+      <Dialog open={isExpanded} onOpenChange={setIsExpanded}>
+        <DialogContent className="max-w-6xl h-[90vh] p-0">
+          <DialogHeader className="p-4 border-b">
+            <DialogTitle className="text-xl font-bold">{title} (Visualização Expandida)</DialogTitle>
+          </DialogHeader>
+          <div className="p-4 h-full overflow-hidden">
+            <iframe
+              srcDoc={htmlContent}
+              title={title}
+              className="w-full h-full border-none"
+              style={{ height: '100%', width: '100%' }}
+            />
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
