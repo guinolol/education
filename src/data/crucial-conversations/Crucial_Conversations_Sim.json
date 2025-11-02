@@ -11,9 +11,9 @@
         "options": [
           {
             "value": "a",
-            "label": "Eu quero vencer essa conversa e provar que Marina está errada. Preciso deixar claro que seus erros são inaceitáveis.",
-            "feedback": "❌ Você entrou na conversa com a mentalidade de 'vencer'. Isso vai gerar defensividade. Marina vai se fechar (Silêncio) ou atacar (Violência). O Coração errado mata o diálogo desde o início. (0/3 ★)",
-            "score": 0
+            "label": "Eu quero entender o que está acontecendo com Marina E encontrar uma forma de ela melhorar os resultados mantendo a relação forte.",
+            "feedback": "✅ Excelente! Você alinhava 3 coisas: seu próprio objetivo (melhorar os resultados), o objetivo dela (entender a situação) e o do relacionamento (mantê-lo saudável). Esse é o Coração certo! (3/3 ★)",
+            "score": 3
           },
           {
             "value": "b",
@@ -23,9 +23,9 @@
           },
           {
             "value": "c",
-            "label": "Eu quero entender o que está acontecendo com Marina E encontrar uma forma de ela melhorar os resultados mantendo a relação forte.",
-            "feedback": "✅ Excelente! Você alinhava 3 coisas: seu próprio objetivo (melhorar os resultados), o objetivo dela (entender a situação) e o do relacionamento (mantê-lo saudável). Esse é o Coração certo! (3/3 ★)",
-            "score": 3
+            "label": "Eu quero vencer essa conversa e provar que Marina está errada. Preciso deixar claro que seus erros são inaceitáveis.",
+            "feedback": "❌ Você entrou na conversa com a mentalidade de 'vencer'. Isso vai gerar defensividade. Marina vai se fechar (Silêncio) ou atacar (Violência). O Coração errado mata o diálogo desde o início. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "d",
@@ -49,7 +49,7 @@
           {
             "value": "b",
             "label": "Você para de falar, faz uma pausa, e pergunta: 'Marina, como você está se sentindo? Notei que algo mudou.'",
-            "feedback": "✅ Perfeito! Você fez a observação (Learn to Look) e reconheceu que a segurança caiu. Agora você está priorizando as CONDIÇÕES sobre o CONTEÚDO. Você desarmou a situação. Marina vai se sentir vista e entendida. (3/3 ★)",
+            "feedback": "✅ Perfeito! Você fez η observação (Learn to Look) e reconheceu que a segurança caiu. Agora você está priorizando as CONDIÇÕES sobre o CONTEÚDO. Você desarmou a situação. Marina vai se sentir vista e entendida. (3/3 ★)",
             "score": 3
           },
           {
@@ -73,9 +73,9 @@
         "options": [
           {
             "value": "a",
-            "label": "Você defende seu ponto de vista: 'Não é isso! Eu nunca disse que você é incompetente. Os fatos falam por si: seus erros estão no entregável.'",
-            "feedback": "❌ VIOLÊNCIA. Você atacou a história dela, não entendeu a insegurança por trás dela. Marina vai se sentir ainda mais atacada. Vocês entrarão em um cabo de guerra sobre quem está certo. (0/3 ★)",
-            "score": 0
+            "label": "Você usa CONTRASTE: 'Eu não quero que você sinta que estou te culpando. Isso não é justo com você e não é o que eu realmente sinto. O que eu SIM quero é que a gente resolva isso JUNTOS, porque valorizo você e seu trabalho.'",
+            "feedback": "✅ EXCELENTE! Você usou a técnica de CONTRASTE (NÃO/SIM) para restaurar o RESPEITO MÚTUO. Você negou a interpretação errada dela (NÃO = não a culpo) e reafirmou sua intenção positiva (SIM = valorizo você). Isso criou segurança novamente. (3/3 ★)",
+            "score": 3
           },
           {
             "value": "b",
@@ -85,9 +85,9 @@
           },
           {
             "value": "c",
-            "label": "Você usa CONTRASTE: 'Eu não quero que você sinta que estou te culpando. Isso não é justo com você e não é o que eu realmente sinto. O que eu SIM quero é que a gente resolva isso JUNTOS, porque valorizo você e seu trabalho.'",
-            "feedback": "✅ EXCELENTE! Você usou a técnica de CONTRASTE (NÃO/SIM) para restaurar o RESPEITO MÚTUO. Você negou a interpretação errada dela (NÃO = não a culpo) e reafirmou sua intenção positiva (SIM = valorizo você). Isso criou segurança novamente. (3/3 ★)",
-            "score": 3
+            "label": "Você defende seu ponto de vista: 'Não é isso! Eu nunca disse que você é incompetente. Os fatos falam por si: seus erros estão no entregável.'",
+            "feedback": "❌ VIOLÊNCIA. Você atacou a história dela, não entendeu η insegurança por trás dela. Marina vai se sentir ainda mais atacada. Vocês entrarão em um cabo de guerra sobre quem está certo. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "d",
@@ -135,15 +135,15 @@
         "options": [
           {
             "value": "a",
-            "label": "Você continua tentando falar mais alto para ser ouvido. Isso é importante e ela precisa ouvir seus pontos.",
-            "feedback": "❌ Você entrou em uma guerra de VIOLÊNCIA contra VIOLÊNCIA. Quem fala mais alto ganha? Ninguém. Ambos vão sair da conversa frustrados e a decisão não vai ser boa. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Você levanta uma mão levemente e diz, com tom calmo: 'Marina, eu vejo que você está muito animada agora, e fico feliz com isso. Mas estou notando que estamos um pouco desconectados. Posso contribuir também?'",
             "feedback": "✅ PERFEITO! Você OBSERVOU as CONDIÇÕES (ela em VIOLÊNCIA - dominando), reconheceu (espelhamento), e restaurou o equilíbrio do diálogo de forma gentil. Você não atacou, não se retirou, simplesmente apontou o padrão. (3/3 ★)",
             "score": 3
+          },
+          {
+            "value": "b",
+            "label": "Você continua tentando falar mais alto para ser ouvido. Isso é importante e ela precisa ouvir seus pontos.",
+            "feedback": "❌ Você entrou em uma guerra de VIOLÊNCIA contra VIOLÊNCIA. Quem fala mais alto ganha? Ninguém. Ambos vão sair da conversa frustrados e a decisão não vai ser boa. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "c",
@@ -172,9 +172,9 @@
           },
           {
             "value": "b",
-            "label": "Você para, e antes de tudo diz: 'Marina, eu quero que a gente resolva isso JUNTO. Não estou aqui para culpá-la, mas para ajudá-la a melhorar, porque você É boa no que faz. Pode ser?'",
-            "feedback": "✅ EXCELENTE! Você RECALIBROU o Coração antes de abordar o assunto sensível. Isso cria segurança novamente. Marina sabe que você está do lado dela, e agora ela consegue ouvir o feedback de forma construtiva. (3/3 ★)",
-            "score": 3
+            "label": "Você diz: 'Enfim, voltando aos erros. Você precisa ser mais cuidadosa. Não posso aceitar trabalho de qualidade inferior.'",
+            "feedback": "❌ VIOLÊNCIA disfarçada. Você colocou a culpa diretamente nela ('você precisa ser mais cuidadosa'). Não é uma conversa, é uma ordem. Marina vai se sentir condenada. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "c",
@@ -184,9 +184,9 @@
           },
           {
             "value": "d",
-            "label": "Você diz: 'Enfim, voltando aos erros. Você precisa ser mais cuidadosa. Não posso aceitar trabalho de qualidade inferior.'",
-            "feedback": "❌ VIOLÊNCIA disfarçada. Você colocou a culpa diretamente nela ('você precisa ser mais cuidadosa'). Não é uma conversa, é uma ordem. Marina vai se sentir condenada. (0/3 ★)",
-            "score": 0
+            "label": "Você para, e antes de tudo diz: 'Marina, eu quero que a gente resolva isso JUNTO. Não estou aqui para culpá-la, mas para ajudá-la a melhorar, porque você É boa no que faz. Pode ser?'",
+            "feedback": "✅ EXCELENTE! Você RECALIBROU o Coração antes de abordar o assunto sensível. Isso cria segurança novamente. Marina sabe que você está do lado dela, e agora ela consegue ouvir o feedback de forma construtiva. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -224,7 +224,7 @@
       {
         "step": 8,
         "testedLesson": "O que é uma Conversa Crucial?",
-        "narrative": "✨ Marina fica visibilmente aliviada. Vocês passam 30 minutos mapeando um plano concreto: revisões em dupla, checklists, testes incrementais. Marina vai fazer exercícios de respiração para diminuir a ansiedade. O projeto vai ser ajustado com entregas menores. **Mas agora vem o teste final**: você precisa relatar isso para seu chefe. Seu chefe pode ficar bravo: 'Como assim você mudou o cronograma? Eu espero resultados, não desculpas.' Essa vai ser outra Conversa Crucial — com opiniões divergentes, emoções altas, e riscos reais. **Como você prepara essa conversa?**",
+        "narrative": "✨ Marina fica visivelmente aliviada. Vocês passam 30 minutos mapeando um plano concreto: revisões em dupla, checklists, testes incrementais. Marina vai fazer exercícios de respiração para diminuir a ansiedade. O projeto vai ser ajustado com entregas menores. **Mas agora vem o teste final**: você precisa relatar isso para seu chefe. Seu chefe pode ficar bravo: 'Como assim você mudou o cronograma? Eu espero resultados, não desculpas.' Essa vai ser outra Conversa Crucial — com opiniões divergentes, emoções altas, e riscos reais. **Como você prepara essa conversa?**",
         "options": [
           {
             "value": "a",
@@ -278,7 +278,7 @@
           {
             "value": "d",
             "label": "Você fica esperando que ele termine de digitar, em silêncio, sem dizer nada.",
-            "feedback": "⚠️ SILÊNCIO. Você fez a observação (bom), mas não agiu. Vocês ficam em desconforto. Ninguém comunica, ninguém resolve. (1/3 ★)",
+            "feedback": "⚠️ SILÊNCIO. Você fez η observação (bom), mas não agiu. Vocês ficam em desconforto. Ninguém comunica, ninguém resolve. (1/3 ★)",
             "score": 1
           }
         ]
@@ -302,15 +302,15 @@
           },
           {
             "value": "c",
-            "label": "Sua intenção é entender: 'Ele parece em dúvida. Eu realmente quero saber qual é a preocupação DELE. Se conseguir resolver a preocupação dele, ganhamos os dois.'",
-            "feedback": "✅ PERFEITO! Você RECALIBROU o Coração. Não é sobre vencer. É sobre ENTENDER a objeção dele. Isso te dá poder de responder construtivamente. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "d",
             "label": "Sua intenção é evitar o desconforto: 'Talvez eu deixe ele falar, vejo o que ele diz, e depois decido como responder.'",
             "feedback": "⚠️ Incerto. Você não tem uma intenção clara. Sem uma intenção firme (um Coração), você vai reagir de forma errática quando o chefe disser 'não'. (1/3 ★)",
             "score": 1
+          },
+          {
+            "value": "d",
+            "label": "Sua intenção é entender: 'Ele parece em dúvida. Eu realmente quero saber qual é a preocupação DELE. Se conseguir resolver a preocupação dele, ganhamos os dois.'",
+            "feedback": "✅ PERFEITO! Você RECALIBROU o Coração. Não é sobre vencer. É sobre ENTENDER a objeção dele. Isso te dá poder de responder construtivamente. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -352,9 +352,9 @@
         "options": [
           {
             "value": "a",
-            "label": "Você diz: 'Você tem razão em se preocupar. Por isso a gente vai ter checkpoints semanais. EU vou revisar cada entrega dela pessoalmente. Se não melhorar em 2 semanas, voltamos ao cronograma original. Pode ser?'",
-            "feedback": "✅ PERFEITO! Você reconheceu a preocupação legítima dele (bom diálogo), propôs uma solução que mitiga o risco (checkpoints, sua supervisão), e estabeleceu um deadline claro com uma saída (2 semanas ou volta ao original). Isso é um verdadeiro Diálogo Crucial — você incorporou as preocupações dele na solução. (3/3 ★)",
-            "score": 3
+            "label": "Você recua: 'Na verdade, talvez você tenha razão. Deixa eu voltar e penso melhor. Vou retornar com uma proposta mais segura.'",
+            "feedback": "❌ SILÊNCIO final. Você saiu do diálogo sem resolver. O chefe vai achar que você não tem confiança na sua própria solução. Isso prejudica sua credibilidade. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "b",
@@ -364,15 +364,15 @@
           },
           {
             "value": "c",
-            "label": "Você recua: 'Na verdade, talvez você tenha razão. Deixa eu voltar e penso melhor. Vou retornar com uma proposta mais segura.'",
-            "feedback": "❌ SILÊNCIO final. Você saiu do diálogo sem resolver. O chefe vai achar que você não tem confiança na sua própria solução. Isso prejudica sua credibilidade. (0/3 ★)",
+            "label": "Você tira a proposta de cima da mesa: 'Esqueça, não vai funcionar mesmo. Vou fazer Marina refazer tudo do zero com mais pressão.'",
+            "feedback": "❌ VIOLÊNCIA contra Marina e contra a conversa. Você abandonou a estratégia boa por frustração. Isso vai danificar o projeto, o relacionamento com Marina, e sua credibilidade com o chefe. (0/3 ★)",
             "score": 0
           },
           {
             "value": "d",
-            "label": "Você tira a proposta de cima da mesa: 'Esqueça, não vai funcionar mesmo. Vou fazer Marina refazer tudo do zero com mais pressão.'",
-            "feedback": "❌ VIOLÊNCIA contra Marina e contra a conversa. Você abandonou a estratégia boa por frustração. Isso vai danificar o projeto, o relacionamento com Marina, e sua credibilidade com o chefe. (0/3 ★)",
-            "score": 0
+            "label": "Você diz: 'Você tem razão em se preocupar. Por isso a gente vai ter checkpoints semanais. EU vou revisar cada entrega dela pessoalmente. Se não melhorar em 2 semanas, voltamos ao cronograma original. Pode ser?'",
+            "feedback": "✅ PERFEITO! Você reconheceu a preocupação legítima dele (bom diálogo), propôs uma solução que mitiga o risco (checkpoints, sua supervisão), e estabeleceu um deadline claro com uma saída (2 semanas ou volta ao original). Isso é um verdadeiro Diálogo Crucial — você incorporou as preocupações dele na solução. (3/3 ★)",
+            "score": 3
           }
         ]
       }
@@ -381,7 +381,7 @@
   {
     "simulationId": 2,
     "title": "🎭 Simulação: Projeto em Crise e Equipe Dividida",
-    "introduction": "Você é o gerente de um projeto crucial que está atrasado e com orçamento estourado. A equipe está exausta e dividida. Dois membros principais, Ana (Líder Técnica) e Carlos (Analista de Negócios), estão em conflito aberto sobre a direção do projeto. Ana acha que o foco deve ser na tecnologia e robustez, enquanto Carlos defende priorizar a interface e a experiência do usuário. A tensão entre eles está afetando todo o time. Seu chefe está pressionando por resultados, e você precisa conduzir uma reunião para alinhar todos e retomar o controle. Esta simulação testa sua habilidade em aplicar as lições de Propósito Mútuo, Respeito Mútuo, Compartilhe Seu Caminho e Aprenda a Ouvir para transformar um conflito em colaboração.",
+    "introduction": "Você é o gerente de um projeto crucial que está atrasado e com orçamento estourado. A equipe está exausta e dividida. Dois membros principais, Ana (Líder Técnica) e Carlos (Analista de Negócios), estão em conflito aberto sobre η direção do projeto. Ana acha que o foco deve ser na tecnologia e robustez, enquanto Carlos defende priorizar a interface e a experiência do usuário. A tensão entre eles está afetando todo o time. Seu chefe está pressionando por resultados, e você precisa conduzir uma reunião para alinhar todos e retomar o controle. Esta simulação testa sua habilidade em aplicar as lições de Propósito Mútuo, Respeito Mútuo, Compartilhe Seu Caminho e Aprenda a Ouvir para transformar um conflito em colaboração.",
     "challenges": [
       {
         "step": 1,
@@ -396,20 +396,20 @@
           },
           {
             "value": "b",
-            "label": "Perguntar: 'Antes de discutirmos as soluções, o que todos nós concordamos que é o objetivo final deste projeto? O que estamos tentando realmente entregar?'",
-            "feedback": "✅ Ótimo! Você está aplicando o conceito de Propósito Mútuo, buscando o objetivo comum antes de discutir as estratégias. Isso ajuda a lembrar a todos que estão no mesmo time. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Reconhecer: 'Entendo que Ana quer um sistema robusto e Carlos quer um sistema fácil de usar. Ambos são importantes, mas vamos focar primeiro na robustez.'",
             "feedback": "⚠️ Você reconheceu os lados, mas já impôs uma solução. Isso pode parecer que você está tomando partido, o que ameaça o propósito mútuo. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Perguntar: 'Antes de discutirmos as soluções, o que todos nós concordamos que é o objetivo final deste projeto? O que estamos tentando realmente entregar?'",
+            "feedback": "✅ Ótimo! Você está aplicando o conceito de Propósito Mútuo, buscando o objetivo comum antes de discutir as estratégias. Isso ajuda a lembrar a todos que estão no mesmo time. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos voltar a trabalhar em silêncio. Cada um prepara sua parte e depois comparamos.'",
-            "feedback": "❌ Isso é Silêncio. Você está evitando o conflito e não está criando o propósito comum necessário para o diálogo produtivo. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio. Você está evitando o conflito e não está criando o propósito comum necessário para o diálogo produtivo. (0/3 ★)",
             "score": 0
           }
         ]
@@ -421,26 +421,26 @@
         "options": [
           {
             "value": "a",
-            "label": "Dizer a Ana: 'Ana, por favor, ouça Carlos com respeito. Não vamos tolerar esse tipo de atitude.'",
-            "feedback": "❌ Isso é uma acusação direta e pode parecer desrespeito à Ana. Isso pode piorar o clima e não restaura o respeito mútuo de forma construtiva. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Usar Contraste: 'Carlos, antes que você continue, quero esclarecer: não é nossa intenção desconsiderar sua visão. Nós valorizamos sua contribuição. Estamos tentando entender os detalhes.'",
             "feedback": "✅ Perfeito! O Contraste é a ferramenta certa para restaurar o respeito rapidamente, negando a má intenção e reafirmando o respeito. (3/3 ★)",
             "score": 3
           },
           {
+            "value": "b",
+            "label": "Dizer a Ana: 'Ana, por favor, ouça Carlos com respeito. Não vamos tolerar esse tipo de atitude.'",
+            "feedback": "❌ Isso é uma acusação direta e pode parecer desrespeito à Ana. Isso pode piorar o clima e não restaura o respeito mútuo de forma construtiva. (0/3 ★)",
+            "score": 0
+          },
+          {
             "value": "c",
             "label": "Fazer uma pausa e perguntar a Ana: 'O que está te incomodando, Ana?'",
-            "feedback": "⚠️ Embora seja uma tentativa de ouvir, pode parecer que você está culpando Carlos ou invalidando o sentimento de Carlos. O Contraste é mais direto para restaurar o respeito. (2/3 ★)",
+            "feedback": "⚠️ Embora seja uma tentativa de ouvir, pode parecer que você está culpando Carlos ou invalidando o sentimento de Carlos. O Contraste é mais direto para restaurar o respeito. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
             "label": "Ignorar a reação de Ana e pedir a Carlos para continuar, fingindo que não viu nada.",
-            "feedback": "❌ Ignorar sinais de desrespeito destrói a segurança. Carlos pode se sentir desvalorizado e desistir de participar. (1/3 ★)",
+            "feedback": "❌ Ignorar sinais de desrespeito destrói a segurança. Carlos pode se sentir desvalorizado e desistir de participar. (0/3 ★)",
             "score": 0
           }
         ]
@@ -458,21 +458,21 @@
           },
           {
             "value": "b",
-            "label": "Usar STATE: 'Fato: O último relatório de satisfação do cliente mencionou dificuldade de uso. História: Acho que isso indica um foco prioritário na interface. O que vocês acham? Estou aberto a outros pontos de vista.'",
-            "feedback": "✅ Excelente! Você aplicou STATE: compartilhou um fato, contou sua história com tentativa e convidou os outros a testar sua ideia. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Bom, eu acho que Carlos tem razão, mas Ana também tem pontos válidos. Vamos tentar um meio termo.'",
-            "feedback": "⚠️ Você deu sua opinião e tentou agradar a todos, mas não usou uma estrutura clara como STATE. Pode soar como indecisão ou falta de clareza. (2/3 ★)",
+            "feedback": "⚠️ Você deu sua opinião e tentou agradar a todos, mas não usou uma estrutura clara como STATE. Pode soar como indecisão ou falta de clareza. (1/3 ★)",
             "score": 1
           },
           {
-            "value": "d",
+            "value": "c",
             "label": "Fazer uma pausa e dizer: 'Vamos ouvir mais opiniões antes de eu falar.'",
-            "feedback": "⚠️ Embora seja ouvir, você evita compartilhar sua visão, o que também é importante para o Pool of Shared Meaning. (1/3 ★)",
+            "feedback": "⚠️ Embora seja ouvir, você evita compartilhar sua visão, o que também é importante para o Pool of Shared Meaning. (0/3 ★)",
             "score": 0
+          },
+          {
+            "value": "d",
+            "label": "Usar STATE: 'Fato: O último relatório de satisfação do cliente mencionou dificuldade de uso. História: Acho que isso indica um foco prioritário na interface. O que vocês acham? Estou aberto a outros pontos de vista.'",
+            "feedback": "✅ Excelente! Você aplicou STATE: compartilhou um fato, contou sua história com tentativa e convidou os outros a testar sua ideia. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -502,7 +502,7 @@
           {
             "value": "d",
             "label": "Preparar (Prime): 'Será que você acha que isso vai comprometer a estabilidade do sistema?'",
-            "feedback": "⚠️ O Prime é uma tática de último recurso. Espelhar ou perguntar abertamente é mais seguro antes de adivinhar. (2/3 ★)",
+            "feedback": "⚠️ O Prime é uma tática de último recurso. Espelhar ou perguntar abertamente é mais seguro antes de adivinhar. (1/3 ★)",
             "score": 1
           }
         ]
@@ -520,20 +520,20 @@
           },
           {
             "value": "b",
-            "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana tem medo de mudar ou que está errada. Estamos aqui para ouvir e entender. Ana, continue, por favor.'",
-            "feedback": "✅ Exatamente! Você usou Contraste para negar a intenção de desrespeito e reafirmar o valor da contribuição de Ana. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Pessoal, vamos nos acalmar. Carlos, você tem razão em parte, mas Ana também. Vamos seguir.'",
             "feedback": "⚠️ Embora você reconheça os dois lados, não nega explicitamente o desrespeito de Carlos. O dano à segurança já foi feito. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana tem medo de mudar ou que está errada. Estamos aqui para ouvir e entender. Ana, continue, por favor.'",
+            "feedback": "✅ Exatamente! Você usou Contraste para negar a intenção de desrespeito e reafirmar o valor da contribuição de Ana. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa longa e esperar que passem.",
-            "feedback": "❌ Isso ignora o desrespeito e pode parecer que você concorda com a interrupção e o julgamento. (2/3 ★)",
+            "feedback": "❌ Isso ignora o desrespeito e pode parecer que você concorda com a interrupção e o julgamento. (0/3 ★)",
             "score": 0
           }
         ]
@@ -545,15 +545,15 @@
         "options": [
           {
             "value": "a",
-            "label": "Dizer: 'Vamos dividir o trabalho. Ana cuida da estabilidade, Carlos da usabilidade. Cada um faz sua parte.'",
-            "feedback": "❌ Isso os divide em 'times' e ignora o propósito comum. Pode levar a um produto com partes desconectadas. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Reconhecer o propósito por trás: 'Ana, seu foco na estabilidade é para garantir um produto confiável. Carlos, seu foco na usabilidade é para garantir que o cliente queira usar. Ambos querem um produto de sucesso, certo?'",
             "feedback": "✅ Ótimo! Você separou a *estratégia* (como fazer) do *propósito* (por que fazer) e mostrou que o objetivo final é o mesmo. (3/3 ★)",
             "score": 3
+          },
+          {
+            "value": "b",
+            "label": "Dizer: 'Vamos dividir o trabalho. Ana cuida da estabilidade, Carlos da usabilidade. Cada um faz sua parte.'",
+            "feedback": "❌ Isso os divide em 'times' e ignora o propósito comum. Pode levar a um produto com partes desconectadas. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "c",
@@ -564,7 +564,7 @@
           {
             "value": "d",
             "label": "Pedir a Ana e Carlos para trocarem de funções temporariamente.",
-            "feedback": "⚠️ Isso pode ser confuso e não aborda diretamente o propósito ou a estratégia. (2/3 ★)",
+            "feedback": "❌ Isso pode ser confuso e não aborda diretamente o propósito ou a estratégia. (0/3 ★)",
             "score": 0
           }
         ]
@@ -582,21 +582,21 @@
           },
           {
             "value": "b",
-            "label": "Parafrasear: 'Então, Ana, você concorda com o objetivo comum, mas talvez tenha dúvidas sobre como alcançá-lo? Posso entender melhor?'",
-            "feedback": "✅ Perfeito! Você parafraseou para confirmar o entendimento e perguntou para explorar os sentimentos ocultos, encorajando-a a compartilhar. (3/3 ★)",
-            "score": 3
+            "label": "Preparar (Prime): 'Será que você está preocupada com os riscos técnicos de mudar o foco agora?'",
+            "feedback": "⚠️ O Prime é útil, mas a Parafrase + Pergunta é uma abordagem mais direta e segura após o sinal de resignação. (1/3 ★)",
+            "score": 1
           },
           {
             "value": "c",
             "label": "Espelhar: 'Ana, seu 'Ok' soa um pouco resignado. Você está 100% com a gente nisso?'",
-            "feedback": "⚠️ Boa tentativa de espelhar a emoção, mas a pergunta final pode soar como pressão. A parafrase seguida de pergunta é mais segura. (2/3 ★)",
+            "feedback": "⚠️ Boa tentativa de espelhar a emoção, mas a pergunta final pode soar como pressão. A parafrase seguida de pergunta é mais segura. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
-            "label": "Preparar (Prime): 'Será que você está preocupada com os riscos técnicos de mudar o foco agora?'",
-            "feedback": "⚠️ O Prime é útil, mas a Parafrase + Pergunta é uma abordagem mais direta e segura após o sinal de resignação. (1/3 ★)",
-            "score": 1
+            "label": "Parafrasear: 'Então, Ana, você concorda com o objetivo comum, mas talvez tenha dúvidas sobre como alcançá-lo? Posso entender melhor?'",
+            "feedback": "✅ Perfeito! Você parafraseou para confirmar o entendimento e perguntou para explorar os sentimentos ocultos, encorajando-a a compartilhar. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -620,13 +620,13 @@
           {
             "value": "c",
             "label": "Dizer: 'Essa preocupação é válida, Ana. Carlos, por que não fazemos um plano B considerando isso?'",
-            "feedback": "⚠️ É uma resposta razoável, mas não usou a estrutura STATE explicitamente. Pode soar como uma delegação de solução para Carlos. (2/3 ★)",
+            "feedback": "⚠️ É uma resposta razoável, mas não usou a estrutura STATE explicitamente. Pode soar como uma delegação de solução para Carlos. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos anotar isso e seguir com o plano.'",
-            "feedback": "❌ Silêncio. Você reconheceu a preocupação, mas não a integrou ao diálogo ativamente. (1/3 ★)",
+            "feedback": "❌ Silêncio. Você reconheceu a preocupação, mas não a integrou ao diálogo ativamente. (0/3 ★)",
             "score": 0
           }
         ]
@@ -644,20 +644,20 @@
           },
           {
             "value": "b",
-            "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana está presa no passado ou que suas experiências não valem. Ela trouxe um ponto de risco importante. Como podemos seguir respeitando isso?'",
-            "feedback": "✅ Correto! Você usou Contraste para restaurar o respeito e redirecionou para a colaboração, mantendo o foco no propósito. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Carlos, Ana, vamos todos respirar fundo.'",
             "feedback": "⚠️ É uma tentativa de acalmar, mas não nega explicitamente o desrespeito ou restaura o valor percebido de Ana. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar Contraste: 'Carlos, não é nossa intenção dizer que Ana está presa no passado ou que suas experiências não valem. Ela trouxe um ponto de risco importante. Como podemos seguir respeitando isso?'",
+            "feedback": "✅ Correto! Você usou Contraste para restaurar o respeito e redirecionou para a colaboração, mantendo o foco no propósito. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa e olhar para os dois em silêncio.",
-            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (0/3 ★)",
             "score": 0
           }
         ]
@@ -669,26 +669,26 @@
         "options": [
           {
             "value": "a",
-            "label": "Dizer: 'Carlos, sua ideia é interessante, mas Ana não vai gostar. Vamos com calma.'",
-            "feedback": "❌ Isso assume que Ana não está aberta a ideias e pode confirmar sua resistência. Não promove o diálogo. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Reconhecer o propósito: 'Lembrem-se, nosso objetivo é um produto funcional e bem recebido. Independentemente da abordagem, como cada uma delas contribui para isso?'",
             "feedback": "✅ Perfeito! Você os ancorou novamente no propósito comum, permitindo que avaliem as ideias com base no objetivo, não na preferência pessoal. (3/3 ★)",
             "score": 3
           },
           {
+            "value": "b",
+            "label": "Dizer: 'Carlos, sua ideia é interessante, mas Ana não vai gostar. Vamos com calma.'",
+            "feedback": "❌ Isso assume que Ana não está aberta a ideias e pode confirmar sua resistência. Não promove o diálogo. (0/3 ★)",
+            "score": 0
+          },
+          {
             "value": "c",
             "label": "Dizer: 'Vamos votar na ideia de Carlos.'",
-            "feedback": "❌ Voltar para a competição de ideias em vez do alinhamento de propósito. Pode marginalizar Ana. (1/3 ★)",
+            "feedback": "⚠️ Voltar para a competição de ideias em vez do alinhamento de propósito. Pode marginalizar Ana. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
             "label": "Fazer Ana e Carlos trocarem os papéis novamente.",
-            "feedback": "⚠️ Pode confundir mais do que ajudar. O foco deve ser no propósito e na colaboração. (2/3 ★)",
+            "feedback": "❌ Pode confundir mais do que ajudar. O foco deve ser no propósito e na colaboração. (0/3 ★)",
             "score": 0
           }
         ]
@@ -706,21 +706,21 @@
           },
           {
             "value": "b",
-            "label": "Espelhar: 'Ana, seu rosto está mais calmo, mas você não disse nada. O que está pensando enquanto ouve a ideia de Carlos?'",
-            "feedback": "✅ Ótimo! Você reconheceu a mudança sutil de emoção e convidou Ana a compartilhar com uma pergunta aberta e segura. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Parafrasear Carlos: 'Então Carlos, sua ideia é X. Ana, isso responde à sua preocupação com Y?'",
-            "feedback": "⚠️ Boa tentativa de envolver Ana, mas é uma pergunta fechada. O Espelho seguido de pergunta aberta é mais eficaz para explorar. (2/3 ★)",
+            "feedback": "⚠️ Boa tentativa de envolver Ana, mas é uma pergunta fechada. O Espelho seguido de pergunta aberta é mais eficaz para explorar. (1/3 ★)",
             "score": 1
           },
           {
-            "value": "d",
+            "value": "c",
             "label": "Fazer uma pausa e dizer: 'Vamos dar um tempo.'",
             "feedback": "❌ Silêncio. Evitar a oportunidade de ouvir Ana enquanto ela parece aberta. (0/3 ★)",
             "score": 0
+          },
+          {
+            "value": "d",
+            "label": "Espelhar: 'Ana, seu rosto está mais calmo, mas você não disse nada. O que está pensando enquanto ouve a ideia de Carlos?'",
+            "feedback": "✅ Ótimo! Você reconheceu a mudança sutil de emoção e convidou Ana a compartilhar com uma pergunta aberta e segura. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -744,13 +744,13 @@
           {
             "value": "c",
             "label": "Dizer: 'Ótimo, parece que estamos alinhados. Ana e Carlos, vocês dois fizeram um ótimo trabalho.'",
-            "feedback": "⚠️ É positivo, mas não estrutura claramente os próximos passos ou o entendimento comum alcançado. (2/3 ★)",
+            "feedback": "⚠️ É positivo, mas não estrutura claramente os próximos passos ou o entendimento comum alcançado. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
             "label": "Fazer todos repetirem em voz alta o que foi decidido.",
-            "feedback": "⚠️ Pode soar como uma formalidade excessiva e não necessariamente reforça o 'caminho compartilhado'. (1/3 ★)",
+            "feedback": "❌ Pode soar como uma formalidade excessiva e não necessariamente reforça o 'caminho compartilhado'. (0/3 ★)",
             "score": 0
           }
         ]
@@ -801,26 +801,26 @@
           {
             "value": "a",
             "label": "História de Vilão: 'Eles são os culpados.'",
-            "feedback": "❌ Isso é uma História de Vilão, mas a narrativa interna ('não é minha culpa') também carrega traços de História de Vítima. (2/3 ★)",
+            "feedback": "⚠️ Isso é uma História de Vilão, mas a narrativa interna ('não é minha culpa') também carrega traços de História de Vítima. (1/3 ★)",
             "score": 1
           },
           {
             "value": "b",
-            "label": "História de Vítima: 'Não é minha culpa, eu sou inocente, eles são os vilões.'",
-            "feedback": "✅ Correto! Você está se apresentando como inocente e culpando os outros, o que é o núcleo da História de Vítima. Reconhecer isso é o primeiro passo para mudar. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "História de Desamparo: 'Não posso fazer nada, eles são assim.'",
             "feedback": "❌ Isso seria História de Desamparo, mas a narrativa 'não é minha culpa' é mais central na História de Vítima. (0/3 ★)",
             "score": 0
           },
           {
-            "value": "d",
+            "value": "c",
             "label": "História Inteligente: 'Vou ouvir e resolver isso.'",
-            "feedback": "❌ Ainda não. A história 'não é minha culpa' é uma História Estúpida. Você precisa reconhecer seu papel. (1/3 ★)",
+            "feedback": "❌ Ainda não. A história 'não é minha culpa' é uma História Estúpida. Você precisa reconhecer seu papel. (0/3 ★)",
             "score": 0
+          },
+          {
+            "value": "d",
+            "label": "História de Vítima: 'Não é minha culpa, eu sou inocente, eles são os vilões.'",
+            "feedback": "✅ Correto! Você está se apresentando como inocente e culpando os outros, o que é o núcleo da História de Vítima. Reconhecer isso é o primeiro passo para mudar. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -831,26 +831,26 @@
         "options": [
           {
             "value": "a",
-            "label": "Dizer a Luís: 'Luís, você precisa respeitar Patrícia.'",
-            "feedback": "❌ Isso é uma acusação direta e vai para a Violência. Você não ouviu Luís e já está tomando partido. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Espelhar para Luís: 'Luís, seu corpo parece tenso. Como você está se sentindo ouvindo isso?'",
             "feedback": "✅ Ótimo! Você usou AMPP (Mirror) para reconhecer a emoção de Luís e convidá-lo a falar, equilibrando o ouvir com a percepção. (3/3 ★)",
             "score": 3
           },
           {
+            "value": "b",
+            "label": "Dizer a Luís: 'Luís, você precisa respeitar Patrícia.'",
+            "feedback": "❌ Isso é uma acusação direta e vai para a Violência. Você não ouviu Luís e já está tomando partido. (0/3 ★)",
+            "score": 0
+          },
+          {
             "value": "c",
             "label": "Dizer a Patrícia: 'Entendo seu ponto de vista. Vamos ouvir Luís agora.'",
-            "feedback": "⚠️ É uma tentativa razoável de continuar ouvindo, mas ignora o sinal claro de emoção de Luís. Espelhar é mais seguro. (2/3 ★)",
+            "feedback": "⚠️ É uma tentativa razoável de continuar ouvindo, mas ignora o sinal claro de emoção de Luís. Espelhar é mais seguro. (1/3 ★)",
             "score": 1
           },
           {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos parar por aqui e voltar amanhã.'",
-            "feedback": "❌ Isso é Silêncio. Você está evitando a emoção em vez de lidar com ela. (1/3 ★)",
+            "feedback": "❌ Isso é Silêncio. Você está evitando a emoção em vez de lidar com ela. (0/3 ★)",
             "score": 0
           }
         ]
@@ -868,20 +868,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer a Luís: 'Você precisa ser mais gentil.'",
+            "feedback": "❌ Isso é uma crítica direta a Luís, sem restaurar o respeito a Patrícia. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "Usar Contraste: 'Patrícia, não é nossa intenção desrespeitar você ou dizer que suas ideias não têm valor. Queremos ouvir e entender. Luís, o que você quis dizer com isso?'",
             "feedback": "✅ Perfeito! Você usou Contraste ('NÃO queremos desrespeitar', 'SIM queremos ouvir') para restaurar o respeito rapidamente. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer a Luís: 'Você precisa ser mais gentil.'",
-            "feedback": "❌ Isso é uma crítica direta a Luís, sem restaurar o respeito a Patrícia. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Fazer Luís e Patrícia se olharem nos olhos e se desculparem.",
-            "feedback": "❌ Forçar desculpas não resolve a raiz do problema (falta de respeito). (2/3 ★)",
+            "feedback": "❌ Forçar desculpas não resolve a raiz do problema (falta de respeito). (0/3 ★)",
             "score": 0
           }
         ]
@@ -894,25 +894,25 @@
           {
             "value": "a",
             "label": "História de Vítima: 'Eles estão me forçando a resolver isso sozinho.'",
-            "feedback": "⚠️ Há traços de vítima ('forçando'), mas a ideia central é que *você* precisa resolver tudo, o que implica que *não há nada que eles possam fazer*. (2/3 ★)",
+            "feedback": "⚠️ Há traços de vítima ('forçando'), mas a ideia central é que *você* precisa resolver tudo, o que implica que *não há nada que eles possam fazer*. (1/3 ★)",
             "score": 1
           },
           {
             "value": "b",
-            "label": "História de Desamparo: 'Não há nada que eu possa fazer, eles não vão concordar.'",
-            "feedback": "❌ Isso seria Desamparo puro. A história 'eu que vou resolver' sugere mais que *você* tem que fazer tudo, o que é uma História de Vítima com toques de Desamparo. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "c",
             "label": "História de Desamparo: 'Não há nada que *eles* possam fazer, só eu posso resolver.'",
             "feedback": "✅ Correto! Você está se sentindo como o único que pode resolver, negando a capacidade dos outros de colaborar. Isso é uma História de Desamparo, que pode levar à inação ou à imposição. (3/3 ★)",
             "score": 3
           },
           {
+            "value": "c",
+            "label": "História de Desamparo: 'Não há nada que eu possa fazer, eles não vão concordar.'",
+            "feedback": "❌ Isso seria Desamparo puro. A história 'eu que vou resolver' sugere mais que *você* tem que fazer tudo, o que é uma História de Vítima com toques de Desamparo. (0/3 ★)",
+            "score": 0
+          },
+          {
             "value": "d",
             "label": "História de Vilão: 'Eles são os culpados por me forçar a isso.'",
-            "feedback": "❌ Isso seria Vilão. A história 'eu que vou resolver' é mais sobre *sua* incapacidade percebida de delegar ou envolver outros. (1/3 ★)",
+            "feedback": "❌ Isso seria Vilão. A história 'eu que vou resolver' é mais sobre *sua* incapacidade percebida de delegar ou envolver outros. (0/3 ★)",
             "score": 0
           }
         ]
@@ -920,13 +920,13 @@
       {
         "step": 6,
         "testedLesson": "As Três Histórias Estúpidas (Fool's Stories)",
-        "narrative": "🧠 Reconhecendo a História de Desamparo, você se pergunta: 'O que eu posso fazer agora para envolver Luís e Patrícia na solução?' Em vez de impor uma solução, você decide tentar outra abordagem. **Qual pergunta você deve fazer para transformar essa História de Desamparo em uma História Inteligente?**",
+        "narrative": "🧠 Reconhecendo η História de Desamparo, você se pergunta: 'O que eu posso fazer agora para envolver Luís e Patrícia na solução?' Em vez de impor uma solução, você decide tentar outra abordagem. **Qual pergunta você deve fazer para transformar essa História de Desamparo em uma História Inteligente?**",
         "options": [
           {
             "value": "a",
-            "label": "Como posso provar a Luís que as ideias de Patrícia são melhores?",
-            "feedback": "❌ Isso ainda está na mentalidade de 'vencer' e pode alimentar uma História de Vilão. (0/3 ★)",
-            "score": 0
+            "label": "O que eu posso fazer para que Luís e Patrícia trabalhem juntos nisso? Como posso facilitar um entendimento mútuo?",
+            "feedback": "✅ Exatamente! Você mudou o foco de 'não posso fazer nada' para 'o que posso fazer?', o que é o cerne de uma História Inteligente. (3/3 ★)",
+            "score": 3
           },
           {
             "value": "b",
@@ -936,14 +936,14 @@
           },
           {
             "value": "c",
-            "label": "O que eu posso fazer para que Luís e Patrícia trabalhem juntos nisso? Como posso facilitar um entendimento mútuo?",
-            "feedback": "✅ Exatamente! Você mudou o foco de 'não posso fazer nada' para 'o que posso fazer?', o que é o cerne de uma História Inteligente. (3/3 ★)",
-            "score": 3
+            "label": "Como posso provar a Luís que as ideias de Patrícia são melhores?",
+            "feedback": "❌ Isso ainda está na mentalidade de 'vencer' e pode alimentar uma História de Vilão. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "d",
             "label": "Por que eles não conseguem ver como eu vejo?",
-            "feedback": "⚠️ Isso pode alimentar uma História de Vítima ('sou eu que entendo'). (1/3 ★)",
+            "feedback": "❌ Isso pode alimentar uma História de Vítima ('sou eu que entendo'). (0/3 ★)",
             "score": 0
           }
         ]
@@ -961,21 +961,21 @@
           },
           {
             "value": "b",
-            "label": "Usar STATE: 'Fato: Eu ouvi que Luís valoriza a estabilidade e Patrícia a inovação. História: Acho que podemos testar ideias novas de forma controlada, usando a experiência de Luís. O que vocês acham? Estou aberto a ajustes.'",
-            "feedback": "✅ Perfeito! Você compartilhou fatos, sua interpretação com tentativa e convidou para o diálogo, equilibrando falar e ouvir. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Luís, você tem razão em parte. Patrícia, você também tem razão. Vamos tentar um meio termo.'",
-            "feedback": "⚠️ É uma tentativa de agradar a todos, mas não estrutura claramente sua proposta como STATE. (2/3 ★)",
+            "feedback": "⚠️ É uma tentativa de agradar a todos, mas não estrutura claramente sua proposta como STATE. (1/3 ★)",
             "score": 1
           },
           {
-            "value": "d",
+            "value": "c",
             "label": "Fazer Luís e Patrícia resumirem o que ouviram um do outro.",
-            "feedback": "⚠️ Isso é útil, mas você ainda não compartilhou *seu* caminho usando STATE. (1/3 ★)",
+            "feedback": "❌ Isso é útil, mas você ainda não compartilhou *seu* caminho usando STATE. (0/3 ★)",
             "score": 0
+          },
+          {
+            "value": "d",
+            "label": "Usar STATE: 'Fato: Eu ouvi que Luís valoriza a estabilidade e Patrícia a inovação. História: Acho que podemos testar ideias novas de forma controlada, usando a experiência de Luís. O que vocês acham? Estou aberto a ajustes.'",
+            "feedback": "✅ Perfeito! Você compartilhou fatos, sua interpretação com tentativa e convidou para o diálogo, equilibrando falar e ouvir. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -987,25 +987,25 @@
           {
             "value": "a",
             "label": "Dizer a Patrícia: 'Não, claro que não. Você é muito talentosa.'",
-            "feedback": "❌ É um elogio, mas não nega explicitamente a intenção de desrespeito ou invalidação que Patrícia sentiu. (1/3 ★)",
+            "feedback": "⚠️ É um elogio, mas não nega explicitamente a intenção de desrespeito ou invalidação que Patrícia sentiu. (0/3 ★)",
             "score": 0
           },
           {
             "value": "b",
-            "label": "Usar Contraste: 'Patrícia, não é nossa intenção te calar ou te desvalorizar por ser nova. SIM, queremos sua contribuição e experiência de Luís. Como podemos provar isso?'",
-            "feedback": "✅ Correto! Você usou Contraste para negar a intenção negativa ('NÃO calar') e reafirmar a positiva ('SIM, queremos sua contribuição'). (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer a Luís: 'Mostre a Patrícia que você a respeita.'",
             "feedback": "❌ Isso coloca Luís na defensiva e não restaura a segurança vinda de você. (0/3 ★)",
             "score": 0
           },
           {
+            "value": "c",
+            "label": "Usar Contraste: 'Patrícia, não é nossa intenção te calar ou te desvalorizar por ser nova. SIM, queremos sua contribuição e experiência de Luís. Como podemos provar isso?'",
+            "feedback": "✅ Correto! Você usou Contraste para negar a intenção negativa ('NÃO calar') e reafirmar a positiva ('SIM, queremos sua contribuição'). (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa longa e olhar fixamente para Patrícia.",
-            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1018,7 +1018,7 @@
           {
             "value": "a",
             "label": "História de Vilão: 'Eles são imaturos e difíceis.'",
-            "feedback": "⚠️ Isso é uma História de Vilão sobre eles, mas a narrativa interna 'por que tem que ser tão complicado para *mim*?' tem traços de Vítima. (2/3 ★)",
+            "feedback": "⚠️ Isso é uma História de Vilão sobre eles, mas a narrativa interna 'por que tem que ser tão complicado para *mim*?' tem traços de Vítima. (1/3 ★)",
             "score": 1
           },
           {
@@ -1036,7 +1036,7 @@
           {
             "value": "d",
             "label": "História Inteligente: 'Estou aprendendo a lidar com conflitos complexos.'",
-            "feedback": "❌ Ainda não. A frustração e o senso de injustiça indicam uma História Estúpida. (1/3 ★)",
+            "feedback": "❌ Ainda não. A frustração e o senso de injustiça indicam uma História Estúpida. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1044,30 +1044,30 @@
       {
         "step": 10,
         "testedLesson": "As Três Histórias Estúpidas (Fool's Stories)",
-        "narrative": "🧘‍♂️ Reconhecendo a História de Vítima, você se lembra que o conflito é uma oportunidade de crescimento para todos. Você respira fundo e se concentra no objetivo comum. Luís e Patrícia ainda discutem sobre detalhes da proposta. Luís diz: 'Isso vai nos atrasar.' Patrícia rebate: 'Não vai, se fizermos direito.' Parece que estão presos em suas estratégias. **Qual é o próximo passo para alinhar o propósito?**",
+        "narrative": "🧘‍♂️ Reconhecendo η História de Vítima, você se lembra que o conflito é uma oportunidade de crescimento para todos. Você respira fundo e se concentra no objetivo comum. Luís e Patrícia ainda discutem sobre detalhes da proposta. Luís diz: 'Isso vai nos atrasar.' Patrícia rebate: 'Não vai, se fizermos direito.' Parece que estão presos em suas estratégias. **Qual é o próximo passo para alinhar o propósito?**",
         "options": [
           {
             "value": "a",
-            "label": "Dizer: 'Vamos votar. Quem concorda com Luís? Quem concorda com Patrícia?'",
-            "feedback": "❌ Isso transforma a discussão em uma competição, ignorando o propósito comum. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Perguntar: 'Antes de discutirmos *como*, qual é o *porquê* comum? O que Luís e Patrícia concordam que querem alcançar com isso?'",
             "feedback": "✅ Exatamente! Você está aplicando CRIB (Reconhecer o propósito por trás da estratégia) para separar a estratégia (como fazer) do propósito (por que fazer). (3/3 ★)",
             "score": 3
           },
           {
+            "value": "b",
+            "label": "Dizer: 'Vamos votar. Quem concorda com Luís? Quem concorda com Patrícia?'",
+            "feedback": "❌ Isso transforma a discussão em uma competição, ignorando o propósito comum. (0/3 ★)",
+            "score": 0
+          },
+          {
             "value": "c",
             "label": "Dizer: 'Vamos fazer do jeito que eu acho melhor.'",
-            "feedback": "❌ Isso é Silêncio/Violência imposto. Não envolve a equipe no diálogo. (1/3 ★)",
+            "feedback": "❌ Isso é Silêncio/Violência imposto. Não envolve a equipe no diálogo. (0/3 ★)",
             "score": 0
           },
           {
             "value": "d",
             "label": "Fazer cada um escrever sua ideia no quadro e depois comparar.",
-            "feedback": "⚠️ Pode ser útil, mas não aborda diretamente o *propósito* comum primeiro. (2/3 ★)",
+            "feedback": "⚠️ Pode ser útil, mas não aborda diretamente o *propósito* comum primeiro. (1/3 ★)",
             "score": 1
           }
         ]
@@ -1080,26 +1080,26 @@
           {
             "value": "a",
             "label": "Dizer: 'Ótimo, então vamos fazer um pouco de cada ideia.'",
-            "feedback": "⚠️ É um meio termo, mas não estrutura claramente a integração. (1/3 ★)",
+            "feedback": "⚠️ É um meio termo, mas não estrutura claramente a integração. (0/3 ★)",
             "score": 0
           },
           {
             "value": "b",
-            "label": "Usar ABC: 'Concordo que a experiência de Luís com o processo é crucial. Concordo que as ideias de Patrícia sobre inovação são importantes. Podemos construir uma abordagem que use a estrutura antiga como base e adicione os elementos novos de forma testável?'",
-            "feedback": "✅ Excelente! Você usou ABC (Agree, Build, Compare implicitamente) para integrar as ideias e construir uma solução conjunta. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Patrícia, você está certa. Luís, vamos mudar.'",
             "feedback": "❌ Isso é tomar partido e invalidar Luís. (0/3 ★)",
             "score": 0
           },
           {
-            "value": "d",
+            "value": "c",
             "label": "Fazer Luís e Patrícia trocarem de funções temporariamente.",
-            "feedback": "⚠️ Pode ser confuso e não necessariamente integra as ideias. (2/3 ★)",
+            "feedback": "❌ Pode ser confuso e não necessariamente integra as ideias. (0/3 ★)",
             "score": 0
+          },
+          {
+            "value": "d",
+            "label": "Usar ABC: 'Concordo que a experiência de Luís com o processo é crucial. Concordo que as ideias de Patrícia sobre inovação são importantes. Podemos construir uma abordagem que use a estrutura antiga como base e adicione os elementos novos de forma testável?'",
+            "feedback": "✅ Excelente! Você usou ABC (Agree, Build, Compare implicitamente) para integrar as ideias e construir uma solução conjunta. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -1116,20 +1116,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer: 'Tudo bem, Patrícia. Vamos tentar melhorar.'",
+            "feedback": "⚠️ É reconhecimento, mas não restaura explicitamente o respeito ou envolve Luís proativamente. (1/3 ★)",
+            "score": 1
+          },
+          {
+            "value": "c",
             "label": "Usar Contraste e reafirmar o propósito: 'Patrícia, não é nossa intenção desconsiderar suas ideias. SIM, queremos ouvi-las desde o início. Luís, como podemos garantir isso no futuro, mantendo nosso foco em resultados?'",
             "feedback": "✅ Perfeito! Você usou Contraste para restaurar o respeito e reafirmou o propósito comum (resultados), envolvendo Luís na solução. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer: 'Tudo bem, Patrícia. Vamos tentar melhorar.'",
-            "feedback": "⚠️ É reconhecimento, mas não restaura explicitamente o respeito ou envolve Luís proativamente. (2/3 ★)",
-            "score": 1
-          },
-          {
             "value": "d",
             "label": "Encerrar a reunião imediatamente.",
-            "feedback": "❌ Isso ignora o sinal de descontentamento de Patrícia e pode deixar ressentimentos. (1/3 ★)",
+            "feedback": "❌ Isso ignora o sinal de descontentamento de Patrícia e pode deixar ressentimentos. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1167,7 +1167,7 @@
           {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos esperar cinco minutos em silêncio.'",
-            "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de restaurar a segurança e o diálogo. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de restaurar a segurança e o diálogo. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1179,15 +1179,15 @@
         "options": [
           {
             "value": "a",
-            "label": "Dizer: 'Vamos usar o método de Bruno, o Voto.'",
-            "feedback": "⚠️ Você aceitou um método proposto sem analisar o risco. Votar em decisões críticas de projeto pode gerar ressentimento na minoria. (2/3 ★)",
-            "score": 1
-          },
-          {
-            "value": "b",
             "label": "Perguntar: 'Antes de decidir as tarefas, como vamos decidir como decidir? Este é um risco alto, precisamos de engajamento de todos?'",
             "feedback": "✅ Correto! Você aplicou 'Decidir Como Decidir' (Decide How to Decide), reconhecendo o risco e a necessidade de engajamento para escolher o método certo (provavelmente Consulta ou Consenso). (3/3 ★)",
             "score": 3
+          },
+          {
+            "value": "b",
+            "label": "Dizer: 'Vamos usar o método de Bruno, o Voto.'",
+            "feedback": "⚠️ Você aceitou um método proposto sem analisar o risco. Votar em decisões críticas de projeto pode gerar ressentimento na minoria. (1/3 ★)",
+            "score": 1
           },
           {
             "value": "c",
@@ -1198,7 +1198,7 @@
           {
             "value": "d",
             "label": "Fazer cada um escrever em um papel sua prioridade e depois comparar.",
-            "feedback": "⚠️ Isso é um passo para a ação, mas ainda não decidiu *como* a decisão será tomada. (1/3 ★)",
+            "feedback": "❌ Isso é um passo para a ação, mas ainda não decidiu *como* a decisão será tomada. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1216,20 +1216,20 @@
           },
           {
             "value": "b",
+            "label": "A ideia de Carol é ruim, então é melhor descartá-la.",
+            "feedback": "❌ Isso ignora o impacto do comportamento de Bruno na segurança e no Pool of Shared Meaning. A validade da ideia é secundária à segurança. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "A segurança está caindo (Violência de Bruno), e o Pool of Shared Meaning pode encolher se Carol se calar (Silêncio).",
             "feedback": "✅ Exato! Você identificou que a Violência de Bruno ameaça a segurança e pode levar Carol ao Silêncio, reduzindo o Pool of Shared Meaning. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "A ideia de Carol é ruim, então é melhor descartá-la.",
-            "feedback": "❌ Isso ignora o impacto do comportamento de Bruno na segurança e no Pool of Shared Meaning. A validade da ideia é secundária à segurança. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Bruno está apenas sendo honesto, continue a discussão.",
-            "feedback": "⚠️ Embora Bruno possa acreditar estar sendo honesto, o sarcasmo é uma forma de Violência que prejudica o ambiente. (2/3 ★)",
+            "feedback": "❌ Embora Bruno possa acreditar estar sendo honesto, o sarcasmo é uma forma de Violência que prejudica o ambiente. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1247,20 +1247,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer a Carol: 'Não liga pro Bruno, ele fala demais.'",
+            "feedback": "❌ Isso desrespeita Bruno e cria divisão. Não restaura o ambiente seguro. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "Usar Contraste: 'Bruno, não é nossa intenção dizer que sua experiência não é valiosa. SIM, queremos ouvir ideias novas e velhas para resolver isso juntos. Carol, continue, por favor.'",
             "feedback": "✅ Perfeito! Você usou Contraste para negar a intenção de desrespeito a Bruno e reafirmar o respeito e valorização da contribuição de Carol. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer a Carol: 'Não liga pro Bruno, ele fala demais.'",
-            "feedback": "❌ Isso desrespeita Bruno e cria divisão. Não restaura o ambiente seguro. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Fazer uma pausa longa e olhar para Bruno.",
-            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1278,20 +1278,20 @@
           },
           {
             "value": "b",
-            "label": "Definir claramente: 'Bruno (Quem), você vai revisar o código X com base na sugestão de Carol (O Quê) até quarta-feira (Quando). Vamos revisar na quinta (Acompanhamento).'",
-            "feedback": "✅ Correto! Você transformou a decisão do diálogo em uma ação clara com os 4 elementos: Quem, O Quê, Quando e Acompanhamento. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Vamos fazer isso, mas ainda não sei quem vai fazer.'",
             "feedback": "⚠️ Você tem O Quê e talvez Quando, mas falta o Quem. Isso leva à difusão de responsabilidade. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Definir claramente: 'Bruno (Quem), você vai revisar o código X com base na sugestão de Carol (O Quê) até quarta-feira (Quando). Vamos revisar na quinta (Acompanhamento).'",
+            "feedback": "✅ Correto! Você transformou a decisão do diálogo em uma ação clara com os 4 elementos: Quem, O Quê, Quando e Acompanhamento. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer todos se comprometerem verbalmente a 'ajudar' com a ideia.",
-            "feedback": "⚠️ 'Todos ajudarem' é vago. Falta o Quem específico. (2/3 ★)",
+            "feedback": "⚠️ 'Todos ajudarem' é vago. Falta o Quem específico. (1/3 ★)",
             "score": 1
           }
         ]
@@ -1309,20 +1309,20 @@
           },
           {
             "value": "b",
-            "label": "Documentar a ação (Quem: Bruno, O Quê: Revisar código X, Quando: Quarta-feira) e definir o acompanhamento (Revisão na quinta).",
-            "feedback": "✅ Exatamente! Você completou os 4 elementos e garantiu um ponto de verificação para corrigir o curso se necessário. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Se não der certo, a gente vê depois.'",
             "feedback": "⚠️ Isso não define um acompanhamento ativo. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Documentar a ação (Quem: Bruno, O Quê: Revisar código X, Quando: Quarta-feira) e definir o acompanhamento (Revisão na quinta).",
+            "feedback": "✅ Exatamente! Você completou os 4 elementos e garantiu um ponto de verificação para corrigir o curso se necessário. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Definir que Bruno fará a tarefa 'assim que possível'.",
-            "feedback": "❌ 'Assim que possível' não é um Quando claro. Isso tira a urgência e a responsabilidade. (2/3 ★)",
+            "feedback": "❌ 'Assim que possível' não é um Quando claro. Isso tira a urgência e a responsabilidade. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1335,25 +1335,25 @@
           {
             "value": "a",
             "label": "História de Vítima: 'Eu sou o gerente e tenho que resolver tudo sozinho.'",
-            "feedback": "❌ Essa parte da história ('tenho que resolver sozinho') é Vítima, mas a narrativa principal sobre Bruno ('tem que aguentar', 'culpa é dele') é Vilão. (1/3 ★)",
+            "feedback": "⚠️ Essa parte da história ('tenho que resolver sozinho') é Vítima, mas a narrativa principal sobre Bruno ('tem que aguentar', 'culpa é dele') é Vilão. (1/3 ★)",
             "score": 1
           },
           {
             "value": "b",
-            "label": "História de Vilão: 'Bruno é o problema, ele é responsável pelo atraso e precisa se esforçar mais.'",
-            "feedback": "✅ Correto! Você está atribuindo maldade/intenção negativa a Bruno ('culpa é dele', 'tem que aguentar'), o que é uma História de Vilão. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "História de Desamparo: 'Não há nada que eu possa fazer, o projeto vai fracassar.'",
             "feedback": "❌ Isso seria Desamparo. A história sobre Bruno é mais de julgamento negativo (Vilão). (0/3 ★)",
             "score": 0
           },
           {
+            "value": "c",
+            "label": "História de Vilão: 'Bruno é o problema, ele é responsável pelo atraso e precisa se esforçar mais.'",
+            "feedback": "✅ Correto! Você está atribuindo maldade/intenção negativa a Bruno ('culpa é dele', 'tem que aguentar'), o que é uma História de Vilão. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "História Inteligente: 'Bruno é sobrecarregado, preciso verificar se ele precisa de apoio.'",
-            "feedback": "❌ Ainda não. A história original ('tem que aguentar', 'culpa é dele') é uma História Estúpida (Vilão). (2/3 ★)",
+            "feedback": "❌ Ainda não. A história original ('tem que aguentar', 'culpa é dele') é uma História Estúpida (Vilão). (0/3 ★)",
             "score": 0
           }
         ]
@@ -1371,20 +1371,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer: 'Diego, você sempre vê o lado negativo. Vamos focar no positivo.'",
+            "feedback": "❌ Isso é desrespeitar Diego e sua contribuição, matando a segurança. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "Reconhecer o propósito: 'Lembrem-se, nosso objetivo comum é entregar um produto funcional e que satisfaça o cliente. A preocupação do Diego é válida e faz parte do nosso planejamento de riscos.'",
             "feedback": "✅ Ótimo! Você reafirmou o Propósito Mútuo e validou a contribuição de Diego, integrando sua preocupação ao Pool of Shared Meaning. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer: 'Diego, você sempre vê o lado negativo. Vamos focar no positivo.'",
-            "feedback": "❌ Isso é desrespeitar Diego e sua contribuição, matando a segurança. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Fazer uma pausa e olhar para todos.",
-            "feedback": "❌ Silêncio. Não aborda a preocupação ou restaura o propósito. (2/3 ★)",
+            "feedback": "❌ Silêncio. Não aborda a preocupação ou restaura o propósito. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1402,20 +1402,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer: 'Carol tem razão, vamos fazer do jeito dela.'",
+            "feedback": "❌ Isso é pular seu próprio julgamento e não contribuir com sua perspectiva (seu 'caminho') para o Pool of Shared Meaning. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "Depois que Carol terminar, usar STATE: 'Fato: A ideia da Carol é criativa. História: Acho que podemos tentar, mas precisamos ajustar os prazos das outras tarefas. O que vocês acham? Estou aberto a ajustes.'",
             "feedback": "✅ Perfeito! Você ouviu (AMPP), depois compartilhou seu caminho (STATE) com segurança e tentativa, convidando para o diálogo. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer: 'Carol tem razão, vamos fazer do jeito dela.'",
-            "feedback": "⚠️ Isso é pular seu próprio julgamento e não contribuir com sua perspectiva (seu 'caminho') para o Pool of Shared Meaning. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Fazer Carol repetir a ideia para ter certeza que todos ouviram.",
-            "feedback": "⚠️ Isso é útil, mas não é como você *compartilha seu caminho*. (2/3 ★)",
+            "feedback": "❌ Isso é útil, mas não é como você *compartilha seu caminho*. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1433,20 +1433,20 @@
           },
           {
             "value": "b",
+            "label": "Dizer: 'Vamos fazer um cronograma, mas ainda não está pronto.'",
+            "feedback": "⚠️ Isso adia a clareza da ação. As pessoas saem sem saber exatamente o que fazer. (0/3 ★)",
+            "score": 0
+          },
+          {
+            "value": "c",
             "label": "Definir claramente: 'Bruno, você revisa o código X até quarta. Carol, você prepara a apresentação Y até quinta. Diego, você revisa os testes Z até sexta. Vamos revisar tudo na próxima segunda.'",
             "feedback": "✅ Exatamente! Você definiu Quem, O Quê e Quando para cada um e estabeleceu o Acompanhamento. (3/3 ★)",
             "score": 3
           },
           {
-            "value": "c",
-            "label": "Dizer: 'Vamos fazer um cronograma, mas ainda não está pronto.'",
-            "feedback": "⚠️ Isso adia a clareza da ação. As pessoas saem sem saber exatamente o que fazer. (1/3 ★)",
-            "score": 0
-          },
-          {
             "value": "d",
             "label": "Fazer todos assinarem um documento de compromisso.",
-            "feedback": "⚠️ Formal demais para o momento, mas mostra intenção de responsabilidade. Ainda assim, a definição clara é o essencial. (2/3 ★)",
+            "feedback": "⚠️ Formal demais para o momento, mas mostra intenção de responsabilidade. Ainda assim, a definição clara é o essencial. (1/3 ★)",
             "score": 1
           }
         ]
@@ -1459,20 +1459,20 @@
           {
             "value": "a",
             "label": "As tarefas definidas no final.",
-            "feedback": "⚠️ As tarefas são importantes, mas são o resultado do processo. (1/3 ★)",
+            "feedback": "⚠️ As tarefas são importantes, mas são o resultado do processo. (0/3 ★)",
             "score": 0
           },
           {
             "value": "b",
-            "label": "O fato de ter transformado a conversa tensa em um diálogo produtivo, criando segurança e enchendo o Pool of Shared Meaning com perspectivas e decisões claras.",
-            "feedback": "✅ Correto! O poder do diálogo foi a base que permitiu a definição de ações eficazes e a recuperação da motivação. (3/3 ★)",
-            "score": 3
+            "label": "O método de decisão escolhido (Consulta).",
+            "feedback": "⚠️ O método foi importante, mas é parte do processo, não o fator determinante. (1/3 ★)",
+            "score": 1
           },
           {
             "value": "c",
-            "label": "O método de decisão escolhido (Consulta).",
-            "feedback": "⚠️ O método foi importante, mas é parte do processo, não o fator determinante. (2/3 ★)",
-            "score": 1
+            "label": "O fato de ter transformado a conversa tensa em um diálogo produtivo, criando segurança e enchendo o Pool of Shared Meaning com perspectivas e decisões claras.",
+            "feedback": "✅ Correto! O poder do diálogo foi a base que permitiu a definição de ações eficazes e a recuperação da motivação. (3/3 ★)",
+            "score": 3
           },
           {
             "value": "d",
@@ -1489,26 +1489,26 @@
         "options": [
           {
             "value": "a",
-            "label": "Enviar um e-mail严厉 (rígido) cobrando Bruno imediatamente.",
+            "label": "Enviar um e-mail rigoroso cobrando Bruno imediatamente.",
             "feedback": "❌ Isso é Violência. Pule o diálogo e vá direto para a punição. (0/3 ★)",
             "score": 0
           },
           {
             "value": "b",
-            "label": "Agendar uma nova Conversa Crucial com Bruno para entender os fatos e a história por trás do não cumprimento, usando STATE e AMPP.",
-            "feedback": "✅ Perfeito! Você reconhece que a falha na ação é uma nova oportunidade para o diálogo. Use as ferramentas para entender e resolver, não culpar. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Assumir a tarefa de Bruno você mesmo.",
             "feedback": "⚠️ Isso ignora o problema de execução de Bruno e não resolve o padrão. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Agendar uma nova Conversa Crucial com Bruno para entender os fatos e a história por trás do não cumprimento, usando STATE e AMPP.",
+            "feedback": "✅ Perfeito! Você reconhece que a falha na ação é uma nova oportunidade para o diálogo. Use as ferramentas para entender e resolver, não culpar. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa e esperar Bruno entregar em breve.",
-            "feedback": "❌ Isso ignora o Acompanhamento acordado e permite que a responsabilidade seja descumprida. (2/3 ★)",
+            "feedback": "❌ Isso ignora o Acompanhamento acordado e permite que a responsabilidade seja descumprida. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1527,15 +1527,15 @@
         "options": [
           {
             "value": "a",
-            "label": "Concordar internamente com sua história, respirar fundo e esperar o Sr. Ribeiro começar a falar.",
-            "feedback": "❌ Você está aceitando a História de Vilão ('irracional') e Vítima ('culpa da equipe'), justificando Silêncio ou uma reação defensiva. Isso não muda a dinâmica. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Reconhecer que essa é *sua* história, não um fato. Respirar fundo, focar em seu próprio coração: 'O que eu realmente quero?'.",
             "feedback": "✅ Excelente! Você reconhece que está contando uma história e se foca em mudar *você mesmo* primeiro, aplicando o Poder de Um. (3/3 ★)",
             "score": 3
+          },
+          {
+            "value": "b",
+            "label": "Concordar internamente com sua história, respirar fundo e esperar o Sr. Ribeiro começar a falar.",
+            "feedback": "❌ Você está aceitando a História de Vilão ('irracional') e Vítima ('culpa da equipe'), justificando Silêncio ou uma reação defensiva. Isso não muda a dinâmica. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "c",
@@ -1546,7 +1546,7 @@
           {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos esperar cinco minutos em silêncio.'",
-            "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de enfrentá-la com o coração certo. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio. Você está evitando a conversa em vez de enfrentá-la com o coração certo. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1564,20 +1564,20 @@
           },
           {
             "value": "b",
-            "label": "Usar Espelhamento: 'Sr. Ribeiro, parece que o senhor está muito frustrado e preocupado com o impacto disso no seu negócio.'",
-            "feedback": "✅ Correto! Você ignora o ataque e foca na emoção (frustração, preocupação) por trás da Violência, usando AMPP. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Sr. Ribeiro, por favor, baixe o tom de voz.'",
             "feedback": "⚠️ Isso é tentar controlar o comportamento dele, em vez de lidar com a insegurança. Pode ser interpretado como desrespeito. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar Espelhamento: 'Sr. Ribeiro, parece que o senhor está muito frustrado e preocupado com o impacto disso no seu negócio.'",
+            "feedback": "✅ Correto! Você ignora o ataque e foca na emoção (frustração, preocupação) por trás da Violência, usando AMPP. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Ficar em silêncio e esperar ele terminar.",
-            "feedback": "❌ Silêncio. Isso pode ser interpretado como concordância com o ataque ou desinteresse. (2/3 ★)",
+            "feedback": "❌ Silêncio. Isso pode ser interpretado como concordância com o ataque ou desinteresse. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1602,13 +1602,13 @@
           {
             "value": "c",
             "label": "O Respeito Mútuo não é importante agora, só os resultados.",
-            "feedback": "❌ Isso é um erro crítico. Sem Respeito Mútuo, não há diálogo produtivo. (1/3 ★)",
+            "feedback": "❌ Isso é um erro crítico. Sem Respeito Mútuo, não há diálogo produtivo. (0/3 ★)",
             "score": 0
           },
           {
             "value": "d",
             "label": "Você deve atacar de volta para mostrar que também tem valor.",
-            "feedback": "❌ Isso é Violência e vai piorar a situação. (2/3 ★)",
+            "feedback": "❌ Isso é Violência e vai piorar a situação. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1626,20 +1626,20 @@
           },
           {
             "value": "b",
-            "label": "Usar Contraste: 'Sr. Ribeiro, não é nossa intenção dar desculpas ou fingir que não reconhecemos sua frustração. SIM, queremos resolver isso e encontrar um caminho para frente juntos.'",
-            "feedback": "✅ Perfeito! Você usa Contraste ('NÃO desculpas', 'SIM, resolver juntos') para restaurar o Respeito e reafirmar o Propósito Mútuo. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Vamos focar nos resultados e esquecer os erros.'",
             "feedback": "⚠️ Isso ignora a emoção e o desrespeito sentido, não restaurando a segurança. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar Contraste: 'Sr. Ribeiro, não é nossa intenção dar desculpas ou fingir que não reconhecemos sua frustração. SIM, queremos resolver isso e encontrar um caminho para frente juntos.'",
+            "feedback": "✅ Perfeito! Você usa Contraste ('NÃO desculpas', 'SIM, resolver juntos') para restaurar o Respeito e reafirmar o Propósito Mútuo. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer uma pausa e olhar fixamente para ele.",
-            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (2/3 ★)",
+            "feedback": "❌ Silêncio passivo. Não restaura a segurança. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1657,20 +1657,20 @@
           },
           {
             "value": "b",
-            "label": "Parafrasear: 'Sr. Ribeiro, o sarcasmo me diz que o senhor tem dúvidas sobre nossa capacidade de realmente mudar, baseado em experiências anteriores.'",
-            "feedback": "✅ Correto! Você parafraseia a mensagem por trás do sarcasmo, reconhecendo a desconfiança e a história de desamparo dele. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Sr. Ribeiro, por favor, não use sarcasmo comigo.'",
             "feedback": "⚠️ Isso é confrontar o ataque diretamente, podendo soar defensivo. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Parafrasear: 'Sr. Ribeiro, o sarcasmo me diz que o senhor tem dúvidas sobre nossa capacidade de realmente mudar, baseado em experiências anteriores.'",
+            "feedback": "✅ Correto! Você parafraseia a mensagem por trás do sarcasmo, reconhecendo a desconfiança e a história de desamparo dele. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Sair da sala e marcar para outro dia.",
-            "feedback": "❌ Isso é Silêncio e fuga, não enfrentamento com segurança. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio e fuga, não enfrentamento com segurança. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1683,7 +1683,7 @@
           {
             "value": "a",
             "label": "História de Vítima: 'Não é minha culpa, ele é injusto.'",
-            "feedback": "⚠️ Há traços de vítima ('não é minha culpa', 'ele é injusto'), mas a ideia central é que *você* não pode fazer nada, o que é Desamparo. (2/3 ★)",
+            "feedback": "⚠️ Há traços de vítima ('não é minha culpa', 'ele é injusto'), mas a ideia central é que *você* não pode fazer nada, o que é Desamparo. (1/3 ★)",
             "score": 1
           },
           {
@@ -1694,15 +1694,15 @@
           },
           {
             "value": "c",
-            "label": "História de Desamparo: 'Não adianta tentar, ele vai continuar me culpando.'",
-            "feedback": "✅ Correto! Você está se sentindo impotente e acreditando que suas ações não terão impacto, o que é uma História de Desamparo. (3/3 ★)",
-            "score": 3
+            "label": "História Inteligente: 'Preciso manter o foco no que posso controlar.'",
+            "feedback": "❌ A história descrita ('não adianta tentar') é uma História Estúpida (Desamparo), não Inteligente. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "d",
-            "label": "História Inteligente: 'Preciso manter o foco no que posso controlar.'",
-            "feedback": "❌ A história descrita ('não adianta tentar') é uma História Estúpida (Desamparo), não Inteligente. (1/3 ★)",
-            "score": 0
+            "label": "História de Desamparo: 'Não adianta tentar, ele vai continuar me culpando.'",
+            "feedback": "✅ Correto! Você está se sentindo impotente e acreditando que suas ações não terão impacto, o que é uma História de Desamparo. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -1713,15 +1713,15 @@
         "options": [
           {
             "value": "a",
-            "label": "Parar de tentar convencê-lo e esperar que ele mude de ideia sozinho.",
-            "feedback": "❌ Isso é Silêncio e reforça a História de Desamparo. (0/3 ★)",
-            "score": 0
-          },
-          {
-            "value": "b",
             "label": "Continuar a usar STATE e AMPP, mantendo o foco em contribuir com seu melhor para o Pool of Shared Meaning, independentemente da reação dele.",
             "feedback": "✅ Exatamente! Você assume o controle de suas ações e mantém o foco no diálogo, aplicando o Poder de Um. (3/3 ★)",
             "score": 3
+          },
+          {
+            "value": "b",
+            "label": "Parar de tentar convencê-lo e esperar que ele mude de ideia sozinho.",
+            "feedback": "❌ Isso é Silêncio e reforça a História de Desamparo. (0/3 ★)",
+            "score": 0
           },
           {
             "value": "c",
@@ -1732,7 +1732,7 @@
           {
             "value": "d",
             "label": "Fazer uma pausa longa e olhar pela janela.",
-            "feedback": "❌ Isso é Silêncio. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1751,20 +1751,20 @@
           {
             "value": "b",
             "label": "As piadas mordazes de Gustavo.",
-            "feedback": "⚠️ Isso é Mascarar, uma forma de Silêncio, mas ainda é fala. Hugo não falar é mais extremo. (2/3 ★)",
-            "score": 2
+            "feedback": "⚠️ Isso é Mascarar, uma forma de Silêncio, mas ainda é fala. Hugo não falar é mais extremo. (1/3 ★)",
+            "score": 1
           },
           {
             "value": "c",
-            "label": "O completo silêncio e desinteresse de Hugo.",
-            "feedback": "✅ Correto! Hugo está em Silêncio puro (Retirada), não contribuindo com nada para o Pool of Shared Meaning. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "d",
             "label": "O clima pesado da sala.",
             "feedback": "⚠️ O clima é um sintoma, mas não é um comportamento de Silêncio/Violência específico de um indivíduo. (1/3 ★)",
             "score": 1
+          },
+          {
+            "value": "d",
+            "label": "O completo silêncio e desinteresse de Hugo.",
+            "feedback": "✅ Correto! Hugo está em Silêncio puro (Retirada), não contribuindo com nada para o Pool of Shared Meaning. (3/3 ★)",
+            "score": 3
           }
         ]
       },
@@ -1781,20 +1781,20 @@
           },
           {
             "value": "b",
-            "label": "Usar AMPP: Perguntar (Ask): 'Hugo, como você está se sentindo em relação à situação com o cliente?'",
-            "feedback": "✅ Correto! Você usa a primeira habilidade de AMPP (Ask) para convidar Hugo a falar com segurança. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Hugo, você precisa colaborar.'",
             "feedback": "⚠️ Isso é uma ordem, não um convite seguro. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar AMPP: Perguntar (Ask): 'Hugo, como você está se sentindo em relação à situação com o cliente?'",
+            "feedback": "✅ Correto! Você usa a primeira habilidade de AMPP (Ask) para convidar Hugo a falar com segurança. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer Hugo repetir o que foi dito na reunião com o cliente.",
-            "feedback": "⚠️ Isso não o convida a compartilhar *seu* caminho. (2/3 ★)",
+            "feedback": "⚠️ Isso não o convida a compartilhar *seu* caminho. (1/3 ★)",
             "score": 1
           }
         ]
@@ -1825,7 +1825,7 @@
           {
             "value": "d",
             "label": "Fazer uma pausa e dizer: 'Vamos continuar.'",
-            "feedback": "❌ Isso é Silêncio. Você está evitando o problema com Hugo. (2/3 ★)",
+            "feedback": "❌ Isso é Silêncio. Você está evitando o problema com Hugo. (0/3 ★)",
             "score": 0
           }
         ]
@@ -1843,20 +1843,20 @@
           },
           {
             "value": "b",
-            "label": "Usar STATE: 'Fato: Ouvimos preocupações válidas de todos. História: Acho que podemos aprender com isso e sair mais fortes. Concordam? Estou aberto a ajustes.'",
-            "feedback": "✅ Perfeito! Você integra o que ouviu (AMPP) e compartilha sua visão (STATE) com tentativa e segurança. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Dizer: 'Vocês todos têm razão, vamos rever tudo.'",
             "feedback": "⚠️ Isso pode parecer que você está apenas concordando para acalmar, sem direção clara. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Usar STATE: 'Fato: Ouvimos preocupações válidas de todos. História: Acho que podemos aprender com isso e sair mais fortes. Concordam? Estou aberto a ajustes.'",
+            "feedback": "✅ Perfeito! Você integra o que ouviu (AMPP) e compartilha sua visão (STATE) com tentativa e segurança. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Fazer todos escreverem uma nova proposta.",
-            "feedback": "⚠️ Isso é uma ação, mas não é como você *compartilha seu caminho* após ouvir. (2/3 ★)",
+            "feedback": "⚠️ Isso é uma ação, mas não é como você *compartilha seu caminho* após ouvir. (1/3 ★)",
             "score": 1
           }
         ]
@@ -1874,20 +1874,20 @@
           },
           {
             "value": "b",
-            "label": "Revisar mentalmente o que funcionou e o que não funcionou em cada conversa, identificando onde poderia ter usado melhor STATE, AMPP, Contraste, etc.",
-            "feedback": "✅ Correto! A reflexão pós-conversa é essencial para a prática contínua e o aprimoramento. (3/3 ★)",
-            "score": 3
-          },
-          {
-            "value": "c",
             "label": "Apenas comemorar o sucesso.",
             "feedback": "⚠️ Comemorar é bom, mas a reflexão é o que transforma a experiência em aprendizado duradouro. (1/3 ★)",
             "score": 1
           },
           {
+            "value": "c",
+            "label": "Revisar mentalmente o que funcionou e o que não funcionou em cada conversa, identificando onde poderia ter usado melhor STATE, AMPP, Contraste, etc.",
+            "feedback": "✅ Correto! A reflexão pós-conversa é essencial para a prática contínua e o aprimoramento. (3/3 ★)",
+            "score": 3
+          },
+          {
             "value": "d",
             "label": "Focar apenas nos resultados positivos.",
-            "feedback": "⚠️ A prática contínua envolve analisar *tudo*, incluindo falhas e sucessos. (2/3 ★)",
+            "feedback": "⚠️ A prática contínua envolve analisar *tudo*, incluindo falhas e sucessos. (1/3 ★)",
             "score": 1
           }
         ]

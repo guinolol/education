@@ -106,26 +106,22 @@ const ReviewLessonTemplate = ({
   };
 
   const handleNextQuestion = () => {
-    if (activeQuestions.length > 0 && selectedAnswer !== activeQuestions[0].correctAnswer) {
-      // Se a resposta foi incorreta, a pergunta já foi movida para o final da fila
-      // Apenas removemos a pergunta atual da frente da fila (que é a que foi respondida)
-      setActiveQuestions(prev => {
-        const [_, ...rest] = prev;
-        return rest;
-      });
-    } else if (activeQuestions.length > 0) {
+    const isCorrect = selectedAnswer === activeQuestions[0]?.correctAnswer;
+
+    if (isCorrect && activeQuestions.length > 0) {
       // Se a resposta foi correta, removemos a pergunta da frente da fila
       setActiveQuestions(prev => {
         const [_, ...rest] = prev;
         return rest;
       });
-    }
+    } 
+    // Se a resposta foi incorreta, a pergunta já foi movida para o final no handleAnswer.
 
     setSelectedAnswer(null);
     setShowFeedback(false);
 
     // Verifica se o quiz terminou
-    if (activeQuestions.length === 1 && selectedAnswer === activeQuestions[0].correctAnswer) {
+    if (activeQuestions.length === 1 && isCorrect) {
       setView('result');
     }
   };

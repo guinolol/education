@@ -124,26 +124,23 @@ const MicroLessonTemplate = ({
   };
 
   const handleNextQuestion = () => {
-    if (activeQuestions.length > 0 && selectedAnswer !== activeQuestions[0].correctAnswer) {
-      // Se a resposta foi incorreta, a pergunta já foi movida para o final da fila
-      // Apenas removemos a pergunta atual da frente da fila (que é a que foi respondida)
-      setActiveQuestions(prev => {
-        const [_, ...rest] = prev;
-        return rest;
-      });
-    } else if (activeQuestions.length > 0) {
+    const isCorrect = selectedAnswer === activeQuestions[0]?.correctAnswer;
+
+    if (isCorrect && activeQuestions.length > 0) {
       // Se a resposta foi correta, removemos a pergunta da frente da fila
       setActiveQuestions(prev => {
         const [_, ...rest] = prev;
         return rest;
       });
-    }
+    } 
+    // Se a resposta foi incorreta, a pergunta já foi movida para o final no handleAnswer.
+    // A próxima pergunta já está na posição 0 (ou a pergunta incorreta está lá se for a última).
 
     setSelectedAnswer(null);
     setShowFeedback(false);
 
-    // Verifica se o quiz terminou
-    if (activeQuestions.length === 1 && selectedAnswer === activeQuestions[0].correctAnswer) {
+    // Verifica se o quiz terminou (todas as perguntas foram respondidas corretamente)
+    if (activeQuestions.length === 1 && isCorrect) {
       setView('result');
     }
   };
@@ -151,13 +148,9 @@ const MicroLessonTemplate = ({
   const handlePrevious = () => {
     // A navegação para trás é complexa com a lógica de fila,
     // mas para simplificar, vamos apenas permitir a navegação se não houver feedback
-    if (questionsAnsweredCount > 0 && !showFeedback) {
-      // Se a pergunta anterior foi respondida corretamente, ela não está mais na fila ativa.
-      // Para simplificar, vamos apenas permitir a navegação para trás se a pergunta atual
-      // ainda não foi respondida (ou seja, se showFeedback for falso).
-      // Como a lógica de fila move as erradas, a navegação para trás é desabilitada
-      // para evitar complexidade excessiva de estado.
-    }
+    // e se houver perguntas respondidas corretamente para voltar.
+    // Como a lógica de fila move as erradas, a navegação para trás é desabilitada
+    // para evitar complexidade excessiva de estado.
   };
   
   const handleRestart = () => {
