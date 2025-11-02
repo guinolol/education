@@ -1,11 +1,14 @@
+// ============================================
+// 1. LessonNode.tsx
+// ============================================
 "use client";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Lock, Check, Play, Star, Crown, Sparkles } from "lucide-react";
+import { Lock, Check, Play, Star, Crown, Sparkles, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
-export interface LessonNodeProps {
+interface LessonNodeProps {
   title: string;
   teaser: string;
   status: 'completed' | 'current' | 'locked' | 'unlocked';
@@ -17,39 +20,37 @@ export interface LessonNodeProps {
 
 const statusConfig = {
   completed: {
-    bg: "bg-gradient-to-br from-yellow-400 to-yellow-500",
-    border: "border-yellow-300 border-4",
-    shadow: "shadow-lg shadow-yellow-200/50",
+    bg: "bg-gradient-to-br from-amber-400 via-yellow-400 to-amber-500",
+    border: "border-amber-300",
+    shadow: "shadow-xl shadow-amber-400/40",
     icon: Check,
-    glow: "ring-4 ring-yellow-200/50"
+    ringColor: "ring-amber-200",
+    dotColor: "bg-amber-400"
   },
   current: {
-    bg: "bg-gradient-to-br from-green-400 to-green-500",
-    border: "border-green-300 border-4",
-    shadow: "shadow-xl shadow-green-300/60 animate-pulse",
+    bg: "bg-gradient-to-br from-emerald-400 via-green-400 to-emerald-500",
+    border: "border-emerald-300",
+    shadow: "shadow-2xl shadow-emerald-400/50 animate-pulse",
     icon: Play,
-    glow: "ring-4 ring-green-300 ring-offset-2"
+    ringColor: "ring-emerald-300",
+    dotColor: "bg-emerald-400"
   },
   unlocked: {
-    bg: "bg-gradient-to-br from-blue-400 to-blue-500",
-    border: "border-blue-300 border-4",
-    shadow: "shadow-md shadow-blue-200/50",
+    bg: "bg-gradient-to-br from-blue-400 via-sky-400 to-blue-500",
+    border: "border-blue-300",
+    shadow: "shadow-xl shadow-blue-400/40",
     icon: Star,
-    glow: ""
+    ringColor: "ring-blue-200",
+    dotColor: "bg-blue-400"
   },
   locked: {
-    bg: "bg-gray-300",
-    border: "border-gray-400 border-4",
-    shadow: "",
+    bg: "bg-gradient-to-br from-slate-300 to-slate-400",
+    border: "border-slate-400",
+    shadow: "shadow-md",
     icon: Lock,
-    glow: ""
+    ringColor: "ring-slate-200",
+    dotColor: "bg-slate-300"
   },
-};
-
-const positionClasses = {
-  left: 'self-start ml-8',
-  center: 'self-center',
-  right: 'self-end mr-8'
 };
 
 const LessonNode = ({ 
@@ -68,72 +69,142 @@ const LessonNode = ({
   const isCheckpoint = type === 'checkpoint';
   const isTreasure = type === 'treasure';
 
-  return (
-    <div className={cn("relative flex flex-col items-center", positionClasses[position])}>
-      {isCheckpoint && (
-        <Crown className="absolute -top-6 left-1/2 -translate-x-1/2 w-8 h-8 text-yellow-500 drop-shadow-lg animate-bounce z-20" />
-      )}
-      {isTreasure && (
-        <Sparkles className="absolute -top-6 left-1/2 -translate-x-1/2 w-7 h-7 text-purple-500 drop-shadow-lg animate-pulse z-20" />
-      )}
+  // Ajusta tamanho baseado no tipo
+  const nodeSize = isCheckpoint || isTreasure ? 'w-24 h-24' : 'w-20 h-20';
+  const iconSize = isCheckpoint || isTreasure ? 'w-12 h-12' : 'w-9 h-9';
 
-      <div
-        className="relative"
+  return (
+    <div className="relative flex justify-center items-center w-full">
+      <div 
+        className={cn(
+          "relative flex justify-center",
+          position === 'left' && 'mr-auto ml-12',
+          position === 'right' && 'ml-auto mr-12',
+          position === 'center' && 'mx-auto'
+        )}
         onMouseEnter={() => !isDisabled && setShowTeaser(true)}
         onMouseLeave={() => setShowTeaser(false)}
-        onClick={() => !isDisabled && setShowTeaser(!showTeaser)}
       >
-        <Button
-          className={cn(
-            "w-20 h-20 rounded-full p-0 transition-all duration-300 relative z-10",
-            config.bg,
-            config.border,
-            config.shadow,
-            config.glow,
-            !isDisabled && "hover:scale-110 active:scale-95 cursor-pointer",
-            isDisabled && "cursor-not-allowed opacity-60"
+        {/* Badge especial flutuante */}
+        {isCheckpoint && (
+          <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-30">
+            <div className="relative">
+              <div className="absolute inset-0 bg-yellow-400 blur-lg opacity-60 animate-pulse" />
+              <Crown className="relative w-10 h-10 text-yellow-500 drop-shadow-2xl animate-bounce" />
+            </div>
+          </div>
+        )}
+        {isTreasure && (
+          <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-30">
+            <div className="relative">
+              <div className="absolute inset-0 bg-purple-400 blur-lg opacity-60 animate-pulse" />
+              <Sparkles className="relative w-9 h-9 text-purple-500 drop-shadow-2xl animate-pulse" />
+            </div>
+          </div>
+        )}
+
+        {/* Nó principal com animações */}
+        <div className="relative">
+          {/* Anéis pulsantes para nó atual */}
+          {status === 'current' && (
+            <>
+              <div className={`absolute inset-0 rounded-full ${config.ringColor} opacity-60 animate-ping`} />
+              <div className={`absolute -inset-2 rounded-full ${config.ringColor} opacity-40 animate-pulse`} />
+            </>
           )}
-          onClick={onClick}
-          disabled={isDisabled}
-        >
-          <Icon className="w-10 h-10 text-white" />
-        </Button>
 
+          <Button
+            className={cn(
+              nodeSize,
+              "rounded-full p-0 transition-all duration-300 relative z-10 border-[5px]",
+              config.bg,
+              config.border,
+              config.shadow,
+              !isDisabled && "hover:scale-110 hover:-translate-y-1 active:scale-95 cursor-pointer",
+              isDisabled && "cursor-not-allowed opacity-50",
+              status === 'current' && "ring-4 ring-offset-2 ring-offset-purple-50",
+              status === 'current' && config.ringColor
+            )}
+            onClick={onClick}
+            disabled={isDisabled}
+          >
+            <Icon className={cn(iconSize, "text-white drop-shadow-lg")} />
+          </Button>
+
+          {/* Label embaixo sempre visível */}
+          <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-32 text-center">
+            <p className={cn(
+              "text-xs font-bold truncate px-2",
+              isDisabled ? "text-slate-400" : "text-slate-700"
+            )}>
+              {title.split(':').pop()?.trim() || title}
+            </p>
+          </div>
+        </div>
+
+        {/* Teaser popup melhorado */}
         {showTeaser && !isDisabled && (
-          <div className={cn(
-            "absolute top-1/2 -translate-y-1/2 w-72 bg-white rounded-2xl shadow-2xl p-4 z-30 border-2",
-            "animate-in fade-in slide-in-from-bottom-2 duration-200",
-            position === 'left' ? 'left-24' : position === 'right' ? 'right-24' : 'left-24',
-            status === 'completed' ? 'border-yellow-300' : status === 'current' ? 'border-green-300' : 'border-blue-300'
-          )}>
+          <div 
+            className={cn(
+              "absolute top-1/2 -translate-y-1/2 z-40",
+              "w-80 bg-white/95 backdrop-blur-sm rounded-3xl p-5",
+              "border-[3px] shadow-2xl",
+              "animate-in fade-in zoom-in-95 duration-200",
+              position === 'left' ? 'left-28' : position === 'right' ? 'right-28' : 'left-28',
+              status === 'completed' ? 'border-amber-300 shadow-amber-200/50' : 
+              status === 'current' ? 'border-emerald-300 shadow-emerald-200/50' : 
+              'border-blue-300 shadow-blue-200/50'
+            )}
+          >
+            {/* Seta lateral melhorada */}
             <div className={cn(
-              "absolute top-1/2 -translate-y-1/2 w-0 h-0",
-              "border-t-[10px] border-t-transparent",
-              "border-b-[10px] border-b-transparent",
-              position === 'right' ? 'right-full border-r-[12px] border-r-white' : 'left-full border-l-[12px] border-l-white'
-            )} />
+              "absolute top-1/2 -translate-y-1/2",
+              position === 'right' ? '-right-[15px]' : '-left-[15px]'
+            )}>
+              <div className={cn(
+                "w-0 h-0 border-y-[12px] border-y-transparent",
+                position === 'right' 
+                  ? `border-l-[15px] ${status === 'completed' ? 'border-l-amber-300' : status === 'current' ? 'border-l-emerald-300' : 'border-l-blue-300'}` 
+                  : `border-r-[15px] ${status === 'completed' ? 'border-r-amber-300' : status === 'current' ? 'border-r-emerald-300' : 'border-r-blue-300'}`
+              )} />
+            </div>
 
-            <div className="space-y-2">
-              <h4 className="font-bold text-gray-800 text-sm leading-tight">
-                {title}
-              </h4>
-              <p className="text-xs text-gray-600 leading-relaxed">
+            {/* Conteúdo do popup */}
+            <div className="space-y-3">
+              {/* Título */}
+              <div className="flex items-start justify-between gap-2">
+                <h4 className="font-bold text-slate-800 text-base leading-tight flex-1">
+                  {title}
+                </h4>
+                {status === 'completed' && (
+                  <div className="flex-shrink-0 bg-amber-100 rounded-full p-1.5">
+                    <Check className="w-4 h-4 text-amber-600" />
+                  </div>
+                )}
+              </div>
+
+              {/* Teaser */}
+              <p className="text-sm text-slate-600 leading-relaxed">
                 {teaser}
               </p>
-              <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-                <div className="flex items-center gap-1">
-                  <Star className="w-4 h-4 text-yellow-500" />
-                  <span className="text-xs font-semibold text-gray-700">+{xp} XP</span>
+
+              {/* Footer */}
+              <div className="flex items-center justify-between pt-3 border-t-2 border-slate-100">
+                <div className="flex items-center gap-2 bg-amber-50 rounded-full px-3 py-1.5">
+                  <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
+                  <span className="text-sm font-bold text-amber-700">+{xp} XP</span>
                 </div>
-                {status === 'completed' && (
-                  <span className="text-xs font-semibold text-green-600 flex items-center gap-1">
-                    <Check className="w-3 h-3" />
-                    Concluído
-                  </span>
-                )}
+                
                 {status === 'current' && (
-                  <span className="text-xs font-semibold text-green-600">
-                    Em andamento
+                  <div className="flex items-center gap-1 text-emerald-600 font-semibold text-sm">
+                    <span>Começar</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </div>
+                )}
+                
+                {status === 'completed' && (
+                  <span className="text-sm font-semibold text-amber-600">
+                    ✓ Concluído
                   </span>
                 )}
               </div>
@@ -141,20 +212,6 @@ const LessonNode = ({
           </div>
         )}
       </div>
-
-      {!isDisabled && (
-        <div className="mt-2 text-center max-w-[100px]">
-          <p className="text-xs font-medium text-gray-700 truncate">
-            {title.split(':')[1] || title}
-          </p>
-        </div>
-      )}
-      
-      {isDisabled && (
-        <div className="mt-2 text-center">
-          <Lock className="w-4 h-4 text-gray-400 mx-auto" />
-        </div>
-      )}
     </div>
   );
 };
