@@ -14,6 +14,7 @@ import SimulationPage from "./pages/SimulationPage";
 import ReviewLessonPage from "./pages/ReviewLessonPage";
 import Login from "./pages/Login";
 import { SessionProvider } from "./components/SessionProvider";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const queryClient = new QueryClient();
 
@@ -26,13 +27,18 @@ const App = () => (
         <SessionProvider>
           <Routes>
             <Route path="/" element={<Layout />}>
+              {/* Rotas Públicas */}
               <Route index element={<Index />} />
               <Route path="quiz" element={<QuizPersonalizacao />} />
               <Route path="recomendacoes" element={<Recomendacoes />} />
-              <Route path="aprendizado" element={<DashboardAprendizado />} />
-              <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
-              <Route path="simulation/:simulationId" element={<SimulationPage />} />
-              <Route path="review/:reviewId" element={<ReviewLessonPage />} />
+              
+              {/* Rotas Protegidas */}
+              <Route element={<ProtectedRoute />}>
+                <Route path="aprendizado" element={<DashboardAprendizado />} />
+                <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
+                <Route path="simulation/:simulationId" element={<SimulationPage />} />
+                <Route path="review/:reviewId" element={<ReviewLessonPage />} />
+              </Route>
             </Route>
             <Route path="login" element={<Login />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
