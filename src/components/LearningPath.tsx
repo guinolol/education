@@ -5,6 +5,7 @@ import LessonNode, { LessonNodeProps } from "./LessonNode";
 interface Modulo {
   id: number;
   titulo: string;
+  teaser?: string;
   descricao: string;
   progresso: number;
   desbloqueado: boolean;
@@ -13,6 +14,7 @@ interface Modulo {
   dificuldade: string;
   duracao: string;
   lessonId: number;
+  type?: 'lesson' | 'checkpoint' | 'treasure';
 }
 
 interface LearningPathProps {
@@ -22,17 +24,35 @@ interface LearningPathProps {
 }
 
 const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
-  
-  // Encontra o índice da primeira lição incompleta para marcar como 'current'
   const firstIncompleteIndex = lessons.findIndex(l => !l.concluido);
   const currentLessonIndex = firstIncompleteIndex === -1 ? lessons.length - 1 : firstIncompleteIndex;
 
-  return (
-    <div className="relative py-8 px-4">
-      {/* Linha Vertical da Trilha */}
-      <div className="absolute left-8 top-0 bottom-0 w-2 bg-gray-200 dark:bg-gray-700 rounded-full z-0"></div>
+  const pathPattern = ['center', 'right', 'center', 'left', 'center', 'right', 'left', 'center'];
 
-      <div className="space-y-12">
+  return (
+    <div className="relative w-full py-8">
+      <svg 
+        className="absolute inset-0 w-full h-full pointer-events-none opacity-20" 
+        style={{ zIndex: 0 }}
+      >
+        <defs>
+          <linearGradient id="pathGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#9333ea" />
+            <stop offset="50%" stopColor="#3b82f6" />
+            <stop offset="100%" stopColor="#10b981" />
+          </linearGradient>
+        </defs>
+        <path
+          d={`M 50% 0 Q 70% 10%, 50% 15% T 30% 30% T 70% 45% T 50% 60% T 30% 75% T 50% 90% T 50% 100%`}
+          stroke="url(#pathGradient)"
+          strokeWidth="4"
+          fill="none"
+          strokeLinecap="round"
+          strokeDasharray="8 4"
+        />
+      </svg>
+
+      <div className="relative flex flex-col gap-16 items-center" style={{ zIndex: 1 }}>
         {lessons.map((lesson, index) => {
           let status: LessonNodeProps['status'];
           
@@ -40,31 +60,33 @@ const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
             status = 'completed';
           } else if (index === currentLessonIndex) {
             status = 'current';
+          } else if (lesson.desbloqueado) {
+            status = 'unlocked';
           } else {
             status = 'locked';
           }
-          
-          // Se a lição estiver desbloqueada, mas não for a atual, marque como unlocked (pronta para ser a próxima)
-          if (lesson.desbloqueado && !lesson.concluido && index !== currentLessonIndex) {
-              status = 'unlocked';
-          }
-          
-          // Garante que lições após a atual fiquem bloqueadas
-          if (index > currentLessonIndex) {
-              status = 'locked';
-          }
+
+          const position = pathPattern[index % pathPattern.length] as 'left' | 'center' | 'right';
 
           return (
-            <div key={lesson.id} className="relative">
-              <LessonNode
-                title={lesson.titulo}
-                status={status}
-                xp={lesson.xp}
-                onClick={() => onLessonClick(lesson.lessonId)}
-              />
-            </div>
+            <LessonNode
+              key={lesson.id}
+              title={lesson.titulo}
+              teaser={lesson.teaser || lesson.descricao}
+              status={status}
+              xp={lesson.xp}
+              type={lesson.type}
+              position={position}
+              onClick={() => onLessonClick(lesson.lessonId)}
+            />
           );
         })}
+      </div>
+
+      <div className="flex justify-center mt-12">
+        <div className="w-24 h-24 rounded-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center border-4 border-gray-400 opacity-40">
+          <span className="text-2xl">🔒</span>
+        </div>
       </div>
     </div>
   );
