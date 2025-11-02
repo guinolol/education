@@ -12,6 +12,8 @@ import Layout from "./components/Layout";
 import MicroLessonPage from "./pages/MicroLessonPage";
 import SimulationPage from "./pages/SimulationPage";
 import ReviewLessonPage from "./pages/ReviewLessonPage";
+import Login from "./pages/Login";
+import { SessionProvider } from "./components/SessionProvider";
 
 const queryClient = new QueryClient();
 
@@ -21,19 +23,22 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Index />} />
-            <Route path="quiz" element={<QuizPersonalizacao />} />
-            <Route path="recomendacoes" element={<Recomendacoes />} />
-            <Route path="aprendizado" element={<DashboardAprendizado />} />
-            <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
-            <Route path="simulation/:simulationId" element={<SimulationPage />} />
-            <Route path="review/:reviewId" element={<ReviewLessonPage />} />
-          </Route>
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <SessionProvider>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Index />} />
+              <Route path="quiz" element={<QuizPersonalizacao />} />
+              <Route path="recomendacoes" element={<Recomendacoes />} />
+              <Route path="aprendizado" element={<DashboardAprendizado />} />
+              <Route path="lesson/:lessonId" element={<MicroLessonPage />} />
+              <Route path="simulation/:simulationId" element={<SimulationPage />} />
+              <Route path="review/:reviewId" element={<ReviewLessonPage />} />
+            </Route>
+            <Route path="login" element={<Login />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </SessionProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
