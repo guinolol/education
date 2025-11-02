@@ -3,22 +3,10 @@
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import MicroLessonTemplate from '@/components/MicroLessonTemplate';
 import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
-import tractionLessons from '@/data/tractionLessons.json';
-import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
-import runningLeanLessons from '@/data/runningLeanLessons.json';
-import leanCustomerDevelopmentLessons from '@/data/leanCustomerDevelopmentLessons.json';
-import scalingPeopleLessons from '@/data/scalingPeopleLessons.json';
-import foundingSalesLessons from '@/data/foundingSalesLessons.json';
 import NotFound from './NotFound';
 
 const lessonDataMap: Record<string, any[]> = {
   crucialConversations: crucialConversationsLessons,
-  traction: tractionLessons,
-  buildTrap: buildTrapLessons,
-  runningLean: runningLeanLessons,
-  leanCustomerDev: leanCustomerDevelopmentLessons,
-  scalingPeople: scalingPeopleLessons,
-  foundingSales: foundingSalesLessons,
 };
 
 const MicroLessonPage = () => {

@@ -14,12 +14,6 @@ import {
 
 // Importar os dados das novas trilhas
 import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
-import tractionLessons from '@/data/tractionLessons.json';
-import buildTrapLessons from '@/data/escapingBuildTrapLessons.json';
-import runningLeanLessons from '@/data/runningLeanLessons.json';
-import leanCustomerDevelopmentLessons from '@/data/leanCustomerDevelopmentLessons.json';
-import scalingPeopleLessons from '@/data/scalingPeopleLessons.json';
-import foundingSalesLessons from '@/data/foundingSalesLessons.json';
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
@@ -76,48 +70,6 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
       icone: MessageSquare,
       lessons: mapLessonsToModules(crucialConversationsLessons, 100, "Crucial Conversations", MessageSquare, "iniciante"),
       totalLessons: crucialConversationsLessons.length,
-    },
-    {
-      id: 'runningLean',
-      titulo: "Trilha 2: Running Lean",
-      icone: Rocket,
-      lessons: mapLessonsToModules(runningLeanLessons, 200, "Running Lean", Rocket, "intermediario"),
-      totalLessons: runningLeanLessons.length,
-    },
-    {
-      id: 'buildTrap',
-      titulo: "Trilha 3: Escaping the Build Trap",
-      icone: Target,
-      lessons: mapLessonsToModules(buildTrapLessons, 300, "Build Trap", Target, "intermediario"),
-      totalLessons: buildTrapLessons.length,
-    },
-    {
-      id: 'traction',
-      titulo: "Trilha 4: Traction",
-      icone: TrendingUp,
-      lessons: mapLessonsToModules(tractionLessons, 400, "Traction", TrendingUp, "avancado"),
-      totalLessons: tractionLessons.length,
-    },
-    {
-      id: 'leanCustomerDev',
-      titulo: "Trilha 5: Lean Customer Development",
-      icone: Lightbulb,
-      lessons: mapLessonsToModules(leanCustomerDevelopmentLessons, 500, "Lean Customer Dev", Lightbulb, "avancado"),
-      totalLessons: leanCustomerDevelopmentLessons.length,
-    },
-    {
-      id: 'scalingPeople',
-      titulo: "Trilha 6: Scaling People",
-      icone: Users,
-      lessons: mapLessonsToModules(scalingPeopleLessons, 600, "Scaling People", Users, "expert"),
-      totalLessons: scalingPeopleLessons.length,
-    },
-    {
-      id: 'foundingSales',
-      titulo: "Trilha 7: Founding Sales",
-      icone: Trophy,
-      lessons: mapLessonsToModules(foundingSalesLessons, 700, "Founding Sales", Trophy, "expert"),
-      totalLessons: foundingSalesLessons.length,
     },
   ];
 
