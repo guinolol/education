@@ -102,7 +102,7 @@ const MicroLessonTemplate = ({
     setShowFeedback(true);
 
     if (isCorrect) {
-      // Se correto, move a pergunta para as respostas finais e remove da fila ativa
+      // Se correto, move a pergunta para as respostas finais
       setFinalAnswers(prev => ({ ...prev, [questionId]: answer }));
       setQuestionsAnsweredCount(prev => prev + 1);
     } else {
@@ -114,27 +114,26 @@ const MicroLessonTemplate = ({
         }
         return newLives;
       });
-      
-      // Move a pergunta para o final da fila para ser respondida novamente
-      setActiveQuestions(prev => {
-        const [first, ...rest] = prev;
-        return [...rest, first];
-      });
     }
   };
 
   const handleNextQuestion = () => {
-    const isCorrect = selectedAnswer === activeQuestions[0]?.correctAnswer;
+    const currentQuestion = activeQuestions[0];
+    const isCorrect = selectedAnswer === currentQuestion?.correctAnswer;
 
-    if (isCorrect && activeQuestions.length > 0) {
+    if (isCorrect) {
       // Se a resposta foi correta, removemos a pergunta da frente da fila
       setActiveQuestions(prev => {
         const [_, ...rest] = prev;
         return rest;
       });
-    } 
-    // Se a resposta foi incorreta, a pergunta já foi movida para o final no handleAnswer.
-    // A próxima pergunta já está na posição 0 (ou a pergunta incorreta está lá se for a última).
+    } else {
+      // Se a resposta foi incorreta, movemos a pergunta atual para o final da fila
+      setActiveQuestions(prev => {
+        const [first, ...rest] = prev;
+        return [...rest, first];
+      });
+    }
 
     setSelectedAnswer(null);
     setShowFeedback(false);
@@ -146,11 +145,7 @@ const MicroLessonTemplate = ({
   };
 
   const handlePrevious = () => {
-    // A navegação para trás é complexa com a lógica de fila,
-    // mas para simplificar, vamos apenas permitir a navegação se não houver feedback
-    // e se houver perguntas respondidas corretamente para voltar.
-    // Como a lógica de fila move as erradas, a navegação para trás é desabilitada
-    // para evitar complexidade excessiva de estado.
+    // A navegação para trás é desabilitada para evitar complexidade excessiva de estado com a fila.
   };
   
   const handleRestart = () => {
