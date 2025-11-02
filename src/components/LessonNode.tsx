@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card"; // Importação adicionada
 import { Lock, Check, Play, MessageSquare } from "lucide-react";
 
 interface LessonNodeProps {
