@@ -1,6 +1,3 @@
-// ============================================
-// 2. LearningPath.tsx
-// ============================================
 "use client";
 
 import LessonNode from "./LessonNode";
@@ -16,33 +13,32 @@ interface Modulo {
   xp: number;
   dificuldade: string;
   duracao: string;
-  lessonId: number;
-  type?: 'lesson' | 'checkpoint' | 'treasure';
+  lessonId?: number;
+  simulationId?: number;
+  isSimulation?: boolean;
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
 }
 
 interface LearningPathProps {
   trilhaId: string;
   lessons: Modulo[];
-  onLessonClick: (lessonId: number) => void;
+  onLessonClick: (lessonId?: number, isSimulation?: boolean, simulationId?: number) => void;
 }
 
 const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
   const firstIncompleteIndex = lessons.findIndex(l => !l.concluido);
   const currentLessonIndex = firstIncompleteIndex === -1 ? lessons.length - 1 : firstIncompleteIndex;
 
-  // Padrão orgânico de posições
   const pathPattern = ['center', 'right', 'center', 'left', 'center', 'right', 'center', 'left'];
 
   return (
     <div className="relative w-full max-w-2xl mx-auto py-12 px-4">
-      {/* Background decorativo com padrão */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-purple-200 rounded-full blur-3xl" />
         <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-blue-200 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-emerald-200 rounded-full blur-3xl" />
       </div>
 
-      {/* Caminho conectado decorativo */}
       <svg 
         className="absolute inset-0 w-full h-full pointer-events-none" 
         style={{ zIndex: 0 }}
@@ -76,7 +72,6 @@ const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
         />
       </svg>
 
-      {/* Nós das lições */}
       <div className="relative space-y-20" style={{ zIndex: 1 }}>
         {lessons.map((lesson, index) => {
           let status: 'completed' | 'current' | 'locked' | 'unlocked';
@@ -100,16 +95,15 @@ const LearningPath = ({ lessons, onLessonClick }: LearningPathProps) => {
                 teaser={lesson.teaser || lesson.descricao}
                 status={status}
                 xp={lesson.xp}
-                type={lesson.type}
+                type={lesson.isSimulation ? 'simulation' : lesson.type}
                 position={position}
-                onClick={() => onLessonClick(lesson.lessonId)}
+                onClick={() => onLessonClick(lesson.lessonId, lesson.isSimulation, lesson.simulationId)}
               />
             </div>
           );
         })}
       </div>
 
-      {/* Indicador de fim da trilha */}
       <div className="flex justify-center mt-20 relative z-10">
         <div className="relative">
           <div className="absolute inset-0 bg-slate-300 blur-xl opacity-50" />

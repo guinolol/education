@@ -12,6 +12,7 @@ import LearningPath from "./LearningPath";
 import { cn } from "@/lib/utils";
 
 import crucialConversationsLessons from '@/data/crucial-conversations/Crucial_Conversations.json';
+import crucialConversationsSimulations from '@/data/crucial-conversations/Crucial_Conversations_Sim.json';
 
 interface DashboardAprendizadoProps {
   resultadoQuiz: any;
@@ -28,49 +29,77 @@ interface Modulo {
   xp: number;
   dificuldade: string;
   duracao: string;
-  lessonId: number;
-  type?: 'lesson' | 'checkpoint' | 'treasure';
+  lessonId?: number;
+  simulationId?: number;
+  isSimulation?: boolean;
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
 }
 
-const mapLessonsToModules = (data: any[], baseId: number, titlePrefix: string): Modulo[] => {
-  return data.map((lesson, index) => {
-    let progresso = 0;
-    let concluido = false;
-    let desbloqueado = index === 0;
+const createLearningPath = (lessons: any[], simulations: any[]): Modulo[] => {
+  const path: Modulo[] = [];
+  let lessonIndex = 0;
+  let simulationIndex = 0;
 
-    if (index < 3) {
-      concluido = true;
-      progresso = 100;
-      desbloqueado = true;
-    } else if (index === 3) {
-      progresso = 50;
-      desbloqueado = true;
-    } else if (index === 4) {
-      desbloqueado = true;
+  while (lessonIndex < lessons.length) {
+    // Adiciona 4 lições
+    for (let i = 0; i < 4 && lessonIndex < lessons.length; i++) {
+      const lesson = lessons[lessonIndex];
+      let type: 'lesson' | 'checkpoint' | 'treasure' = 'lesson';
+      if ((lessonIndex + 1) % 5 === 0) type = 'checkpoint';
+      
+      path.push({
+        id: 100 + lessonIndex,
+        titulo: `Lição ${lessonIndex + 1}: ${lesson.title}`,
+        teaser: lesson.teaser || lesson.conclusionMessage?.split('.')[0] + '.',
+        descricao: lesson.conclusionMessage?.split('.')[0] + '.',
+        progresso: 0,
+        desbloqueado: false,
+        concluido: false,
+        xp: 50 + lessonIndex * 5,
+        dificuldade: 'iniciante',
+        duracao: `${Math.ceil(lesson.questions?.length * 1.5) || 10} min`,
+        lessonId: lesson.id,
+        type: type,
+        isSimulation: false,
+      });
+      lessonIndex++;
     }
 
-    let type: 'lesson' | 'checkpoint' | 'treasure' = 'lesson';
-    if ((index + 1) % 5 === 0) {
-      type = 'checkpoint';
-    } else if ((index + 1) % 10 === 0) {
-      type = 'treasure';
+    // Adiciona 1 simulação se disponível
+    if (simulationIndex < simulations.length) {
+      const sim = simulations[simulationIndex];
+      path.push({
+        id: 500 + simulationIndex,
+        titulo: sim.title,
+        teaser: sim.introduction.split('.').slice(0, 2).join('.') + '.',
+        descricao: sim.introduction,
+        progresso: 0,
+        desbloqueado: false,
+        concluido: false,
+        xp: 150,
+        dificuldade: 'intermediário',
+        duracao: '15 min',
+        simulationId: sim.simulationId,
+        type: 'checkpoint', // Simulações são checkpoints
+        isSimulation: true,
+      });
+      simulationIndex++;
     }
+  }
 
-    return {
-      id: baseId + index,
-      titulo: `${titlePrefix} ${index + 1}: ${lesson.title}`,
-      teaser: lesson.teaser || lesson.conclusionMessage?.split('.')[0] + '.',
-      descricao: lesson.conclusionMessage?.split('.')[0] + '.',
-      progresso,
-      desbloqueado,
-      concluido,
-      xp: 50 + index * 10,
-      dificuldade: 'iniciante',
-      duracao: `${Math.ceil(lesson.questions?.length * 1.5) || 10} min`,
-      lessonId: lesson.id,
-      type
-    };
+  // Define o progresso para fins de demonstração
+  path.forEach((item, index) => {
+    if (index < 3) { // Completa os 3 primeiros itens
+      item.concluido = true;
+      item.progresso = 100;
+      item.desbloqueado = true;
+    }
+    if (path[index - 1]?.concluido) {
+      item.desbloqueado = true;
+    }
   });
+
+  return path;
 };
 
 const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
@@ -84,13 +113,19 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
     id: 'crucialConversations',
     titulo: "Conversas Cruciais",
     icone: MessageSquare,
-    lessons: mapLessonsToModules(crucialConversationsLessons, 100, "Lição"),
+    lessons: createLearningPath(crucialConversationsLessons, crucialConversationsSimulations),
   };
 
-  const handleIniciarModulo = (lessonId: number) => {
-    const modulo = trilhaSelecionada.lessons.find(m => m.lessonId === lessonId);
+  const handleIniciarModulo = (lessonId?: number, isSimulation?: boolean, simulationId?: number) => {
+    const modulo = trilhaSelecionada.lessons.find(m => 
+        isSimulation ? m.simulationId === simulationId : m.lessonId === lessonId
+    );
     if (modulo?.desbloqueado) {
-      navigate(`/lesson/${lessonId}?trilha=${trilhaSelecionada.id}`);
+      if (isSimulation && simulationId) {
+        navigate(`/simulation/${simulationId}?trilha=${trilhaSelecionada.id}`);
+      } else if (lessonId) {
+        navigate(`/lesson/${lessonId}?trilha=${trilhaSelecionada.id}`);
+      }
     }
   };
 
@@ -107,10 +142,8 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-emerald-50 p-6">
       <div className="max-w-6xl mx-auto space-y-6">
-        {/* Header compacto e moderno */}
         <Card className="p-6 border-2 shadow-xl bg-white/80 backdrop-blur">
           <div className="flex items-center justify-between gap-6 flex-wrap">
-            {/* Nível e XP */}
             <div className="flex items-center gap-4">
               <div className="relative">
                 <div className="absolute inset-0 bg-purple-400 blur-lg opacity-40 rounded-full" />
@@ -130,7 +163,6 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
               </div>
             </div>
 
-            {/* Stats */}
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-3">
                 <div className="relative">
@@ -161,7 +193,6 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
           </div>
         </Card>
 
-        {/* Trilha principal */}
         <Card className="p-8 border-2 shadow-xl bg-gradient-to-b from-white via-purple-50/30 to-blue-50/30 backdrop-blur">
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-3">
@@ -181,11 +212,10 @@ const DashboardAprendizado = ({ resultadoQuiz }: DashboardAprendizadoProps) => {
           <LearningPath
             trilhaId={trilhaSelecionada.id}
             lessons={trilhaSelecionada.lessons}
-            onLessonClick={handleIniciarModulo}
+            onLessonClick={(lessonId, isSimulation, simulationId) => handleIniciarModulo(lessonId, isSimulation, simulationId)}
           />
         </Card>
 
-        {/* Conquistas grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {conquistas.map((c) => (
             <Card

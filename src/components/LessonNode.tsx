@@ -1,11 +1,8 @@
-// ============================================
-// 1. LessonNode.tsx
-// ============================================
 "use client";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Lock, Check, Play, Star, Crown, Sparkles, ChevronRight } from "lucide-react";
+import { Lock, Check, Play, Star, Crown, Sparkles, ChevronRight, BrainCircuit } from "lucide-react";
 import { useState } from "react";
 
 interface LessonNodeProps {
@@ -13,7 +10,7 @@ interface LessonNodeProps {
   teaser: string;
   status: 'completed' | 'current' | 'locked' | 'unlocked';
   xp: number;
-  type?: 'lesson' | 'checkpoint' | 'treasure';
+  type?: 'lesson' | 'checkpoint' | 'treasure' | 'simulation';
   position: 'left' | 'center' | 'right';
   onClick: () => void;
 }
@@ -64,14 +61,18 @@ const LessonNode = ({
 }: LessonNodeProps) => {
   const [showTeaser, setShowTeaser] = useState(false);
   const config = statusConfig[status];
-  const Icon = config.icon;
+  let Icon = config.icon;
   const isDisabled = status === 'locked';
   const isCheckpoint = type === 'checkpoint';
   const isTreasure = type === 'treasure';
+  const isSimulation = type === 'simulation';
 
-  // Ajusta tamanho baseado no tipo
-  const nodeSize = isCheckpoint || isTreasure ? 'w-24 h-24' : 'w-20 h-20';
-  const iconSize = isCheckpoint || isTreasure ? 'w-12 h-12' : 'w-9 h-9';
+  if (isSimulation) {
+    Icon = BrainCircuit;
+  }
+
+  const nodeSize = isCheckpoint || isTreasure || isSimulation ? 'w-24 h-24' : 'w-20 h-20';
+  const iconSize = isCheckpoint || isTreasure || isSimulation ? 'w-12 h-12' : 'w-9 h-9';
 
   return (
     <div className="relative flex justify-center items-center w-full">
@@ -85,8 +86,7 @@ const LessonNode = ({
         onMouseEnter={() => !isDisabled && setShowTeaser(true)}
         onMouseLeave={() => setShowTeaser(false)}
       >
-        {/* Badge especial flutuante */}
-        {isCheckpoint && (
+        {isCheckpoint && !isSimulation && (
           <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-30">
             <div className="relative">
               <div className="absolute inset-0 bg-yellow-400 blur-lg opacity-60 animate-pulse" />
@@ -102,10 +102,16 @@ const LessonNode = ({
             </div>
           </div>
         )}
+        {isSimulation && (
+           <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-30">
+            <div className="relative">
+              <div className="absolute inset-0 bg-purple-400 blur-lg opacity-60 animate-pulse" />
+              <BrainCircuit className="relative w-10 h-10 text-purple-500 drop-shadow-2xl animate-bounce" />
+            </div>
+          </div>
+        )}
 
-        {/* Nó principal com animações */}
         <div className="relative">
-          {/* Anéis pulsantes para nó atual */}
           {status === 'current' && (
             <>
               <div className={`absolute inset-0 rounded-full ${config.ringColor} opacity-60 animate-ping`} />
@@ -131,7 +137,6 @@ const LessonNode = ({
             <Icon className={cn(iconSize, "text-white drop-shadow-lg")} />
           </Button>
 
-          {/* Label embaixo sempre visível */}
           <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-32 text-center">
             <p className={cn(
               "text-xs font-bold truncate px-2",
@@ -142,7 +147,6 @@ const LessonNode = ({
           </div>
         </div>
 
-        {/* Teaser popup melhorado */}
         {showTeaser && !isDisabled && (
           <div 
             className={cn(
@@ -156,7 +160,6 @@ const LessonNode = ({
               'border-blue-300 shadow-blue-200/50'
             )}
           >
-            {/* Seta lateral melhorada */}
             <div className={cn(
               "absolute top-1/2 -translate-y-1/2",
               position === 'right' ? '-right-[15px]' : '-left-[15px]'
@@ -169,9 +172,7 @@ const LessonNode = ({
               )} />
             </div>
 
-            {/* Conteúdo do popup */}
             <div className="space-y-3">
-              {/* Título */}
               <div className="flex items-start justify-between gap-2">
                 <h4 className="font-bold text-slate-800 text-base leading-tight flex-1">
                   {title}
@@ -183,12 +184,10 @@ const LessonNode = ({
                 )}
               </div>
 
-              {/* Teaser */}
               <p className="text-sm text-slate-600 leading-relaxed">
                 {teaser}
               </p>
 
-              {/* Footer */}
               <div className="flex items-center justify-between pt-3 border-t-2 border-slate-100">
                 <div className="flex items-center gap-2 bg-amber-50 rounded-full px-3 py-1.5">
                   <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
