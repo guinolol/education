@@ -17,6 +17,9 @@ const shuffleArray = (array: any[]) => {
   return array;
 };
 
+// Define o ID base para as revisões
+const REVIEW_ID_BASE = 800;
+
 const ReviewLessonPage = () => {
   const { reviewId } = useParams<{ reviewId: string }>();
   const location = useLocation();
@@ -27,6 +30,9 @@ const ReviewLessonPage = () => {
 
   const { lessonsToReview } = location.state || { lessonsToReview: [] };
   const reviewNumber = parseInt(reviewId || '0');
+  
+  // Calcula o número da revisão para exibição (ex: 800 -> 1, 801 -> 2)
+  const displayReviewNumber = reviewNumber >= REVIEW_ID_BASE ? reviewNumber - REVIEW_ID_BASE + 1 : reviewNumber;
 
   useEffect(() => {
     if (lessonsToReview.length > 0) {
@@ -45,13 +51,13 @@ const ReviewLessonPage = () => {
 
   // Função para carregar o HTML do infográfico
   const loadInfographic = async (reviewNum: number) => {
-    // Mapeia o ID da revisão (ex: 800, 801, ...) para o índice do arquivo (ex: 1, 2, ...)
-    // Assumindo que o ID base é 800 e o índice do arquivo começa em 1.
-    const fileIndex = reviewNum - 799; 
+    // Mapeia o ID da revisão (ex: 800) para o índice do arquivo (ex: 1)
+    const fileIndex = reviewNum - REVIEW_ID_BASE + 1; 
     
     try {
       // Verifica se o índice está dentro do intervalo esperado (1 a 5)
       if (fileIndex >= 1 && fileIndex <= 5) {
+        // Importação dinâmica do arquivo HTML
         const module = await import(`@/data/crucial-conversations/info_${fileIndex}.html?raw`);
         setInfographicHtml(module.default);
       } else {
@@ -65,7 +71,7 @@ const ReviewLessonPage = () => {
   };
 
   useEffect(() => {
-    if (reviewNumber >= 800) {
+    if (reviewNumber >= REVIEW_ID_BASE) {
       loadInfographic(reviewNumber);
     }
   }, [reviewNumber]);
@@ -99,7 +105,7 @@ const ReviewLessonPage = () => {
 
   return (
     <ReviewLessonTemplate
-      title={`Revisão ${reviewId}`}
+      title={`Revisão ${displayReviewNumber}`}
       questions={questions}
       infographicHtml={infographicHtml}
       onConclude={handleConclude}
