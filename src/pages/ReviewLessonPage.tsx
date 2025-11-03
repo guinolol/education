@@ -45,9 +45,19 @@ const ReviewLessonPage = () => {
 
   // Função para carregar o HTML do infográfico
   const loadInfographic = async (reviewNum: number) => {
+    // Mapeia o ID da revisão (ex: 800, 801, ...) para o índice do arquivo (ex: 1, 2, ...)
+    // Assumindo que o ID base é 800 e o índice do arquivo começa em 1.
+    const fileIndex = reviewNum - 799; 
+    
     try {
-      const module = await import(`@/data/crucial-conversations/info_${reviewNum}.html?raw`);
-      setInfographicHtml(module.default);
+      // Verifica se o índice está dentro do intervalo esperado (1 a 5)
+      if (fileIndex >= 1 && fileIndex <= 5) {
+        const module = await import(`@/data/crucial-conversations/info_${fileIndex}.html?raw`);
+        setInfographicHtml(module.default);
+      } else {
+        console.error(`Índice de infográfico inválido: ${fileIndex}`);
+        setInfographicHtml(null);
+      }
     } catch (error) {
       console.error(`Erro ao carregar infográfico para revisão ${reviewNum}:`, error);
       setInfographicHtml(null);
@@ -55,7 +65,7 @@ const ReviewLessonPage = () => {
   };
 
   useEffect(() => {
-    if (reviewNumber >= 1 && reviewNumber <= 5) {
+    if (reviewNumber >= 800) {
       loadInfographic(reviewNumber);
     }
   }, [reviewNumber]);
@@ -73,8 +83,8 @@ const ReviewLessonPage = () => {
     const reviewNumId = parseInt(reviewId || '0');
     if (isNaN(reviewNumId)) return;
 
-    // Usamos um ID base 800 para revisões
-    const lessonId = 800 + reviewNumId; 
+    // O reviewNumId (e.g., 800, 801) já é o lessonId correto para o progresso.
+    const lessonId = reviewNumId; 
 
     await saveUserProgress({
       lessonId: lessonId,
